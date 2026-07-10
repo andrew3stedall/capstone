@@ -45,6 +45,27 @@ Suggested routes:
   /reference
 ```
 
+### Implementation status — first slice
+
+Completed in `milestone-2/application-architecture`:
+
+- replaced the monolithic page-state router with ten App Router routes plus dynamic learning-module routes;
+- separated shared UI, feature modules, structured content and pure learning logic;
+- added Zod schemas for modules, source references and practice questions;
+- applied the documented semantic colour and typography tokens, including 16 px minimum body text and 18 px lesson prose;
+- added Learn, Practice, Simulate, Review, Mock, Progress and Reference navigation;
+- preserved the readiness dashboard, question practice, calculations, mock timing and progress views;
+- added accessible simulator and review foundations without inventing electrical behaviour;
+- added unit tests for weighted readiness and review prioritisation;
+- recorded the decision in [ADR-001](./architecture/ADR-001-application-architecture.md) and [[Application Architecture]].
+
+Remaining Milestone 2 hardening:
+
+- add route-level loading, error and not-found experiences;
+- add automated accessibility checks in CI;
+- verify the standard Next.js build and responsive routes through GitHub CI;
+- review this slice before beginning the Markdown/MDX knowledge-library milestone.
+
 ## Milestone 3 — Knowledge library MVP
 
 Deliverables:
