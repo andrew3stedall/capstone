@@ -2,6 +2,12 @@
 
 Capstone Ready is a modern study and practice app for Australian electrical apprentices preparing for their final capstone assessment.
 
+## Documentation
+
+The project vision, product specification, learning design, simulator architecture, UI design system, standards-content policy, roadmap and Obsidian-style knowledge base are maintained in [`docs/`](./docs/README.md).
+
+Codex and other implementation agents should read the documentation set before changing the application.
+
 ## What is included
 
 - Readiness dashboard with weak-area prioritisation and a daily study plan
@@ -48,6 +54,8 @@ npm run test
 ## Important limitation
 
 This is an independent learning app. Electrical work and assessment answers must be checked against current legislation, standards, local regulator guidance and the learner's RTO-approved procedures.
+
+Copyrighted standards PDFs, tables, figures and systematic clause reproductions must not be committed without appropriate permission or licensing. The documentation includes a structural learning index and workflow for writing original modules from authorised sources.
 
 ## Primary references
 
