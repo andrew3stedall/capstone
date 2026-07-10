@@ -22,6 +22,8 @@ Welcome to the Obsidian-style knowledge base for Capstone Ready.
 
 ## Core product concepts
 
+- [[Application Architecture]]
+
 - [[Knowledge Library]]
 - [[Highlight to Learn]]
 - [[Personal Notebook]]
