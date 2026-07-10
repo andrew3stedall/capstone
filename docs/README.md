@@ -13,6 +13,7 @@ The application is an independent study companion for Australian electrical appr
 - [Content, standards and copyright policy](./CONTENT_AND_COPYRIGHT.md)
 - [UI and design system](./UI_DESIGN_SYSTEM.md)
 - [Delivery roadmap](./ROADMAP.md)
+- [Architecture decisions](./architecture/ADR-001-application-architecture.md)
 - [Obsidian-style knowledge base](./knowledge-base/Home.md)
 
 ## Product pillars
