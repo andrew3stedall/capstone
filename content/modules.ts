@@ -1,4 +1,5 @@
 import { learningModuleSchema } from "./schema";
+import { knowledgeModules } from "./knowledge";
 
 const reviewedOn = "2026-07-10";
 const frameworkReference = {
@@ -10,7 +11,7 @@ const frameworkReference = {
   reviewedOn,
 };
 
-export const modules = learningModuleSchema.array().parse([
+const moduleOutlines = [
   { id: "safety-electrical-risk", title: "Safety and electrical risk", summary: "Build a repeatable approach to workplace risk, safe work planning and electrical emergency awareness.", domain: "safety", level: "capstone", jurisdiction: "AU", sourceStatus: "original-summary", contentStatus: "outline", safetyCritical: true, capabilityRange: "EPC 1–4", estimatedMinutes: 42, progress: 88, objectives: ["Explain how risk controls are selected", "Recognise when work must stop and be escalated"], commonErrors: ["Treating PPE as the first and only control"], relatedModules: ["isolation-testing-faults"], references: [frameworkReference] },
   { id: "electrical-fundamentals", title: "Electrical fundamentals", summary: "Connect DC and AC relationships to measurements, calculations and practical circuit behaviour.", domain: "fundamentals", level: "foundation", jurisdiction: "AU", sourceStatus: "original-summary", contentStatus: "outline", safetyCritical: true, capabilityRange: "EPC 5–10", estimatedMinutes: 65, progress: 76, objectives: ["Apply electrical relationships with correct units", "Explain phase and power relationships"], commonErrors: ["Substituting line and phase values without checking the connection"], relatedModules: ["energy-systems", "motors-transformers"], references: [frameworkReference] },
   { id: "wiring-rules-design", title: "Wiring rules and design", summary: "Practise the decisions that connect installation purpose, circuit arrangement, demand and cable selection.", domain: "design", level: "capstone", jurisdiction: "AU", sourceStatus: "original-summary", contentStatus: "outline", safetyCritical: true, capabilityRange: "EPC 11–15", estimatedMinutes: 78, progress: 61, objectives: ["Describe the installation design decision sequence", "Recognise the inputs needed for cable selection"], commonErrors: ["Selecting a conductor from load current alone"], relatedModules: ["conductors-circuits", "switchgear-control"], references: [frameworkReference] },
@@ -22,6 +23,11 @@ export const modules = learningModuleSchema.array().parse([
   { id: "motors-transformers", title: "Motors and transformers", summary: "Review operating principles, starting, control, protection, common symptoms and safe diagnostic planning.", domain: "machines", level: "intermediate", jurisdiction: "AU", sourceStatus: "original-summary", contentStatus: "outline", safetyCritical: true, capabilityRange: "EPC 34–38", estimatedMinutes: 72, progress: 74, objectives: ["Relate motor symptoms to plausible fault groups", "Apply transformer ratio relationships"], commonErrors: ["Testing before identifying every source and stored-energy hazard"], relatedModules: ["electrical-fundamentals", "isolation-testing-faults"], references: [frameworkReference] },
   { id: "isolation-testing-faults", title: "Isolation, testing and faults", summary: "Rehearse safe isolation, verification planning, result interpretation, fault diagnosis and commissioning logic.", domain: "verification", level: "capstone", jurisdiction: "AU", sourceStatus: "original-summary", contentStatus: "outline", safetyCritical: true, capabilityRange: "EPC 39–42", estimatedMinutes: 86, progress: 42, objectives: ["Describe a controlled isolation process", "Choose a logical verification or diagnostic next step"], commonErrors: ["Treating opening a local switch as effective isolation"], relatedModules: ["safety-electrical-risk", "earthing-men", "energy-systems"], references: [frameworkReference] },
   { id: "specialist-areas", title: "Specialist areas and HV awareness", summary: "Recognise specialist boundaries, wet and hazardous locations, construction contexts and high-voltage risks.", domain: "specialist", level: "capstone", jurisdiction: "state-specific", sourceStatus: "original-summary", contentStatus: "outline", safetyCritical: true, capabilityRange: "EPC 43–48", estimatedMinutes: 68, progress: 47, objectives: ["Identify when specialist competency is required", "Recognise conditions that change equipment or work requirements"], commonErrors: ["Applying general installation assumptions to a specialist location"], relatedModules: ["accessories-equipment", "safety-electrical-risk"], references: [frameworkReference] },
-]);
+];
+
+export const modules = learningModuleSchema.array().parse(moduleOutlines.map((module) => ({
+  ...module,
+  ...(knowledgeModules[module.id] ?? {}),
+})));
 
 export const moduleById = new Map(modules.map((module) => [module.id, module]));
