@@ -38,6 +38,17 @@ export const learningModuleSchema = z.object({
   commonErrors: z.array(z.string().min(5)).min(1),
   relatedModules: z.array(z.string()),
   references: z.array(sourceReferenceSchema).min(1),
+  prerequisites: z.array(z.string()).default([]),
+  tags: z.array(z.string()).default([]),
+  updatedOn: z.string().date().optional(),
+  reviewer: z.string().nullable().optional(),
+  sections: z.array(z.object({
+    id: z.string().regex(/^[a-z0-9-]+$/),
+    title: z.string().min(3),
+    kind: z.enum(["concept", "process", "example", "scenario", "recall", "warning"]),
+    paragraphs: z.array(z.string().min(20)).min(1),
+    points: z.array(z.string().min(5)).default([]),
+  })).default([]),
 });
 
 export const practiceQuestionSchema = z.object({
