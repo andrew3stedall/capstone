@@ -76,6 +76,21 @@ Deliverables:
 - source/version notices;
 - first technically reviewed modules covering safety, fundamentals, Section 2 concepts and verification overview.
 
+### Implementation status — engineering complete, review gate open
+
+Completed in `agent/milestone-3-knowledge-library`:
+
+- added Zod-validated structured lesson sections, prerequisites, tags, reviewer state and source metadata;
+- added full-text module search, generated tables of contents and relationship backlinks;
+- added a linked electrical glossary and source/version currency notices;
+- drafted original review-ready modules for safety, fundamentals, Section 2 concepts and verification;
+- added deterministic tests for search and backlinks;
+- recorded the decision in [ADR-002](./architecture/ADR-002-structured-knowledge-content.md) and updated [[Knowledge Library]].
+
+External exit criterion still open:
+
+- a suitably qualified reviewer must complete the [Milestone 3 technical review checklist](./content-review/M3-TECHNICAL-REVIEW-CHECKLIST.md) before the four modules can be marked `technically-reviewed`.
+
 ## Milestone 4 — Personal learning system
 
 Deliverables:
