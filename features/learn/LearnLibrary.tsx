@@ -10,7 +10,7 @@ import { searchModules } from "@/lib/knowledge-search.mjs";
 export function LearnLibrary({ modules }: { modules: LearningModule[] }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "critical" | "priority">("all");
-  const filtered = useMemo(() => searchModules(modules, query).filter((module: LearningModule) => {
+  const filtered: LearningModule[] = useMemo(() => searchModules(modules, query).filter((module: LearningModule) => {
     return filter === "all" || (filter === "critical" && module.safetyCritical) || (filter === "priority" && module.progress < 60);
   }), [modules, query, filter]);
 
