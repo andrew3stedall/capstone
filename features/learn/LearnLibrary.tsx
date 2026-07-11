@@ -5,20 +5,19 @@ import Link from "next/link";
 import type { LearningModule } from "@/content/schema";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { StatusBadge } from "@/components/ui/StatusBadge";
+import { searchModules } from "@/lib/knowledge-search.mjs";
 
 export function LearnLibrary({ modules }: { modules: LearningModule[] }) {
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"all" | "critical" | "priority">("all");
-  const filtered = useMemo(() => modules.filter((module) => {
-    const matchesQuery = `${module.title} ${module.summary} ${module.capabilityRange}`.toLowerCase().includes(query.toLowerCase());
-    const matchesFilter = filter === "all" || (filter === "critical" && module.safetyCritical) || (filter === "priority" && module.progress < 60);
-    return matchesQuery && matchesFilter;
+  const filtered: LearningModule[] = useMemo(() => searchModules(modules, query).filter((module: LearningModule) => {
+    return filter === "all" || (filter === "critical" && module.safetyCritical) || (filter === "priority" && module.progress < 60);
   }), [modules, query, filter]);
 
   return (
     <>
       <div className="library-controls">
-        <label className="search-field"><span>Search learning paths</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try testing, motors or EPC 32" /></label>
+        <label className="search-field"><span>Search modules and lesson content</span><input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Try isolation, power or verification" /></label>
         <div className="segmented" aria-label="Filter learning paths">
           {(["all", "critical", "priority"] as const).map((option) => <button key={option} type="button" aria-pressed={filter === option} onClick={() => setFilter(option)}>{option === "all" ? "All paths" : option === "critical" ? "Safety-critical" : "Needs attention"}</button>)}
         </div>
@@ -27,6 +26,7 @@ export function LearnLibrary({ modules }: { modules: LearningModule[] }) {
         {filtered.map((module) => (
           <article className="module-card" key={module.id}>
             <div className="module-meta"><span>{module.capabilityRange}</span>{module.safetyCritical ? <StatusBadge tone="warning">Safety-critical</StatusBadge> : <StatusBadge>Supporting</StatusBadge>}</div>
+            {module.sections.length ? <div className="review-ribbon">Full lesson · {module.contentStatus === "review-required" ? "technical review required" : module.contentStatus}</div> : null}
             <h2><Link href={`/learn/${module.id}`}>{module.title}</Link></h2>
             <p>{module.summary}</p>
             <div className="module-progress"><div><span>Current evidence</span><strong>{module.progress}%</strong></div><ProgressBar value={module.progress} label={`${module.title} progress`} /></div>
