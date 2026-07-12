@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 07 - Week 1 Consolidation and Competency Check]] closes Week 1 by integrating source navigation, safety reasoning, protection relationships and MEN fault-path diagnosis before the learner begins the Week 2 design sequence.
+- [[Day 08 - Maximum Demand]] begins Week 2 by converting a complete load inventory into a traceable maximum-demand result, with connected load, assessed demand, phase allocation and future capacity kept separate.
 
 ## Practical application
 
