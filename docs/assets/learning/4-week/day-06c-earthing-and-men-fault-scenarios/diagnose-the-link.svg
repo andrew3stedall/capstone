@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Diagnose the link</title>
+  <desc id="desc">Black-and-white stick figure inspecting a broken link in a protective chain while a breaker waits at the far end.</desc>
+  <rect width="900" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="110" r="34"/>
+    <path d="M150 144 L150 250 M150 175 L95 220 M150 178 L215 210 M150 250 L105 330 M150 250 L205 330"/>
+    <path d="M245 220 C275 190 305 250 335 220 C365 190 395 250 425 220"/>
+    <path d="M455 220 C485 190 515 250 545 220 C575 190 605 250 635 220"/>
+    <path d="M425 220 L445 205 M425 220 L445 235"/>
+    <rect x="690" y="160" width="100" height="120" rx="8"/>
+    <path d="M720 200 L760 240 M760 200 L720 240"/>
+    <path d="M215 210 L255 200"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="450" y="55" font-size="28" font-weight="700">DIAGNOSE THE LINK, NOT THE WISHFUL THINKING</text>
+    <text x="150" y="375" font-size="22">Trace the failed segment.</text>
+    <text x="740" y="315" font-size="20">“I only trip if the path proves it.”</text>
+  </g>
+</svg>
