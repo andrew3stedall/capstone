@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand.
 - **Current block:** None.
-- **Next block:** [[Day 08 - Maximum Demand]].
+- **Next block:** [[Day 09 - Complete Cable-Selection Workflow]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 7 is safety-critical and `review-required`. It is an original paper-based study-readiness check, not an official RTO assessment. Exact technical requirements, clauses, device characteristics, limits, testing procedures and jurisdiction-specific assessment claims remain `reference_check_required`.
+- **Review state:** Day 8 is design-critical and `review-required`. Exact maximum-demand methods, categories, tables, factors, exceptions, unit conversions, phase requirements, alternate-supply treatment and jurisdiction-specific acceptance criteria remain `reference_check_required`.
 
 ## Hourly run log
 
@@ -30,29 +30,28 @@ updated_on: 2026-07-13
 | 7 — 2026-07-12 | Day 6B — MEN Fault-Current Path | Created the safety-critical eight-beat fault-path module, two Mermaid diagrams, two accessible black-and-white stick-figure SVG cartoons and a Day 6B vault note. Linked the completed block in the master plan and retained reciprocal navigation with Day 6A. The module separates normal load current from the protective metallic return path and does not assert unverified values or procedures. | Produce Day 6C — Earthing and MEN Fault Scenarios. |
 | 8 — 2026-07-12 | Day 6C — Earthing and MEN Fault Scenarios | Created the safety-critical eight-beat diagnostic module, the D-P-E-S reasoning workflow, two Mermaid decision models, four original paper fault scenarios, two accessible black-and-white stick-figure SVG cartoons and a Day 6C vault note. Linked the completed block in the master plan. The module separates circuit, protective and possible contact-risk consequences and does not present live testing or repair instructions. | Produce Day 7 — Week 1 Consolidation and Competency Check. |
 | 9 — 2026-07-13 | Day 7 — Week 1 Consolidation and Competency Check | Created the integrated eight-beat Week 1 competency module, three Mermaid process and readiness models, an original workshop scenario, a six-dimension study-readiness rubric, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and added focused map-of-content navigation. No official RTO pass mark or unverified field procedure was asserted. | Produce Day 8 — Maximum Demand. |
+| 10 — 2026-07-13 | Day 8 — Maximum Demand | Created the design-critical eight-beat maximum-demand module, the I-M-A-G-E evidence workflow, three Mermaid models, a fictional worked calculation, a mixed-use tenancy application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and advanced the learning-plan landmark. Standards tables and official demand factors were not reproduced; all exact methods and acceptance criteria remain flagged for review. | Produce Day 9 — Complete Cable-Selection Workflow. |
 
-## Files added or updated in run 9
+## Files added or updated in run 10
 
-- `docs/learning-plans/4-week/modules/day-07-week-1-consolidation-and-competency-check.md`
-- `docs/assets/learning/4-week/day-07-week-1-consolidation-and-competency-check/five-models-one-board.svg`
-- `docs/assets/learning/4-week/day-07-week-1-consolidation-and-competency-check/confidence-is-not-proof.svg`
-- `docs/knowledge-base/Day 07 - Week 1 Consolidation and Competency Check.md`
-- `docs/knowledge-base/Day 06C - Earthing and MEN Fault Scenarios.md`
+- `docs/learning-plans/4-week/modules/day-08-maximum-demand.md`
+- `docs/assets/learning/4-week/day-08-maximum-demand/loads-need-a-model.svg`
+- `docs/assets/learning/4-week/day-08-maximum-demand/percentages-need-passports.svg`
+- `docs/knowledge-base/Day 08 - Maximum Demand.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 7 is `review-required`, safety-critical and not `technically-reviewed`.
-- `reference_check_required`: exact technical definitions, clauses, circuit requirements, protective-device ratings, characteristics, breaking capacities, operating conditions, time-current behaviour, residual-current requirements and exceptions.
-- `reference_check_required`: exact MEN arrangements, connection points, conductor requirements, continuity requirements, alternate or multiple supply arrangements and source-neutral treatment.
-- `reference_check_required`: isolation, proving de-energised, inspection and test procedures, instrument requirements, expected readings, acceptance criteria and live-work restrictions.
-- `reference_check_required`: current legislation, regulator and network rules, manufacturer instructions, workplace procedures, RTO assessment conditions, official competency criteria and jurisdiction-specific pass requirements.
-- The module's readiness categories are original study actions only; they are not an official assessment result.
-- No copied standards wording, table, figure or diagram was added.
-- No exact clause number, current value, impedance value, disconnection time, conductor size, test reading or universal field arrangement was asserted.
-- Day 7 must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
+- Day 8 is `review-required`, design-critical and not `technically-reviewed`.
+- `reference_check_required`: exact maximum-demand definitions, assessment methods, load categories, tables, factors, notes, exceptions and calculation requirements.
+- `reference_check_required`: voltage, phase, power-factor, efficiency and rating-basis assumptions used in current or power conversions.
+- `reference_check_required`: phase allocation requirements, measured-demand methods, controlled-load arrangements, future allowances and network or service limitations.
+- `reference_check_required`: generation, battery, inverter, generator, EV charging and energy-management treatment under each applicable operating case.
+- The worked percentages and values are fictional teaching assumptions only and are explicitly prohibited from use as compliance data.
+- No copied standards wording, demand table, official dataset, figure or diagram was added.
+- Day 8 must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
 
 ## Run rules
 
