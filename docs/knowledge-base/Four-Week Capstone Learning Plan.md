@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 10 - Installation Conditions and Derating]] isolates the thermal part of cable selection by mapping route segments, identifying adverse heat conditions, locating authorised classifications and factors, and determining the provisional limiting segment without combining unrelated conditions.
+- [[Day 11 - Voltage Drop]] connects load duty, the complete upstream-to-load path, source-controlled conductor data and cumulative section results. It separates voltage-performance checks from thermal cable capacity and requires both equipment needs and authorised compliance criteria to remain explicit.
 
 ## Practical application
 
