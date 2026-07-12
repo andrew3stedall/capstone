@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Off is not isolated</title>
+  <desc id="desc">A stick-figure learner looks past a large OFF sign and traces several energy paths to a machine. The caption says OFF is a state; isolation is an evidenced boundary.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="135" cy="170" r="29"/>
+    <path d="M135 199 L135 295 M135 225 L80 255 M135 225 L210 205 M135 295 L95 355 M135 295 L180 355"/>
+    <rect x="250" y="80" width="170" height="120" rx="10"/>
+    <path d="M420 140 H520 M520 140 L555 105 M520 140 L555 175"/>
+    <rect x="610" y="110" width="180" height="170" rx="8"/>
+    <circle cx="700" cy="195" r="38"/>
+    <path d="M570 65 L650 130 M820 65 L750 130 M560 315 L645 255"/>
+    <path d="M210 205 Q300 250 610 195"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="335" y="152" font-size="42" font-weight="700">OFF</text>
+    <text x="700" y="202" font-size="24" font-weight="700">LOAD</text>
+    <text x="450" y="398" font-size="27" font-weight="700">OFF is a state. Isolation is an evidenced boundary.</text>
+  </g>
+</svg>
