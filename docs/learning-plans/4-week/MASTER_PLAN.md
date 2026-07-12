@@ -70,7 +70,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 10 — Installation conditions and derating](./modules/day-10-installation-conditions-and-derating.md)
 - [x] [Day 11 — Voltage drop](./modules/day-11-voltage-drop.md)
 - [x] [Day 12 — Rest, calculation correction and catch-up](./modules/day-12-rest-calculation-correction-and-catch-up.md)
-- [ ] Day 13A — Switching, isolation and main switches
+- [x] [Day 13A — Switching, isolation and main switches](./modules/day-13a-switching-isolation-and-main-switches.md)
 - [ ] Day 13B — Switchboard construction and arrangements
 - [ ] Day 13C — Switchboard defect inspection
 - [ ] Day 14 — Week 2 integrated design exercise
