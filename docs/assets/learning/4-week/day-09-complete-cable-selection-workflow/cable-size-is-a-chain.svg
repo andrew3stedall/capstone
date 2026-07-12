@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cable size is a chain of checks</title>
+  <desc id="desc">A stick-figure learner follows connected boxes labelled load, device, capacity, voltage drop, fault and route. A shortcut arrow jumping from load to cable size is crossed out.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="95" cy="150" r="28"/>
+    <path d="M95 178 L95 275 M95 205 L45 245 M95 205 L155 205 M95 275 L58 340 M95 275 L138 340"/>
+    <rect x="180" y="80" width="110" height="65" rx="8"/>
+    <rect x="330" y="80" width="110" height="65" rx="8"/>
+    <rect x="480" y="80" width="110" height="65" rx="8"/>
+    <rect x="630" y="80" width="110" height="65" rx="8"/>
+    <rect x="405" y="210" width="110" height="65" rx="8"/>
+    <rect x="555" y="210" width="110" height="65" rx="8"/>
+    <path d="M290 112 H330 M440 112 H480 M590 112 H630 M685 145 L610 210 M555 242 H515"/>
+    <path d="M155 205 Q250 280 350 245"/>
+    <path d="M175 295 Q315 355 455 315" stroke-dasharray="12 10"/>
+    <path d="M255 285 L410 345 M410 285 L255 345"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="235" y="121" font-size="22" font-weight="700">LOAD</text>
+    <text x="385" y="121" font-size="20" font-weight="700">DEVICE</text>
+    <text x="535" y="121" font-size="19" font-weight="700">CAPACITY</text>
+    <text x="685" y="109" font-size="17" font-weight="700">VOLTAGE</text>
+    <text x="685" y="132" font-size="17" font-weight="700">DROP</text>
+    <text x="460" y="251" font-size="20" font-weight="700">FAULT</text>
+    <text x="610" y="251" font-size="20" font-weight="700">ROUTE</text>
+    <text x="330" y="385" font-size="25" font-weight="700">Cable size is a chain, not a table-shaped shortcut.</text>
+  </g>
+</svg>
