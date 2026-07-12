@@ -68,7 +68,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 8 — Maximum demand](./modules/day-08-maximum-demand.md)
 - [x] [Day 9 — Complete cable-selection workflow](./modules/day-09-complete-cable-selection-workflow.md)
 - [x] [Day 10 — Installation conditions and derating](./modules/day-10-installation-conditions-and-derating.md)
-- [ ] Day 11 — Voltage drop
+- [x] [Day 11 — Voltage drop](./modules/day-11-voltage-drop.md)
 - [ ] Day 12 — Rest, calculation correction and catch-up
 - [ ] Day 13A — Switching, isolation and main switches
 - [ ] Day 13B — Switchboard construction and arrangements
