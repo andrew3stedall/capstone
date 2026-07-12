@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating.
 - **Current block:** None.
-- **Next block:** [[Day 10 - Installation Conditions and Derating]].
+- **Next block:** [[Day 11 - Voltage Drop]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 9 is design-critical and `review-required`. Exact cable-selection methods, installation classifications, current-carrying-capacity data, correction factors, protective-device characteristics, voltage-drop criteria, fault requirements and jurisdiction-specific acceptance criteria remain `reference_check_required`.
+- **Review state:** Day 10 is design-critical and `review-required`. Exact installation classifications, reference conditions, current-carrying-capacity data, correction factors, factor-combination methods, exceptions and acceptance criteria remain `reference_check_required`.
 
 ## Hourly run log
 
@@ -32,28 +32,27 @@ updated_on: 2026-07-13
 | 9 — 2026-07-13 | Day 7 — Week 1 Consolidation and Competency Check | Created the integrated eight-beat Week 1 competency module, three Mermaid process and readiness models, an original workshop scenario, a six-dimension study-readiness rubric, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and added focused map-of-content navigation. No official RTO pass mark or unverified field procedure was asserted. | Produce Day 8 — Maximum Demand. |
 | 10 — 2026-07-13 | Day 8 — Maximum Demand | Created the design-critical eight-beat maximum-demand module, the I-M-A-G-E evidence workflow, three Mermaid models, a fictional worked calculation, a mixed-use tenancy application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and advanced the learning-plan landmark. Standards tables and official demand factors were not reproduced; all exact methods and acceptance criteria remain flagged for review. | Produce Day 9 — Complete Cable-Selection Workflow. |
 | 11 — 2026-07-13 | Day 9 — Complete Cable-Selection Workflow | Created the design-critical eight-beat cable-selection module, the C-A-B-L-E evidence workflow, two Mermaid models, a fictional corrected-capacity calculation, a mixed-use tenancy submain application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and advanced the learning-plan landmark. No standards tables, correction-factor datasets or verified field values were reproduced. | Produce Day 10 — Installation Conditions and Derating. |
+| 12 — 2026-07-13 | Day 10 — Installation Conditions and Derating | Created the design-critical eight-beat derating module, the H-E-A-T evidence workflow, two Mermaid models, a fictional route-segment calculation, a ceiling-riser-plant-room application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, correction-factor datasets or authoritative field values were reproduced. | Produce Day 11 — Voltage Drop. |
 
-## Files added or updated in run 11
+## Files added or updated in run 12
 
-- `docs/learning-plans/4-week/modules/day-09-complete-cable-selection-workflow.md`
-- `docs/assets/learning/4-week/day-09-complete-cable-selection-workflow/cable-size-is-a-chain.svg`
-- `docs/assets/learning/4-week/day-09-complete-cable-selection-workflow/amps-need-context.svg`
-- `docs/knowledge-base/Day 09 - Complete Cable-Selection Workflow.md`
+- `docs/learning-plans/4-week/modules/day-10-installation-conditions-and-derating.md`
+- `docs/assets/learning/4-week/day-10-installation-conditions-and-derating/heat-needs-an-exit.svg`
+- `docs/assets/learning/4-week/day-10-installation-conditions-and-derating/one-factor-does-not-fit-all.svg`
+- `docs/knowledge-base/Day 10 - Installation Conditions and Derating.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 9 is `review-required`, design-critical and not `technically-reviewed`.
-- `reference_check_required`: exact cable-selection definitions, cable constructions, installation methods, loaded-conductor rules, current-carrying-capacity tables and reference conditions.
-- `reference_check_required`: ambient, grouping, thermal-insulation, enclosure, soil, burial and other correction factors, including the authorised method for combining them.
-- `reference_check_required`: protective-device ratings, settings, curves, conventional operating characteristics, breaking capacity and manufacturer limitations.
-- `reference_check_required`: voltage-drop limits and methods, prospective fault current, automatic disconnection, fault-loop requirements and conductor thermal withstand.
-- `reference_check_required`: neutral loading, harmonics, alternate supplies, environmental suitability, mechanical protection, containment, bending and termination requirements.
-- The worked current values and factors are fictional teaching assumptions only and are explicitly prohibited from use as compliance data.
+- Day 10 is `review-required`, design-critical and not `technically-reviewed`.
+- `reference_check_required`: exact cable and installation-method classifications, reference conditions, loaded-conductor treatment and current-carrying-capacity data.
+- `reference_check_required`: ambient-temperature, grouping, thermal-insulation, enclosure, soil, burial and other correction factors, including their authorised combination and interaction methods.
+- `reference_check_required`: route-segment treatment, short adverse sections, exceptions, manufacturer limitations and jurisdiction-specific acceptance criteria.
+- The worked capacity values and factors are fictional teaching assumptions only and are prohibited from use as compliance data.
 - No copied standards wording, cable table, correction-factor dataset, figure or diagram was added.
-- Day 9 must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
+- Day 10 must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
 
 ## Run rules
 
