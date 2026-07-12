@@ -2,7 +2,7 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-13
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -10,11 +10,12 @@ technical_reviewer: pending
 
 # Day 06C - Earthing and MEN Fault Scenarios
 
-Day 6C applies the component model from Day 6A and the fault-loop model from Day 6B to paper-based diagnosis of missing, open, loose, high-resistance, misplaced and supply-context-dependent defects.
+Day 6C applies the component model from Day 6A and the fault-loop model from Day 6B to paper-based diagnosis of missing, open, loose, high-resistance, misplaced and supply-context-dependent defects. Day 7 then retrieves this reasoning alongside the other Week 1 protection and source-navigation models.
 
 ## Learning module
 
 - [Day 6C — Earthing and MEN Fault Scenarios](../learning-plans/4-week/modules/day-06c-earthing-and-men-fault-scenarios.md)
+- [Continue to Day 7 — Week 1 Consolidation and Competency Check](../learning-plans/4-week/modules/day-07-week-1-consolidation-and-competency-check.md)
 
 ## Prerequisites
 
