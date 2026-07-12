@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Voltage drop needs the whole path</title>
+  <desc id="desc">A stick-figure learner follows a source-to-load path through three labelled cable sections while a shortcut formula slips off the page. The caption says the load sees the whole path, not the favourite section.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="160" r="28"/>
+    <path d="M105 188 L105 280 M105 215 L55 250 M105 215 L160 205 M105 280 L70 345 M105 280 L145 345"/>
+    <rect x="205" y="90" width="125" height="80" rx="8"/>
+    <rect x="405" y="90" width="125" height="80" rx="8"/>
+    <rect x="605" y="90" width="125" height="80" rx="8"/>
+    <path d="M160 205 L205 130 M330 130 H405 M530 130 H605 M730 130 L800 130 L800 235"/>
+    <rect x="745" y="235" width="110" height="80" rx="8"/>
+    <path d="M260 170 V245 H665 V170"/>
+    <path d="M355 275 Q410 245 465 275"/>
+    <path d="M345 295 L465 355 M465 295 L345 355"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="267" y="138" font-size="21" font-weight="700">MAINS</text>
+    <text x="467" y="138" font-size="21" font-weight="700">SUBMAIN</text>
+    <text x="667" y="138" font-size="20" font-weight="700">FINAL</text>
+    <text x="800" y="285" font-size="22" font-weight="700">LOAD</text>
+    <text x="405" y="332" font-size="20" font-weight="700">ONE-SECTION SHORTCUT</text>
+    <text x="450" y="398" font-size="27" font-weight="700">The load sees the whole path, not your favourite section.</text>
+  </g>
+</svg>
