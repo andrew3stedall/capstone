@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Choose the source before searching</title>
+  <desc id="desc">A black-and-white stick figure stands between an RTO instructions folder and an authorised standards book, using a signpost to choose the correct source.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="470" cy="170" r="34"/>
+    <path d="M470 204v115M470 245l-78 48M470 245l78 48M470 319l-58 90M470 319l58 90"/>
+    <path d="M145 170h190v190H145zM175 205h130M175 245h130M175 285h95"/>
+    <path d="M625 150h190v230H625zM655 190h130M655 230h130M655 270h110"/>
+    <path d="M470 105V55M470 55h160M470 55H310"/>
+    <path d="M310 55l35-22v44zM630 55l-35-22v44z" fill="white"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="240" y="395" font-size="30" font-weight="700">RTO instructions</text>
+    <text x="720" y="415" font-size="30" font-weight="700">Authorised source</text>
+    <text x="470" y="475" font-size="31" font-weight="700">First question: “Who controls this answer?”</text>
+    <text x="470" y="512" font-size="24">Searching every book at once is not a strategy.</text>
+  </g>
+</svg>
