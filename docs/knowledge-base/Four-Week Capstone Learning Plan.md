@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 11 - Voltage Drop]] connects load duty, the complete upstream-to-load path, source-controlled conductor data and cumulative section results. It separates voltage-performance checks from thermal cable capacity and requires both equipment needs and authorised compliance criteria to remain explicit.
+- [[Day 12 - Rest Calculation Correction and Catch-Up]] consolidates the Week 2 design chain without adding new electrical theory. It uses closed-note retrieval, a structured calculation audit, one complete error correction and a bounded readiness decision before switching and isolation study begins.
 
 ## Practical application
 
