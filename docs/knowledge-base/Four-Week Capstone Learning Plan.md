@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 08 - Maximum Demand]] begins Week 2 by converting a complete load inventory into a traceable maximum-demand result, with connected load, assessed demand, phase allocation and future capacity kept separate.
+- [[Day 09 - Complete Cable-Selection Workflow]] converts the Day 8 demand result into a complete design chain linking circuit facts, protective-device choice, corrected cable capacity, voltage drop, fault performance, route conditions and termination suitability.
 
 ## Practical application
 
