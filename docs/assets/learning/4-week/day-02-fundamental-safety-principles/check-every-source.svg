@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Check every energy source</title>
+  <desc id="desc">A black-and-white stick figure pauses beside equipment while checking normal supply, alternative supply and stored energy before acting.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="180" cy="130" r="34"/>
+    <line x1="180" y1="164" x2="180" y2="270"/>
+    <line x1="180" y1="190" x2="120" y2="225"/>
+    <line x1="180" y1="190" x2="245" y2="205"/>
+    <line x1="180" y1="270" x2="135" y2="340"/>
+    <line x1="180" y1="270" x2="225" y2="340"/>
+    <rect x="420" y="135" width="180" height="150" rx="8"/>
+    <line x1="450" y1="175" x2="570" y2="175"/>
+    <circle cx="470" cy="225" r="14"/>
+    <circle cx="550" cy="225" r="14"/>
+    <path d="M600 205 C665 205 690 110 750 110"/>
+    <path d="M600 235 C675 235 700 205 790 205"/>
+    <path d="M600 265 C665 265 690 315 755 315"/>
+    <line x1="245" y1="205" x2="355" y2="205"/>
+    <polyline points="335,190 355,205 335,220"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="750" y="88" font-size="26" font-weight="700">Normal supply</text>
+    <text x="790" y="185" font-size="26" font-weight="700">Alternative supply</text>
+    <text x="755" y="355" font-size="26" font-weight="700">Stored energy</text>
+    <text x="480" y="330" font-size="24">Equipment</text>
+    <text x="480" y="392" font-size="30" font-weight="700">“One switch. Three questions.”</text>
+  </g>
+</svg>
