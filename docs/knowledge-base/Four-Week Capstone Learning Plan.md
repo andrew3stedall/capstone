@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 12 - Rest Calculation Correction and Catch-Up]] consolidates the Week 2 design chain without adding new electrical theory. It uses closed-note retrieval, a structured calculation audit, one complete error correction and a bounded readiness decision before switching and isolation study begins.
+- [[Day 13A - Switching Isolation and Main Switches]] begins the Week 2 switchboard sequence. It distinguishes functional switching, protective operation, emergency switching and isolation; uses the S-A-F-E workflow to map every source and define a controlled boundary; and rejects label-only or single-switch assumptions.
 
 ## Practical application
 
