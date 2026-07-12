@@ -30,7 +30,7 @@ related_simulations: []
 ## Navigation
 
 - **Previous:** [Day 6A — Earthing Terminology and Component Roles](./day-06a-earthing-terminology-and-component-roles.md)
-- **Next:** Day 6C — Earthing and MEN Fault Scenarios
+- **Next:** [Day 6C — Earthing and MEN Fault Scenarios](./day-06c-earthing-and-men-fault-scenarios.md)
 
 ## 1. Outcome and entry check
 
@@ -272,6 +272,7 @@ Proceed when the learner can draw the loop from memory, label every component by
 
 - [[Day 06A - Earthing Terminology and Component Roles]]
 - [[Day 06B - MEN Fault-Current Path]]
+- [[Day 06C - Earthing and MEN Fault Scenarios]]
 - [[Earthing Bonding and MEN]]
 - [[Day 03 - Overcurrent Protection]]
 - [[Day 04 - RCD Protection and Additional Protection]]
@@ -284,7 +285,7 @@ Return to [Day 6A — Earthing Terminology and Component Roles](./day-06a-earthi
 
 ### Next block
 
-Proceed to **Day 6C — Earthing and MEN Fault Scenarios** to diagnose missing, misplaced and ineffective protective connections.
+Proceed to [Day 6C — Earthing and MEN Fault Scenarios](./day-06c-earthing-and-men-fault-scenarios.md) to diagnose missing, misplaced and ineffective protective connections.
 
 ### References and currency notice
 
