@@ -3,7 +3,7 @@ title: Four-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-13
 ---
 
 # Four-Week Capstone Learning Plan
@@ -61,7 +61,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 6A — Earthing terminology and component roles](./modules/day-06a-earthing-terminology-and-component-roles.md)
 - [x] [Day 6B — MEN fault-current path](./modules/day-06b-men-fault-current-path.md)
 - [x] [Day 6C — Earthing and MEN fault scenarios](./modules/day-06c-earthing-and-men-fault-scenarios.md)
-- [ ] Day 7 — Week 1 consolidation and competency check
+- [x] [Day 7 — Week 1 consolidation and competency check](./modules/day-07-week-1-consolidation-and-competency-check.md)
 
 ### Week 2 — Circuit design, cables and switchboards
 
