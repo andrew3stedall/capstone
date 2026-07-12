@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Find every source</title>
+  <desc id="desc">Black-and-white stick figure looking at a switchboard diagram while a second power source peeks from behind it.</desc>
+  <rect width="900" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="145" cy="120" r="34"/>
+    <path d="M145 154 L145 255 M145 180 L95 225 M145 180 L215 210 M145 255 L105 335 M145 255 L195 335"/>
+    <rect x="310" y="95" width="270" height="220" rx="10"/>
+    <path d="M355 145 H535 M355 190 H535 M355 235 H535"/>
+    <circle cx="690" cy="145" r="30"/>
+    <path d="M690 175 L690 270 M690 205 L640 235 M690 205 L750 230 M690 270 L650 340 M690 270 L735 340"/>
+    <path d="M610 95 L610 315" stroke-dasharray="12 12"/>
+    <path d="M215 210 L300 190"/>
+    <path d="M720 115 L760 85 M720 125 L775 125"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="450" y="48" font-size="28" font-weight="700">FIND EVERY SOURCE BEFORE TRUSTING THE SKETCH</text>
+    <text x="445" y="350" font-size="22">A missing source makes a neat diagram dangerously incomplete.</text>
+    <text x="725" y="385" font-size="20">“Surprise. I energise things too.”</text>
+  </g>
+</svg>
