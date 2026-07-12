@@ -2,7 +2,7 @@
 status: outline
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-13
 ---
 
 # Four-Week Capstone Learning Plan
@@ -27,6 +27,10 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 - [[Earthing Bonding and MEN]]
 - [[Inspection Testing and Verification]]
 - [[Fault Finding and Commissioning]]
+
+## Current sequence landmark
+
+- [[Day 07 - Week 1 Consolidation and Competency Check]] closes Week 1 by integrating source navigation, safety reasoning, protection relationships and MEN fault-path diagnosis before the learner begins the Week 2 design sequence.
 
 ## Practical application
 
