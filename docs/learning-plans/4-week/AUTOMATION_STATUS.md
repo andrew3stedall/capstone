@@ -1,19 +1,19 @@
 ---
 title: Four-Week Learning Automation Status
 status: active
-updated_on: 2026-07-12
+updated_on: 2026-07-13
 ---
 
 # Four-Week Learning Automation Status
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check.
 - **Current block:** None.
-- **Next block:** [[Day 07 - Week 1 Consolidation and Competency Check]].
+- **Next block:** [[Day 08 - Maximum Demand]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 6C is safety-critical and `review-required`. Exact MEN arrangements, connection points, conductor requirements, testing methods and readings, protective-device characteristics, operating times, touch-voltage criteria, alternate-supply requirements, exceptions and clause references remain `reference_check_required`.
+- **Review state:** Day 7 is safety-critical and `review-required`. It is an original paper-based study-readiness check, not an official RTO assessment. Exact technical requirements, clauses, device characteristics, limits, testing procedures and jurisdiction-specific assessment claims remain `reference_check_required`.
 
 ## Hourly run log
 
@@ -29,27 +29,30 @@ updated_on: 2026-07-12
 | 6 — 2026-07-12 | Day 6A — Earthing Terminology and Component Roles | Created the safety-critical eight-beat terminology module, two Mermaid role-classification diagrams, two accessible stick-figure SVG cartoons, a Day 6A vault note and the Earthing Bonding and MEN map of content. Linked the module in the master plan and added reciprocal module navigation with Day 5. No exact sizes, values, clauses or field procedures were asserted as verified. | Produce Day 6B — MEN Fault-Current Path. |
 | 7 — 2026-07-12 | Day 6B — MEN Fault-Current Path | Created the safety-critical eight-beat fault-path module, two Mermaid diagrams, two accessible black-and-white stick-figure SVG cartoons and a Day 6B vault note. Linked the completed block in the master plan and retained reciprocal navigation with Day 6A. The module separates normal load current from the protective metallic return path and does not assert unverified values or procedures. | Produce Day 6C — Earthing and MEN Fault Scenarios. |
 | 8 — 2026-07-12 | Day 6C — Earthing and MEN Fault Scenarios | Created the safety-critical eight-beat diagnostic module, the D-P-E-S reasoning workflow, two Mermaid decision models, four original paper fault scenarios, two accessible black-and-white stick-figure SVG cartoons and a Day 6C vault note. Linked the completed block in the master plan. The module separates circuit, protective and possible contact-risk consequences and does not present live testing or repair instructions. | Produce Day 7 — Week 1 Consolidation and Competency Check. |
+| 9 — 2026-07-13 | Day 7 — Week 1 Consolidation and Competency Check | Created the integrated eight-beat Week 1 competency module, three Mermaid process and readiness models, an original workshop scenario, a six-dimension study-readiness rubric, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and added focused map-of-content navigation. No official RTO pass mark or unverified field procedure was asserted. | Produce Day 8 — Maximum Demand. |
 
-## Files added or updated in run 8
+## Files added or updated in run 9
 
-- `docs/learning-plans/4-week/modules/day-06c-earthing-and-men-fault-scenarios.md`
-- `docs/assets/learning/4-week/day-06c-earthing-and-men-fault-scenarios/diagnose-the-link.svg`
-- `docs/assets/learning/4-week/day-06c-earthing-and-men-fault-scenarios/find-every-source.svg`
+- `docs/learning-plans/4-week/modules/day-07-week-1-consolidation-and-competency-check.md`
+- `docs/assets/learning/4-week/day-07-week-1-consolidation-and-competency-check/five-models-one-board.svg`
+- `docs/assets/learning/4-week/day-07-week-1-consolidation-and-competency-check/confidence-is-not-proof.svg`
+- `docs/knowledge-base/Day 07 - Week 1 Consolidation and Competency Check.md`
 - `docs/knowledge-base/Day 06C - Earthing and MEN Fault Scenarios.md`
+- `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 6C is `review-required` and safety-critical.
-- `reference_check_required`: exact MEN arrangements, permitted connection locations, conductor identities, continuity requirements and separate-building conditions.
-- `reference_check_required`: inspection and test methods, isolation prerequisites, instrument requirements, expected readings and acceptance criteria.
-- `reference_check_required`: protective-device characteristics, required operating conditions, disconnection times, touch-voltage criteria and RCD interactions.
-- `reference_check_required`: generators, inverters, batteries, transfer equipment, alternate or multiple supplies and supply-neutral arrangements.
-- `reference_check_required`: applicable legislation, regulator and network rules, manufacturer instructions, RTO assessment expectations, exceptions and clause references.
+- Day 7 is `review-required`, safety-critical and not `technically-reviewed`.
+- `reference_check_required`: exact technical definitions, clauses, circuit requirements, protective-device ratings, characteristics, breaking capacities, operating conditions, time-current behaviour, residual-current requirements and exceptions.
+- `reference_check_required`: exact MEN arrangements, connection points, conductor requirements, continuity requirements, alternate or multiple supply arrangements and source-neutral treatment.
+- `reference_check_required`: isolation, proving de-energised, inspection and test procedures, instrument requirements, expected readings, acceptance criteria and live-work restrictions.
+- `reference_check_required`: current legislation, regulator and network rules, manufacturer instructions, workplace procedures, RTO assessment conditions, official competency criteria and jurisdiction-specific pass requirements.
+- The module's readiness categories are original study actions only; they are not an official assessment result.
 - No copied standards wording, table, figure or diagram was added.
 - No exact clause number, current value, impedance value, disconnection time, conductor size, test reading or universal field arrangement was asserted.
-- Day 6C must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
+- Day 7 must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
 
 ## Run rules
 
