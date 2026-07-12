@@ -24,7 +24,7 @@ permissions:
 jobs:
   render-audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Check out repository
@@ -44,21 +44,56 @@ jobs:
         shell: bash
         run: git diff --binary > normalized-mermaid.patch
 
-      - name: Upload normalization patch
-        uses: actions/upload-artifact@v4
-        with:
-          name: normalized-mermaid-patch
-          path: normalized-mermaid.patch
-          if-no-files-found: error
-
       - name: Check normalized Mermaid source
         run: node scripts/normalize-mermaid.mjs
 
       - name: Audit Markdown, links and SVG accessibility
-        run: node scripts/validate-docs.mjs
+        shell: bash
+        run: |
+          set +e
+          node scripts/validate-docs.mjs > docs-audit.log 2>&1
+          echo "$?" > docs-audit.status
+          exit 0
 
       - name: Render every Mermaid block
-        run: node scripts/validate-mermaid.mjs
+        shell: bash
+        run: |
+          set +e
+          node scripts/validate-mermaid.mjs > mermaid-audit.log 2>&1
+          echo "$?" > mermaid-audit.status
+          exit 0
 
       - name: Check whitespace errors
-        run: git diff --check
+        shell: bash
+        run: |
+          set +e
+          git diff --check > whitespace-audit.log 2>&1
+          echo "$?" > whitespace-audit.status
+          exit 0
+
+      - name: Upload render-audit evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-render-audit
+          path: |
+            normalized-mermaid.patch
+            docs-audit.log
+            docs-audit.status
+            mermaid-audit.log
+            mermaid-audit.status
+            whitespace-audit.log
+            whitespace-audit.status
+          if-no-files-found: error
+
+      - name: Enforce audit result
+        shell: bash
+        run: |
+          cat docs-audit.log
+          cat mermaid-audit.log
+          cat whitespace-audit.log
+
+          if [ "$(cat docs-audit.status)" != "0" ] || \
+             [ "$(cat mermaid-audit.status)" != "0" ] || \
+             [ "$(cat whitespace-audit.status)" != "0" ]; then
+            exit 1
+          fi
