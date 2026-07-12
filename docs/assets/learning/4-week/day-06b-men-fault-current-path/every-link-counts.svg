@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Every protective-path connection matters</title>
+  <desc id="desc">A black-and-white stick figure inspects a chain of electrical connections while one loose link holds a warning flag.</desc>
+  <rect width="960" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="180" r="32"/>
+    <path d="M150 212v105M150 245l-58 42M150 245l72 18M150 317l-45 75M150 317l45 75"/>
+    <ellipse cx="350" cy="235" rx="70" ry="35"/>
+    <ellipse cx="475" cy="235" rx="70" ry="35"/>
+    <ellipse cx="600" cy="235" rx="70" ry="35"/>
+    <ellipse cx="725" cy="235" rx="70" ry="35"/>
+    <path d="M420 235h-10M545 235h-10M670 235h-10"/>
+    <path d="M655 220l22 30"/>
+    <path d="M677 250v-85h80l-20 22 20 22h-80"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="350" y="310" font-size="23">PE</text>
+    <text x="475" y="310" font-size="23">Terminal</text>
+    <text x="600" y="310" font-size="23">MEN</text>
+    <text x="725" y="310" font-size="23">Neutral return</text>
+    <text x="480" y="445" font-size="31" font-weight="700">“A protective path is only as convincing as its loosest link.”</text>
+  </g>
+</svg>
