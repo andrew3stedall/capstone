@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Balance, not magic</title>
+  <desc id="desc">A stick figure watches equal outgoing and returning current on a balance scale, while a second path creates an imbalance and trips an RCD.</desc>
+  <rect width="900" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="145" r="28"/>
+    <path d="M120 173v88M120 205l-52 45M120 205l58 34M120 261l-42 72M120 261l48 72"/>
+    <path d="M260 120h360M440 120v55M340 175h200M360 175l-35 70h70zM520 175l-35 70h70z"/>
+    <path d="M300 100l45-25M580 100l-45-25"/>
+    <path d="M650 95h95v120h-95zM675 135h45M697 115v40"/>
+    <path d="M745 155h70M815 155l-20-18M815 155l-20 18"/>
+    <path d="M745 195h45M790 195l-18-16M790 195l-18 16"/>
+    <path d="M790 195q30 70 65 105" stroke-dasharray="10 10"/>
+    <path d="M835 285l20 15-15 22"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="440" y="50" font-size="30" font-weight="700">RCD reasoning: compare the currents</text>
+    <text x="360" y="275" font-size="24">outgoing</text>
+    <text x="520" y="275" font-size="24">returning</text>
+    <text x="700" y="250" font-size="22">RCD</text>
+    <text x="120" y="385" font-size="24">“It checks the balance, not your confidence.”</text>
+  </g>
+</svg>
