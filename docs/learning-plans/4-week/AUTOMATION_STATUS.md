@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches.
 - **Current block:** None.
-- **Next block:** [[Day 13A - Switching Isolation and Main Switches]].
+- **Next block:** [[Day 13B - Switchboard Construction and Arrangements]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 12 is `draft-unverified` learning design and introduces no new technical rule. Any technical claim revisited during correction inherits the `review-required` and `reference_check_required` status of its original Day 8–11 module.
+- **Review state:** Day 13A is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It teaches a paper reasoning workflow only and does not prescribe a field isolation sequence.
 
 ## Hourly run log
 
@@ -35,25 +35,25 @@ updated_on: 2026-07-13
 | 12 — 2026-07-13 | Day 10 — Installation Conditions and Derating | Created the design-critical eight-beat derating module, the H-E-A-T evidence workflow, two Mermaid models, a fictional route-segment calculation, a ceiling-riser-plant-room application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, correction-factor datasets or authoritative field values were reproduced. | Produce Day 11 — Voltage Drop. |
 | 13 — 2026-07-13 | Day 11 — Voltage Drop | Created the design-critical eight-beat voltage-drop module, the D-R-O-P evidence workflow, two Mermaid models, a fictional cumulative section calculation, a workshop compressor application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, conductor datasets, official limits or authoritative formula constants were reproduced. | Produce Day 12 — Rest, Calculation Correction and Catch-Up. |
 | 14 — 2026-07-13 | Day 12 — Rest, Calculation Correction and Catch-Up | Created the dedicated eight-beat recovery module, the C-H-E-C-K calculation-audit workflow, two Mermaid decision models, a fictional complete-path correction example, a 30-minute Week 2 consolidation protocol, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. The block adds no new technical rules or values. | Produce Day 13A — Switching, Isolation and Main Switches. |
+| 15 — 2026-07-13 | Day 13A — Switching, Isolation and Main Switches | Created the safety-critical eight-beat module, the S-A-F-E source-and-boundary workflow, two Mermaid decision models, a fictional multiple-source workshop scenario, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No clause text, standards diagrams, prescribed values or field isolation sequence was reproduced. | Produce Day 13B — Switchboard Construction and Arrangements. |
 
-## Files added or updated in run 14
+## Files added or updated in run 15
 
-- `docs/learning-plans/4-week/modules/day-12-rest-calculation-correction-and-catch-up.md`
-- `docs/assets/learning/4-week/day-12-rest-calculation-correction-and-catch-up/fix-the-first-broken-link.svg`
-- `docs/assets/learning/4-week/day-12-rest-calculation-correction-and-catch-up/one-correction-not-the-whole-pile.svg`
-- `docs/knowledge-base/Day 12 - Rest Calculation Correction and Catch-Up.md`
+- `docs/learning-plans/4-week/modules/day-13a-switching-isolation-and-main-switches.md`
+- `docs/assets/learning/4-week/day-13a-switching-isolation-and-main-switches/off-is-not-isolated.svg`
+- `docs/assets/learning/4-week/day-13a-switching-isolation-and-main-switches/find-every-source.svg`
+- `docs/knowledge-base/Day 13A - Switching Isolation and Main Switches.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 12 is `draft-unverified`, not safety-critical and not `technically-reviewed`.
-- The module introduces no new electrical rule, value, table, formula or field procedure.
-- Technical claims revisited from Days 8–11 retain their original `review-required` and `reference_check_required` status.
-- The worked correction is fictional and contains no standards constants or compliance result.
-- No copied standards wording, table, dataset, figure or diagram was added.
-- The learning design should receive editorial review before publication; technical approval of corrected learner work still requires the authorised sources and qualified review identified by the source module.
+- Day 13A is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- Exact switching, isolation, main-switch, pole, neutral, accessibility, labelling, securing, alternate-supply and verification requirements require current authorised sources and qualified review.
+- The practical scenario is fictional and deliberately stops at a paper evidence decision.
+- No live-work instruction, prescribed field switching sequence, standards wording, table, figure or official value was added.
+- Publication requires editorial review and qualified technical review against authorised current sources.
 
 ## Run rules
 
