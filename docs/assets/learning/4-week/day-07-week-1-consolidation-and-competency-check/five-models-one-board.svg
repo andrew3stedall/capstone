@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Five models on one whiteboard</title>
+  <desc id="desc">A stick-figure learner connects five labelled boxes for source, hazard, protection, path and evidence. The caption says that five models make one answer without magic clause guesses.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="235" y="35" width="610" height="265" rx="8"/>
+    <circle cx="110" cy="112" r="30"/>
+    <path d="M110 142 L110 245 M110 175 L55 215 M110 180 L176 146 M110 245 L70 315 M110 245 L158 315"/>
+    <path d="M176 146 L230 112"/>
+    <path d="M265 95 H385 V155 H265 Z M455 95 H575 V155 H455 Z M645 95 H765 V155 H645 Z"/>
+    <path d="M360 205 H490 V265 H360 Z M560 205 H690 V265 H560 Z"/>
+    <path d="M385 125 H455 M575 125 H645 M515 155 L435 205 M605 155 L625 205 M490 235 H560"/>
+    <path d="M75 82 Q110 52 145 82"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="325" y="132" font-size="24" font-weight="700">SOURCE</text>
+    <text x="515" y="132" font-size="24" font-weight="700">HAZARD</text>
+    <text x="705" y="132" font-size="22" font-weight="700">PROTECTION</text>
+    <text x="425" y="242" font-size="24" font-weight="700">PATH</text>
+    <text x="625" y="242" font-size="24" font-weight="700">EVIDENCE</text>
+    <text x="450" y="360" font-size="28" font-weight="700">Five models. One answer. Zero magic clause guesses.</text>
+  </g>
+</svg>
