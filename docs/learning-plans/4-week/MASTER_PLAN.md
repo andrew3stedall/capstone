@@ -20,7 +20,7 @@ This is the canonical sequence for the intensive four-week program. It assumes t
 
 ## Module production standard
 
-Each active learning block must be written as an eight-beat educational module:
+Every scheduled learning block must be written as its own eight-beat educational module, including rest, retrieval and catch-up days:
 
 1. **Outcome and entry check** — measurable objectives, prerequisites and a short diagnostic.
 2. **Why it matters** — practical risk, assessment relevance and workplace consequence.
@@ -32,6 +32,22 @@ Each active learning block must be written as an eight-beat educational module:
 8. **Retrieval and next links** — recall questions, applied practice, vault links and the next scheduled block.
 
 Every module must include YAML metadata compatible with `docs/LEARNING_DESIGN.md`, explicit learning objectives, prerequisite links, related notes, a source/currency notice and a review status. Exact clause numbers, limits or test values must be verified against authorised current material before being labelled technically reviewed.
+
+### Rest, retrieval and catch-up module standard
+
+A rest day is a planned learning block, not an omitted page. Each rest, retrieval or catch-up day must therefore have a dedicated module and corresponding knowledge-base note.
+
+The page must:
+
+- introduce no unnecessary new technical theory;
+- explain the learning purpose of deliberate recovery and spaced retrieval;
+- provide a time-boxed retrieval activity and a method for triaging missed work;
+- direct the learner to correct selected items from their error log rather than reread everything;
+- state the maximum catch-up period and clear stop conditions when fatigue or poor concentration is present;
+- include a simple readiness check for the next technical block;
+- retain previous and next module links so the daily sequence remains continuous.
+
+Rest-day diagrams and cartoons must still have a genuine instructional purpose. A recovery, catch-up or readiness decision workflow is appropriate; decorative filler is not.
 
 ## Ordered learning blocks
 
@@ -83,7 +99,7 @@ Every module must include YAML metadata compatible with `docs/LEARNING_DESIGN.md
 
 ## Quality gates for every hourly run
 
-A block is complete only when all of the following are true:
+A block, including a rest day, is complete only when all of the following are true:
 
 - the eight beats are present and logically connected;
 - objectives are observable and assessable;
