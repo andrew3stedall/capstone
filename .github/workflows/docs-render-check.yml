@@ -41,18 +41,6 @@ jobs:
         if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
         run: node scripts/normalize-mermaid.mjs --write
 
-      - name: Check normalized Mermaid source
-        run: node scripts/normalize-mermaid.mjs
-
-      - name: Audit Markdown, links and SVG accessibility
-        run: node scripts/validate-docs.mjs
-
-      - name: Render every Mermaid block
-        run: node scripts/validate-mermaid.mjs
-
-      - name: Check whitespace errors
-        run: git diff --check
-
       - name: Commit normalized Mermaid source
         if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
         shell: bash
@@ -67,3 +55,15 @@ jobs:
           git add docs
           git commit -m 'Normalize Mermaid for GitHub rendering [skip ci]'
           git push
+
+      - name: Check normalized Mermaid source
+        run: node scripts/normalize-mermaid.mjs
+
+      - name: Audit Markdown, links and SVG accessibility
+        run: node scripts/validate-docs.mjs
+
+      - name: Render every Mermaid block
+        run: node scripts/validate-mermaid.mjs
+
+      - name: Check whitespace errors
+        run: git diff --check
