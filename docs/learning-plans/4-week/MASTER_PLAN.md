@@ -57,7 +57,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 2 — Fundamental safety principles](./modules/day-02-fundamental-safety-principles.md)
 - [x] [Day 3 — Overcurrent protection](./modules/day-03-overcurrent-protection.md)
 - [x] [Day 4 — RCD protection and additional protection](./modules/day-04-rcd-protection-and-additional-protection.md)
-- [ ] Day 5 — Rest, retrieval and catch-up
+- [x] [Day 5 — Rest, retrieval and catch-up](./modules/day-05-rest-retrieval-and-catch-up.md)
 - [ ] Day 6A — Earthing terminology and component roles
 - [ ] Day 6B — MEN fault-current path
 - [ ] Day 6C — Earthing and MEN fault scenarios
