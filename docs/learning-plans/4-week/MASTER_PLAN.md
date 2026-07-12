@@ -60,7 +60,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 5 — Rest, retrieval and catch-up](./modules/day-05-rest-retrieval-and-catch-up.md)
 - [x] [Day 6A — Earthing terminology and component roles](./modules/day-06a-earthing-terminology-and-component-roles.md)
 - [x] [Day 6B — MEN fault-current path](./modules/day-06b-men-fault-current-path.md)
-- [ ] Day 6C — Earthing and MEN fault scenarios
+- [x] [Day 6C — Earthing and MEN fault scenarios](./modules/day-06c-earthing-and-men-fault-scenarios.md)
 - [ ] Day 7 — Week 1 consolidation and competency check
 
 ### Week 2 — Circuit design, cables and switchboards
