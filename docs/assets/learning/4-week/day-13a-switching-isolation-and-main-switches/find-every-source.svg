@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Find every source</title>
+  <desc id="desc">Two source boxes feed one machine while a stick-figure learner redraws an isolation boundary around all paths. The caption says one switch cannot isolate a source you forgot.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="65" width="170" height="90" rx="8"/>
+    <rect x="70" y="245" width="170" height="90" rx="8"/>
+    <rect x="605" y="120" width="190" height="180" rx="8"/>
+    <path d="M240 110 H460 V180 H605 M240 290 H460 V240 H605"/>
+    <circle cx="395" cy="210" r="27"/>
+    <path d="M395 237 L395 315 M395 258 L335 285 M395 258 L470 235 M395 315 L355 370 M395 315 L440 370"/>
+    <path d="M520 80 Q845 80 845 210 Q845 340 520 340" stroke-dasharray="12 10"/>
+    <path d="M470 235 L525 210"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="155" y="120" font-size="24" font-weight="700">SOURCE A</text>
+    <text x="155" y="300" font-size="24" font-weight="700">SOURCE B</text>
+    <text x="700" y="215" font-size="27" font-weight="700">MACHINE</text>
+    <text x="450" y="405" font-size="26" font-weight="700">One switch cannot isolate a source you forgot.</text>
+  </g>
+</svg>
