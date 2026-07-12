@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 13A - Switching Isolation and Main Switches]] begins the Week 2 switchboard sequence. It distinguishes functional switching, protective operation, emergency switching and isolation; uses the S-A-F-E workflow to map every source and define a controlled boundary; and rejects label-only or single-switch assumptions.
+- [[Day 13B - Switchboard Construction and Arrangements]] develops the Week 2 switchboard sequence. It treats the board as an engineered assembly, maps functional zones and uses the B-O-A-R-D workflow to separate visible layout from evidence-backed construction, compatibility, thermal and fault-capacity conclusions.
 
 ## Practical application
 
