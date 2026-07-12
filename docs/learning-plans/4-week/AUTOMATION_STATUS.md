@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up.
 - **Current block:** None.
-- **Next block:** [[Day 12 - Rest Calculation Correction and Catch-Up]].
+- **Next block:** [[Day 13A - Switching Isolation and Main Switches]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 11 is design-critical and `review-required`. Exact voltage-drop limits, allocation rules, conductor impedance data, phase and neutral treatment, temperature assumptions, power-factor methods, motor-starting criteria, calculation conventions and acceptance criteria remain `reference_check_required`.
+- **Review state:** Day 12 is `draft-unverified` learning design and introduces no new technical rule. Any technical claim revisited during correction inherits the `review-required` and `reference_check_required` status of its original Day 8–11 module.
 
 ## Hourly run log
 
@@ -34,26 +34,26 @@ updated_on: 2026-07-13
 | 11 — 2026-07-13 | Day 9 — Complete Cable-Selection Workflow | Created the design-critical eight-beat cable-selection module, the C-A-B-L-E evidence workflow, two Mermaid models, a fictional corrected-capacity calculation, a mixed-use tenancy submain application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the completed block in the master plan and advanced the learning-plan landmark. No standards tables, correction-factor datasets or verified field values were reproduced. | Produce Day 10 — Installation Conditions and Derating. |
 | 12 — 2026-07-13 | Day 10 — Installation Conditions and Derating | Created the design-critical eight-beat derating module, the H-E-A-T evidence workflow, two Mermaid models, a fictional route-segment calculation, a ceiling-riser-plant-room application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, correction-factor datasets or authoritative field values were reproduced. | Produce Day 11 — Voltage Drop. |
 | 13 — 2026-07-13 | Day 11 — Voltage Drop | Created the design-critical eight-beat voltage-drop module, the D-R-O-P evidence workflow, two Mermaid models, a fictional cumulative section calculation, a workshop compressor application, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, conductor datasets, official limits or authoritative formula constants were reproduced. | Produce Day 12 — Rest, Calculation Correction and Catch-Up. |
+| 14 — 2026-07-13 | Day 12 — Rest, Calculation Correction and Catch-Up | Created the dedicated eight-beat recovery module, the C-H-E-C-K calculation-audit workflow, two Mermaid decision models, a fictional complete-path correction example, a 30-minute Week 2 consolidation protocol, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. The block adds no new technical rules or values. | Produce Day 13A — Switching, Isolation and Main Switches. |
 
-## Files added or updated in run 13
+## Files added or updated in run 14
 
-- `docs/learning-plans/4-week/modules/day-11-voltage-drop.md`
-- `docs/assets/learning/4-week/day-11-voltage-drop/voltage-drop-needs-the-whole-path.svg`
-- `docs/assets/learning/4-week/day-11-voltage-drop/a-budget-is-not-a-rule.svg`
-- `docs/knowledge-base/Day 11 - Voltage Drop.md`
+- `docs/learning-plans/4-week/modules/day-12-rest-calculation-correction-and-catch-up.md`
+- `docs/assets/learning/4-week/day-12-rest-calculation-correction-and-catch-up/fix-the-first-broken-link.svg`
+- `docs/assets/learning/4-week/day-12-rest-calculation-correction-and-catch-up/one-correction-not-the-whole-pile.svg`
+- `docs/knowledge-base/Day 12 - Rest Calculation Correction and Catch-Up.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 11 is `review-required`, design-critical and not `technically-reviewed`.
-- `reference_check_required`: exact permitted voltage drop, source point, allocation rules, voltage references and jurisdiction-specific acceptance criteria.
-- `reference_check_required`: conductor resistance, reactance, temperature, arrangement, loaded-conductor, phase, neutral, power-factor and formula conventions.
-- `reference_check_required`: operating-current selection, maximum-demand interaction, motor-starting cases, manufacturer requirements, rounding and measurement procedures.
-- The worked currents, lengths, factors and voltage contributions are fictional teaching assumptions only and are prohibited from use as compliance data.
-- No copied standards wording, voltage-drop table, conductor dataset, figure or diagram was added.
-- Day 11 must not be labelled `technically-reviewed` until checked by a suitably qualified reviewer against current authorised sources.
+- Day 12 is `draft-unverified`, not safety-critical and not `technically-reviewed`.
+- The module introduces no new electrical rule, value, table, formula or field procedure.
+- Technical claims revisited from Days 8–11 retain their original `review-required` and `reference_check_required` status.
+- The worked correction is fictional and contains no standards constants or compliance result.
+- No copied standards wording, table, dataset, figure or diagram was added.
+- The learning design should receive editorial review before publication; technical approval of corrected learner work still requires the authorised sources and qualified review identified by the source module.
 
 ## Run rules
 
