@@ -1,0 +1,69 @@
+name: Docs render check
+
+on:
+  push:
+    branches:
+      - automation/4-week-learning-plan
+    paths:
+      - 'docs/**'
+      - 'scripts/normalize-mermaid.mjs'
+      - 'scripts/validate-docs.mjs'
+      - 'scripts/validate-mermaid.mjs'
+      - '.github/workflows/docs-render-check.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'scripts/normalize-mermaid.mjs'
+      - 'scripts/validate-docs.mjs'
+      - 'scripts/validate-mermaid.mjs'
+      - '.github/workflows/docs-render-check.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  render-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Normalize Mermaid for GitHub
+        if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+        run: node scripts/normalize-mermaid.mjs --write
+
+      - name: Check normalized Mermaid source
+        run: node scripts/normalize-mermaid.mjs
+
+      - name: Audit Markdown, links and SVG accessibility
+        run: node scripts/validate-docs.mjs
+
+      - name: Render every Mermaid block
+        run: node scripts/validate-mermaid.mjs
+
+      - name: Check whitespace errors
+        run: git diff --check
+
+      - name: Commit normalized Mermaid source
+        if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo 'No Mermaid normalization changes were required.'
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs
+          git commit -m 'Normalize Mermaid for GitHub rendering [skip ci]'
+          git push
