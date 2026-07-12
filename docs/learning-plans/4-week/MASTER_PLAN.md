@@ -65,7 +65,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 
 ### Week 2 — Circuit design, cables and switchboards
 
-- [ ] Day 8 — Maximum demand
+- [x] [Day 8 — Maximum demand](./modules/day-08-maximum-demand.md)
 - [ ] Day 9 — Complete cable-selection workflow
 - [ ] Day 10 — Installation conditions and derating
 - [ ] Day 11 — Voltage drop
