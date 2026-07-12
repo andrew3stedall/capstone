@@ -40,7 +40,7 @@ Every module must include YAML metadata compatible with `docs/LEARNING_DESIGN.md
 - [x] [Day 1 — Exam orientation and Wiring Rules navigation](./modules/day-01-exam-orientation-and-wiring-rules-navigation.md)
 - [x] [Day 2 — Fundamental safety principles](./modules/day-02-fundamental-safety-principles.md)
 - [x] [Day 3 — Overcurrent protection](./modules/day-03-overcurrent-protection.md)
-- [ ] Day 4 — RCD protection and additional protection
+- [x] [Day 4 — RCD protection and additional protection](./modules/day-04-rcd-protection-and-additional-protection.md)
 - [ ] Day 5 — Rest, retrieval and catch-up
 - [ ] Day 6A — Earthing terminology and component roles
 - [ ] Day 6B — MEN fault-current path
