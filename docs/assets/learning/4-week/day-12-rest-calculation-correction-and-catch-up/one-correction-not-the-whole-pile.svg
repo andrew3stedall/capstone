@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">One correction, not the whole pile</title>
+  <desc id="desc">A stick-figure learner places one worksheet into a box labelled thirty minutes while a large pile of optional worksheets stays outside. The caption says one complete correction beats a heroic half-pile.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="145" r="28"/>
+    <path d="M150 173 L150 270 M150 205 L95 230 M150 205 L235 225 M150 270 L110 345 M150 270 L195 345"/>
+    <rect x="290" y="175" width="235" height="150" rx="10"/>
+    <path d="M335 150 H455 V235 H335 Z M350 165 H440 M350 185 H430 M350 205 H420"/>
+    <path d="M235 225 L335 195"/>
+    <path d="M610 95 H760 V190 H610 Z M625 110 H745 M625 132 H735 M625 154 H730"/>
+    <path d="M585 145 H735 V240 H585 Z M600 160 H720 M600 182 H710 M600 204 H705"/>
+    <path d="M560 195 H710 V290 H560 Z M575 210 H695 M575 232 H685 M575 254 H680"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="408" y="275" font-size="28" font-weight="700">30 MIN</text>
+    <text x="660" y="330" font-size="22" font-weight="700">OPTIONAL PILE</text>
+    <text x="450" y="395" font-size="27" font-weight="700">One complete correction beats a heroic half-pile.</text>
+  </g>
+</svg>
