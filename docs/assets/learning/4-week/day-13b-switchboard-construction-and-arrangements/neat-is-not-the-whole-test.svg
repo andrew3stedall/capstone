@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Neat is not the whole test</title>
+  <desc id="desc">A learner admires a tidy switchboard while another points to labelled questions about heat, fault level, barriers and compatibility.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="300" y="55" width="300" height="265" rx="8"/>
+    <path d="M335 95H565 M335 145H565 M335 195H565 M335 245H565"/>
+    <path d="M365 80V280 M430 80V280 M495 80V280 M560 80V280"/>
+    <circle cx="160" cy="205" r="28"/>
+    <path d="M160 233V320 M160 255L235 225 M160 260L105 285 M160 320L120 375 M160 320L205 375"/>
+    <circle cx="735" cy="205" r="28"/>
+    <path d="M735 233V320 M735 255L660 225 M735 260L800 285 M735 320L695 375 M735 320L780 375"/>
+    <path d="M625 80H840V165H625Z"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="450" y="35" font-size="30" font-weight="700">TIDY BOARD</text>
+    <text x="732" y="105" font-size="20" font-weight="700">HEAT? FAULT?</text>
+    <text x="732" y="132" font-size="20" font-weight="700">BARRIERS? MATCH?</text>
+    <text x="450" y="403" font-size="27" font-weight="700">Neat is evidence of neatness. Not the whole test.</text>
+  </g>
+</svg>
