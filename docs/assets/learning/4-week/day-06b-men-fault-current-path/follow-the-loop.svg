@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Follow the complete fault-current loop</title>
+  <desc id="desc">A black-and-white stick figure follows arrows around a complete electrical fault loop while a dead-end ground symbol is crossed out.</desc>
+  <rect width="960" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="190" r="32"/>
+    <path d="M150 222v100M150 252l-62 38M150 252l72 10M150 322l-45 75M150 322l45 75"/>
+    <rect x="330" y="115" width="180" height="120" rx="10"/>
+    <rect x="650" y="115" width="180" height="120" rx="10"/>
+    <path d="M510 175h140M620 145l30 30-30 30"/>
+    <path d="M740 235v120H420V235"/>
+    <path d="M450 325l-30 30 30 30"/>
+    <path d="M250 365h55M277 365v38M257 403h40M265 422h24"/>
+    <path d="M230 335l95 105M325 335l-95 105"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="420" y="170" font-size="27" font-weight="700">FAULT</text>
+    <text x="740" y="170" font-size="27" font-weight="700">SOURCE</text>
+    <text x="580" y="405" font-size="26">Protective return path</text>
+    <text x="480" y="470" font-size="31" font-weight="700">“Current follows a loop, not a disappearing act.”</text>
+  </g>
+</svg>
