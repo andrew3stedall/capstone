@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Percentages need passports</title>
+  <desc id="desc">A stick-figure learner stops a percentage symbol at a checkpoint and asks for its source, category, units and conditions. The caption says every factor needs a traceable identity.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="165" cy="150" r="29"/>
+    <path d="M165 179 L165 285 M165 205 L105 240 M165 205 L240 205 M165 285 L120 350 M165 285 L210 350"/>
+    <path d="M240 205 L330 175"/>
+    <rect x="330" y="95" width="235" height="175" rx="8"/>
+    <path d="M565 182 H655"/>
+    <circle cx="715" cy="145" r="28"/>
+    <circle cx="775" cy="230" r="28"/>
+    <path d="M695 124 L795 250"/>
+    <path d="M715 173 L715 315 M715 205 L655 230 M715 210 L785 205 M715 315 L675 370 M715 315 L755 370"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="447" y="130" font-size="22" font-weight="700">SOURCE?</text>
+    <text x="447" y="170" font-size="22" font-weight="700">CATEGORY?</text>
+    <text x="447" y="210" font-size="22" font-weight="700">UNITS?</text>
+    <text x="447" y="250" font-size="22" font-weight="700">CONDITIONS?</text>
+    <text x="745" y="210" font-size="68" font-weight="700">%</text>
+    <text x="450" y="400" font-size="27" font-weight="700">Every factor needs a traceable identity.</text>
+  </g>
+</svg>
