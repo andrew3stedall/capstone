@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 13B - Switchboard Construction and Arrangements]] develops the Week 2 switchboard sequence. It treats the board as an engineered assembly, maps functional zones and uses the B-O-A-R-D workflow to separate visible layout from evidence-backed construction, compatibility, thermal and fault-capacity conclusions.
+- [[Day 13C - Switchboard Defect Inspection]] completes the Week 2 switchboard sequence. It separates observations, indicators, defect conclusions and causes, then uses the S-I-G-N-S workflow to organise a bounded visual or documentary review without authorising physical intervention.
 
 ## Practical application
 
