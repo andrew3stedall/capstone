@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Metal part interview</title>
+  <desc id="desc">A stick figure interviews an appliance enclosure and a metallic service pipe using two questions: part of electrical equipment, and can it introduce another potential. Caption: Metal is a material. Role needs evidence.</desc>
+  <rect x="1" y="1" width="898" height="498" fill="white" stroke="black" stroke-width="2"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700">The metal-part interview</text>
+
+  <g stroke="black" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="155" cy="155" r="28"/>
+    <line x1="155" y1="183" x2="155" y2="285"/>
+    <line x1="155" y1="220" x2="105" y2="250"/>
+    <line x1="155" y1="220" x2="215" y2="245"/>
+    <line x1="155" y1="285" x2="120" y2="345"/>
+    <line x1="155" y1="285" x2="190" y2="345"/>
+    <rect x="215" y="205" width="185" height="105"/>
+    <line x1="215" y1="240" x2="400" y2="240"/>
+
+    <rect x="500" y="180" width="150" height="150" rx="8"/>
+    <circle cx="535" cy="215" r="8"/>
+    <circle cx="615" cy="215" r="8"/>
+    <path d="M545 280 Q575 305 605 280"/>
+    <line x1="575" y1="330" x2="575" y2="365"/>
+    <line x1="545" y1="365" x2="605" y2="365"/>
+
+    <path d="M715 190 L800 190 L800 300 L715 300"/>
+    <line x1="735" y1="190" x2="735" y2="300"/>
+    <circle cx="750" cy="225" r="8"/>
+    <circle cx="780" cy="225" r="8"/>
+    <path d="M750 270 Q765 282 780 270"/>
+  </g>
+
+  <text x="307" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">1. Part of electrical equipment?</text>
+  <text x="307" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">2. Can it introduce another potential?</text>
+  <text x="575" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700">APPLIANCE CASE</text>
+  <text x="757" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700">SERVICE PIPE</text>
+
+  <line x1="70" y1="390" x2="830" y2="390" stroke="black" stroke-width="3"/>
+  <text x="450" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700">Metal is a material. Role needs evidence.</text>
+</svg>
