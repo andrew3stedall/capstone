@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Describe the sign, not the story</title>
+  <desc id="desc">A stick-figure learner observes a closed switchboard with a dark mark and writes an objective note instead of guessing the hidden cause.</desc>
+  <rect width="900" height="520" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="520" y="80" width="260" height="330" rx="8"/>
+    <line x1="650" y1="80" x2="650" y2="410"/>
+    <circle cx="755" cy="245" r="8" fill="black"/>
+    <path d="M548 145 C590 120 620 170 610 205 C590 225 555 210 548 180"/>
+    <circle cx="190" cy="150" r="42"/>
+    <line x1="190" y1="192" x2="190" y2="330"/>
+    <line x1="190" y1="230" x2="120" y2="275"/>
+    <line x1="190" y1="230" x2="285" y2="260"/>
+    <line x1="190" y1="330" x2="135" y2="425"/>
+    <line x1="190" y1="330" x2="245" y2="425"/>
+    <rect x="270" y="245" width="180" height="125" rx="6"/>
+    <line x1="300" y1="285" x2="415" y2="285"/>
+    <line x1="300" y1="320" x2="400" y2="320"/>
+    <line x1="300" y1="350" x2="385" y2="350"/>
+    <line x1="230" y1="120" x2="335" y2="105"/>
+    <circle cx="360" cy="102" r="18"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="450" y="465" font-size="34" font-weight="700">Describe the sign, not the story.</text>
+    <text x="450" y="500" font-size="22">“Visible discolouration” is evidence. “Loose terminal” is a hypothesis.</text>
+  </g>
+</svg>
