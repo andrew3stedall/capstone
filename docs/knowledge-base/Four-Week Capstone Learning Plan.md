@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 09 - Complete Cable-Selection Workflow]] converts the Day 8 demand result into a complete design chain linking circuit facts, protective-device choice, corrected cable capacity, voltage drop, fault performance, route conditions and termination suitability.
+- [[Day 10 - Installation Conditions and Derating]] isolates the thermal part of cable selection by mapping route segments, identifying adverse heat conditions, locating authorised classifications and factors, and determining the provisional limiting segment without combining unrelated conditions.
 
 ## Practical application
 
