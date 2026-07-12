@@ -30,7 +30,7 @@ related_simulations: []
 ## Navigation
 
 - **Previous:** [Day 4 — RCD Protection and Additional Protection](./day-04-rcd-protection-and-additional-protection.md)
-- **Next:** Day 6A — Earthing Terminology and Component Roles
+- **Next:** [Day 6A — Earthing Terminology and Component Roles](./day-06a-earthing-terminology-and-component-roles.md)
 
 ## 1. Outcome and entry check
 
@@ -335,7 +335,7 @@ Return to [Day 4 — RCD Protection and Additional Protection](./day-04-rcd-prot
 
 ### Next block
 
-Proceed to **Day 6A — Earthing Terminology and Component Roles** after recording the readiness statement and stopping the Day 5 session.
+Proceed to [Day 6A — Earthing Terminology and Component Roles](./day-06a-earthing-terminology-and-component-roles.md) after recording the readiness statement and stopping the Day 5 session.
 
 ### References and currency notice
 
