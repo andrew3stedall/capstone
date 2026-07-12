@@ -12,6 +12,7 @@ updated_on: 2026-07-12
 - **Current block:** None.
 - **Next block:** [[Day 05 - Rest Retrieval and Catch-Up]].
 - **Working branch:** `automation/4-week-learning-plan`
+- **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
 - **Review state:** Day 4 is safety-critical and `review-required`; exact circuit categories, exceptions, device types, residual-current ratings, operating times, test criteria, leakage limits, coordination claims, installation arrangements and clause references remain `reference_check_required`.
 
 ## Hourly run log
@@ -23,6 +24,7 @@ updated_on: 2026-07-12
 | 2 — 2026-07-12 | Day 2 — Fundamental Safety Principles | Created the safety-critical eight-beat module, two Mermaid safety-decision diagrams, two accessible stick-figure SVG cartoons, a vault note and the master-plan link. Kept practical procedures conceptual and explicitly flagged all jurisdiction-specific requirements for authorised review. | Produce Day 3 — Overcurrent Protection. |
 | 3 — 2026-07-12 | Day 3 — Overcurrent Protection | Created the eight-beat protection module, two Mermaid coordination diagrams, two accessible stick-figure SVG cartoons, a vault note and the master-plan link. Distinguished overload, short circuit, prospective fault current, breaking capacity and residual-current protection without reproducing standards tables or asserting unverified values. | Produce Day 4 — RCD Protection and Additional Protection. |
 | 4 — 2026-07-12 | Day 4 — RCD Protection and Additional Protection | Created the eight-beat RCD module, two Mermaid current-balance and selection diagrams, two accessible stick-figure SVG cartoons, a vault note and the master-plan link. Added reciprocal navigation through the Day 3 and Day 4 vault notes and a direct previous-module link from Day 4. | Produce Day 5 — Rest, Retrieval and Catch-Up. |
+| Process update — 2026-07-12 | Rest-day page requirement | Updated the production rules so every rest, retrieval and catch-up day receives a complete dedicated page. Rest pages must focus on recovery, spaced retrieval, error-log correction, catch-up triage, time limits, fatigue stop conditions and readiness for the next block without adding unnecessary theory. | Produce the dedicated Day 5 — Rest, Retrieval and Catch-Up module. |
 
 ## Files added or updated in run 4
 
@@ -46,7 +48,8 @@ updated_on: 2026-07-12
 ## Run rules
 
 1. Select only the first unchecked block in `MASTER_PLAN.md`, unless all blocks are complete.
-2. Complete one coherent block per run; do not begin multiple partial modules.
-3. Update this file after all content, diagrams, images and links have been reviewed.
-4. Keep the run log concise and retain prior entries.
-5. State the exact next block so the following run is deterministic.
+2. Complete one coherent block per run; do not begin multiple partial modules. Rest days count as full blocks and must receive their own page.
+3. Rest-day pages must retain the eight-beat structure but avoid unnecessary new technical content; use retrieval, recovery, catch-up triage and readiness activities instead.
+4. Update this file after all content, diagrams, images and links have been reviewed.
+5. Keep the run log concise and retain prior entries.
+6. State the exact next block so the following run is deterministic.
