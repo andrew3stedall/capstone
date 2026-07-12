@@ -72,7 +72,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 12 — Rest, calculation correction and catch-up](./modules/day-12-rest-calculation-correction-and-catch-up.md)
 - [x] [Day 13A — Switching, isolation and main switches](./modules/day-13a-switching-isolation-and-main-switches.md)
 - [x] [Day 13B — Switchboard construction and arrangements](./modules/day-13b-switchboard-construction-and-arrangements.md)
-- [ ] Day 13C — Switchboard defect inspection
+- [x] [Day 13C — Switchboard defect inspection](./modules/day-13c-switchboard-defect-inspection.md)
 - [ ] Day 14 — Week 2 integrated design exercise
 
 ### Week 3 — Installation requirements and special locations
