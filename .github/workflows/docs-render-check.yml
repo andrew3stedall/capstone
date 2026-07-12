@@ -37,15 +37,13 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Normalize Mermaid for GitHub
-        run: node scripts/normalize-mermaid.mjs --write
-
-      - name: Create normalization patch
-        shell: bash
-        run: git diff --binary > normalized-mermaid.patch
-
       - name: Check normalized Mermaid source
-        run: node scripts/normalize-mermaid.mjs
+        shell: bash
+        run: |
+          set +e
+          node scripts/normalize-mermaid.mjs > mermaid-source-audit.log 2>&1
+          echo "$?" > mermaid-source-audit.status
+          exit 0
 
       - name: Audit Markdown, links and SVG accessibility
         shell: bash
@@ -59,8 +57,8 @@ jobs:
         shell: bash
         run: |
           set +e
-          node scripts/validate-mermaid.mjs > mermaid-audit.log 2>&1
-          echo "$?" > mermaid-audit.status
+          node scripts/validate-mermaid.mjs > mermaid-render-audit.log 2>&1
+          echo "$?" > mermaid-render-audit.status
           exit 0
 
       - name: Check whitespace errors
@@ -76,11 +74,12 @@ jobs:
         with:
           name: docs-render-audit
           path: |
-            normalized-mermaid.patch
+            mermaid-source-audit.log
+            mermaid-source-audit.status
             docs-audit.log
             docs-audit.status
-            mermaid-audit.log
-            mermaid-audit.status
+            mermaid-render-audit.log
+            mermaid-render-audit.status
             whitespace-audit.log
             whitespace-audit.status
           if-no-files-found: error
@@ -88,12 +87,14 @@ jobs:
       - name: Enforce audit result
         shell: bash
         run: |
+          cat mermaid-source-audit.log
           cat docs-audit.log
-          cat mermaid-audit.log
+          cat mermaid-render-audit.log
           cat whitespace-audit.log
 
-          if [ "$(cat docs-audit.status)" != "0" ] || \
-             [ "$(cat mermaid-audit.status)" != "0" ] || \
+          if [ "$(cat mermaid-source-audit.status)" != "0" ] || \
+             [ "$(cat docs-audit.status)" != "0" ] || \
+             [ "$(cat mermaid-render-audit.status)" != "0" ] || \
              [ "$(cat whitespace-audit.status)" != "0" ]; then
             exit 1
           fi
