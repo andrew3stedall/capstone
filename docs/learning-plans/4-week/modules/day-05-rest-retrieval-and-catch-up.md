@@ -140,24 +140,24 @@ Do not use the rest day to search broadly through standards or copy clauses into
 
 ```mermaid
 flowchart TD
-    A[Start Day 5] --> B{Alert enough for accurate recall?}
-    B -->|No| C[Record recovery decision]
-    C --> D[Prepare next module and stop]
-    B -->|Yes| E[Complete 10-minute retrieval]
-    E --> F[Mark confidence and check answers]
-    F --> G{High-confidence error found?}
-    G -->|Yes| H[Correct one error first]
-    G -->|No| I[Review catch-up list]
+    A["Start Day 5"] --> B{"Alert enough for accurate recall?"}
+    B -->|"No"| C["Record recovery decision"]
+    C --> D["Prepare next module and stop"]
+    B -->|"Yes"| E["Complete 10-minute retrieval"]
+    E --> F["Mark confidence and check answers"]
+    F --> G{"High-confidence error found?"}
+    G -->|"Yes"| H["Correct one error first"]
+    G -->|"No"| I["Review catch-up list"]
     H --> I
-    I --> J{Essential unfinished work?}
-    J -->|Yes| K[Time-box one essential task]
-    J -->|No| L[Stop or complete one useful task]
-    K --> M{30-minute total limit reached?}
+    I --> J{"Essential unfinished work?"}
+    J -->|"Yes"| K["Time-box one essential task"]
+    J -->|"No"| L["Stop or complete one useful task"]
+    K --> M{"30-minute total limit reached?"}
     L --> M
-    M -->|Yes| N[Record next action and stop]
-    M -->|No| O{Attention still reliable?}
-    O -->|No| N
-    O -->|Yes| P[Finish current small task only]
+    M -->|"Yes"| N["Record next action and stop"]
+    M -->|"No"| O{"Attention still reliable?"}
+    O -->|"No"| N
+    O -->|"Yes"| P["Finish current small task only"]
     P --> N
 ```
 

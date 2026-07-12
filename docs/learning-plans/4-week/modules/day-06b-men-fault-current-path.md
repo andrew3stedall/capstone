@@ -131,14 +131,14 @@ Use this workflow for any MEN fault-path question.
 
 ```mermaid
 flowchart TD
-    A[Define active-to-metal fault] --> B[Draw normal active-load-neutral path]
-    B --> C[Draw protective return path separately]
-    C --> D{Path continuous and arrangement verified?}
-    D -->|No| E[Stop: identify defect or missing evidence]
-    D -->|Yes| F[Identify expected protective device]
-    F --> G{Operating conditions verified from authorised source?}
-    G -->|No| H[Mark reference_check_required]
-    G -->|Yes| I[Explain expected disconnection outcome]
+    A["Define active-to-metal fault"] --> B["Draw normal active-load-neutral path"]
+    B --> C["Draw protective return path separately"]
+    C --> D{"Path continuous and arrangement verified?"}
+    D -->|"No"| E["Stop: identify defect or missing evidence"]
+    D -->|"Yes"| F["Identify expected protective device"]
+    F --> G{"Operating conditions verified from authorised source?"}
+    G -->|"No"| H["Mark reference_check_required"]
+    G -->|"Yes"| I["Explain expected disconnection outcome"]
 ```
 
 The workflow prevents a common error: jumping straight from “fault” to “breaker trips” without proving the path or the device conditions.
@@ -149,14 +149,14 @@ The workflow prevents a common error: jumping straight from “fault” to “br
 
 ```mermaid
 flowchart LR
-    S[Source active] --> AC[Active conductor]
-    AC --> F[Fault to exposed metalwork]
-    F --> PE[Protective earthing conductor]
-    PE --> MET[Main earthing terminal]
-    MET --> MEN[Designated MEN connection]
-    MEN --> N[Neutral return]
+    S["Source active"] --> AC["Active conductor"]
+    AC --> F["Fault to exposed metalwork"]
+    F --> PE["Protective earthing conductor"]
+    PE --> MET["Main earthing terminal"]
+    MET --> MEN["Designated MEN connection"]
+    MEN --> N["Neutral return"]
     N --> S
-    EE[Earthing electrode] --- MET
+    EE["Earthing electrode"] --- MET
 ```
 
 Read the diagram as a loop, not a drain:

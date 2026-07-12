@@ -147,19 +147,19 @@ Use this workflow before any safety-critical electrical task or assessment scena
 
 ```mermaid
 flowchart TD
-    A[Define task and boundary] --> B[Identify energy sources and other hazards]
-    B --> C[Find current governing sources]
-    C --> D{Authorised and competent for this task?}
-    D -->|No or uncertain| E[Stop and escalate]
-    D -->|Yes| F[Choose strongest applicable controls]
-    F --> G[Plan how controls will be verified]
-    G --> H[Set explicit stop conditions]
-    H --> I{Controls verified and conditions stable?}
-    I -->|No| E
-    I -->|Yes| J[Perform work within the plan]
-    J --> K{Conditions changed or unexpected evidence?}
-    K -->|Yes| E
-    K -->|No| L[Complete records and handover]
+    A["Define task and boundary"] --> B["Identify energy sources and other hazards"]
+    B --> C["Find current governing sources"]
+    C --> D{"Authorised and competent for this task?"}
+    D -->|"No or uncertain"| E["Stop and escalate"]
+    D -->|"Yes"| F["Choose strongest applicable controls"]
+    F --> G["Plan how controls will be verified"]
+    G --> H["Set explicit stop conditions"]
+    H --> I{"Controls verified and conditions stable?"}
+    I -->|"No"| E
+    I -->|"Yes"| J["Perform work within the plan"]
+    J --> K{"Conditions changed or unexpected evidence?"}
+    K -->|"Yes"| E
+    K -->|"No"| L["Complete records and handover"]
 ```
 
 The diagram deliberately sends uncertainty to **stop and escalate**. Escalation is a control, not a failure of confidence.
@@ -184,17 +184,17 @@ This example does not provide a practical isolation procedure. It demonstrates h
 
 ```mermaid
 flowchart LR
-    A[Equipment stopped] --> B{Why did it stop?}
-    B --> C[Local control operated]
-    B --> D[Protective device operated]
-    B --> E[Supply lost]
-    B --> F[Control or equipment fault]
-    C --> G[State still unproven]
+    A["Equipment stopped"] --> B{"Why did it stop?"}
+    B --> C["Local control operated"]
+    B --> D["Protective device operated"]
+    B --> E["Supply lost"]
+    B --> F["Control or equipment fault"]
+    C --> G["State still unproven"]
     D --> G
     E --> G
     F --> G
-    G --> H[Identify every relevant source]
-    H --> I[Apply and verify authorised controls]
+    G --> H["Identify every relevant source"]
+    H --> I["Apply and verify authorised controls"]
 ```
 
 The key lesson is that **not operating** and **safe to access** are different conclusions.

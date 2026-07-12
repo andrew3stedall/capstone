@@ -160,17 +160,17 @@ Use this workflow when selecting, checking or explaining overcurrent protection.
 
 ```mermaid
 flowchart TD
-    A[Define circuit and load] --> B[Determine design current and duty]
-    B --> C[Establish conductor capacity under actual conditions]
-    C --> D[Identify overload and fault scenarios]
-    D --> E[Find current authorised requirements and device data]
-    E --> F{Overload coordination demonstrated?}
-    F -->|No| G[Revise load, conductor or protection]
-    F -->|Yes| H{Breaking capacity and fault operation adequate?}
-    H -->|No| G
-    H -->|Yes| I{Equipment and coordination checks satisfied?}
-    I -->|No| G
-    I -->|Yes| J[Record evidence and review flags]
+    A["Define circuit and load"] --> B["Determine design current and duty"]
+    B --> C["Establish conductor capacity under actual conditions"]
+    C --> D["Identify overload and fault scenarios"]
+    D --> E["Find current authorised requirements and device data"]
+    E --> F{"Overload coordination demonstrated?"}
+    F -->|"No"| G["Revise load, conductor or protection"]
+    F -->|"Yes"| H{"Breaking capacity and fault operation adequate?"}
+    H -->|"No"| G
+    H -->|"Yes"| I{"Equipment and coordination checks satisfied?"}
+    I -->|"No"| G
+    I -->|"Yes"| J["Record evidence and review flags"]
     G --> B
 ```
 
@@ -207,15 +207,15 @@ A stronger reasoning sequence is:
 
 ```mermaid
 flowchart LR
-    A[Load current] --> D[Protection decision]
-    B[Adjusted conductor capacity] --> D
-    C[Device rating and operating curve] --> D
-    E[Prospective fault current] --> D
-    F[Breaking capacity] --> D
-    G[Equipment and installation conditions] --> D
-    D --> H{All relationships verified?}
-    H -->|No| I[Not justified]
-    H -->|Yes| J[Documented selection]
+    A["Load current"] --> D["Protection decision"]
+    B["Adjusted conductor capacity"] --> D
+    C["Device rating and operating curve"] --> D
+    E["Prospective fault current"] --> D
+    F["Breaking capacity"] --> D
+    G["Equipment and installation conditions"] --> D
+    D --> H{"All relationships verified?"}
+    H -->|"No"| I["Not justified"]
+    H -->|"Yes"| J["Documented selection"]
 ```
 
 The diagram shows why no single number proves suitability. The decision is a relationship supported by evidence.

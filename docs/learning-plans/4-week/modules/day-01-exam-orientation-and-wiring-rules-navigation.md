@@ -127,21 +127,21 @@ Use the following workflow whenever a scenario asks what is required, permitted,
 
 ```mermaid
 flowchart TD
-    A[Read the scenario] --> B{What kind of question is it?}
-    B -->|Assessment conditions| C[RTO instructions or assessor direction]
-    B -->|Technical requirement| D[Authorised standard, law or regulator source]
-    B -->|Equipment-specific| E[Manufacturer instructions plus governing sources]
-    C --> F[Extract two or three search concepts]
+    A["Read the scenario"] --> B{"What kind of question is it?"}
+    B -->|"Assessment conditions"| C["RTO instructions or assessor direction"]
+    B -->|"Technical requirement"| D["Authorised standard, law or regulator source"]
+    B -->|"Equipment-specific"| E["Manufacturer instructions plus governing sources"]
+    C --> F["Extract two or three search concepts"]
     D --> F
     E --> F
-    F --> G[Use contents, index, definitions and headings]
-    G --> H[Read scope, context and exceptions]
-    H --> I[Follow relevant cross-references]
-    I --> J[Write decision in original words]
-    J --> K[Record source, edition, location and open checks]
-    K --> L{Does it answer the exact scenario?}
-    L -->|No| F
-    L -->|Yes| M[Submit or apply the verified conclusion]
+    F --> G["Use contents, index, definitions and headings"]
+    G --> H["Read scope, context and exceptions"]
+    H --> I["Follow relevant cross-references"]
+    I --> J["Write decision in original words"]
+    J --> K["Record source, edition, location and open checks"]
+    K --> L{"Does it answer the exact scenario?"}
+    L -->|"No"| F
+    L -->|"Yes"| M["Submit or apply the verified conclusion"]
 ```
 
 The loop at the end is intentional. Finding a relevant passage is not the same as answering the scenario. Return to the search concepts when the source does not resolve the exact condition.
@@ -173,11 +173,11 @@ When a search fails, move up or down this ladder rather than repeating the same 
 
 ```mermaid
 flowchart LR
-    A[Scenario wording] --> B[Plain-language noun]
-    B --> C[Technical term]
-    C --> D[Broader topic heading]
-    D --> E[Defined term]
-    E --> F[Related or cross-referenced concept]
+    A["Scenario wording"] --> B["Plain-language noun"]
+    B --> C["Technical term"]
+    C --> D["Broader topic heading"]
+    D --> E["Defined term"]
+    E --> F["Related or cross-referenced concept"]
 ```
 
 Example progression: `board in hallway` → `switchboard` → `switchboard location` → `access` → the formal defined or referenced term used by the authorised source.

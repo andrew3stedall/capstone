@@ -155,17 +155,17 @@ Use this workflow when deciding whether residual-current protection is required 
 
 ```mermaid
 flowchart TD
-    A[Define circuit, users, location and load] --> B[Identify the protection objective]
-    B --> C[Find current authorised requirements]
-    C --> D{Is RCD protection required?}
-    D -->|No or exception claimed| E[Record the verified basis and reviewer]
-    D -->|Yes| F[Choose device family and overcurrent arrangement]
-    F --> G[Match RCD type to expected load]
-    G --> H[Check active and neutral paths]
-    H --> I[Check earthing, bonding and other protection separately]
-    I --> J[Assess leakage, coordination and continuity consequences]
-    J --> K[Verify visually and by authorised test procedure]
-    K --> L[Record evidence and review flags]
+    A["Define circuit, users, location and load"] --> B["Identify the protection objective"]
+    B --> C["Find current authorised requirements"]
+    C --> D{"Is RCD protection required?"}
+    D -->|"No or exception claimed"| E["Record the verified basis and reviewer"]
+    D -->|"Yes"| F["Choose device family and overcurrent arrangement"]
+    F --> G["Match RCD type to expected load"]
+    G --> H["Check active and neutral paths"]
+    H --> I["Check earthing, bonding and other protection separately"]
+    I --> J["Assess leakage, coordination and continuity consequences"]
+    J --> K["Verify visually and by authorised test procedure"]
+    K --> L["Record evidence and review flags"]
 ```
 
 The decision begins with the circuit and protection objective, not with a familiar device label. A technically defensible answer must show why the device is required, what hazard it addresses and what other protections remain necessary.
@@ -176,13 +176,13 @@ The decision begins with the circuit and protection objective, not with a famili
 
 ```mermaid
 flowchart LR
-    S[Supply] -->|Outgoing current through active| L[Load]
-    L -->|Returning current through neutral| R[RCD sensing core]
+    S["Supply"] -->|"Outgoing current through active"| L["Load"]
+    L -->|"Returning current through neutral"| R["RCD sensing core"]
     S --> R
-    R -->|Currents balance| N[No residual trip signal]
-    L -. unintended leakage path .-> E[Earth, exposed part or person]
-    E -. current bypasses monitored neutral .-> S
-    R -->|Detected imbalance under operating conditions| T[Trip mechanism opens circuit]
+    R -->|"Currents balance"| N["No residual trip signal"]
+    L -. unintended leakage path .-> E["Earth, exposed part or person"]
+    E -.->|"current bypasses monitored neutral"| S
+    R -->|"Detected imbalance under operating conditions"| T["Trip mechanism opens circuit"]
 ```
 
 This is a conceptual model, not a wiring diagram. The key idea is that current returning outside the monitored live conductors creates an imbalance. The RCD responds to the imbalance; it does not measure whether the alternative path is safe.

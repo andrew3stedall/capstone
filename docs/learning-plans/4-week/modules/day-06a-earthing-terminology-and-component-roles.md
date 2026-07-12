@@ -284,12 +284,12 @@ A confident answer without traceable source evidence is still unverified.
 
 ```mermaid
 flowchart LR
-    S[Supply system] -->|Active conductor: normal outgoing current| L[Electrical load]
-    L -->|Neutral conductor: normal return current| NB[Neutral bar or neutral point]
-    C[Accessible metal equipment enclosure] -->|Protective earthing conductor| MET[Main earthing terminal]
-    MET -->|Main earthing conductor| EE[Earthing electrode]
-    NB -. Designated MEN connection .- MET
-    X[Qualifying extraneous conductive part] -->|Bonding conductor where required| MET
+    S["Supply system"] -->|"Active conductor: normal outgoing current"| L["Electrical load"]
+    L -->|"Neutral conductor: normal return current"| NB["Neutral bar or neutral point"]
+    C["Accessible metal equipment enclosure"] -->|"Protective earthing conductor"| MET["Main earthing terminal"]
+    MET -->|"Main earthing conductor"| EE["Earthing electrode"]
+    NB -.->|"Designated MEN connection"| MET
+    X["Qualifying extraneous conductive part"] -->|"Bonding conductor where required"| MET
 ```
 
 Read the map by role:
@@ -306,19 +306,19 @@ The diagram is conceptual. It does not specify conductor sizes, physical switchb
 
 ```mermaid
 flowchart TD
-    A[Identify the item] --> B{Carries normal load current?}
-    B -->|Yes| C{Outgoing to load or return from load?}
-    C -->|Outgoing| D[Investigate active-conductor role]
-    C -->|Return| E[Investigate neutral-conductor role]
-    B -->|No| F{What does it connect?}
-    F -->|Equipment metalwork to earthing system| G[Protective earthing conductor]
-    F -->|Main earthing terminal to electrode| H[Main earthing conductor]
-    F -->|External conductive part to earthing system| I[Bonding conductor]
-    F -->|Neutral system to earthing system| J[MEN connection: verify permitted point]
-    F -->|Nothing; item is metalwork| K{Part of electrical equipment?}
-    K -->|Yes; could become live after insulation failure| L[Candidate exposed conductive part]
-    K -->|No; can introduce external potential| M[Candidate extraneous conductive part]
-    K -->|Neither established| N[Do not assign an earthing role without evidence]
+    A["Identify the item"] --> B{"Carries normal load current?"}
+    B -->|"Yes"| C{"Outgoing to load or return from load?"}
+    C -->|"Outgoing"| D["Investigate active-conductor role"]
+    C -->|"Return"| E["Investigate neutral-conductor role"]
+    B -->|"No"| F{"What does it connect?"}
+    F -->|"Equipment metalwork to earthing system"| G["Protective earthing conductor"]
+    F -->|"Main earthing terminal to electrode"| H["Main earthing conductor"]
+    F -->|"External conductive part to earthing system"| I["Bonding conductor"]
+    F -->|"Neutral system to earthing system"| J["MEN connection: verify permitted point"]
+    F -->|"Nothing; item is metalwork"| K{"Part of electrical equipment?"}
+    K -->|"Yes; could become live after insulation failure"| L["Candidate exposed conductive part"]
+    K -->|"No; can introduce external potential"| M["Candidate extraneous conductive part"]
+    K -->|"Neither established"| N["Do not assign an earthing role without evidence"]
 ```
 
 The word **candidate** is deliberate. Final classification and the required treatment depend on the actual equipment, installation and authorised requirements.
