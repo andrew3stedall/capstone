@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection.
 - **Current block:** None.
-- **Next block:** [[Day 13C - Switchboard Defect Inspection]].
+- **Next block:** [[Day 14 - Week 2 Integrated Design Exercise]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 13B is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It supports paper review only and does not prescribe switchboard access, alteration or construction procedures.
+- **Review state:** Day 13C is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It supports paper and externally visible evidence review only and does not authorise opening, touching, testing or altering a switchboard.
 
 ## Hourly run log
 
@@ -37,23 +37,24 @@ updated_on: 2026-07-13
 | 14 — 2026-07-13 | Day 12 — Rest, Calculation Correction and Catch-Up | Created the dedicated eight-beat recovery module, the C-H-E-C-K calculation-audit workflow, two Mermaid decision models, a fictional complete-path correction example, a 30-minute Week 2 consolidation protocol, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. The block adds no new technical rules or values. | Produce Day 13A — Switching, Isolation and Main Switches. |
 | 15 — 2026-07-13 | Day 13A — Switching, Isolation and Main Switches | Created the safety-critical eight-beat module, the S-A-F-E source-and-boundary workflow, two Mermaid decision models, a fictional multiple-source workshop scenario, two accessible black-and-white stick-figure SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No clause text, standards diagrams, prescribed values or field isolation sequence was reproduced. | Produce Day 13B — Switchboard Construction and Arrangements. |
 | 16 — 2026-07-13 | Day 13B — Switchboard Construction and Arrangements | Created the safety-critical eight-beat module, the B-O-A-R-D assembly-review workflow, two Mermaid models, a fictional board-extension scenario, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards wording, tables, figures, dimensions, ratings or construction instructions were reproduced. | Produce Day 13C — Switchboard Defect Inspection. |
+| 17 — 2026-07-13 | Day 13C — Switchboard Defect Inspection | Created the safety-critical eight-beat module, the S-I-G-N-S observation-and-escalation workflow, two Mermaid models, a fictional external-inspection scenario, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. The module separates observations from causes and contains no official defect codes, standards extracts or physical intervention procedure. | Produce Day 14 — Week 2 Integrated Design Exercise. |
 
-## Files added or updated in run 16
+## Files added or updated in run 17
 
-- `docs/learning-plans/4-week/modules/day-13b-switchboard-construction-and-arrangements.md`
-- `docs/assets/learning/4-week/day-13b-switchboard-construction-and-arrangements/neat-is-not-the-whole-test.svg`
-- `docs/assets/learning/4-week/day-13b-switchboard-construction-and-arrangements/space-is-not-capacity.svg`
-- `docs/knowledge-base/Day 13B - Switchboard Construction and Arrangements.md`
+- `docs/learning-plans/4-week/modules/day-13c-switchboard-defect-inspection.md`
+- `docs/assets/learning/4-week/day-13c-switchboard-defect-inspection/describe-the-sign-not-the-story.svg`
+- `docs/assets/learning/4-week/day-13c-switchboard-defect-inspection/same-look-different-evidence.svg`
+- `docs/knowledge-base/Day 13C - Switchboard Defect Inspection.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 13B is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
-- Exact enclosure, access, barrier, segregation, conductor, neutral, earth, heat, fault-rating, labelling, device-compatibility and assembly requirements require current authorised sources and qualified review.
-- The practical scenario is fictional and stops at a paper evidence conclusion.
-- No switchboard access, alteration, energisation, construction procedure, standards wording, table, figure, official dimension or rating was added.
+- Day 13C is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- Exact defect classifications, inspection boundaries, access controls, emergency responses, reporting duties and acceptance criteria require current authorised sources and qualified review.
+- The practical scenario is fictional and stops at an evidence-based handover.
+- No standards wording, official defect codes, acceptance values or practical access/testing instructions were added.
 - Publication requires editorial review and qualified technical review against authorised current sources.
 
 ## Run rules
