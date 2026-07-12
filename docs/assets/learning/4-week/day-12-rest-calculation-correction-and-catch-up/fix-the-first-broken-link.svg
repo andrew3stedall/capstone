@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fix the first broken link</title>
+  <desc id="desc">A stick-figure learner inspects a chain of calculation steps and marks the first broken link instead of polishing the final answer. The caption says fix the first broken link, not the prettiest number.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="165" r="28"/>
+    <path d="M120 193 L120 285 M120 220 L68 250 M120 220 L190 205 M120 285 L82 355 M120 285 L162 355"/>
+    <rect x="225" y="105" width="120" height="70" rx="10"/>
+    <rect x="405" y="105" width="120" height="70" rx="10"/>
+    <rect x="585" y="105" width="120" height="70" rx="10"/>
+    <rect x="745" y="105" width="110" height="70" rx="10"/>
+    <path d="M345 140 H385 M545 140 H565 M705 140 H725"/>
+    <path d="M386 118 L404 162 M404 118 L386 162"/>
+    <path d="M190 205 L378 145"/>
+    <path d="M775 190 Q800 220 825 190"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="285" y="149" font-size="22" font-weight="700">INPUT</text>
+    <text x="465" y="149" font-size="22" font-weight="700">METHOD</text>
+    <text x="645" y="149" font-size="20" font-weight="700">ARITHMETIC</text>
+    <text x="800" y="149" font-size="20" font-weight="700">ANSWER</text>
+    <text x="450" y="395" font-size="28" font-weight="700">Fix the first broken link, not the prettiest number.</text>
+  </g>
+</svg>
