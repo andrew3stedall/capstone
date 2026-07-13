@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence before reset</title>
+  <desc id="desc">A black-and-white instructional cartoon showing a learner stopping before resetting an RCD and checking circuit identity, neutral grouping, device data and authorised evidence.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="600" y="105" width="220" height="280" rx="12"/>
+    <line x1="710" y1="105" x2="710" y2="385"/>
+    <rect x="635" y="160" width="55" height="95" rx="8"/>
+    <line x1="662" y1="180" x2="662" y2="235"/>
+    <circle cx="662" cy="285" r="12"/>
+    <circle cx="235" cy="145" r="42"/>
+    <line x1="235" y1="187" x2="235" y2="325"/>
+    <line x1="235" y1="225" x2="155" y2="285"/>
+    <line x1="235" y1="225" x2="330" y2="250"/>
+    <line x1="235" y1="325" x2="185" y2="420"/>
+    <line x1="235" y1="325" x2="300" y2="420"/>
+    <path d="M330 250 Q430 230 515 185"/>
+    <line x1="515" y1="185" x2="485" y2="165"/>
+    <line x1="515" y1="185" x2="490" y2="210"/>
+    <rect x="345" y="300" width="200" height="135" rx="12"/>
+    <line x1="375" y1="335" x2="515" y2="335"/>
+    <line x1="375" y1="370" x2="495" y2="370"/>
+    <line x1="375" y1="405" x2="470" y2="405"/>
+    <path d="M560 275 L590 305 L650 245"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black">
+    <text x="70" y="70" font-size="38" font-weight="700">Evidence before reset</text>
+    <text x="80" y="485" font-size="26">Check the circuit, neutrals, device data and authority first.</text>
+    <text x="605" y="430" font-size="22">RCD / RCBO</text>
+    <text x="365" y="325" font-size="21" font-weight="700">Evidence</text>
+  </g>
+</svg>
