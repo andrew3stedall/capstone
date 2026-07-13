@@ -74,5 +74,5 @@ This note does not provide an approved fault-finding sequence, isolation process
 - [← Previous: Day 24 - Test Sequence and Result Interpretation](./Day%2024%20-%20Test%20Sequence%20and%20Result%20Interpretation.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-25-systematic-fault-finding-workflow.md)
-- Next: no later module has been created yet
+- [Next: Day 26 - Rest and Final Catch-Up →](./Day%2026%20-%20Rest%20and%20Final%20Catch-Up.md)
 <!-- sequence-navigation:end -->
