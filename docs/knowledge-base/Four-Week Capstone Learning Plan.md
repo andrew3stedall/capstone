@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 16 - Consumer Mains Submains and Final Subcircuits]] develops the T-R-A-C-E workflow for classifying conductor sections by terminals, role and supply hierarchy, then carrying load, protection, route, voltage, fault, earthing and isolation evidence across board boundaries without asserting unverified formal definitions or arrangements.
+- [[Day 17 - Bathrooms Showers and Other Wet Areas]] develops the W-A-T-E-R workflow for identifying fixed water features, mapping provisional geometry, classifying equipment and checking location, construction, circuit and installation evidence without guessing zone dimensions or permissions.
 
 ## Practical application
 
