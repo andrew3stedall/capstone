@@ -69,3 +69,12 @@ This note does not authorise opening, touching, testing, switching, isolation, i
 - Current manufacturer instructions for protective devices, switchboards, generation equipment, cables and connected equipment.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 15 - Wiring Systems and Mechanical Protection](./Day%2015%20-%20Wiring%20Systems%20and%20Mechanical%20Protection.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-16-consumer-mains-submains-and-final-subcircuits.md)
+- [Next: Day 17 - Bathrooms Showers and Other Wet Areas →](./Day%2017%20-%20Bathrooms%20Showers%20and%20Other%20Wet%20Areas.md)
+<!-- sequence-navigation:end -->

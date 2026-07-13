@@ -56,3 +56,12 @@ The note and linked module are `review-required`. Exact isolation, testing, PPE,
 - Current authorised electrical safety legislation and regulator guidance for the applicable jurisdiction.
 - Current workplace procedures and RTO assessment requirements.
 - Manufacturer instructions for relevant equipment and instruments.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 01 - Exam Orientation and Wiring Rules Navigation](./Day%2001%20-%20Exam%20Orientation%20and%20Wiring%20Rules%20Navigation.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-02-fundamental-safety-principles.md)
+- [Next: Day 03 - Overcurrent Protection →](./Day%2003%20-%20Overcurrent%20Protection.md)
+<!-- sequence-navigation:end -->

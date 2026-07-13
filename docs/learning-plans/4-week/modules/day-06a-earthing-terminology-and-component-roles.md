@@ -523,3 +523,11 @@ Proceed to **Day 6B — MEN Fault-Current Path** after the learner can label the
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md) — original-content and source-handling requirements.
 
 This module contains original explanations, scenarios and diagrams. It does not reproduce a standards table, figure or clause sequence. A qualified reviewer must verify the technical interpretation and add traceable references before the status can move beyond `review-required`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 5 — Rest, Retrieval and Catch-Up](./day-05-rest-retrieval-and-catch-up.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 6B — MEN Fault-Current Path →](./day-06b-men-fault-current-path.md)
+<!-- sequence-navigation:end -->

@@ -385,3 +385,11 @@ Proceed to **Day 4 — RCD Protection and Additional Protection** after completi
 - Applicable workplace, project and RTO procedures.
 
 All exact current relationships, correction factors, operating times, breaking capacities, coordination claims, device characteristics and clause references remain `reference_check_required` until verified by a qualified reviewer against authorised current sources. This original educational module must not be used as a substitute for the Wiring Rules, device data or supervised practical training.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 2 — Fundamental Safety Principles](./day-02-fundamental-safety-principles.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 4 — RCD Protection and Additional Protection →](./day-04-rcd-protection-and-additional-protection.md)
+<!-- sequence-navigation:end -->

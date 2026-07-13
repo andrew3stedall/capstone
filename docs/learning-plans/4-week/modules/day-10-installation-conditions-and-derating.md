@@ -343,3 +343,11 @@ Return to Day 9 if the wider cable-selection chain is unclear.
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 Exact cable classifications, installation methods, reference conditions, current-carrying-capacity values, ambient-temperature treatment, grouping rules, thermal-insulation treatment, enclosure and underground factors, combination methods, exceptions and acceptance criteria remain `reference_check_required`. No standards table, correction-factor dataset, copied figure or authoritative field value is reproduced here.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 9 — Complete Cable-Selection Workflow](./day-09-complete-cable-selection-workflow.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 11 — Voltage Drop →](./day-11-voltage-drop.md)
+<!-- sequence-navigation:end -->

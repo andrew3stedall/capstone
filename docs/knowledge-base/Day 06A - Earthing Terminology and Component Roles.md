@@ -88,3 +88,12 @@ The learner should also be able to classify exposed and extraneous conductive pa
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact definitions, conductor identification, sizing, connection points, electrode requirements, bonding requirements, MEN locations, exceptions, alternate-supply arrangements and clause references remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 05 - Rest Retrieval and Catch-Up](./Day%2005%20-%20Rest%20Retrieval%20and%20Catch-Up.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-06a-earthing-terminology-and-component-roles.md)
+- [Next: Day 06B - MEN Fault-Current Path →](./Day%2006B%20-%20MEN%20Fault-Current%20Path.md)
+<!-- sequence-navigation:end -->

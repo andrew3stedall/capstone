@@ -306,3 +306,11 @@ A **yes with support** learner may proceed with their error log and prerequisite
 ## Review state
 
 Day 19 is `draft-unverified`, non-safety-critical as a recovery workflow and not `technically-reviewed`. It adds no new technical requirements. Technical statements retrieved from Days 15–18 retain their original `review-required` and `reference_check_required` flags.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 18 — Other Special Installations and Locations](./day-18-other-special-installations-and-locations.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 20A — Fixed Appliances and Local Isolation →](./day-20a-fixed-appliances-and-local-isolation.md)
+<!-- sequence-navigation:end -->

@@ -107,3 +107,12 @@ A confident answer is not sufficient. The reasoning must show why the conclusion
 - Week 1 modules and their listed authorised sources.
 
 Exact clauses, definitions, circuit requirements, protective-device conditions, MEN arrangements, test procedures, limits, operating times, acceptance criteria, jurisdiction-specific assessment rules and exceptions remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 06C - Earthing and MEN Fault Scenarios](./Day%2006C%20-%20Earthing%20and%20MEN%20Fault%20Scenarios.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-07-week-1-consolidation-and-competency-check.md)
+- [Next: Day 08 - Maximum Demand →](./Day%2008%20-%20Maximum%20Demand.md)
+<!-- sequence-navigation:end -->

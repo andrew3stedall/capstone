@@ -65,3 +65,12 @@ The learner should be able to combine Week 2 concepts without changing assumptio
 - RTO directions and supervised practical requirements.
 
 No standards wording, official demand factors, cable tables, correction-factor datasets, voltage-drop limits, device curves, switchboard ratings or defect classifications are reproduced. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 13C - Switchboard Defect Inspection](./Day%2013C%20-%20Switchboard%20Defect%20Inspection.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-14-week-2-integrated-design-exercise.md)
+- [Next: Day 15 - Wiring Systems and Mechanical Protection →](./Day%2015%20-%20Wiring%20Systems%20and%20Mechanical%20Protection.md)
+<!-- sequence-navigation:end -->

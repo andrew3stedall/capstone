@@ -353,3 +353,11 @@ A learner marked **yes with support** may proceed with the corrected worksheet a
 - Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
 
 This module contains original recovery, retrieval and correction activities. It reproduces no standards wording, tables, figures, official calculation factors or acceptance limits. Any exact technical claim encountered during correction remains subject to the source and technical-review status of its original module.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 11 — Voltage Drop](./day-11-voltage-drop.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 13A — Switching, Isolation and Main Switches →](./day-13a-switching-isolation-and-main-switches.md)
+<!-- sequence-navigation:end -->

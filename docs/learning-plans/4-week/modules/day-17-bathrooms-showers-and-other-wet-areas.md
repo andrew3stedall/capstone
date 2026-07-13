@@ -305,3 +305,11 @@ Before publication or operational use, a qualified reviewer must verify against 
 - manufacturer instructions and jurisdiction-specific obligations.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 16 — Consumer Mains, Submains and Final Subcircuits](./day-16-consumer-mains-submains-and-final-subcircuits.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 18 — Other Special Installations and Locations →](./day-18-other-special-installations-and-locations.md)
+<!-- sequence-navigation:end -->

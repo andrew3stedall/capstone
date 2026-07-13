@@ -385,3 +385,11 @@ Proceed to **Day 5 — Rest, Retrieval and Catch-Up** after completing the recal
 - Applicable workplace, project and RTO procedures.
 
 All exact circuit categories, exceptions, device types, residual-current ratings, operating times, test values, selectivity claims, leakage limits, installation arrangements and clause references remain `reference_check_required` until verified by a qualified reviewer against authorised current sources. This original module must not be used as a substitute for the Wiring Rules, manufacturer data or supervised practical training.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 3 — Overcurrent Protection](./day-03-overcurrent-protection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 5 — Rest, Retrieval and Catch-Up →](./day-05-rest-retrieval-and-catch-up.md)
+<!-- sequence-navigation:end -->

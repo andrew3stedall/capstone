@@ -58,3 +58,12 @@ The learner should be able to review a paper or externally visible scenario syst
 - RTO directions and supervised inspection procedures.
 
 No standards wording, official defect codes, acceptance values or practical procedures are reproduced. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 13B - Switchboard Construction and Arrangements](./Day%2013B%20-%20Switchboard%20Construction%20and%20Arrangements.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-13c-switchboard-defect-inspection.md)
+- [Next: Day 14 - Week 2 Integrated Design Exercise →](./Day%2014%20-%20Week%202%20Integrated%20Design%20Exercise.md)
+<!-- sequence-navigation:end -->

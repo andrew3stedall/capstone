@@ -336,3 +336,11 @@ Before publication or operational use, a qualified reviewer must verify against 
 - inspection, testing, documentation and jurisdiction-specific obligations.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 19 — Rest, Retrieval and Catch-Up](./day-19-rest-retrieval-and-catch-up.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 20B — Motors and Associated Protection →](./day-20b-motors-and-associated-protection.md)
+<!-- sequence-navigation:end -->

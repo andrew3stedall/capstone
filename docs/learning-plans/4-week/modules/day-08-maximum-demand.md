@@ -427,3 +427,11 @@ Proceed to [Day 9 — Complete Cable-Selection Workflow](../MASTER_PLAN.md#week-
 - Day 7 and the relevant design, protection and supply notes.
 
 This module contains original organisation, diagrams, fictional values, scenario facts and assessment prompts. It does not reproduce standards wording, demand tables, figures or official datasets. A suitably qualified reviewer must verify the technical interpretation against current authorised sources before the status can move beyond `review-required`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 7 — Week 1 Consolidation and Competency Check](./day-07-week-1-consolidation-and-competency-check.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 9 — Complete Cable-Selection Workflow →](./day-09-complete-cable-selection-workflow.md)
+<!-- sequence-navigation:end -->

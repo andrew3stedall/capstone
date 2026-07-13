@@ -108,3 +108,12 @@ A successful thermal-capacity screen does not by itself establish cable suitabil
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact cable-selection requirements, definitions, installation methods, current-carrying-capacity data, correction factors, factor-combination methods, protective-device characteristics, voltage-drop criteria, fault and disconnection requirements, thermal-withstand methods, neutral treatment, environmental suitability, mechanical protection, alternate-supply treatment and jurisdiction-specific acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 08 - Maximum Demand](./Day%2008%20-%20Maximum%20Demand.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-09-complete-cable-selection-workflow.md)
+- [Next: Day 10 - Installation Conditions and Derating →](./Day%2010%20-%20Installation%20Conditions%20and%20Derating.md)
+<!-- sequence-navigation:end -->

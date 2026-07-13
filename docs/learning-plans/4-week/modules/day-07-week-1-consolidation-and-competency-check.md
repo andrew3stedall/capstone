@@ -366,3 +366,11 @@ Proceed to [Day 8 — Maximum Demand](../MASTER_PLAN.md#week-2--circuit-design-c
 - Week 1 modules and their listed references.
 
 This module contains original organisation, diagrams, scenario facts, rubric language and assessment prompts. It does not reproduce standards wording, tables or figures. A suitably qualified reviewer must verify the technical interpretation against current authorised sources before the status can move beyond `review-required`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 6C — Earthing and MEN Fault Scenarios](./day-06c-earthing-and-men-fault-scenarios.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 8 — Maximum Demand →](./day-08-maximum-demand.md)
+<!-- sequence-navigation:end -->

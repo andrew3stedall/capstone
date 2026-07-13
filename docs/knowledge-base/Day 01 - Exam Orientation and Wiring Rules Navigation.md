@@ -75,3 +75,12 @@ Exact assessment conditions vary. Current RTO instructions remain `reference_che
 ## Review status
 
 `review-required` — original educational content only. No exact technical value, clause location, universal assessment rule or safety-critical procedure has been asserted.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- Previous: start of the current four-week sequence
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-01-exam-orientation-and-wiring-rules-navigation.md)
+- [Next: Day 02 - Fundamental Safety Principles →](./Day%2002%20-%20Fundamental%20Safety%20Principles.md)
+<!-- sequence-navigation:end -->

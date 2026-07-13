@@ -305,3 +305,11 @@ Record:
 - Applicable legislation, regulator guidance and other referenced standards — verify by jurisdiction and task.
 
 **Status:** `review-required`. This original educational module requires technical and assessment-context review before publication. It contains no reproduced standards table, figure or substantial clause wording.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- Previous: start of the current four-week sequence
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 2 — Fundamental Safety Principles →](./day-02-fundamental-safety-principles.md)
+<!-- sequence-navigation:end -->

@@ -295,3 +295,11 @@ Proceed to [Day 6C — Earthing and MEN Fault Scenarios](./day-06c-earthing-and-
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 This module contains original explanation, diagrams and scenarios. It does not reproduce standards wording, tables or figures. A qualified reviewer must verify the technical interpretation before the status can move beyond `review-required`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 6A — Earthing Terminology and Component Roles](./day-06a-earthing-terminology-and-component-roles.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 6C — Earthing and MEN Fault Scenarios →](./day-06c-earthing-and-men-fault-scenarios.md)
+<!-- sequence-navigation:end -->

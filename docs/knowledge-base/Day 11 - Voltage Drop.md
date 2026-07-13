@@ -89,3 +89,12 @@ The block samples whether the learner can:
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact limits, allocation rules, formulae, conductor data, phase and neutral treatment, temperature assumptions, power-factor methods, motor-starting criteria, rounding conventions, measurement procedures and jurisdiction-specific acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 10 - Installation Conditions and Derating](./Day%2010%20-%20Installation%20Conditions%20and%20Derating.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-11-voltage-drop.md)
+- [Next: Day 12 - Rest Calculation Correction and Catch-Up →](./Day%2012%20-%20Rest%20Calculation%20Correction%20and%20Catch-Up.md)
+<!-- sequence-navigation:end -->

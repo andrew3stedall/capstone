@@ -398,3 +398,11 @@ Return to Day 8 if the load model is unclear, Day 9 if the wider cable-selection
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 Exact voltage-drop limits, allocation rules, formulae, conductor impedance data, phase and neutral treatment, temperature corrections, power-factor methods, motor-starting criteria, rounding conventions, measurement procedures and jurisdiction-specific acceptance criteria remain `reference_check_required`. No copied standards table, dataset, figure or clause wording is included. This module must remain `review-required` until checked by a suitably qualified reviewer against current authorised sources.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 10 — Installation Conditions and Derating](./day-10-installation-conditions-and-derating.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 12 — Rest, Calculation Correction and Catch-Up →](./day-12-rest-calculation-correction-and-catch-up.md)
+<!-- sequence-navigation:end -->

@@ -293,3 +293,11 @@ Continue to **Day 16 — Consumer Mains, Submains and Final Subcircuits**.
 Capstone Ready is an independent educational resource. It is not affiliated with or endorsed by Standards Australia, Standards New Zealand, an electrical regulator or a registered training organisation. Always use current authorised standards, legislation, regulator guidance and your RTO's approved procedures.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 14 — Week 2 Integrated Design Exercise](./day-14-week-2-integrated-design-exercise.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 16 — Consumer Mains, Submains and Final Subcircuits →](./day-16-consumer-mains-submains-and-final-subcircuits.md)
+<!-- sequence-navigation:end -->

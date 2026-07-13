@@ -94,3 +94,12 @@ A strong capstone response explains what changed, how the path changed, why a pr
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact MEN arrangements, connection points, conductor requirements, test methods, readings, protective-device characteristics, operating times, touch-voltage criteria, alternate-supply requirements, exceptions and clause references remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 06B - MEN Fault-Current Path](./Day%2006B%20-%20MEN%20Fault-Current%20Path.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-06c-earthing-and-men-fault-scenarios.md)
+- [Next: Day 07 - Week 1 Consolidation and Competency Check →](./Day%2007%20-%20Week%201%20Consolidation%20and%20Competency%20Check.md)
+<!-- sequence-navigation:end -->

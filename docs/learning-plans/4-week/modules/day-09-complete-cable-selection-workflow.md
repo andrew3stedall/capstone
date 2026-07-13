@@ -427,3 +427,11 @@ Proceed when you can build the full workflow without jumping directly from desig
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 Exact cable-selection requirements, definitions, installation methods, current-carrying-capacity values, correction factors, factor-combination rules, protective-device characteristics, voltage-drop criteria, fault-loop and disconnection requirements, thermal-withstand methods, mechanical protection, environmental suitability, neutral treatment, alternate-supply treatment and jurisdiction-specific acceptance criteria remain `reference_check_required`. This module is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 8 — Maximum Demand](./day-08-maximum-demand.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 10 — Installation Conditions and Derating →](./day-10-installation-conditions-and-derating.md)
+<!-- sequence-navigation:end -->

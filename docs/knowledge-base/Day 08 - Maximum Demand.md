@@ -100,3 +100,12 @@ Maximum demand is an input to later cable, protection, voltage-drop and switchbo
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact maximum-demand methods, categories, tables, factors, exceptions, conversion requirements, phase rules, alternate-supply treatment and jurisdiction-specific acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 07 - Week 1 Consolidation and Competency Check](./Day%2007%20-%20Week%201%20Consolidation%20and%20Competency%20Check.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-08-maximum-demand.md)
+- [Next: Day 09 - Complete Cable-Selection Workflow →](./Day%2009%20-%20Complete%20Cable-Selection%20Workflow.md)
+<!-- sequence-navigation:end -->

@@ -78,3 +78,12 @@ A strong capstone response should:
 ## Next link
 
 - [[Day 04 - RCD Protection and Additional Protection]]
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 02 - Fundamental Safety Principles](./Day%2002%20-%20Fundamental%20Safety%20Principles.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-03-overcurrent-protection.md)
+- [Next: Day 04 - RCD Protection and Additional Protection →](./Day%2004%20-%20RCD%20Protection%20and%20Additional%20Protection.md)
+<!-- sequence-navigation:end -->

@@ -345,3 +345,11 @@ Before publication or operational use, a qualified reviewer must verify against 
 - inspection, testing, commissioning, documentation and maintenance requirements.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 20B — Motors and Associated Protection](./day-20b-motors-and-associated-protection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- Next: no later module has been created yet
+<!-- sequence-navigation:end -->

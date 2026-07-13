@@ -64,3 +64,12 @@ This note authorises no opening, touching, switching, isolation, testing, instal
 - [[Four-Week Capstone Learning Plan]]
 - [[Learning Design]]
 - Current authorised standards, regulator guidance, manufacturer instructions and RTO procedures where the original technical module requires them.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 18 - Other Special Installations and Locations](./Day%2018%20-%20Other%20Special%20Installations%20and%20Locations.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-19-rest-retrieval-and-catch-up.md)
+- [Next: Day 20A - Fixed Appliances and Local Isolation →](./Day%2020A%20-%20Fixed%20Appliances%20and%20Local%20Isolation.md)
+<!-- sequence-navigation:end -->

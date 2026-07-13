@@ -350,3 +350,11 @@ Continue to **Day 3 — Overcurrent Protection**, where the safety principles ar
 - RTO assessment and supervision requirements — `reference_check_required`.
 
 **Content status:** `review-required`. This original educational draft must be checked by a suitably qualified reviewer before product use. It must not be treated as a complete safe-work method or labelled `technically-reviewed` without documented review against current authorised sources.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 1 — Exam Orientation and Wiring Rules Navigation](./day-01-exam-orientation-and-wiring-rules-navigation.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 3 — Overcurrent Protection →](./day-03-overcurrent-protection.md)
+<!-- sequence-navigation:end -->

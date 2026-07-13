@@ -61,3 +61,12 @@ The learner should be able to reason about the board as an assembly rather than 
 - RTO directions and supervised practical procedures.
 
 No standards wording, tables, figures, dimensions, ratings or field construction instructions are reproduced. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 13A - Switching Isolation and Main Switches](./Day%2013A%20-%20Switching%20Isolation%20and%20Main%20Switches.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-13b-switchboard-construction-and-arrangements.md)
+- [Next: Day 13C - Switchboard Defect Inspection →](./Day%2013C%20-%20Switchboard%20Defect%20Inspection.md)
+<!-- sequence-navigation:end -->

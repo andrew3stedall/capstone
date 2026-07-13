@@ -199,3 +199,11 @@ The learner is ready to continue when they can organise a paper review using **B
 ### Review boundary
 
 This module remains `review-required`, safety-critical and `reference_check_required`. Exact construction and acceptance requirements require current authorised sources and qualified technical review.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 13A — Switching, Isolation and Main Switches](./day-13a-switching-isolation-and-main-switches.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 13C — Switchboard Defect Inspection →](./day-13c-switchboard-defect-inspection.md)
+<!-- sequence-navigation:end -->

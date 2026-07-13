@@ -375,3 +375,11 @@ Use only current authorised versions applicable to the task, including:
 - RTO assessment directions and supervised practical requirements.
 
 No standards wording, demand tables, cable tables, correction-factor datasets, voltage-drop limits, device curves, switchboard ratings or official defect classifications are reproduced here. Publication requires editorial review and qualified technical review.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 13C — Switchboard Defect Inspection](./day-13c-switchboard-defect-inspection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 15 — Wiring Systems and Mechanical Protection →](./day-15-wiring-systems-and-mechanical-protection.md)
+<!-- sequence-navigation:end -->

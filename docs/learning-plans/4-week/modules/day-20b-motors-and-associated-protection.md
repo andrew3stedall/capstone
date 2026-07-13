@@ -353,3 +353,11 @@ Before publication or operational use, a qualified reviewer must verify against 
 - isolation, switching, earthing, testing, documentation and jurisdiction-specific requirements.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 20A — Fixed Appliances and Local Isolation](./day-20a-fixed-appliances-and-local-isolation.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 20C — Alternative and Multiple Supplies Awareness →](./day-20c-alternative-and-multiple-supplies-awareness.md)
+<!-- sequence-navigation:end -->

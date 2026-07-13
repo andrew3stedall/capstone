@@ -286,3 +286,11 @@ Proceed to **Day 7 — Week 1 Consolidation and Competency Check** to retrieve a
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 This module contains original organisation, explanation, diagrams, scenarios and assessment prompts. It does not reproduce standards wording, tables or figures. A suitably qualified reviewer must verify the technical interpretation before the status can move beyond `review-required`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 6B — MEN Fault-Current Path](./day-06b-men-fault-current-path.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 7 — Week 1 Consolidation and Competency Check →](./day-07-week-1-consolidation-and-competency-check.md)
+<!-- sequence-navigation:end -->

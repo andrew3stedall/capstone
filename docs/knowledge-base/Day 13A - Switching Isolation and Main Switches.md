@@ -60,3 +60,12 @@ The learner should be able to distinguish switching from isolation, reason from 
 - RTO directions and supervised practical procedures.
 
 No clause wording, tables, prescribed values or field isolation sequence is reproduced. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 12 - Rest Calculation Correction and Catch-Up](./Day%2012%20-%20Rest%20Calculation%20Correction%20and%20Catch-Up.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-13a-switching-isolation-and-main-switches.md)
+- [Next: Day 13B - Switchboard Construction and Arrangements →](./Day%2013B%20-%20Switchboard%20Construction%20and%20Arrangements.md)
+<!-- sequence-navigation:end -->

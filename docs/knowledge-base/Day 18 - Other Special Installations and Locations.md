@@ -69,3 +69,12 @@ This note does not authorise opening, touching, testing, switching, isolation, i
 - Current manufacturer instructions for equipment and wiring systems used in the relevant environment.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 17 - Bathrooms Showers and Other Wet Areas](./Day%2017%20-%20Bathrooms%20Showers%20and%20Other%20Wet%20Areas.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-18-other-special-installations-and-locations.md)
+- [Next: Day 19 - Rest Retrieval and Catch-Up →](./Day%2019%20-%20Rest%20Retrieval%20and%20Catch-Up.md)
+<!-- sequence-navigation:end -->

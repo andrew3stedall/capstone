@@ -318,3 +318,11 @@ The learner is ready to continue when they can distinguish device function from 
 - [[Wiring Rules and Design]]
 
 **Next:** Day 13B — Switchboard Construction and Arrangements.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 12 — Rest, Calculation Correction and Catch-Up](./day-12-rest-calculation-correction-and-catch-up.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 13B — Switchboard Construction and Arrangements →](./day-13b-switchboard-construction-and-arrangements.md)
+<!-- sequence-navigation:end -->

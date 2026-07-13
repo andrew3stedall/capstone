@@ -51,3 +51,12 @@ A defensible capstone response should explain what the device monitors, what haz
 - Applicable workplace and RTO requirements.
 
 All exact circuit categories, exceptions, device types, residual-current ratings, operating times, test criteria, leakage limits and clause references remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 03 - Overcurrent Protection](./Day%2003%20-%20Overcurrent%20Protection.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-04-rcd-protection-and-additional-protection.md)
+- [Next: Day 05 - Rest Retrieval and Catch-Up →](./Day%2005%20-%20Rest%20Retrieval%20and%20Catch-Up.md)
+<!-- sequence-navigation:end -->

@@ -318,3 +318,11 @@ Before publication or operational use, a qualified reviewer must verify against 
 - current manufacturer, regulator, network and RTO requirements.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 17 — Bathrooms, Showers and Other Wet Areas](./day-17-bathrooms-showers-and-other-wet-areas.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 19 — Rest, Retrieval and Catch-Up →](./day-19-rest-retrieval-and-catch-up.md)
+<!-- sequence-navigation:end -->

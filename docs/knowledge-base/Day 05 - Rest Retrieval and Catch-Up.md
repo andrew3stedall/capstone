@@ -63,3 +63,12 @@ High-confidence errors take priority over low-confidence omissions.
 - Days 1–4 modules and their listed authorised sources.
 
 This note adds no new electrical rules. Any technical correction retains the review and source-verification status of the module from which it came.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 04 - RCD Protection and Additional Protection](./Day%2004%20-%20RCD%20Protection%20and%20Additional%20Protection.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-05-rest-retrieval-and-catch-up.md)
+- [Next: Day 06A - Earthing Terminology and Component Roles →](./Day%2006A%20-%20Earthing%20Terminology%20and%20Component%20Roles.md)
+<!-- sequence-navigation:end -->

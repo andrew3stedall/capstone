@@ -66,3 +66,12 @@ This note does not authorise opening, drilling, excavation, testing, live access
 - Current manufacturer instructions for cable, enclosure, support, fitting, gland and equipment compatibility.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 14 - Week 2 Integrated Design Exercise](./Day%2014%20-%20Week%202%20Integrated%20Design%20Exercise.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-15-wiring-systems-and-mechanical-protection.md)
+- [Next: Day 16 - Consumer Mains Submains and Final Subcircuits →](./Day%2016%20-%20Consumer%20Mains%20Submains%20and%20Final%20Subcircuits.md)
+<!-- sequence-navigation:end -->

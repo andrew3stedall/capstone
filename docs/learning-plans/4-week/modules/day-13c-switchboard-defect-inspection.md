@@ -213,3 +213,11 @@ The learner is ready to continue when they can inspect a paper or externally vis
 ### Review boundary
 
 This module remains `review-required`, safety-critical and `reference_check_required`. Exact defect categories, inspection procedures, access controls, emergency responses, reporting duties and acceptance criteria require current authorised sources and qualified technical review.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 13B — Switchboard Construction and Arrangements](./day-13b-switchboard-construction-and-arrangements.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 14 — Week 2 Integrated Design Exercise →](./day-14-week-2-integrated-design-exercise.md)
+<!-- sequence-navigation:end -->

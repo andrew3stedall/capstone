@@ -344,3 +344,11 @@ Proceed to [Day 6A — Earthing Terminology and Component Roles](./day-06a-earth
 - Days 1–4 modules and their listed authorised sources.
 
 This module contains original study guidance and no copied standards content. Technical corrections made during the session retain the `review-required` or `reference_check_required` status of their source modules until reviewed against current authorised material.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 4 — RCD Protection and Additional Protection](./day-04-rcd-protection-and-additional-protection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 6A — Earthing Terminology and Component Roles →](./day-06a-earthing-terminology-and-component-roles.md)
+<!-- sequence-navigation:end -->

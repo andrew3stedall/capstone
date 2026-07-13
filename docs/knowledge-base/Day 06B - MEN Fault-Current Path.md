@@ -85,3 +85,12 @@ A strong response traces the entire loop rather than saying only “the breaker 
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact MEN arrangements, connection points, conductor requirements, fault-loop methods, device characteristics, operating times, touch-voltage criteria, testing requirements, exceptions and clause references remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 06A - Earthing Terminology and Component Roles](./Day%2006A%20-%20Earthing%20Terminology%20and%20Component%20Roles.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-06b-men-fault-current-path.md)
+- [Next: Day 06C - Earthing and MEN Fault Scenarios →](./Day%2006C%20-%20Earthing%20and%20MEN%20Fault%20Scenarios.md)
+<!-- sequence-navigation:end -->

@@ -89,3 +89,12 @@ The block develops observable capabilities in:
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
 Exact installation classifications, reference conditions, current-carrying-capacity values, ambient-temperature treatment, grouping rules, thermal-insulation treatment, enclosure and underground factors, factor-combination methods, exceptions and acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 09 - Complete Cable-Selection Workflow](./Day%2009%20-%20Complete%20Cable-Selection%20Workflow.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-10-installation-conditions-and-derating.md)
+- [Next: Day 11 - Voltage Drop →](./Day%2011%20-%20Voltage%20Drop.md)
+<!-- sequence-navigation:end -->

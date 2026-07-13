@@ -65,3 +65,12 @@ This note does not authorise opening, touching, switching, isolating, testing, l
 - Current legislation, regulator guidance, manufacturer instructions and RTO procedures.
 - Exact classifications, device requirements, pole and neutral arrangements, location, accessibility, identification, securing and verification requirements remain `reference_check_required`.
 - **Review state:** safety-critical; `review-required`; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 19 - Rest Retrieval and Catch-Up](./Day%2019%20-%20Rest%20Retrieval%20and%20Catch-Up.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-20a-fixed-appliances-and-local-isolation.md)
+- [Next: Day 20B - Motors and Associated Protection →](./Day%2020B%20-%20Motors%20and%20Associated%20Protection.md)
+<!-- sequence-navigation:end -->

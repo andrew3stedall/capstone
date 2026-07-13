@@ -90,3 +90,12 @@ The block checks whether the learner can:
 - Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
 
 This recovery note is `draft-unverified` because its learning design has not been independently reviewed. It contains no new technical requirements and inherits the review status of any technical claim revisited from Days 8–11.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 11 - Voltage Drop](./Day%2011%20-%20Voltage%20Drop.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-12-rest-calculation-correction-and-catch-up.md)
+- [Next: Day 13A - Switching Isolation and Main Switches →](./Day%2013A%20-%20Switching%20Isolation%20and%20Main%20Switches.md)
+<!-- sequence-navigation:end -->

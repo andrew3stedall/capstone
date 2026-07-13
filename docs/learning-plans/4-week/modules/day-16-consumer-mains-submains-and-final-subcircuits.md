@@ -322,3 +322,11 @@ Write one sentence for each prompt:
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
 
 Before publication, a qualified reviewer must verify formal circuit classifications, supply boundaries, consumer-mains requirements, submain and final-subcircuit arrangements, protection, neutral and earthing treatment, voltage-drop and fault-performance methods, switching/isolation, labelling, board ratings, alternative supplies and jurisdiction-specific obligations against current authorised sources.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 15 — Wiring Systems and Mechanical Protection](./day-15-wiring-systems-and-mechanical-protection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 17 — Bathrooms, Showers and Other Wet Areas →](./day-17-bathrooms-showers-and-other-wet-areas.md)
+<!-- sequence-navigation:end -->

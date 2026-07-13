@@ -68,3 +68,12 @@ This note does not authorise opening, touching, testing, switching, isolation, i
 - Current manufacturer instructions for electrical equipment and wiring systems used in wet locations.
 
 **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 16 - Consumer Mains Submains and Final Subcircuits](./Day%2016%20-%20Consumer%20Mains%20Submains%20and%20Final%20Subcircuits.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-17-bathrooms-showers-and-other-wet-areas.md)
+- [Next: Day 18 - Other Special Installations and Locations →](./Day%2018%20-%20Other%20Special%20Installations%20and%20Locations.md)
+<!-- sequence-navigation:end -->

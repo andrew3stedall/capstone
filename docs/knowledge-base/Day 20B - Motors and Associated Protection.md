@@ -61,3 +61,12 @@ This note is `review-required`, `reference_check_required`, safety-critical and 
 - **Previous:** [[Day 20A - Fixed Appliances and Local Isolation]]
 - **Plan:** [[Four-Week Capstone Learning Plan]]
 - **Next:** [[Day 20C - Alternative and Multiple Supplies Awareness]]
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 20A - Fixed Appliances and Local Isolation](./Day%2020A%20-%20Fixed%20Appliances%20and%20Local%20Isolation.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-20b-motors-and-associated-protection.md)
+- [Next: Day 20C - Alternative and Multiple Supplies Awareness →](./Day%2020C%20-%20Alternative%20and%20Multiple%20Supplies%20Awareness.md)
+<!-- sequence-navigation:end -->
