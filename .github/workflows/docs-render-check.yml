@@ -7,6 +7,7 @@ on:
     paths:
       - 'docs/**'
       - 'scripts/normalize-mermaid.mjs'
+      - 'scripts/sync-learning-plan-navigation.mjs'
       - 'scripts/validate-docs.mjs'
       - 'scripts/validate-mermaid.mjs'
       - '.github/workflows/docs-render-check.yml'
@@ -14,12 +15,13 @@ on:
     paths:
       - 'docs/**'
       - 'scripts/normalize-mermaid.mjs'
+      - 'scripts/sync-learning-plan-navigation.mjs'
       - 'scripts/validate-docs.mjs'
       - 'scripts/validate-mermaid.mjs'
       - '.github/workflows/docs-render-check.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   render-audit:
@@ -36,6 +38,24 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+
+      - name: Synchronise four-week sequence navigation
+        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
+        run: node scripts/sync-learning-plan-navigation.mjs
+
+      - name: Commit sequence navigation updates
+        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
+        shell: bash
+        run: |
+          if git diff --quiet -- docs/learning-plans/4-week/modules docs/knowledge-base; then
+            echo 'Sequence navigation is already current.'
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add docs/learning-plans/4-week/modules docs/knowledge-base
+            git commit -m 'docs: sync four-week sequence navigation'
+            git push origin HEAD:automation/4-week-learning-plan
+          fi
 
       - name: Check normalized Mermaid source
         shell: bash
