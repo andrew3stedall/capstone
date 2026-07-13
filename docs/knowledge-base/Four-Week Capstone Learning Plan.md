@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 14 - Week 2 Integrated Design Exercise]] completes the Week 2 circuit-design and switchboard sequence. It uses the D-E-S-I-G-N workflow to connect demand, cable selection, route conditions, voltage drop, possible supplies, switchboard evidence and a bounded recommendation without presenting fictional exercise data as technical approval.
+- [[Day 15 - Wiring Systems and Mechanical Protection]] begins Week 3 by extending cable-selection reasoning from electrical capacity to the complete physical wiring system. It uses the R-O-U-T-E workflow to map exposure zones, transitions, foreseeable activity and evidence gaps without asserting unverified dimensions, classifications or installation permissions.
 
 ## Practical application
 
