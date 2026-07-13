@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 19 - Rest Retrieval and Catch-Up]] consolidates Days 15–18 through the R-E-S-E-T correction workflow, closed-note retrieval, catch-up triage and a bounded readiness check for fixed appliances and local isolation.
+- [[Day 20A - Fixed Appliances and Local Isolation]] introduces the L-O-C-K evidence workflow, separates appliance control, protection and isolation functions, and requires a complete energy-source map before a bounded local-isolation conclusion.
 
 ## Practical application
 
