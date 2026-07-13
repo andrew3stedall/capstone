@@ -2,8 +2,10 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
 reference_check_required: true
+quality_passes:
+  - 2026-07-14-source-hierarchy-and-evidence-quality
 ---
 
 # Day 01 - Exam Orientation and Wiring Rules Navigation
@@ -16,20 +18,30 @@ This note maps the source-navigation capability developed in the first block of 
 
 ## Core idea
 
-A defensible answer begins by identifying who controls the question. Assessment conditions come from the current RTO or assessor instructions. Technical installation requirements come from the applicable authorised current standard, legislation, regulator material, manufacturer instructions or other governing source.
+A defensible answer begins by identifying who controls the question. Assessment conditions come from current RTO or assessor instructions. Technical requirements may come from legislation, regulation, an authorised standard, regulator or network material, manufacturer information or an approved workplace procedure.
 
-The learner then converts the scenario into technical concepts, uses document structure to navigate, follows relevant definitions and cross-references, and records an evidence trail.
+The learner then converts the scenario into technical concepts, selects the likely source family, navigates the document structure, follows definitions and cross-references, checks applicability and records an evidence trail.
 
-## Navigation sequence
+## S-O-U-R-C-E navigation sequence
 
-1. classify the question;
-2. extract the equipment, action and condition;
-3. choose the likely source family;
-4. use contents, headings, index entries and defined terms;
-5. read scope, context and exceptions;
-6. follow cross-references;
-7. state the decision in original words;
-8. record source, edition, location and unresolved checks.
+1. **Separate** the question type.
+2. Extract the **object, action and condition**.
+3. **Use** the likely controlling source family.
+4. **Read** scope, definitions, exceptions and cross-references.
+5. **Confirm** applicability and completeness.
+6. **Explain** the conclusion in original words and record the evidence trail.
+
+## Evidence-quality model
+
+Evidence strengthens through a sequence:
+
+1. memory, snippet or informal note — search aid only;
+2. relevant secondary explanation;
+3. authorised current source located;
+4. edition, scope, definitions and references checked;
+5. scenario-specific conclusion with a reproducible evidence trail.
+
+Confidence does not substitute for any step.
 
 ## Prerequisites
 
@@ -43,17 +55,29 @@ The learner then converts the scenario into technical concepts, uses document st
 - [[Learning and Memory System]]
 - [[Fundamental Safety Principles]]
 - [[Verification Overview]]
+- [[Day 02 - Fundamental Safety Principles]]
 
 ## Practical application
 
 - timed source-navigation drills;
-- locating a formal term from plain-language scenario wording;
-- distinguishing RTO instructions from technical requirements;
-- recording a traceable evidence path for a design, installation or verification decision.
+- translating plain-language wording into technical search concepts;
+- distinguishing assessment instructions from technical requirements;
+- selecting the controlling source family before searching;
+- checking whether a relevant passage is operative, applicable and complete;
+- recording a traceable evidence path for a design, installation or verification decision;
+- remediating one failed navigation step with a varied scenario.
 
 ## Assessment relevance
 
-Navigation should be assessed separately from factual recall. Useful evidence includes correct source selection, efficient search concepts, use of definitions and cross-references, a conclusion tied to the scenario, and explicit identification of unresolved verification points.
+Navigation should be assessed separately from factual recall. Evidence should include:
+
+- correct question classification and source-family selection;
+- concise object, action and condition search concepts;
+- efficient use of contents, headings, indexes and defined terms;
+- review of scope, exceptions and cross-references;
+- a conclusion tied to the material scenario facts;
+- an evidence trail containing source, edition, location, reasoning and unresolved checks;
+- confidence before and after verification.
 
 Exact assessment conditions vary. Current RTO instructions remain `reference_check_required`.
 
@@ -61,20 +85,37 @@ Exact assessment conditions vary. Current RTO instructions remain `reference_che
 
 - the first search result contains the complete answer;
 - an index entry is itself the technical requirement;
-- a remembered clause number is reliable across editions;
+- a relevant passage must be applicable;
+- a remembered clause number remains reliable across editions;
+- a summary or screenshot is equivalent to an authorised source;
 - all capstone assessments use the same format and permitted resources;
-- copying wording proves correct application.
+- copied wording proves correct application;
+- high confidence increases evidence quality.
+
+## Remediation tags
+
+Use one tag per failed attempt:
+
+- `wrong-question-type`
+- `weak-search-concepts`
+- `wrong-source-family`
+- `missed-definition-or-reference`
+- `incomplete-applicability-check`
+- `unsupported-conclusion`
+- `poor-evidence-record`
+
+Correct the smallest identified failure, then use a different scenario.
 
 ## References
 
 - [[AS-NZS-3000-2018-Index]]
 - [Learning Design](../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
-- Authorised current standards, applicable legislation and current RTO instructions — `reference_check_required`.
+- Authorised current standards, applicable legislation, regulator and network material, manufacturer information and current RTO instructions — `reference_check_required`.
 
 ## Review status
 
-`review-required` — original educational content only. No exact technical value, clause location, universal assessment rule or safety-critical procedure has been asserted.
+`review-required` — original educational content only. The quality pass improved source hierarchy, applicability checks, evidence-quality criteria and remediation. No exact technical value, clause location, universal assessment rule, copied standards content or safety-critical procedure has been asserted. The note is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
