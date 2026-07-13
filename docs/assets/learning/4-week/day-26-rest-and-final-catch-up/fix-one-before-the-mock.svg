@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Fix one misconception before the mock</title>
+  <desc id="desc">A black-and-white stick figure selects one card marked with an exclamation point while a closed mock examination paper waits on a desk.</desc>
+  <rect width="900" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="210" cy="145" r="42"/>
+    <path d="M210 187v120M210 225l-78 58M210 225l88 22M210 307l-64 104M210 307l76 104"/>
+    <rect x="310" y="180" width="105" height="135" rx="8"/>
+    <path d="M362 210v52M362 286h1"/>
+    <path d="M520 330h270M560 330v85M750 330v85"/>
+    <rect x="580" y="210" width="170" height="90" rx="8"/>
+    <path d="M610 235h110M610 265h85"/>
+    <path d="M300 247l28-12"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="665" y="190" font-size="26">MOCK</text>
+    <text x="450" y="462" font-size="28">Fix one dangerous belief, not the whole backlog.</text>
+  </g>
+</svg>
