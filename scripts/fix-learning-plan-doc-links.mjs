@@ -2,6 +2,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
+// Keep these repairs explicit so deleted or renamed learning notes cannot silently reintroduce broken links.
 const repoRoot = process.cwd();
 const target = path.join(
   repoRoot,
