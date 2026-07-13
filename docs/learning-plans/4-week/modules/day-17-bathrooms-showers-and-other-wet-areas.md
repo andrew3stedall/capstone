@@ -290,7 +290,7 @@ Write one sentence for each prompt:
 
 - **Previous:** [Day 16 — Consumer Mains, Submains and Final Subcircuits](./day-16-consumer-mains-submains-and-final-subcircuits.md)
 - **Knowledge note:** [[Day 17 - Bathrooms Showers and Other Wet Areas]]
-- **Next:** Day 18 — Other Special Installations and Locations
+- **Next:** [Day 18 — Other Special Installations and Locations](./day-18-other-special-installations-and-locations.md)
 
 ## Technical-review flags
 
