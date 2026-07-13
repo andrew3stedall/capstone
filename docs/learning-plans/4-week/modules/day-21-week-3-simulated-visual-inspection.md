@@ -353,5 +353,5 @@ Before publication or operational use, a qualified reviewer must verify against 
 
 - [← Previous: Day 20C — Alternative and Multiple Supplies Awareness](./day-20c-alternative-and-multiple-supplies-awareness.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 22 — Verification Principles and Visual Inspection →](./day-22-verification-principles-and-visual-inspection.md)
 <!-- sequence-navigation:end -->

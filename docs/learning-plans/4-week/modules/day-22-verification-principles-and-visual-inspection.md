@@ -126,15 +126,15 @@ Use **V-E-R-I-F-Y** before making a verification conclusion.
 
 ```mermaid
 flowchart TD
-    A[Define subject scope and exclusions] --> B[Establish sources state and safe preconditions]
-    B --> C[Locate current authorised criteria]
-    C --> D[Inspect visible installation and records]
-    D --> E{Is evidence complete and consistent?}
-    E -- No --> F[Record gap conflict or stop condition]
-    F --> G[Identify authorised verification need]
-    E -- Yes --> H[Apply approved purpose-specific tests where required]
-    H --> I[Reconcile inspection test and documentary evidence]
-    I --> J[Issue bounded verification record]
+    A["Define subject scope and exclusions"] --> B["Establish sources state and safe preconditions"]
+    B --> C["Locate current authorised criteria"]
+    C --> D["Inspect visible installation and records"]
+    D --> E{"Is evidence complete and consistent?"}
+    E -- No --> F["Record gap conflict or stop condition"]
+    F --> G["Identify authorised verification need"]
+    E -- Yes --> H["Apply approved purpose-specific tests where required"]
+    H --> I["Reconcile inspection test and documentary evidence"]
+    I --> J["Issue bounded verification record"]
 ```
 
 ### Source-record pattern
@@ -157,12 +157,12 @@ Do not turn references into copied standards content.
 
 ```mermaid
 flowchart LR
-    D[Design intent] --> C{Converging evidence?}
-    V[Visual inspection] --> C
-    T[Approved test evidence] --> C
-    R[Records and equipment data] --> C
-    C -- Yes --> B[Bounded supported conclusion]
-    C -- No --> G[Gap conflict or further authorised review]
+    D["Design intent"] --> C{"Converging evidence?"}
+    V["Visual inspection"] --> C
+    T["Approved test evidence"] --> C
+    R["Records and equipment data"] --> C
+    C -- Yes --> B["Bounded supported conclusion"]
+    C -- No --> G["Gap conflict or further authorised review"]
 ```
 
 ### Fictional worked example
