@@ -70,3 +70,12 @@ This note does not provide an official checklist, test method, sequence, accepta
 - [[Learning Design]]
 - [[AS-NZS-3000-2018-Index]]
 - Current authorised standards, legislation, regulator guidance, manufacturer instructions and approved RTO procedures.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 21 - Week 3 Simulated Visual Inspection](./Day%2021%20-%20Week%203%20Simulated%20Visual%20Inspection.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-22-verification-principles-and-visual-inspection.md)
+- Next: no later module has been created yet
+<!-- sequence-navigation:end -->
