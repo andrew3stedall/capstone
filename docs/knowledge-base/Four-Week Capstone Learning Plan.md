@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 20B - Motors and Associated Protection]] introduces the M-O-T-O-R evidence workflow, separates motor-system operating cases and protection functions, and requires coordinated motor, driven-machine, circuit, control, restart and isolation evidence before a bounded conclusion.
+- [[Day 20C - Alternative and Multiple Supplies Awareness]] introduces the S-O-U-R-C-E evidence workflow, maps normal, generated, stored, auxiliary and feedback-capable paths, and separates transfer, control, protection and isolation claims before a bounded conclusion.
 
 ## Practical application
 
