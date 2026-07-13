@@ -2,14 +2,16 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
+quality_pass_completed_on: 2026-07-14
 safety_critical: true
 reference_check_required: true
+practical_authorisation: none
 ---
 
 # Day 03 - Overcurrent Protection
 
-Overcurrent protection coordinates the expected load, conductor capability, protective-device behaviour and available fault current. It must address both sustained overload and high-current fault conditions without relying on one rating in isolation.
+Overcurrent protection coordinates expected load, conductor capability, protective-device behaviour and available fault current. Suitability cannot be established from one printed rating.
 
 ## Learning module
 
@@ -32,40 +34,58 @@ Overcurrent protection coordinates the expected load, conductor capability, prot
 
 ## Core distinction
 
-- **Overload:** excessive current in an otherwise intended current path.
-- **Short circuit:** current through an unintended low-impedance path.
+- **Overload:** excessive current in an intended, electrically sound path.
+- **Short circuit:** current through an unintended relatively low-impedance path.
 - **Overcurrent:** the broader category containing both.
 
-The protective decision depends on the relationship among:
+Classify an event using **path**, **magnitude** and **time**. This supports diagnosis but does not replace authorised device data or installation rules.
 
-1. design current and load duty;
-2. conductor current-carrying capacity under actual installation conditions;
-3. protective-device rating, setting and time-current behaviour;
-4. prospective fault current and device breaking capacity;
-5. equipment requirements and upstream/downstream coordination.
+## P-R-O-T-E-C-T workflow
+
+1. **Purpose and duty** — identify load, duty and starting behaviour.
+2. **Route and conductor** — establish the actual conductor and installation conditions.
+3. **Overcurrent scenarios** — separate overload, short circuit, other faults and normal inrush.
+4. **Technical sources** — locate current authorised requirements and exact device data.
+5. **Evaluate relationships** — verify load, conductor, device, fault operation and breaking capacity.
+6. **Coordination and compatibility** — check equipment and upstream/downstream relationships.
+7. **Trace and stop** — record sources, assumptions and unresolved checks.
+
+## Evidence discipline
+
+Separate:
+
+- observed or supplied facts;
+- authorised technical evidence;
+- assumptions requiring resolution.
+
+An assumption can identify the next question but cannot complete a protection justification.
 
 ## Practical application
 
-Use the module's evidence sheet to assess a final subcircuit, motor circuit or submain. The learner should classify abnormal-current scenarios, identify missing evidence and justify why the chosen device protects the conductor and can interrupt the relevant fault current.
+Use the module evidence record on a final subcircuit, motor circuit or submain. The learner must classify abnormal-current scenarios, sketch current paths, identify missing evidence, distinguish residual-current and overcurrent functions, and state a stop decision when a claim cannot be verified.
 
-Do not treat fitting a larger protective device as a remedy for repeated operation until the cause, conductor capacity, equipment duty, fault performance and applicable requirements are established.
+Do not treat a larger protective device as a remedy for repeated operation until the cause, conductor capability, equipment duty, fault performance and applicable requirements are established.
 
 ## Assessment relevance
 
-A strong capstone response should:
+A strong response should:
 
-- distinguish overload from short circuit;
-- avoid selecting protection from load current alone;
+- distinguish overload from short circuit by cause and path;
+- apply P-R-O-T-E-C-T without skipping fault interruption;
 - account for actual conductor installation conditions;
-- explain prospective fault current and breaking capacity;
-- distinguish residual-current protection from overcurrent protection;
-- state which exact values and device characteristics require authorised verification.
+- distinguish rated current, time-current behaviour and breaking capacity;
+- expose assumptions rather than inventing values;
+- state a specific safety boundary and escalation route;
+- complete a varied re-attempt after feedback.
+
+The six-category rubric covers event classification, conductor reasoning, device reasoning, fault interruption, evidence discipline and safety boundary. A critical-category zero requires correction before progression.
 
 ## Review flags
 
 - `review-required`: qualified educational and technical review before product use.
-- `reference_check_required`: exact current relationships, correction factors, fault-clearing conditions, operating times, device curves, breaking capacities, selectivity claims, clause references and jurisdiction-specific requirements.
-- Automated content must not be marked `technically-reviewed` without evidence of qualified review against authorised current sources.
+- `reference_check_required`: exact relationships, correction factors, fault-clearing conditions, operating times, device curves, breaking capacities, selectivity claims, clause references and jurisdiction-specific requirements.
+- Not `technically-reviewed`.
+- No authority for opening, testing, resetting, replacing, altering or energising electrical equipment.
 
 ## References
 
