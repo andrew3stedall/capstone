@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 17 - Bathrooms Showers and Other Wet Areas]] develops the W-A-T-E-R workflow for identifying fixed water features, mapping provisional geometry, classifying equipment and checking location, construction, circuit and installation evidence without guessing zone dimensions or permissions.
+- [[Day 18 - Other Special Installations and Locations]] develops the S-C-O-P-E workflow for recording situation facts, identifying overlapping special-installation triggers, verifying formal scope and building a combined evidence matrix without inventing definitions, dimensions, ratings or permissions.
 
 ## Practical application
 
