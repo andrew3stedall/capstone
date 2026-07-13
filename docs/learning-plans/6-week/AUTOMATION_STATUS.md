@@ -19,6 +19,30 @@ pull_request: 6
 
 ## Completed increments
 
+### 2026-07-14 — Day 2: Hazard, risk, exposure and critical controls
+
+Completed the second dedicated six-week module as an evidence-controlled safety-reasoning block.
+
+Completed work:
+
+- created the full eight-beat Day 2 module;
+- defined observable objectives covering hazard, exposure, consequence, risk, critical controls, verification and stop decisions;
+- introduced the original S-C-O-P-E rule-finding and safety-analysis workflow;
+- added two valid Mermaid diagrams explaining the exposure chain and verification gates;
+- created an original accessible black-and-white SVG illustrating the need to stop at missing evidence;
+- added three paper-based scenario analyses and a changed-condition transfer task;
+- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept and reciprocal navigation links;
+- linked Day 2 directly from the master plan;
+- preserved explicit safety, authorisation, source-currency and copyright boundaries.
+
+Files created or updated:
+
+- `docs/learning-plans/6-week/modules/day-02-hazard-risk-exposure-and-critical-controls.md`
+- `docs/assets/learning/6-week/day-02-hazard-risk-exposure-and-critical-controls/trace-before-action.svg`
+- `docs/knowledge-base/Six-Week Day 02 - Hazard Risk Exposure and Critical Controls.md`
+- `docs/learning-plans/6-week/MASTER_PLAN.md`
+- `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
+
 ### 2026-07-14 — Day 1: Program orientation, assessment map and source hierarchy
 
 Completed the first dedicated six-week module as a baseline-and-planning block rather than duplicating the four-week source-navigation lesson.
@@ -69,19 +93,21 @@ Files created or updated:
 - Program status: `active`
 - Day 1 content status: `review-required`
 - Day 1 exact RTO assessment arrangements and technical-source claims: `reference_check_required`
-- Day 1 is planning and simulated learning content; it authorises no electrical work or testing
+- Day 2 content status: `review-required`
+- Day 2 exact safety duties, procedural requirements and jurisdiction-specific claims: `reference_check_required`
+- Day 1 and Day 2 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
 - No standards tables, figures, systematic clause wording or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 2 — Hazard, risk, exposure and critical controls**
+**Day 3 — Fundamental protection concepts and fault types**
 
-Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal Day 1/Day 2 navigation and updated status record.
+Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal Day 2/Day 3 navigation and updated status record.
