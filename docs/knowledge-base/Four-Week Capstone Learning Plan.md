@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 13C - Switchboard Defect Inspection]] completes the Week 2 switchboard sequence. It separates observations, indicators, defect conclusions and causes, then uses the S-I-G-N-S workflow to organise a bounded visual or documentary review without authorising physical intervention.
+- [[Day 14 - Week 2 Integrated Design Exercise]] completes the Week 2 circuit-design and switchboard sequence. It uses the D-E-S-I-G-N workflow to connect demand, cable selection, route conditions, voltage drop, possible supplies, switchboard evidence and a bounded recommendation without presenting fictional exercise data as technical approval.
 
 ## Practical application
 
