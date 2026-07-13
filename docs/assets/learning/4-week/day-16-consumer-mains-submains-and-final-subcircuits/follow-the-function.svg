@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Follow the function</title>
+  <desc id="desc">A black-and-white stick figure follows three labelled circuit sections from supply to main board, distribution board and final load instead of guessing from cable appearance.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g stroke="black" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="120" width="150" height="120"/>
+    <rect x="405" y="120" width="150" height="120"/>
+    <rect x="740" y="120" width="150" height="120"/>
+    <line x1="220" y1="180" x2="405" y2="180"/>
+    <line x1="555" y1="180" x2="740" y2="180"/>
+    <circle cx="480" cy="310" r="22"/>
+    <line x1="480" y1="332" x2="480" y2="375"/>
+    <line x1="480" y1="345" x2="445" y2="360"/>
+    <line x1="480" y1="345" x2="520" y2="325"/>
+    <line x1="480" y1="375" x2="455" y2="405"/>
+    <line x1="480" y1="375" x2="510" y2="405"/>
+    <path d="M520 325 Q600 280 690 235"/>
+    <path d="M682 233 l20 -4 -9 18"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="145" y="160" font-size="25" font-weight="700">SUPPLY</text>
+    <text x="145" y="195" font-size="20">boundary</text>
+    <text x="480" y="160" font-size="25" font-weight="700">BOARD</text>
+    <text x="480" y="195" font-size="20">distribution</text>
+    <text x="815" y="160" font-size="25" font-weight="700">LOAD</text>
+    <text x="815" y="195" font-size="20">final use</text>
+    <text x="312" y="155" font-size="19">incoming role?</text>
+    <text x="647" y="155" font-size="19">final role?</text>
+    <text x="480" y="65" font-size="32" font-weight="700">CLASSIFY THE JOB, NOT THE LOOK</text>
+  </g>
+</svg>
