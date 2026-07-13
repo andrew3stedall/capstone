@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Trace the complete hazard path</title>
+  <desc id="desc">A black-and-white stick figure learner uses a clipboard to trace arrows from an electrical hazard, through an exposure pathway, to a possible consequence, then points to a stop sign where evidence is missing.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="96" r="28"/>
+    <line x1="110" y1="124" x2="110" y2="220"/>
+    <line x1="110" y1="150" x2="58" y2="190"/>
+    <line x1="110" y1="150" x2="172" y2="170"/>
+    <line x1="110" y1="220" x2="72" y2="292"/>
+    <line x1="110" y1="220" x2="150" y2="292"/>
+    <rect x="165" y="138" width="94" height="122" rx="8"/>
+    <line x1="184" y1="168" x2="238" y2="168"/>
+    <line x1="184" y1="194" x2="238" y2="194"/>
+    <line x1="184" y1="220" x2="225" y2="220"/>
+
+    <rect x="320" y="88" width="150" height="92" rx="12"/>
+    <path d="M365 145 l24 -42 22 31 18 -31"/>
+    <line x1="470" y1="134" x2="565" y2="134"/>
+    <polyline points="548,116 568,134 548,152"/>
+
+    <path d="M590 95 C620 70 650 70 680 95 C710 120 740 120 770 95"/>
+    <line x1="615" y1="95" x2="615" y2="178"/>
+    <line x1="745" y1="95" x2="745" y2="178"/>
+    <line x1="680" y1="105" x2="680" y2="178"/>
+    <line x1="680" y1="178" x2="805" y2="178"/>
+    <polyline points="787,160 807,178 787,196"/>
+
+    <polygon points="842,82 898,82 928,132 898,182 842,182 812,132"/>
+    <line x1="870" y1="101" x2="870" y2="145"/>
+    <circle cx="870" cy="161" r="3" fill="black"/>
+
+    <line x1="300" y1="322" x2="900" y2="322" stroke-dasharray="12 12"/>
+    <line x1="300" y1="348" x2="790" y2="348"/>
+    <polyline points="773,330 793,348 773,366"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">
+    <text x="395" y="218">HAZARD</text>
+    <text x="680" y="218">PATHWAY</text>
+    <text x="870" y="218">STOP IF EVIDENCE</text>
+    <text x="870" y="246">IS MISSING</text>
+    <text x="590" y="305">Trace every link before choosing a control</text>
+    <text x="590" y="390">A control must interrupt a named part of the chain.</text>
+  </g>
+</svg>
