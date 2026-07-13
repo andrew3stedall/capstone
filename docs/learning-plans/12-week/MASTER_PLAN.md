@@ -64,7 +64,7 @@ Recovery days are planned learning blocks, not missing content. They must:
 
 ### Week 1 — Orientation, evidence and foundational safety reasoning
 
-- [ ] Day 1 — Program orientation, baseline diagnostic and authorised-source map
+- [x] [Day 1 — Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [ ] Day 2 — Electrical hazards, exposure pathways and consequence reasoning
 - [ ] Day 3 — Roles, authority, supervision and practical stop conditions
 - [ ] Day 4 — Wiring Rules structure and efficient topic navigation
