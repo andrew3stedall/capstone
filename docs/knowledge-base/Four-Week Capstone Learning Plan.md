@@ -2,7 +2,7 @@
 status: outline
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-14
 ---
 
 # Four-Week Capstone Learning Plan
@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 25 - Systematic Fault-Finding Workflow]] treats diagnosis as controlled uncertainty reduction. It uses the F-A-U-L-T workflow to separate symptoms, observations, hypotheses, discriminating evidence, contradictions and bounded conclusions while leaving real isolation, testing, energisation and repair procedures to current authorised sources and qualified roles.
+- [[Day 26 - Rest and Final Catch-Up]] uses the P-A-U-S-E workflow to retrieve Week 4 reasoning, classify one priority gap, perform the smallest useful correction and prepare a one-page readiness sheet without introducing new technical procedures or copying standards content.
 
 ## Practical application
 
