@@ -338,3 +338,11 @@ This module is `review-required`, `reference_check_required`, safety-critical an
 - Current authorised standards, legislation, regulator guidance, manufacturer instructions and approved RTO or workplace procedures.
 
 This module contains original educational structure, scenarios, tables and diagrams. It reproduces no standards wording, official test list, table, figure, procedure, value or acceptance criterion.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 22 — Verification Principles and Visual Inspection](./day-22-verification-principles-and-visual-inspection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- Next: no later module has been created yet
+<!-- sequence-navigation:end -->

@@ -323,5 +323,5 @@ Before publication or operational use, a qualified reviewer must verify against 
 
 - [← Previous: Day 21 — Week 3 Simulated Visual Inspection](./day-21-week-3-simulated-visual-inspection.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 23 — Mandatory Electrical Tests and Purposes →](./day-23-mandatory-electrical-tests-and-purposes.md)
 <!-- sequence-navigation:end -->
