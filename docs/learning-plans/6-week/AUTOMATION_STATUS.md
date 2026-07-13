@@ -19,6 +19,30 @@ pull_request: 6
 
 ## Completed increments
 
+### 2026-07-14 — Day 3: Fundamental protection concepts and fault types
+
+Completed the third dedicated six-week module as a conceptual classification bridge between safety reasoning and later protection selection.
+
+Completed work:
+
+- created the full eight-beat Day 3 module;
+- defined observable objectives covering normal operation, overload, short circuit, earth fault, leakage, residual current, open circuit and protection purpose;
+- introduced the original F-A-U-L-T classification and rule-finding workflow;
+- added two valid Mermaid diagrams explaining classification by mechanism, path and consequence;
+- created an original accessible black-and-white SVG showing fault-card sorting by current path and protection purpose;
+- added a six-card paper exercise, worked-example fading and a changed-path transfer task;
+- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept and reciprocal navigation links;
+- linked Day 3 directly from the master plan;
+- preserved explicit practical-authority, technical-review, source-currency and copyright boundaries.
+
+Files created or updated:
+
+- `docs/learning-plans/6-week/modules/day-03-fundamental-protection-concepts-and-fault-types.md`
+- `docs/assets/learning/6-week/day-03-fundamental-protection-concepts-and-fault-types/sort-the-fault-path.svg`
+- `docs/knowledge-base/Six-Week Day 03 - Fundamental Protection Concepts and Fault Types.md`
+- `docs/learning-plans/6-week/MASTER_PLAN.md`
+- `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
+
 ### 2026-07-14 — Day 2: Hazard, risk, exposure and critical controls
 
 Completed the second dedicated six-week module as an evidence-controlled safety-reasoning block.
@@ -95,19 +119,21 @@ Files created or updated:
 - Day 1 exact RTO assessment arrangements and technical-source claims: `reference_check_required`
 - Day 2 content status: `review-required`
 - Day 2 exact safety duties, procedural requirements and jurisdiction-specific claims: `reference_check_required`
-- Day 1 and Day 2 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
+- Day 3 content status: `review-required`
+- Day 3 exact thresholds, device characteristics, disconnection requirements, fault-current calculations and procedures: `reference_check_required`
+- Days 1–3 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
 - No standards tables, figures, systematic clause wording or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 3 — Fundamental protection concepts and fault types**
+**Day 4 — Overload and short-circuit protection reasoning**
 
-Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal Day 2/Day 3 navigation and updated status record.
+Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal Day 3/Day 4 navigation and updated status record.
