@@ -77,7 +77,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 
 ### Week 3 — Installation requirements and special locations
 
-- [ ] Day 15 — Wiring systems and mechanical protection
+- [x] [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md)
 - [ ] Day 16 — Consumer mains, submains and final subcircuits
 - [ ] Day 17 — Bathrooms, showers and other wet areas
 - [ ] Day 18 — Other special installations and locations
