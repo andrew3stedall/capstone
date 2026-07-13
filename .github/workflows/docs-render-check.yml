@@ -6,6 +6,7 @@ on:
       - automation/4-week-learning-plan
     paths:
       - 'docs/**'
+      - 'scripts/fix-learning-plan-doc-links.mjs'
       - 'scripts/normalize-mermaid.mjs'
       - 'scripts/sync-learning-plan-navigation.mjs'
       - 'scripts/validate-docs.mjs'
@@ -14,6 +15,7 @@ on:
   pull_request:
     paths:
       - 'docs/**'
+      - 'scripts/fix-learning-plan-doc-links.mjs'
       - 'scripts/normalize-mermaid.mjs'
       - 'scripts/sync-learning-plan-navigation.mjs'
       - 'scripts/validate-docs.mjs'
@@ -39,21 +41,25 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Synchronise four-week sequence navigation
-        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
-        run: node scripts/sync-learning-plan-navigation.mjs
-
-      - name: Commit sequence navigation updates
+      - name: Synchronise four-week learning documents
         if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
         shell: bash
         run: |
-          if git diff --quiet -- docs/learning-plans/4-week/modules docs/knowledge-base; then
-            echo 'Sequence navigation is already current.'
+          node scripts/sync-learning-plan-navigation.mjs
+          node scripts/fix-learning-plan-doc-links.mjs
+          node scripts/normalize-mermaid.mjs --write
+
+      - name: Commit learning-document updates
+        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
+        shell: bash
+        run: |
+          if git diff --quiet -- docs; then
+            echo 'Learning documents are already current.'
           else
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add docs/learning-plans/4-week/modules docs/knowledge-base
-            git commit -m 'docs: sync four-week sequence navigation'
+            git add docs
+            git commit -m 'docs: sync four-week navigation and rendering'
             git push origin HEAD:automation/4-week-learning-plan
           fi
 
