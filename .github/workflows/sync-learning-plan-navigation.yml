@@ -1,6 +1,7 @@
 name: Sync four-week learning navigation
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - automation/4-week-learning-plan
