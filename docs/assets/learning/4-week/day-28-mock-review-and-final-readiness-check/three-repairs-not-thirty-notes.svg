@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Three repairs, not thirty notes</title>
+  <desc id="desc">A black-and-white instructional cartoon showing a learner selecting three small remediation cards from a large stack of notes and placing them on a short action board.</desc>
+  <rect width="800" height="420" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="105" r="34"/>
+    <path d="M150 139v92m0-62-54 35m54-35 66 22m-66 40-42 78m42-78 45 78"/>
+    <path d="M260 265h165l-22 95H282z"/>
+    <path d="M286 245h110m-96-20h95m-80-20h92m-73-20h84"/>
+    <path d="M502 82h225v250H502z"/>
+    <rect x="535" y="123" width="160" height="45"/>
+    <rect x="535" y="190" width="160" height="45"/>
+    <rect x="535" y="257" width="160" height="45"/>
+    <path d="M220 190c85-42 171-24 280-52" stroke-dasharray="10 12"/>
+    <path d="M488 130l14 8-12 10"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#000" text-anchor="middle">
+    <text x="615" y="112" font-size="22" font-weight="700">NEXT THREE</text>
+    <text x="615" y="153" font-size="20">Source check</text>
+    <text x="615" y="220" font-size="20">Safety boundary</text>
+    <text x="615" y="287" font-size="20">Varied re-attempt</text>
+    <text x="343" y="392" font-size="20">Notes waiting</text>
+  </g>
+  <text x="55" y="390" font-family="Arial, sans-serif" font-size="20" fill="#000">A short queue can become completed work.</text>
+</svg>
