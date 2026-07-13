@@ -4,7 +4,7 @@ status: active
 reviewed_on: 2026-07-14
 branch: automation/6-week-learning-plan
 base_branch: automation/4-week-learning-plan
-pull_request: pending
+pull_request: 6
 ---
 
 # Six-Week Capstone Automation Status
@@ -12,9 +12,10 @@ pull_request: pending
 ## Branch and pull-request relationship
 
 - Active branch: `automation/6-week-learning-plan`
+- Draft pull request: #6
 - Base branch: `automation/4-week-learning-plan`
 - Relationship: stacked on the open four-week learning-plan branch because draft PR #5 has not merged.
-- When the four-week branch merges, the six-week pull request may be retargeted to the repository default branch after confirming the resulting diff remains correct.
+- When the four-week branch merges, PR #6 may be retargeted to the repository default branch after confirming the resulting diff remains correct.
 
 ## Completed increment
 
@@ -30,9 +31,10 @@ Completed work:
 - separated protection, earthing, circuit design, installation requirements, special locations, verification and fault finding into spaced learning decisions;
 - included weekly integration checkpoints and a final mock-assessment sequence;
 - defined module, accessibility, safety, copyright and completion quality gates;
-- established explicit one-pass quality-improvement tracking to prevent repeated selection caused only by persistent review flags.
+- established explicit one-pass quality-improvement tracking to prevent repeated selection caused only by persistent review flags;
+- opened stacked draft PR #6 targeting `automation/4-week-learning-plan`.
 
-Files created:
+Files created or updated:
 
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
