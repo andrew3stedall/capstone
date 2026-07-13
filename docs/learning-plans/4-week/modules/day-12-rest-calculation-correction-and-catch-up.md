@@ -342,8 +342,8 @@ A learner marked **yes with support** may proceed with the corrected worksheet a
 - [Day 9 — Complete Cable-Selection Workflow](./day-09-complete-cable-selection-workflow.md)
 - [Day 10 — Installation Conditions and Derating](./day-10-installation-conditions-and-derating.md)
 - [Day 11 — Voltage Drop](./day-11-voltage-drop.md)
-- [[Learning and Memory System](../../../knowledge-base/Learning%20and%20Memory%20System.md)]
-- [[Wiring Rules and Design](../../../knowledge-base/Wiring%20Rules%20and%20Design.md)]
+- [Learning design](../../../LEARNING_DESIGN.md)
+- [AS/NZS 3000:2018 learning index](../../../knowledge-base/AS-NZS-3000-2018-Index.md)
 
 ## References and currency notice
 

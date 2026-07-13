@@ -136,15 +136,15 @@ Use **L-O-C-K** to structure the review.
 
 ```mermaid
 flowchart TD
-    A[Identify appliance and task context] --> B[Map all energy origins]
-    B --> C[Separate control protection emergency and isolation purposes]
-    C --> D[Define proposed isolation boundary]
-    D --> E{All sources and relevant conductors covered?}
-    E -- No --> F[Record gap and stop conclusion]
-    E -- Yes --> G[Check device location access identification and suitability]
-    G --> H{Current evidence complete?}
+    A["Identify appliance and task context"] --> B["Map all energy origins"]
+    B --> C["Separate control protection emergency and isolation purposes"]
+    C --> D["Define proposed isolation boundary"]
+    D --> E{"All sources and relevant conductors covered?"}
+    E -- No --> F["Record gap and stop conclusion"]
+    E -- Yes --> G["Check device location access identification and suitability"]
+    G --> H{"Current evidence complete?"}
     H -- No --> F
-    H -- Yes --> I[Write bounded paper conclusion]
+    H -- Yes --> I["Write bounded paper conclusion"]
 ```
 
 ### Current-source search sequence
@@ -167,19 +167,19 @@ For a paper scenario:
 
 ```mermaid
 flowchart LR
-    A[Fixed appliance] --> T[Task and hazard context]
-    S1[Normal supply] --> E[Energy-source map]
-    S2[Control or auxiliary supply] --> E
-    S3[Alternative or stored supply] --> E
-    S4[Feedback or remote start] --> E
-    T --> B[Required boundary]
+    A["Fixed appliance"] --> T["Task and hazard context"]
+    S1["Normal supply"] --> E["Energy-source map"]
+    S2["Control or auxiliary supply"] --> E
+    S3["Alternative or stored supply"] --> E
+    S4["Feedback or remote start"] --> E
+    T --> B["Required boundary"]
     E --> B
-    B --> D[Candidate device evidence]
-    D --> L[Location and accessibility]
-    D --> P[Pole and conductor coverage]
-    D --> I[Identification and securing]
-    D --> M[Manufacturer compatibility]
-    L --> R[Bounded result]
+    B --> D["Candidate device evidence"]
+    D --> L["Location and accessibility"]
+    D --> P["Pole and conductor coverage"]
+    D --> I["Identification and securing"]
+    D --> M["Manufacturer compatibility"]
+    L --> R["Bounded result"]
     P --> R
     I --> R
     M --> R

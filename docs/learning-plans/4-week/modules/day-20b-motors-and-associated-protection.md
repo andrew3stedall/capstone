@@ -141,13 +141,13 @@ Use **M-O-T-O-R** to structure the evidence review.
 
 ```mermaid
 flowchart TD
-    A[Identify motor driven machine and duty] --> B[Map operating and abnormal cases]
-    B --> C[Identify required protective functions]
-    C --> D[Check motor cable starter and device coordination]
-    D --> E[Map controls interlocks restart and isolation]
-    E --> F{Evidence complete and current?}
-    F -- No --> G[Record gap and stop recommendation]
-    F -- Yes --> H[Write bounded paper conclusion]
+    A["Identify motor driven machine and duty"] --> B["Map operating and abnormal cases"]
+    B --> C["Identify required protective functions"]
+    C --> D["Check motor cable starter and device coordination"]
+    D --> E["Map controls interlocks restart and isolation"]
+    E --> F{"Evidence complete and current?"}
+    F -- No --> G["Record gap and stop recommendation"]
+    F -- Yes --> H["Write bounded paper conclusion"]
 ```
 
 ### Current-source search sequence
@@ -170,14 +170,14 @@ For a paper scenario:
 
 ```mermaid
 flowchart LR
-    S[Supply and final subcircuit] --> P[Short-circuit protection]
-    P --> C[Controller starter and contactor]
-    C --> M[Motor]
-    M --> D[Driven machine]
-    O[Overload and abnormal-operation protection] --> M
-    L[Local remote and automatic controls] --> C
-    I[Interlocks and restart logic] --> C
-    X[Isolation and emergency functions] --> B[Safe operating boundary]
+    S["Supply and final subcircuit"] --> P["Short-circuit protection"]
+    P --> C["Controller starter and contactor"]
+    C --> M["Motor"]
+    M --> D["Driven machine"]
+    O["Overload and abnormal-operation protection"] --> M
+    L["Local remote and automatic controls"] --> C
+    I["Interlocks and restart logic"] --> C
+    X["Isolation and emergency functions"] --> B["Safe operating boundary"]
     S --> B
     C --> B
     M --> B

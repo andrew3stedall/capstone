@@ -126,16 +126,16 @@ Use **S-C-O-P-E** to prevent a location label from becoming an unsupported concl
 
 ```mermaid
 flowchart TD
-    A[Record situation facts] --> B[List candidate triggers]
-    B --> C[Verify formal scope and boundaries]
-    C --> D{More than one topic applies?}
-    D -- Yes --> E[Build combined evidence matrix]
-    D -- No --> F[Build single-topic evidence matrix]
-    E --> G[Check equipment wiring supply protection and verification]
+    A["Record situation facts"] --> B["List candidate triggers"]
+    B --> C["Verify formal scope and boundaries"]
+    C --> D{"More than one topic applies?"}
+    D -- Yes --> E["Build combined evidence matrix"]
+    D -- No --> F["Build single-topic evidence matrix"]
+    E --> G["Check equipment wiring supply protection and verification"]
     F --> G
-    G --> H{Evidence complete and current?}
-    H -- No --> I[Record unresolved and stop verdict]
-    H -- Yes --> J[Write bounded conclusion]
+    G --> H{"Evidence complete and current?"}
+    H -- No --> I["Record unresolved and stop verdict"]
+    H -- Yes --> J["Write bounded conclusion"]
 ```
 
 ### Source-search sequence
@@ -158,18 +158,18 @@ For a paper scenario:
 
 ```mermaid
 flowchart LR
-    L[Location] --> T[Candidate trigger set]
-    A[Activity] --> T
-    E[Environment] --> T
-    U[Users] --> T
-    S[Supplies] --> T
-    C[Construction] --> T
-    T --> D[Definition and scope checks]
-    D --> M[Combined requirement map]
-    M --> Q[Equipment suitability]
-    M --> W[Wiring and mechanical protection]
-    M --> P[Protection switching and isolation]
-    M --> V[Verification and documentation]
+    L["Location"] --> T["Candidate trigger set"]
+    A["Activity"] --> T
+    E["Environment"] --> T
+    U["Users"] --> T
+    S["Supplies"] --> T
+    C["Construction"] --> T
+    T --> D["Definition and scope checks"]
+    D --> M["Combined requirement map"]
+    M --> Q["Equipment suitability"]
+    M --> W["Wiring and mechanical protection"]
+    M --> P["Protection switching and isolation"]
+    M --> V["Verification and documentation"]
 ```
 
 ### Fictional worked review

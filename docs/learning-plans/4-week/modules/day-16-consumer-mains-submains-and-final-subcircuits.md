@@ -118,14 +118,14 @@ Use **T-R-A-C-E** to review each circuit section without reproducing standards c
 
 ```mermaid
 flowchart TD
-    A[Mark start and end terminals] --> B{Supplies another distribution board?}
-    B -- Yes --> C[Candidate submain]
-    B -- No --> D{Supplies final equipment or points?}
-    D -- Yes --> E[Candidate final subcircuit]
-    D -- No --> F[Recheck installation boundary and purpose]
-    A --> G{Incoming path at installation intake?}
-    G -- Yes --> H[Candidate consumer mains]
-    C --> I[Verify formal definition and all applicable evidence]
+    A["Mark start and end terminals"] --> B{"Supplies another distribution board?"}
+    B -- Yes --> C["Candidate submain"]
+    B -- No --> D{"Supplies final equipment or points?"}
+    D -- Yes --> E["Candidate final subcircuit"]
+    D -- No --> F["Recheck installation boundary and purpose"]
+    A --> G{"Incoming path at installation intake?"}
+    G -- Yes --> H["Candidate consumer mains"]
+    C --> I["Verify formal definition and all applicable evidence"]
     E --> I
     H --> I
     F --> I
@@ -155,17 +155,17 @@ Do not infer an official requirement from an old worksheet, memory, a product ca
 
 ```mermaid
 flowchart LR
-    S[Supply connection boundary] -->|Section A| MSB[Main switchboard]
-    MSB -->|Section B| DB[Downstream distribution board]
-    DB -->|Section C| L1[Lighting final load]
-    DB -->|Section D| L2[Fixed equipment final load]
-    MSB -->|Section E| L3[Separate final load]
+    S["Supply connection boundary"] -->|"Section A"| MSB["Main switchboard"]
+    MSB -->|"Section B"| DB["Downstream distribution board"]
+    DB -->|"Section C"| L1["Lighting final load"]
+    DB -->|"Section D"| L2["Fixed equipment final load"]
+    MSB -->|"Section E"| L3["Separate final load"]
 
-    A1[Incoming demand and network evidence] -.-> S
-    A2[Board and submain coordination] -.-> DB
-    A3[Final-circuit load and utilisation evidence] -.-> L1
+    A1["Incoming demand and network evidence"] -.-> S
+    A2["Board and submain coordination"] -.-> DB
+    A3["Final-circuit load and utilisation evidence"] -.-> L1
     A3 -.-> L2
-    A4[Cumulative voltage drop and fault path] -.-> MSB
+    A4["Cumulative voltage drop and fault path"] -.-> MSB
     A4 -.-> DB
     A4 -.-> L1
 ```

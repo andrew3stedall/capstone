@@ -130,13 +130,13 @@ Use **S-O-U-R-C-E** to organise the evidence review.
 
 ```mermaid
 flowchart TD
-    A[List every credible energy source] --> B[Map operating and restoration states]
-    B --> C[Trace each source to loads and boundaries]
-    C --> D[Identify transfer controls interlocks and protection]
-    D --> E{Every energisation path evidenced?}
-    E -- No --> F[Record gap and stop conclusion]
-    E -- Yes --> G[Check current authorised requirements]
-    G --> H[Write bounded paper based finding]
+    A["List every credible energy source"] --> B["Map operating and restoration states"]
+    B --> C["Trace each source to loads and boundaries"]
+    C --> D["Identify transfer controls interlocks and protection"]
+    D --> E{"Every energisation path evidenced?"}
+    E -- No --> F["Record gap and stop conclusion"]
+    E -- Yes --> G["Check current authorised requirements"]
+    G --> H["Write bounded paper based finding"]
 ```
 
 ### Current-source search sequence
@@ -159,15 +159,15 @@ For a paper scenario:
 
 ```mermaid
 flowchart LR
-    N[Normal source] --> T[Transfer or coordination equipment]
-    G[Generated source] --> T
-    B[Stored energy and converter] --> T
-    A[Auxiliary control source] --> C[Controls and operating mechanisms]
+    N["Normal source"] --> T["Transfer or coordination equipment"]
+    G["Generated source"] --> T
+    B["Stored energy and converter"] --> T
+    A["Auxiliary control source"] --> C["Controls and operating mechanisms"]
     C --> T
-    T --> DB[Distribution boundary]
-    DB --> L[Connected loads]
-    L -. possible feedback path .-> DB
-    D[Drawings labels manufacturer data] --> E[Evidence review]
+    T --> DB["Distribution boundary"]
+    DB --> L["Connected loads"]
+    L -.->|"possible feedback path"| DB
+    D["Drawings labels manufacturer data"] --> E["Evidence review"]
     N --> E
     G --> E
     B --> E

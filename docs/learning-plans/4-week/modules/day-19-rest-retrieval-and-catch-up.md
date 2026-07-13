@@ -112,17 +112,17 @@ Use **R-E-S-E-T** when an answer is wrong, incomplete or uncertain.
 
 ```mermaid
 flowchart TD
-    A[Attempt from memory] --> B[Record confidence]
-    B --> C{Answer sound?}
-    C -- Yes --> D[Move to next retrieval item]
-    C -- No --> E{Concept gap or evidence gap?}
-    E --> F[Return to original module]
-    F --> G{Exact rule value or permission required?}
-    G -- Yes --> H[Use current authorised source or leave unresolved]
-    G -- No --> I[Correct the concept in original words]
-    H --> J[Create fresh transfer question]
+    A["Attempt from memory"] --> B["Record confidence"]
+    B --> C{"Answer sound?"}
+    C -- Yes --> D["Move to next retrieval item"]
+    C -- No --> E{"Concept gap or evidence gap?"}
+    E --> F["Return to original module"]
+    F --> G{"Exact rule value or permission required?"}
+    G -- Yes --> H["Use current authorised source or leave unresolved"]
+    G -- No --> I["Correct the concept in original words"]
+    H --> J["Create fresh transfer question"]
     I --> J
-    J --> K[Schedule later retrieval]
+    J --> K["Schedule later retrieval"]
 ```
 
 The workflow prevents broad searching and copied clause notes. Return to the smallest relevant learning item, preserve source boundaries and test the corrected reasoning in a changed context.
@@ -133,22 +133,22 @@ The workflow prevents broad searching and copied clause notes. Return to the sma
 
 ```mermaid
 flowchart TD
-    A[Start Day 19] --> B{Attention reliable?}
-    B -- No --> C[Record recovery-only decision]
-    C --> D[Prepare Day 20A and stop]
-    B -- Yes --> E[Complete closed-note retrieval]
-    E --> F[Mark confidence and check]
-    F --> G{High-confidence safety error?}
-    G -- Yes --> H[Correct one error with RESET]
-    G -- No --> I[Review unfinished work]
+    A["Start Day 19"] --> B{"Attention reliable?"}
+    B -- No --> C["Record recovery-only decision"]
+    C --> D["Prepare Day 20A and stop"]
+    B -- Yes --> E["Complete closed-note retrieval"]
+    E --> F["Mark confidence and check"]
+    F --> G{"High-confidence safety error?"}
+    G -- Yes --> H["Correct one error with RESET"]
+    G -- No --> I["Review unfinished work"]
     H --> I
-    I --> J{Blocking task exists?}
-    J -- Yes --> K[Complete one bounded blocking task]
-    J -- No --> L[Complete one useful task or stop]
-    K --> M{Thirty minutes reached or focus falling?}
+    I --> J{"Blocking task exists?"}
+    J -- Yes --> K["Complete one bounded blocking task"]
+    J -- No --> L["Complete one useful task or stop"]
+    K --> M{"Thirty minutes reached or focus falling?"}
     L --> M
-    M -- Yes --> N[Write readiness note and stop]
-    M -- No --> O[Finish current small task only]
+    M -- Yes --> N["Write readiness note and stop"]
+    M -- No --> O["Finish current small task only"]
     O --> N
 ```
 

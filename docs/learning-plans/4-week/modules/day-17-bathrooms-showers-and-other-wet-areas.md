@@ -116,15 +116,15 @@ Use **W-A-T-E-R** to avoid jumping from a room sketch directly to an equipment v
 
 ```mermaid
 flowchart TD
-    A[Identify fixed water features] --> B[Confirm physical geometry]
-    B --> C[Build provisional zone map]
-    C --> D[Classify proposed equipment]
-    D --> E{Current authorised rule located?}
-    E -- No --> F[Record unresolved and stop conclusion]
-    E -- Yes --> G[Check location construction circuit and installation gates]
-    G --> H{All evidence supports proposal?}
-    H -- No --> I[Reject or redesign on paper]
-    H -- Yes --> J[Record bounded verified conclusion]
+    A["Identify fixed water features"] --> B["Confirm physical geometry"]
+    B --> C["Build provisional zone map"]
+    C --> D["Classify proposed equipment"]
+    D --> E{"Current authorised rule located?"}
+    E -- No --> F["Record unresolved and stop conclusion"]
+    E -- Yes --> G["Check location construction circuit and installation gates"]
+    G --> H{"All evidence supports proposal?"}
+    H -- No --> I["Reject or redesign on paper"]
+    H -- Yes --> J["Record bounded verified conclusion"]
 ```
 
 ### Source-search sequence
@@ -147,17 +147,17 @@ For a paper exercise:
 
 ```mermaid
 flowchart LR
-    W[Fixed water feature] --> Z[Provisional zone classification]
-    G[Measured geometry] --> Z
-    B[Fixed barriers or enclosures] --> Z
-    Z --> L[Location permission check]
-    E[Equipment category] --> L
-    E --> C[Construction suitability]
-    P[Circuit and protection evidence] --> V[Overall proposal review]
+    W["Fixed water feature"] --> Z["Provisional zone classification"]
+    G["Measured geometry"] --> Z
+    B["Fixed barriers or enclosures"] --> Z
+    Z --> L["Location permission check"]
+    E["Equipment category"] --> L
+    E --> C["Construction suitability"]
+    P["Circuit and protection evidence"] --> V["Overall proposal review"]
     L --> V
     C --> V
-    M[Manufacturer instructions] --> V
-    I[Wiring and installation method] --> V
+    M["Manufacturer instructions"] --> V
+    I["Wiring and installation method"] --> V
 ```
 
 ### Fictional worked review
