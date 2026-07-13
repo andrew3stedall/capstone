@@ -80,5 +80,5 @@ This note does not provide an official mandatory-test list, test sequence, instr
 - [← Previous: Day 22 - Verification Principles and Visual Inspection](./Day%2022%20-%20Verification%20Principles%20and%20Visual%20Inspection.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-23-mandatory-electrical-tests-and-purposes.md)
-- Next: no later module has been created yet
+- [Next: Day 24 - Test Sequence and Result Interpretation →](./Day%2024%20-%20Test%20Sequence%20and%20Result%20Interpretation.md)
 <!-- sequence-navigation:end -->
