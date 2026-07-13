@@ -326,3 +326,11 @@ Use current authorised sources to verify:
 - acceptance criteria, records, certification and jurisdiction-specific obligations.
 
 No standards wording, official values, diagnostic sequence, instrument procedure, live-testing process or repair instruction is reproduced here.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 24 — Test Sequence and Result Interpretation](./day-24-test-sequence-and-result-interpretation.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- Next: no later module has been created yet
+<!-- sequence-navigation:end -->

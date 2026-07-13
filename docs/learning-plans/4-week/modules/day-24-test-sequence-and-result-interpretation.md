@@ -349,5 +349,5 @@ This module contains original educational explanations, fictional scenarios and 
 
 - [← Previous: Day 23 — Mandatory Electrical Tests and Purposes](./day-23-mandatory-electrical-tests-and-purposes.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 25 — Systematic Fault-Finding Workflow →](./day-25-systematic-fault-finding-workflow.md)
 <!-- sequence-navigation:end -->
