@@ -75,5 +75,5 @@ The module authorises no approach to, operation of, opening of, isolation of, en
 - [← Previous: Day 27 - Full Mock Examination](./Day%2027%20-%20Full%20Mock%20Examination.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-28-mock-review-and-final-readiness-check.md)
-- Next: quality-improvement pass on Day 1 — Exam Orientation and Wiring Rules Navigation
+- Next: no later module has been created yet
 <!-- sequence-navigation:end -->

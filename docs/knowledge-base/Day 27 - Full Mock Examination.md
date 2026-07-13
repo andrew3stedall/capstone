@@ -84,5 +84,5 @@ Qualified review is required before technical marking guidance or an answer key 
 - [← Previous: Day 26 - Rest and Final Catch-Up](./Day%2026%20-%20Rest%20and%20Final%20Catch-Up.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-27-full-mock-examination.md)
-- Next: no later module has been created yet
+- [Next: Day 28 - Mock Review and Final Readiness Check →](./Day%2028%20-%20Mock%20Review%20and%20Final%20Readiness%20Check.md)
 <!-- sequence-navigation:end -->
