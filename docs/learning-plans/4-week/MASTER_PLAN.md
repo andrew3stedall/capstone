@@ -92,7 +92,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 22 — Verification principles and visual inspection](./modules/day-22-verification-principles-and-visual-inspection.md)
 - [x] [Day 23 — Mandatory electrical tests and purposes](./modules/day-23-mandatory-electrical-tests-and-purposes.md)
 - [x] [Day 24 — Test sequence and result interpretation](./modules/day-24-test-sequence-and-result-interpretation.md)
-- [ ] Day 25 — Systematic fault-finding workflow
+- [x] [Day 25 — Systematic fault-finding workflow](./modules/day-25-systematic-fault-finding-workflow.md)
 - [ ] Day 26 — Rest and final catch-up
 - [ ] Day 27 — Full mock examination
 - [ ] Day 28 — Mock review and final readiness check
