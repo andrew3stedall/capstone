@@ -8,9 +8,9 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Day 1 — Program orientation, baseline diagnostic and authorised-source map.
+- **Completed:** Day 1 — Program orientation, baseline diagnostic and authorised-source map; Day 2 — Electrical hazards, exposure pathways and consequence reasoning.
 - **Current block:** None.
-- **Next block:** Day 2 — Electrical hazards, exposure pathways and consequence reasoning.
+- **Next block:** Day 3 — Roles, authority, supervision and practical stop conditions.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -23,30 +23,30 @@ updated_on: 2026-07-14
 |---|---|---|---|
 | 1 — 2026-07-14 | Twelve-week program architecture | Created the slower, deeper 84-block sequence with weekly retrieval, recovery, cumulative integration, worked-example fading, staged mock assessment and explicit completion rules. | Create Day 1 module and knowledge-base note. |
 | 2 — 2026-07-14 | Day 1 — Program orientation, baseline diagnostic and authorised-source map | Added a complete eight-beat module, M-A-P-S source workflow, eight-domain baseline method, confidence calibration, remediation triage, three Mermaid models, two accessible SVGs, knowledge-base note and linked master-plan entry. | Create Day 2 — Electrical hazards, exposure pathways and consequence reasoning. |
+| 3 — 2026-07-14 | Day 2 — Electrical hazards, exposure pathways and consequence reasoning | Added a complete eight-beat safety-reasoning module, H-A-Z-A-R-D workflow, hazard-chain and control-to-pathway models, written scenario rubric, accessible SVG, knowledge-base note and sequence links. | Create Day 3 — Roles, authority, supervision and practical stop conditions. |
 
-## Files added or updated in run 2
+## Files added or updated in run 3
 
-- `docs/learning-plans/12-week/modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md`
-- `docs/assets/learning/12-week/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map/map-before-march.svg`
-- `docs/assets/learning/12-week/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map/confidence-is-not-evidence.svg`
-- `docs/knowledge-base/12-Week Day 01 - Program Orientation Baseline Diagnostic and Authorised-Source Map.md`
+- `docs/learning-plans/12-week/modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md`
+- `docs/assets/learning/12-week/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning/trace-the-path.svg`
+- `docs/knowledge-base/12-Week Day 02 - Electrical Hazards Exposure Pathways and Consequence Reasoning.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
-## Day 1 design decisions
+## Day 2 design decisions
 
-- Day 1 does not duplicate the four-week navigation module. It establishes a measurable baseline, authorised-source access map, confidence calibration and remediation priority for the longer pathway.
-- The diagnostic separates knowledge, navigation, process, applicability and unsafe-assumption errors.
-- High-confidence safety errors and prerequisite blockers are prioritised over comfortable revision topics.
-- The M-A-P-S workflow separates source-family selection, authentication, applicability and evidence boundaries.
-- Baseline scores are study-triage evidence only and are not official competency determinations.
+- Day 2 teaches mechanism-based safety reasoning before procedural content.
+- The H-A-Z-A-R-D workflow separates hazards, exposed targets, pathways, events, consequences, controls and missing evidence.
+- Controls must be matched to a named link in the chain and supported by evidence before being relied upon.
+- All applications remain written or trainer-approved scenarios; the module authorises no practical interaction with equipment.
+- The module uses original organisation, examples, diagrams and wording rather than standards clause sequence or source figures.
 
 ## Review flags
 
-- Day 1 remains `review-required` and `reference_check_required`.
-- Current RTO assessment instructions, permitted-resource arrangements, source editions, amendments, jurisdiction and applicability require authorised confirmation.
-- The module does not state technical limits, clause requirements, test methods, safe-work procedures or official assessment thresholds.
-- The module does not authorise practical electrical activity, live work, isolation, testing, energisation, repair, alteration or certification.
+- Day 2 remains `review-required` and `reference_check_required`.
+- Safety-critical legal duties, work methods, emergency arrangements, control effectiveness and source applicability require authorised verification.
+- The module states no exact technical limits, approach distances, test values, isolation procedure or official assessment threshold.
+- The module does not authorise approach, operation, isolation, testing, resetting, repair, alteration, rescue or energisation.
 - Automated content is not `technically-reviewed`.
 
 ## Run rules
