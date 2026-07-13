@@ -17,7 +17,32 @@ pull_request: 6
 - Relationship: stacked on the open four-week learning-plan branch because draft PR #5 has not merged.
 - When the four-week branch merges, PR #6 may be retargeted to the repository default branch after confirming the resulting diff remains correct.
 
-## Completed increment
+## Completed increments
+
+### 2026-07-14 — Day 1: Program orientation, assessment map and source hierarchy
+
+Completed the first dedicated six-week module as a baseline-and-planning block rather than duplicating the four-week source-navigation lesson.
+
+Completed work:
+
+- created the full eight-beat Day 1 module;
+- defined observable objectives covering capability mapping, baseline diagnosis, source-family selection, confidence calibration and remediation planning;
+- introduced the original M-A-P-S source workflow;
+- added two valid Mermaid decision diagrams;
+- created an original accessible black-and-white SVG illustrating multi-dimensional baseline classification;
+- added an eight-format practical baseline and six-week study-allocation activity;
+- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept and navigation links;
+- linked Day 1 directly from the master plan;
+- added reciprocal program and next-block navigation;
+- preserved explicit RTO, authorised-source, copyright and practical-safety boundaries.
+
+Files created or updated:
+
+- `docs/learning-plans/6-week/modules/day-01-program-orientation-assessment-map-and-source-hierarchy.md`
+- `docs/assets/learning/6-week/day-01-program-orientation-assessment-map-and-source-hierarchy/sort-the-evidence.svg`
+- `docs/knowledge-base/Six-Week Day 01 - Program Orientation Assessment Map and Source Hierarchy.md`
+- `docs/learning-plans/6-week/MASTER_PLAN.md`
+- `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ### 2026-07-14 — Canonical six-week program design
 
@@ -42,18 +67,21 @@ Files created or updated:
 ## Review flags
 
 - Program status: `active`
-- Content status: planning framework only
-- Technical review: required before any module is presented as authoritative
-- Exact clauses, limits, test values, jurisdiction-specific claims and safety-critical procedures: `reference_check_required`
+- Day 1 content status: `review-required`
+- Day 1 exact RTO assessment arrangements and technical-source claims: `reference_check_required`
+- Day 1 is planning and simulated learning content; it authorises no electrical work or testing
+- Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
 - No standards tables, figures, systematic clause wording or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-No six-week modules have been completed, so no quality-improvement passes are due yet.
+- Completed modules awaiting later quality-improvement pass: Day 1
+- Quality-improvement passes completed: none
+- Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 1 — Program orientation, assessment map and source hierarchy**
+**Day 2 — Hazard, risk, exposure and critical controls**
 
-Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal navigation and updated status record.
+Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal Day 1/Day 2 navigation and updated status record.
