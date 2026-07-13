@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+<title id="title">Not all current is the same</title>
+<desc id="desc">A black-and-white stick figure sorts four cards labelled overload, short circuit, stall and restart into separate evidence trays beside a motor.</desc>
+<rect width="800" height="420" fill="white"/>
+<g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="120" cy="95" r="28"/>
+  <path d="M120 123v92m0-52-55 35m55-35 55 35m-55 17-45 70m45-70 45 70"/>
+  <rect x="620" y="115" width="110" height="100" rx="12"/>
+  <circle cx="675" cy="165" r="25"/>
+  <path d="M730 145h28m-28 40h28"/>
+  <path d="M180 185h90"/>
+  <rect x="285" y="55" width="135" height="55" rx="8"/>
+  <rect x="445" y="55" width="135" height="55" rx="8"/>
+  <rect x="285" y="135" width="135" height="55" rx="8"/>
+  <rect x="445" y="135" width="135" height="55" rx="8"/>
+  <path d="M352 210v55h-75v70h150v-70h-75"/>
+  <path d="M512 210v55h-75v70h150v-70h-75"/>
+</g>
+<g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+  <text x="352" y="89" font-size="22">OVERLOAD</text>
+  <text x="512" y="89" font-size="20">SHORT CIRCUIT</text>
+  <text x="352" y="169" font-size="22">STALL</text>
+  <text x="512" y="169" font-size="22">RESTART</text>
+  <text x="352" y="305" font-size="22">THERMAL / DUTY</text>
+  <text x="512" y="305" font-size="22">FAULT / CONTROL</text>
+  <text x="675" y="245" font-size="22">MOTOR</text>
+  <text x="400" y="390" font-size="25">Same conductor. Different causes. Different evidence.</text>
+</g>
+</svg>
