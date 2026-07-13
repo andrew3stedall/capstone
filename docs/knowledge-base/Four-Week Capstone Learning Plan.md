@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 18 - Other Special Installations and Locations]] develops the S-C-O-P-E workflow for recording situation facts, identifying overlapping special-installation triggers, verifying formal scope and building a combined evidence matrix without inventing definitions, dimensions, ratings or permissions.
+- [[Day 19 - Rest Retrieval and Catch-Up]] consolidates Days 15–18 through the R-E-S-E-T correction workflow, closed-note retrieval, catch-up triage and a bounded readiness check for fixed appliances and local isolation.
 
 ## Practical application
 
