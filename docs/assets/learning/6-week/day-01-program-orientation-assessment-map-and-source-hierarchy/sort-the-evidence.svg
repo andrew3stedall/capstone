@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Sort the evidence before planning study</title>
+  <desc id="desc">A black-and-white stick figure sorts cards into trays labelled result, process, safety, evidence and confidence. A caption says one score cannot show the whole gap.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="135" cy="105" r="34"/>
+    <path d="M135 139v105M135 170l-64 55M135 170l74 38M135 244l-48 82M135 244l52 82"/>
+    <rect x="45" y="332" width="175" height="52" rx="8"/>
+    <path d="M270 112h112v68H270zM281 128h90M281 146h72M281 164h84"/>
+    <path d="M209 208l72-45"/>
+    <rect x="414" y="190" width="94" height="126" rx="8"/>
+    <rect x="524" y="190" width="94" height="126" rx="8"/>
+    <rect x="634" y="190" width="94" height="126" rx="8"/>
+    <rect x="744" y="190" width="94" height="126" rx="8"/>
+    <rect x="854" y="190" width="82" height="126" rx="8"/>
+    <path d="M428 214h66M538 214h66M648 214h66M758 214h66M868 214h54"/>
+    <path d="M354 150c55 8 75 38 108 55M354 150c100-15 155 12 217 55M354 150c160-28 236 5 327 55M354 150c220-30 319 10 437 55M354 150c285-20 390 24 541 55" stroke-dasharray="10 12"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="132" y="366" font-size="22">BASELINE</text>
+    <text x="461" y="252" font-size="17">RESULT</text>
+    <text x="571" y="252" font-size="17">PROCESS</text>
+    <text x="681" y="252" font-size="17">SAFETY</text>
+    <text x="791" y="252" font-size="17">EVIDENCE</text>
+    <text x="895" y="252" font-size="15">CONFIDENCE</text>
+    <text x="480" y="370" font-size="28" font-weight="700">ONE SCORE CANNOT SHOW THE WHOLE GAP.</text>
+  </g>
+</svg>
