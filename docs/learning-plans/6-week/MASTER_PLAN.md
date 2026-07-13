@@ -51,7 +51,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 
 ### Week 1 — Orientation, safety and protection foundations
 
-- [ ] Day 1 — Program orientation, assessment map and source hierarchy
+- [x] [Day 1 — Program orientation, assessment map and source hierarchy](modules/day-01-program-orientation-assessment-map-and-source-hierarchy.md)
 - [ ] Day 2 — Hazard, risk, exposure and critical controls
 - [ ] Day 3 — Fundamental protection concepts and fault types
 - [ ] Day 4 — Overload and short-circuit protection reasoning
