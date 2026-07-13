@@ -104,22 +104,22 @@ The workflow deliberately excludes broad standards browsing, copying clause text
 
 ```mermaid
 flowchart TD
-    A[Begin Day 5] --> B{Alert enough for accurate comparison?}
-    B -->|No| C[Record recovery-only decision]
-    C --> Z[Prepare Day 6A materials and stop]
-    B -->|Yes| D[Closed-note retrieval]
-    D --> E[Mark confidence before checking]
-    E --> F{High-confidence or blocking error?}
-    F -->|Yes| G[Use R-E-S-E-T on one error]
-    F -->|No| H[Classify backlog]
+    A["Begin Day 5"] --> B{"Alert enough for accurate comparison?"}
+    B -->|"No"| C["Record recovery-only decision"]
+    C --> Z["Prepare Day 6A materials and stop"]
+    B -->|"Yes"| D["Closed-note retrieval"]
+    D --> E["Mark confidence before checking"]
+    E --> F{"High-confidence or blocking error?"}
+    F -->|"Yes"| G["Use R-E-S-E-T on one error"]
+    F -->|"No"| H["Classify backlog"]
     G --> H
-    H --> I{Blocking task fits remaining time?}
-    I -->|Yes| J[Complete one bounded task]
-    I -->|No| K[Schedule it and defer]
-    J --> L{Stop condition or 30 minutes reached?}
+    H --> I{"Blocking task fits remaining time?"}
+    I -->|"Yes"| J["Complete one bounded task"]
+    I -->|"No"| K["Schedule it and defer"]
+    J --> L{"Stop condition or 30 minutes reached?"}
     K --> L
-    L -->|Yes| Z
-    L -->|No| M[Write readiness statement]
+    L -->|"Yes"| Z
+    L -->|"No"| M["Write readiness statement"]
     M --> Z
 ```
 
