@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation; Day 20B — Motors and Associated Protection.
 - **Current block:** None.
-- **Next block:** [[Day 20B - Motors and Associated Protection]].
+- **Next block:** [[Day 20C - Alternative and Multiple Supplies Awareness]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 20A is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It teaches source mapping and evidence planning only; it does not provide a field isolation, lockout or testing procedure.
+- **Review state:** Day 20B is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It teaches motor-system evidence mapping and bounded design review only; it does not provide protection settings, isolation, testing, adjustment or commissioning procedures.
 
 ## Hourly run log
 
@@ -44,24 +44,25 @@ updated_on: 2026-07-13
 | 22 — 2026-07-13 | Day 18 — Other Special Installations and Locations | Created the safety-critical eight-beat module, S-C-O-P-E trigger-and-evidence workflow, two Mermaid models, a fictional multi-trigger facility review, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards lists, definitions, boundaries, dimensions, ratings, equipment permissions or field-work procedures were reproduced. | Produce Day 19 — Rest, Retrieval and Catch-Up. |
 | 23 — 2026-07-13 | Day 19 — Rest, Retrieval and Catch-Up | Created the dedicated eight-beat recovery module, R-E-S-E-T correction workflow, two Mermaid decision models, a 30-minute retrieval protocol, two accessible black-and-white SVG cartoons and a vault note. Consolidated Days 15–18 without adding new technical rules, official values, dimensions, permissions or field procedures. | Produce Day 20A — Fixed Appliances and Local Isolation. |
 | 24 — 2026-07-13 | Day 20A — Fixed Appliances and Local Isolation | Created the safety-critical eight-beat module, L-O-C-K evidence workflow, two Mermaid models, a fictional multi-source appliance review, two accessible black-and-white SVG cartoons and a reciprocal vault note. Separated control, protection and isolation without adding a field procedure or official device requirements. | Produce Day 20B — Motors and Associated Protection. |
+| 25 — 2026-07-13 | Day 20B — Motors and Associated Protection | Created the safety-critical eight-beat module, M-O-T-O-R evidence workflow, two Mermaid models, a fictional motor-system review, two accessible black-and-white SVG cartoons and a reciprocal vault note. Separated motor operating cases, protection functions, controls, restart and isolation without adding settings or field procedures. | Produce Day 20C — Alternative and Multiple Supplies Awareness. |
 
-## Files added or updated in run 24
+## Files added or updated in run 25
 
-- `docs/learning-plans/4-week/modules/day-20a-fixed-appliances-and-local-isolation.md`
-- `docs/assets/learning/4-week/day-20a-fixed-appliances-and-local-isolation/off-is-a-state-not-proof.svg`
-- `docs/assets/learning/4-week/day-20a-fixed-appliances-and-local-isolation/isolate-the-boundary-not-the-label.svg`
-- `docs/knowledge-base/Day 20A - Fixed Appliances and Local Isolation.md`
+- `docs/learning-plans/4-week/modules/day-20b-motors-and-associated-protection.md`
+- `docs/assets/learning/4-week/day-20b-motors-and-associated-protection/not-all-current-is-the-same.svg`
+- `docs/assets/learning/4-week/day-20b-motors-and-associated-protection/stopped-can-still-restart.svg`
+- `docs/knowledge-base/Day 20B - Motors and Associated Protection.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 20A is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
-- Fixed-appliance classifications, isolation triggers, device requirements, pole and neutral arrangements, location, accessibility, identification, securing, multiple-source treatment and verification require current authorised sources and qualified review.
-- The dishwasher and mixed-service-kitchen scenarios are fictional and exercise-only.
-- The module does not authorise opening, touching, switching, isolation, locking, testing, proving de-energised, installation, repair or alteration.
-- No standards wording, tables, figures, official distances, ratings, device prescriptions, manufacturer datasets or field procedures were added.
+- Day 20B is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- Motor classifications, conductor and device coordination, protection functions, settings, starting behaviour, controls, restart, isolation, testing and jurisdiction-specific requirements require current authorised sources and qualified review.
+- The extract-fan and workshop-compressor scenarios are fictional and exercise-only.
+- The module does not authorise opening, touching, switching, isolation, locking, testing, adjusting, resetting, commissioning, installation, repair or alteration.
+- No standards wording, tables, figures, official values, settings, device prescriptions, manufacturer datasets or field procedures were added.
 
 ## Run rules
 
