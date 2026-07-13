@@ -328,5 +328,5 @@ Day 26 is `draft-unverified`, non-safety-critical as a recovery workflow and not
 
 - [← Previous: Day 25 — Systematic Fault-Finding Workflow](./day-25-systematic-fault-finding-workflow.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 27 — Full Mock Examination →](./day-27-full-mock-examination.md)
 <!-- sequence-navigation:end -->

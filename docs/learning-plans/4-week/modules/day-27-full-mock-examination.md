@@ -116,15 +116,15 @@ Use **A-T-T-E-M-P-T** across the paper:
 
 ```mermaid
 flowchart TD
-    A[Audit entire mock] --> B[Allocate time by section]
-    B --> C[Tag each task type]
-    C --> D[Extract facts assumptions and source gaps]
-    D --> E[Select relevant learning workflow]
-    E --> F[Write bounded answer and confidence]
-    F --> G{Section complete?}
+    A["Audit entire mock"] --> B["Allocate time by section"]
+    B --> C["Tag each task type"]
+    C --> D["Extract facts assumptions and source gaps"]
+    D --> E["Select relevant learning workflow"]
+    E --> F["Write bounded answer and confidence"]
+    F --> G{"Section complete?"}
     G -- No --> C
-    G -- Yes --> H[Review safety flags contradictions and omissions]
-    H --> I[Submit complete evidence pack]
+    G -- Yes --> H["Review safety flags contradictions and omissions"]
+    H --> I["Submit complete evidence pack"]
 ```
 
 The workflow prevents the mock becoming a sequence of unplanned reactions to whichever question looks familiar first.
@@ -137,11 +137,11 @@ This mock uses four original sections. It is not intended to imitate a specific 
 
 ```mermaid
 flowchart LR
-    A[Section A Rule navigation and concepts] --> E[Integrated performance picture]
-    B[Section B Design and installation reasoning] --> E
-    C[Section C Verification and result interpretation] --> E
-    D[Section D Fault analysis and handover] --> E
-    E --> F[Day 28 review by accuracy process safety confidence and time]
+    A["Section A Rule navigation and concepts"] --> E["Integrated performance picture"]
+    B["Section B Design and installation reasoning"] --> E
+    C["Section C Verification and result interpretation"] --> E
+    D["Section D Fault analysis and handover"] --> E
+    E --> F["Day 28 review by accuracy process safety confidence and time"]
 ```
 
 ### Suggested time allocation
@@ -326,5 +326,5 @@ Day 27 is `review-required`, safety-critical, `reference_check_required` and not
 
 - [← Previous: Day 26 — Rest and Final Catch-Up](./day-26-rest-and-final-catch-up.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: Day 28 — Mock Review and Final Readiness Check
+- Next: no later module has been created yet
 <!-- sequence-navigation:end -->
