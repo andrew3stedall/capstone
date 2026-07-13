@@ -6,6 +6,7 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
+quality_improvement_pass: 2026-07-14
 standard_references:
   - standard: AS/NZS 3000
     edition: 2018
@@ -13,9 +14,10 @@ standard_references:
   - source: applicable electrical safety legislation and regulator guidance
     edition: current-jurisdiction-specific
     clause: reference-check-required
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
 safety_critical: true
 reference_check_required: true
+practical_authorisation: none
 prerequisites:
   - Day 1 — Exam Orientation and Wiring Rules Navigation
   - Safety and Electrical Risk
@@ -30,7 +32,7 @@ related_simulations: []
 
 # Day 2 — Fundamental Safety Principles
 
-> **Currency and safety notice:** This module develops safety reasoning. It does not provide a complete isolation, testing, rescue or live-work procedure. Exact legal duties, prohibited work, test methods, instrument requirements, personal protective equipment and emergency arrangements vary by jurisdiction and workplace. Verify them against current authorised legislation, regulator guidance, standards, manufacturer instructions, RTO procedures and site rules before use.
+> **Currency and safety notice:** This module develops safety reasoning only. It is not an isolation, testing, rescue, emergency, live-work or safe-work procedure and authorises no practical electrical activity. Exact duties, prohibited work, test methods, instruments, PPE, rescue arrangements and supervision requirements must be verified against current authorised legislation, regulator guidance, standards, manufacturer instructions, RTO procedures and site rules.
 
 ## 1. Outcome and entry check
 
@@ -38,258 +40,233 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. distinguish **hazard**, **risk**, **control**, **residual risk** and **stop condition** in an electrical-work scenario;
-2. explain why eliminating exposure to electrical energy is generally stronger than relying on behaviour or personal protective equipment;
-3. identify electrical, thermal, mechanical and secondary hazards that may remain after an obvious supply is switched off;
-4. apply a structured safety-decision sequence before design, inspection, testing or fault-finding work;
-5. recognise when a task must stop and be escalated because the supply state, competence, authority, procedure or equipment is uncertain;
-6. separate a safe principle from a jurisdiction-specific procedure that requires authorised verification.
+1. classify facts in a scenario as **hazard**, **exposure pathway**, **risk**, **control**, **verification evidence**, **residual risk** or **stop condition**;
+2. rank proposed controls by how directly and reliably they act on the hazard;
+3. distinguish an operational indication, an assumption and verified evidence;
+4. identify normal, alternative, stored, induced, mechanical, thermal and environmental hazards within a stated task boundary;
+5. apply the **B-O-U-N-D-A-R-Y** safety-reasoning workflow to a written scenario;
+6. stop and escalate when authority, competence, equipment state, source information, procedure or evidence is uncertain;
+7. identify which conclusions require current authorised verification rather than memory.
 
 ### Prerequisites
 
-- Completion of [Day 1 — Exam Orientation and Wiring Rules Navigation](./day-01-exam-orientation-and-wiring-rules-navigation.md).
-- Familiarity with basic electrical quantities and common installation equipment.
-- Access to current workplace safety procedures and authorised jurisdictional guidance for later verification.
+- Complete [Day 1 — Exam Orientation and Wiring Rules Navigation](./day-01-exam-orientation-and-wiring-rules-navigation.md).
+- Be familiar with basic electrical quantities and common installation equipment.
+- Have access to current workplace and jurisdictional sources for later verification.
 
 ### Entry check
 
-Answer without looking, then rate confidence as **guessing**, **unsure**, **reasonably confident** or **certain**.
+Answer without looking and rate confidence as **guessing**, **unsure**, **reasonably confident** or **certain**.
 
-1. Is a hazard the same thing as risk?
-2. Why is a switched-off control not automatically proof that equipment is safe to approach?
-3. Name two energy sources other than the normal incoming supply that could affect an installation.
-4. Which is normally stronger: removing the hazard or wearing protective equipment while exposed to it?
-5. What should happen when the worker cannot establish the equipment state or the applicable safe procedure?
+1. Is a hazard the same as risk?
+2. Does a stopped load prove that all relevant energy is absent?
+3. Name three sources of energy other than the normal incoming supply.
+4. Which is generally stronger: removing exposure or relying on PPE while exposure remains?
+5. What must happen when available evidence conflicts?
 
-The entry check is diagnostic. A high-confidence unsafe answer requires immediate remediation before practical activity.
+A high-confidence unsafe answer is more serious than a low-confidence error because it is more likely to be acted upon. Record it in the error log before practical work.
 
 ## 2. Why it matters
 
-Electrical incidents rarely result from one isolated mistake. They commonly involve a chain: an unrecognised source, an assumption about equipment state, an ineffective control, a changed work condition or a failure to stop when evidence becomes uncertain.
+Electrical incidents usually arise from a chain rather than one isolated error: an unrecognised source, an assumed equipment state, a weak control, an unverified control, changed conditions or failure to stop.
 
-Capstone assessment therefore requires more than naming hazards. The learner must show a defensible safety process:
+A defensible Capstone response therefore needs two results:
 
-- identify what can cause harm;
-- determine how exposure could occur;
-- choose controls that act on the hazard rather than merely on the person;
-- confirm that controls are effective;
-- monitor for changed conditions;
-- stop when the task moves outside authority, competence or verified procedure.
+- a technically relevant conclusion; and
+- a safe, evidence-based process used to reach it.
 
-The same reasoning applies in design, installation, inspection, testing and fault finding. A technically correct result reached through an unsafe process is not competent work.
+A correct final answer reached through unsafe assumptions is not competent work. Safety reasoning must remain visible in design, installation, inspection, testing and fault-finding responses.
 
-![A stick figure facing several hidden energy sources and checking before acting](../../../assets/learning/4-week/day-02-fundamental-safety-principles/check-every-source.svg)
+![A learner separating facts, assumptions and evidence before acting](../../../assets/learning/4-week/day-02-fundamental-safety-principles/evidence-before-action.svg)
 
 ## 3. Core concepts and terminology
 
-### Hazard
+### Hazard, exposure pathway and risk
 
-A **hazard** is a source or situation with the potential to cause harm. Electrical-work hazards include accessible live parts, stored electrical energy, induced voltage, arc energy, heat, moving machinery, falling objects, confined spaces and conditions that can cause slips or loss of control.
+A **hazard** is a source or situation with potential to cause harm. An **exposure pathway** is how a person, asset or environment could come into contact with that hazard. **Risk** considers both the possibility of harm and the seriousness of the consequence.
 
-### Risk
+Example: an energised part is the hazard; access through a missing barrier is the exposure pathway; electric shock or arc injury is the possible consequence.
 
-**Risk** combines the possibility that harm will occur with the seriousness of the possible consequence. Risk is affected by exposure, equipment condition, environment, task complexity, competence, supervision and the reliability of controls.
+### Control and critical control
 
-### Control
-
-A **control** is a measure used to eliminate a hazard or reduce risk. Controls are not equal. A control that physically removes exposure is generally more reliable than one that depends on perfect human behaviour every time.
+A **control** eliminates a hazard or reduces risk. A **critical control** is one whose failure could directly permit a serious event. Critical controls require explicit verification rather than assumption.
 
 ### Residual risk
 
-**Residual risk** is the risk remaining after controls are applied. Applying a control does not end the reasoning process. The worker must decide whether the remaining risk is acceptable under the applicable law, procedure and authority.
+**Residual risk** is the risk remaining after controls are applied. Applying controls does not end the analysis. The remaining risk must be acceptable under the governing law, procedure, authority and task conditions.
 
 ### Hierarchy of controls
 
-The **hierarchy of controls** ranks broad control strategies by how directly they act on the hazard:
+The hierarchy ranks broad control strategies by how directly they act on the hazard:
 
 1. **Elimination** — remove the hazard or exposure.
-2. **Substitution** — replace the hazard with a less hazardous alternative.
-3. **Engineering controls** — physically separate people from the hazard or design the hazard out.
+2. **Substitution** — replace it with a less hazardous alternative.
+3. **Engineering controls** — physically separate people from the hazard or design it out.
 4. **Administrative controls** — procedures, permits, training, signs, supervision and scheduling.
-5. **Personal protective equipment (PPE)** — equipment worn by the person to reduce injury severity or likelihood.
+5. **PPE** — equipment worn by the person to reduce likelihood or severity of injury.
 
-The hierarchy is a decision aid, not a guarantee. Several controls may be required, and their suitability must be verified for the actual task.
+The hierarchy is not a guarantee and does not replace task-specific authorised requirements. Multiple controls may be necessary.
 
-### De-energised
+### Operational indication, assumption and verified evidence
 
-**De-energised** describes equipment from which electrical energy has been removed under an applicable verified process. It is not established merely because a switch appears off, an indicator is dark or the connected load has stopped.
+- An **operational indication** shows how equipment appears to be behaving, such as a stopped motor or dark indicator.
+- An **assumption** is a conclusion accepted without adequate confirmation.
+- **Verified evidence** is information confirmed through an authorised source or approved method suitable for the task.
 
-### Isolation
+An operational indication may prompt investigation, but it is not automatically proof of a safe state.
 
-**Isolation** is the separation of equipment or a circuit from sources of electrical energy using an arrangement and process appropriate to the task. The exact devices, securing method, identification and verification steps are safety-critical and remain `reference_check_required` in this draft.
+### De-energised, isolation and prove de-energised
 
-### Prove de-energised
+**De-energised** describes equipment from which relevant electrical energy has been removed under an applicable verified process. **Isolation** is separation from sources using an arrangement and process suitable for the task. To **prove de-energised** is to establish the relevant state using the authorised procedure and suitable verified equipment.
 
-To **prove de-energised** means to establish, using the authorised procedure and suitable verified test equipment, that the relevant conductors or parts are not energised. This module teaches the reasoning need for proof but does not prescribe the jurisdiction-specific test sequence.
+This module explains why these distinctions matter. It does not prescribe the field sequence, devices, instrument use or securing method.
 
-### Competent person
+### Competence, authority and supervision
 
-A **competent person** has the combination of knowledge, skills, training, experience and authority required for the particular task under the applicable framework. Competence is task-specific; familiarity with one installation does not confer authority for every activity.
+**Competence** is task-specific knowledge, skill, training and experience. **Authority** is permission under the applicable framework. **Supervision** is the oversight required for the person and task. One does not automatically imply the others.
 
 ### Stop condition
 
-A **stop condition** is a fact or uncertainty that requires work to pause. Examples include an unidentified supply, damaged test equipment, changed site conditions, missing authority, unclear conductor identification, an unexpected reading or a task outside the worker's training and supervision limits.
+A **stop condition** is a fact, change or unresolved uncertainty that requires the task to pause. Examples include an unidentified source, conflicting labels, damaged equipment, unclear boundaries, unexpected indications, missing authority or work outside training limits.
 
 ## 4. Rule-finding workflow
 
-Use this workflow before any safety-critical electrical task or assessment scenario.
+Use **B-O-U-N-D-A-R-Y** for written safety scenarios and before any authorised practical planning:
 
-1. **Define the task boundary.** State exactly what equipment, circuit, area and activity are involved.
-2. **Identify all energy and hazard sources.** Consider normal supply, alternative supply, backfeed, stored energy, induction, mechanical movement, heat and environmental hazards.
-3. **Identify governing sources.** Locate the applicable legislation, regulator guidance, standard, workplace procedure, manufacturer instruction and RTO requirement.
-4. **Confirm authority and competence.** Determine who may perform, supervise, verify or approve the task.
-5. **Choose the strongest reasonably applicable controls.** Prefer elimination and separation from energy over controls that depend only on behaviour or PPE.
-6. **Plan verification.** Decide how the effectiveness of each critical control will be confirmed using the authorised procedure.
-7. **Define stop conditions.** Write down what unexpected condition will cause the task to pause.
-8. **Perform the work only within the verified plan.** Do not improvise around a failed or missing control.
-9. **Monitor change.** Reassess when the supply arrangement, work party, weather, access, equipment state or scope changes.
-10. **Record and communicate.** Document the task state, controls, verification, defects and handover information required by the applicable process.
+1. **B — Bound the task.** State the equipment, circuit, location, activity and exclusions.
+2. **O — Observe hazards and energy sources.** Include normal, alternative, stored, induced, mechanical, thermal and environmental sources.
+3. **U — Use current governing sources.** Identify legislation, regulator guidance, standards, workplace procedures, manufacturer instructions and RTO requirements.
+4. **N — Name competence and authority limits.** State who may perform, supervise, verify or approve the task.
+5. **D — Decide the strongest applicable controls.** Prefer controls acting directly on the hazard.
+6. **A — Ask what proves each critical control.** Separate indicators and assumptions from acceptable evidence.
+7. **R — Record residual risk and stop conditions.** Make uncertainty visible before work proceeds.
+8. **Y — Yield when conditions change.** Stop, reassess, communicate and escalate rather than improvising.
 
 ```mermaid
 flowchart TD
-    A["Define task and boundary"] --> B["Identify energy sources and other hazards"]
-    B --> C["Find current governing sources"]
-    C --> D{"Authorised and competent for this task?"}
-    D -->|"No or uncertain"| E["Stop and escalate"]
-    D -->|"Yes"| F["Choose strongest applicable controls"]
-    F --> G["Plan how controls will be verified"]
-    G --> H["Set explicit stop conditions"]
-    H --> I{"Controls verified and conditions stable?"}
-    I -->|"No"| E
-    I -->|"Yes"| J["Perform work within the plan"]
-    J --> K{"Conditions changed or unexpected evidence?"}
-    K -->|"Yes"| E
-    K -->|"No"| L["Complete records and handover"]
+    A["Bound the task"] --> B["Observe every relevant hazard and source"]
+    B --> C["Use current governing sources"]
+    C --> D{"Authority, competence and supervision confirmed?"}
+    D -->|"No or uncertain"| X["Stop and escalate"]
+    D -->|"Yes"| E["Decide strongest applicable controls"]
+    E --> F["Ask what verifies each critical control"]
+    F --> G{"Evidence adequate and conditions stable?"}
+    G -->|"No"| X
+    G -->|"Yes"| H["Record residual risk and stop conditions"]
+    H --> I{"Task or evidence changed?"}
+    I -->|"Yes"| X
+    I -->|"No"| J["Continue only within the authorised plan"]
 ```
 
-The diagram deliberately sends uncertainty to **stop and escalate**. Escalation is a control, not a failure of confidence.
+The workflow deliberately directs uncertainty to **stop and escalate**. Escalation is a safety control, not a failure of confidence.
 
 ## 5. Visual model or worked example
 
-### Worked safety-reasoning example
+### Evidence ladder
 
-**Scenario:** A learner is asked to inspect equipment that has stopped operating. A local control is in the off position. The equipment is connected to a switchboard, and the site also has an alternative supply system.
+Use this ladder to test a statement before relying on it:
 
-This example does not provide a practical isolation procedure. It demonstrates how to reason before touching or testing.
-
-| Stage | Safety reasoning | Required evidence |
+| Level | Example | What it can support |
 |---|---|---|
-| Task boundary | Inspection of specified equipment; no assumption that the whole installation is safe. | Equipment identity, scope and responsible person confirmed. |
-| Hazard identification | Normal supply, alternative supply, possible control-circuit energy, stored energy and mechanical movement. | Supply information, diagrams, labels and site knowledge checked. |
-| Initial assumption check | The local off control may stop operation but may not isolate every energy source. | Governing procedure and equipment information consulted. |
-| Control selection | Seek elimination or verified separation from relevant energy sources before access. | Authorised isolation arrangement and responsibility established. |
-| Verification planning | Determine the approved method and suitable instrument for proving the relevant state. | Current procedure, instrument suitability and competent person confirmed. |
-| Stop condition | Any unidentified source, unexpected indication, conflicting label or unclear procedure. | Work pauses; supervising or authorised competent person is engaged. |
-| Residual risk | Mechanical, thermal, environmental and stored-energy hazards may remain. | Additional controls are selected and checked. |
+| 1. Assumption | “It should be off.” | Nothing safety-critical. |
+| 2. Operational indication | Load stopped; indicator dark. | A reason to investigate, not proof of state. |
+| 3. Identification evidence | Labels, drawings, schedules, equipment information. | Helps define sources and boundaries; must be current and consistent. |
+| 4. Authorised procedural evidence | Applicable current procedure and responsible person confirmed. | Establishes the required method and roles. |
+| 5. Verified task evidence | Critical controls confirmed using the authorised method. | Supports the task-specific decision, subject to changed conditions and residual risk. |
 
 ```mermaid
 flowchart LR
-    A["Equipment stopped"] --> B{"Why did it stop?"}
-    B --> C["Local control operated"]
-    B --> D["Protective device operated"]
-    B --> E["Supply lost"]
-    B --> F["Control or equipment fault"]
-    C --> G["State still unproven"]
-    D --> G
-    E --> G
-    F --> G
-    G --> H["Identify every relevant source"]
-    H --> I["Apply and verify authorised controls"]
+    A["Assumption"] --> B["Operational indication"] --> C["Identification evidence"] --> D["Authorised procedure"] --> E["Verified task evidence"]
 ```
 
-The key lesson is that **not operating** and **safe to access** are different conclusions.
+Higher steps do not erase contradictions below them. A conflicting label, unexpected indication or changed source arrangement remains a stop condition until resolved.
 
-![A stick figure declining to treat an off switch as proof of safety](../../../assets/learning/4-week/day-02-fundamental-safety-principles/off-is-not-proof.svg)
+### Worked scenario
+
+**Scenario:** Equipment has stopped, its local control is off and the site has an alternative supply.
+
+| BOUNDARY stage | Reasoning | Required evidence or response |
+|---|---|---|
+| Bound | Inspection is limited to named equipment; the wider installation is not assumed safe. | Confirm identity, location, scope and responsible person. |
+| Observe | Normal supply, alternative supply, control energy, stored energy, movement and environment may matter. | Review current diagrams, labels and equipment information. |
+| Use sources | A generic memory of safe work is insufficient. | Locate the current authorised procedure and task-specific instructions. |
+| Name limits | The learner may not be authorised to isolate, test or access the equipment. | Confirm role, supervision and responsible competent person. |
+| Decide controls | A local off control is not a complete control for all sources. | Select controls through the authorised process. |
+| Ask for proof | Stopped operation is only an indication. | Use only the approved verification method and suitable equipment through an authorised person. |
+| Record | Conflicting labels, unidentified source or unexpected evidence are stop conditions. | Pause and escalate; do not improvise. |
+| Yield | Any change in scope, people, supply or conditions invalidates unchecked assumptions. | Reassess from the task boundary. |
 
 ## 6. Practical application
 
-### Safety-decision worksheet
+### Safety-reasoning worksheet
 
-Use an original scenario supplied by a trainer or practice bank. Complete the worksheet before discussing the answer.
+Complete this worksheet for three fictional scenarios. It is a reasoning exercise, not permission to perform the work.
 
 ```text
-Task and physical boundary:
-People involved and their roles:
-Normal energy sources:
-Alternative, stored or induced energy sources:
-Non-electrical hazards:
-Applicable authorised sources:
-Required competence, licence, supervision or permit:
-Strongest applicable control:
-Additional controls:
-How each critical control will be verified:
+Task and exclusions:
+People, authority and supervision:
+Hazards:
+Exposure pathways:
+Normal and alternative energy sources:
+Stored, induced, mechanical or thermal energy:
+Environmental and secondary hazards:
+Applicable current authorised sources:
+Proposed controls, ranked by hierarchy:
+Critical controls:
+Evidence required for each critical control:
 Residual risk:
-Stop conditions:
-Required communication, records and handover:
-Reference checks still required:
+Explicit stop conditions:
+Changed-condition triggers:
+Required communication and records:
+Items marked reference_check_required:
 ```
 
-### Scenario set
+Use these scenarios:
 
-Apply the worksheet to three different contexts:
+1. a final subcircuit appears inactive after a protective device operates;
+2. equipment has normal and alternative supply arrangements but incomplete diagrams;
+3. damaged equipment is located in a wet or contaminated area.
 
-1. a final subcircuit that appears inactive after a protective device operates;
-2. equipment supplied through both a normal source and an alternative source arrangement;
-3. an inspection task near damaged equipment in a wet or contaminated area.
+### Performance rubric
 
-For each scenario, the learner must:
+Score each category **0, 1 or 2**.
 
-- identify at least four hazards, including one non-electrical hazard;
-- distinguish the hazard from the resulting risk;
-- select controls using the hierarchy rather than naming PPE first;
-- identify the evidence required to verify critical controls;
-- define at least two stop conditions;
-- mark every procedural or jurisdiction-specific detail requiring authorised confirmation.
+| Category | 0 — unsafe/incomplete | 1 — developing | 2 — defensible |
+|---|---|---|---|
+| Boundary | Scope assumed or unclear. | Main equipment named, exclusions incomplete. | Equipment, circuit, area, activity and exclusions are explicit. |
+| Sources and hazards | Only obvious supply considered. | Several sources listed, important pathway omitted. | Electrical and non-electrical sources and pathways are systematically considered. |
+| Controls | PPE or procedure named without hierarchy reasoning. | Stronger control proposed but not justified. | Controls are ranked and matched to each hazard. |
+| Evidence | Indicators or labels treated as proof. | Evidence requested but not tied to critical controls. | Each critical control has a stated authorised verification need. |
+| Limits and escalation | Authority or competence ignored. | Limits recognised but stop point vague. | Authority, supervision and explicit stop conditions are clear. |
+| Source discipline | Rules asserted from memory. | Some source checks identified. | Jurisdictional and procedural claims are marked for current authorised verification. |
 
-### Performance evidence
-
-A competent response should show:
-
-- no assumption that an off control, open protective device or stopped load proves safety;
-- consideration of multiple and stored energy sources;
-- control selection that prioritises elimination or separation;
-- explicit verification rather than trust in labels or indicators alone;
-- recognition of competence, authority and supervision limits;
-- a clear stop-and-escalate response to uncertainty;
-- original wording rather than copied regulatory or standards text.
+A score below **2** in **Evidence** or **Limits and escalation** blocks readiness for practical activity, regardless of the total score.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-**Treating hazard and risk as synonyms**  
-The hazard is the source of possible harm. Risk considers how exposure may occur and the possible consequence.
-
-**Starting with PPE**  
-PPE may be necessary, but it sits low in the hierarchy because it does not remove the hazard and depends on correct selection, condition and use.
-
-**Assuming “off” means de-energised**  
-A control position, indicator or stopped load is evidence about operation, not proof that all relevant energy has been removed.
-
-**Considering only the normal supply**  
-Alternative supplies, backfeed, stored energy, induction and control circuits can invalidate a single-source assumption.
-
-**Following a procedure mechanically**  
-A procedure must match the actual equipment, supply arrangement and task. Unexpected evidence requires reassessment, not blind continuation.
-
-**Confusing confidence with competence**  
-Confidence is a feeling. Competence and authority require demonstrable training, knowledge, experience and permission for the task.
-
-**Continuing after the scope changes**  
-A new supply arrangement, damaged component, different work area or additional person can change the risk and invalidate earlier controls.
+- **Treating hazard and risk as synonyms:** name the source, pathway and consequence separately.
+- **Starting with PPE:** ask first whether exposure can be eliminated or engineered out.
+- **Treating “off” as proof:** identify what the indication shows and what remains unproven.
+- **Checking only the normal supply:** deliberately scan for alternative, stored and induced energy.
+- **Following a procedure mechanically:** confirm it matches the actual task and current arrangement.
+- **Confusing confidence with competence:** confidence is not evidence of training, authority or supervision.
+- **Continuing after change:** return to the task boundary whenever scope, conditions, personnel or evidence change.
+- **Using a standards citation as a complete safe-work method:** a topic reference does not replace current legal, workplace and manufacturer procedures.
 
 ### Safety checkpoint
 
-Before any practical activity, the learner must be able to answer **yes** to all of the following:
+Before any practical activity, every answer below must be **yes** and supported by appropriate evidence:
 
-- Is the task and boundary clear?
-- Have all reasonably foreseeable energy sources and other hazards been considered?
-- Are the current governing procedure and authorised sources available?
-- Is the person authorised, competent and appropriately supervised for this task?
-- Have controls been selected in the strongest reasonably applicable order?
-- Is there an authorised method to verify critical controls?
-- Are stop conditions understood by everyone involved?
-- Will work stop if evidence conflicts with the plan?
+- Is the task boundary explicit?
+- Have relevant energy sources and exposure pathways been considered?
+- Are current governing sources and procedures available?
+- Are competence, authority and supervision confirmed?
+- Have controls been selected in the strongest applicable order?
+- Is there an authorised method to verify every critical control?
+- Are residual risks and stop conditions understood?
+- Will the task stop if evidence conflicts or conditions change?
 
 A **no**, unknown or disputed answer is a stop condition until resolved by the appropriate authorised person.
 
@@ -297,36 +274,28 @@ A **no**, unknown or disputed answer is a stop condition until resolved by the a
 
 ### Recall questions
 
-Answer without looking, then verify against this module.
-
-1. What is the difference between a hazard, risk and residual risk?
-2. Why are elimination and engineering controls generally stronger than administrative controls and PPE?
-3. Why does an off switch not prove that equipment is de-energised?
-4. Name four possible energy sources or pathways that may be overlooked.
-5. What makes competence task-specific?
-6. What is the purpose of a stop condition?
-7. At what points must risk be reassessed?
-8. Why must a technically correct answer also demonstrate a safe process?
+1. Distinguish hazard, exposure pathway, risk and residual risk.
+2. Why is an operational indication weaker than verified evidence?
+3. What does each letter in B-O-U-N-D-A-R-Y represent?
+4. Why must critical controls have explicit verification evidence?
+5. Name four overlooked energy sources or pathways.
+6. Why are competence, authority and supervision separate questions?
+7. What makes a changed condition a reason to restart the reasoning process?
+8. Why can a technically correct result still be incompetent work?
 
 ### Applied retrieval
 
-For each prompt, state the **hazard**, **possible exposure**, **strongest likely control category**, **verification evidence** and **stop condition**:
+For each prompt, state the **boundary**, **hazard**, **exposure pathway**, **strongest likely control category**, **verification need**, **residual risk** and **stop condition**:
 
-- a circuit label conflicts with the circuit schedule;
-- equipment has stopped after a protective device operated;
-- a work area contains water and damaged electrical equipment;
-- a site has an alternative supply and incomplete diagrams;
-- a learner is asked to perform a task beyond current supervision arrangements.
+- a circuit label conflicts with the schedule;
+- equipment stopped after a protective device operated;
+- an alternative supply is present but diagrams are incomplete;
+- a wet work area contains damaged electrical equipment;
+- a learner is asked to act beyond current supervision arrangements.
 
-### Reflection
+### Varied re-attempt
 
-Record:
-
-- one assumption you previously treated as evidence;
-- one hidden energy source you are now more likely to check;
-- one situation in which PPE would not adequately control the hazard;
-- one stop condition you would have previously ignored;
-- one procedural detail requiring verification in your jurisdiction or workplace.
+Choose one original scenario scored below the rubric threshold. Correct it, then apply B-O-U-N-D-A-R-Y to a different scenario with one variable changed. Do not copy the corrected answer. Record whether the same error recurred.
 
 ### Knowledge-base links
 
@@ -339,17 +308,17 @@ Record:
 
 ### Next block
 
-Continue to **Day 3 — Overcurrent Protection**, where the safety principles are applied to conductor protection, overload conditions, short-circuit conditions and protective-device reasoning.
+Continue to **Day 3 — Overcurrent Protection**, applying safety reasoning to overload, short-circuit and protective-device decisions.
 
 ### References and review status
 
 - Current authorised electrical safety legislation and regulator guidance for the applicable jurisdiction — `reference_check_required`.
-- Current authorised workplace isolation, testing, permit, rescue and emergency procedures — `reference_check_required`.
-- AS/NZS 3000:2018 and applicable amendments, used only as a topic reference — exact clauses and requirements are `reference_check_required`.
-- Manufacturer instructions for equipment and test instruments used in practical work — `reference_check_required`.
-- RTO assessment and supervision requirements — `reference_check_required`.
+- Current workplace isolation, testing, permit, rescue and emergency procedures — `reference_check_required`.
+- AS/NZS 3000:2018 and applicable amendments, used only as a topic reference — exact requirements remain `reference_check_required`.
+- Manufacturer instructions for relevant equipment and instruments — `reference_check_required`.
+- RTO assessment, authority and supervision requirements — `reference_check_required`.
 
-**Content status:** `review-required`. This original educational draft must be checked by a suitably qualified reviewer before product use. It must not be treated as a complete safe-work method or labelled `technically-reviewed` without documented review against current authorised sources.
+**Content status:** `review-required`. This original educational draft must be checked by a suitably qualified reviewer. It is not a complete safe-work method and must not be labelled `technically-reviewed` without documented review against current authorised sources.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
