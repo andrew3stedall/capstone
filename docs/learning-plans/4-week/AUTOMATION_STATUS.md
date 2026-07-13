@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas.
 - **Current block:** None.
-- **Next block:** [[Day 17 - Bathrooms Showers and Other Wet Areas]].
+- **Next block:** [[Day 18 - Other Special Installations and Locations]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 16 is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It teaches classification and evidence tracing only and does not authorise physical work or assert verified formal definitions, supply boundaries or circuit arrangements.
+- **Review state:** Day 17 is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It teaches wet-area geometry and evidence reasoning only and does not assert verified zone dimensions, equipment permissions or field procedures.
 
 ## Hourly run log
 
@@ -41,24 +41,25 @@ updated_on: 2026-07-13
 | 18 — 2026-07-13 | Day 14 — Week 2 Integrated Design Exercise | Created the safety-critical eight-beat Week 2 synthesis module, the D-E-S-I-G-N workflow, two Mermaid dependency models, a fictional integrated calculation, a community-workshop design exercise, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, official factors, limits, device curves, board ratings or approval claims were reproduced. | Produce Day 15 — Wiring Systems and Mechanical Protection. |
 | 19 — 2026-07-13 | Day 15 — Wiring Systems and Mechanical Protection | Created the safety-critical eight-beat module, the R-O-U-T-E route-review workflow, two Mermaid models, a fictional multi-zone workshop route exercise, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, official dimensions, classifications, product prescriptions or field-work permissions were reproduced. | Produce Day 16 — Consumer Mains, Submains and Final Subcircuits. |
 | 20 — 2026-07-13 | Day 16 — Consumer Mains, Submains and Final Subcircuits | Created the safety-critical eight-beat hierarchy module, the T-R-A-C-E classification workflow, two Mermaid models, a fictional multi-board classification exercise, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No formal definitions, standards tables, official values, network arrangements or field-work permissions were reproduced. | Produce Day 17 — Bathrooms, Showers and Other Wet Areas. |
+| 21 — 2026-07-13 | Day 17 — Bathrooms, Showers and Other Wet Areas | Created the safety-critical eight-beat wet-area module, the W-A-T-E-R evidence workflow, two Mermaid models, a fictional accessible-bathroom review, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No zone dimensions, standards diagrams, equipment permissions, official ratings or field-work procedures were reproduced. | Produce Day 18 — Other Special Installations and Locations. |
 
-## Files added or updated in run 20
+## Files added or updated in run 21
 
-- `docs/learning-plans/4-week/modules/day-16-consumer-mains-submains-and-final-subcircuits.md`
-- `docs/assets/learning/4-week/day-16-consumer-mains-submains-and-final-subcircuits/follow-the-function.svg`
-- `docs/assets/learning/4-week/day-16-consumer-mains-submains-and-final-subcircuits/check-both-sides-of-the-board.svg`
-- `docs/knowledge-base/Day 16 - Consumer Mains Submains and Final Subcircuits.md`
+- `docs/learning-plans/4-week/modules/day-17-bathrooms-showers-and-other-wet-areas.md`
+- `docs/assets/learning/4-week/day-17-bathrooms-showers-and-other-wet-areas/map-water-before-equipment.svg`
+- `docs/assets/learning/4-week/day-17-bathrooms-showers-and-other-wet-areas/ip-is-one-gate.svg`
+- `docs/knowledge-base/Day 17 - Bathrooms Showers and Other Wet Areas.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 16 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
-- Formal circuit classifications, supply boundaries, consumer-mains requirements, submain and final-subcircuit arrangements, network requirements, protection, neutral and earthing treatment, voltage-drop and fault-performance methods, switching/isolation, labelling, board ratings, alternative supplies and jurisdiction-specific obligations require current authorised sources and qualified review.
-- The community-workshop and commercial-tenancy scenarios are fictional and exercise-only.
+- Day 17 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- Wet-area definitions, zone geometry and dimensions, barrier effects, equipment categories and permissions, ingress and environmental requirements, additional protection, supply, switching, isolation, earthing, bonding, wiring, verification and jurisdiction-specific obligations require current authorised sources and qualified review.
+- The accessible-bathroom scenario is fictional and exercise-only.
 - The module does not authorise opening, touching, testing, switching, isolation, installation, repair or alteration.
-- No standards wording, official definitions, tables, figures, values, network arrangements or manufacturer datasets were added.
+- No standards wording, diagrams, zone dimensions, official equipment permissions, ratings or manufacturer datasets were added.
 - Publication requires editorial review and qualified technical review against authorised current sources.
 
 ## Run rules
