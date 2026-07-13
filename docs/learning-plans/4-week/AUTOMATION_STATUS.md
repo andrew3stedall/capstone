@@ -8,14 +8,14 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3 and Day 4.
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4 and Day 5.
 - **Current block:** None.
-- **Next block:** Quality-improvement pass — [[Day 05 - Rest Retrieval and Catch-Up]].
+- **Next block:** Quality-improvement pass — [[Day 06A - Earthing Terminology and Component Roles]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Draft PR:** #5, targeting `main`.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
 - **Quality-pass rule:** Each module receives exactly one substantive quality-improvement pass before the final program-wide audit. Persistent review flags do not cause repeat selection.
-- **Review state:** Day 4 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`. It authorises no practical activity.
+- **Review state:** Day 5 contains original learning guidance, is not `technically-reviewed`, and authorises no practical activity. Technical corrections inherit the unresolved review state of their source modules.
 
 ## Run log
 
@@ -26,23 +26,23 @@ updated_on: 2026-07-14
 | 36 — 2026-07-14 | Quality-improvement pass — Day 2 | Added the B-O-U-N-D-A-R-Y workflow, hazard–exposure-pathway distinction, evidence ladder, critical-control verification model, measurable rubric, varied re-attempt, updated vault note and accessible evidence-before-action cartoon. | Quality-improvement pass — Day 3. |
 | 37 — 2026-07-14 | Quality-improvement pass — Day 3 | Added the P-R-O-T-E-C-T workflow, path–magnitude–time diagnostic model, three-level evidence hierarchy, measurable six-category rubric, varied transfer re-attempt, updated vault note and accessible missing-evidence stop cartoon. | Quality-improvement pass — Day 4. |
 | 38 — 2026-07-14 | Quality-improvement pass — Day 4 | Added the R-E-S-I-D-U-A-L workflow, three-protection-question model, evidence ladder, measurable six-category rubric, varied transfer re-attempt, updated vault note and accessible evidence-before-reset cartoon. | Quality-improvement pass — Day 5. |
+| 39 — 2026-07-14 | Quality-improvement pass — Day 5 | Added the R-E-S-E-T workflow, confidence calibration, blocking/beneficial/defer triage, observable five-part performance rubric, changed-scenario transfer, updated vault note and accessible fatigue stop cartoon. | Quality-improvement pass — Day 6A. |
 
-## Files added or updated in run 38
+## Files added or updated in run 39
 
-- `docs/learning-plans/4-week/modules/day-04-rcd-protection-and-additional-protection.md`
-- `docs/assets/learning/4-week/day-04-rcd-protection-and-additional-protection/evidence-before-reset.svg`
-- `docs/knowledge-base/Day 04 - RCD Protection and Additional Protection.md`
+- `docs/learning-plans/4-week/modules/day-05-rest-retrieval-and-catch-up.md`
+- `docs/assets/learning/4-week/day-05-rest-retrieval-and-catch-up/stop-before-errors-stick.svg`
+- `docs/knowledge-base/Day 05 - Rest Retrieval and Catch-Up.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 4 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact circuit categories, exceptions, device types, residual-current ratings, operating times, testing criteria, leakage limits, selectivity claims, installation arrangements, clause references and jurisdiction-specific requirements require authorised verification.
-- The module is a residual-current reasoning resource, not a device-selection table, installation rule, testing procedure, compliance certificate or authority to alter protection.
-- No exact technical values, copied standards tables, standards figures, systematic clause wording or official assessment content were added.
-- The R-E-S-I-D-U-A-L workflow, three-protection-question model, evidence ladder and scored rubric are original educational models.
-- The module authorises no live testing, opening of energised equipment, neutral disconnection, repeated resetting, replacement, bypass, alteration, energisation or certification activity.
+- Day 5 remains original, draft learning guidance and is not `technically-reviewed`.
+- The module adds no new electrical rules, clause numbers, limits, test values, standards tables, standards figures or official assessment claims.
+- Any technical correction completed during Day 5 retains the `review-required` or `reference_check_required` status of the source module until checked against current authorised material.
+- The R-E-S-E-T workflow, triage categories, confidence-calibration method and performance rubric are original educational models.
+- The module authorises no testing, resetting, disconnection, alteration, energisation or other practical electrical activity.
 
 ## Run rules
 
