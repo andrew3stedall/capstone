@@ -82,5 +82,5 @@ The block does not authorise inspection, operation, isolation, energisation, ele
 - [← Previous: Day 25 - Systematic Fault-Finding Workflow](./Day%2025%20-%20Systematic%20Fault-Finding%20Workflow.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-26-rest-and-final-catch-up.md)
-- Next: no later module has been created yet
+- [Next: Day 27 - Full Mock Examination →](./Day%2027%20-%20Full%20Mock%20Examination.md)
 <!-- sequence-navigation:end -->
