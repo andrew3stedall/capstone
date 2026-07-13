@@ -6,6 +6,7 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
+quality_pass_completed_on: 2026-07-14
 standard_references:
   - standard: AS/NZS 3000
     edition: 2018
@@ -13,9 +14,10 @@ standard_references:
   - source: applicable regulator guidance and manufacturer data
     edition: current
     clause: reference-check-required
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
 safety_critical: true
 reference_check_required: true
+practical_authorisation: none
 prerequisites:
   - Day 2 — Fundamental Safety Principles
   - Electrical Fundamentals
@@ -31,7 +33,7 @@ related_simulations: []
 
 # Day 3 — Overcurrent Protection
 
-> **Currency and safety notice:** This module teaches the reasoning used to recognise overcurrent hazards and coordinate loads, conductors and protective devices. It does not provide complete device-selection tables, breaking-capacity values, trip curves, discrimination settings, fault-level calculations or jurisdiction-specific installation rules. Verify all exact ratings, clauses, limits, device data and assessment requirements against current authorised standards, regulator guidance, manufacturer information, workplace procedures and RTO instructions.
+> **Currency and safety notice:** This module teaches a reasoning method for recognising overcurrent hazards and checking the relationship among load, conductor, protective device and available fault current. It does not supply device-selection tables, breaking-capacity values, trip curves, discrimination settings, fault-level calculations or jurisdiction-specific installation rules. Verify exact ratings, clauses, limits, device data and assessment requirements against authorised current sources.
 
 ## 1. Outcome and entry check
 
@@ -39,329 +41,302 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. define **current**, **rated current**, **overcurrent**, **overload current**, **short-circuit current**, **fault current**, **prospective fault current** and **breaking capacity**;
-2. distinguish an overload from a short circuit using the cause, current path, likely magnitude and required protective response;
-3. explain why overcurrent protection must be coordinated with the conductor, connected equipment, supply conditions and installation method;
-4. apply a structured workflow to identify the relevant protective requirement without copying a standards table;
-5. identify the evidence needed to justify a protective-device choice;
-6. recognise common unsafe assumptions, including treating an RCD as overcurrent protection or selecting a device from load current alone.
+1. define **overcurrent**, **overload current**, **short-circuit current**, **prospective fault current**, **current-carrying capacity**, **time-current characteristic** and **breaking capacity**;
+2. classify an abnormal-current scenario as overload, short circuit, another fault condition or insufficient-information;
+3. map the normal and abnormal current paths for a supplied scenario;
+4. use the **P-R-O-T-E-C-T** workflow to produce a traceable protection justification;
+5. distinguish a rating printed on a device from evidence that the device is suitable for the circuit;
+6. identify missing evidence and stop rather than inventing a value, curve, fault level or coordination claim;
+7. score a response against the six-category performance rubric and correct one weak category in a varied re-attempt.
 
 ### Prerequisites
 
 - Completion of [Day 2 — Fundamental Safety Principles](./day-02-fundamental-safety-principles.md).
-- Familiarity with voltage, current, resistance, power and basic circuit paths.
-- Ability to distinguish normal operation from an abnormal condition.
+- Familiarity with voltage, current, resistance, power and circuit paths.
+- Ability to separate an observed fact, an assumption and verified evidence.
 
 ### Entry check
 
 Answer without looking, then rate confidence as **guessing**, **unsure**, **reasonably confident** or **certain**.
 
-1. What is the difference between an overload and a short circuit?
-2. Can a conductor be damaged even when the connected load appears to operate normally?
-3. Does an RCD normally replace a circuit breaker or fuse for overload and short-circuit protection?
-4. Why must a protective device have sufficient breaking capacity?
-5. What information, besides load current, affects conductor and protective-device selection?
+1. What distinguishes an overload path from a short-circuit path?
+2. Can a conductor be at risk when the connected load appears to operate normally?
+3. Does an RCD function alone normally replace overload and short-circuit protection?
+4. Why is breaking capacity not the same as rated current?
+5. What evidence is missing from the statement, “The load is below the breaker rating, so it is safe”?
 
-A high-confidence answer that treats all excessive current as the same event is a priority misconception for correction.
+A high-confidence answer that treats every excessive-current event as identical is a priority misconception.
 
 ## 2. Why it matters
 
-Excess current produces heat. If the current, duration and current path exceed what conductors, connections or equipment can safely withstand, insulation can deteriorate, terminals can fail, equipment can be damaged and fire or arc hazards can develop.
+Excess current can heat conductors, connections and equipment. The risk depends on current magnitude, duration, path, conductor capability, protective-device behaviour and the fault energy that may have to be interrupted.
 
-Overcurrent protection is therefore not simply “choose the next breaker size above the load.” A defensible design or assessment answer must connect four things:
+A protective decision is therefore a relationship, not a single number. A defensible answer connects:
 
-- the current expected during normal service;
-- the current-carrying capability of the conductor under its actual installation conditions;
-- the protective device's operating behaviour;
-- the fault current the device may be required to interrupt safely.
+- expected current and load duty;
+- conductor capability under actual installation conditions;
+- protective-device rating, setting and operating characteristic;
+- prospective fault current and breaking capacity;
+- equipment requirements and upstream/downstream coordination.
 
-Different abnormal conditions demand different reasoning. A modest but sustained overload can overheat a conductor over time. A short circuit can produce a much larger current almost immediately. The device must respond appropriately to both, but its exact response depends on its type, rating, curve, settings and the available fault current.
+A sustained overload may remain in the intended current path and cause cumulative heating. A short circuit follows an unintended low-impedance path and may produce a much larger current rapidly. Confusing these mechanisms leads to weak diagnosis and unsafe proposed remedies.
 
 ![A stick figure choosing protection by checking the load, cable and device together](../../../assets/learning/4-week/day-03-overcurrent-protection/three-way-check.svg)
 
 ## 3. Core concepts and terminology
 
-### Current
-
-**Current** is the rate of flow of electric charge, measured in amperes. In design work, current is considered both as an expected operating quantity and as a possible abnormal quantity during faults or overloads.
-
-### Rated current
-
-A device's **rated current** is the current value assigned to it under specified conditions. The rating does not, by itself, describe every point on the device's operating curve or prove suitability for a particular conductor and installation.
-
 ### Overcurrent
 
-**Overcurrent** is current exceeding the value intended for a conductor, circuit or item of equipment. It is an umbrella term that includes overload current and short-circuit current.
+**Overcurrent** is current above the value intended for a conductor, circuit or item of equipment. It is a category that includes overload current and short-circuit current.
 
 ### Overload current
 
-An **overload current** flows in an electrically sound current path but is greater than the circuit or equipment is intended to carry. Typical causes include too much connected load, a stalled or mechanically overloaded machine, or equipment operating outside its intended duty.
-
-The important idea is that the path may still be the normal path. The problem is excessive demand or abnormal operating condition rather than direct contact between conductors at different potentials.
+An **overload current** flows through an electrically sound, intended path but exceeds the circuit or equipment duty. Causes can include excessive connected load, abnormal duty or mechanically overloaded equipment.
 
 ### Short-circuit current
 
-A **short-circuit current** flows through an unintended path with relatively low impedance between points at different potentials. Because the path impedance may be low, the current can rise rapidly and may be many times normal operating current.
+A **short-circuit current** flows through an unintended relatively low-impedance path between points at different potentials. Its magnitude depends on source conditions and total path impedance.
 
 ### Fault current
 
-**Fault current** is current resulting from an insulation failure, connection failure or unintended conductive path. A fault may involve active conductors, neutral, exposed conductive parts, protective earthing conductors or other conductive paths. Not every fault has the same magnitude or protective response.
+**Fault current** results from insulation failure, connection failure or another unintended conductive path. Not every fault has the same path, magnitude or protective response.
 
 ### Prospective fault current
 
-**Prospective fault current** is the current expected to flow at a point if a fault of the relevant type occurred there, before the protective device limits or interrupts it. It depends on supply characteristics and total impedance of the fault path.
+**Prospective fault current** is the current expected at a point if the relevant fault occurred before a protective device limits or interrupts it.
 
-### Protective device
+### Rated current
 
-A **protective device** detects or responds to an abnormal electrical condition and acts to limit danger or damage. In this module, the focus is overcurrent protective devices such as circuit breakers and fuses. Their exact characteristics must be taken from authorised standards and manufacturer data.
-
-### Circuit breaker
-
-A **circuit breaker** is a resettable switching and protective device designed to open a circuit automatically under specified abnormal current conditions. Its behaviour is described by more than the number printed on its front.
-
-### Fuse
-
-A **fuse** contains an element intended to melt and interrupt the circuit when current and time exceed its designed characteristic. A fuse must be replaced after operation, and replacement type and rating are critical.
+A device's **rated current** is an assigned value under specified conditions. The printed rating does not describe the complete time-current behaviour or prove circuit suitability.
 
 ### Current-carrying capacity
 
-A conductor's **current-carrying capacity** is the current it can carry continuously under specified conditions without exceeding its permitted temperature. It is affected by conductor size and material, insulation type, ambient temperature, grouping, enclosure, thermal insulation, installation method and other factors.
-
-### Breaking capacity
-
-**Breaking capacity** is the maximum prospective current a protective device is designed to interrupt safely under specified conditions. A device with inadequate breaking capacity may fail dangerously when attempting to clear a high-current fault.
+A conductor's **current-carrying capacity** is the current it can continuously carry under specified conditions without exceeding its permitted temperature. Installation method, grouping, ambient conditions, thermal insulation, enclosure and conductor construction can change that capability.
 
 ### Time-current characteristic
 
-A **time-current characteristic** describes how operating time changes with current magnitude. Generally, the greater the overcurrent, the faster a suitable device is expected to operate, but exact behaviour must be confirmed from the applicable device data.
+A **time-current characteristic** describes how device operating time changes with current magnitude. Exact behaviour must come from authorised device data.
 
-### Selectivity and discrimination
+### Breaking capacity
 
-**Selectivity**, often called **discrimination**, is coordination intended to have the protective device nearest the fault operate while appropriate upstream devices remain closed. This can reduce the extent of supply interruption. Exact coordination requires verified device data and is `reference_check_required`.
+**Breaking capacity** is the maximum prospective current a device is designed to interrupt safely under specified conditions. A suitable current rating does not compensate for inadequate breaking capacity.
+
+### Selectivity or discrimination
+
+**Selectivity**, also called **discrimination**, is coordination intended to have the protective device nearest a fault operate while appropriate upstream devices remain closed. It cannot be claimed from rating size alone; verified coordination data is required.
 
 ### RCD distinction
 
-A **residual current device (RCD)** responds to an imbalance between currents in live conductors. It provides a different protective function from overload and short-circuit protection. Some combined devices contain both functions, but the residual-current function alone must not be assumed to provide overcurrent protection.
+A **residual current device (RCD)** responds to current imbalance. That residual-current function is distinct from overload and short-circuit protection. A combined device must be assessed for each function separately.
+
+### Evidence hierarchy
+
+Use three evidence levels:
+
+1. **Observed or supplied fact** — circuit purpose, conductor marking, installation description or identified device.
+2. **Authorised technical evidence** — current standard, verified manufacturer data, approved calculation or competent test record.
+3. **Assumption requiring resolution** — estimated fault level, unknown conductor route, inferred device curve or unverified installation condition.
+
+An assumption may guide the next question. It must not be presented as a completed protection justification.
 
 ## 4. Rule-finding workflow
 
-Use this workflow when selecting, checking or explaining overcurrent protection.
+Use **P-R-O-T-E-C-T**.
 
-1. **Define the circuit and load.** Identify what is supplied, expected operating current, duty, starting behaviour and possible future loading.
-2. **Identify the conductor.** Establish conductor material, size, insulation, installation method, grouping, ambient conditions and any thermal constraints.
-3. **Identify abnormal-current scenarios.** Consider sustained overload, short circuit, earth fault, equipment fault and starting or inrush current.
-4. **Locate the governing requirements.** Use the authorised Wiring Rules, relevant equipment standard, manufacturer data, regulator guidance and project or RTO requirements.
-5. **Check overload coordination.** Confirm that the design current, device rating or setting and conductor capacity satisfy the applicable relationship.
-6. **Check fault protection.** Confirm that the device can interrupt the prospective fault current and operate within the required conditions for the relevant fault path.
-7. **Check equipment compatibility.** Confirm the device type and characteristic suit equipment starting current, duty and manufacturer requirements.
-8. **Check upstream and downstream coordination.** Consider selectivity, backup protection, cascading or other documented coordination only where supported by verified data.
-9. **Check environmental and enclosure effects.** Device performance may be affected by ambient temperature, enclosure conditions and grouping.
-10. **Record evidence.** Document assumptions, source references, calculations, device data and unresolved reference checks.
+1. **P — Purpose and duty:** identify the circuit purpose, expected load, duty, starting behaviour and foreseeable loading.
+2. **R — Route and conductor:** establish conductor construction, size, installation method, grouping, ambient conditions and thermal constraints.
+3. **O — Overcurrent scenarios:** separate overload, short circuit, earth fault, equipment fault and normal inrush or starting current.
+4. **T — Technical sources:** locate the current authorised Wiring Rules, relevant equipment requirements, manufacturer data and applicable workplace or RTO controls.
+5. **E — Evaluate relationships:** verify the applicable load–device–conductor relationship, fault operation and breaking capacity.
+6. **C — Coordination and compatibility:** check equipment duty, environmental effects, upstream/downstream coordination and any combined protection functions.
+7. **T — Trace and stop:** record sources, calculations, assumptions and unresolved checks; stop if evidence is insufficient.
 
 ```mermaid
 flowchart TD
-    A["Define circuit and load"] --> B["Determine design current and duty"]
-    B --> C["Establish conductor capacity under actual conditions"]
-    C --> D["Identify overload and fault scenarios"]
-    D --> E["Find current authorised requirements and device data"]
-    E --> F{"Overload coordination demonstrated?"}
-    F -->|"No"| G["Revise load, conductor or protection"]
-    F -->|"Yes"| H{"Breaking capacity and fault operation adequate?"}
-    H -->|"No"| G
-    H -->|"Yes"| I{"Equipment and coordination checks satisfied?"}
-    I -->|"No"| G
-    I -->|"Yes"| J["Record evidence and review flags"]
-    G --> B
+    A[Purpose and duty] --> B[Route and conductor conditions]
+    B --> C[Overload and fault scenarios]
+    C --> D[Authorised requirements and device data]
+    D --> E{Load-device-conductor relationship verified?}
+    E -->|No| X[Revise design or obtain evidence]
+    E -->|Yes| F{Fault operation and breaking capacity verified?}
+    F -->|No| X
+    F -->|Yes| G{Compatibility and coordination supported?}
+    G -->|No| X
+    G -->|Yes| H[Trace evidence and review flags]
+    X --> A
 ```
 
-The workflow deliberately loops back when one element changes. Increasing a breaker rating, for example, may require reassessing conductor capacity, equipment protection and fault performance rather than editing one number in isolation.
+The loop is deliberate. Changing a device rating can force reconsideration of conductor protection, equipment compatibility, fault operation and coordination.
 
 ## 5. Visual model or worked example
 
-### Overload and short-circuit comparison
+### Path–magnitude–time model
 
-| Feature | Overload | Short circuit |
+Classify an event using three questions:
+
+| Question | Overload pattern | Short-circuit pattern |
 |---|---|---|
-| Current path | Usually the intended circuit path | Unintended low-impedance path |
-| Typical cause | Excess load, stalled equipment or abnormal duty | Insulation failure, damaged conductors or conductive contact |
-| Likely current | Above intended current; magnitude varies | Often much higher, limited by source and path impedance |
-| Heating pattern | Can accumulate over time | Can rise extremely quickly |
-| Design focus | Match load, conductor capacity and device operating characteristic | Interrupt safely and rapidly enough for the applicable fault condition |
-| Evidence required | Load data, cable conditions, device rating and time-current behaviour | Prospective fault current, fault-path information, breaking capacity and operating data |
+| **Path** | Usually intended current path | Unintended low-impedance path |
+| **Magnitude** | Above intended value; variable | Often much higher; source/path limited |
+| **Time** | Heating can accumulate | Effects can develop rapidly |
+
+This model is diagnostic, not a substitute for authorised requirements or device curves.
 
 ### Worked reasoning example
 
-**Scenario:** A final subcircuit supplies equipment with a steady operating current below the number printed on the circuit breaker. The cable passes through a warm service area, shares an enclosure with other loaded circuits and is partly surrounded by thermal insulation.
+**Scenario:** A final subcircuit supplies equipment whose steady operating current is below the breaker's printed rating. The cable passes through a warm service area, shares an enclosure with loaded circuits and is partly surrounded by thermal insulation.
 
 A weak answer is: “The load is below the breaker rating, so the circuit is protected.”
 
-A stronger reasoning sequence is:
+A stronger answer using **P-R-O-T-E-C-T** is:
 
-1. Establish the load current and any starting, cycling or abnormal-duty current.
-2. Determine the conductor's current-carrying capacity under the actual installation conditions, including all applicable correction factors.
-3. Compare the design current, device rating or setting and adjusted conductor capacity using the current authorised rule.
-4. Confirm the device's time-current behaviour is appropriate for both expected operation and overload protection.
-5. Determine the prospective fault current at the device location and confirm adequate breaking capacity.
-6. Check equipment instructions, enclosure effects and coordination with upstream protection.
-7. Record any unverified table values or device characteristics as `reference_check_required`.
+1. record the equipment duty, starting current and abnormal operating modes;
+2. establish the conductor and actual installation conditions;
+3. classify overload and fault scenarios separately;
+4. find the current authorised conductor and device information;
+5. verify the applicable load–device–adjusted-conductor relationship;
+6. verify prospective fault current, operating behaviour and breaking capacity;
+7. check manufacturer requirements and upstream coordination;
+8. mark unresolved values and curves `reference_check_required`.
 
 ```mermaid
 flowchart LR
-    A["Load current"] --> D["Protection decision"]
-    B["Adjusted conductor capacity"] --> D
-    C["Device rating and operating curve"] --> D
-    E["Prospective fault current"] --> D
-    F["Breaking capacity"] --> D
-    G["Equipment and installation conditions"] --> D
-    D --> H{"All relationships verified?"}
-    H -->|"No"| I["Not justified"]
-    H -->|"Yes"| J["Documented selection"]
+    L[Load and duty] --> J[Protection justification]
+    C[Adjusted conductor capability] --> J
+    D[Device rating and curve] --> J
+    P[Prospective fault current] --> J
+    B[Breaking capacity] --> J
+    E[Equipment and environment] --> J
+    J --> Q{Every claim supported?}
+    Q -->|No| N[Not justified]
+    Q -->|Yes| Y[Traceable decision]
 ```
-
-The diagram shows why no single number proves suitability. The decision is a relationship supported by evidence.
 
 ![A stick figure discovering that a larger breaker is not a shortcut for an overloaded cable](../../../assets/learning/4-week/day-03-overcurrent-protection/bigger-is-not-better.svg)
 
+![A stick figure stopping at a missing-evidence gap between a breaker and cable](../../../assets/learning/4-week/day-03-overcurrent-protection/missing-evidence-stop.svg)
+
 ## 6. Practical application
 
-### Protection-selection evidence sheet
+### Protection evidence record
 
-Use a trainer-supplied original scenario. Do not copy values from a standards table into the repository.
+Use a trainer-supplied original scenario. Do not copy standards tables into the repository.
 
 ```text
-Circuit purpose:
-Connected equipment and duty:
-Design current and calculation source:
+Circuit purpose and duty:
+Normal operating current source:
 Starting, inrush or cyclic behaviour:
-Conductor material, size and insulation:
-Installation method:
-Ambient, grouping and thermal conditions:
-Adjusted current-carrying capacity source:
-Overload scenarios considered:
-Short-circuit and other fault scenarios considered:
-Protective device type:
-Rated current or setting:
-Time-current characteristic source:
-Prospective fault current source or calculation:
-Breaking capacity evidence:
-Equipment-manufacturer requirements:
-Upstream/downstream coordination evidence:
-Unresolved assumptions:
+Conductor identification and route:
+Installation and environmental conditions:
+Adjusted conductor capability source:
+Overload scenarios:
+Short-circuit and other fault scenarios:
+Protective device identification:
+Rating, setting and characteristic source:
+Prospective fault-current evidence:
+Breaking-capacity evidence:
+Equipment requirements:
+Coordination evidence:
+Facts:
+Assumptions requiring resolution:
 Reference checks required:
-Final justification in the learner's own words:
+Final justification:
 ```
 
-### Scenario tasks
+### Scenario set
 
-Apply the evidence sheet to these three contexts:
+Apply the record to:
 
-1. a general-purpose final subcircuit with additional loads proposed after installation;
-2. a motor circuit with a high starting current and possible mechanical overload;
-3. a submain where the available fault current and upstream device coordination must be considered.
+1. a final subcircuit with proposed additional loads;
+2. a motor circuit with high starting current and possible mechanical overload;
+3. a submain where available fault current and upstream coordination matter.
 
 For each scenario, the learner must:
 
-- classify at least one overload scenario and one short-circuit scenario;
-- identify the normal and abnormal current paths;
-- list every item of evidence required before selecting a device;
+- classify at least one overload and one short-circuit scenario;
+- sketch the intended and unintended current paths;
+- separate facts, authorised evidence and unresolved assumptions;
 - explain why load current alone is insufficient;
-- identify whether separate residual-current protection is also required, without treating it as a substitute for overcurrent protection;
-- mark exact table values, curves, limits and clauses as `reference_check_required` unless verified from authorised current material.
+- distinguish residual-current protection from overcurrent protection;
+- state a stop decision where evidence is missing.
 
-### Performance evidence
+### Six-category performance rubric
 
-A competent response should show:
+Score each category **0, 1 or 2**.
 
-- correct distinction between overload and short circuit;
-- coordination of load, conductor and protective device;
-- consideration of actual cable installation conditions;
-- explicit breaking-capacity and prospective-fault-current reasoning;
-- use of manufacturer data where device behaviour matters;
-- no unsupported claim that a larger device is automatically safer;
-- no unsupported claim that an RCD replaces overcurrent protection;
-- a traceable record of sources and assumptions.
+| Category | 0 — missing/unsafe | 1 — partial | 2 — defensible |
+|---|---|---|---|
+| Event classification | Confuses overload and fault mechanisms | Correct label with weak explanation | Correct cause, path, magnitude and timescale |
+| Conductor reasoning | Ignores installation conditions | Mentions conditions without consequence | Connects actual conditions to capability evidence |
+| Device reasoning | Uses printed rating alone | Names curve or capacity without source | Uses identified rating, characteristic and source |
+| Fault interruption | Omits fault level or breaking capacity | Mentions one incompletely | Connects prospective fault current to interruption evidence |
+| Evidence discipline | Invents or hides assumptions | Some sources recorded | Facts, sources, assumptions and gaps are traceable |
+| Safety boundary | Proposes unauthorised action | Generic caution | Specific stop condition and escalation route |
+
+A score below **9/12**, or any zero in **fault interruption**, **evidence discipline** or **safety boundary**, requires correction before progression.
+
+### Varied re-attempt
+
+After feedback, repeat the task using a different scenario and a different missing evidence item. The learner must improve the lowest-scoring rubric category without copying the first response.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-**Selecting from load current alone**  
-The conductor may be derated by its installation conditions, and the device must also satisfy fault and breaking-capacity requirements.
-
-**Treating all overcurrent as a short circuit**  
-An overload can occur in an electrically sound path and may persist long enough to overheat conductors or equipment without an immediate high-magnitude fault.
-
-**Increasing the breaker rating to stop nuisance operation**  
-This can remove effective conductor or equipment protection. The cause of operation must be investigated before any rating or setting is changed.
-
-**Assuming the printed rating describes the whole device**  
-Device type, operating curve, poles, voltage rating, breaking capacity, environmental conditions and manufacturer instructions also matter.
-
-**Confusing RCD and overcurrent functions**  
-Residual-current protection and overcurrent protection respond to different conditions. Combined devices must be assessed by each relevant function.
-
-**Ignoring starting or inrush current**  
-A device may operate during normal equipment starting if its characteristic is unsuitable, but selecting a slower or larger device without checking conductor and fault protection is not a valid correction.
-
-**Ignoring prospective fault current**  
-A device can have an apparently suitable current rating but insufficient capacity to interrupt the fault current available at its location.
-
-**Assuming selectivity from rating size alone**  
-Coordination depends on verified operating characteristics and manufacturer information, not simply an upstream device having a larger current number.
+- **Selecting from load current alone:** conductor capability and fault performance remain unproven.
+- **Treating every overcurrent as a short circuit:** overload may remain in an intended path.
+- **Increasing the device rating after repeated operation:** this can remove conductor or equipment protection.
+- **Treating the printed rating as the whole device:** curve, poles, voltage rating, breaking capacity, environment and instructions also matter.
+- **Confusing RCD and overcurrent functions:** combined devices still require separate functional checks.
+- **Ignoring inrush or starting current:** nuisance operation does not justify a slower or larger device without complete reassessment.
+- **Assuming selectivity from rating size:** coordination requires verified data.
+- **Using a remembered table value:** current authorised material and applicability must be checked.
 
 ### Safety checkpoint
 
-Stop the design, inspection or proposed alteration when:
+Stop the assessment or proposed alteration when:
 
-- conductor installation conditions are unknown;
+- conductor identity or installation conditions are unknown;
 - the protective device cannot be positively identified;
-- device data, breaking capacity or fault-current information is unavailable;
-- evidence conflicts with labels, drawings or previous records;
-- signs of overheating, arcing, damage or unauthorised alteration are present;
-- the proposed solution is merely to fit a higher-rated device;
-- the task moves beyond the learner's authority, competence or supervision.
+- fault-current, breaking-capacity or operating data is unavailable;
+- labels, drawings, records and observations conflict;
+- overheating, arcing, damage or unauthorised alteration is indicated;
+- the proposed remedy is simply a higher-rated device;
+- the task exceeds the learner's authority, competence or supervision.
 
-This lesson does not authorise opening energised equipment, performing fault-current tests, replacing protective devices or altering circuit protection. Practical work requires the applicable safe system of work and competent supervision.
+This module does not authorise opening energised equipment, testing fault current, changing settings, replacing devices, resetting after unexplained operation or altering a circuit. Practical work requires competent supervision and the applicable safe system of work.
 
 ## 8. Retrieval and next links
 
 ### Recall check
 
-Answer from memory before reviewing the module.
-
-1. Define overcurrent in one sentence.
-2. What feature distinguishes an overload path from a short-circuit path?
-3. Why can a steady load below a breaker's printed rating still be unsafe for the conductor?
+1. Define overcurrent, overload and short circuit.
+2. What three features form the path–magnitude–time model?
+3. Why can a load below a printed breaker rating still be unsafe?
 4. What is prospective fault current?
-5. What does breaking capacity tell you?
-6. Why is a time-current characteristic relevant?
-7. Name five installation conditions that can affect conductor current-carrying capacity.
-8. Why is an RCD not normally a substitute for overload and short-circuit protection?
-9. What evidence is needed before claiming two protective devices are selective?
-10. State three stop conditions for an overcurrent-protection assessment.
+5. How does breaking capacity differ from rated current?
+6. State the seven P-R-O-T-E-C-T steps.
+7. Why is an RCD function not a substitute for overcurrent protection?
+8. What evidence is required before claiming selectivity?
+9. Name three conditions that require a stop decision.
+10. Which rubric categories cannot receive zero before progression?
 
 ### Applied retrieval
 
-Without looking, draw a triangle labelled **load**, **conductor** and **protective device**. Add **fault current** outside the triangle. Explain how changing any one item forces the others to be checked again.
+Without looking, draw a four-corner model labelled **load**, **conductor**, **protective device** and **fault current**. For each connection, write the evidence needed to justify it.
 
-Then write a two-column comparison of overload and short circuit using:
-
-- cause;
-- current path;
-- likely current magnitude;
-- heating timescale;
-- evidence needed;
-- protective-device requirement.
+Then classify a new scenario using **path**, **magnitude** and **time**, and state one fact, one authorised source and one unresolved assumption.
 
 ### Self-check criteria
 
 The response is ready for review when the learner can:
 
-- classify abnormal-current scenarios correctly;
-- state the protection relationship without relying on one rating;
-- identify missing evidence rather than inventing it;
-- explain the difference between overcurrent and residual-current protection;
-- separate general principles from exact requirements needing authorised verification.
+- classify abnormal-current scenarios using cause and path;
+- apply P-R-O-T-E-C-T without skipping fault interruption;
+- distinguish a device rating from suitability evidence;
+- expose missing information rather than inventing it;
+- score at least 9/12 with no critical-category zero;
+- state a specific practical stop boundary.
 
 ### Related vault notes
 
@@ -374,17 +349,17 @@ The response is ready for review when the learner can:
 
 ### Next block
 
-Proceed to **Day 4 — RCD Protection and Additional Protection** after completing the recall check and correcting any high-confidence errors.
+Proceed to **Day 4 — RCD Protection and Additional Protection** after completing the varied re-attempt and correcting high-confidence errors.
 
 ### References and currency notice
 
-- AS/NZS 3000:2018 — authorised current copy required; relevant clauses remain reference-only.
+- AS/NZS 3000:2018 — authorised current copy required; references remain clause-level only.
 - Applicable current Australian or New Zealand electrical safety legislation and regulator guidance.
-- Current manufacturer data for the exact protective devices being assessed.
-- Current cable-manufacturer data and authorised cable-selection sources.
+- Current manufacturer data for the exact protective device.
+- Current authorised conductor-selection sources and cable-manufacturer data.
 - Applicable workplace, project and RTO procedures.
 
-All exact current relationships, correction factors, operating times, breaking capacities, coordination claims, device characteristics and clause references remain `reference_check_required` until verified by a qualified reviewer against authorised current sources. This original educational module must not be used as a substitute for the Wiring Rules, device data or supervised practical training.
+Exact current relationships, correction factors, operating times, fault-clearing conditions, breaking capacities, coordination claims, device characteristics and clause references remain `reference_check_required`. This original educational module is not a substitute for the Wiring Rules, device data, qualified review or supervised practical training.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
