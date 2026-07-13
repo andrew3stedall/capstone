@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 21 - Week 3 Simulated Visual Inspection]] integrates Week 3 through the I-N-S-P-E-C-T evidence workflow, separating objective observations, evidence gaps, provisional concerns and qualified conclusions across supply, switchboard, wiring-system, equipment and special-location zones.
+- [[Day 22 - Verification Principles and Visual Inspection]] begins Week 4 by framing verification as a bounded evidence judgement. Its V-E-R-I-F-Y workflow connects scope, source state, authorised criteria, visual inspection, purpose-specific testing and a limited final record without inventing procedures or acceptance values.
 
 ## Practical application
 
