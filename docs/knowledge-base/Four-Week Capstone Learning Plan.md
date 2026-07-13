@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 27 - Full Mock Examination]] uses the A-T-T-E-M-P-T workflow to integrate navigation, design, installation, verification, result interpretation and fault-analysis reasoning in one original paper-based assessment. It preserves assumptions, source gaps, contradictions, confidence, time use and safety boundaries for structured review on Day 28.
+- [[Day 28 - Mock Review and Final Readiness Check]] closes the four-week sequence by preserving the Day 27 attempt, classifying errors by mechanism and consequence, verifying exact claims against authorised sources, testing corrections with varied re-attempts and recording capability-specific readiness. The next production increment is a quality-improvement pass on the earliest eligible module rather than a new day.
 
 ## Practical application
 
