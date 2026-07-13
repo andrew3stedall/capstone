@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 15 - Wiring Systems and Mechanical Protection]] begins Week 3 by extending cable-selection reasoning from electrical capacity to the complete physical wiring system. It uses the R-O-U-T-E workflow to map exposure zones, transitions, foreseeable activity and evidence gaps without asserting unverified dimensions, classifications or installation permissions.
+- [[Day 16 - Consumer Mains Submains and Final Subcircuits]] develops the T-R-A-C-E workflow for classifying conductor sections by terminals, role and supply hierarchy, then carrying load, protection, route, voltage, fault, earthing and isolation evidence across board boundaries without asserting unverified formal definitions or arrangements.
 
 ## Practical application
 
