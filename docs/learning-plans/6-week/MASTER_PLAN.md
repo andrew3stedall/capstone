@@ -53,7 +53,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 
 - [x] [Day 1 — Program orientation, assessment map and source hierarchy](modules/day-01-program-orientation-assessment-map-and-source-hierarchy.md)
 - [x] [Day 2 — Hazard, risk, exposure and critical controls](modules/day-02-hazard-risk-exposure-and-critical-controls.md)
-- [ ] Day 3 — Fundamental protection concepts and fault types
+- [x] [Day 3 — Fundamental protection concepts and fault types](modules/day-03-fundamental-protection-concepts-and-fault-types.md)
 - [ ] Day 4 — Overload and short-circuit protection reasoning
 - [ ] Day 5 — Rest, retrieval and source-navigation correction
 - [ ] Day 6 — RCD purpose, limits and coordination with other protection
