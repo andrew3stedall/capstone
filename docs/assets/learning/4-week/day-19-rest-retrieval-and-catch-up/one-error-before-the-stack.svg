@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">One error before the stack</title>
+  <desc id="desc">Black-and-white instructional cartoon of a learner selecting one high-confidence error card while leaving a tall stack of notes closed.</desc>
+  <rect width="800" height="420" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="190" cy="105" r="34"/>
+    <path d="M190 139v105M190 170l-60 55M190 170l78 26M190 244l-48 92M190 244l52 92"/>
+    <rect x="268" y="165" width="160" height="110" rx="8"/>
+    <path d="M290 195h112M290 225h82"/>
+    <path d="M500 310h180M515 270h150M535 230h125M555 190h100M575 150h75"/>
+    <path d="M500 310v-34h180v34M515 270v-34h150v34M535 230v-34h125v34M555 190v-34h100v34M575 150v-34h75v34"/>
+    <path d="M450 98c36-28 72-28 108 0"/>
+    <path d="M482 74l-12 26 28-6"/>
+  </g>
+  <g fill="#111" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="348" y="305" font-size="24" font-weight="700">HIGH-CONFIDENCE ERROR</text>
+    <text x="588" y="360" font-size="22">OPTIONAL BACKLOG</text>
+    <text x="400" y="397" font-size="25" font-weight="700">Priority follows risk, not pile height.</text>
+  </g>
+</svg>
