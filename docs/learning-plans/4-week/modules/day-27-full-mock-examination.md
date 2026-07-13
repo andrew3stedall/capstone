@@ -326,5 +326,5 @@ Day 27 is `review-required`, safety-critical, `reference_check_required` and not
 
 - [← Previous: Day 26 — Rest and Final Catch-Up](./day-26-rest-and-final-catch-up.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 28 — Mock Review and Final Readiness Check →](./day-28-mock-review-and-final-readiness-check.md)
 <!-- sequence-navigation:end -->

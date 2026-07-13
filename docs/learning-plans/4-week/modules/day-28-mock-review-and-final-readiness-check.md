@@ -327,3 +327,11 @@ Day 28 is complete when:
 ### Review state
 
 Day 28 remains `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`. The review framework, fictional prompts and readiness matrix are original. Any technical marking decision, model answer, exact requirement, test method, value, acceptance criterion, jurisdictional duty or competency determination requires current authorised sources and qualified review.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 27 — Full Mock Examination](./day-27-full-mock-examination.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- Next: no later module has been created yet
+<!-- sequence-navigation:end -->
