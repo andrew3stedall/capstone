@@ -344,5 +344,5 @@ This module contains original educational structure, scenarios, tables and diagr
 
 - [← Previous: Day 22 — Verification Principles and Visual Inspection](./day-22-verification-principles-and-visual-inspection.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 24 — Test Sequence and Result Interpretation →](./day-24-test-sequence-and-result-interpretation.md)
 <!-- sequence-navigation:end -->

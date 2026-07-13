@@ -343,3 +343,11 @@ Complete:
 - [Content and copyright policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 This module contains original educational explanations, fictional scenarios and independently created diagrams. It does not reproduce standards wording, tables, official figures, test sequence, test parameters, acceptance values or field procedures. Technical review remains pending.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 23 — Mandatory Electrical Tests and Purposes](./day-23-mandatory-electrical-tests-and-purposes.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- Next: no later module has been created yet
+<!-- sequence-navigation:end -->
