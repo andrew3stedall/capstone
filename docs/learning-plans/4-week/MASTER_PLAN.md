@@ -101,7 +101,8 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 
 - [x] 2026-07-14 — [Day 1 — Exam orientation and Wiring Rules navigation](./modules/day-01-exam-orientation-and-wiring-rules-navigation.md): strengthened source hierarchy, applicability checks, evidence-quality rubric, error remediation and accessible visual support.
 - [x] 2026-07-14 — [Day 2 — Fundamental safety principles](./modules/day-02-fundamental-safety-principles.md): added the B-O-U-N-D-A-R-Y workflow, evidence ladder, exposure-pathway distinction, measurable safety-reasoning rubric, varied re-attempt and accessible evidence-before-action visual.
-- [ ] Next — Day 3 — Overcurrent protection.
+- [x] 2026-07-14 — [Day 3 — Overcurrent protection](./modules/day-03-overcurrent-protection.md): added the P-R-O-T-E-C-T workflow, path–magnitude–time model, evidence hierarchy, scored rubric, varied re-attempt and accessible missing-evidence stop visual.
+- [ ] Next — Day 4 — RCD protection and additional protection.
 
 ## Quality gates for every hourly run
 
