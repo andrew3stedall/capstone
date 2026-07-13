@@ -85,7 +85,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 20A — Fixed appliances and local isolation](./modules/day-20a-fixed-appliances-and-local-isolation.md)
 - [x] [Day 20B — Motors and associated protection](./modules/day-20b-motors-and-associated-protection.md)
 - [x] [Day 20C — Alternative and multiple supplies awareness](./modules/day-20c-alternative-and-multiple-supplies-awareness.md)
-- [ ] Day 21 — Week 3 simulated visual inspection
+- [x] [Day 21 — Week 3 simulated visual inspection](./modules/day-21-week-3-simulated-visual-inspection.md)
 
 ### Week 4 — Verification, fault finding and exam performance
 

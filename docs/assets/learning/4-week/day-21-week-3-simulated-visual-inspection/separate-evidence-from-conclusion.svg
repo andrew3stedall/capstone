@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Separate evidence from conclusion</title>
+  <desc id="desc">A black-and-white stick figure places an observed condition card in one tray and a cause unknown card in another, keeping evidence separate from conclusions.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="470" cy="145" r="34"/>
+    <path d="M470 179v115M470 220l-105 48M470 220l105 48M470 294l-55 85M470 294l55 85"/>
+    <rect x="90" y="300" width="300" height="125" rx="10"/>
+    <rect x="570" y="300" width="300" height="125" rx="10"/>
+    <rect x="245" y="190" width="155" height="75" rx="8"/>
+    <rect x="560" y="190" width="155" height="75" rx="8"/>
+    <path d="M365 268l-55 30M575 268l55 30"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="322" y="235" font-size="25" font-weight="700">OBSERVED</text>
+    <text x="638" y="235" font-size="25" font-weight="700">CAUSE UNKNOWN</text>
+    <text x="240" y="365" font-size="28" font-weight="700">Evidence tray</text>
+    <text x="720" y="365" font-size="28" font-weight="700">Unresolved tray</text>
+    <text x="480" y="475" font-size="32" font-weight="700">Do not make the conclusion outrun the evidence.</text>
+    <text x="480" y="515" font-size="23">“Unknown” is useful when it prevents a false claim.</text>
+  </g>
+</svg>

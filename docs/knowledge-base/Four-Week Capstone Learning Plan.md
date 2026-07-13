@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 20C - Alternative and Multiple Supplies Awareness]] introduces the S-O-U-R-C-E evidence workflow, maps normal, generated, stored, auxiliary and feedback-capable paths, and separates transfer, control, protection and isolation claims before a bounded conclusion.
+- [[Day 21 - Week 3 Simulated Visual Inspection]] integrates Week 3 through the I-N-S-P-E-C-T evidence workflow, separating objective observations, evidence gaps, provisional concerns and qualified conclusions across supply, switchboard, wiring-system, equipment and special-location zones.
 
 ## Practical application
 

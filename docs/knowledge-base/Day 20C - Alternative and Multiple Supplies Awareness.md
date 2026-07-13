@@ -77,5 +77,5 @@ This note does not authorise opening, touching, switching, operating, isolating,
 - [← Previous: Day 20B - Motors and Associated Protection](./Day%2020B%20-%20Motors%20and%20Associated%20Protection.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-20c-alternative-and-multiple-supplies-awareness.md)
-- Next: no later module has been created yet
+- [Next: Day 21 - Week 3 Simulated Visual Inspection →](./Day%2021%20-%20Week%203%20Simulated%20Visual%20Inspection.md)
 <!-- sequence-navigation:end -->
