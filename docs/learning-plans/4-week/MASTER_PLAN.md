@@ -80,7 +80,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md)
 - [x] [Day 16 — Consumer mains, submains and final subcircuits](./modules/day-16-consumer-mains-submains-and-final-subcircuits.md)
 - [x] [Day 17 — Bathrooms, showers and other wet areas](./modules/day-17-bathrooms-showers-and-other-wet-areas.md)
-- [ ] Day 18 — Other special installations and locations
+- [x] [Day 18 — Other special installations and locations](./modules/day-18-other-special-installations-and-locations.md)
 - [ ] Day 19 — Rest, retrieval and catch-up
 - [ ] Day 20A — Fixed appliances and local isolation
 - [ ] Day 20B — Motors and associated protection
