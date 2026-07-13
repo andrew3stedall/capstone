@@ -3,7 +3,7 @@ title: Four-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-14
 ---
 
 # Four-Week Capstone Learning Plan
@@ -93,7 +93,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 23 — Mandatory electrical tests and purposes](./modules/day-23-mandatory-electrical-tests-and-purposes.md)
 - [x] [Day 24 — Test sequence and result interpretation](./modules/day-24-test-sequence-and-result-interpretation.md)
 - [x] [Day 25 — Systematic fault-finding workflow](./modules/day-25-systematic-fault-finding-workflow.md)
-- [ ] Day 26 — Rest and final catch-up
+- [x] [Day 26 — Rest and final catch-up](./modules/day-26-rest-and-final-catch-up.md)
 - [ ] Day 27 — Full mock examination
 - [ ] Day 28 — Mock review and final readiness check
 
