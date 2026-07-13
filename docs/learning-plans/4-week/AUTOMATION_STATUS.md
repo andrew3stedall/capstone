@@ -8,12 +8,12 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation; Day 20B — Motors and Associated Protection; Day 20C — Alternative and Multiple Supplies Awareness; Day 21 — Week 3 Simulated Visual Inspection; Day 22 — Verification Principles and Visual Inspection; Day 23 — Mandatory Electrical Tests and Purposes; Day 24 — Test Sequence and Result Interpretation; Day 25 — Systematic Fault-Finding Workflow; Day 26 — Rest and Final Catch-Up; Day 27 — Full Mock Examination; Day 28 — Mock Review and Final Readiness Check.
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement pass on Day 1 — Exam Orientation and Wiring Rules Navigation.
 - **Current block:** None.
-- **Next block:** Quality-improvement pass — [[Day 1 - Exam Orientation and Wiring Rules Navigation]].
+- **Next block:** Quality-improvement pass — [[Day 2 - Fundamental Safety Principles]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 28 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`. The review framework is original; technical marking decisions, model answers, exact requirements and competency determinations require current authorised sources and qualified review.
+- **Review state:** Day 1 remains `review-required`, `reference_check_required` and not `technically-reviewed`. It is not a safety-critical procedure module, but source hierarchy, assessment conditions and any technical conclusions still require current authorised sources and appropriate review.
 
 ## Hourly run log
 
@@ -47,31 +47,29 @@ updated_on: 2026-07-14
 | 25 — 2026-07-13 | Day 20B — Motors and Associated Protection | Created the motor-system review without settings or field procedures. | Produce Day 20C — Alternative and Multiple Supplies Awareness. |
 | 26 — 2026-07-13 | Day 20C — Alternative and Multiple Supplies Awareness | Created the source/state review without switching, isolation, testing or commissioning procedures. | Produce Day 21 — Week 3 Simulated Visual Inspection. |
 | 27 — 2026-07-13 | Day 21 — Week 3 Simulated Visual Inspection | Created the simulated inspection module and I-N-S-P-E-C-T workflow without official defect codes, access steps, tests or repairs. | Produce Day 22 — Verification Principles and Visual Inspection. |
-| 28 — 2026-07-13 | Day 22 — Verification Principles and Visual Inspection | Created the safety-critical eight-beat module, V-E-R-I-F-Y workflow, two Mermaid evidence models, fictional alteration exercise, two accessible black-and-white SVG cartoons and reciprocal vault note. Kept all test methods, sequences, acceptance criteria and certification duties unresolved for authorised review. | Produce Day 23 — Mandatory Electrical Tests and Purposes. |
-| 29 — 2026-07-13 | Day 23 — Mandatory Electrical Tests and Purposes | Created the safety-critical eight-beat module, P-U-R-P-O-S-E workflow, two Mermaid evidence models, fictional test-purpose exercises, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept the official test list, sequence, methods, values, acceptance criteria and certification duties unresolved for authorised review. | Produce Day 24 — Test Sequence and Result Interpretation. |
-| 30 — 2026-07-13 | Day 24 — Test Sequence and Result Interpretation | Created the safety-critical eight-beat module, O-R-D-E-R workflow, two Mermaid dependency models, fictional result-interpretation exercises, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept the official test sequence, methods, values, acceptance criteria, energisation and certification duties unresolved for authorised review. | Produce Day 25 — Systematic Fault-Finding Workflow. |
-| 31 — 2026-07-13 | Day 25 — Systematic Fault-Finding Workflow | Created the safety-critical eight-beat module, F-A-U-L-T workflow, two Mermaid diagnostic models, fictional fault-analysis exercises, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept real isolation, testing, energisation, reset, repair and acceptance procedures unresolved for authorised review. | Produce Day 26 — Rest and Final Catch-Up. |
-| 32 — 2026-07-14 | Day 26 — Rest and Final Catch-Up | Created the recovery module, P-A-U-S-E correction workflow, two Mermaid readiness models, maximum 30-minute protocol, one-page readiness-sheet method, two accessible black-and-white SVG cartoons and reciprocal vault navigation without adding new technical rules or procedures. | Produce Day 27 — Full Mock Examination. |
-| 33 — 2026-07-14 | Day 27 — Full Mock Examination | Created the safety-critical eight-beat mock, A-T-T-E-M-P-T workflow, two Mermaid assessment models, four original integrated sections, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept exact rules, values, procedures, acceptance criteria, technical marking guidance and any answer key unresolved for authorised review. | Produce Day 28 — Mock Review and Final Readiness Check. |
-| 34 — 2026-07-14 | Day 28 — Mock Review and Final Readiness Check | Created the safety-critical eight-beat review module, R-E-V-I-E-W workflow, two Mermaid review models, capability readiness matrix, varied re-attempt method, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept technical marking, model answers, exact requirements and competency determinations unresolved for authorised review. | Quality-improvement pass on Day 1 — Exam Orientation and Wiring Rules Navigation. |
+| 28 — 2026-07-13 | Day 22 — Verification Principles and Visual Inspection | Created the safety-critical eight-beat module, V-E-R-I-F-Y workflow, evidence models, fictional alteration exercise, accessible cartoons and reciprocal vault note. | Produce Day 23 — Mandatory Electrical Tests and Purposes. |
+| 29 — 2026-07-13 | Day 23 — Mandatory Electrical Tests and Purposes | Created the safety-critical module, P-U-R-P-O-S-E workflow, evidence models, fictional exercises, cartoons and reciprocal navigation. | Produce Day 24 — Test Sequence and Result Interpretation. |
+| 30 — 2026-07-13 | Day 24 — Test Sequence and Result Interpretation | Created the safety-critical module, O-R-D-E-R workflow, dependency models, fictional exercises, cartoons and reciprocal navigation. | Produce Day 25 — Systematic Fault-Finding Workflow. |
+| 31 — 2026-07-13 | Day 25 — Systematic Fault-Finding Workflow | Created the safety-critical module, F-A-U-L-T workflow, diagnostic models, fictional exercises, cartoons and reciprocal navigation. | Produce Day 26 — Rest and Final Catch-Up. |
+| 32 — 2026-07-14 | Day 26 — Rest and Final Catch-Up | Created the recovery module, P-A-U-S-E workflow, readiness models, timebox, readiness-sheet method, cartoons and reciprocal navigation. | Produce Day 27 — Full Mock Examination. |
+| 33 — 2026-07-14 | Day 27 — Full Mock Examination | Created the safety-critical mock, A-T-T-E-M-P-T workflow, assessment models, original sections, cartoons and reciprocal navigation. | Produce Day 28 — Mock Review and Final Readiness Check. |
+| 34 — 2026-07-14 | Day 28 — Mock Review and Final Readiness Check | Created the safety-critical review module, R-E-V-I-E-W workflow, review models, readiness matrix, re-attempt method, cartoons and reciprocal navigation. | Quality-improvement pass on Day 1 — Exam Orientation and Wiring Rules Navigation. |
+| 35 — 2026-07-14 | Quality-improvement pass — Day 1 | Strengthened source hierarchy, the S-O-U-R-C-E workflow, applicability and evidence-strength checks, assessment rubric, varied remediation, vault note and accessible evidence-ladder cartoon. | Quality-improvement pass on Day 2 — Fundamental Safety Principles. |
 
-## Files added or updated in run 34
+## Files added or updated in run 35
 
-- `docs/learning-plans/4-week/modules/day-28-mock-review-and-final-readiness-check.md`
-- `docs/assets/learning/4-week/day-28-mock-review-and-final-readiness-check/sort-the-error-not-just-the-score.svg`
-- `docs/assets/learning/4-week/day-28-mock-review-and-final-readiness-check/three-repairs-not-thirty-notes.svg`
-- `docs/knowledge-base/Day 28 - Mock Review and Final Readiness Check.md`
-- `docs/knowledge-base/Day 27 - Full Mock Examination.md`
-- `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
+- `docs/learning-plans/4-week/modules/day-01-exam-orientation-and-wiring-rules-navigation.md`
+- `docs/assets/learning/4-week/day-01-exam-orientation-and-wiring-rules-navigation/climb-the-evidence-ladder.svg`
+- `docs/knowledge-base/Day 01 - Exam Orientation and Wiring Rules Navigation.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 28 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
-- Technical marking decisions, model answers, exact rules, values, procedures, acceptance criteria, jurisdictional duties and competency determinations require current authorised sources and qualified review.
-- The review workflow, prompts, readiness matrix and remediation method are original and do not reproduce an RTO examination or answer key.
-- No copied standards wording, official tables, figures, values, test sequences, procedures, acceptance criteria or RTO assessment content was added.
+- Day 1 remains `review-required`, `reference_check_required` and not `technically-reviewed`.
+- The module is not a safety-critical procedure module, but it supports later safety-critical decisions and must not imply that source navigation alone demonstrates competence.
+- Current RTO arrangements, applicable source hierarchy, editions, amendments, jurisdiction and technical conclusions require authorised verification.
+- No copied standards wording, official tables, figures, clause locations, universal assessment rules, technical values or procedures were added.
 - The module authorises no approach, inspection, operation, opening, isolation, energisation, electrical testing, reset, repair, alteration or certification activity.
 
 ## Run rules
