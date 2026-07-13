@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection.
 - **Current block:** None.
-- **Next block:** [[Day 15 - Wiring Systems and Mechanical Protection]].
+- **Next block:** [[Day 16 - Consumer Mains Submains and Final Subcircuits]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 14 is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It is a paper-based synthesis exercise and does not approve a design or authorise opening, testing, switching, isolation or alteration.
+- **Review state:** Day 15 is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It teaches route and evidence reasoning only and does not authorise physical work or assert official dimensions, classifications or installation permissions.
 
 ## Hourly run log
 
@@ -39,24 +39,25 @@ updated_on: 2026-07-13
 | 16 — 2026-07-13 | Day 13B — Switchboard Construction and Arrangements | Created the safety-critical eight-beat module, the B-O-A-R-D assembly-review workflow, two Mermaid models, a fictional board-extension scenario, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards wording, tables, figures, dimensions, ratings or construction instructions were reproduced. | Produce Day 13C — Switchboard Defect Inspection. |
 | 17 — 2026-07-13 | Day 13C — Switchboard Defect Inspection | Created the safety-critical eight-beat module, the S-I-G-N-S observation-and-escalation workflow, two Mermaid models, a fictional external-inspection scenario, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. The module separates observations from causes and contains no official defect codes, standards extracts or physical intervention procedure. | Produce Day 14 — Week 2 Integrated Design Exercise. |
 | 18 — 2026-07-13 | Day 14 — Week 2 Integrated Design Exercise | Created the safety-critical eight-beat Week 2 synthesis module, the D-E-S-I-G-N workflow, two Mermaid dependency models, a fictional integrated calculation, a community-workshop design exercise, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, official factors, limits, device curves, board ratings or approval claims were reproduced. | Produce Day 15 — Wiring Systems and Mechanical Protection. |
+| 19 — 2026-07-13 | Day 15 — Wiring Systems and Mechanical Protection | Created the safety-critical eight-beat module, the R-O-U-T-E route-review workflow, two Mermaid models, a fictional multi-zone workshop route exercise, two accessible black-and-white SVG cartoons and a reciprocal vault note. Linked the block in the master plan and advanced the learning-plan landmark. No standards tables, official dimensions, classifications, product prescriptions or field-work permissions were reproduced. | Produce Day 16 — Consumer Mains, Submains and Final Subcircuits. |
 
-## Files added or updated in run 18
+## Files added or updated in run 19
 
-- `docs/learning-plans/4-week/modules/day-14-week-2-integrated-design-exercise.md`
-- `docs/assets/learning/4-week/day-14-week-2-integrated-design-exercise/one-design-many-checks.svg`
-- `docs/assets/learning/4-week/day-14-week-2-integrated-design-exercise/the-calculation-is-not-the-approval.svg`
-- `docs/knowledge-base/Day 14 - Week 2 Integrated Design Exercise.md`
+- `docs/learning-plans/4-week/modules/day-15-wiring-systems-and-mechanical-protection.md`
+- `docs/assets/learning/4-week/day-15-wiring-systems-and-mechanical-protection/protect-the-whole-route.svg`
+- `docs/assets/learning/4-week/day-15-wiring-systems-and-mechanical-protection/the-entry-counts-too.svg`
+- `docs/knowledge-base/Day 15 - Wiring Systems and Mechanical Protection.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 14 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
-- Exact maximum-demand methods, cable and device data, correction-factor methods, voltage-drop criteria, source arrangements, switching requirements, switchboard ratings and acceptance criteria require current authorised sources and qualified review.
-- All numerical values and the community-workshop scenario are fictional and exercise-only.
-- The module does not approve a design or authorise opening, testing, switching, isolation or alteration.
-- No standards wording, official tables, factors, limits, curves, ratings or defect classifications were added.
+- Day 15 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- Exact wiring-system classifications, permitted arrangements, dimensions, support and segregation requirements, mechanical-impact criteria, fire and environmental requirements and jurisdiction-specific obligations require current authorised sources and qualified review.
+- The workshop route and all option comparisons are fictional and exercise-only.
+- The module does not authorise opening, drilling, excavation, testing, live access, installation, repair or alteration.
+- No standards wording, official tables, figures, dimensions, classifications or manufacturer datasets were added.
 - Publication requires editorial review and qualified technical review against authorised current sources.
 
 ## Run rules
