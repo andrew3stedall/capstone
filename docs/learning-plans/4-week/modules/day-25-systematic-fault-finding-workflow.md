@@ -332,5 +332,5 @@ No standards wording, official values, diagnostic sequence, instrument procedure
 
 - [← Previous: Day 24 — Test Sequence and Result Interpretation](./day-24-test-sequence-and-result-interpretation.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 26 — Rest and Final Catch-Up →](./day-26-rest-and-final-catch-up.md)
 <!-- sequence-navigation:end -->
