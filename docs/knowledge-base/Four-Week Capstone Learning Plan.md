@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 20A - Fixed Appliances and Local Isolation]] introduces the L-O-C-K evidence workflow, separates appliance control, protection and isolation functions, and requires a complete energy-source map before a bounded local-isolation conclusion.
+- [[Day 20B - Motors and Associated Protection]] introduces the M-O-T-O-R evidence workflow, separates motor-system operating cases and protection functions, and requires coordinated motor, driven-machine, circuit, control, restart and isolation evidence before a bounded conclusion.
 
 ## Practical application
 
