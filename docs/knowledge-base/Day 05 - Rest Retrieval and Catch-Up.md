@@ -2,14 +2,16 @@
 status: draft-unverified
 jurisdiction: general
 source_status: original-summary
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
+quality_improvement_pass: completed
+quality_improvement_pass_on: 2026-07-14
 safety_critical: false
 reference_check_required: false
 ---
 
 # Day 05 - Rest Retrieval and Catch-Up
 
-Day 5 is a planned consolidation block. It protects recovery while using closed-note retrieval, confidence ratings, one targeted error correction and limited catch-up to strengthen Days 1–4.
+Day 5 is a bounded consolidation block. It protects recovery while requiring closed-note retrieval, confidence calibration, one justified error repair, backlog triage and an evidence-based readiness decision.
 
 ## Learning module
 
@@ -29,26 +31,60 @@ Day 5 is a planned consolidation block. It protects recovery while using closed-
 - [[Control Switching and Protection]]
 - [[Earthing Bonding and MEN]]
 
+## R-E-S-E-T workflow
+
+1. **Retrieve first** before opening notes.
+2. **Estimate confidence** before correctness is known.
+3. **Select one priority** using safety relevance, confidence and prerequisite value.
+4. **Examine evidence** in the original module and authorised-source pathway.
+5. **Transfer and terminate** with one changed scenario, a review date and a hard stop.
+
 ## Practical application
 
-Use a maximum 30-minute protocol: check alertness, retrieve without notes, prioritise one high-confidence or safety-relevant error, complete at most one essential catch-up task, record readiness and stop. Recovery-only is the correct outcome when concentration is unreliable.
+Use a maximum 30-minute protocol:
+
+- check alertness and choose recovery-only when comparison quality is poor;
+- retrieve six core ideas without notes;
+- record confidence before checking;
+- repair one high-confidence or blocking error;
+- classify unfinished work as blocking, beneficial or defer;
+- complete at most one bounded blocking task;
+- record readiness and stop.
 
 ## Assessment relevance
 
-The block develops capabilities needed across capstone assessment: recalling without prompts, identifying uncertainty, distinguishing technical functions accurately, returning exact claims to authorised sources and correcting reasoning rather than merely memorising replacement wording.
+The block develops cross-cutting capabilities used throughout capstone preparation: producing explanations without prompts, separating confidence from evidence, identifying the reasoning mechanism behind an error, returning exact claims to authoritative material, transferring a correction to a changed scenario and managing time without sacrificing accuracy.
 
 ## Error-log pattern
 
-A useful entry records:
+```text
+Original answer:
+Confidence before checking:
+Correct / incomplete / incorrect:
+Error mechanism:
+Corrected explanation in my own words:
+Module section checked:
+Authorised source still required: yes / no
+Changed scenario and answer:
+Next retrieval date:
+```
 
-- the original answer and confidence;
-- the misconception or reasoning failure;
-- a concise corrected explanation;
-- the module or authorised source checked;
-- one fresh retrieval question;
-- the next review date.
+High-confidence safety misconceptions and prerequisites blocking [[Day 06A - Earthing Terminology and Component Roles]] take priority over low-confidence omissions and optional note organisation.
 
-High-confidence errors take priority over low-confidence omissions.
+## Readiness evidence
+
+Readiness is supported when the learner can:
+
+- distinguish recognition from retrieval;
+- justify the selected correction priority;
+- explain the corrected reasoning in original words;
+- answer a changed scenario;
+- identify any unresolved prerequisite;
+- stop within the agreed ceiling.
+
+## Safety and review boundary
+
+This note adds no new electrical rules and authorises no practical work. Any technical correction retains the `review-required` or `reference_check_required` status of its source module. Exact procedures, values, clauses and jurisdiction-specific claims remain subject to current authorised sources and qualified review.
 
 ## Navigation
 
@@ -60,9 +96,7 @@ High-confidence errors take priority over low-confidence omissions.
 - [[Learning Design]]
 - [Repository learning-design guidance](../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
-- Days 1–4 modules and their listed authorised sources.
-
-This note adds no new electrical rules. Any technical correction retains the review and source-verification status of the module from which it came.
+- Days 1–4 modules and their authorised-source notices
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
