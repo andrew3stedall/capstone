@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 22 - Verification Principles and Visual Inspection]] begins Week 4 by framing verification as a bounded evidence judgement. Its V-E-R-I-F-Y workflow connects scope, source state, authorised criteria, visual inspection, purpose-specific testing and a limited final record without inventing procedures or acceptance values.
+- [[Day 23 - Mandatory Electrical Tests and Purposes]] maps verification questions to distinct evidence purposes through the P-U-R-P-O-S-E workflow. It deliberately leaves the official mandatory-test list, sequence, instruments, methods, values and acceptance criteria to current authorised sources and qualified review.
 
 ## Practical application
 
