@@ -97,6 +97,11 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 27 — Full mock examination](./modules/day-27-full-mock-examination.md)
 - [x] [Day 28 — Mock review and final readiness check](./modules/day-28-mock-review-and-final-readiness-check.md)
 
+## Quality-improvement passes
+
+- [x] 2026-07-14 — [Day 1 — Exam orientation and Wiring Rules navigation](./modules/day-01-exam-orientation-and-wiring-rules-navigation.md): strengthened source hierarchy, applicability checks, evidence-quality rubric, error remediation and accessible visual support.
+- [ ] Next — Day 2 — Fundamental safety principles.
+
 ## Quality gates for every hourly run
 
 A block, including a rest day, is complete only when all of the following are true:
