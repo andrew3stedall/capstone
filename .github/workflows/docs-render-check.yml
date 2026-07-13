@@ -25,6 +25,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: docs-render-check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   render-audit:
     runs-on: ubuntu-latest
