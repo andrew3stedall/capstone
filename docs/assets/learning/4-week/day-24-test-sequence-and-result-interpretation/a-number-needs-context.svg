@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">A number needs context</title>
+  <desc id="desc">A black-and-white stick figure holds a card with a large number while four warning cards labelled scope, state, method and criterion surround it.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g stroke="black" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="125" cy="105" r="28"/>
+    <path d="M125 133v110M125 165l65 35M125 165l-55 50M125 243l-45 80M125 243l50 80"/>
+    <rect x="190" y="145" width="155" height="110" rx="10"/>
+    <rect x="430" y="45" width="140" height="70" rx="8"/>
+    <rect x="600" y="125" width="140" height="70" rx="8"/>
+    <rect x="430" y="235" width="140" height="70" rx="8"/>
+    <rect x="600" y="315" width="140" height="70" rx="8"/>
+    <path d="M345 170l85-80M345 190l255-30M345 220l85 50M345 240l255 110" stroke-dasharray="10 12"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="268" y="215" font-size="48">0.42</text>
+    <text x="500" y="90" font-size="22">SCOPE?</text>
+    <text x="670" y="170" font-size="22">STATE?</text>
+    <text x="500" y="280" font-size="22">METHOD?</text>
+    <text x="670" y="360" font-size="22">CRITERION?</text>
+  </g>
+  <text x="400" y="405" fill="black" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">A neat number is still incomplete evidence.</text>
+</svg>
