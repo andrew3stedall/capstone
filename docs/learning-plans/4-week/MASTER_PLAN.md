@@ -83,7 +83,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 18 — Other special installations and locations](./modules/day-18-other-special-installations-and-locations.md)
 - [x] [Day 19 — Rest, retrieval and catch-up](./modules/day-19-rest-retrieval-and-catch-up.md)
 - [x] [Day 20A — Fixed appliances and local isolation](./modules/day-20a-fixed-appliances-and-local-isolation.md)
-- [ ] Day 20B — Motors and associated protection
+- [x] [Day 20B — Motors and associated protection](./modules/day-20b-motors-and-associated-protection.md)
 - [ ] Day 20C — Alternative and multiple supplies awareness
 - [ ] Day 21 — Week 3 simulated visual inspection
 
