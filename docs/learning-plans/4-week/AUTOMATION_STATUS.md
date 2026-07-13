@@ -8,12 +8,12 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation; Day 20B — Motors and Associated Protection; Day 20C — Alternative and Multiple Supplies Awareness; Day 21 — Week 3 Simulated Visual Inspection; Day 22 — Verification Principles and Visual Inspection; Day 23 — Mandatory Electrical Tests and Purposes; Day 24 — Test Sequence and Result Interpretation; Day 25 — Systematic Fault-Finding Workflow; Day 26 — Rest and Final Catch-Up.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation; Day 20B — Motors and Associated Protection; Day 20C — Alternative and Multiple Supplies Awareness; Day 21 — Week 3 Simulated Visual Inspection; Day 22 — Verification Principles and Visual Inspection; Day 23 — Mandatory Electrical Tests and Purposes; Day 24 — Test Sequence and Result Interpretation; Day 25 — Systematic Fault-Finding Workflow; Day 26 — Rest and Final Catch-Up; Day 27 — Full Mock Examination.
 - **Current block:** None.
-- **Next block:** [[Day 27 - Full Mock Examination]].
+- **Next block:** [[Day 28 - Mock Review and Final Readiness Check]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 26 is `draft-unverified`, non-safety-critical as a recovery workflow and not `technically-reviewed`. Technical answers retrieved from Days 22–25 retain their originating `review-required` and `reference_check_required` flags.
+- **Review state:** Day 27 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`. The mock structure and scenarios are original; technical marking guidance and any future answer key require qualified review against current authorised sources.
 
 ## Hourly run log
 
@@ -52,25 +52,26 @@ updated_on: 2026-07-14
 | 30 — 2026-07-13 | Day 24 — Test Sequence and Result Interpretation | Created the safety-critical eight-beat module, O-R-D-E-R workflow, two Mermaid dependency models, fictional result-interpretation exercises, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept the official test sequence, methods, values, acceptance criteria, energisation and certification duties unresolved for authorised review. | Produce Day 25 — Systematic Fault-Finding Workflow. |
 | 31 — 2026-07-13 | Day 25 — Systematic Fault-Finding Workflow | Created the safety-critical eight-beat module, F-A-U-L-T workflow, two Mermaid diagnostic models, fictional fault-analysis exercises, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept real isolation, testing, energisation, reset, repair and acceptance procedures unresolved for authorised review. | Produce Day 26 — Rest and Final Catch-Up. |
 | 32 — 2026-07-14 | Day 26 — Rest and Final Catch-Up | Created the recovery module, P-A-U-S-E correction workflow, two Mermaid readiness models, maximum 30-minute protocol, one-page readiness-sheet method, two accessible black-and-white SVG cartoons and reciprocal vault navigation without adding new technical rules or procedures. | Produce Day 27 — Full Mock Examination. |
+| 33 — 2026-07-14 | Day 27 — Full Mock Examination | Created the safety-critical eight-beat mock, A-T-T-E-M-P-T workflow, two Mermaid assessment models, four original integrated sections, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept exact rules, values, procedures, acceptance criteria, technical marking guidance and any answer key unresolved for authorised review. | Produce Day 28 — Mock Review and Final Readiness Check. |
 
-## Files added or updated in run 32
+## Files added or updated in run 33
 
-- `docs/learning-plans/4-week/modules/day-26-rest-and-final-catch-up.md`
-- `docs/assets/learning/4-week/day-26-rest-and-final-catch-up/fix-one-before-the-mock.svg`
-- `docs/assets/learning/4-week/day-26-rest-and-final-catch-up/one-page-not-one-library.svg`
+- `docs/learning-plans/4-week/modules/day-27-full-mock-examination.md`
+- `docs/assets/learning/4-week/day-27-full-mock-examination/finish-the-whole-paper.svg`
+- `docs/assets/learning/4-week/day-27-full-mock-examination/separate-before-you-score.svg`
+- `docs/knowledge-base/Day 27 - Full Mock Examination.md`
 - `docs/knowledge-base/Day 26 - Rest and Final Catch-Up.md`
-- `docs/knowledge-base/Day 25 - Systematic Fault-Finding Workflow.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 26 is `draft-unverified`, non-safety-critical as a recovery workflow and not `technically-reviewed`.
-- Technical answers retrieved from Days 22–25 retain their originating safety, reference and technical-review flags.
-- The module introduces no new electrical requirements, values, test methods, sequences, acceptance criteria or field procedures.
-- The readiness sheet expressly excludes copied standards wording, official tables, values, sequences and acceptance criteria.
-- The module authorises no approach, inspection, operation, isolation, energisation, electrical testing, reset, repair, alteration or certification activity.
+- Day 27 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- Technical marking guidance, source expectations, jurisdiction-specific duties and any future answer key require current authorised sources and qualified review.
+- All scenarios, evidence packs, result rows, drawings and symptom reports are fictional and exercise-only.
+- No copied standards wording, official tables, values, test sequences, procedures, acceptance criteria or RTO examination content was added.
+- The module authorises no approach, inspection, operation, opening, isolation, energisation, electrical testing, reset, repair, alteration or certification activity.
 
 ## Run rules
 
