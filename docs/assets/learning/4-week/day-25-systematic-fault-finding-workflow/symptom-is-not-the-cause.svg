@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Symptom is not the cause</title>
+  <desc id="desc">A black-and-white instructional cartoon showing a stick figure holding one symptom card while several separate possible-cause cards branch away from it.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="180" r="38"/>
+    <path d="M150 218v118M150 250l-72 58M150 250l72 48M150 336l-55 90M150 336l60 90"/>
+    <rect x="250" y="145" width="210" height="100" rx="10"/>
+    <path d="M220 298l70-52"/>
+    <path d="M460 195h80M540 195l55-85M540 195l70 0M540 195l55 85"/>
+    <rect x="595" y="55" width="245" height="90" rx="10"/>
+    <rect x="610" y="150" width="245" height="90" rx="10"/>
+    <rect x="595" y="255" width="245" height="90" rx="10"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="355" y="188" font-size="28" font-weight="700">SYMPTOM</text>
+    <text x="355" y="220" font-size="22">“stops sometimes”</text>
+    <text x="718" y="108" font-size="25" font-weight="700">SUPPLY?</text>
+    <text x="733" y="203" font-size="25" font-weight="700">CONTROL?</text>
+    <text x="718" y="308" font-size="25" font-weight="700">LOAD?</text>
+    <text x="480" y="485" font-size="30" font-weight="700">ONE OBSERVATION — SEVERAL HYPOTHESES</text>
+  </g>
+</svg>
