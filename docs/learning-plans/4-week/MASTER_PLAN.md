@@ -90,7 +90,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 ### Week 4 — Verification, fault finding and exam performance
 
 - [x] [Day 22 — Verification principles and visual inspection](./modules/day-22-verification-principles-and-visual-inspection.md)
-- [ ] Day 23 — Mandatory electrical tests and purposes
+- [x] [Day 23 — Mandatory electrical tests and purposes](./modules/day-23-mandatory-electrical-tests-and-purposes.md)
 - [ ] Day 24 — Test sequence and result interpretation
 - [ ] Day 25 — Systematic fault-finding workflow
 - [ ] Day 26 — Rest and final catch-up
