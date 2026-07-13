@@ -191,7 +191,7 @@ flowchart LR
     L -->|"returning current"| R["Monitored neutral path"]
     R --> S
     L -. "alternate path" .-> X["Earth, exposed part or person"]
-    X -. "bypasses monitored return" .-> S
+    X -.->|"&quot;bypasses monitored return&quot;"| S
 ```
 
 The model is conceptual, not a wiring diagram. The RCD responds to imbalance. It does not determine whether the alternate path is through a person, damaged insulation, filters, moisture or incorrect wiring.
