@@ -95,7 +95,7 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] [Day 25 — Systematic fault-finding workflow](./modules/day-25-systematic-fault-finding-workflow.md)
 - [x] [Day 26 — Rest and final catch-up](./modules/day-26-rest-and-final-catch-up.md)
 - [x] [Day 27 — Full mock examination](./modules/day-27-full-mock-examination.md)
-- [ ] Day 28 — Mock review and final readiness check
+- [x] [Day 28 — Mock review and final readiness check](./modules/day-28-mock-review-and-final-readiness-check.md)
 
 ## Quality gates for every hourly run
 
