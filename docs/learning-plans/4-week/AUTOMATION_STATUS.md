@@ -8,12 +8,12 @@ updated_on: 2026-07-13
 
 ## Current state
 
-- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation; Day 20B — Motors and Associated Protection; Day 20C — Alternative and Multiple Supplies Awareness; Day 21 — Week 3 Simulated Visual Inspection; Day 22 — Verification Principles and Visual Inspection.
+- **Completed:** Plan framework; Day 1 — Exam Orientation and Wiring Rules Navigation; Day 2 — Fundamental Safety Principles; Day 3 — Overcurrent Protection; Day 4 — RCD Protection and Additional Protection; Day 5 — Rest, Retrieval and Catch-Up; Day 6A — Earthing Terminology and Component Roles; Day 6B — MEN Fault-Current Path; Day 6C — Earthing and MEN Fault Scenarios; Day 7 — Week 1 Consolidation and Competency Check; Day 8 — Maximum Demand; Day 9 — Complete Cable-Selection Workflow; Day 10 — Installation Conditions and Derating; Day 11 — Voltage Drop; Day 12 — Rest, Calculation Correction and Catch-Up; Day 13A — Switching, Isolation and Main Switches; Day 13B — Switchboard Construction and Arrangements; Day 13C — Switchboard Defect Inspection; Day 14 — Week 2 Integrated Design Exercise; Day 15 — Wiring Systems and Mechanical Protection; Day 16 — Consumer Mains, Submains and Final Subcircuits; Day 17 — Bathrooms, Showers and Other Wet Areas; Day 18 — Other Special Installations and Locations; Day 19 — Rest, Retrieval and Catch-Up; Day 20A — Fixed Appliances and Local Isolation; Day 20B — Motors and Associated Protection; Day 20C — Alternative and Multiple Supplies Awareness; Day 21 — Week 3 Simulated Visual Inspection; Day 22 — Verification Principles and Visual Inspection; Day 23 — Mandatory Electrical Tests and Purposes.
 - **Current block:** None.
-- **Next block:** [[Day 23 - Mandatory Electrical Tests and Purposes]].
+- **Next block:** [[Day 24 - Test Sequence and Result Interpretation]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Module coverage rule:** Every scheduled day or block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module page and a corresponding Obsidian-style knowledge note.
-- **Review state:** Day 22 is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It explains verification evidence boundaries but does not provide test methods, sequences, values, certification instructions or authority to access equipment.
+- **Review state:** Day 23 is safety-critical, `review-required`, `reference_check_required` and not `technically-reviewed`. It explains test purposes and evidence boundaries but does not provide the official test list, methods, sequence, values, acceptance criteria, energisation steps or certification instructions.
 
 ## Hourly run log
 
@@ -48,25 +48,26 @@ updated_on: 2026-07-13
 | 26 — 2026-07-13 | Day 20C — Alternative and Multiple Supplies Awareness | Created the source/state review without switching, isolation, testing or commissioning procedures. | Produce Day 21 — Week 3 Simulated Visual Inspection. |
 | 27 — 2026-07-13 | Day 21 — Week 3 Simulated Visual Inspection | Created the simulated inspection module and I-N-S-P-E-C-T workflow without official defect codes, access steps, tests or repairs. | Produce Day 22 — Verification Principles and Visual Inspection. |
 | 28 — 2026-07-13 | Day 22 — Verification Principles and Visual Inspection | Created the safety-critical eight-beat module, V-E-R-I-F-Y workflow, two Mermaid evidence models, fictional alteration exercise, two accessible black-and-white SVG cartoons and reciprocal vault note. Kept all test methods, sequences, acceptance criteria and certification duties unresolved for authorised review. | Produce Day 23 — Mandatory Electrical Tests and Purposes. |
+| 29 — 2026-07-13 | Day 23 — Mandatory Electrical Tests and Purposes | Created the safety-critical eight-beat module, P-U-R-P-O-S-E workflow, two Mermaid evidence models, fictional test-purpose exercises, two accessible black-and-white SVG cartoons and reciprocal vault navigation. Kept the official test list, sequence, methods, values, acceptance criteria and certification duties unresolved for authorised review. | Produce Day 24 — Test Sequence and Result Interpretation. |
 
-## Files added or updated in run 28
+## Files added or updated in run 29
 
-- `docs/learning-plans/4-week/modules/day-22-verification-principles-and-visual-inspection.md`
-- `docs/assets/learning/4-week/day-22-verification-principles-and-visual-inspection/verification-needs-more-than-one-card.svg`
-- `docs/assets/learning/4-week/day-22-verification-principles-and-visual-inspection/do-not-jump-the-evidence-gap.svg`
+- `docs/learning-plans/4-week/modules/day-23-mandatory-electrical-tests-and-purposes.md`
+- `docs/assets/learning/4-week/day-23-mandatory-electrical-tests-and-purposes/match-the-test-to-the-question.svg`
+- `docs/assets/learning/4-week/day-23-mandatory-electrical-tests-and-purposes/map-every-source-before-evidence.svg`
+- `docs/knowledge-base/Day 23 - Mandatory Electrical Tests and Purposes.md`
 - `docs/knowledge-base/Day 22 - Verification Principles and Visual Inspection.md`
-- `docs/knowledge-base/Day 21 - Week 3 Simulated Visual Inspection.md`
 - `docs/knowledge-base/Four-Week Capstone Learning Plan.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 22 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
-- Formal verification duties, required inspection items, access and isolation preconditions, mandatory tests, approved sequence, instruments, methods, acceptance criteria, certification and jurisdiction-specific obligations require current authorised sources and qualified review.
-- The commercial-alteration evidence pack and all observations are fictional and exercise-only.
+- Day 23 is `review-required`, safety-critical, `reference_check_required` and not `technically-reviewed`.
+- The formal mandatory-test list, applicability, order, preconditions, instruments, methods, parameters, acceptance criteria, equipment constraints, result recording, certification and jurisdiction-specific obligations require current authorised sources and qualified review.
+- All scenarios, evidence packs and observations are fictional and exercise-only.
 - The module does not authorise approaching, opening, touching, operating, isolating, energising, testing, proving de-energised, repairing, certifying or altering equipment.
-- No standards wording, tables, figures, official checklist, test values, instrument methods, defect codes or certification procedures were added.
+- No standards wording, tables, figures, official test list, sequence, test values, instrument methods or certification procedures were added.
 
 ## Run rules
 
