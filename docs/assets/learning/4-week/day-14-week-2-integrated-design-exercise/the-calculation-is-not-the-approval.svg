@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">The calculation is not the approval</title>
+  <desc id="desc">A black-and-white stick figure carries a completed calculation toward a locked gate labelled missing source and board evidence. The caption states that arithmetic cannot unlock missing evidence.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g stroke="black" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="170" cy="220" r="28"/>
+    <path d="M170 248v95M170 280l-55 35M170 280l70 20M170 343l-45 80M170 343l52 80"/>
+    <rect x="225" y="265" width="170" height="100"/>
+    <path d="M245 292h130M245 317h95M245 342h115"/>
+    <path d="M560 115v330M820 115v330M560 145h260M560 225h260M560 305h260M560 385h260"/>
+    <rect x="655" y="265" width="70" height="58" rx="8"/>
+    <path d="M670 265v-22a20 20 0 0140 0v22"/>
+    <path d="M395 315h120"/>
+    <path d="M495 295l20 20-20 20"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="310" y="395" font-size="21">CALCULATION</text>
+    <text x="690" y="85" font-size="24" font-weight="bold">MISSING SOURCE + BOARD EVIDENCE</text>
+    <text x="480" y="492" font-size="28" font-weight="bold">Arithmetic cannot unlock evidence you do not have.</text>
+  </g>
+</svg>
