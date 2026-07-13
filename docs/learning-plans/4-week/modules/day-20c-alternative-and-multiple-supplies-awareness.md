@@ -351,5 +351,5 @@ Before publication or operational use, a qualified reviewer must verify against 
 
 - [← Previous: Day 20B — Motors and Associated Protection](./day-20b-motors-and-associated-protection.md)
 - [Four-week learning plan](../MASTER_PLAN.md)
-- Next: no later module has been created yet
+- [Next: Day 21 — Week 3 Simulated Visual Inspection →](./day-21-week-3-simulated-visual-inspection.md)
 <!-- sequence-navigation:end -->
