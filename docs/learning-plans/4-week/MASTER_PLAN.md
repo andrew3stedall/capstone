@@ -100,7 +100,8 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 ## Quality-improvement passes
 
 - [x] 2026-07-14 — [Day 1 — Exam orientation and Wiring Rules navigation](./modules/day-01-exam-orientation-and-wiring-rules-navigation.md): strengthened source hierarchy, applicability checks, evidence-quality rubric, error remediation and accessible visual support.
-- [ ] Next — Day 2 — Fundamental safety principles.
+- [x] 2026-07-14 — [Day 2 — Fundamental safety principles](./modules/day-02-fundamental-safety-principles.md): added the B-O-U-N-D-A-R-Y workflow, evidence ladder, exposure-pathway distinction, measurable safety-reasoning rubric, varied re-attempt and accessible evidence-before-action visual.
+- [ ] Next — Day 3 — Overcurrent protection.
 
 ## Quality gates for every hourly run
 
@@ -119,4 +120,4 @@ A block, including a rest day, is complete only when all of the following are tr
 
 ## Completion behaviour
 
-Do not create duplicate modules. After all blocks are complete, continue with one quality-improvement pass per run, selecting the next note marked `draft-unverified` or `review-required`, checking structure, links, terminology and technical-review flags. Do not mark content `technically-reviewed` without evidence of a qualified review against authorised current sources.
+Do not create duplicate modules. After all blocks are complete, continue with one quality-improvement pass per run, selecting the next module that has not already received a pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed quality pass. After every module has received one pass, perform one final program-wide completion audit. Do not mark content `technically-reviewed` without evidence of qualified review against authorised current sources.
