@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 23 - Mandatory Electrical Tests and Purposes]] maps verification questions to distinct evidence purposes through the P-U-R-P-O-S-E workflow. It deliberately leaves the official mandatory-test list, sequence, instruments, methods, values and acceptance criteria to current authorised sources and qualified review.
+- [[Day 24 - Test Sequence and Result Interpretation]] treats verification order as dependency management and uses the O-R-D-E-R workflow to interpret evidence within scope, source state, authorised method, criterion and stop gates. It deliberately leaves the official sequence, test methods, values, acceptance criteria and energised procedures to current authorised sources and qualified review.
 
 ## Practical application
 
