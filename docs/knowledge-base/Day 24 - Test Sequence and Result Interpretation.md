@@ -80,5 +80,5 @@ This note does not provide an official test order, instrument setup, connection 
 - [← Previous: Day 23 - Mandatory Electrical Tests and Purposes](./Day%2023%20-%20Mandatory%20Electrical%20Tests%20and%20Purposes.md)
 - [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
 - [Open the full learning module](../learning-plans/4-week/modules/day-24-test-sequence-and-result-interpretation.md)
-- Next: no later module has been created yet
+- [Next: Day 25 - Systematic Fault-Finding Workflow →](./Day%2025%20-%20Systematic%20Fault-Finding%20Workflow.md)
 <!-- sequence-navigation:end -->
