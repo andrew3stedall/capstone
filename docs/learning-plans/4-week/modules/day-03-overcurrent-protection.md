@@ -153,16 +153,16 @@ Use **P-R-O-T-E-C-T**.
 
 ```mermaid
 flowchart TD
-    A[Purpose and duty] --> B[Route and conductor conditions]
-    B --> C[Overload and fault scenarios]
-    C --> D[Authorised requirements and device data]
-    D --> E{Load-device-conductor relationship verified?}
-    E -->|No| X[Revise design or obtain evidence]
-    E -->|Yes| F{Fault operation and breaking capacity verified?}
-    F -->|No| X
-    F -->|Yes| G{Compatibility and coordination supported?}
-    G -->|No| X
-    G -->|Yes| H[Trace evidence and review flags]
+    A["Purpose and duty"] --> B["Route and conductor conditions"]
+    B --> C["Overload and fault scenarios"]
+    C --> D["Authorised requirements and device data"]
+    D --> E{"Load-device-conductor relationship verified?"}
+    E -->|"No"| X["Revise design or obtain evidence"]
+    E -->|"Yes"| F{"Fault operation and breaking capacity verified?"}
+    F -->|"No"| X
+    F -->|"Yes"| G{"Compatibility and coordination supported?"}
+    G -->|"No"| X
+    G -->|"Yes"| H["Trace evidence and review flags"]
     X --> A
 ```
 
@@ -201,15 +201,15 @@ A stronger answer using **P-R-O-T-E-C-T** is:
 
 ```mermaid
 flowchart LR
-    L[Load and duty] --> J[Protection justification]
-    C[Adjusted conductor capability] --> J
-    D[Device rating and curve] --> J
-    P[Prospective fault current] --> J
-    B[Breaking capacity] --> J
-    E[Equipment and environment] --> J
-    J --> Q{Every claim supported?}
-    Q -->|No| N[Not justified]
-    Q -->|Yes| Y[Traceable decision]
+    L["Load and duty"] --> J["Protection justification"]
+    C["Adjusted conductor capability"] --> J
+    D["Device rating and curve"] --> J
+    P["Prospective fault current"] --> J
+    B["Breaking capacity"] --> J
+    E["Equipment and environment"] --> J
+    J --> Q{"Every claim supported?"}
+    Q -->|"No"| N["Not justified"]
+    Q -->|"Yes"| Y["Traceable decision"]
 ```
 
 ![A stick figure discovering that a larger breaker is not a shortcut for an overloaded cable](../../../assets/learning/4-week/day-03-overcurrent-protection/bigger-is-not-better.svg)
