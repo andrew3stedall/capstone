@@ -30,7 +30,7 @@ The intensive four-week sequence converts the broader Capstone Ready knowledge m
 
 ## Current sequence landmark
 
-- [[Day 24 - Test Sequence and Result Interpretation]] treats verification order as dependency management and uses the O-R-D-E-R workflow to interpret evidence within scope, source state, authorised method, criterion and stop gates. It deliberately leaves the official sequence, test methods, values, acceptance criteria and energised procedures to current authorised sources and qualified review.
+- [[Day 25 - Systematic Fault-Finding Workflow]] treats diagnosis as controlled uncertainty reduction. It uses the F-A-U-L-T workflow to separate symptoms, observations, hypotheses, discriminating evidence, contradictions and bounded conclusions while leaving real isolation, testing, energisation and repair procedures to current authorised sources and qualified roles.
 
 ## Practical application
 
