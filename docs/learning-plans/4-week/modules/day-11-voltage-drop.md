@@ -150,19 +150,19 @@ Use the **V-O-L-T-A-G-E** workflow:
 
 ```mermaid
 flowchart TD
-    A[Verify operating case] --> B[Outline source and load terminals]
-    B --> C[List every contributing section]
-    C --> D[Classify each input by evidence grade]
-    D --> E{Method and data applicable?}
-    E -->|No or unresolved| F[Stop and obtain authorised evidence]
-    E -->|Yes| G[Calculate section contributions]
-    G --> H[Combine cumulative result]
-    H --> I{Interpretation source verified?}
-    I -->|No| J[State supported or unresolved conclusion]
-    I -->|Yes| K[Compare and document]
-    J --> L[Change one design variable if required]
+    A["Verify operating case"] --> B["Outline source and load terminals"]
+    B --> C["List every contributing section"]
+    C --> D["Classify each input by evidence grade"]
+    D --> E{"Method and data applicable?"}
+    E -->|"No or unresolved"| F["Stop and obtain authorised evidence"]
+    E -->|"Yes"| G["Calculate section contributions"]
+    G --> H["Combine cumulative result"]
+    H --> I{"Interpretation source verified?"}
+    I -->|"No"| J["State supported or unresolved conclusion"]
+    I -->|"Yes"| K["Compare and document"]
+    J --> L["Change one design variable if required"]
     K --> L
-    L --> M[Reopen capacity protection fault termination and equipment checks]
+    L --> M["Reopen capacity protection fault termination and equipment checks"]
 ```
 
 The diagram separates calculation from interpretation. A numerical answer does not become a compliance conclusion until the applicable boundary, method, inputs and acceptance source are verified.
@@ -190,13 +190,13 @@ Record:
 
 ```mermaid
 flowchart LR
-    S[Supply point] --> A[Section A]
-    A --> B[Section B]
-    B --> C[Section C]
-    C --> L[Load terminals]
-    A -. contribution A .-> T[Cumulative result]
-    B -. contribution B .-> T
-    C -. contribution C .-> T
+    S["Supply point"] --> A["Section A"]
+    A --> B["Section B"]
+    B --> C["Section C"]
+    C --> L["Load terminals"]
+    A -. contribution A .-> T["Cumulative result"]
+    B -.->|"contribution B"| T
+    C -.->|"contribution C"| T
 ```
 
 The model shows why a final-subcircuit-only calculation can understate the complete source-to-load result.
