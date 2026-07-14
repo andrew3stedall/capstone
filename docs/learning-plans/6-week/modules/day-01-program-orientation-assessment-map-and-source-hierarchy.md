@@ -10,10 +10,12 @@ standard_references:
   - standard: AS/NZS 3000
     edition: current-authorised-edition-required
     clause: reference-only
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: false
 reference_check_required: true
-quality_passes: []
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-15
+technical_reviewer: pending
 prerequisites:
   - Six-Week Capstone Learning Plan
   - Four-Week Capstone Learning Plan
@@ -34,40 +36,39 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. divide Capstone preparation into observable capability domains rather than treating it as one undifferentiated exam;
+1. divide Capstone preparation into observable capability domains;
 2. separate assessment-administration evidence from technical-authority evidence;
-3. complete a baseline diagnostic without using notes and classify each response by correctness, process, safety and confidence;
-4. identify high-confidence errors and safety-critical gaps as priority remediation items;
-5. build a six-week study map that assigns retrieval, application and review actions to specific weak capabilities;
-6. choose the most appropriate source family for an assessment, design, installation, verification or equipment question;
-7. record unresolved source, jurisdiction and supervision questions rather than filling gaps from memory.
+3. complete a closed-note baseline diagnostic and classify each response by result, reasoning, safety, evidence and confidence;
+4. identify high-confidence errors, safety-critical gaps and missing prerequisites as priority repairs;
+5. choose the source family most likely to control a claim and state why it applies;
+6. record edition, jurisdiction, scope and scenario conditions before relying on a source;
+7. build a six-week study map with retrieval, application, verification and re-attempt actions;
+8. leave unresolved questions unresolved rather than filling gaps from memory.
 
 ### Entry check
 
 Without opening a reference, answer and rate confidence as **guessing**, **unsure**, **reasonably confident** or **certain**:
 
-1. Which source controls what resources are permitted in a specific assessment?
+1. Which source controls permitted resources in a specific assessment?
 2. Which source controls a technical installation requirement?
-3. What is more urgent: a low-confidence mistake or a high-confidence safety-critical mistake? Why?
-4. What evidence would show that you can apply a concept rather than merely recognise it?
-5. When should a study question be marked unresolved instead of answered from memory?
+3. Why can a technically authoritative source still be inapplicable to a particular scenario?
+4. What is more urgent: a low-confidence mistake or a high-confidence safety-critical mistake?
+5. What evidence demonstrates application rather than recognition?
+6. When must a study conclusion remain unresolved?
 
-Do not convert this entry check into a pass mark. Its purpose is to reveal planning assumptions before the baseline diagnostic.
+Do not turn this entry check into a pass mark. It reveals assumptions before the baseline diagnostic.
 
 ## 2. Why it matters
 
-A six-week program creates enough time to improve weak reasoning, but only if the learner knows what is weak. Broad labels such as “bad at testing” or “need more wiring rules” are not actionable. They hide whether the actual problem is terminology, source navigation, calculation setup, sequence control, interpretation, safety judgment or confidence calibration.
+A six-week program creates enough time to repair weak reasoning only when the learner identifies the actual weakness. Labels such as “bad at testing” hide whether the problem is terminology, source navigation, calculation setup, sequence control, interpretation, safety judgment or confidence calibration.
 
-The first block therefore produces two working artefacts:
+Day 1 produces three working artefacts:
 
-- an **assessment map** showing the capabilities likely to be demonstrated;
-- a **source hierarchy** showing where different kinds of claims must be verified.
+- an **assessment map** of observable capabilities;
+- a **source map** linking each claim type to likely controlling evidence;
+- a **baseline evidence register** that determines what to repair, practise, retrieve or verify.
 
-These artefacts prevent three common failures:
-
-- spending equal time on strong and weak topics;
-- treating remembered notes as technical authority;
-- mistaking familiarity with a page for the ability to solve a fresh problem.
+These prevent equal-time study, authority-by-memory and false confidence from familiarity.
 
 ![A learner sorting study evidence into labelled trays instead of putting every problem into one pile](../../../assets/learning/6-week/day-01-program-orientation-assessment-map-and-source-hierarchy/sort-the-evidence.svg)
 
@@ -75,222 +76,222 @@ These artefacts prevent three common failures:
 
 ### Capability domain
 
-A **capability domain** is a group of related actions that can be observed and assessed. Useful planning domains include:
-
-- source navigation and rule finding;
-- safety reasoning and work boundaries;
-- protection and fault-current reasoning;
-- earthing and MEN concepts;
-- demand, conductor selection and voltage drop;
-- switching, isolation and switchboards;
-- wiring systems and special locations;
-- inspection, verification and test interpretation;
-- systematic fault finding;
-- explanation, evidence recording and confidence calibration.
-
-These are planning categories, not official RTO assessment sections. The actual assessment map must be checked against current RTO information.
+A **capability domain** is a group of related observable actions. Planning domains may include source navigation, safety reasoning, protection, earthing and MEN, circuit design, switching and switchboards, wiring systems, inspection, verification, fault finding, evidence recording and explanation. These are planning categories, not official RTO assessment sections.
 
 ### Baseline diagnostic
 
-A **baseline diagnostic** is a short first-attempt sample used to locate strengths and weaknesses before teaching begins. It should include varied task types rather than a single quiz score.
+A **baseline diagnostic** is a first-attempt sample used to locate strengths and weaknesses before teaching. It must include varied task forms rather than one undifferentiated score.
 
-### Retrieval
+### Retrieval, recognition and application
 
-**Retrieval** means producing an answer, sequence, explanation or decision from memory before checking a source. Recognition while rereading is weaker evidence of learning.
+- **Retrieval:** producing an answer, sequence or explanation before checking a source.
+- **Recognition:** noticing that information looks familiar while rereading.
+- **Application:** using a concept in a changed scenario, calculation, diagram, inspection or decision.
 
-### Application
-
-**Application** means using a concept in a new scenario, calculation, diagram, inspection or decision. Correctly repeating an example does not by itself demonstrate application.
+Recognition is useful but is weaker evidence than retrieval and application.
 
 ### High-confidence error
 
-A **high-confidence error** occurs when the learner is wrong while believing the answer is reliable. These errors deserve priority because they may survive into practical decisions or assessment responses without triggering self-checking.
+A **high-confidence error** occurs when the learner is wrong while believing the answer is reliable. It receives priority because the learner is less likely to self-correct.
 
 ### Source family
 
-A **source family** is the category of material likely to control a claim. Typical families are:
+A **source family** is a category of material likely to control a claim:
 
-- RTO instructions and assessor direction;
+- current RTO instructions and assessor direction;
 - legislation and regulation;
-- authorised installation or verification standards;
+- authorised standards;
 - regulator and network requirements;
 - manufacturer documentation;
 - approved workplace procedures and safe-work systems;
 - original learning notes and practice material.
 
-Learning notes support understanding but do not automatically control technical or legal decisions.
+### Authority and applicability
 
-### Evidence record
+**Authority** concerns whether a source can control a type of claim. **Applicability** concerns whether that source, edition and requirement fit the actual jurisdiction, equipment, task and conditions. Authority without applicability is insufficient.
 
-Use this compact format:
+### Evidence and claim status
 
-```text
-Capability domain:
-Task attempted:
-Correct result? yes / partly / no
-Reasoning process: sound / incomplete / incorrect
-Safety boundary: maintained / unclear / breached in reasoning
-Confidence before checking:
-Controlling source family:
-Verification completed:
-Error type:
-Next remediation action:
-Re-attempt date:
-```
+Use these evidence statuses:
+
+- **Observed:** directly shown in the supplied task or document.
+- **Documented:** stated in a current authorised record.
+- **Verified applicable:** authority, currency, scope and conditions have been checked.
+- **Assumed:** plausible but not evidenced.
+- **Missing:** required but unavailable.
+
+Use these claim statuses:
+
+- **Described:** reports what the task shows.
+- **Supported:** combines applicable evidence into a bounded conclusion.
+- **Verified:** requires the complete authorised evidence and review appropriate to the claim.
+- **Unresolved:** material evidence is missing or applicability is uncertain.
 
 ## 4. Rule-finding workflow
 
 Use **M-A-P-S** before relying on any study answer.
 
-1. **M — Map the claim.** Decide whether the claim concerns assessment administration, technical requirements, equipment information, work method or learning strategy.
-2. **A — Assign the source family.** Choose the source category most likely to control that claim.
-3. **P — Prove currency and applicability.** Check edition, amendments, jurisdiction, scope, equipment and scenario conditions.
-4. **S — State the conclusion and status.** Explain the result in original words and mark unresolved checks explicitly.
+1. **M — Map the claim:** assessment administration, technical requirement, equipment information, work method or learning strategy.
+2. **A — Assign the source family:** select the category most likely to control that claim.
+3. **P — Prove currency and applicability:** check edition, amendments, jurisdiction, scope, equipment and scenario conditions.
+4. **S — State the conclusion and status:** explain it in original words and mark unresolved checks.
 
 ```mermaid
 flowchart TD
-    A["Read the claim or task"] --> B{"What kind of claim is this?"}
+    A["Read the claim or task"] --> B{"What kind of claim is it?"}
     B -->|"Assessment administration"| C["Current RTO instructions or assessor direction"]
-    B -->|"Technical requirement"| D["Authorised legislation, standard, regulator or network source"]
-    B -->|"Equipment-specific information"| E["Manufacturer information plus governing requirements"]
-    B -->|"Work method"| F["Approved workplace procedure plus governing duties"]
-    B -->|"Learning explanation"| G["Original learning material, then verify technical claims"]
-    C --> H["Check currency, scope and applicability"]
+    B -->|"Technical requirement"| D["Authorised legislation standard regulator or network source"]
+    B -->|"Equipment-specific"| E["Manufacturer information plus governing requirements"]
+    B -->|"Work method"| F["Approved procedure plus governing duties"]
+    B -->|"Learning explanation"| G["Original learning material then verify technical claims"]
+    C --> H["Check authority currency jurisdiction scope and conditions"]
     D --> H
     E --> H
     F --> H
     G --> H
-    H --> I{"Evidence complete?"}
-    I -->|"No"| J["Mark unresolved and record the missing source or authority"]
-    I -->|"Yes"| K["State the conclusion in original words and retain the evidence trail"]
+    H --> I{"Material evidence complete and applicable?"}
+    I -->|"No"| J["Mark unresolved and record the missing evidence"]
+    I -->|"Yes"| K["State a bounded conclusion and retain the evidence trail"]
 ```
 
-### Source hierarchy is not a simple universal ranking
+### Source-applicability test
 
-A source is authoritative only for the question it controls. RTO instructions can control assessment conditions but do not replace technical requirements. Manufacturer information can control equipment-specific conditions but does not displace legislation or applicable installation requirements. Workplace procedures can impose approved work methods but must remain consistent with governing duties.
+Before citing a source, answer:
+
+1. What exact claim is being supported?
+2. Does this source family control that claim?
+3. Is the edition or version current for the task?
+4. Does the jurisdiction match?
+5. Do the equipment, installation and operating conditions match?
+6. Is another source also required?
+7. What remains unresolved?
 
 ## 5. Visual model or worked example
 
 ### Worked baseline classification
 
-**Prompt:** A learner is shown a small installation scenario and asked to identify the applicable protection concept, explain the reasoning, nominate the source family and state what must be verified before acting.
-
-The learner selects the right concept but gives no source, omits a material condition and reports being certain.
+A learner identifies the broad protection concept in a fictional scenario, omits a material condition, names no source and reports being certain.
 
 | Dimension | Observation | Classification | Study response |
 |---|---|---|---|
-| Result | Broad concept is correct | Partly correct | Retain the concept but test it in a varied scenario |
-| Process | Material condition omitted | Incomplete reasoning | Practise a condition checklist |
-| Evidence | No controlling source identified | Evidence gap | Repeat using M-A-P-S |
-| Safety | No practical action proposed | Boundary maintained | Keep the stop condition explicit |
-| Confidence | Certain despite missing evidence | High-confidence weakness | Prioritise early remediation |
-
-The important outcome is not a percentage. It is the decision that this item needs an early varied re-attempt because confidence exceeded evidence quality.
+| Result | Broad concept is correct | Partly correct | Retain concept; vary the scenario |
+| Process | Material condition omitted | Incomplete | Practise a condition checklist |
+| Safety | No practical action proposed | Boundary maintained | Keep stop statement explicit |
+| Evidence | No controlling source identified | Missing | Repeat M-A-P-S |
+| Confidence | Certain despite missing evidence | High-confidence weakness | Prioritise early repair |
 
 ```mermaid
 flowchart LR
     A["Baseline task"] --> B["Score result"]
-    B --> C["Review reasoning process"]
+    B --> C["Review reasoning"]
     C --> D["Check safety boundary"]
-    D --> E["Compare confidence with evidence"]
-    E --> F{"Priority?"}
-    F -->|"High-confidence, safety-critical or prerequisite gap"| G["Schedule early remediation and varied re-attempt"]
-    F -->|"Low-risk partial gap"| H["Schedule normal review"]
-    F -->|"Strong and well-evidenced"| I["Use spaced retrieval, not immediate repetition"]
+    D --> E["Grade evidence"]
+    E --> F["Compare confidence with evidence"]
+    F --> G{"Priority?"}
+    G -->|"High-confidence safety-critical or prerequisite gap"| H["Early repair and changed re-attempt"]
+    G -->|"Low-risk partial gap"| I["Targeted practice"]
+    G -->|"Strong and supported"| J["Delayed spaced retrieval"]
 ```
+
+The output is a remediation decision, not a percentage.
 
 ## 6. Practical application
 
 ### Build the six-week baseline map
 
-Complete one short task in each of these formats:
+Attempt one task in each format:
 
-1. source-navigation task;
+1. source navigation;
 2. plain-language safety explanation;
 3. protection or fault-path diagram interpretation;
-4. calculation setup without relying on remembered final values;
+4. calculation setup without remembered final values;
 5. inspection observation and evidence statement;
-6. sequence-ordering task;
-7. fault-finding hypothesis task;
-8. two-minute explanation in your own words.
+6. sequence ordering;
+7. fault-finding hypothesis;
+8. two-minute explanation in the learner's own words.
 
-For every task, complete the evidence record. Then assign one of four actions:
+For each task record:
 
-- **Priority repair:** high-confidence error, safety-critical gap or missing prerequisite;
-- **Targeted practice:** partial process or application weakness;
-- **Spaced retrieval:** correct, justified and safely bounded response;
-- **Reference check:** conclusion cannot be completed without authorised current material.
+```text
+Capability domain:
+Task attempted:
+Result: correct / partly / incorrect
+Reasoning: sound / incomplete / incorrect
+Safety boundary: maintained / unclear / breached in reasoning
+Evidence status:
+Claim status:
+Confidence before checking:
+Source family and applicability checks:
+Error type:
+Next action:
+Changed re-attempt:
+Re-attempt date:
+```
 
-### Six-week study allocation
+Assign one action: **priority repair**, **targeted practice**, **spaced retrieval** or **reference check**. Limit initial priority repairs to three and preserve capacity for later discoveries.
 
-Create a table with these columns:
+### Assessment rubric
 
-| Capability | Baseline evidence | Main error type | Planned block | Re-attempt form | Verification needed |
-|---|---|---|---|---|---|
+Score each category from **0 to 2**.
 
-Do not fill every available study block. Reserve space for errors discovered later. A rigid plan made before learning begins is less useful than a controlled plan that can respond to evidence.
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Capability map | Vague topics only | Some observable actions | Domains expressed as assessable actions |
+| Source selection | Notes treated as authority | Likely family named | Family and reason correctly matched to claim |
+| Applicability | Not checked | Some conditions checked | Currency, jurisdiction, scope and conditions recorded |
+| Diagnostic quality | One score only | Several dimensions used | Result, process, safety, evidence and confidence separated |
+| Remediation | Rereading or equal-time plan | Some targeted action | Risk- and prerequisite-based action with changed re-attempt |
+| Boundary control | Unsupported answer asserted | General caveat | Claim graded and material gaps left unresolved |
 
-### Completion criteria
-
-This block is complete when the learner has:
-
-- attempted all eight baseline formats;
-- recorded confidence before checking;
-- identified no more than three priority repairs;
-- assigned each priority repair to a later block or retrieval session;
-- listed all unresolved RTO, jurisdiction and source-access questions;
-- confirmed the exact next block rather than beginning several topics at once.
+A score of **10/12 or higher** with no critical error indicates readiness for Day 2. This is an educational threshold, not an official assessment rule.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- **Treating one score as the diagnosis:** classify result, reasoning, safety, evidence and confidence separately.
-- **Planning from topic preference:** allocate effort according to evidence, prerequisites and risk.
-- **Rereading immediately after failure:** first state the error type, then use a smaller explanation and a fresh re-attempt.
-- **Counting copied steps as application:** vary the scenario, diagram, values or required explanation.
-- **Using notes as authority:** use them to organise learning, then verify technical claims in the controlling source.
-- **Assuming the assessment format:** confirm current RTO instructions rather than importing another provider's rules.
-- **Overloading Week 1:** limit priority repairs to the most consequential gaps and preserve later review capacity.
-- **Ignoring confidence:** a certain wrong answer usually deserves earlier review than an unsure wrong answer of equal consequence.
+- treating one percentage as the diagnosis;
+- treating a source hierarchy as a universal ranking;
+- checking authority but not applicability;
+- planning from topic preference rather than evidence and risk;
+- rereading immediately instead of classifying the error;
+- counting copied steps as application;
+- using learning notes as technical authority;
+- assuming another provider's assessment rules apply;
+- filling unresolved gaps from memory.
+
+### Critical errors
+
+- presenting an assumed assessment rule as current RTO fact;
+- presenting an unverified technical claim as authoritative;
+- omitting a safety-critical or prerequisite gap from the repair plan;
+- proposing practical work merely to confirm a study answer.
 
 ### Safety checkpoint
 
-This module does not authorise electrical work, isolation, access, testing, energisation, reset, repair or alteration. Baseline tasks should remain paper-based, simulated or conducted under the learner's authorised RTO and workplace arrangements.
+This module authorises no electrical work, access, isolation, testing, energisation, reset, repair or alteration. Baseline tasks remain paper-based, simulated or conducted under authorised RTO and workplace arrangements.
 
-Stop and escalate when:
-
-- the task requires practical access beyond the learner's training, licence or supervision boundary;
-- the equipment state or supply arrangement is unknown;
-- an authorised source is unavailable or its applicability is uncertain;
-- the learner is tempted to perform a practical step merely to confirm a study answer;
-- an RTO instruction conflicts with a remembered workplace habit.
+Stop and escalate when the task exceeds authority, the equipment or supply state is unknown, an authorised source is unavailable, applicability is uncertain or assessment instructions conflict with remembered practice.
 
 ## 8. Retrieval and next links
 
-### Recall questions
+### Closed-note retrieval
 
-Answer without looking, then check the module.
+1. Expand **M-A-P-S**.
+2. Distinguish authority from applicability.
+3. Distinguish retrieval, recognition and application.
+4. Name the five diagnostic dimensions.
+5. Name the evidence and claim statuses.
+6. Why are high-confidence errors prioritised?
+7. Why must the study plan retain unused capacity?
+8. When must a conclusion remain unresolved?
 
-1. What does each letter in **M-A-P-S** represent?
-2. Why is a high-confidence error a priority?
-3. What is the difference between retrieval and recognition?
-4. Why is a capability map more useful than a broad topic label?
-5. Which source family controls assessment conditions?
-6. What should happen when evidence is incomplete?
-7. What five dimensions are reviewed in the worked baseline classification?
-8. Why should the six-week plan retain unused capacity?
+### Changed-scenario transfer
 
-### Varied retrieval
+Take one baseline task and change its jurisdiction, equipment model, assessment provider or installation condition. Re-run M-A-P-S and explain which earlier source or conclusion no longer applies.
 
-Take one original scenario and produce:
+### Delayed retrieval
 
-- the capability domain being tested;
-- the likely controlling source family;
-- one material condition that could change the answer;
-- the evidence still required;
-- a safe stop statement;
-- a confidence rating before and after checking.
+Schedule a closed-note re-attempt 48–72 hours later using a different claim type. A correct repeated example is not sufficient evidence of transfer.
 
 ### Navigation
 
@@ -302,6 +303,6 @@ Take one original scenario and produce:
 ### References and review boundary
 
 - Confirm assessment structure, permitted resources, timing and evidence rules with the learner's current RTO.
-- Use authorised current technical sources for all technical conclusions.
-- This original learning module remains `review-required` and `reference_check_required`.
-- It has not received qualified technical review and must not be labelled `technically-reviewed`.
+- Use authorised current sources for all technical conclusions.
+- This original module remains `review-required` and `reference_check_required`.
+- It is not `technically-reviewed`.
