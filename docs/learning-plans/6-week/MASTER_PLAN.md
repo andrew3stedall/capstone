@@ -3,7 +3,7 @@ title: Six-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 ---
 
 # Six-Week Capstone Learning Plan
@@ -74,9 +74,9 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 - [x] [Day 15 — Load identification and maximum-demand workflow](modules/day-15-load-identification-and-maximum-demand-workflow.md)
 - [x] [Day 16 — Design current, device rating and conductor capacity relationship](modules/day-16-design-current-device-rating-and-conductor-capacity-relationship.md)
 - [x] [Day 17 — Installation conditions and derating-factor reasoning](modules/day-17-installation-conditions-and-derating-factor-reasoning.md)
-- [ ] Day 18 — Voltage-drop concepts and calculation workflow
-- [ ] Day 19 — Rest, calculation correction and catch-up
-- [ ] Day 20 — Complete cable-selection decision sequence
+- [x] [Day 18 — Voltage-drop concepts and calculation workflow](modules/day-18-voltage-drop-concepts-and-calculation-workflow.md)
+- [x] [Day 19 — Rest, calculation correction and catch-up](modules/day-19-rest-calculation-correction-and-catch-up.md)
+- [x] [Day 20 — Complete cable-selection decision sequence](modules/day-20-complete-cable-selection-decision-sequence.md)
 - [ ] Day 21 — Week 3 integrated circuit-design exercise
 
 ### Week 4 — Switching, switchboards and installation requirements
