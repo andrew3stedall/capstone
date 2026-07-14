@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–23, ending with Day 23 — Design current, protective-device rating and conductor capacity.
+- **Completed:** Days 1–26, ending with Day 26 — Rest, retrieval and calculation error-log correction.
 - **Current block:** None.
-- **Next block:** Day 24 — Complete cable-selection workflow and evidence record.
+- **Next block:** Day 27 — Worked-example fading for circuit design.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -26,45 +26,49 @@ updated_on: 2026-07-15
 | 15–21 | Days 14–20 | Completed Week 2 integration and Week 3 earthing, bonding, MEN, recovery and fault-reasoning modules. | Create Day 21. |
 | 22 — 2026-07-15 | Day 21 — Week 3 earthing and protection integration checkpoint | Added I-N-T-E-G-R-A-T-E, dual-path reasoning, claim grading, changed-condition transfer, a 20-point checkpoint, accessible SVG and knowledge note. | Create Day 22. |
 | 23 — 2026-07-15 | Day 22 — Load schedules and maximum-demand concepts | Added L-O-A-D-S, a traceable load register, operating-case comparison, evidence grading, worked-example fading, accessible SVG and knowledge note. | Create Day 23. |
-| 24 — 2026-07-15 | Day 23 — Design current, protective-device rating and conductor capacity | Added R-A-T-I-N-G, device-role separation, capacity and factor evidence controls, candidate comparison, changed-condition transfer, accessible SVG and knowledge note. | Create Day 24 — Complete cable-selection workflow and evidence record. |
+| 24 — 2026-07-15 | Day 23 — Design current, protective-device rating and conductor capacity | Added R-A-T-I-N-G, device-role separation, capacity and factor evidence controls, candidate comparison, changed-condition transfer, accessible SVG and knowledge note. | Create Day 24. |
+| 25 — 2026-07-15 | Day 24 — Complete cable-selection workflow and evidence record | Added S-E-L-E-C-T, a design-gate register, dependency and reopening controls, bounded candidate conclusions, accessible SVG and knowledge note. | Create Day 25. |
+| 26 — 2026-07-15 | Day 25 — Installation methods, environmental influences and derating | Added C-O-N-D-I-T-I-O-N-S, route segmentation, factor provenance and double-application controls, accessible SVG and knowledge note. | Create Day 26. |
+| 27 — 2026-07-15 | Day 26 — Rest, retrieval and calculation error-log correction | Added R-E-P-A-I-R, six error categories, downstream reopening, a three-repair and 30-minute limit, accessible SVG and knowledge note. | Create Day 27 — Worked-example fading for circuit design. |
 
 ## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md`
-- `docs/assets/learning/12-week/week-3-earthing-and-protection-integration-checkpoint/integrate-before-you-conclude.svg`
-- `docs/knowledge-base/12-Week Day 21 - Week 3 Earthing and Protection Integration Checkpoint.md`
-- `docs/learning-plans/12-week/modules/day-22-load-schedules-and-maximum-demand-concepts.md`
-- `docs/assets/learning/12-week/load-schedules-and-maximum-demand-concepts/build-the-register-before-the-total.svg`
-- `docs/knowledge-base/12-Week Day 22 - Load Schedules and Maximum-Demand Concepts.md`
-- `docs/learning-plans/12-week/modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md`
-- `docs/assets/learning/12-week/design-current-protective-device-rating-and-conductor-capacity/coordinate-three-values-not-one.svg`
-- `docs/knowledge-base/12-Week Day 23 - Design Current Protective-Device Rating and Conductor Capacity.md`
+- `docs/learning-plans/12-week/modules/day-24-complete-cable-selection-workflow-and-evidence-record.md`
+- `docs/assets/learning/12-week/complete-cable-selection-workflow-and-evidence-record/record-each-gate-before-selection.svg`
+- `docs/knowledge-base/12-Week Day 24 - Complete Cable-Selection Workflow and Evidence Record.md`
+- `docs/learning-plans/12-week/modules/day-25-installation-methods-environmental-influences-and-derating.md`
+- `docs/assets/learning/12-week/installation-methods-environmental-influences-and-derating/section-the-route-before-applying-factors.svg`
+- `docs/knowledge-base/12-Week Day 25 - Installation Methods Environmental Influences and Derating.md`
+- `docs/learning-plans/12-week/modules/day-26-rest-retrieval-and-calculation-error-log-correction.md`
+- `docs/assets/learning/12-week/rest-retrieval-and-calculation-error-log-correction/repair-one-error-then-recheck.svg`
+- `docs/knowledge-base/12-Week Day 26 - Rest Retrieval and Calculation Error-Log Correction.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 21 tests cumulative earthing and protection reasoning before beginning circuit design.
-- Day 22 separates connected load, operating-case subtotals and maximum demand so no unverified diversity allowance is hidden in arithmetic.
-- Day 23 treats load, protective-device and conductor coordination as an evidence chain and explicitly reopens later fault, voltage, termination and installation checks.
-- Worked-example fading increases from a complete integration response to partially supplied design evidence.
+- Day 24 makes cable selection a traceable multi-gate process rather than a size lookup or single current comparison.
+- Day 25 separates physical observations, authorised classifications and applied factors for each materially different route section.
+- Day 26 introduces no new electrical theory and limits recovery to three repairs within 30 minutes.
+- Worked-example fading moves from a complete candidate record to missing dependencies and error diagnosis.
 - All examples, diagrams, workflows, tables and rubrics are original educational constructs rather than clause substitutes.
 
 ## Review flags
 
-- Days 21–23 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact MEN arrangements, maximum-demand methods, equations, device characteristics, conductor capacities, correction factors, coordination relationships, exceptions, test criteria and jurisdiction-specific duties require qualified checking.
+- Days 24–26 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact selection rules, installation classifications, capacities, correction factors, voltage and fault criteria, terminal constraints, exceptions and jurisdiction-specific duties require qualified checking.
 - No standards table, figure, systematic clause sequence, exact official technical value or official assessment material was reproduced.
-- The modules authorise no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, alteration, repair, energisation, commissioning, certification or verification.
+- The modules authorise no switching, isolation, opening, proving, tracing, measurement, testing, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
 - Confirmed the exact eight headings in all three modules.
-- Checked Mermaid blocks for balanced fences and simple valid flowchart syntax.
-- Checked SVG files for white backgrounds, black line art, semantic titles, descriptions and instructional captions.
-- Checked module-to-note and Day 21-to-Day 23 adjacent navigation.
+- Checked Mermaid blocks for balanced fences and simple flowchart syntax.
+- Checked SVGs for white backgrounds, black line art, semantic titles, descriptions and instructional captions.
+- Checked module-to-note and Day 24-to-Day 26 adjacent navigation.
+- Checked that the recovery block adds no unnecessary new electrical theory and contains explicit time, fatigue and stop controls.
 - Checked that examples do not duplicate complete wording from shorter programs.
-- Checked that exact values used are clearly fictional educational values and not presented as official criteria.
+- Checked that fictional educational values are not presented as official criteria.
 
 ## Run rules
 

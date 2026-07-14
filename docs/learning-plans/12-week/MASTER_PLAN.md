@@ -57,9 +57,9 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 - [x] [Day 22 — Load schedules and maximum-demand concepts](modules/day-22-load-schedules-and-maximum-demand-concepts.md)
 - [x] [Day 23 — Design current, protective-device rating and conductor capacity](modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md)
-- [ ] Day 24 — Complete cable-selection workflow and evidence record
-- [ ] Day 25 — Installation methods, environmental influences and derating
-- [ ] Day 26 — Rest, retrieval and calculation error-log correction
+- [x] [Day 24 — Complete cable-selection workflow and evidence record](modules/day-24-complete-cable-selection-workflow-and-evidence-record.md)
+- [x] [Day 25 — Installation methods, environmental influences and derating](modules/day-25-installation-methods-environmental-influences-and-derating.md)
+- [x] [Day 26 — Rest, retrieval and calculation error-log correction](modules/day-26-rest-retrieval-and-calculation-error-log-correction.md)
 - [ ] Day 27 — Worked-example fading for circuit design
 - [ ] Day 28 — Week 4 independent circuit-design checkpoint
 
