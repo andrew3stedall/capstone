@@ -91,5 +91,5 @@ This note uses original summaries, workflows, scenarios and assessment structure
 ## Navigation
 
 - **Previous:** [[12-Week Day 14 - Week 2 Protection Integration Checkpoint]]
-- **Next:** Day 16 — Protective Earthing Continuity and Exposed Conductive Parts
+- **Next:** [[12-Week Day 16 - Protective Earthing Continuity and Exposed Conductive Parts]]
 - **Map of content:** [[Protective Earthing]]
