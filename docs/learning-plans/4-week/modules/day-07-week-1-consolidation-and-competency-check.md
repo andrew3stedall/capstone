@@ -6,15 +6,17 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
+quality_improvement_pass: completed
+quality_improvement_pass_on: 2026-07-15
 standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
-estimated_minutes: 75-90
+estimated_minutes: 80-95
 prerequisites:
   - Day 1 — Exam Orientation and Wiring Rules Navigation
   - Day 2 — Fundamental Safety Principles
@@ -38,228 +40,209 @@ related_simulations: []
 ## Navigation
 
 - **Previous:** [Day 6C — Earthing and MEN Fault Scenarios](./day-06c-earthing-and-men-fault-scenarios.md)
-- **Next scheduled block:** [Day 8 — Maximum Demand](../MASTER_PLAN.md#week-2--circuit-design-cables-and-switchboards)
+- **Next:** [Day 8 — Maximum Demand](./day-08-maximum-demand.md)
 
 ## 1. Outcome and entry check
 
-### Learning objectives
+### Observable learning objectives
 
 By the end of this block, the learner should be able to:
 
-1. retrieve and explain the five Week 1 reasoning models—source navigation, safety control, overcurrent protection, residual-current protection and the MEN fault-current path—without copying module wording;
-2. classify an original scenario into the correct technical concepts and governing source families within a timed paper exercise;
-3. distinguish overload, short circuit and residual current, then state which protective function each condition calls into question;
+1. reconstruct the Week 1 reasoning models from memory and explain how they connect;
+2. classify an unfamiliar paper scenario by hazard, possible supply, fault category, protective function and evidence need;
+3. distinguish overload, short circuit and residual current without treating them as interchangeable;
 4. trace normal load current and an active-to-exposed-conductive-part fault path as separate complete loops;
 5. diagnose an open, high-resistance, misplaced or supply-context-dependent protective-path defect without inventing measurements;
-6. produce an evidence chain that separates what is stated, what is inferred, what must be verified and when work must stop;
-7. identify at least one high-confidence misconception and write a fresh retrieval prompt that tests the corrected reasoning;
-8. use the readiness rubric to choose one defensible next action: proceed, targeted remediation or stop and recover.
+6. produce a traceable evidence chain separating stated facts, assumptions, inferences, missing evidence and stop conditions;
+7. explain one response aloud, then identify and repair at least one high-confidence misconception;
+8. achieve the study-readiness gate or select a specific remediation action using the scored rubric.
 
 ### Entry check — eight minutes, closed note
 
-On blank paper, write one sentence or sketch for each prompt:
+On blank paper, answer:
 
-1. What makes a technical answer traceable rather than merely plausible?
-2. Name four energy-source categories or task-boundary concerns that may change a safety decision.
-3. Distinguish overload from short circuit.
-4. What does a residual-current device compare?
-5. Why does residual-current protection not replace overcurrent protection or protective earthing?
-6. Trace the conceptual active-to-metal fault loop back to its source.
-7. Name four defect categories used in Day 6C.
-8. Which words should trigger an immediate evidence check before you claim a result?
+1. What makes an answer traceable rather than merely plausible?
+2. Name four energy-source categories or task-boundary concerns that may alter a safety decision.
+3. Distinguish overload, short circuit and residual current.
+4. What does an RCD compare, and what does its presence not prove?
+5. Trace a conceptual active-to-metal fault loop back to the source.
+6. Name four protective-path defect categories from Day 6C.
+7. Which conclusion words should trigger an immediate evidence challenge?
+8. What condition should cause you to stop rather than continue reasoning toward a practical action?
 
-Record confidence beside every answer: **guessing**, **unsure**, **reasonably confident** or **certain**. Do not correct answers yet. A confident error is more important than an uncertain omission because it can survive into an assessment or workplace decision.
+Record confidence beside each answer: **guessing**, **unsure**, **reasonably confident** or **certain**. Do not correct answers yet. A confident error receives priority because it is more likely to survive into assessment or workplace reasoning.
 
 ## 2. Why it matters
 
-Week 1 topics are not independent facts. A capstone-style scenario may require the learner to recognise a hazard, identify all possible supplies, locate the governing requirement, distinguish protective functions, trace a fault-current path and state what evidence is missing—all in one response.
+Capstone questions rarely isolate one topic. A single scenario may require source navigation, hazard recognition, possible-supply identification, protective-function comparison, fault-path tracing and a bounded conclusion.
 
-A learner can recall each definition and still fail when the concepts must be combined. Consolidation therefore tests **transfer**: using learned reasoning in a different scenario rather than recognising familiar wording.
+A learner can recognise each definition and still fail to combine them. This checkpoint therefore tests **transfer**: applying the same relationships to changed equipment and incomplete evidence rather than reproducing familiar wording.
 
-The central assessment habit is bounded certainty. A strong response can be decisive about the reasoning while remaining explicit about facts, values, arrangements and procedures that have not been verified.
+The target habit is **bounded certainty**. A strong response is decisive about supported reasoning and explicit about every unverified fact, value, arrangement, procedure or conclusion.
 
 ![A learner combines five Week 1 models on one whiteboard instead of hunting for a magic clause](../../../assets/learning/4-week/day-07-week-1-consolidation-and-competency-check/five-models-one-board.svg)
 
 ## 3. Core concepts and terminology
 
-### Consolidation
+- **Consolidation:** strengthening and connecting learning so it can be retrieved and applied later.
+- **Retrieval:** producing knowledge from memory before reviewing notes.
+- **Transfer:** applying a concept in a different context while preserving the underlying relationship.
+- **Evidence chain:** a traceable connection from scenario facts through source selection and reasoning to a bounded conclusion.
+- **Misconception:** an incorrect mental model, not merely a forgotten term.
+- **Confidence calibration:** comparing felt certainty with the quality of supporting evidence.
+- **Competency evidence:** observable performance showing a capability. Here it is educational evidence only, not an official competence declaration.
+- **Critical error:** an error that creates an unsafe claim, omits a possible source, merges incompatible technical concepts or grants practical authority without evidence.
+- **Study-readiness gate:** an internal rule for choosing whether to proceed, remediate or recover. It is not an RTO pass criterion.
 
-**Consolidation** is the process of strengthening and connecting learning so it can be retrieved and applied later. In this block, consolidation means linking the Week 1 models into one evidence-based response.
+### Claim grades
 
-### Retrieval
+Use three claim grades throughout the checkpoint:
 
-**Retrieval** means producing information from memory before looking at notes. It reveals what the learner can actually access under pressure, rather than what looks familiar when reread.
+1. **Described:** the scenario states it, but it has not been independently verified.
+2. **Supported:** the reasoning is consistent with stated facts and identified sources, but exact technical requirements remain unchecked.
+3. **Verified:** current authorised evidence supports the exact claim and a competent person has applied the required process.
 
-### Transfer
-
-**Transfer** is the ability to apply a concept in a new context. The integrated scenario changes the equipment and evidence while preserving the underlying protection and fault-path relationships.
-
-### Evidence chain
-
-An **evidence chain** connects the scenario facts, technical concepts, governing source, reasoning steps and bounded conclusion. A missing link makes the conclusion weaker even when the final sentence sounds correct.
-
-### Misconception
-
-A **misconception** is an incorrect mental model, not merely a forgotten word. Examples include treating an RCD as complete protection, assuming normal operation proves earthing continuity or assuming a protective device operates simply because a fault exists.
-
-### Confidence calibration
-
-**Confidence calibration** is the comparison between how certain the learner felt and how well the reasoning was supported. High confidence with weak evidence requires priority remediation.
-
-### Competency evidence
-
-**Competency evidence** is observable performance that shows a capability. In this study module it includes correct classification, safe process, complete path tracing, appropriate source selection, explicit uncertainty and a clear explanation. It is not an official declaration of trade competence.
-
-### Study-readiness gate
-
-A **study-readiness gate** is an internal decision rule for choosing the next learning action. It does not replace an RTO rubric or jurisdiction-specific assessment requirement.
+This paper exercise can normally produce described or supported claims only.
 
 ## 4. Rule-finding workflow
 
-Use the **Week 1 evidence loop** for each integrated question:
+Use **I-N-T-E-G-R-A-T-E** for each integrated question:
 
-1. **State the scenario facts.** Separate provided facts from assumptions and missing information.
-2. **Set the safety boundary.** Identify hazards, possible energy sources, competence limits and immediate stop conditions.
-3. **Classify the technical issue.** Select the relevant Week 1 concepts: navigation, overcurrent, residual current, earthing, MEN relationships or fault-path defect.
-4. **Choose the governing source family.** Distinguish the current authorised standard, legislation, regulator or network rules, manufacturer instructions, workplace procedures and RTO directions.
-5. **Map functions and paths.** State what each component is intended to do; draw normal current and fault current separately where relevant.
-6. **Challenge the protective claim.** Ask what must be true before saying a device will operate, a condition is compliant, or an installation is safe or isolated.
-7. **Record evidence and flags.** Cite the source location when verified; otherwise mark the claim `reference_check_required`.
-8. **Conclude and stop.** Give a bounded conclusion and an escalation condition when evidence, authority or conditions are incomplete.
+1. **I — Identify facts and gaps.** Separate stated facts, assumptions, inferences and missing information.
+2. **N — Name every possible source.** Include normal, alternate, stored, induced, control and mechanical energy where relevant.
+3. **T — Tag the technical concepts.** Identify protection, earthing, MEN, current-path and source-navigation issues.
+4. **E — Establish the governing source family.** Distinguish standards, legislation, regulator or network rules, manufacturer instructions, workplace procedures and RTO directions.
+5. **G — Graph functions and paths.** Draw normal current and fault current separately; state each component’s intended role.
+6. **R — Require evidence for strong claims.** Challenge words such as **safe**, **isolated**, **compliant**, **continuous** and **will operate**.
+7. **A — Assign claim grades.** Mark each important statement described, supported or verified.
+8. **T — Terminate at the boundary.** State stop and escalation conditions when evidence, authority or conditions are incomplete.
+9. **E — Evaluate confidence and remediation.** Compare confidence with evidence, score the response and select the next learning action.
 
 ```mermaid
 flowchart TD
-    A["Scenario facts and missing information"] --> B["Safety boundary and every possible source"]
-    B --> C["Classify the Week 1 concepts"]
-    C --> D["Choose the governing source family"]
-    D --> E["Map component functions and current paths"]
-    E --> F{"Protective conclusion fully supported?"}
-    F -->|"No"| G["Mark reference_check_required"]
+    A["Identify facts and gaps"] --> B["Name every possible source"]
+    B --> C["Tag technical concepts"]
+    C --> D["Establish governing source family"]
+    D --> E["Graph functions and paths"]
+    E --> F{"Strong conclusion fully evidenced?"}
+    F -->|"No"| G["Assign described or supported grade"]
     G --> H["State stop or escalation condition"]
-    F -->|"Yes, with verified evidence"| I["Write a bounded traceable conclusion"]
-    I --> J["Record confidence and review the reasoning"]
-    H --> J
+    F -->|"Yes, verified evidence"| I["Write bounded verified conclusion"]
+    H --> J["Evaluate confidence and remediation"]
+    I --> J
 ```
 
-The workflow prevents a common failure pattern: jumping from one remembered device name to a confident conclusion without establishing the safety boundary, current path or source evidence.
+The workflow prevents a common failure: jumping from a remembered device name to a confident conclusion without establishing source context, current path, protective function or evidence quality.
 
 ## 5. Visual model or worked example
 
-### Week 1 relationship model
+### Relationship model
 
 ```mermaid
 flowchart LR
-    N["Navigate the authorised source"] --> S["Define hazard, sources and stop conditions"]
-    S --> P["Distinguish protective functions"]
-    P --> C["Identify conductors and component roles"]
-    C --> F["Trace normal and fault-current paths"]
-    F --> D["Diagnose the changed path or missing evidence"]
-    D --> E["Explain a bounded conclusion"]
-    E --> R["Retrieve later and correct misconceptions"]
+    N["Navigate authorised sources"] --> S["Set safety and supply boundary"]
+    S --> P["Separate protective functions"]
+    P --> C["Classify conductors and components"]
+    C --> F["Trace normal and fault paths"]
+    F --> D["Diagnose changed path or missing evidence"]
+    D --> E["Grade and explain the conclusion"]
+    E --> R["Retrieve later and repair misconceptions"]
 ```
 
-The arrows show dependency, not a universal field sequence. Source navigation supports the safety and technical reasoning; component roles support path tracing; path tracing supports diagnosis; and every conclusion returns to evidence and later retrieval.
+The arrows show reasoning dependencies, not a universal field procedure.
 
-### Worked paper example
+### Worked example
 
-**Scenario:** A small workshop distribution board supplies a metal-cased bench appliance. The notes say the circuit protective device has operated repeatedly. Residual-current protection is present. The protective-earthing path has not been verified. A portable inverter is available on site, but the drawing does not show whether it can energise the same installation.
+**Scenario:** A small workshop distribution board supplies a metal-cased bench appliance. Notes report repeated protective-device operation. Residual-current protection is present. Protective-earthing continuity has not been verified. A portable inverter is available, but the drawing does not show whether it can energise the same installation.
 
-A defensible Week 1 response is:
+A defensible response is:
 
-1. **Facts:** repeated operation is reported; residual-current protection exists; protective-earthing evidence is absent; the inverter relationship is unknown.
-2. **Safety boundary:** do not assume a single source, de-energised equipment, sound protective earthing or permission to test. The possible inverter supply and equipment state require clarification under approved procedures.
-3. **Classification:** repeated operation alone does not identify overload, short circuit or residual-current imbalance. Each is a different condition and may involve different protective functions.
-4. **Source plan:** verify the installation arrangement and applicable requirements using current authorised standards and amendments, regulator or network material where applicable, manufacturer data for the exact devices and equipment, workplace procedures and RTO instructions.
-5. **Path model:** draw the normal active-load-neutral path separately from a possible active-to-metal fault path through the protective earthing system and back to the source.
-6. **Protection relationship:** an RCD does not prove the conductor is protected against overload or short circuit, and its presence does not prove protective-earthing continuity. The expected operation of any device depends on verified conditions and characteristics.
-7. **Evidence gap:** the fault type, conductor condition, protective-device data, earthing continuity, source topology and approved inspection or test evidence are unknown.
-8. **Conclusion:** no single cause, device response, compliance state or safe work action can be asserted from the notes. Stop and escalate until every source and the approved verification boundary are established.
+1. **Facts:** repeated operation is reported; an RCD is present; earthing evidence is absent; inverter relationship is unknown.
+2. **Safety boundary:** do not assume one source, de-energised equipment, effective earthing or permission to test.
+3. **Classification:** repeated operation alone does not distinguish overload, short circuit or residual-current imbalance.
+4. **Source plan:** locate current authorised installation, device, manufacturer, workplace and RTO requirements without inventing clause numbers.
+5. **Path model:** draw active-load-neutral separately from a possible active-metal-protective-earthing-source loop.
+6. **Protection relationship:** an RCD does not prove overcurrent protection, protective-earthing continuity or isolation.
+7. **Claim grades:** device operation is described; cause and protective outcome are unverified.
+8. **Conclusion:** no cause, compliance state, device response or practical action can be asserted. Stop and escalate until every source and the approved verification boundary are established.
 
-This example deliberately contains no exact test procedure, acceptance value or device operating claim.
+### Faded transfer example
+
+**Changed scenario:** Replace the inverter with a battery system whose operating mode and isolation relationship are not shown. The protective device has not operated, but the metal enclosure is reported to give a “tingle.”
+
+Complete only these prompts:
+
+- facts versus reported symptoms;
+- possible supplies and stored energy;
+- concepts requiring classification;
+- normal and possible fault paths;
+- evidence required before any protective-device claim;
+- stop and escalation statement.
+
+Do not copy the worked response. The changed supply and symptom require fresh reasoning.
 
 ## 6. Practical application
 
-### Seventy-five to ninety minute competency check
+Complete the following in 80–95 minutes.
 
-Complete the following on paper or in a private study note. Keep the technical sections closed-note until the review stage.
+### Part A — retrieval map, 12 minutes
 
-#### Part A — retrieval map, 12 minutes
+For source navigation, safety reasoning, overcurrent protection, RCD protection and earthing/MEN reasoning, record:
 
-Draw five labelled boxes:
+- purpose;
+- two essential terms;
+- one common misconception;
+- one authorised-source check.
 
-- source navigation;
-- safety reasoning;
-- overcurrent protection;
-- residual-current protection;
-- earthing and MEN fault-path reasoning.
+### Part B — source-navigation plan, 12 minutes
 
-In each box, write the purpose, two essential terms, one common misconception and one item that requires authorised-source verification.
+For the workshop scenario, record formal search terms, likely source families, headings or index terms, context-changing exceptions and the evidence record to retain. Do not invent clause numbers.
 
-#### Part B — timed source-navigation plan, 12 minutes
+### Part C — integrated response, 25 minutes
 
-Using the workshop scenario, write a search plan without copying standards text:
+Produce:
 
-1. scenario terms to translate into formal technical concepts;
-2. likely source families;
-3. headings, definitions, index terms or cross-references to inspect;
-4. context and exceptions that could change the answer;
-5. evidence record to retain.
+- fact/assumption/gap table;
+- safety and possible-supply boundary;
+- fault-category comparison;
+- protective-function comparison;
+- normal-current diagram;
+- possible fault-current diagram;
+- changed-path analysis for an open or high-resistance protective connection;
+- evidence challenge for **safe**, **isolated**, **compliant**, **continuous** and **will operate**;
+- claim grades;
+- bounded conclusion and escalation condition.
 
-This is a navigation exercise. Do not invent a clause number from memory.
+### Part D — oral defence, 10 minutes
 
-#### Part C — integrated reasoning response, 25 minutes
+Explain the response without reading it. Then answer:
 
-Answer these prompts:
-
-1. List the stated facts, assumptions and missing information in separate groups.
-2. Identify the safety boundary, possible sources and stop conditions.
-3. Explain why repeated protective-device operation does not identify one fault category.
-4. Compare the roles of overcurrent protection and residual-current protection.
-5. Draw the normal current path.
-6. Draw a possible active-to-exposed-conductive-part fault-current path.
-7. Show how an open or high-resistance protective connection would change the reasoning.
-8. Explain why the inverter must be included in the source model before isolation or fault-path conclusions are made.
-9. List the evidence required before using the words **safe**, **isolated**, **compliant** or **will operate**.
-10. Write a bounded conclusion and escalation statement.
-
-#### Part D — explanation and challenge, 10 minutes
-
-Explain the response aloud or in writing without reading it. Then challenge it with four questions:
-
-- Which statement is a fact?
-- Which statement is an inference?
-- Which exact claim still needs an authorised source?
+- Which statement is fact?
+- Which is inference?
+- Which exact claim needs an authorised source?
 - Which action would be unsafe without approved procedures and competence?
+- Which conclusion changed when the alternate supply was introduced?
 
-#### Part E — rubric and remediation, 16 minutes
+### Part E — scored readiness rubric, 16 minutes
 
-Rate each dimension as **defensible**, **partial** or **unsafe/unsupported**:
+Score each category **0, 1 or 2**.
 
-| Dimension | Defensible evidence | Partial evidence | Unsafe or unsupported evidence |
+| Category | 2 — defensible | 1 — partial | 0 — critical weakness |
 |---|---|---|---|
-| Source navigation | Correct source family, search path and unresolved checks are recorded | Likely source named but context or traceability is incomplete | A remembered clause or copied wording is treated as proof |
-| Safety boundary | Possible sources, competence limits and stop conditions are explicit | Main hazard identified but one boundary or source is omitted | Work, testing or isolation is assumed safe without verification |
-| Terminology | Overload, short circuit, residual current, neutral and protective earth are kept distinct | Mostly correct but one relationship is blurred | Terms are treated as interchangeable |
-| Protection relationship | Each protective function and its limits are explained | Devices are named but coordination or limits are weak | One device is claimed to replace all other protection |
-| Fault-path reasoning | Normal and fault paths are complete and separated | General direction is correct but one link is missing | Fault current is said to disappear into earth or device operation is assumed |
-| Evidence and conclusion | Facts, inferences, flags and stop condition form a traceable chain | Conclusion is plausible but evidence gaps are not explicit | Safe, compliant, isolated or certain operation is claimed without evidence |
+| Source navigation | Correct source families, search path and unresolved checks | Source family named but context or traceability incomplete | Memory or copied wording treated as proof |
+| Safety boundary | All plausible sources, competence limits and stops explicit | Main hazard found but one boundary weak | Safe work or isolation assumed |
+| Terminology | Fault categories and conductors remain distinct | One relationship blurred | Terms merged or misused |
+| Protection relationship | Functions and limitations correctly separated | Devices named but limits weak | One device claimed to replace all protection |
+| Current paths | Normal and fault loops complete and separate | One link missing | Path ends at soil or device operation assumed |
+| Evidence chain | Facts, grades, gaps and conclusion traceable | Plausible but missing an explicit grade or gap | Strong claim made without evidence |
+| Transfer | Changed scenario re-analysed from first principles | Some copied reasoning remains | Original answer reused despite changed facts |
+| Safety communication | Stop and escalation wording is clear | Boundary implied but not explicit | Practical authority granted |
 
-Use these study-readiness rules:
+**Maximum: 16 points.** This score is an educational readiness tool, not an official assessment result.
 
-- **Stop and remediate:** any unsafe/unsupported rating, any omitted possible supply, or any high-confidence safety misconception.
-- **Targeted remediation:** no unsafe rating, but one or more dimensions remain partial. Review only the smallest relevant Week 1 explanation, then answer a fresh scenario.
-- **Proceed to Day 8:** every dimension is defensible from memory and exact technical claims are correctly returned to authorised sources. This is a study decision, not an official pass result.
-
-```mermaid
-flowchart TD
-    A["Complete the integrated check"] --> B{"Any unsafe claim, omitted source or high-confidence safety error?"}
-    B -->|"Yes"| C["Stop and remediate the specific misconception"]
-    B -->|"No"| D{"Any dimension still partial?"}
-    D -->|"Yes"| E["Target the smallest weak prerequisite and retry a fresh prompt"]
-    D -->|"No"| F["Record readiness and proceed to Day 8"]
-    C --> G["Retest after rest or focused review"]
-    E --> G
-```
+- **Stop and remediate:** any category scores 0, any possible supply is omitted, or any high-confidence safety misconception appears.
+- **Targeted remediation:** no zero, but total is below 14 or any category remains partial. Review the smallest prerequisite and retry a fresh scenario.
+- **Proceed to Day 8:** at least 14/16, no zero, all safety-critical categories score 2, and exact technical claims are returned to authorised sources.
 
 ![A confident learner discovers that evidence, not volume, carries the answer](../../../assets/learning/4-week/day-07-week-1-consolidation-and-competency-check/confidence-is-not-proof.svg)
 
@@ -267,56 +250,42 @@ flowchart TD
 
 ### Common errors
 
-- rereading every module before attempting closed-note retrieval;
-- treating source navigation as a memory test for clause numbers;
-- describing equipment as safe because it is not operating;
-- identifying only the normal supply and ignoring alternate, stored or control energy;
-- treating overload, short circuit and residual current as the same fault;
+- rereading before closed-note retrieval;
+- treating source navigation as clause-number recall;
+- assuming non-operation proves de-energisation;
+- omitting alternate, stored or control energy;
+- merging overload, short circuit and residual current;
 - claiming an RCD replaces overcurrent protection, earthing, isolation or verification;
-- using **earth**, **neutral**, **bonding** and **MEN connection** as interchangeable labels;
-- drawing a fault path that ends at soil instead of returning to the source;
-- assuming visible conductors or normal equipment operation prove continuity;
-- saying a protective device **will operate** without establishing the path, impedance, device characteristics and applicable requirements;
-- inventing test values, limits, operating times, clause numbers or RTO pass marks;
-- correcting an answer by memorising replacement wording without repairing the misconception.
+- treating earth, neutral, bonding and MEN connection as interchangeable;
+- ending a fault path at soil rather than the source;
+- assuming visible conductors or normal operation prove continuity;
+- claiming a device **will operate** without path, source and device evidence;
+- memorising replacement wording without repairing the misconception.
 
 ### Safety checkpoint
 
-This block is paper-based. It does not authorise interaction with an installation.
+This block is paper-based and grants no authority to interact with an installation.
 
-Stop and obtain qualified guidance when:
+Stop and obtain qualified guidance when equipment state is uncertain; any possible energy source is unresolved; isolation, proving de-energised, test equipment or competence requirements are unclear; damage, overheating or unexpected operation is suspected; a live test, reset, repair, alteration or energisation would be required; or the conclusion depends on an unverified clause, value, procedure, arrangement or acceptance criterion.
 
-- any equipment may be energised or its state is uncertain;
-- all normal, alternate, stored, induced, control or mechanical energy sources have not been identified;
-- isolation, proving de-energised, test equipment or competency requirements are unresolved;
-- exposed conductive parts, damaged conductors, loose connections, overheating or unexpected operation are suspected;
-- a live test, repair, alteration or energisation would be required;
-- the conclusion depends on an unverified clause, value, procedure, arrangement or acceptance criterion.
-
-Use current authorised standards, legislation, regulator and network requirements, manufacturer instructions, workplace procedures and approved RTO processes. The safest answer may be to stop, preserve the evidence and escalate.
+Use current authorised standards, legislation, regulator and network requirements, manufacturer instructions, workplace procedures and approved RTO processes. Preserve evidence and escalate rather than converting a study answer into a field action.
 
 ## 8. Retrieval and next links
 
 ### Final retrieval — closed note
 
-1. What are the eight steps in the Week 1 evidence loop?
-2. Why is transfer more demanding than recognition?
-3. What is the difference between an evidence chain and a plausible answer?
+1. State the nine I-N-T-E-G-R-A-T-E steps.
+2. Distinguish described, supported and verified claims.
+3. Explain why transfer is more demanding than recognition.
 4. Distinguish overload, short circuit and residual current.
-5. State one function and one limitation of overcurrent protection.
-6. State one function and one limitation of residual-current protection.
-7. Why can normal equipment operation coexist with an ineffective protective-earthing path?
-8. Trace a conceptual active-to-metal fault loop back to the source.
-9. Compare an open protective connection with a high-resistance protective connection.
-10. Why can a misplaced neutral-earth connection change current paths?
-11. What must be clarified when an inverter, generator or battery may energise an installation?
-12. Which four conclusion words should trigger an evidence challenge?
-13. What makes a high-confidence error a priority?
-14. What conditions require targeted remediation rather than proceeding?
+5. Compare overcurrent and residual-current protection roles and limitations.
+6. Trace normal and active-to-metal fault-current loops.
+7. Explain how an open and a high-resistance protective connection alter reasoning.
+8. Explain why alternate supplies change isolation and fault-path conclusions.
+9. Name the strong conclusion words that demand evidence.
+10. State the readiness conditions for proceed, remediation and stop.
 
 ### Error-log closeout
-
-For the most important error, record:
 
 ```text
 Original answer:
@@ -324,12 +293,12 @@ Confidence before checking:
 Misconception or missing relationship:
 Corrected explanation in my own words:
 Module or authorised source checked:
-Fresh retrieval question:
+Fresh transfer question:
 Result on fresh question:
 Next review date:
 ```
 
-Do not clear the error because the corrected answer looks familiar. Clear it only after successful retrieval and application in a fresh context.
+Clear an error only after successful retrieval and application in a fresh context.
 
 ### Related vault notes
 
@@ -342,30 +311,21 @@ Do not clear the error because the corrected answer looks familiar. Clear it onl
 - [[Day 06B - MEN Fault-Current Path]]
 - [[Day 06C - Earthing and MEN Fault Scenarios]]
 - [[Day 07 - Week 1 Consolidation and Competency Check]]
+- [[Day 08 - Maximum Demand]]
 - [[Four-Week Capstone Learning Plan]]
 - [[Safety and Electrical Risk]]
 - [[Control Switching and Protection]]
 - [[Earthing Bonding and MEN]]
 - [[Learning and Memory System]]
-- [[AS-NZS-3000-2018-Index]]
-
-### Previous block
-
-Return to [Day 6C — Earthing and MEN Fault Scenarios](./day-06c-earthing-and-men-fault-scenarios.md) when fault-path diagnosis or evidence boundaries are not yet defensible.
-
-### Next block
-
-Proceed to [Day 8 — Maximum Demand](../MASTER_PLAN.md#week-2--circuit-design-cables-and-switchboards) only after the study-readiness gate is satisfied. Day 8 begins the Week 2 design sequence.
 
 ### References and currency notice
 
-- AS/NZS 3000:2018 — current authorised copy and applicable amendments required; exact clauses, definitions, circuit requirements, protective-device conditions, MEN arrangements, testing requirements, limits and exceptions remain `reference_check_required`.
+- AS/NZS 3000:2018 — current authorised copy and applicable amendments required.
 - Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
 - [Learning Design](../../../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
-- Week 1 modules and their listed references.
 
-This module contains original organisation, diagrams, scenario facts, rubric language and assessment prompts. It does not reproduce standards wording, tables or figures. A suitably qualified reviewer must verify the technical interpretation against current authorised sources before the status can move beyond `review-required`.
+Exact clauses, definitions, protective-device conditions, MEN arrangements, test procedures, limits, operating times, acceptance criteria and jurisdiction-specific assessment requirements remain `reference_check_required`. The organisation, diagrams, scenario facts, rubric and prompts are original educational content. A suitably qualified reviewer must verify technical interpretation before the status can move beyond `review-required`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
