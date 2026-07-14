@@ -8,9 +8,9 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A and Day 6B.
-- **Current block:** Quality-improvement pass — [[Day 06C - Earthing and MEN Fault Scenarios]] (partial; knowledge-note update blocked).
-- **Next block:** Retry and complete quality-improvement pass — [[Day 06C - Earthing and MEN Fault Scenarios]].
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B and Day 6C.
+- **Current block:** Quality-improvement pass — [[Day 06C - Earthing and MEN Fault Scenarios]] completed.
+- **Next block:** Quality-improvement pass — [[Day 07 - Week 1 Consolidation and Competency Check]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Draft PR:** #5, targeting `main`.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -29,19 +29,13 @@ updated_on: 2026-07-14
 | 39 — 2026-07-14 | Quality-improvement pass — Day 5 | Added the R-E-S-E-T workflow, confidence calibration, blocking/beneficial/defer triage, observable five-part performance rubric, changed-scenario transfer, updated vault note and accessible fatigue stop cartoon. | Quality-improvement pass — Day 6A. |
 | 40 — 2026-07-14 | Quality-improvement pass — Day 6A | Added the R-O-L-E-S workflow, three evidence grades, bounded component-role explanations, changed-scenario transfer, six-category rubric, updated vault note and accessible role-before-colour cartoon. | Quality-improvement pass — Day 6B. |
 | 41 — 2026-07-14 | Quality-improvement pass — Day 6B | Added the L-O-O-P-S workflow, described/verified/outcome claim levels, three evidence grades, evidence-to-outcome ladder, worked-example fading, changed-supply transfer, six-category rubric, updated vault note and accessible prove-the-loop cartoon. | Quality-improvement pass — Day 6C. |
-| 42 — 2026-07-14 | Quality-improvement pass — Day 6C | Substantially improved the module and master-plan tracker, including the complete D-I-A-G-N-O-S-E workflow, claim grades, evidence ladder, worked-example fading, varied transfer and scored rubric. The knowledge-base-note write was blocked by the connector safety check, so the pass is not marked complete. | Retry and complete Day 6C knowledge-note alignment, then validate the increment. |
+| 42 — 2026-07-14 | Quality-improvement pass — Day 6C | Substantially improved the module and master-plan tracker, including the complete D-I-A-G-N-O-S-E workflow, claim grades, evidence ladder, worked-example fading, varied transfer and scored rubric. The knowledge-base-note write was blocked by the connector safety check, so the pass was not marked complete. | Retry and complete Day 6C knowledge-note alignment, then validate the increment. |
+| 43 — 2026-07-14 | Quality-improvement pass completion — Day 6C | Aligned the knowledge-base note with the improved module, added explicit quality-pass metadata, the D-I-A-G-N-O-S-E workflow, claim grades, Mermaid evidence ladder, worked-example fading, scored rubric and practical-authority boundary. Reconciled the canonical status with the master-plan tracker. | Quality-improvement pass — Day 7. |
 
-## Files updated in run 42
+## Files updated in run 43
 
-- `docs/learning-plans/4-week/modules/day-06c-earthing-and-men-fault-scenarios.md`
-- `docs/learning-plans/4-week/MASTER_PLAN.md`
+- `docs/knowledge-base/Day 06C - Earthing and MEN Fault Scenarios.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
-
-## Blocker
-
-- Two attempts to update `docs/knowledge-base/Day 06C - Earthing and MEN Fault Scenarios.md` were blocked by the connector safety check.
-- The existing note remains present and linked, but it does not yet reflect the improved D-I-A-G-N-O-S-E workflow or quality-pass metadata.
-- Because the required knowledge-note update did not succeed, Day 6C is not recorded as a completed quality-improvement pass in this canonical status file.
 
 ## Review flags
 
@@ -49,7 +43,7 @@ updated_on: 2026-07-14
 - Exact MEN arrangements, connection points, conductor requirements, fault-loop methods, protective-device characteristics, operating times, touch-voltage criteria, testing requirements, alternate-supply provisions, exceptions and jurisdiction-specific duties require qualified checking against current authorised sources.
 - The D-I-A-G-N-O-S-E workflow, claim grades, diagrams, fictional scenarios and rubric are original educational models.
 - No standards table, figure, systematic clause sequence, exact technical value or practical field procedure was reproduced.
-- The module grants no practical authority.
+- The module and note grant no practical authority.
 
 ## Run rules
 
