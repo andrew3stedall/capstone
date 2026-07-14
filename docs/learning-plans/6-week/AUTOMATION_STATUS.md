@@ -19,6 +19,31 @@ pull_request: 6
 
 ## Completed increments
 
+### 2026-07-14 — Day 6: RCD purpose, limits and coordination with other protection
+
+Completed the sixth dedicated six-week module as a current-balance and protection-boundary lesson following the Day 5 recovery block.
+
+Completed work:
+
+- created the full eight-beat Day 6 module;
+- defined observable objectives covering residual current, current balance, RCD purpose, additional protection, device type, unwanted operation, selectivity and coordination;
+- introduced the original B-A-L-A-N-C-E evidence and rule-finding workflow;
+- separated residual-current, overcurrent, fault-path and work-control questions;
+- added two valid Mermaid diagrams explaining monitored paths and coordinated protective layers;
+- created an original accessible black-and-white SVG showing current-balance and separate-protection checks before a bounded conclusion;
+- added a worked example, worked-example fading, changed-context transfer and a six-category 12-point rubric;
+- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept and reciprocal navigation links;
+- linked Day 6 directly from the master plan and completed reciprocal Day 5/Day 6 navigation;
+- preserved explicit source-currency, practical-authority, copyright and technical-review boundaries.
+
+Files created or updated:
+
+- `docs/learning-plans/6-week/modules/day-06-rcd-purpose-limits-and-coordination-with-other-protection.md`
+- `docs/assets/learning/6-week/day-06-rcd-purpose-limits-and-coordination-with-other-protection/balance-before-belief.svg`
+- `docs/knowledge-base/Six-Week Day 06 - RCD Purpose Limits and Coordination with Other Protection.md`
+- `docs/learning-plans/6-week/MASTER_PLAN.md`
+- `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
+
 ### 2026-07-14 — Day 5: Rest, retrieval and source-navigation correction
 
 Completed the first dedicated recovery block without adding unnecessary electrical theory.
@@ -163,22 +188,22 @@ Files created or updated:
 ## Review flags
 
 - Program status: `active`
-- Days 1–5 content status: `review-required`
-- Day 5 contains recovery, retrieval and source-navigation activities only and introduces no practical electrical procedure
-- Exact technical claims encountered during Day 5 correction remain `reference_check_required`
-- Days 1–5 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
+- Days 1–6 content status: `review-required`
+- Day 6 is safety-critical conceptual content and authorises no practical electrical work or testing
+- Exact circuit coverage, device types, residual-current values, operating times, testing requirements, permitted arrangements, exceptions and jurisdiction-specific claims remain `reference_check_required`
+- Days 1–6 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
 - No standards tables, figures, device curves, systematic clause wording or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 6 — RCD purpose, limits and coordination with other protection**
+**Day 7 — Week 1 protection decision checkpoint**
 
-Create the dedicated eight-beat technical module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 6 directly from the master plan, preserve reciprocal Day 5/Day 6 navigation, and update this status record with exactly one next increment.
+Create the dedicated eight-beat cumulative checkpoint module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 7 directly from the master plan, preserve reciprocal Day 6/Day 7 navigation, and update this status record with exactly one next increment.
