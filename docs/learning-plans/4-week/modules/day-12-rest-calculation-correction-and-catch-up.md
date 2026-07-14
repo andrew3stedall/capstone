@@ -3,13 +3,17 @@ id: day-12-rest-calculation-correction-and-catch-up
 title: Day 12 — Rest, Calculation Correction and Catch-Up
 domain: study-practice-and-design-readiness
 level: capstone
-jurisdiction: general
+jurisdiction: AU-NZ
 source_status: original-summary
 content_status: draft-unverified
+technical_review_status: not-technically-reviewed
+quality_improvement_pass: completed
+quality_improvement_pass_on: 2026-07-15
 standard_references: []
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-15
 safety_critical: false
-reference_check_required: false
+reference_check_required: true
+practical_authority: none
 prerequisites:
   - Day 8 — Maximum Demand
   - Day 9 — Complete Cable-Selection Workflow
@@ -25,57 +29,52 @@ related_simulations: []
 
 # Day 12 — Rest, Calculation Correction and Catch-Up
 
-> **Purpose notice:** This is a planned recovery and consolidation block. It introduces no new electrical design rule, value, table or field procedure. It strengthens the reasoning used in Days 8–11 through closed-note retrieval, calculation-audit practice and one targeted correction. Any technical claim checked during this block retains the source and review status of its original module.
+> **Purpose notice:** This is a deliberate recovery and consolidation block. It introduces no new electrical rule, value, table or field procedure. It revisits reasoning from Days 8–11, whose technical claims remain `review-required` and `reference_check_required`. This page grants no authority to design, approve, install, isolate, test or energise electrical work.
 
 ## Navigation
 
 - **Previous:** [Day 11 — Voltage Drop](./day-11-voltage-drop.md)
-- **Next planned block:** Day 13A — Switching, Isolation and Main Switches
+- **Next:** [Day 13A — Switching, Isolation and Main Switches](./day-13a-switching-isolation-and-main-switches.md)
 
 ## 1. Outcome and entry check
 
-### Learning objectives
+### Observable objectives
 
-By the end of this block, the learner should be able to:
+By the end of this block, the learner can:
 
-1. retrieve the design sequence connecting maximum demand, cable selection, derating and voltage drop;
-2. audit a calculation by separating inputs, source-controlled data, method, arithmetic and conclusion;
-3. identify the earliest reasoning error rather than merely correcting the final number;
-4. correct one high-priority calculation or assumption error from Days 8–11;
-5. classify unfinished work as **blocking**, **useful** or **defer**;
-6. apply a maximum 30-minute catch-up limit and stop earlier when concentration is unreliable;
-7. write an evidence-based readiness statement for Day 13A.
-
-### Prerequisites
-
-- Attempted completion of Days 8–11.
-- Access to the learner's worksheets, confidence ratings and error log.
-- A timer, blank paper and calculator for arithmetic checking only.
-- Access to the original modules and any authorised sources previously used.
+1. reconstruct, without notes, the dependency chain from maximum demand to cable selection, installation conditions and voltage-drop interpretation;
+2. classify an error as **boundary**, **evidence**, **method**, **unit/arithmetic** or **claim** error;
+3. locate the earliest unsupported step in one prior attempt;
+4. repair one complete reasoning chain while preserving the original attempt and its evidence trail;
+5. create and answer one varied retrieval question that tests the repaired idea;
+6. triage unfinished work as **blocking**, **beneficial** or **defer**;
+7. stop at 30 minutes, or earlier when a stop condition appears; and
+8. produce a readiness decision supported by observable evidence.
 
 ### Entry check
 
-Before opening notes, answer **yes** or **no**:
+Before opening notes, answer **yes**, **partly** or **no**:
 
-1. Can I explain why maximum demand is not simply the connected-load total?
-2. Can I state why cable selection is a chain of checks rather than a single ampacity lookup?
-3. Can I explain why an adverse route segment may govern the whole cable decision?
-4. Can I explain why voltage drop must include every contributing section?
-5. Am I alert enough to compare calculations carefully rather than guess?
+1. Can I explain why connected load and maximum demand are different concepts?
+2. Can I state why cable selection is a chain of dependent checks?
+3. Can I explain why one adverse route segment may govern a cable decision?
+4. Can I identify the full calculation boundary for voltage drop?
+5. Am I alert enough to compare assumptions, units and evidence accurately?
 
-If question 5 is **no**, complete only the two-minute setup in Beat 8 and stop. Recovery is the correct action.
+If item 5 is **no**, complete only the two-minute recovery setup in Beat 8 and stop. Recovery is successful completion for today.
 
 ## 2. Why it matters
 
-Calculation practice can create false confidence when the learner repeats arithmetic without checking the decision model behind it. A neat final answer may still be unsafe or indefensible because the wrong load case, route segment, correction factor, current basis, conductor data or circuit endpoint was used.
+Repeating arithmetic can strengthen the wrong model. A polished result may still be indefensible because the learner used the wrong operating case, omitted part of the circuit boundary, selected unsupported source data, combined factors incorrectly or made a stronger claim than the evidence allows.
 
-Day 12 therefore prioritises:
+This block therefore prioritises:
 
-- **recovery**, so calculation accuracy is not degraded by fatigue;
-- **retrieval**, so the learner reconstructs the workflow rather than recognises it on a page;
-- **audit**, so assumptions and evidence are checked before arithmetic;
-- **targeted correction**, so one important reasoning fault is repaired completely;
-- **bounded catch-up**, so a rest block does not become another full technical session.
+- **recovery** before accuracy deteriorates;
+- **retrieval** rather than passive rereading;
+- **causal correction** rather than replacing the final number;
+- **confidence calibration** so certainty is compared with evidence quality;
+- **bounded catch-up** so a rest block does not become another full technical session; and
+- **spaced rechecking** so the correction is tested again after a delay.
 
 ![A stick figure inspecting the first broken link in a calculation chain rather than polishing the final answer](../../../assets/learning/4-week/day-12-rest-calculation-correction-and-catch-up/fix-the-first-broken-link.svg)
 
@@ -83,258 +82,214 @@ Day 12 therefore prioritises:
 
 ### Calculation audit
 
-A **calculation audit** is a structured check of the reasoning chain that produced a result. It examines:
-
-1. the scenario and operating case;
-2. the stated and missing inputs;
-3. source-controlled values and methods;
-4. unit consistency;
-5. arithmetic;
-6. the interpretation and conclusion.
+A **calculation audit** is a structured review of the scenario, boundary, inputs, evidence, method, units, arithmetic and conclusion that produced a result.
 
 ### Earliest error
 
-The **earliest error** is the first incorrect or unsupported step in the chain. Later arithmetic may be internally correct while still producing an invalid result. Correction begins at the earliest error.
+The **earliest error** is the first incorrect, incomplete or unsupported step. Every dependent step after it must be reopened, even when its arithmetic is internally correct.
 
-### Input error
+### Error categories
 
-An **input error** uses an incorrect, unsupported, incomplete or mismatched value, such as the wrong current basis, route length, phase arrangement or installation condition.
+- **Boundary error:** the wrong source, load, operating state, route section or endpoint was included or omitted.
+- **Evidence error:** an input, factor, method or criterion lacks an applicable authorised source.
+- **Method error:** the selected workflow, convention or relationship does not fit the stated case.
+- **Unit/arithmetic error:** units, conversion, calculator entry, transcription or rounding are wrong after the earlier reasoning is sound.
+- **Claim error:** the conclusion exceeds the evidence, such as calling a fictional or provisional result compliant.
 
-### Method error
+### Confidence calibration
 
-A **method error** applies the wrong workflow, convention or formula to the operating case. A method remembered correctly can still be wrong for the scenario.
+**Confidence calibration** compares how certain the learner felt before checking with the quality of the evidence found afterward. A high-confidence error becomes a priority misconception because it is less likely to self-correct.
 
-### Arithmetic error
+### Blocking, beneficial and defer
 
-An **arithmetic error** occurs after suitable inputs and method have been selected. It includes calculator entry, unit conversion, sign, rounding and transcription errors.
+- **Blocking:** an unresolved misconception or missing prerequisite that would undermine the next block.
+- **Beneficial:** useful consolidation that may be completed only if time and concentration remain.
+- **Defer:** work that can be deliberately scheduled later without weakening next-block readiness.
 
-### Interpretation error
+### Readiness evidence
 
-An **interpretation error** occurs when a numerical result is turned into a claim that the evidence does not support, such as treating a provisional teaching result as proof of compliance.
+A **readiness statement** identifies what was retrieved, what was repaired, what remains unresolved and why proceeding is or is not justified. Feeling ready is not evidence by itself.
 
-### Blocking work
+## 4. Rule-finding workflow
 
-**Blocking work** is an unresolved prerequisite, high-confidence design misconception or missing correction that would undermine the next block. It receives priority over cosmetic note improvement or additional practice.
+Day 12 adds no new technical rule search. Use **R-E-P-A-I-R** to return only to the exact evidence gap exposed by the audit:
 
-### Readiness statement
+1. **R — Retain the original attempt.** Do not erase the evidence of the misconception.
+2. **E — Establish the boundary and operating case.** State source, endpoint, route, load state and intended conclusion.
+3. **P — Pinpoint the earliest unsupported step.** Classify it as boundary, evidence, method, unit/arithmetic or claim.
+4. **A — Access the governing evidence.** Return to the original module and its identified authorised source; do not use convenient substitute values.
+5. **I — Implement the smallest complete repair.** Correct the earliest error and reopen every dependent step.
+6. **R — Retest after variation and delay.** Create one changed-context question now and schedule a brief closed-note retest within 48–72 hours.
 
-A **readiness statement** records what was retrieved reliably, what was corrected, what remains unresolved and whether the learner can proceed safely to the next topic.
-
-## 4. Source-return and correction workflow
-
-Day 12 introduces no new rule search. Use the **C-H-E-C-K** workflow whenever an answer or calculation is uncertain:
-
-1. **C — Capture the attempt.** Preserve the original work before changing it.
-2. **H — Highlight the earliest unsupported step.** Mark the first input, method, arithmetic or interpretation problem.
-3. **E — Establish the governing evidence.** Return to the original module and, where required, the authorised source it identifies.
-4. **C — Correct and recalculate.** Change only what the evidence supports, show units and retain a clear audit trail.
-5. **K — Keep a fresh test.** Create one varied question that tests the corrected reasoning without copying the original problem.
-
-For each correction, record:
+Use this audit record:
 
 ```text
-Original scenario and result:
-Confidence before checking:
-Earliest error category: input / method / arithmetic / interpretation
-Why the step was unsupported or incorrect:
+Original scenario and conclusion:
+Confidence before checking: low / medium / high
+Boundary and operating case:
+Earliest error category:
+Why it was unsupported or incorrect:
 Module or authorised source checked:
+Dependent steps reopened:
 Corrected reasoning:
-Corrected result, if applicable:
 Bounded conclusion:
-Fresh retrieval test:
-Next review date:
+Varied retrieval question:
+Delayed retest date:
 ```
 
-Do not search broadly for convenient values or copy standards tables into the worksheet. Return to the exact evidence gap identified by the audit.
+Do not reproduce standards tables, figures, systematic clause wording, official values or assessment material in the correction record.
 
-## 5. Visual model and worked example
+## 5. Visual model or worked example
 
-### Calculation correction decision model
+### Earliest-error and reopening model
 
 ```mermaid
 flowchart TD
-    A["Preserve the original attempt"] --> B["State scenario, operating case and conclusion"]
-    B --> C{"Inputs supported and complete?"}
-    C -->|"No"| D["Correct earliest input error from source"]
-    C -->|"Yes"| E{"Method fits the case?"}
-    E -->|"No"| F["Correct method or convention"]
-    E -->|"Yes"| G{"Units and arithmetic correct?"}
-    G -->|"No"| H["Correct arithmetic and show units"]
-    G -->|"Yes"| I{"Conclusion bounded by evidence?"}
-    I -->|"No"| J["Rewrite interpretation and limitations"]
-    I -->|"Yes"| K["Retain result"]
-    D --> L["Recalculate downstream steps"]
-    F --> L
-    H --> L
-    J --> M["Create one fresh test"]
-    K --> M
-    L --> I
+    A["Preserve original attempt"] --> B["State boundary, operating case and claim"]
+    B --> C{"Boundary complete?"}
+    C -->|No| D["Repair boundary"]
+    C -->|Yes| E{"Evidence applicable and traceable?"}
+    E -->|No| F["Repair evidence trail"]
+    E -->|Yes| G{"Method fits the case?"}
+    G -->|No| H["Repair method"]
+    G -->|Yes| I{"Units and arithmetic correct?"}
+    I -->|No| J["Repair units or arithmetic"]
+    I -->|Yes| K{"Claim bounded by evidence?"}
+    K -->|No| L["Rewrite claim and limitations"]
+    K -->|Yes| M["Retain result"]
+    D --> N["Reopen every dependent step"]
+    F --> N
+    H --> N
+    J --> K
+    N --> K
+    L --> O["Varied test now; delayed retest later"]
+    M --> O
 ```
 
-### Catch-up triage model
-
-```mermaid
-flowchart LR
-    A["List unfinished items"] --> B{"Unsafe or prerequisite misconception?"}
-    B -->|"Yes"| C["Blocking: correct one now"]
-    B -->|"No"| D{"Needed for Day 13A readiness?"}
-    D -->|"Yes"| E["Useful: time-box if capacity remains"]
-    D -->|"No"| F["Defer deliberately"]
-    C --> G["Stop at 30 minutes or earlier"]
-    E --> G
-    F --> G
-```
+The diagram enforces causal correction. It prevents the learner from polishing a later step while leaving an earlier unsupported assumption intact.
 
 ### Fictional worked correction
 
-**Original attempt:** A learner calculates a final voltage-drop value using only the final subcircuit. The arithmetic is correct and the learner marks the answer **certain**.
+A learner calculates voltage drop for a supply-to-equipment question but includes only the final subcircuit. The calculator work is correct and confidence is high.
 
-**Audit:**
+1. **Retain:** preserve the worksheet and confidence rating.
+2. **Establish:** the requested boundary is supply point to equipment.
+3. **Pinpoint:** the earliest error is a boundary error; upstream contributing sections were omitted.
+4. **Access:** return to Day 11 and the authorised sources it identifies. Leave unavailable conductor data unresolved.
+5. **Implement:** redraw the complete path and reopen all dependent calculations and claims.
+6. **Retest:** change the route and equipment in a fresh fictional scenario, then repeat a short closed-note boundary check two days later.
 
-1. The scenario asks for performance from the supply point to the equipment.
-2. The earliest error is not arithmetic. It is an **input and path-definition error** because upstream sections were omitted.
-3. Day 11 is checked to restore the complete-path model and source requirements.
-4. The learner redraws the path, identifies each contributing section and leaves any unavailable conductor data explicitly unresolved.
-5. The result is recalculated only after the missing sections and authorised inputs are established.
-6. The conclusion is rewritten as provisional until all source-controlled data and acceptance criteria are verified.
-7. A fresh question changes the equipment and route but again requires reconstruction of the complete path.
-
-The correction repairs the model that produced the answer, not only the number written at the bottom.
+The correction is successful even when no final numerical answer can be produced because missing authorised data was correctly exposed rather than invented.
 
 ## 6. Practical application
 
-### Thirty-minute Week 2 consolidation protocol
+### Thirty-minute consolidation protocol
 
-Stop earlier when a stop condition appears.
+#### Minute 0–2 — capacity and stop check
 
-#### Minute 0–2: capacity check
+Record energy, concentration and whether recovery-only completion is required.
 
-Record:
+#### Minute 2–10 — closed-note retrieval
 
-```text
-Energy: low / workable / strong
-Concentration: poor / workable / strong
-Current stop condition: yes / no
-Decision: recovery only / retrieval and limited correction
-```
+Draw the Week 2 dependency chain and answer:
 
-#### Minute 2–12: closed-note retrieval
+1. Where does maximum-demand reasoning feed into cable selection?
+2. Why can installation conditions change a previously plausible conductor choice?
+3. Why is voltage-drop performance separate from current-carrying capacity?
+4. What changes must reopen downstream design checks?
+5. Which claim grades from Days 8–11 distinguish explanation from verified acceptance?
 
-Answer without notes and rate confidence:
+Mark each response **secure**, **partial** or **missing** before opening notes.
 
-1. What is the difference between connected load and maximum demand?
-2. What evidence chain links design current, protective device and conductor capacity?
-3. Why must a route be divided into installation-condition segments?
-4. What makes one segment limiting?
-5. Why is voltage-drop performance separate from thermal capacity?
-6. What sections may contribute to the voltage-drop result?
-7. Name four categories in a calculation audit.
-8. Why must a technically neat answer remain bounded when source evidence is incomplete?
+#### Minute 10–22 — one complete R-E-P-A-I-R cycle
 
-#### Minute 12–20: calculation audit
+Choose the highest-consequence or highest-confidence error from Days 8–11. Complete one repair record. Do not select several worksheets.
 
-Select one previous worksheet from Days 8–11. Do not choose the longest worksheet; choose the one with the highest risk of misunderstood reasoning.
+#### Minute 22–27 — varied application
 
-Audit in this order:
+Change one material scenario feature, such as operating case, route segment, circuit boundary or source availability. Predict which steps must reopen before solving anything.
 
-1. operating case and endpoints;
-2. input source and units;
-3. method and conventions;
-4. arithmetic and transcription;
-5. conclusion and unresolved evidence.
+#### Minute 27–30 — readiness and spacing
 
-Mark the earliest issue. Correct only one complete chain.
-
-#### Minute 20–28: one targeted catch-up task
-
-Choose one:
-
-- repair one high-confidence design misconception;
-- complete one missing source trail for a previous answer;
-- redraw the Day 8–11 design chain from memory;
-- correct one calculation and create a varied retest;
-- prepare a one-page comparison of **switching**, **isolation** and **emergency action** using headings only, without adding technical claims before Day 13A.
-
-Do not reorganise all notes, repeat every calculation or start Day 13A technical content.
-
-#### Minute 28–30: readiness note
+Write:
 
 ```text
-Strongest retained design idea:
-Earliest error corrected:
+Secure retrieval:
+Partial or missing retrieval:
+Earliest error repaired:
 Evidence used:
-Unresolved blocking item:
-Deferred work:
+Blocking item remaining:
+Deferred item:
+Delayed retest date:
 Ready for Day 13A: yes / yes with support / not yet
+Reason:
 ```
 
 ![A stick figure placing one calculation correction inside a thirty-minute box while a large pile of optional worksheets remains outside](../../../assets/learning/4-week/day-12-rest-calculation-correction-and-catch-up/one-correction-not-the-whole-pile.svg)
+
+### Performance rubric — 12 points
+
+Score each category 0, 1 or 2:
+
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Retrieval | dependency chain missing | partly reconstructed | complete and ordered |
+| Error diagnosis | final symptom only | category identified | earliest causal error justified |
+| Evidence control | unsupported substitute used | source named but applicability unclear | applicable evidence traced or gap declared |
+| Reopening logic | dependent steps left closed | some dependencies reopened | all affected steps reopened |
+| Transfer | repeated original question | changed detail with prompts | varied case solved independently |
+| Recovery discipline | limits ignored | stopped with prompting | respected time and fatigue limits |
+
+**Readiness guide:** 10–12 and no critical error = ready; 7–9 = ready with targeted support; 0–6 = repair one blocking misconception before progressing.
+
+**Critical errors override the score:** inventing technical values, treating fictional data as field evidence, concealing missing evidence, making an unverified compliance claim, or continuing when fatigue makes comparison unreliable.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-**Checking arithmetic first**  
-A correct calculator sequence cannot rescue unsuitable inputs or method. Start with the scenario and earliest unsupported step.
+- **Checking arithmetic first:** begin with boundary and evidence.
+- **Replacing the worksheet:** preserve the original attempt so the causal error remains visible.
+- **Correcting several chains:** complete one repair rather than starting many.
+- **Using convenient online values:** return to the source identified by the original module.
+- **Treating confidence as validity:** confidence determines checking priority, not truth.
+- **Turning recovery into another technical day:** stop at the time limit and introduce no Day 13A theory.
+- **Passing because the score is high:** critical errors and unresolved blockers override totals.
 
-**Replacing the whole worksheet**  
-Preserve the original attempt so the misconception remains visible and the correction can be audited.
+### Stop conditions
 
-**Using convenient online values**  
-Values and conventions must return to the authorised source identified by the original module.
+Stop immediately when:
 
-**Treating fictional teaching data as field data**  
-Worked values in Days 8–11 illustrate reasoning only. They are not compliance inputs.
+- concentration is too poor to compare assumptions, evidence or units;
+- repeated calculator entries replace reasoning;
+- an authorised source needed for correction is unavailable;
+- a value or requirement would have to be guessed;
+- the task would require unsupervised electrical work, testing or access beyond competence and authority;
+- the 30-minute limit has elapsed; or
+- the correction cannot be left with a clear, bounded next action.
 
-**Correcting several incomplete chains**  
-One complete correction is more useful than four partially reviewed worksheets.
-
-**Turning Day 12 into another technical day**  
-The block consolidates prior reasoning and protects recovery. It does not begin switching or isolation theory.
-
-**Equating confidence with validity**  
-High confidence increases the urgency of checking; it does not strengthen unsupported evidence.
-
-### Safety and study checkpoint
-
-Stop when:
-
-- concentration is too poor to compare assumptions, units or source evidence;
-- repeated calculator entries are being made without understanding the method;
-- the required authorised source is unavailable;
-- the learner is tempted to invent, infer or reuse a value outside its stated context;
-- a correction would require unsupervised electrical work, testing or access beyond competence and authority;
-- the 30-minute total has elapsed;
-- the current correction cannot be left with a clear next action.
-
-This module authorises no electrical design approval, installation, testing or field procedure. Technical work remains governed by current authorised standards, legislation, regulator guidance, manufacturer instructions, workplace procedures, supervision and RTO requirements.
+This educational block is not a field procedure and does not certify competence or technical compliance.
 
 ## 8. Retrieval and next links
 
-### Final recall check
+### Exit retrieval
 
-Answer without notes:
+Without notes:
 
-1. What is the purpose of a calculation audit?
-2. Why is the earliest error more important than the final wrong number?
-3. Distinguish input, method, arithmetic and interpretation errors.
-4. What does each letter in **C-H-E-C-K** represent?
-5. What makes unfinished work blocking?
-6. What is the maximum Day 12 catch-up period?
-7. Why must the original attempt be preserved?
-8. What evidence supports readiness for Day 13A?
+1. State the six R-E-P-A-I-R steps.
+2. Distinguish boundary, evidence, method, unit/arithmetic and claim errors.
+3. Explain why the earliest error forces later steps to reopen.
+4. State the three catch-up categories.
+5. Name the critical errors that override the rubric score.
+6. Explain why a missing final number can still represent a successful correction.
+7. State the maximum session duration and two earlier stop conditions.
+8. Give the date of the delayed retest.
 
-### Day 13A readiness check
+### Next-block readiness
 
-Proceed when the learner can:
+Proceed to Day 13A when the learner can reconstruct the Week 2 chain, expose assumptions before calculation, repair one causal error, bound the conclusion and identify no unresolved high-confidence misconception that blocks new learning.
 
-- reconstruct the sequence from load assessment through cable capacity, route conditions and voltage performance;
-- expose assumptions and missing evidence before calculating;
-- correct one previous error at the reasoning level;
-- distinguish a provisional teaching conclusion from a verified compliance claim;
-- begin the next block without an unresolved high-confidence misconception from Days 8–11.
-
-A learner marked **yes with support** may proceed with the corrected worksheet and error log available. A learner marked **not yet** should schedule one specific blocking correction rather than repeating the entire week.
+A learner marked **yes with support** may proceed with the corrected worksheet and error log available. A learner marked **not yet** schedules one specific repair rather than repeating all of Week 2.
 
 ### Related learning
 
@@ -342,17 +297,13 @@ A learner marked **yes with support** may proceed with the corrected worksheet a
 - [Day 9 — Complete Cable-Selection Workflow](./day-09-complete-cable-selection-workflow.md)
 - [Day 10 — Installation Conditions and Derating](./day-10-installation-conditions-and-derating.md)
 - [Day 11 — Voltage Drop](./day-11-voltage-drop.md)
-- [Learning design](../../../LEARNING_DESIGN.md)
-- [AS/NZS 3000:2018 learning index](../../../knowledge-base/AS-NZS-3000-2018-Index.md)
+- [Day 13A — Switching, Isolation and Main Switches](./day-13a-switching-isolation-and-main-switches.md)
+- [Learning Design](../../../LEARNING_DESIGN.md)
+- [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
 ## References and currency notice
 
-- [Learning Design](../../../LEARNING_DESIGN.md)
-- [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
-- Days 8–11 and the current authorised sources identified by those modules.
-- Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
-
-This module contains original recovery, retrieval and correction activities. It reproduces no standards wording, tables, figures, official calculation factors or acceptance limits. Any exact technical claim encountered during correction remains subject to the source and technical-review status of its original module.
+This module contains original recovery, retrieval, audit and correction activities. It reproduces no standards wording, tables, figures, official calculation factors, limits or assessment criteria. Any technical claim revisited from Days 8–11 inherits that module's source, currency and technical-review status and must be checked against current authorised material before practical use.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
