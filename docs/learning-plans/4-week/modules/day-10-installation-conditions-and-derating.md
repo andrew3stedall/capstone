@@ -159,8 +159,8 @@ flowchart TD
     F --> G["Check interactions and exceptions"]
     G --> H["Calculate each segment"]
     H --> I{"Evidence sufficient?"}
-    I -->|No| J["Stop, obtain evidence or mark unresolved"]
-    I -->|Yes| K["Compare segment results"]
+    I -->|"No"| J["Stop, obtain evidence or mark unresolved"]
+    I -->|"Yes"| K["Compare segment results"]
     K --> L["Identify provisional limiting segment"]
     L --> M["Reopen affected design checks"]
 ```
@@ -202,8 +202,8 @@ flowchart LR
     EB --> R
     EC --> R
     R --> Q{"Can a limiting segment be supported?"}
-    Q -->|No| S["Hold conclusion and obtain evidence"]
-    Q -->|Yes| P["State provisional limiter"]
+    Q -->|"No"| S["Hold conclusion and obtain evidence"]
+    Q -->|"Yes"| P["State provisional limiter"]
 ```
 
 A segment with the most adverse-looking condition does not automatically govern if its classification or source inputs are unresolved.
