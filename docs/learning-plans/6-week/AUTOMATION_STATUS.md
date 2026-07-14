@@ -15,77 +15,57 @@ pull_request: 6
 - Draft pull request: #6
 - Base branch: `automation/4-week-learning-plan`
 - Relationship: stacked on the open four-week learning-plan branch because draft PR #5 has not merged.
-- When the four-week branch merges, PR #6 may be retargeted to the repository default branch after confirming the resulting diff remains correct.
+- Retarget PR #6 to the repository default branch only after PR #5 merges and the resulting diff is checked.
 
 ## Current state
 
 - Canonical sequence: 42 scheduled blocks across six weeks.
-- Completed dedicated modules: Days 1–14.
-- Current block: none.
+- Completed dedicated modules: Days 1–17.
 - Content-development phase: active.
-- Exactly one next increment: Day 15 — Load identification and maximum-demand workflow.
+- Exactly one next increment: Day 18 — Voltage-Drop Concepts and Calculation Workflow.
 
 ## Completed increments
 
+Days 1–14 remain complete as previously recorded.
+
 | Increment | Result |
 |---|---|
-| Canonical six-week program design | Defined the distinct 42-block sequence, study rhythm, quality gates, review tracking and stacked PR relationship. |
-| Day 1 — Program orientation, assessment map and source hierarchy | Added the M-A-P-S source workflow, baseline diagnosis, source-family selection, confidence calibration, diagrams, SVG and vault note. |
-| Day 2 — Hazard, risk, exposure and critical controls | Added the S-C-O-P-E safety workflow, exposure-chain reasoning, verification gates, paper scenarios, SVG and vault note. |
-| Day 3 — Fundamental protection concepts and fault types | Added the F-A-U-L-T classification workflow, mechanism/path distinctions, scenario cards, transfer task, SVG and vault note. |
-| Day 4 — Overload and short-circuit protection reasoning | Added the C-L-E-A-R workflow, separate overload and short-circuit evidence chains, scenario work, SVG and vault note. |
-| Day 5 — Rest, retrieval and source-navigation correction | Added the R-E-S-E-T recovery workflow, fatigue boundaries, time-boxed catch-up, error correction, SVG and vault note without unnecessary new theory. |
-| Day 6 — RCD purpose, limits and coordination with other protection | Added the B-A-L-A-N-C-E workflow, current-balance model, protection-layer separation, changed-context transfer, SVG and vault note. |
-| Day 7 — Week 1 protection decision checkpoint | Added the D-E-C-I-D-E cumulative workflow, four-question separation, evidence grading, changed-condition revision, timed checkpoint, six-category rubric, accessible SVG and vault note. |
-| Day 8 — Earthing terminology and component identification | Added the N-A-M-E-S identification workflow, precise earthing and MEN terminology, role mapping, evidence grades, changed-supply transfer, six-category rubric, accessible SVG and vault note. |
-| Day 9 — MEN arrangement and normal-current paths | Added the R-E-T-U-R-N workflow, source-to-load-to-source loop reasoning, separation of normal and protective paths, changed-source transfer, six-category rubric, accessible SVG and vault note. |
-| Day 10 — Earth-fault current path and disconnection reasoning | Added the L-O-O-P-S workflow, three claim levels, evidence-gated loop reasoning, worked-example fading, changed-condition transfer, six-category rubric, accessible SVG and vault note. |
-| Day 11 — Protective earthing continuity and equipotential bonding concepts | Added the B-O-N-D-S workflow, exposed/extraneous part distinctions, five claim layers, role comparison, changed-condition transfer, six-category rubric, accessible SVG and vault note. |
-| Day 12 — Rest, retrieval and misconception repair | Added the R-E-P-A-I-R recovery workflow, closed-note retrieval, six error categories, three-repair and 30-minute limits, varied re-attempts, fatigue stop conditions, readiness outcomes, accessible SVG and vault note without unnecessary new theory. |
-| Day 13 — Earthing defect scenarios and consequence analysis | Added the D-E-F-E-C-T workflow, claim-level separation, conditional consequence chains, evidence ledger, worked-example fading, changed-condition transfer, six-category rubric, accessible SVG and vault note. |
-| Day 14 — Week 2 integrated MEN and protection exercise | Added the I-N-T-E-G-R-A-T-E workflow, separate normal/fault path models, protection-layer analysis, evidence gates, changed-condition revision, timed cumulative exercise, ten-category rubric, accessible SVG and vault note. |
+| Day 15 — Load Identification and Maximum-Demand Workflow | Added the L-O-A-D-S workflow, complete load-register method, fictional worked calculation, phase and operating-case challenge, changed-condition transfer, rubric, accessible SVG and vault note. |
+| Day 16 — Design Current, Device Rating and Conductor Capacity Relationship | Added the R-A-T-I-N-G workflow, separate protection-function analysis, evidence-gated load-device-conductor chain, downstream reopening triggers, rubric, accessible SVG and vault note. |
+| Day 17 — Installation Conditions and Derating-Factor Reasoning | Added the C-O-N-D-I-T-I-O-N workflow, section-by-section route evidence, thermal-influence classification, fictional factor audit, double-correction control, rubric, accessible SVG and vault note. |
 
-## Latest increment — Day 14
+## Files created or updated in this cycle
 
-Completed work:
-
-- created the full eight-beat cumulative MEN and protection integration module;
-- defined observable objectives for role classification, path separation, protection-layer reasoning, evidence control, changed-condition transfer and safe escalation;
-- introduced the original I-N-T-E-G-R-A-T-E workflow;
-- added two valid Mermaid diagrams showing the evidence-gated integration process and unsafe reasoning shortcuts;
-- created an original detached-workshop worked example, a faded service/bonding example, changed-condition sequence, misconception diagnosis and timed response;
-- added a ten-category, 20-point educational rubric with critical zero controls;
-- created an original accessible black-and-white SVG showing path, protection and evidence alignment;
-- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept, assessment, reference and navigation links;
-- linked Day 14 directly from the master plan and preserved reciprocal Day 13/Day 14 navigation;
-- preserved source-currency, practical-authority, copyright and technical-review boundaries.
-
-## Files created or updated in the latest increment
-
-- `docs/learning-plans/6-week/modules/day-14-week-2-integrated-men-and-protection-exercise.md`
-- `docs/assets/learning/6-week/day-14-week-2-integrated-men-and-protection-exercise/align-path-protection-and-evidence.svg`
-- `docs/knowledge-base/Six-Week Day 14 - Week 2 Integrated MEN and Protection Exercise.md`
+- `docs/learning-plans/6-week/modules/day-15-load-identification-and-maximum-demand-workflow.md`
+- `docs/assets/learning/6-week/day-15-load-identification-and-maximum-demand-workflow/sort-loads-before-calculating.svg`
+- `docs/knowledge-base/Six-Week Day 15 - Load Identification and Maximum-Demand Workflow.md`
+- `docs/learning-plans/6-week/modules/day-16-design-current-device-rating-and-conductor-capacity-relationship.md`
+- `docs/assets/learning/6-week/day-16-design-current-device-rating-and-conductor-capacity-relationship/link-three-values-with-evidence.svg`
+- `docs/knowledge-base/Six-Week Day 16 - Design Current Device Rating and Conductor Capacity Relationship.md`
+- `docs/learning-plans/6-week/modules/day-17-installation-conditions-and-derating-factor-reasoning.md`
+- `docs/assets/learning/6-week/day-17-installation-conditions-and-derating-factor-reasoning/conditions-before-factors.svg`
+- `docs/knowledge-base/Six-Week Day 17 - Installation Conditions and Derating-Factor Reasoning.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
 - Program status: `active`
-- Days 1–14 content status: `review-required`
-- Day 14 is safety-critical, paper-based educational content and authorises no practical electrical work, inspection or testing
-- Exact definitions, MEN arrangements, classifications, connection requirements, device characteristics, source conditions, test methods, values, acceptance criteria, official assessment criteria and jurisdiction-specific claims remain `reference_check_required`
-- Technical review remains required before any module is presented as authoritative
-- Automated content must not be marked `technically-reviewed`
-- No standards tables, figures, systematic clause wording, official assessment material or source PDF content were reproduced
+- Days 1–17 content status: `review-required`
+- Days 15–17 are safety-critical, paper-based educational content and authorise no practical electrical work, inspection, testing, selection or approval.
+- Exact maximum-demand methods, allowances, equations, device characteristics, conductor capacities, installation classifications, correction factors, combination methods, limits, exceptions and jurisdiction-specific claims remain `reference_check_required`.
+- Technical review remains required before any module is presented as authoritative.
+- Automated content is not `technically-reviewed`.
+- No standards tables, figures, systematic clause wording, official assessment material or source-PDF content were reproduced.
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7, Day 8, Day 9, Day 10, Day 11, Day 12, Day 13, Day 14
-- Quality-improvement passes completed: none
+- Completed modules awaiting later quality-improvement pass: Days 1–17.
+- Quality-improvement passes completed: none.
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 15 — Load identification and maximum-demand workflow**
+**Day 18 — Voltage-Drop Concepts and Calculation Workflow**
 
-Create the dedicated eight-beat load-identification and maximum-demand module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 15 directly from the master plan, add reciprocal Day 14/Day 15 navigation, and update this status record with exactly one next increment.
+Create the dedicated eight-beat voltage-drop module, original instructional SVG asset or assets and corresponding knowledge-base note; link Day 18 directly from the master plan; preserve reciprocal Day 17/Day 18 navigation; and update this status record with exactly one next increment.
