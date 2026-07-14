@@ -152,7 +152,7 @@ Submit the input register, unit audit, visible fictional calculation, boundary c
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 29 - Voltage-Drop Concepts and Calculation Structure]]
 - **Previous:** [Day 28 — Week 4 Independent Circuit-Design Checkpoint](day-28-week-4-independent-circuit-design-checkpoint.md)
-- **Next:** Day 30 — Voltage-Drop Interpretation and Design Iteration
+- **Next:** [Day 30 — Voltage-Drop Interpretation and Design Iteration](day-30-voltage-drop-interpretation-and-design-iteration.md)
 
 ### Reference and currency notice
 
