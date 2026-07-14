@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–34, ending with Day 34 — Integrated protection, conductor and voltage scenario.
+- **Completed:** Days 1–37, ending with Day 37 — Main switches, alternate supplies and source identification.
 - **Current block:** None.
-- **Next block:** Day 35 — Week 5 design-review conference and remediation.
+- **Next block:** Day 38 — Switchboard functional areas and arrangement principles.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -29,43 +29,52 @@ updated_on: 2026-07-15
 | 29 — 2026-07-15 | Day 28 — Week 4 independent circuit-design checkpoint | Added C-H-E-C-K-P-O-I-N-T, independent scenario, change propagation, rubric, accessible SVG and knowledge note. | Create Day 29. |
 | 30 — 2026-07-15 | Day 29 — Voltage-drop concepts and calculation structure | Added V-O-L-T-S, boundary, path-convention, unit and provenance controls. | Create Day 30. |
 | 31 — 2026-07-15 | Day 30 — Voltage-drop interpretation and design iteration | Added I-T-E-R-A-T-E, candidate comparison and reopening triggers. | Create Day 31. |
-| 32 — 2026-07-15 | Day 31 — Fault-loop reasoning at concept level | Added L-O-O-P-S, complete return-path reasoning, evidence gates, two Mermaid models, accessible SVG and knowledge note. | Create Day 32. |
-| 33 — 2026-07-15 | Day 32 — Coordination, selectivity and upstream/downstream consequences | Added C-H-A-I-N-S, protection-chain mapping, cascade-consequence reasoning, two Mermaid models, accessible SVG and knowledge note. | Create Day 33. |
-| 34 — 2026-07-15 | Day 33 — Rest, retrieval and formula-selection correction | Added R-E-S-E-T, a three-error and 30-minute limit, causal correction, readiness triage, accessible SVG and knowledge note without new electrical theory. | Create Day 34. |
-| 35 — 2026-07-15 | Day 34 — Integrated protection, conductor and voltage scenario | Added I-N-T-E-G-R-A-T-E, explicit design gates, evidence and dependency registers, changed-route reopening, candidate comparison, two Mermaid models, an accessible SVG and a knowledge note. | Create Day 35 — Week 5 design-review conference and remediation. |
+| 32 — 2026-07-15 | Day 31 — Fault-loop reasoning at concept level | Added L-O-O-P-S, complete return-path reasoning and evidence gates. | Create Day 32. |
+| 33 — 2026-07-15 | Day 32 — Coordination, selectivity and upstream/downstream consequences | Added C-H-A-I-N-S, protection-chain mapping and cascade-consequence reasoning. | Create Day 33. |
+| 34 — 2026-07-15 | Day 33 — Rest, retrieval and formula-selection correction | Added R-E-S-E-T, causal correction, time limits and readiness triage without new theory. | Create Day 34. |
+| 35 — 2026-07-15 | Day 34 — Integrated protection, conductor and voltage scenario | Added I-N-T-E-G-R-A-T-E, evidence and dependency registers, changed-route reopening and candidate comparison. | Create Day 35. |
+| 36 — 2026-07-15 | Day 35 — Week 5 design-review conference and remediation | Added D-E-F-E-N-D, earliest-weak-link diagnosis, consequence-ranked remediation, transfer evidence and readiness decision. | Create Day 36. |
+| 37 — 2026-07-15 | Day 36 — Functional switching, isolation and emergency switching distinctions | Added P-U-R-P-O-S-E, operating-state classification, source-boundary mapping and suitability-evidence controls. | Create Day 37. |
+| 38 — 2026-07-15 | Day 37 — Main switches, alternate supplies and source identification | Added S-O-U-R-C-E, complete source inventories, operating-state matrices, backfeed awareness and bounded switch-function claims. | Create Day 38 — Switchboard functional areas and arrangement principles. |
 
 ## Files added or updated in this cycle
 
+- `docs/learning-plans/12-week/modules/day-35-week-5-design-review-conference-and-remediation.md`
+- `docs/assets/learning/12-week/week-5-design-review-conference-and-remediation/trace-the-earliest-weak-link.svg`
+- `docs/knowledge-base/12-Week Day 35 - Week 5 Design-Review Conference and Remediation.md`
+- `docs/learning-plans/12-week/modules/day-36-functional-switching-isolation-and-emergency-switching-distinctions.md`
+- `docs/assets/learning/12-week/functional-switching-isolation-and-emergency-switching-distinctions/classify-purpose-before-device.svg`
+- `docs/knowledge-base/12-Week Day 36 - Functional Switching Isolation and Emergency Switching Distinctions.md`
+- `docs/learning-plans/12-week/modules/day-37-main-switches-alternate-supplies-and-source-identification.md`
+- `docs/assets/learning/12-week/main-switches-alternate-supplies-and-source-identification/map-every-source-before-claiming-isolation.svg`
+- `docs/knowledge-base/12-Week Day 37 - Main Switches Alternate Supplies and Source Identification.md`
 - `docs/learning-plans/12-week/modules/day-34-integrated-protection-conductor-and-voltage-scenario.md`
-- `docs/assets/learning/12-week/integrated-protection-conductor-and-voltage-scenario/reopen-every-affected-design-gate.svg`
 - `docs/knowledge-base/12-Week Day 34 - Integrated Protection Conductor and Voltage Scenario.md`
-- `docs/learning-plans/12-week/modules/day-33-rest-retrieval-and-formula-selection-correction.md`
-- `docs/knowledge-base/12-Week Day 33 - Rest Retrieval and Formula-Selection Correction.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 34 integrates conductor capacity, voltage, fault-return and protection-chain reasoning without pretending that one satisfactory result establishes complete design acceptance.
-- The scenario requires an evidence register before calculation, a dependency map before revision and explicit reopening of every affected gate after a material change.
-- The assessment rubric is an original educational aid, not an official RTO criterion or technical approval mechanism.
-- All examples and diagrams are independently created and do not reproduce standards tables, figures, clause sequences or official assessment material.
+- Day 35 closes Week 5 with diagnosis and remediation rather than additional technical theory. It prioritises the earliest consequential weakness and requires varied transfer before a readiness claim.
+- Day 36 classifies switching purpose before equipment and separates normal control, isolation and emergency response without teaching operational procedures.
+- Day 37 rejects the single-source assumption by requiring complete source inventories and operating-state matrices before main-switch or identification claims.
+- All examples, diagrams and rubrics are independently created and do not reproduce standards tables, figures, clause sequences or official assessment material.
 
 ## Review flags
 
-- Day 34 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact conductor data, correction factors, voltage and fault methods, device characteristics, coordination evidence, limits, exceptions and jurisdiction-specific duties require qualified checking.
-- No standards table, figure, systematic clause sequence, exact official technical value or official assessment material was reproduced.
-- The module authorises no field inspection, switching, isolation, opening, proving, measurement, testing, adjustment, fault simulation, installation, alteration, repair, energisation, commissioning, certification or verification.
+- Days 35–37 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact switching definitions, main-switch applications, alternate-supply arrangements, source-identification requirements, device capabilities, locations, exceptions and jurisdiction-specific duties require qualified checking.
+- No standards table, figure, systematic clause sequence, exact official technical value, switching procedure or official assessment material was reproduced.
+- The modules authorise no switching, isolation, opening, proving, measurement, testing, adjustment, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings.
-- Checked both Mermaid fences, node labels and flow direction.
-- Checked the SVG for a white background, black line art, semantic title, description and instructional purpose.
-- Checked the Day 33–34 reciprocal module and knowledge-note links.
-- Checked the master-plan link and the single next-increment rule.
-- Checked terminology definitions, observable objectives, changed-condition transfer, copyright transformation, safety stop boundaries and technical-review flags.
+- Confirmed the exact eight required headings in Days 35–37.
+- Checked Mermaid fences, node labels and flow direction.
+- Checked each SVG for a white background, black line art, semantic title, description and instructional purpose.
+- Checked Day 34–37 reciprocal module and knowledge-note navigation.
+- Checked the master-plan links and the single next-increment rule.
+- Checked terminology definitions, observable objectives, transfer tasks, copyright transformation, safety stop boundaries and technical-review flags.
 
 ## Run rules
 
