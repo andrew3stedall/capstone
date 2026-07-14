@@ -272,7 +272,7 @@ flowchart LR
     C --> D["Loop conditions verified"]
     D --> E["Protective device or measure verified"]
     E --> F["Bounded protective outcome"]
-    B -. "unsupported shortcut" .-> F
+    B -.->|"&quot;unsupported shortcut&quot;"| F
 ```
 
 The dashed shortcut is the common error. A drawn path is not, by itself, proof of continuity, acceptable impedance or protective-device operation.
