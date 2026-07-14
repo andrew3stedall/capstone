@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Imbalance before claim</title>
+  <desc id="desc">Black-and-white stick-figure illustration of a learner reviewing four cards labelled imbalance, RCD role, other protection, and missing evidence before reaching a bounded conclusion.</desc>
+  <rect width="960" height="540" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="150" r="34"/>
+    <path d="M150 184v110M150 215l-60 55M150 215l70 35M150 294l-45 95M150 294l55 95"/>
+    <rect x="260" y="95" width="150" height="105" rx="8"/>
+    <rect x="445" y="95" width="150" height="105" rx="8"/>
+    <rect x="260" y="245" width="150" height="105" rx="8"/>
+    <rect x="445" y="245" width="150" height="105" rx="8"/>
+    <path d="M630 205h110"/>
+    <path d="M720 185l25 20-25 20"/>
+    <rect x="760" y="135" width="155" height="140" rx="12"/>
+    <path d="M790 190h95M790 220h70"/>
+    <path d="M315 420h335"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#000" text-anchor="middle">
+    <text x="335" y="135" font-size="24">IMBALANCE</text>
+    <text x="335" y="170" font-size="20">What differs?</text>
+    <text x="520" y="135" font-size="24">RCD ROLE</text>
+    <text x="520" y="170" font-size="20">What may it do?</text>
+    <text x="335" y="285" font-size="23">OTHER PROTECTION</text>
+    <text x="335" y="320" font-size="20">What stays separate?</text>
+    <text x="520" y="285" font-size="23">MISSING EVIDENCE</text>
+    <text x="520" y="320" font-size="20">What is unknown?</text>
+    <text x="838" y="178" font-size="23">BOUNDED</text>
+    <text x="838" y="210" font-size="23">CONCLUSION</text>
+    <text x="480" y="465" font-size="26">Describe the imbalance clue, then define the boundary.</text>
+  </g>
+</svg>
