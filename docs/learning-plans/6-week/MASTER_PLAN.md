@@ -84,9 +84,9 @@ These blocks introduce no unnecessary new electrical theory. Each must include t
 ### Week 5 — Special locations, appliances and rotating equipment
 
 - [x] [Day 29 — Wet-area risk model and rule-finding workflow](modules/day-29-wet-area-risk-model-and-rule-finding-workflow.md)
-- [ ] Day 30 — Other special locations and additional-condition screening
-- [ ] Day 31 — Fixed appliances, local isolation and connection decisions
-- [ ] Day 32 — Motors, starting conditions and associated protection concepts
+- [x] [Day 30 — Other special locations and additional-condition screening](modules/day-30-other-special-locations-and-additional-condition-screening.md)
+- [x] [Day 31 — Fixed appliances, local isolation and connection decisions](modules/day-31-fixed-appliances-local-isolation-and-connection-decisions.md)
+- [x] [Day 32 — Motors, starting conditions and associated protection concepts](modules/day-32-motors-starting-conditions-and-associated-protection-concepts.md)
 - [ ] Day 33 — Rest, retrieval and scenario triage
 - [ ] Day 34 — Multiple and alternative supplies awareness
 - [ ] Day 35 — Week 5 integrated installation inspection
