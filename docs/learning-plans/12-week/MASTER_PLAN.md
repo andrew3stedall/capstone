@@ -47,7 +47,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 - [x] [Day 15 — Earthing terminology and component roles](modules/day-15-earthing-terminology-and-component-roles.md)
 - [x] [Day 16 — Protective earthing continuity and exposed conductive parts](modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md)
-- [ ] Day 17 — Equipotential bonding purpose and boundary reasoning
+- [x] [Day 17 — Equipotential bonding purpose and boundary reasoning](modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md)
 - [ ] Day 18 — MEN arrangement and normal-current versus fault-current paths
 - [ ] Day 19 — Rest, retrieval and diagram reconstruction
 - [ ] Day 20 — MEN fault scenarios and protective-device operation reasoning
