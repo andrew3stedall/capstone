@@ -40,14 +40,14 @@ Use **S-E-L-E-C-T**:
 
 ```mermaid
 flowchart LR
-    A[Scope] --> B[Evidence ledger]
-    B --> C[Source paths]
-    C --> D[Candidate coordination]
-    D --> E[Remaining constraints]
-    E --> F[Bounded conclusion]
-    F --> G{Condition changed?}
-    G -->|Yes| B
-    G -->|No| H[Retain documented result]
+    A["Scope"] --> B["Evidence ledger"]
+    B --> C["Source paths"]
+    C --> D["Candidate coordination"]
+    D --> E["Remaining constraints"]
+    E --> F["Bounded conclusion"]
+    F --> G{"Condition changed?"}
+    G -->|"Yes"| B
+    G -->|"No"| H["Retain documented result"]
 ```
 
 The loop is important: a changed load, route, source, device or terminal condition reopens affected checks.
