@@ -105,7 +105,8 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] 2026-07-14 — [Day 4 — RCD protection and additional protection](./modules/day-04-rcd-protection-and-additional-protection.md): added the R-E-S-I-D-U-A-L workflow, three-protection-question model, evidence ladder, scored transfer rubric, varied re-attempt and accessible evidence-before-reset visual.
 - [x] 2026-07-14 — [Day 5 — Rest, retrieval and catch-up](./modules/day-05-rest-retrieval-and-catch-up.md): added the R-E-S-E-T workflow, confidence-calibration method, blocking/beneficial/defer triage, observable performance rubric, changed-scenario transfer and fatigue stop visual.
 - [x] 2026-07-14 — [Day 6A — Earthing terminology and component roles](./modules/day-06a-earthing-terminology-and-component-roles.md): added the R-O-L-E-S workflow, evidence grades, bounded component-role explanations, changed-scenario transfer, six-category rubric and accessible role-before-colour visual.
-- [ ] Next — Day 6B — MEN fault-current path.
+- [x] 2026-07-14 — [Day 6B — MEN fault-current path](./modules/day-06b-men-fault-current-path.md): added the L-O-O-P-S workflow, three claim levels, evidence grades, worked-example fading, changed-supply transfer, six-category rubric and accessible prove-the-loop visual.
+- [ ] Next — Day 6C — Earthing and MEN fault scenarios.
 
 ## Quality gates for every hourly run
 
