@@ -2,15 +2,20 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
+technically_reviewed: false
+quality_improvement_pass:
+  completed: true
+  completed_on: 2026-07-15
+  pass_number: 1
 ---
 
 # Day 10 - Installation Conditions and Derating
 
-Day 10 isolates the thermal part of cable selection. It teaches the learner to map a cable route into meaningful segments, identify how heat is generated and dissipated, obtain authorised installation classifications and correction factors, and determine the provisional limiting segment without merging unrelated conditions.
+Day 10 isolates the thermal part of cable selection. It teaches an evidence-led route-segmentation method that separates physical observations, authorised classifications, source values and calculated results before identifying a provisional limiting segment.
 
 ## Learning module
 
@@ -30,49 +35,98 @@ Day 10 isolates the thermal part of cable selection. It teaches the learner to m
 - [[Safety and Electrical Risk]]
 - [[AS-NZS-3000-2018-Index]]
 
+## C-O-N-D-I-T-I-O-N-S workflow
+
+1. **Capture** the complete route.
+2. **Observe** without classifying prematurely.
+3. **Name** thermal segments.
+4. **Document** evidence status.
+5. **Identify** the authorised source family.
+6. **Test** each thermal influence separately.
+7. **Inspect** factor interactions and exceptions.
+8. **Obtain** source values with provenance.
+9. **Normalise** units and calculate by segment.
+10. **Select** the provisional limiter and reopen affected design checks.
+
+```mermaid
+flowchart TD
+    A["Physical route"] --> B["Thermal segments"]
+    B --> C["Evidence grades"]
+    C --> D["Authorised classification"]
+    D --> E["Applicable source data"]
+    E --> F["Segment calculations"]
+    F --> G{"Evidence sufficient?"}
+    G -->|No| H["Unresolved: obtain evidence"]
+    G -->|Yes| I["Provisional limiting segment"]
+    I --> J["Reopen affected design checks"]
+```
+
+The gate is deliberate: arithmetic does not upgrade weak route evidence.
+
+## Evidence and claim grades
+
+### Evidence
+
+- **Observed:** supported by current site evidence, drawings, schedules or reliable records.
+- **Classified:** matched to an authorised source definition with applicability recorded.
+- **Calculated:** derived from verified inputs using the applicable method.
+- **Unresolved:** evidence is missing, stale, conflicting or inapplicable.
+
+### Claims
+
+- **Described:** states the condition or possible influence.
+- **Supported:** links the condition and provisional consequence to traceable evidence.
+- **Verified:** requires complete source checking and authorised competent review; this note does not confer that status.
+
 ## Thermal evidence model
 
-A defensible derating result connects:
+A defensible result connects:
 
-1. **physical route** — actual cable path, construction, containment and changes in condition;
-2. **thermal segments** — sections that share materially similar heat-transfer conditions;
-3. **evidence** — ambient temperature, grouping, insulation, enclosure, underground and operating facts;
-4. **authorised classification** — the applicable source method and reference conditions;
-5. **applicable factors** — only factors that genuinely apply to that segment and operating case;
-6. **corrected capacity** — calculated using the authorised combination method;
-7. **limiting segment** — the strongest evidenced constraint along the route;
-8. **design response** — route, spacing, cable, containment, protection or load changes followed by recalculation.
+1. physical route and cable construction;
+2. thermally meaningful segments;
+3. observed environmental and operating evidence;
+4. authorised source classification;
+5. applicable factors and interaction rules;
+6. unit-controlled calculations by segment;
+7. the provisional limiting segment;
+8. unresolved dependencies;
+9. the design response and reopened checks.
 
 ## Practical application
 
-Use the ceiling, riser and plant-room route in the linked module. Divide the route into segments, classify the evidence status for each condition, build a source-navigation plan and prepare a calculation worksheet without inserting real standards data.
+Use the ceiling, shared-riser, plant-room and insulated-penetration scenario in the module. Build a four-segment condition map and classify every input as observed, source-classified, assumed, stale, conflicting or missing.
 
-The conclusion must identify the provisional limiting segment, unresolved assumptions and available design iterations. It must not claim compliance before all classifications, factors and source requirements are verified.
+Then apply the changed condition: the route leaves the shared riser but enters a sealed sun-exposed enclosure. Identify obsolete assumptions, new evidence, repeated calculations and downstream cable-selection checks that must be reopened.
 
 ## Assessment relevance
 
-The block develops observable capabilities in:
+The quality pass makes performance observable through a 12-point rubric covering:
 
-- recognising adverse installation conditions;
-- connecting heat dissipation to current-carrying capacity;
-- segmenting mixed routes;
-- distinguishing reference conditions from actual conditions;
-- locating authorised factor data;
-- avoiding unsupported factor multiplication;
-- documenting evidence and assumptions;
-- iterating a design when one segment fails.
+- route segmentation;
+- observation versus classification;
+- evidence provenance;
+- factor applicability and interaction control;
+- limiting-segment reasoning;
+- bounded conclusions and reopening logic.
+
+Critical errors override the score: inventing source data, combining unrelated segment factors, treating stale evidence as verified, or claiming compliance from training inputs.
 
 ## Misconceptions to track
 
-- A cable size has one universal current rating.
-- One route should always use one combined factor.
-- Every adverse condition on a project acts simultaneously on the same segment.
+- A conductor size has one universal current rating.
+- A mixed route should use one installation label.
+- Every adverse condition on a project acts on the same segment.
 - The smallest visible factor automatically governs.
+- Nearby circuits are necessarily simultaneously loaded.
+- Room temperature represents every local cable environment.
 - A short adverse section can be ignored.
-- Room temperature necessarily represents cable ambient temperature.
-- Nearby circuits are all equally loaded.
-- A larger cable resolves every route and termination constraint.
-- A precise calculation proves the route evidence was correct.
+- A larger conductor resolves every terminal and containment constraint.
+- A route change leaves earlier calculations valid.
+- A precise calculation proves the evidence was correct.
+
+## Safety and authority boundary
+
+The module authorises no unsafe-access inspection, switching, isolation, opening, testing, alteration, installation, energisation, commissioning or certification. Stop when the route, cable construction, thermal influences, source applicability or safe-access authority cannot be established.
 
 ## Navigation
 
@@ -84,11 +138,11 @@ The block develops observable capabilities in:
 
 - AS/NZS 3000:2018, current authorised copy and applicable amendments required.
 - AS/NZS 3008.1.1, current authorised edition and applicable amendments required.
-- Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO directions.
+- Current legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO directions.
 - [Learning Design](../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
-Exact installation classifications, reference conditions, current-carrying-capacity values, ambient-temperature treatment, grouping rules, thermal-insulation treatment, enclosure and underground factors, factor-combination methods, exceptions and acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
+Exact classifications, reference conditions, capacity values, ambient-temperature treatment, grouping rules, thermal-insulation treatment, enclosure and underground factors, factor-combination methods, exceptions and acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
