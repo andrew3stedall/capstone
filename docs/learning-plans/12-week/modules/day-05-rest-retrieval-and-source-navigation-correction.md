@@ -288,7 +288,7 @@ Keep:
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 05 - Rest Retrieval and Source-Navigation Correction]]
 - **Previous:** [Day 4 — Wiring Rules Structure and Efficient Topic Navigation](day-04-wiring-rules-structure-and-efficient-topic-navigation.md)
-- **Next:** Day 6 — Evidence Quality, Applicability and Completeness Workshop
+- **Next:** [Day 6 — Evidence Quality, Applicability and Completeness Workshop](day-06-evidence-quality-applicability-and-completeness-workshop.md)
 
 ### Reference and currency notice
 
