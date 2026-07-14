@@ -1,6 +1,6 @@
 ---
 title: Six-Week Capstone Automation Status
-status: active
+status: quality-passes-active
 reviewed_on: 2026-07-15
 branch: automation/6-week-learning-plan
 base_branch: automation/4-week-learning-plan
@@ -20,55 +20,59 @@ pull_request: 6
 ## Current state
 
 - Canonical sequence: 42 scheduled blocks across six weeks.
-- Completed dedicated modules: Days 1–39.
-- Content-development phase: active.
-- Exactly one next increment: Day 40 — Rest, Final Catch-Up and Readiness Triage.
+- Completed dedicated modules: Days 1–42.
+- Drafting phase: complete.
+- Quality-improvement phase: active.
+- Exactly one next increment: quality-improvement pass — Day 1, Program Orientation, Assessment Map and Source Hierarchy.
 
-## Completed increment
+## Completed increments in this cycle
 
 | Increment | Result |
 |---|---|
-| Day 39 — Systematic Fault-Finding Workflow and Evidence Control | Added T-R-A-C-E-S workflow; separated symptoms, observations, hypotheses, predictions and verified causes; added competing-hypothesis, confounder, provenance, changed-condition and bounded-conclusion controls; added two Mermaid models, a 12-point rubric, critical-error gates, an accessible instructional SVG and a vault note. |
+| Day 40 — Rest, Final Catch-Up and Readiness Triage | Added R-E-A-D-Y recovery workflow, closed-note retrieval, three-repair maximum, 30-minute limit, fatigue stop conditions, readiness rubric, accessible SVG and vault note without new electrical theory. |
+| Day 41 — Full Mock Assessment with Design, Inspection and Verification Components | Added original C-A-P-S-T-O-N-E cumulative paper mock, common evidence register, changed-condition reopening, 30-point rubric, critical-error gates, accessible SVG and vault note. |
+| Day 42 — Mock Review, Remediation Plan and Final Readiness Decision | Added R-E-V-I-E-W causal-remediation workflow, dependency-density ranking, near/far transfer, bounded readiness categories, 14-point rubric, accessible SVG and vault note. |
 
-Days 1–38 remain complete as previously recorded.
+## Files created or updated in this cycle
 
-## Files created or updated in this increment
-
+- `docs/learning-plans/6-week/modules/day-40-rest-final-catch-up-and-readiness-triage.md`
+- `docs/assets/learning/6-week/day-40-rest-final-catch-up-and-readiness-triage/triage-before-the-mock.svg`
+- `docs/knowledge-base/Six-Week Day 40 - Rest Final Catch-Up and Readiness Triage.md`
+- `docs/learning-plans/6-week/modules/day-41-full-mock-assessment-with-design-inspection-and-verification-components.md`
+- `docs/assets/learning/6-week/day-41-full-mock-assessment-with-design-inspection-and-verification-components/complete-every-evidence-gate.svg`
+- `docs/knowledge-base/Six-Week Day 41 - Full Mock Assessment with Design Inspection and Verification Components.md`
+- `docs/learning-plans/6-week/modules/day-42-mock-review-remediation-plan-and-final-readiness-decision.md`
+- `docs/assets/learning/6-week/day-42-mock-review-remediation-plan-and-final-readiness-decision/repair-the-earliest-weak-link.svg`
+- `docs/knowledge-base/Six-Week Day 42 - Mock Review Remediation Plan and Final Readiness Decision.md`
 - `docs/learning-plans/6-week/modules/day-39-systematic-fault-finding-workflow-and-evidence-control.md`
-- `docs/assets/learning/6-week/day-39-systematic-fault-finding-workflow-and-evidence-control/separate-clues-from-causes.svg`
-- `docs/knowledge-base/Six-Week Day 39 - Systematic Fault-Finding Workflow and Evidence Control.md`
-- `docs/learning-plans/6-week/modules/day-38-test-sequence-expected-evidence-and-result-interpretation.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Program status: `active`.
-- Days 1–39 content status: `review-required`.
-- Day 39 is safety-critical, paper-based educational content and authorises no practical electrical work, access, opening, switching, isolation, measurement, testing, energisation, instrument use, diagnosis, repair, certification, return to service or approval.
-- Exact fault-finding methods, test selection, sequence, circuit states, instrument requirements, technical values, acceptance criteria and jurisdiction-specific duties remain `reference_check_required`.
-- Technical review remains required before any module is presented as authoritative.
+- Days 1–42 remain `review-required` and, where applicable, `reference_check_required`.
+- Days 40–42 are safety-critical, paper-based educational content and authorise no practical electrical work, switching, isolation, measurement, testing, energisation, diagnosis, certification, return to service or approval.
+- Exact methods, clauses, values, official assessment claims, test procedures, acceptance criteria and jurisdiction-specific duties remain subject to current authorised-source verification.
 - Automated content is not `technically-reviewed`.
-- No standards tables, figures, official fault-finding procedures, systematic clause wording, exact technical values, official assessment material or source-PDF content were reproduced.
+- No standards tables, copied figures, systematic clause wording, exact official values, field procedures or official assessment content were reproduced.
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Days 1–39.
+- Modules awaiting one quality-improvement pass: Days 1–42.
 - Quality-improvement passes completed: none.
-- Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
+- Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection after a pass is recorded.
 
-## Increment review
+## Cycle review
 
-- Sequence: Day 38 links directly to Day 39; Day 39 points to Day 40.
-- Structure: Day 39 contains the exact eight required beats and compatible YAML metadata.
-- Terminology: symptom, observation, hypothesis, prediction, confounder, disconfirming evidence, provenance, verified cause and bounded conclusion are defined.
-- Mermaid: both diagrams use standard flowchart syntax and unique node identifiers.
-- Accessibility: the original SVG has a white background, black line art, `role="img"`, a title and a descriptive text alternative; the module supplies useful alt text and a concise caption.
-- Copyright: concepts are transformed into an original workflow and fictional scenarios without reproducing standards wording, tables, figures, values or official assessment content.
-- Safety: the module remains non-operational and states explicit stop, escalation and authority boundaries.
+- Sequence: Day 39 links to Day 40, Day 40 to Day 41, and Day 41 to Day 42; all new notes have reciprocal adjacent wikilinks.
+- Structure: Days 40–42 each contain the exact eight required beats and compatible YAML metadata.
+- Mermaid: each new diagram uses standard flowchart syntax and unique node identifiers.
+- Accessibility: each SVG has a white background, black line art, `role="img"`, title and descriptive text alternative; modules provide useful alt text and captions.
+- Copyright: all workflows, scenarios, diagrams and mock materials are original and avoid standards tables, figures, systematic wording and official assessment content.
+- Safety: content remains paper-based and defines authority, fatigue, stop and escalation boundaries.
 
 ## Exact next increment
 
-**Day 40 — Rest, Final Catch-Up and Readiness Triage**
+**Quality-improvement pass — Day 1: Program Orientation, Assessment Map and Source Hierarchy**
 
-Create the dedicated eight-beat recovery module, original instructional SVG asset or assets and corresponding knowledge-base note. Add no unnecessary new electrical theory. Focus on spaced retrieval, error-log correction, catch-up triage, fatigue management, time limits, stop conditions and readiness for the full mock assessment; link Day 40 directly from the master plan; preserve reciprocal Day 39/Day 40 navigation; and update this status record with exactly one next increment.
+Substantively improve exactly one existing module and its knowledge note. Review YAML, eight-beat structure, objectives, terminology, progression, retrieval, application, Mermaid, SVG accessibility, reciprocal navigation, copyright transformation, safety boundaries and technical-review flags. Record exactly one completed quality pass without marking the module `technically-reviewed`.

@@ -131,4 +131,4 @@ Without notes, state T-R-A-C-E-S and define symptom, observation, hypothesis, pr
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 38 — Test Sequence, Expected Evidence and Result Interpretation](day-38-test-sequence-expected-evidence-and-result-interpretation.md)
 - **Knowledge note:** [[Six-Week Day 39 - Systematic Fault-Finding Workflow and Evidence Control]]
-- **Next:** Day 40 — Rest, Final Catch-Up and Readiness Triage
+- **Next:** [Day 40 — Rest, Final Catch-Up and Readiness Triage](day-40-rest-final-catch-up-and-readiness-triage.md)
