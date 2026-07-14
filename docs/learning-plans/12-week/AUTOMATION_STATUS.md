@@ -8,9 +8,9 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Day 1 — Program orientation, baseline diagnostic and authorised-source map; Day 2 — Electrical hazards, exposure pathways and consequence reasoning; Day 3 — Roles, authority, supervision and practical stop conditions; Day 4 — Wiring Rules structure and efficient topic navigation; Day 5 — Rest, retrieval and source-navigation correction; Day 6 — Evidence quality, applicability and completeness workshop; Day 7 — Week 1 consolidation and individual remediation plan.
+- **Completed:** Day 1 — Program orientation, baseline diagnostic and authorised-source map; Day 2 — Electrical hazards, exposure pathways and consequence reasoning; Day 3 — Roles, authority, supervision and practical stop conditions; Day 4 — Wiring Rules structure and efficient topic navigation; Day 5 — Rest, retrieval and source-navigation correction; Day 6 — Evidence quality, applicability and completeness workshop; Day 7 — Week 1 consolidation and individual remediation plan; Day 8 — Circuit quantities, load reasoning and prerequisite calculation check.
 - **Current block:** None.
-- **Next block:** Day 8 — Circuit quantities, load reasoning and prerequisite calculation check.
+- **Next block:** Day 9 — Overload, short-circuit and fault-current distinctions.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -29,31 +29,32 @@ updated_on: 2026-07-14
 | 6 — 2026-07-14 | Day 5 — Rest, retrieval and source-navigation correction | Added a complete eight-beat recovery module, R-E-S-T-O-R-E workflow, error taxonomy, correction-priority model, 30-minute recovery protocol, changed-scenario repair, fatigue stop conditions, accessible SVG, knowledge-base note and linked master-plan entry. | Create Day 6 — Evidence quality, applicability and completeness workshop. |
 | 7 — 2026-07-14 | Day 6 — Evidence quality, applicability and completeness workshop | Added a complete eight-beat evidence workshop, C-L-E-A-R workflow, separate quality/applicability/completeness tests, bounded-outcome model, evidence sorting, applicability mapping, completeness audit, changed-scenario transfer, six-category rubric, accessible SVG and knowledge-base note. | Create Day 7 — Week 1 consolidation and individual remediation plan. |
 | 8 — 2026-07-14 | Day 7 — Week 1 consolidation and individual remediation plan | Added a complete eight-beat Week 1 integration module, R-E-P-A-I-R workflow, six error categories, targeted remediation records, integrated scenario, prerequisite calculation readiness check, evidence-based readiness outcomes, six-category rubric, accessible SVG and knowledge-base note. | Create Day 8 — Circuit quantities, load reasoning and prerequisite calculation check. |
+| 9 — 2026-07-14 | Day 8 — Circuit quantities, load reasoning and prerequisite calculation check | Added a complete eight-beat calculation-literacy module, Q-U-A-N-T-I-T-Y workflow, quantity and load terminology, evidence classification, unit handling, fictional worked examples, worked-example fading, load-schedule reasoning, two Mermaid models, six-category rubric, accessible SVG and knowledge-base note. | Create Day 9 — Overload, short-circuit and fault-current distinctions. |
 
-## Files added or updated in run 8
+## Files added or updated in run 9
 
-- `docs/learning-plans/12-week/modules/day-07-week-1-consolidation-and-individual-remediation-plan.md`
-- `docs/assets/learning/12-week/day-07-week-1-consolidation-and-individual-remediation-plan/repair-the-gap-not-the-whole-week.svg`
+- `docs/learning-plans/12-week/modules/day-08-circuit-quantities-load-reasoning-and-prerequisite-calculation-check.md`
+- `docs/assets/learning/12-week/day-08-circuit-quantities-load-reasoning-and-prerequisite-calculation-check/label-before-you-calculate.svg`
+- `docs/knowledge-base/12-Week Day 08 - Circuit Quantities Load Reasoning and Prerequisite Calculation Check.md`
 - `docs/knowledge-base/12-Week Day 07 - Week 1 Consolidation and Individual Remediation Plan.md`
-- `docs/knowledge-base/12-Week Day 06 - Evidence Quality Applicability and Completeness Workshop.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
-## Day 7 design decisions
+## Day 8 design decisions
 
-- Day 7 consolidates Week 1 and introduces no unnecessary Week 2 electrical theory.
-- The R-E-P-A-I-R workflow converts observed performance into no more than three focused remediation targets and a varied re-attempt.
-- Safety-critical zeros and high-confidence errors are not averaged away inside a total score.
-- Readiness is recorded as ready, ready with support or not yet ready; it is not represented as trade competence or formal assessment approval.
-- The prerequisite calculation check covers quantities, supplied units, arithmetic structure and plausibility only; it supplies no electrical design values or standards requirements.
+- Day 8 is a calculation-literacy and evidence-discipline block, not an installation-design procedure.
+- Q-U-A-N-T-I-T-Y keeps question scope, inputs, units, relationship selection, transposition, substitution, checking and conclusion boundaries visible.
+- Worked examples use fictional low-voltage values chosen for arithmetic clarity and explicitly do not establish design or compliance data.
+- Connected load, operating load and design demand are separated; no diversity or maximum-demand allowance is invented.
+- Progress depends on visible reasoning and independent checking rather than a calculator display alone.
 
 ## Review flags
 
-- Day 7 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact clauses, values, procedures, official assessment criteria, source-control outcomes and jurisdiction-specific requirements require qualified checking against current authorised sources.
-- R-E-P-A-I-R, the error categories, scenarios, readiness model, diagrams, remediation record and rubric are original educational constructs.
-- No standards table, figure, systematic clause sequence, exact technical value or official assessment material was reproduced.
-- The module authorises no switching, isolation, testing, opening equipment, resetting, disconnection, alteration, repair, energisation, commissioning, verification or practical demonstration.
+- Day 8 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact clauses, nominal supply conditions, diversity and maximum-demand methods, limits, design requirements, device characteristics, procedures, official assessment rules and jurisdiction-specific requirements require qualified checking against current authorised sources.
+- Q-U-A-N-T-I-T-Y, the scenarios, diagrams, fictional values, calculation record, exercises and rubric are original educational constructs.
+- No standards table, figure, systematic clause sequence, official design dataset or assessment material was reproduced.
+- The module authorises no switching, isolation, opening equipment, testing, measurement, resetting, disconnection, alteration, repair, energisation, commissioning, verification or practical demonstration.
 
 ## Run rules
 
