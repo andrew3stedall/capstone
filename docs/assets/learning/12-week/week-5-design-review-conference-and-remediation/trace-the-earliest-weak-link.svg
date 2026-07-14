@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Trace the earliest weak link</title>
+  <desc id="desc">Black line drawing of a learner and reviewer beside a chain of evidence boxes. They point to the first broken link before later conclusions.</desc>
+  <rect width="900" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="130" cy="115" r="32"/><path d="M130 147v105M130 178l-48 48M130 180l55 30M130 252l-38 72M130 252l42 72"/>
+    <circle cx="760" cy="115" r="32"/><path d="M760 147v105M760 180l-65 34M760 180l45 46M760 252l-38 72M760 252l42 72"/>
+    <rect x="235" y="140" width="125" height="70"/><rect x="405" y="140" width="125" height="70"/><rect x="575" y="140" width="125" height="70"/>
+    <path d="M360 175h45M530 175h45"/>
+    <path d="M382 158l18 17-18 17"/>
+    <path d="M552 158l18 17-18 17"/>
+    <path d="M270 235l35 35M305 235l-35 35"/>
+    <path d="M185 210l78-25M695 214l-78-25"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" fill="black" text-anchor="middle">
+    <text x="297" y="180">Evidence</text><text x="467" y="180">Reasoning</text><text x="637" y="180">Conclusion</text>
+    <text x="450" y="390">Repair the earliest weak link, then reopen every dependent check.</text>
+  </g>
+</svg>
