@@ -79,7 +79,7 @@ Recovery days are planned learning blocks, not missing content. They must:
 - [x] [Day 10 — Protective-device roles and protection boundaries](modules/day-10-protective-device-roles-and-protection-boundaries.md)
 - [x] [Day 11 — RCD purpose, limitations and interaction with other protection](modules/day-11-rcd-purpose-limitations-and-interaction-with-other-protection.md)
 - [x] [Day 12 — Rest, retrieval and misconception repair](modules/day-12-rest-retrieval-and-misconception-repair.md)
-- [ ] Day 13 — Protection-selection evidence workflow using original scenarios
+- [x] [Day 13 — Protection-selection evidence workflow using original scenarios](modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md)
 - [ ] Day 14 — Week 2 protection integration checkpoint
 
 ### Week 3 — Earthing, bonding and MEN mental models
