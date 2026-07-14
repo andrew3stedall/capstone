@@ -88,4 +88,4 @@ State W-A-T-E-R-S; distinguish water source, datum, boundary and exposure pathwa
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 28 — Week 4 Switchboard and Wiring-System Inspection Exercise](day-28-week-4-switchboard-and-wiring-system-inspection-exercise.md)
 - **Knowledge note:** [[Six-Week Day 29 - Wet-Area Risk Model and Rule-Finding Workflow]]
-- **Next:** Day 30 — Other Special Locations and Additional-Condition Screening
+- **Next:** [Day 30 — Other Special Locations and Additional-Condition Screening](day-30-other-special-locations-and-additional-condition-screening.md)
