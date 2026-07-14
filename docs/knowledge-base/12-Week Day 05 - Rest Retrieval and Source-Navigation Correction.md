@@ -77,4 +77,4 @@ This is original learning-design content. It does not reproduce standards tables
 ## Navigation
 
 - **Previous:** [[12-Week Day 04 - Wiring Rules Structure and Efficient Topic Navigation]]
-- **Next:** Day 6 — Evidence Quality, Applicability and Completeness Workshop
+- **Next:** [[12-Week Day 06 - Evidence Quality Applicability and Completeness Workshop]]
