@@ -88,7 +88,10 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-All 42 scheduled modules are drafted. No module has yet received its single six-week quality-improvement pass. The next phase begins with Day 1 and records exactly one completed pass per module. Persistent `review-required` or `reference_check_required` flags do not justify repeating a pass.
+- [x] 2026-07-15 — [Day 1 — Program orientation, assessment map and source hierarchy](modules/day-01-program-orientation-assessment-map-and-source-hierarchy.md): strengthened authority-versus-applicability reasoning, evidence and claim statuses, source-applicability checks, changed-scenario transfer, delayed retrieval, a six-category 12-point rubric and aligned vault metadata.
+- [ ] Next — Day 2 — Hazard, risk, exposure and critical controls.
+
+Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
 ## Quality gates
 
