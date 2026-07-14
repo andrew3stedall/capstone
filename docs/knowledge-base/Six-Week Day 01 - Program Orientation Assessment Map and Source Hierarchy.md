@@ -6,25 +6,57 @@ tags:
   - assessment-readiness
   - source-navigation
 status: review-required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-15
+reference_check_required: true
+technical_reviewer: pending
 ---
 
 # Six-Week Day 01 — Program Orientation, Assessment Map and Source Hierarchy
 
 ## Purpose
 
-This note connects the six-week program's opening diagnostic to later retrieval, remediation and assessment-readiness work. The learner does not begin by assigning equal time to every topic. They collect evidence about result quality, reasoning process, safety boundaries, source use and confidence, then schedule the most consequential gaps.
+This note connects the six-week program's opening diagnostic to later retrieval, remediation and assessment-readiness work. The learner collects evidence about result quality, reasoning, safety, source use and confidence, then schedules the most consequential gaps.
 
 ## Core model
 
 Use **M-A-P-S**:
 
-- **Map the claim** — identify whether it concerns assessment administration, technical requirements, equipment, work method or learning strategy.
-- **Assign the source family** — select the category of evidence most likely to control the claim.
-- **Prove currency and applicability** — check edition, jurisdiction, scope and scenario conditions.
-- **State the conclusion and status** — explain the result in original words and mark unresolved checks.
+- **Map the claim** — assessment administration, technical requirement, equipment information, work method or learning strategy.
+- **Assign the source family** — select the evidence category most likely to control the claim.
+- **Prove currency and applicability** — check authority, edition, amendments, jurisdiction, scope, equipment and scenario conditions.
+- **State the conclusion and status** — explain it in original words and mark unresolved checks.
 
-A single percentage is not an adequate diagnostic. Review each baseline response across:
+## Authority and applicability
+
+A source may be authoritative for a claim type but still be inapplicable to the actual jurisdiction, equipment, task or conditions. Record both:
+
+1. why the source family can control the claim;
+2. why the selected source applies to this case.
+
+RTO instructions may control assessment administration but do not replace technical requirements. Learning notes support understanding but are not automatically technical authority.
+
+## Evidence and claim statuses
+
+### Evidence
+
+- **Observed** — shown directly in the supplied task or document.
+- **Documented** — stated in a current authorised record.
+- **Verified applicable** — authority, currency, scope and conditions checked.
+- **Assumed** — plausible but not evidenced.
+- **Missing** — required but unavailable.
+
+### Claims
+
+- **Described** — reports what the supplied material shows.
+- **Supported** — combines applicable evidence into a bounded conclusion.
+- **Verified** — requires complete authorised evidence and appropriate review.
+- **Unresolved** — material evidence is missing or applicability is uncertain.
+
+## Diagnostic dimensions
+
+A single percentage is not an adequate baseline. Review each response across:
 
 1. result;
 2. reasoning process;
@@ -51,22 +83,32 @@ High-confidence errors, safety-critical gaps and missing prerequisites receive e
 
 ## Practical application
 
-Create a baseline evidence record for eight varied task forms, then assign each result to one of four actions:
+Attempt eight varied baseline task forms and record result, reasoning, safety, evidence, claim status and confidence. Assign each result to one action:
 
 - priority repair;
 - targeted practice;
 - spaced retrieval;
 - reference check.
 
-Limit the initial priority list to three consequential gaps. Preserve unused study capacity for weaknesses discovered later.
+Limit the initial priority list to three consequential gaps. Preserve unused study capacity for later discoveries and use changed scenarios for re-attempts.
 
 ## Assessment relevance
 
-This framework supports preparation but does not define official assessment sections, timing, permitted references or pass criteria. Those arrangements must be confirmed with the learner's current RTO. Technical conclusions require authorised current sources.
+A strong Day 1 response maps assessable actions, matches each claim to an appropriate source family, checks applicability, separates the five diagnostic dimensions and leaves unsupported claims unresolved. The module's 12-point rubric is an educational readiness tool, not an official RTO criterion.
+
+## Misconceptions to track
+
+- one overall score identifies the weakness;
+- source hierarchy is a universal ranking;
+- authority proves applicability;
+- recognition proves application;
+- learning notes are technical authority;
+- a confident answer requires less checking;
+- every available study block should be filled immediately.
 
 ## Safety and review boundary
 
-This material authorises no electrical work or testing. It remains `review-required` and `reference_check_required`, and it has not received qualified technical review.
+This material authorises no electrical work, access, isolation, testing, energisation, reset, repair or alteration. It remains `review-required` and `reference_check_required`, and it is not `technically-reviewed`.
 
 ## Navigation
 
