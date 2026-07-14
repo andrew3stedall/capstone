@@ -8,14 +8,14 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C, Day 7, Day 8, Day 9, Day 10, Day 11, Day 12 and Day 13A.
-- **Current block:** Quality-improvement pass — [[Day 13A - Switching Isolation and Main Switches]] completed.
-- **Next block:** Quality-improvement pass — [[Day 13B - Switchboard Construction and Arrangements]].
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C, Day 7, Day 8, Day 9, Day 10, Day 11, Day 12, Day 13A and Day 13B.
+- **Current block:** Quality-improvement pass — [[Day 13B - Switchboard Construction and Arrangements]] completed.
+- **Next block:** Quality-improvement pass — [[Day 13C - Switchboard Defect Inspection]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Draft PR:** #5, targeting `main`.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
 - **Quality-pass rule:** Each module receives exactly one substantive quality-improvement pass before the final program-wide audit. Persistent review flags do not cause repeat selection.
-- **Review state:** Day 13A remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`. It grants no practical authority.
+- **Review state:** Day 13B remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`. It grants no practical authority.
 
 ## Run log
 
@@ -38,22 +38,24 @@ updated_on: 2026-07-15
 | 48 — 2026-07-15 | Quality-improvement pass — Day 11 | Added V-O-L-T-A-G-E, observed/verified/derived/assumed/missing evidence grades, described/supported/verified claim grades, calculation-versus-interpretation gates, changed-route transfer, worked-example fading, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing instructional SVGs after accessibility review. | Quality-improvement pass — Day 12. |
 | 49 — 2026-07-15 | Quality-improvement pass — Day 12 | Added R-E-P-A-I-R, a five-category causal error model, confidence calibration, dependent-step reopening, varied and delayed retrieval, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing accessible instructional SVGs. | Quality-improvement pass — Day 13A. |
 | 50 — 2026-07-15 | Quality-improvement pass — Day 13A | Added S-E-P-A-R-A-T-E, evidence and claim grades, complete source-and-boundary reasoning, reopening triggers, two original Mermaid models, worked-example fading, changed-source transfer, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing instructional SVGs after accessibility review. | Quality-improvement pass — Day 13B. |
+| 51 — 2026-07-15 | Quality-improvement pass — Day 13B | Added B-O-A-R-D-S, five evidence grades, four claim grades, assembly-interaction models, worked-example fading, changed-source transfer, a 12-point rubric, critical-error gates, aligned vault content and an accessible assembly-evidence cartoon. | Quality-improvement pass — Day 13C. |
 
-## Files updated in run 50
+## Files updated in run 51
 
-- `docs/learning-plans/4-week/modules/day-13a-switching-isolation-and-main-switches.md`
-- `docs/knowledge-base/Day 13A - Switching Isolation and Main Switches.md`
+- `docs/learning-plans/4-week/modules/day-13b-switchboard-construction-and-arrangements.md`
+- `docs/assets/learning/4-week/day-13b-switchboard-construction-and-arrangements/map-the-assembly-before-the-device.svg`
+- `docs/knowledge-base/Day 13B - Switchboard Construction and Arrangements.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 13A is safety-critical and remains `review-required`, `reference_check_required` and not `technically-reviewed`.
-- Qualified verification is required for exact device requirements, pole arrangements, neutral treatment, accessibility, identification, emergency switching, alternate-supply provisions, securing, verification and jurisdiction-specific duties.
-- S-E-P-A-R-A-T-E, the evidence and claim grades, Mermaid diagrams, fictional examples, transfer task and rubric are original educational models.
-- The existing SVGs remain relevant, black-and-white, instructional and referenced with useful alt text.
+- Day 13B is safety-critical and remains `review-required`, `reference_check_required` and not `technically-reviewed`.
+- Qualified verification is required for exact switchboard construction, enclosure, access, segregation, conductor, neutral, earth, thermal, fault, identification, compatibility and acceptance requirements.
+- B-O-A-R-D-S, the evidence and claim grades, Mermaid diagrams, fictional scenarios, transfer task and rubric are original educational models.
+- The new SVG and retained SVGs are black-and-white, instructional and referenced with useful alt text.
 - No standards table, copied figure, systematic clause sequence, exact authoritative value, official assessment content or practical field procedure was reproduced.
-- The module and note grant no switching, isolation, testing, verification or energisation authority.
+- The module and note grant no switchboard access, opening, isolation, testing, alteration, verification or energisation authority.
 
 ## Run rules
 
