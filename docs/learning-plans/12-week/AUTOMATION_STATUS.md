@@ -1,16 +1,16 @@
 ---
 title: Twelve-Week Learning Automation Status
 status: active
-updated_on: 2026-07-14
+updated_on: 2026-07-15
 ---
 
 # Twelve-Week Learning Automation Status
 
 ## Current state
 
-- **Completed:** Days 1–20, ending with Day 20 — MEN fault scenarios and protective-device operation reasoning.
+- **Completed:** Days 1–23, ending with Day 23 — Design current, protective-device rating and conductor capacity.
 - **Current block:** None.
-- **Next block:** Day 21 — Week 3 earthing and protection integration checkpoint.
+- **Next block:** Day 24 — Complete cable-selection workflow and evidence record.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -23,42 +23,48 @@ updated_on: 2026-07-14
 |---|---|---|---|
 | 1 | Twelve-week program architecture | Created the 84-block slower pathway and completion rules. | Create Day 1. |
 | 2–14 | Days 1–13 | Completed the first thirteen dedicated modules, notes and linked assets in sequence. | Create Day 14. |
-| 15 — 2026-07-14 | Day 14 — Week 2 protection integration checkpoint | Added a complete eight-beat integration checkpoint, I-N-T-E-G-R-A-T-E workflow, two Mermaid models, three assessment tasks, 20-point rubric, misconception repair, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 15. |
-| 16 — 2026-07-14 | Day 15 — Earthing terminology and component roles | Added a complete eight-beat terminology foundation, E-A-R-T-H workflow, two Mermaid role/evidence models, original classification and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 16. |
-| 17 — 2026-07-14 | Day 16 — Protective earthing continuity and exposed conductive parts | Added a complete eight-beat continuity-evidence module, C-O-N-T-I-N-U-E workflow, two Mermaid models, exposed-part classification, evidence-ladder and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 17. |
-| 18 — 2026-07-14 | Day 17 — Equipotential bonding purpose and boundary reasoning | Added a complete eight-beat bonding-boundary module, B-O-U-N-D-A-R-Y workflow, two Mermaid models, classification and transfer tasks, accessible SVG and knowledge note. | Create Day 18. |
-| 19 — 2026-07-14 | Day 18 — MEN arrangement and normal-current versus fault-current paths | Added the P-A-T-H-W-A-Y workflow, separate normal/fault path models, evidence ledger, worked-example fading, changed-condition transfer, accessible SVG and knowledge note. | Create Day 19. |
-| 20 — 2026-07-14 | Day 19 — Rest, retrieval and diagram reconstruction | Added a bounded 30-minute recovery block, R-E-D-R-A-W workflow, misconception repair, diagram reconstruction, catch-up triage, accessible SVG and knowledge note without unnecessary new theory. | Create Day 20. |
-| 21 — 2026-07-14 | Day 20 — MEN fault scenarios and protective-device operation reasoning | Added the F-A-U-L-T-S workflow, fault classification, operation-evidence gates, original scenarios, changed-condition transfer, accessible SVG and knowledge note. | Create Day 21 — Week 3 earthing and protection integration checkpoint. |
+| 15–21 | Days 14–20 | Completed Week 2 integration and Week 3 earthing, bonding, MEN, recovery and fault-reasoning modules. | Create Day 21. |
+| 22 — 2026-07-15 | Day 21 — Week 3 earthing and protection integration checkpoint | Added I-N-T-E-G-R-A-T-E, dual-path reasoning, claim grading, changed-condition transfer, a 20-point checkpoint, accessible SVG and knowledge note. | Create Day 22. |
+| 23 — 2026-07-15 | Day 22 — Load schedules and maximum-demand concepts | Added L-O-A-D-S, a traceable load register, operating-case comparison, evidence grading, worked-example fading, accessible SVG and knowledge note. | Create Day 23. |
+| 24 — 2026-07-15 | Day 23 — Design current, protective-device rating and conductor capacity | Added R-A-T-I-N-G, device-role separation, capacity and factor evidence controls, candidate comparison, changed-condition transfer, accessible SVG and knowledge note. | Create Day 24 — Complete cable-selection workflow and evidence record. |
 
-## Files added or updated in runs 19–21
+## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-18-men-arrangement-and-normal-current-versus-fault-current-paths.md`
-- `docs/assets/learning/12-week/day-18-men-arrangement-and-normal-current-versus-fault-current-paths/separate-the-two-paths.svg`
-- `docs/knowledge-base/12-Week Day 18 - MEN Arrangement and Normal-Current versus Fault-Current Paths.md`
-- `docs/learning-plans/12-week/modules/day-19-rest-retrieval-and-diagram-reconstruction.md`
-- `docs/assets/learning/12-week/day-19-rest-retrieval-and-diagram-reconstruction/redraw-then-rest.svg`
-- `docs/knowledge-base/12-Week Day 19 - Rest Retrieval and Diagram Reconstruction.md`
-- `docs/learning-plans/12-week/modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md`
-- `docs/assets/learning/12-week/day-20-men-fault-scenarios-and-protective-device-operation-reasoning/gates-before-operation.svg`
-- `docs/knowledge-base/12-Week Day 20 - MEN Fault Scenarios and Protective-Device Operation Reasoning.md`
+- `docs/learning-plans/12-week/modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md`
+- `docs/assets/learning/12-week/week-3-earthing-and-protection-integration-checkpoint/integrate-before-you-conclude.svg`
+- `docs/knowledge-base/12-Week Day 21 - Week 3 Earthing and Protection Integration Checkpoint.md`
+- `docs/learning-plans/12-week/modules/day-22-load-schedules-and-maximum-demand-concepts.md`
+- `docs/assets/learning/12-week/load-schedules-and-maximum-demand-concepts/build-the-register-before-the-total.svg`
+- `docs/knowledge-base/12-Week Day 22 - Load Schedules and Maximum-Demand Concepts.md`
+- `docs/learning-plans/12-week/modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md`
+- `docs/assets/learning/12-week/design-current-protective-device-rating-and-conductor-capacity/coordinate-three-values-not-one.svg`
+- `docs/knowledge-base/12-Week Day 23 - Design Current Protective-Device Rating and Conductor Capacity.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 18 separates intended normal-current paths from conceptual fault-current paths before any device or outcome claim.
-- Day 19 adds no new theory and limits recovery work to 30 minutes, two misconception repairs and one bounded catch-up task.
-- Day 20 requires fault classification, path tracing and evidence gates before a protective-device operation claim.
-- All three increments use original workflows, scenarios, diagrams, tables and rubrics rather than copied standards wording.
-- Device operation, continuity, impedance, operating-time, compliance and safety claims remain outside the automated evidence boundary.
+- Day 21 tests cumulative earthing and protection reasoning before beginning circuit design.
+- Day 22 separates connected load, operating-case subtotals and maximum demand so no unverified diversity allowance is hidden in arithmetic.
+- Day 23 treats load, protective-device and conductor coordination as an evidence chain and explicitly reopens later fault, voltage, termination and installation checks.
+- Worked-example fading increases from a complete integration response to partially supplied design evidence.
+- All examples, diagrams, workflows, tables and rubrics are original educational constructs rather than clause substitutes.
 
 ## Review flags
 
-- Days 18–20 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact MEN arrangements, connection locations, conductor requirements, fault classifications, fault-loop conditions, device characteristics, operating criteria, test methods, acceptance criteria and jurisdiction-specific duties require qualified checking.
-- No standards table, figure, systematic clause sequence, exact technical value or official assessment material was reproduced.
-- The modules authorise no switching, isolation, opening, proving, tracing, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning, certification or verification.
+- Days 21–23 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact MEN arrangements, maximum-demand methods, equations, device characteristics, conductor capacities, correction factors, coordination relationships, exceptions, test criteria and jurisdiction-specific duties require qualified checking.
+- No standards table, figure, systematic clause sequence, exact official technical value or official assessment material was reproduced.
+- The modules authorise no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, alteration, repair, energisation, commissioning, certification or verification.
+
+## Validation completed
+
+- Confirmed the exact eight headings in all three modules.
+- Checked Mermaid blocks for balanced fences and simple valid flowchart syntax.
+- Checked SVG files for white backgrounds, black line art, semantic titles, descriptions and instructional captions.
+- Checked module-to-note and Day 21-to-Day 23 adjacent navigation.
+- Checked that examples do not duplicate complete wording from shorter programs.
+- Checked that exact values used are clearly fictional educational values and not presented as official criteria.
 
 ## Run rules
 
