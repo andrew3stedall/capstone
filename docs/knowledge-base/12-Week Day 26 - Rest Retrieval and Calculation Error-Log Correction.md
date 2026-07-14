@@ -63,5 +63,5 @@ This original note reproduces no standards tables, figures, systematic clause wo
 ## Navigation
 
 - **Previous:** [[12-Week Day 25 - Installation Methods Environmental Influences and Derating]]
-- **Next:** Day 27 — Worked-Example Fading for Circuit Design
+- **Next:** [[12-Week Day 27 - Worked-Example Fading for Circuit Design]]
 - **Map of content:** [[Circuit Design]]

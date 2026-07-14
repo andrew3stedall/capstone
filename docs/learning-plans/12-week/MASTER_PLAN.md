@@ -60,12 +60,12 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 24 — Complete cable-selection workflow and evidence record](modules/day-24-complete-cable-selection-workflow-and-evidence-record.md)
 - [x] [Day 25 — Installation methods, environmental influences and derating](modules/day-25-installation-methods-environmental-influences-and-derating.md)
 - [x] [Day 26 — Rest, retrieval and calculation error-log correction](modules/day-26-rest-retrieval-and-calculation-error-log-correction.md)
-- [ ] Day 27 — Worked-example fading for circuit design
-- [ ] Day 28 — Week 4 independent circuit-design checkpoint
+- [x] [Day 27 — Worked-example fading for circuit design](modules/day-27-worked-example-fading-for-circuit-design.md)
+- [x] [Day 28 — Week 4 independent circuit-design checkpoint](modules/day-28-week-4-independent-circuit-design-checkpoint.md)
 
 ### Week 5 — Voltage conditions, discrimination and coordinated design
 
-- [ ] Day 29 — Voltage-drop concepts and calculation structure
+- [x] [Day 29 — Voltage-drop concepts and calculation structure](modules/day-29-voltage-drop-concepts-and-calculation-structure.md)
 - [ ] Day 30 — Voltage-drop interpretation and design iteration
 - [ ] Day 31 — Fault-loop reasoning at concept level
 - [ ] Day 32 — Coordination, selectivity and upstream/downstream consequences

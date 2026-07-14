@@ -146,7 +146,7 @@ Submit the four-workflow retrieval, up to three corrected log entries, one unres
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 26 - Rest Retrieval and Calculation Error-Log Correction]]
 - **Previous:** [Day 25 — Installation Methods, Environmental Influences and Derating](day-25-installation-methods-environmental-influences-and-derating.md)
-- **Next:** Day 27 — Worked-Example Fading for Circuit Design
+- **Next:** [Day 27 — Worked-Example Fading for Circuit Design](day-27-worked-example-fading-for-circuit-design.md)
 
 ### Reference and currency notice
 
