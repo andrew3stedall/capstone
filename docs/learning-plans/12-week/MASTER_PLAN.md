@@ -77,9 +77,9 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 - [x] [Day 36 — Functional switching, isolation and emergency switching distinctions](modules/day-36-functional-switching-isolation-and-emergency-switching-distinctions.md)
 - [x] [Day 37 — Main switches, alternate supplies and source identification](modules/day-37-main-switches-alternate-supplies-and-source-identification.md)
-- [ ] Day 38 — Switchboard functional areas and arrangement principles
-- [ ] Day 39 — Accessibility, labelling and original defect-recognition scenarios
-- [ ] Day 40 — Rest, retrieval and boundary-condition review
+- [x] [Day 38 — Switchboard functional areas and arrangement principles](modules/day-38-switchboard-functional-areas-and-arrangement-principles.md)
+- [x] [Day 39 — Accessibility, labelling and original defect-recognition scenarios](modules/day-39-accessibility-labelling-and-original-defect-recognition-scenarios.md)
+- [x] [Day 40 — Rest, retrieval and boundary-condition review](modules/day-40-rest-retrieval-and-boundary-condition-review.md)
 - [ ] Day 41 — Switchboard inspection decision workshop
 - [ ] Day 42 — Week 6 integrated switching and switchboard checkpoint
 

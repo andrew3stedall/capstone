@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Map switchboard functions before making layout claims</title>
+  <desc id="desc">Black-and-white stick figure points to a fictional board divided into source, switching, protection, distribution and outgoing functional areas, with a question mark over an unresolved path.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="105" r="28"/><path d="M110 133v95m0-62-48 38m48-38 58 18m-58 44-38 72m38-72 42 72"/>
+    <rect x="250" y="55" width="470" height="285" rx="8"/>
+    <path d="M250 115h470M340 55v285M440 55v285M555 55v285"/>
+    <path d="M170 184L250 145"/>
+    <path d="M610 185c38-30 72 25 35 55"/><path d="M644 257v4"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="black" text-anchor="middle">
+    <text x="295" y="90">Source</text><text x="390" y="90">Switching</text><text x="497" y="90">Protection</text><text x="637" y="90">Distribution</text>
+    <text x="485" y="380">Map function and evidence before judging arrangement</text>
+  </g>
+</svg>

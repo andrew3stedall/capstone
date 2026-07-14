@@ -58,5 +58,5 @@ This original note remains `reference_check_required` and is not `technically-re
 ## Navigation
 
 - **Previous:** [[12-Week Day 36 - Functional Switching Isolation and Emergency Switching Distinctions]]
-- **Next:** Day 38 — Switchboard Functional Areas and Arrangement Principles
+- **Next:** [[12-Week Day 38 - Switchboard Functional Areas and Arrangement Principles]]
 - **Map of content:** [[Switching and Isolation]]

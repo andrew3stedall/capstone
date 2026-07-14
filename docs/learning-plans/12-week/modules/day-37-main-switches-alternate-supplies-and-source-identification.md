@@ -113,6 +113,6 @@ From memory, draw a source inventory and four-state matrix for a changed fiction
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 37 - Main Switches Alternate Supplies and Source Identification]]
 - **Previous:** [Day 36 — Functional Switching, Isolation and Emergency Switching Distinctions](day-36-functional-switching-isolation-and-emergency-switching-distinctions.md)
-- **Next:** Day 38 — Switchboard Functional Areas and Arrangement Principles
+- **Next:** [Day 38 — Switchboard Functional Areas and Arrangement Principles](day-38-switchboard-functional-areas-and-arrangement-principles.md)
 
 All examples, diagrams and rubrics are original educational constructs. Exact definitions, switching arrangements, identification requirements, locations, device capabilities and exceptions remain `reference_check_required`. This module is not `technically-reviewed`.
