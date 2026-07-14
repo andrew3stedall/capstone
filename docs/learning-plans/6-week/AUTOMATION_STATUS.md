@@ -16,7 +16,7 @@ pull_request: 6
 - Base branch: `automation/4-week-learning-plan`
 - Relationship: stacked on the open four-week learning-plan branch because draft PR #5 has not merged.
 - Retarget PR #6 to `main` only after PR #5 merges and the resulting diff is checked.
-- GitHub currently reports PR #6 as open and draft but not mergeable because the stacked branches have diverged. This run did not rebase or force-update either branch.
+- GitHub reports PR #6 as open, draft and mergeable against its current stacked base.
 
 ## Current state
 
