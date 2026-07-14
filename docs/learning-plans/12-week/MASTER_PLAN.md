@@ -66,7 +66,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 ### Week 5 — Voltage conditions, discrimination and coordinated design
 
 - [x] [Day 29 — Voltage-drop concepts and calculation structure](modules/day-29-voltage-drop-concepts-and-calculation-structure.md)
-- [ ] Day 30 — Voltage-drop interpretation and design iteration
+- [x] [Day 30 — Voltage-drop interpretation and design iteration](modules/day-30-voltage-drop-interpretation-and-design-iteration.md)
 - [ ] Day 31 — Fault-loop reasoning at concept level
 - [ ] Day 32 — Coordination, selectivity and upstream/downstream consequences
 - [ ] Day 33 — Rest, retrieval and formula-selection correction
