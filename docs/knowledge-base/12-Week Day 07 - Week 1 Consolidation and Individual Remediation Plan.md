@@ -93,5 +93,5 @@ This note uses original educational workflows, scenarios and remediation tools. 
 ## Navigation
 
 - **Previous:** [[12-Week Day 06 - Evidence Quality Applicability and Completeness Workshop]]
-- **Next:** Day 8 — Circuit Quantities, Load Reasoning and Prerequisite Calculation Check
+- **Next:** [[12-Week Day 08 - Circuit Quantities Load Reasoning and Prerequisite Calculation Check]]
 - **Map of content:** [[Learning and Assessment Design]]
