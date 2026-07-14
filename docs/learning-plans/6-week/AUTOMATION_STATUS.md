@@ -20,10 +20,10 @@ pull_request: 6
 ## Current state
 
 - Canonical sequence: 42 scheduled blocks across six weeks.
-- Completed dedicated modules: Days 1–9.
+- Completed dedicated modules: Days 1–10.
 - Current block: none.
 - Content-development phase: active.
-- Exactly one next increment: Day 10 — Earth-fault current path and disconnection reasoning.
+- Exactly one next increment: Day 11 — Protective earthing continuity and equipotential bonding concepts.
 
 ## Completed increments
 
@@ -39,49 +39,50 @@ pull_request: 6
 | Day 7 — Week 1 protection decision checkpoint | Added the D-E-C-I-D-E cumulative workflow, four-question separation, evidence grading, changed-condition revision, timed checkpoint, six-category rubric, accessible SVG and vault note. |
 | Day 8 — Earthing terminology and component identification | Added the N-A-M-E-S identification workflow, precise earthing and MEN terminology, role mapping, evidence grades, changed-supply transfer, six-category rubric, accessible SVG and vault note. |
 | Day 9 — MEN arrangement and normal-current paths | Added the R-E-T-U-R-N workflow, source-to-load-to-source loop reasoning, separation of normal and protective paths, changed-source transfer, six-category rubric, accessible SVG and vault note. |
+| Day 10 — Earth-fault current path and disconnection reasoning | Added the L-O-O-P-S workflow, three claim levels, evidence-gated loop reasoning, worked-example fading, changed-condition transfer, six-category rubric, accessible SVG and vault note. |
 
-## Latest increment — Day 9
+## Latest increment — Day 10
 
 Completed work:
 
-- created the full eight-beat MEN arrangement and normal-current-path module;
-- defined observable objectives for normal-current loop tracing, evidence control and changed-source transfer;
-- introduced the original R-E-T-U-R-N workflow;
-- separated active and neutral normal-current roles from protective earthing, bonding and the designated MEN relationship;
-- added two valid Mermaid diagrams for evidence-gated tracing and the conceptual source loop;
-- created a fictional worked example, labelled path record, worked-example fading and changed-source transfer;
+- created the full eight-beat earth-fault current-path and disconnection-reasoning module;
+- defined observable objectives for fault-loop tracing, evidence separation and bounded protective conclusions;
+- introduced the original L-O-O-P-S workflow;
+- separated path, loop-condition and protective-device evidence into three claim levels;
+- added two valid Mermaid diagrams for evidence gates and the conceptual source-fault-source loop;
+- created a fictional worked example, evidence table, worked-example fading and changed-condition transfer;
 - added a six-category, 12-point educational rubric with critical zero controls;
-- created an original accessible black-and-white SVG showing the complete loop and excluded protective path;
+- created an original accessible black-and-white SVG showing that a complete path alone does not prove protective operation;
 - created the corresponding Obsidian knowledge-base note with prerequisites, related concepts, assessment relevance and reciprocal navigation;
-- linked Day 9 directly from the master plan and preserved Day 8/Day 9 navigation;
+- linked Day 10 directly from the master plan;
 - preserved explicit source-currency, practical-authority, copyright and technical-review boundaries.
 
 ## Files created or updated in the latest increment
 
-- `docs/learning-plans/6-week/modules/day-09-men-arrangement-and-normal-current-paths.md`
-- `docs/assets/learning/6-week/day-09-men-arrangement-and-normal-current-paths/follow-the-loop-not-the-colour.svg`
-- `docs/knowledge-base/Six-Week Day 09 - MEN Arrangement and Normal-Current Paths.md`
+- `docs/learning-plans/6-week/modules/day-10-earth-fault-current-path-and-disconnection-reasoning.md`
+- `docs/assets/learning/6-week/day-10-earth-fault-current-path-and-disconnection-reasoning/prove-the-loop-before-the-trip.svg`
+- `docs/knowledge-base/Six-Week Day 10 - Earth-Fault Current Path and Disconnection Reasoning.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
 - Program status: `active`
-- Days 1–9 content status: `review-required`
-- Day 9 is safety-critical, paper-based educational content and authorises no practical electrical work or testing
-- Exact MEN definitions, neutral-to-earthing connection permissions and locations, supply arrangements, conductor requirements, alternate-source provisions, exceptions, test requirements, official assessment criteria and jurisdiction-specific claims remain `reference_check_required`
+- Days 1–10 content status: `review-required`
+- Day 10 is safety-critical, paper-based educational content and authorises no practical electrical work or testing
+- Exact MEN arrangements, conductor requirements, continuity and loop conditions, protective-device characteristics, operating times, test methods, official assessment criteria and jurisdiction-specific claims remain `reference_check_required`
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
-- No standards tables, figures, systematic clause wording, official assessment material or source PDF content were reproduced
+- No standards tables, figures, device curves, systematic clause wording, official assessment material or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7, Day 8, Day 9
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7, Day 8, Day 9, Day 10
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 10 — Earth-fault current path and disconnection reasoning**
+**Day 11 — Protective earthing continuity and equipotential bonding concepts**
 
-Create the dedicated eight-beat earth-fault current-path and disconnection-reasoning module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 10 directly from the master plan, add reciprocal Day 9/Day 10 navigation, and update this status record with exactly one next increment.
+Create the dedicated eight-beat continuity-and-bonding module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 11 directly from the master plan, add reciprocal Day 10/Day 11 navigation, and update this status record with exactly one next increment.
