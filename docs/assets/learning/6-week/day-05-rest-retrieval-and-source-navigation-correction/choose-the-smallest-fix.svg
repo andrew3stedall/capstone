@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Choose the smallest useful correction before catch-up</title>
+  <desc id="desc">A black-and-white stick figure sorts three study cards into retrieve, correct and defer trays. A large stack labelled reread everything is crossed out. The caption says repair the error, not the whole week.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="130" cy="155" r="32"/>
+    <path d="M130 187v105M130 218l-62 50M130 218l74 24M130 292l-44 84M130 292l48 84"/>
+    <rect x="238" y="96" width="145" height="88" rx="12"/>
+    <rect x="408" y="96" width="145" height="88" rx="12"/>
+    <rect x="578" y="96" width="145" height="88" rx="12"/>
+    <path d="M204 242c72-12 96-31 118-58M205 245c108 9 202-12 275-61M205 247c176 38 342 16 446-63"/>
+    <rect x="248" y="287" width="155" height="78" rx="12"/>
+    <rect x="438" y="287" width="155" height="78" rx="12"/>
+    <rect x="628" y="287" width="155" height="78" rx="12"/>
+    <path d="M310 184v103M480 184v103M650 184v103"/>
+    <path d="M812 105h90v225h-90z"/>
+    <path d="M792 92l128 252M920 92L792 344"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="310" y="130" font-size="22" font-weight="700">RECALL</text>
+    <text x="310" y="160" font-size="18">without notes</text>
+    <text x="480" y="130" font-size="22" font-weight="700">CORRECT</text>
+    <text x="480" y="160" font-size="18">one error</text>
+    <text x="650" y="130" font-size="22" font-weight="700">DEFER</text>
+    <text x="650" y="160" font-size="18">non-blocking</text>
+    <text x="325" y="335" font-size="21" font-weight="700">RETRIEVE</text>
+    <text x="515" y="335" font-size="21" font-weight="700">REPAIR</text>
+    <text x="705" y="335" font-size="21" font-weight="700">PARK</text>
+    <text x="857" y="198" font-size="18" font-weight="700" transform="rotate(90 857 198)">REREAD EVERYTHING</text>
+    <text x="480" y="445" font-size="31" font-weight="700">“Repair the error, not the whole week.”</text>
+    <text x="480" y="485" font-size="21">Retrieve first, correct one blocking misconception, then stop on time.</text>
+  </g>
+</svg>
