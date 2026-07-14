@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–30, ending with Day 30 — Voltage-drop interpretation and design iteration.
+- **Completed:** Days 1–33, ending with Day 33 — Rest, retrieval and formula-selection correction.
 - **Current block:** None.
-- **Next block:** Day 31 — Fault-loop reasoning at concept level.
+- **Next block:** Day 34 — Integrated protection, conductor and voltage scenario.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -25,44 +25,51 @@ updated_on: 2026-07-15
 | 2–14 | Days 1–13 | Completed the first thirteen dedicated modules, notes and linked assets. | Create Day 14. |
 | 15–21 | Days 14–20 | Completed Week 2 integration and Week 3 earthing, bonding, MEN, recovery and fault reasoning. | Create Day 21. |
 | 22–27 | Days 21–26 | Completed Week 3 checkpoint and the first five Week 4 design and recovery blocks. | Create Day 27. |
-| 28 — 2026-07-15 | Day 27 — Worked-example fading for circuit design | Added F-A-D-E, four support-removal stages, changed-scenario transfer, error diagnosis, accessible SVG and knowledge note. | Create Day 28. |
-| 29 — 2026-07-15 | Day 28 — Week 4 independent circuit-design checkpoint | Added C-H-E-C-K-P-O-I-N-T, an independent fictional design scenario, change propagation, 20-point rubric, critical-error gates, accessible SVG and knowledge note. | Create Day 29. |
-| 30 — 2026-07-15 | Day 29 — Voltage-drop concepts and calculation structure | Added V-O-L-T-S, boundary and path-convention controls, unit and provenance audits, fictional visible calculation, accessible SVG and knowledge note. | Create Day 30. |
-| 31 — 2026-07-15 | Day 30 — Voltage-drop interpretation and design iteration | Added I-T-E-R-A-T-E, total-boundary interpretation, controlled candidate comparison, reopening triggers, worked-example fading, rubric, accessible SVG and knowledge note. | Create Day 31 — Fault-loop reasoning at concept level. |
+| 28 — 2026-07-15 | Day 27 — Worked-example fading for circuit design | Added F-A-D-E, support-removal stages, changed-scenario transfer, accessible SVG and knowledge note. | Create Day 28. |
+| 29 — 2026-07-15 | Day 28 — Week 4 independent circuit-design checkpoint | Added C-H-E-C-K-P-O-I-N-T, independent scenario, change propagation, rubric, accessible SVG and knowledge note. | Create Day 29. |
+| 30 — 2026-07-15 | Day 29 — Voltage-drop concepts and calculation structure | Added V-O-L-T-S, boundary, path-convention, unit and provenance controls. | Create Day 30. |
+| 31 — 2026-07-15 | Day 30 — Voltage-drop interpretation and design iteration | Added I-T-E-R-A-T-E, candidate comparison and reopening triggers. | Create Day 31. |
+| 32 — 2026-07-15 | Day 31 — Fault-loop reasoning at concept level | Added L-O-O-P-S, complete return-path reasoning, evidence gates, two Mermaid models, accessible SVG and knowledge note. | Create Day 32. |
+| 33 — 2026-07-15 | Day 32 — Coordination, selectivity and upstream/downstream consequences | Added C-H-A-I-N-S, protection-chain mapping, cascade-consequence reasoning, two Mermaid models, accessible SVG and knowledge note. | Create Day 33. |
+| 34 — 2026-07-15 | Day 33 — Rest, retrieval and formula-selection correction | Added R-E-S-E-T, a three-error and 30-minute limit, causal correction, readiness triage, accessible SVG and knowledge note without new electrical theory. | Create Day 34 — Integrated protection, conductor and voltage scenario. |
 
-## Files added or updated in this increment
+## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-30-voltage-drop-interpretation-and-design-iteration.md`
-- `docs/assets/learning/12-week/voltage-drop-interpretation-and-design-iteration/change-one-input-reopen-every-affected-gate.svg`
-- `docs/knowledge-base/12-Week Day 30 - Voltage-Drop Interpretation and Design Iteration.md`
-- `docs/learning-plans/12-week/modules/day-29-voltage-drop-concepts-and-calculation-structure.md`
-- `docs/knowledge-base/12-Week Day 29 - Voltage-Drop Concepts and Calculation Structure.md`
+- `docs/learning-plans/12-week/modules/day-31-fault-loop-reasoning-at-concept-level.md`
+- `docs/assets/learning/12-week/fault-loop-reasoning-at-concept-level/trace-the-whole-loop-before-concluding.svg`
+- `docs/knowledge-base/12-Week Day 31 - Fault-Loop Reasoning at Concept Level.md`
+- `docs/learning-plans/12-week/modules/day-32-coordination-selectivity-and-upstream-downstream-consequences.md`
+- `docs/assets/learning/12-week/coordination-selectivity-and-upstream-downstream-consequences/compare-the-whole-protection-chain.svg`
+- `docs/knowledge-base/12-Week Day 32 - Coordination Selectivity and Upstream-Downstream Consequences.md`
+- `docs/learning-plans/12-week/modules/day-33-rest-retrieval-and-formula-selection-correction.md`
+- `docs/assets/learning/12-week/rest-retrieval-and-formula-selection-correction/repair-three-errors-then-stop.svg`
+- `docs/knowledge-base/12-Week Day 33 - Rest Retrieval and Formula-Selection Correction.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 30 separates calculation, interpretation and qualified acceptance rather than treating a numerical result as a compliance conclusion.
-- I-T-E-R-A-T-E changes one variable at a time and reopens every affected capacity, protection, fault, installation, termination and documentation gate.
-- Candidate comparisons use a common boundary, method, precision and evidence standard.
-- The module uses fictional scenarios and original rubric bands rather than standards data or official assessment criteria.
+- Day 31 treats a fault loop as a complete source-to-fault-and-return relationship and explicitly separates continuity, impedance and qualified acceptance.
+- Day 32 prevents rating-order shortcuts by requiring purpose, boundary, operating-condition and manufacturer-evidence checks across the full protection chain.
+- Day 33 is deliberately bounded recovery: no new theory, no more than three repairs, no more than 30 minutes, and explicit fatigue and uncertainty stop conditions.
+- All scenarios, diagrams and rubric bands are original educational constructs rather than substitutes for standards or official assessment material.
 
 ## Review flags
 
-- Day 30 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact voltage-drop methods, total-contribution rules, conductor data, criteria, exceptions, device characteristics and jurisdiction-specific duties require qualified checking.
+- Days 31–33 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact loop equations, impedance or disconnection criteria, device characteristics, coordination/selectivity evidence, manufacturer data, formulae and jurisdiction-specific duties require qualified checking.
 - No standards table, figure, systematic clause sequence, exact official technical value or official assessment material was reproduced.
-- The module authorises no field inspection, switching, isolation, opening, proving, measurement, testing, installation, alteration, repair, energisation, commissioning, certification or verification.
+- The modules authorise no field inspection, switching, isolation, opening, proving, measurement, testing, adjustment, fault simulation, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings.
-- Checked Mermaid fences, node labels and flow direction.
-- Checked the SVG for a white background, black line art, semantic title, description and instructional caption.
-- Checked module, note, master-plan and reciprocal Day 29–30 links.
-- Checked terminology against the preceding calculation-structure module.
-- Checked that fictional comparisons and rubric bands are not presented as official criteria.
-- Checked changed-condition reopening, claim grades, copyright transformation and practical stop boundaries.
+- Confirmed the exact eight required headings in all three modules.
+- Checked Mermaid fences, labels and flow direction.
+- Checked each SVG for white background, black line art, semantic title, description and instructional purpose.
+- Checked Day 31–33 module, note and master-plan links.
+- Checked terminology progression from voltage interpretation through fault-loop and coordination reasoning into recovery.
+- Checked Day 33 adds no unnecessary electrical theory and enforces fatigue, time and correction limits.
+- Checked copyright transformation, evidence grades, practical stop boundaries and technical-review flags.
 
 ## Run rules
 
