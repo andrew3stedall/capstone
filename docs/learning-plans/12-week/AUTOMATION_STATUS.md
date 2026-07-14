@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–33, ending with Day 33 — Rest, retrieval and formula-selection correction.
+- **Completed:** Days 1–34, ending with Day 34 — Integrated protection, conductor and voltage scenario.
 - **Current block:** None.
-- **Next block:** Day 34 — Integrated protection, conductor and voltage scenario.
+- **Next block:** Day 35 — Week 5 design-review conference and remediation.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -31,45 +31,41 @@ updated_on: 2026-07-15
 | 31 — 2026-07-15 | Day 30 — Voltage-drop interpretation and design iteration | Added I-T-E-R-A-T-E, candidate comparison and reopening triggers. | Create Day 31. |
 | 32 — 2026-07-15 | Day 31 — Fault-loop reasoning at concept level | Added L-O-O-P-S, complete return-path reasoning, evidence gates, two Mermaid models, accessible SVG and knowledge note. | Create Day 32. |
 | 33 — 2026-07-15 | Day 32 — Coordination, selectivity and upstream/downstream consequences | Added C-H-A-I-N-S, protection-chain mapping, cascade-consequence reasoning, two Mermaid models, accessible SVG and knowledge note. | Create Day 33. |
-| 34 — 2026-07-15 | Day 33 — Rest, retrieval and formula-selection correction | Added R-E-S-E-T, a three-error and 30-minute limit, causal correction, readiness triage, accessible SVG and knowledge note without new electrical theory. | Create Day 34 — Integrated protection, conductor and voltage scenario. |
+| 34 — 2026-07-15 | Day 33 — Rest, retrieval and formula-selection correction | Added R-E-S-E-T, a three-error and 30-minute limit, causal correction, readiness triage, accessible SVG and knowledge note without new electrical theory. | Create Day 34. |
+| 35 — 2026-07-15 | Day 34 — Integrated protection, conductor and voltage scenario | Added I-N-T-E-G-R-A-T-E, explicit design gates, evidence and dependency registers, changed-route reopening, candidate comparison, two Mermaid models, an accessible SVG and a knowledge note. | Create Day 35 — Week 5 design-review conference and remediation. |
 
 ## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-31-fault-loop-reasoning-at-concept-level.md`
-- `docs/assets/learning/12-week/fault-loop-reasoning-at-concept-level/trace-the-whole-loop-before-concluding.svg`
-- `docs/knowledge-base/12-Week Day 31 - Fault-Loop Reasoning at Concept Level.md`
-- `docs/learning-plans/12-week/modules/day-32-coordination-selectivity-and-upstream-downstream-consequences.md`
-- `docs/assets/learning/12-week/coordination-selectivity-and-upstream-downstream-consequences/compare-the-whole-protection-chain.svg`
-- `docs/knowledge-base/12-Week Day 32 - Coordination Selectivity and Upstream-Downstream Consequences.md`
+- `docs/learning-plans/12-week/modules/day-34-integrated-protection-conductor-and-voltage-scenario.md`
+- `docs/assets/learning/12-week/integrated-protection-conductor-and-voltage-scenario/reopen-every-affected-design-gate.svg`
+- `docs/knowledge-base/12-Week Day 34 - Integrated Protection Conductor and Voltage Scenario.md`
 - `docs/learning-plans/12-week/modules/day-33-rest-retrieval-and-formula-selection-correction.md`
-- `docs/assets/learning/12-week/rest-retrieval-and-formula-selection-correction/repair-three-errors-then-stop.svg`
 - `docs/knowledge-base/12-Week Day 33 - Rest Retrieval and Formula-Selection Correction.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 31 treats a fault loop as a complete source-to-fault-and-return relationship and explicitly separates continuity, impedance and qualified acceptance.
-- Day 32 prevents rating-order shortcuts by requiring purpose, boundary, operating-condition and manufacturer-evidence checks across the full protection chain.
-- Day 33 is deliberately bounded recovery: no new theory, no more than three repairs, no more than 30 minutes, and explicit fatigue and uncertainty stop conditions.
-- All scenarios, diagrams and rubric bands are original educational constructs rather than substitutes for standards or official assessment material.
+- Day 34 integrates conductor capacity, voltage, fault-return and protection-chain reasoning without pretending that one satisfactory result establishes complete design acceptance.
+- The scenario requires an evidence register before calculation, a dependency map before revision and explicit reopening of every affected gate after a material change.
+- The assessment rubric is an original educational aid, not an official RTO criterion or technical approval mechanism.
+- All examples and diagrams are independently created and do not reproduce standards tables, figures, clause sequences or official assessment material.
 
 ## Review flags
 
-- Days 31–33 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact loop equations, impedance or disconnection criteria, device characteristics, coordination/selectivity evidence, manufacturer data, formulae and jurisdiction-specific duties require qualified checking.
+- Day 34 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact conductor data, correction factors, voltage and fault methods, device characteristics, coordination evidence, limits, exceptions and jurisdiction-specific duties require qualified checking.
 - No standards table, figure, systematic clause sequence, exact official technical value or official assessment material was reproduced.
-- The modules authorise no field inspection, switching, isolation, opening, proving, measurement, testing, adjustment, fault simulation, installation, alteration, repair, energisation, commissioning, certification or verification.
+- The module authorises no field inspection, switching, isolation, opening, proving, measurement, testing, adjustment, fault simulation, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings in all three modules.
-- Checked Mermaid fences, labels and flow direction.
-- Checked each SVG for white background, black line art, semantic title, description and instructional purpose.
-- Checked Day 31–33 module, note and master-plan links.
-- Checked terminology progression from voltage interpretation through fault-loop and coordination reasoning into recovery.
-- Checked Day 33 adds no unnecessary electrical theory and enforces fatigue, time and correction limits.
-- Checked copyright transformation, evidence grades, practical stop boundaries and technical-review flags.
+- Confirmed the exact eight required headings.
+- Checked both Mermaid fences, node labels and flow direction.
+- Checked the SVG for a white background, black line art, semantic title, description and instructional purpose.
+- Checked the Day 33–34 reciprocal module and knowledge-note links.
+- Checked the master-plan link and the single next-increment rule.
+- Checked terminology definitions, observable objectives, changed-condition transfer, copyright transformation, safety stop boundaries and technical-review flags.
 
 ## Run rules
 
