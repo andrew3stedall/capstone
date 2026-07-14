@@ -117,6 +117,6 @@ Submit the annotated scenario, evidence register, reasoning chain, consequence r
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 34 - Integrated Protection Conductor and Voltage Scenario]]
 - **Previous:** [Day 33 — Rest, Retrieval and Formula-Selection Correction](day-33-rest-retrieval-and-formula-selection-correction.md)
-- **Next:** Day 35 — Week 5 Design-Review Conference and Remediation
+- **Next:** [Day 35 — Week 5 Design-Review Conference and Remediation](day-35-week-5-design-review-conference-and-remediation.md)
 
 All examples, diagrams and rubrics are original educational constructs. Exact clauses, limits, formulae, device characteristics and acceptance criteria remain `reference_check_required`. This module is not `technically-reviewed`.
