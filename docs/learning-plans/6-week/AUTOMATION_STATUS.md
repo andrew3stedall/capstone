@@ -19,6 +19,30 @@ pull_request: 6
 
 ## Completed increments
 
+### 2026-07-14 — Day 4: Overload and short-circuit protection reasoning
+
+Completed the fourth dedicated six-week module as a two-path evidence and coordination lesson following Day 3 fault classification.
+
+Completed work:
+
+- created the full eight-beat Day 4 module;
+- defined observable objectives covering overload, short circuit, design current, device rating, conductor capacity, prospective short-circuit current, breaking capacity and coordination;
+- introduced the original C-L-E-A-R rule-finding and evidence workflow;
+- added two valid Mermaid diagrams separating overload and short-circuit evidence chains;
+- created an original accessible black-and-white SVG showing both protection paths converging at an evidence-verification gate;
+- added four fictional paper scenarios, worked-example fading and changed-condition transfer practice;
+- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept and reciprocal navigation links;
+- linked Day 4 directly from the master plan;
+- preserved explicit practical-authority, technical-review, source-currency and copyright boundaries.
+
+Files created or updated:
+
+- `docs/learning-plans/6-week/modules/day-04-overload-and-short-circuit-protection-reasoning.md`
+- `docs/assets/learning/6-week/day-04-overload-and-short-circuit-protection-reasoning/check-both-paths.svg`
+- `docs/knowledge-base/Six-Week Day 04 - Overload and Short-Circuit Protection Reasoning.md`
+- `docs/learning-plans/6-week/MASTER_PLAN.md`
+- `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
+
 ### 2026-07-14 — Day 3: Fundamental protection concepts and fault types
 
 Completed the third dedicated six-week module as a conceptual classification bridge between safety reasoning and later protection selection.
@@ -121,19 +145,21 @@ Files created or updated:
 - Day 2 exact safety duties, procedural requirements and jurisdiction-specific claims: `reference_check_required`
 - Day 3 content status: `review-required`
 - Day 3 exact thresholds, device characteristics, disconnection requirements, fault-current calculations and procedures: `reference_check_required`
-- Days 1–3 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
+- Day 4 content status: `review-required`
+- Day 4 exact current relationships, conductor capacities, correction factors, prospective-current methods, breaking capacities, operating characteristics, fault-duration limits, coordination requirements and procedures: `reference_check_required`
+- Days 1–4 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
-- No standards tables, figures, systematic clause wording or source PDF content were reproduced
+- No standards tables, figures, device curves, systematic clause wording or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 4 — Overload and short-circuit protection reasoning**
+**Day 5 — Rest, retrieval and source-navigation correction**
 
-Create the dedicated eight-beat module, original instructional SVG asset or assets, corresponding knowledge-base note, direct master-plan link, reciprocal Day 3/Day 4 navigation and updated status record.
+Create the dedicated eight-beat recovery module without unnecessary new electrical theory, add an original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 5 directly from the master plan, preserve reciprocal Day 4/Day 5 navigation, and update this status record with exactly one next increment.
