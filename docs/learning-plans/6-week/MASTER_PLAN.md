@@ -37,15 +37,7 @@ Every module must include compatible YAML metadata, explicit prerequisites, rela
 
 ## Rest, retrieval and catch-up standard
 
-These blocks introduce no unnecessary new electrical theory. Each must include:
-
-- a time-boxed retrieval activity;
-- missed-work triage rather than wholesale rereading;
-- correction of selected error-log items;
-- a maximum catch-up duration;
-- fatigue and concentration stop conditions;
-- a readiness check for the next technical block;
-- continuous previous/next navigation.
+These blocks introduce no unnecessary new electrical theory. Each must include time-boxed retrieval, missed-work triage, selected error-log correction, a maximum catch-up duration, fatigue stop conditions, a readiness check and continuous navigation.
 
 ## Ordered learning blocks
 
@@ -77,12 +69,12 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 - [x] [Day 18 — Voltage-drop concepts and calculation workflow](modules/day-18-voltage-drop-concepts-and-calculation-workflow.md)
 - [x] [Day 19 — Rest, calculation correction and catch-up](modules/day-19-rest-calculation-correction-and-catch-up.md)
 - [x] [Day 20 — Complete cable-selection decision sequence](modules/day-20-complete-cable-selection-decision-sequence.md)
-- [ ] Day 21 — Week 3 integrated circuit-design exercise
+- [x] [Day 21 — Week 3 integrated circuit-design exercise](modules/day-21-week-3-integrated-circuit-design-exercise.md)
 
 ### Week 4 — Switching, switchboards and installation requirements
 
-- [ ] Day 22 — Functional switching, isolation and emergency switching distinctions
-- [ ] Day 23 — Main switches, alternate supplies and isolation boundaries
+- [x] [Day 22 — Functional switching, isolation and emergency switching distinctions](modules/day-22-functional-switching-isolation-and-emergency-switching-distinctions.md)
+- [x] [Day 23 — Main switches, alternate supplies and isolation boundaries](modules/day-23-main-switches-alternate-supplies-and-isolation-boundaries.md)
 - [ ] Day 24 — Switchboard functional areas, accessibility and identification
 - [ ] Day 25 — Wiring systems, mechanical protection and environmental influences
 - [ ] Day 26 — Rest, visual-recall practice and catch-up
@@ -111,14 +103,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 
 ## Cumulative learning design
 
-The six-week sequence must deliberately use:
-
-- **spaced retrieval:** important safety and protection concepts recur after delay;
-- **interleaving:** later tasks combine protection, earthing, conductor selection and verification;
-- **worked-example fading:** full examples progress to partial prompts and then independent work;
-- **error-driven remediation:** high-confidence errors receive priority and a varied re-attempt;
-- **confidence calibration:** learners distinguish guessing, uncertainty and justified confidence;
-- **cumulative checkpoints:** each week ends with an application task rather than simple rereading.
+The sequence uses spaced retrieval, interleaving, worked-example fading, error-driven remediation, confidence calibration and cumulative application checkpoints.
 
 ## Quality-improvement passes
 
@@ -126,15 +111,4 @@ No module has yet received a six-week quality-improvement pass. After all 42 blo
 
 ## Quality gates for every increment
 
-A block is complete only when:
-
-- all eight beats are present and logically connected;
-- objectives are observable and assessable;
-- technical terms are defined consistently;
-- diagrams have a genuine instructional purpose and valid syntax;
-- one to three original accessible black-and-white SVG cartoons are linked where required;
-- the master-plan checkbox links directly to the module;
-- a corresponding knowledge-base note exists with useful wikilinks;
-- previous and next links are reciprocal;
-- the status file records the increment and exactly one next block;
-- copyright transformation and safety boundaries are explicit;
+A block is complete only when all eight beats are present; objectives are observable; terms are defined; diagrams are instructional and valid; one to three accessible original SVG cartoons are linked; the master-plan checkbox links to the module; a corresponding knowledge note exists; navigation is reciprocal; the status file records exactly one next block; and copyright and safety boundaries are explicit.
