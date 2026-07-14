@@ -113,7 +113,8 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] 2026-07-15 — [Day 10 — Installation conditions and derating](./modules/day-10-installation-conditions-and-derating.md): added the C-O-N-D-I-T-I-O-N-S workflow, evidence and claim grades, source-applicability gates, changed-route transfer, recalculation triggers, a six-category 12-point rubric and aligned vault metadata.
 - [x] 2026-07-15 — [Day 11 — Voltage drop](./modules/day-11-voltage-drop.md): added the V-O-L-T-A-G-E workflow, explicit evidence and claim grades, calculation-versus-interpretation gates, changed-route transfer, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
 - [x] 2026-07-15 — [Day 12 — Rest, calculation correction and catch-up](./modules/day-12-rest-calculation-correction-and-catch-up.md): added the R-E-P-A-I-R workflow, five-category causal error model, confidence calibration, dependent-step reopening, varied and delayed retrieval, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [ ] Next — Day 13A — Switching, isolation and main switches.
+- [x] 2026-07-15 — [Day 13A — Switching, isolation and main switches](./modules/day-13a-switching-isolation-and-main-switches.md): added the S-E-P-A-R-A-T-E workflow, evidence and claim grades, source-boundary reopening triggers, two original Mermaid models, worked-example fading, changed-source transfer, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
+- [ ] Next — Day 13B — Switchboard construction and arrangements.
 
 ## Quality gates for every hourly run
 
