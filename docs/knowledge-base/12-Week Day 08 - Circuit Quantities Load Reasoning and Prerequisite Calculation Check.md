@@ -85,5 +85,5 @@ This note uses original explanations, fictional values, workflows, diagrams and 
 ## Navigation
 
 - **Previous:** [[12-Week Day 07 - Week 1 Consolidation and Individual Remediation Plan]]
-- **Next:** Day 9 — Overload, Short-Circuit and Fault-Current Distinctions
+- **Next:** [[12-Week Day 09 - Overload Short-Circuit and Fault-Current Distinctions]]
 - **Map of content:** [[Electrical Fundamentals]]
