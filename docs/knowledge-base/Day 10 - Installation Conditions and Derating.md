@@ -56,8 +56,8 @@ flowchart TD
     D --> E["Applicable source data"]
     E --> F["Segment calculations"]
     F --> G{"Evidence sufficient?"}
-    G -->|No| H["Unresolved: obtain evidence"]
-    G -->|Yes| I["Provisional limiting segment"]
+    G -->|"No"| H["Unresolved: obtain evidence"]
+    G -->|"Yes"| I["Provisional limiting segment"]
     I --> J["Reopen affected design checks"]
 ```
 
