@@ -8,57 +8,18 @@ reviewed_on: 2026-07-14
 
 # Twelve-Week Capstone Learning Plan
 
-This is the canonical sequence for the twelve-week Capstone pathway. It is designed for a learner who needs a slower, deeper route than the intensive four-week stream, with more prerequisite repair, worked-example fading, supervised-practice preparation, spaced retrieval and cumulative assessment.
-
-The plan is an original educational sequence. It does not reproduce standards tables, figures, clause wording or official assessment material. Current authorised standards, legislation, regulator guidance, manufacturer instructions, workplace procedures and RTO requirements remain the controlling sources.
+This is the canonical sequence for the slower, deeper twelve-week Capstone pathway. It uses prerequisite repair, worked-example fading, supervised-practice preparation, spaced retrieval, deliberate recovery and cumulative assessment. It is original educational content and does not reproduce standards tables, figures, clause wording or official assessment material.
 
 ## Study rhythm
 
-- Monday–Thursday: 45–60 minutes of focused study.
-- Friday: deliberate recovery, retrieval or catch-up; maximum 30 minutes.
-- Saturday: 90–120 minutes of applied practice or integration.
-- Sunday: 45–75 minutes of review, reflection and readiness checking.
-- Weekly target: approximately 6–8 hours, adjusted for learner fatigue, workplace load and prerequisite gaps.
-
-The slower schedule is not permission to add unnecessary theory. Each block must have one clear assessment-relevant purpose and must connect to prior learning.
-
-## Learning progression
-
-The pathway uses five recurring learning modes:
-
-1. **Acquire** — encounter a concept through concise explanation and a complete worked example.
-2. **Organise** — connect the concept to terminology, governing sources, prerequisites and practical consequences.
-3. **Retrieve** — recall the concept without prompts in a fresh format.
-4. **Apply** — use it in an original scenario, calculation, inspection decision or fault analysis.
-5. **Reflect and remediate** — identify the misconception, confidence error or process gap and complete a varied re-attempt.
-
-Early weeks keep related topics together. Later weeks deliberately interleave circuit design, protection, earthing, verification and fault diagnosis.
+- Monday–Thursday: 45–60 minutes focused study.
+- Friday: recovery, retrieval or catch-up; maximum 30 minutes.
+- Saturday: 90–120 minutes applied practice or integration.
+- Sunday: 45–75 minutes review, reflection and readiness checking.
 
 ## Module production standard
 
-Every scheduled block—including rest, retrieval and catch-up days—must have its own dedicated eight-beat module and corresponding knowledge-base note:
-
-1. **Outcome and entry check** — observable objectives, prerequisites and a short diagnostic.
-2. **Why it matters** — practical risk, assessment relevance and workplace consequence.
-3. **Core concepts and terminology** — precise definitions and the governing mental model.
-4. **Rule-finding workflow** — how to locate and verify the applicable requirement without reproducing copyrighted source material.
-5. **Visual model or worked example** — an original Mermaid diagram, calculation or staged example where useful.
-6. **Practical application** — an installation scenario, inspection task, design decision or fault analysis within stated authority limits.
-7. **Common errors and safety checkpoint** — misconceptions, unsafe shortcuts, stop conditions and correction methods.
-8. **Retrieval and next links** — recall, varied practice, vault links and the next scheduled block.
-
-Each module must include YAML metadata compatible with `docs/LEARNING_DESIGN.md`, a source and currency notice, review status, prerequisites, related modules and reciprocal previous/next links. Exact clause numbers, limits, test values, official assessment rules and safety-critical procedures require authorised verification before technical approval.
-
-## Rest, retrieval and catch-up standard
-
-Recovery days are planned learning blocks, not missing content. They must:
-
-- add no unnecessary new electrical theory;
-- use a short no-notes retrieval task before any rereading;
-- triage missed work by safety significance and prerequisite value;
-- correct selected error-log items through a varied scenario;
-- set a maximum catch-up period and stop when fatigue or concentration makes further study unreliable;
-- finish with a readiness decision for the next technical block.
+Every scheduled block requires YAML metadata, the exact eight-beat structure, a corresponding knowledge-base note, reciprocal navigation, accessible instructional visuals where useful, explicit review flags and a bounded safety/copyright notice. Exact clauses, limits, test values, assessment claims and safety-critical procedures require authorised verification.
 
 ## Ordered learning blocks
 
@@ -80,7 +41,7 @@ Recovery days are planned learning blocks, not missing content. They must:
 - [x] [Day 11 — RCD purpose, limitations and interaction with other protection](modules/day-11-rcd-purpose-limitations-and-interaction-with-other-protection.md)
 - [x] [Day 12 — Rest, retrieval and misconception repair](modules/day-12-rest-retrieval-and-misconception-repair.md)
 - [x] [Day 13 — Protection-selection evidence workflow using original scenarios](modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md)
-- [ ] Day 14 — Week 2 protection integration checkpoint
+- [x] [Day 14 — Week 2 protection integration checkpoint](modules/day-14-week-2-protection-integration-checkpoint.md)
 
 ### Week 3 — Earthing, bonding and MEN mental models
 
@@ -184,24 +145,8 @@ Recovery days are planned learning blocks, not missing content. They must:
 
 ## Quality-improvement passes
 
-After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. A persistent `review-required` or `reference_check_required` flag does not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
+After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-## Quality gates for every increment
+## Quality gates and completion behaviour
 
-An increment is complete only when:
-
-- exactly one planning, module, review or audit outcome is completed;
-- the eight beats are present and logically connected for a module increment;
-- objectives are observable and assessment-focused;
-- terminology is explained and consistent;
-- Mermaid and SVGs have instructional value and accessible text alternatives;
-- relative links and reciprocal navigation are valid;
-- knowledge-base links improve navigation rather than duplicate content;
-- status tracking records the completed work and exactly one next increment;
-- copyright transformation is genuine;
-- safety-critical claims remain within evidence and authority boundaries;
-- automated content is not labelled `technically-reviewed`.
-
-## Completion behaviour
-
-Do not create duplicate modules. Complete the first unchecked block, then continue in sequence. Once all modules exist, perform one tracked quality-improvement pass per module. When those passes are complete, run one final audit covering sequence continuity, metadata, links, Mermaid syntax, SVG accessibility, duplication, copyright, unresolved technical-review flags and the boundary between educational drafting and qualified approval.
+Complete exactly one coherent increment per run. A module increment is complete only when the eight beats, observable objectives, terminology, instructional visuals, reciprocal links, knowledge note, status record, copyright transformation and safety boundaries have been checked together. Do not create duplicate modules or label automated content `technically-reviewed`.
