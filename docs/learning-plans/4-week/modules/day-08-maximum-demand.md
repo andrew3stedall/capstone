@@ -137,16 +137,16 @@ Use the **D-E-M-A-N-D** workflow:
 
 ```mermaid
 flowchart TD
-    A[Define scope and sources] --> B[Build complete load register]
-    B --> C[Locate authorised method]
-    C --> D{Applicability and evidence complete?}
-    D -->|No| E[Mark unresolved and stop the affected conclusion]
-    D -->|Yes| F[Apply units and verified allowances]
-    F --> G[Calculate groups and phases]
-    G --> H[Test operating and failure cases]
-    H --> I{Result still supported?}
-    I -->|No| B
-    I -->|Yes| J[Record bounded maximum-demand result]
+    A["Define scope and sources"] --> B["Build complete load register"]
+    B --> C["Locate authorised method"]
+    C --> D{"Applicability and evidence complete?"}
+    D -->|"No"| E["Mark unresolved and stop the affected conclusion"]
+    D -->|"Yes"| F["Apply units and verified allowances"]
+    F --> G["Calculate groups and phases"]
+    G --> H["Test operating and failure cases"]
+    H --> I{"Result still supported?"}
+    I -->|"No"| B
+    I -->|"Yes"| J["Record bounded maximum-demand result"]
 ```
 
 The loop matters: a changed operating case may require the inventory, method or assumptions to be reopened rather than merely adjusting the final number.
@@ -170,12 +170,12 @@ A copied number without its conditions is not traceable evidence.
 
 ```mermaid
 flowchart LR
-    F[Facts] --> R[Verified rules]
-    R --> C[Derived calculations]
-    A[Training assumptions] -.label clearly.-> C
-    U[Unresolved evidence] -.blocks affected claim.-> C
-    C --> O[Operating-case challenge]
-    O --> B[Bounded conclusion]
+    F["Facts"] --> R["Verified rules"]
+    R --> C["Derived calculations"]
+    A["Training assumptions"] -.label clearly.-> C
+    U["Unresolved evidence"] -.blocks affected claim.-> C
+    C --> O["Operating-case challenge"]
+    O --> B["Bounded conclusion"]
 ```
 
 Facts and verified rules may support a derived value. Training assumptions must remain labelled. Unresolved evidence blocks the affected conclusion rather than being silently guessed.
