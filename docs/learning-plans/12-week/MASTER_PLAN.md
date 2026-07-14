@@ -3,7 +3,7 @@ title: Twelve-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 ---
 
 # Twelve-Week Capstone Learning Plan
@@ -51,12 +51,12 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 18 — MEN arrangement and normal-current versus fault-current paths](modules/day-18-men-arrangement-and-normal-current-versus-fault-current-paths.md)
 - [x] [Day 19 — Rest, retrieval and diagram reconstruction](modules/day-19-rest-retrieval-and-diagram-reconstruction.md)
 - [x] [Day 20 — MEN fault scenarios and protective-device operation reasoning](modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md)
-- [ ] Day 21 — Week 3 earthing and protection integration checkpoint
+- [x] [Day 21 — Week 3 earthing and protection integration checkpoint](modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md)
 
 ### Week 4 — Maximum demand and complete circuit-design workflow
 
-- [ ] Day 22 — Load schedules and maximum-demand concepts
-- [ ] Day 23 — Design current, protective-device rating and conductor capacity
+- [x] [Day 22 — Load schedules and maximum-demand concepts](modules/day-22-load-schedules-and-maximum-demand-concepts.md)
+- [x] [Day 23 — Design current, protective-device rating and conductor capacity](modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md)
 - [ ] Day 24 — Complete cable-selection workflow and evidence record
 - [ ] Day 25 — Installation methods, environmental influences and derating
 - [ ] Day 26 — Rest, retrieval and calculation error-log correction
@@ -149,4 +149,4 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 
 ## Quality gates and completion behaviour
 
-Complete exactly one coherent increment per run. A module increment is complete only when the eight beats, observable objectives, terminology, instructional visuals, reciprocal links, knowledge note, status record, copyright transformation and safety boundaries have been checked together. Do not create duplicate modules or label automated content `technically-reviewed`.
+Complete the selected sequential increments without duplication. A module increment is complete only when the eight beats, observable objectives, terminology, instructional visuals, reciprocal links, knowledge note, status record, copyright transformation and safety boundaries have been checked together. Do not create duplicate modules or label automated content `technically-reviewed`.
