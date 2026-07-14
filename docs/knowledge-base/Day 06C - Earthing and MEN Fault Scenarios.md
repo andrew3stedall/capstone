@@ -2,7 +2,9 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-14
+quality_improvement_pass: completed
+quality_improvement_pass_on: 2026-07-14
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -37,12 +39,26 @@ Day 6C applies the component model from Day 6A and the fault-loop model from Day
 
 ## Diagnostic model
 
-Use **D-P-E-S**:
+Use **D-I-A-G-N-O-S-E**:
 
-1. **Defect** — state and classify only the defect described.
-2. **Path** — redraw normal and fault-current paths and mark the changed segment.
-3. **Effect and evidence** — separate circuit, protective and possible contact-risk consequences, then identify the evidence needed.
-4. **Source and stop** — verify the governing requirement and state the stop or escalation condition.
+1. **Describe** — record only the stated condition, observation or drawing information.
+2. **Identify** — classify the possible defect without converting suspicion into fact.
+3. **Arrange** — redraw normal-current and fault-current paths separately.
+4. **Grade** — label each claim as described, supported or verified.
+5. **Name consequences** — separate circuit, protective and possible contact-risk consequences.
+6. **Obtain evidence** — list the inspection, authorised-source or test evidence still required.
+7. **Source-check** — locate the governing requirement in current authorised material without inventing a clause.
+8. **Escalate** — state the stop condition where evidence, authority or conditions are incomplete.
+
+The workflow prevents a paper scenario from being presented as a confirmed field diagnosis. It also makes the evidence gap visible before any conclusion about safety, compliance or protective-device operation is written.
+
+## Claim grades
+
+- **Described:** directly provided by the scenario, drawing or record.
+- **Supported:** consistent with the available facts and reasoning, but not yet confirmed by sufficient evidence.
+- **Verified:** established using the required authorised source, approved inspection or test evidence and competent review.
+
+A supported explanation is not automatically a verified installation finding.
 
 ## Defect categories
 
@@ -51,25 +67,59 @@ Use **D-P-E-S**:
 - **Misplaced connection:** a connection exists at an incorrect or unverified location and may create unintended paths.
 - **Supply-context dependent:** the model is incomplete because a generator, inverter, battery, separate supply or transfer arrangement has not been represented.
 
+## Evidence ladder
+
+```mermaid
+flowchart TD
+    A[Scenario observation] --> B[Possible defect classification]
+    B --> C[Normal and fault paths redrawn]
+    C --> D[Conditional consequence stated]
+    D --> E{Required evidence available?}
+    E -->|No| F[Supported claim only]
+    F --> G[Stop, source-check or escalate]
+    E -->|Yes| H[Qualified verification may proceed]
+```
+
+The ladder shows why a plausible path explanation remains conditional until the required evidence and competent verification are available.
+
 ## Practical application
 
 For each paper scenario, record:
 
-- stated defect and classification;
+- stated observation and defect classification;
 - normal current path;
-- fault-current path before and after the defect;
+- fault-current path before and after the proposed defect;
 - immediate circuit consequence;
 - protective consequence;
 - possible contact-risk consequence;
+- claim grade for each conclusion;
 - evidence required before concluding;
 - authorised source to check;
 - stop or escalation condition.
+
+Use worked-example fading:
+
+1. complete one scenario with the full D-I-A-G-N-O-S-E prompts;
+2. complete a second scenario using only the acronym headings;
+3. complete a changed-supply scenario from a blank page;
+4. compare the evidence grades and correct any unsupported certainty.
 
 The exercise must not be converted into a live testing or repair instruction.
 
 ## Assessment relevance
 
-A strong capstone response explains what changed, how the path changed, why a protective result cannot be assumed, what evidence is required and when work must stop. Claims such as “will trip”, “safe”, “compliant” or “isolated” require an explicit evidence chain.
+A strong Capstone response explains what changed, how the path changed, why a protective result cannot be assumed, what evidence is required and when work must stop. Claims such as “will trip”, “safe”, “compliant” or “isolated” require an explicit evidence chain.
+
+Use a 0–2 study rubric for each category:
+
+- defect description and classification;
+- separation of normal and fault-current paths;
+- consequence reasoning;
+- evidence and claim grading;
+- authorised-source plan;
+- safety boundary and escalation.
+
+A score of 2 means defensible and complete, 1 means partial or weakly supported, and 0 means unsafe, unsupported or absent. Any zero in evidence or safety requires remediation before progression.
 
 ## Misconceptions to track
 
@@ -79,6 +129,11 @@ A strong capstone response explains what changed, how the path changed, why a pr
 - Any neutral-earth connection improves safety.
 - The original supply sketch remains valid after adding an inverter or generator.
 - A paper diagnosis authorises live testing or repair.
+- A plausible consequence is the same as a verified installation finding.
+
+## Safety boundary
+
+This note grants no authority to open equipment, isolate, prove de-energised, trace conductors, measure, test, disconnect, reconnect, alter, repair, energise, commission, certify or verify an installation. Practical work must remain within current law, supervision, competence, approved procedures and site controls.
 
 ## Navigation
 
