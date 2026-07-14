@@ -174,7 +174,7 @@ Submit an interpretation ledger, one sensitivity set, one controlled recalculati
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 30 - Voltage-Drop Interpretation and Design Iteration]]
 - **Previous:** [Day 29 — Voltage-Drop Concepts and Calculation Structure](day-29-voltage-drop-concepts-and-calculation-structure.md)
-- **Next:** Day 31 — Fault-Loop Reasoning at Concept Level
+- **Next:** [Day 31 — Fault-Loop Reasoning at Concept Level](day-31-fault-loop-reasoning-at-concept-level.md)
 
 ### Reference and currency notice
 
