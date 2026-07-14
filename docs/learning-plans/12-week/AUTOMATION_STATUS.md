@@ -8,9 +8,9 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Days 1–16, ending with Day 16 — Protective earthing continuity and exposed conductive parts.
+- **Completed:** Days 1–17, ending with Day 17 — Equipotential bonding purpose and boundary reasoning.
 - **Current block:** None.
-- **Next block:** Day 17 — Equipotential bonding purpose and boundary reasoning.
+- **Next block:** Day 18 — MEN arrangement and normal-current versus fault-current paths.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -26,33 +26,33 @@ updated_on: 2026-07-14
 | 15 — 2026-07-14 | Day 14 — Week 2 protection integration checkpoint | Added a complete eight-beat integration checkpoint, I-N-T-E-G-R-A-T-E workflow, two Mermaid models, three assessment tasks, 20-point rubric, misconception repair, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 15 — Earthing terminology and component roles. |
 | 16 — 2026-07-14 | Day 15 — Earthing terminology and component roles | Added a complete eight-beat terminology foundation, E-A-R-T-H workflow, two Mermaid role/evidence models, original classification and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 16 — Protective earthing continuity and exposed conductive parts. |
 | 17 — 2026-07-14 | Day 16 — Protective earthing continuity and exposed conductive parts | Added a complete eight-beat continuity-evidence module, C-O-N-T-I-N-U-E workflow, two Mermaid models, exposed-part classification, evidence-ladder and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 17 — Equipotential bonding purpose and boundary reasoning. |
+| 18 — 2026-07-14 | Day 17 — Equipotential bonding purpose and boundary reasoning | Added a complete eight-beat bonding-boundary module, B-O-U-N-D-A-R-Y workflow, two Mermaid models, protective-earthing versus bonding comparison, classification and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 18 — MEN arrangement and normal-current versus fault-current paths. |
 
-## Files added or updated in run 17
+## Files added or updated in run 18
 
-- `docs/learning-plans/12-week/modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md`
-- `docs/assets/learning/12-week/day-16-protective-earthing-continuity-and-exposed-conductive-parts/follow-the-path-prove-each-link.svg`
+- `docs/learning-plans/12-week/modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md`
+- `docs/assets/learning/12-week/day-17-equipotential-bonding-purpose-and-boundary-reasoning/classify-before-you-connect.svg`
+- `docs/knowledge-base/12-Week Day 17 - Equipotential Bonding Purpose and Boundary Reasoning.md`
 - `docs/knowledge-base/12-Week Day 16 - Protective Earthing Continuity and Exposed Conductive Parts.md`
-- `docs/knowledge-base/12-Week Day 15 - Earthing Terminology and Component Roles.md`
-- `docs/learning-plans/12-week/modules/day-15-earthing-terminology-and-component-roles.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
-## Day 16 design decisions
+## Day 17 design decisions
 
-- The module separates presence, described connection, continuity, suitability and verified protective outcome into distinct evidence gates.
-- Exposed-conductive-part classification depends on accessibility, equipment relationship and fault possibility rather than metal alone.
-- A conceptual continuity path never proves actual endpoints, joint integrity, conductor suitability, fault-current magnitude or protective-device operation.
-- Discontinuity consequences may be discussed without diagnosing a defect location or cause.
-- C-O-N-T-I-N-U-E is an original reasoning workflow and not a test sequence.
-- A 12-point rubric requires no zero in part classification, evidence control or safety boundary before progression.
+- The module separates protective-earthing purpose from equipotential-bonding purpose without treating either as a substitute for the other.
+- Conductive-item classification depends on equipment relationship, origin, accessibility and possible introduced potential rather than metal or proximity alone.
+- Presence, classification, requirement, connection, continuity, suitability and verified outcome are separate evidence gates.
+- B-O-U-N-D-A-R-Y is an original reasoning workflow and not a construction or test sequence.
+- Changed-condition tasks reopen conclusions when insulation, accessibility, drawings, supply arrangements or equipment construction changes.
+- A 12-point rubric requires no zero in classification, evidence control or safety boundary before progression.
 
 ## Review flags
 
-- Day 16 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact exposed-part definitions, required protective-earthing connections, continuity requirements, conductor criteria, test methods, acceptance criteria and jurisdiction-specific duties require qualified checking.
-- C-O-N-T-I-N-U-E, fictional scenarios, diagrams, tables and rubric are original educational constructs.
+- Day 17 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact definitions, bonding classifications, connection requirements, conductor criteria, accessibility rules, test methods, acceptance criteria and jurisdiction-specific duties require qualified checking.
+- B-O-U-N-D-A-R-Y, fictional scenarios, diagrams, comparison table and rubric are original educational constructs.
 - No standards table, figure, systematic clause sequence, exact technical value or official assessment material was reproduced.
-- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
+- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Run rules
 
