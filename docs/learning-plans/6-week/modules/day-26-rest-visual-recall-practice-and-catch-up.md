@@ -83,4 +83,4 @@ State R-E-D-R-A-W; redraw B-O-A-R-D-S and R-O-U-T-E-S from memory; name the 30-m
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 25 — Wiring Systems, Mechanical Protection and Environmental Influences](day-25-wiring-systems-mechanical-protection-and-environmental-influences.md)
 - **Knowledge note:** [[Six-Week Day 26 - Rest Visual-Recall Practice and Catch-Up]]
-- **Next:** Day 27 — Consumer Mains, Submains and Final-Subcircuit Roles
+- **Next:** [Day 27 — Consumer Mains, Submains and Final-Subcircuit Roles](day-27-consumer-mains-submains-and-final-subcircuit-roles.md)

@@ -78,12 +78,12 @@ These blocks introduce no unnecessary new electrical theory. Each must include t
 - [x] [Day 24 — Switchboard functional areas, accessibility and identification](modules/day-24-switchboard-functional-areas-accessibility-and-identification.md)
 - [x] [Day 25 — Wiring systems, mechanical protection and environmental influences](modules/day-25-wiring-systems-mechanical-protection-and-environmental-influences.md)
 - [x] [Day 26 — Rest, visual-recall practice and catch-up](modules/day-26-rest-visual-recall-practice-and-catch-up.md)
-- [ ] Day 27 — Consumer mains, submains and final-subcircuit roles
-- [ ] Day 28 — Week 4 switchboard and wiring-system inspection exercise
+- [x] [Day 27 — Consumer mains, submains and final-subcircuit roles](modules/day-27-consumer-mains-submains-and-final-subcircuit-roles.md)
+- [x] [Day 28 — Week 4 switchboard and wiring-system inspection exercise](modules/day-28-week-4-switchboard-and-wiring-system-inspection-exercise.md)
 
 ### Week 5 — Special locations, appliances and rotating equipment
 
-- [ ] Day 29 — Wet-area risk model and rule-finding workflow
+- [x] [Day 29 — Wet-area risk model and rule-finding workflow](modules/day-29-wet-area-risk-model-and-rule-finding-workflow.md)
 - [ ] Day 30 — Other special locations and additional-condition screening
 - [ ] Day 31 — Fixed appliances, local isolation and connection decisions
 - [ ] Day 32 — Motors, starting conditions and associated protection concepts
