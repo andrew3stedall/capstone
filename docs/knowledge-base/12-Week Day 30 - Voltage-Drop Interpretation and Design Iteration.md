@@ -70,5 +70,5 @@ All examples and option comparisons are original educational constructs. This no
 ## Navigation
 
 - **Previous:** [[12-Week Day 29 - Voltage-Drop Concepts and Calculation Structure]]
-- **Next:** Day 31 — Fault-Loop Reasoning at Concept Level
+- **Next:** [[12-Week Day 31 - Fault-Loop Reasoning at Concept Level]]
 - **Map of content:** [[Circuit Design]]
