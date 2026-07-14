@@ -107,6 +107,6 @@ Submit the closed-note workflows, three diagrams, the corrected error log and on
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 33 - Rest Retrieval and Formula-Selection Correction]]
 - **Previous:** [Day 32 — Coordination, Selectivity and Upstream/Downstream Consequences](day-32-coordination-selectivity-and-upstream-downstream-consequences.md)
-- **Next:** Day 34 — Integrated Protection, Conductor and Voltage Scenario
+- **Next:** [Day 34 — Integrated Protection, Conductor and Voltage Scenario](day-34-integrated-protection-conductor-and-voltage-scenario.md)
 
 All tasks are original educational exercises. Exact methods, values and criteria remain `reference_check_required`. This module is not `technically-reviewed`.
