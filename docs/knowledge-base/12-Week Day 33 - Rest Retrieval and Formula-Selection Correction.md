@@ -60,5 +60,5 @@ This original note remains `reference_check_required` and is not `technically-re
 ## Navigation
 
 - **Previous:** [[12-Week Day 32 - Coordination Selectivity and Upstream-Downstream Consequences]]
-- **Next:** Day 34 — Integrated Protection, Conductor and Voltage Scenario
+- **Next:** [[12-Week Day 34 - Integrated Protection Conductor and Voltage Scenario]]
 - **Map of content:** [[Learning and Assessment]]
