@@ -85,5 +85,5 @@ This note uses original explanations, workflows, diagrams and scenarios. It does
 ## Navigation
 
 - **Previous:** [[12-Week Day 08 - Circuit Quantities Load Reasoning and Prerequisite Calculation Check]]
-- **Next:** Day 10 — Protective-Device Roles and Protection Boundaries
+- **Next:** [[12-Week Day 10 - Protective-Device Roles and Protection Boundaries]]
 - **Map of content:** [[Protection Fundamentals]]
