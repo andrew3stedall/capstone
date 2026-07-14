@@ -76,7 +76,7 @@ Recovery days are planned learning blocks, not missing content. They must:
 
 - [x] [Day 8 — Circuit quantities, load reasoning and prerequisite calculation check](modules/day-08-circuit-quantities-load-reasoning-and-prerequisite-calculation-check.md)
 - [x] [Day 9 — Overload, short-circuit and fault-current distinctions](modules/day-09-overload-short-circuit-and-fault-current-distinctions.md)
-- [ ] Day 10 — Protective-device roles and protection boundaries
+- [x] [Day 10 — Protective-device roles and protection boundaries](modules/day-10-protective-device-roles-and-protection-boundaries.md)
 - [ ] Day 11 — RCD purpose, limitations and interaction with other protection
 - [ ] Day 12 — Rest, retrieval and misconception repair
 - [ ] Day 13 — Protection-selection evidence workflow using original scenarios
