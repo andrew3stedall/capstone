@@ -2,7 +2,11 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-15
+quality_improvement_pass:
+  completed: true
+  completed_on: 2026-07-15
+  pass_number: 1
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -10,7 +14,7 @@ technical_reviewer: pending
 
 # Day 09 - Complete Cable-Selection Workflow
 
-Day 9 turns the Day 8 demand result into a traceable cable-selection process. The central discipline is to preserve the full chain from circuit facts and protective-device choice through corrected current-carrying capacity, voltage drop, fault performance, installation suitability and final documentation.
+Day 9 converts the Day 8 demand result into an evidence-led cable-selection decision. It treats cable selection as a dependent chain rather than a size lookup.
 
 ## Learning module
 
@@ -23,6 +27,89 @@ Day 9 turns the Day 8 demand result into a traceable cable-selection process. Th
 - [[Control Switching and Protection]]
 - [[Wiring Rules and Design]]
 
+## Core workflow
+
+Use **S-E-L-E-C-T**:
+
+- **Scope** the circuit and operating cases.
+- **Establish** the evidence ledger.
+- **Locate** authorised source paths.
+- **Evaluate** candidate coordination.
+- **Check** every remaining constraint.
+- **Track** changes and state a bounded conclusion.
+
+```mermaid
+flowchart LR
+    A[Scope] --> B[Evidence ledger]
+    B --> C[Source paths]
+    C --> D[Candidate coordination]
+    D --> E[Remaining constraints]
+    E --> F[Bounded conclusion]
+    F --> G{Condition changed?}
+    G -->|Yes| B
+    G -->|No| H[Retain documented result]
+```
+
+The loop is important: a changed load, route, source, device or terminal condition reopens affected checks.
+
+## Terminology
+
+- **Design current:** current derived for the applicable load and operating case.
+- **Tabulated capacity:** source value for a defined cable and reference installation condition.
+- **Corrected capacity:** capacity after applicable source-defined adjustments.
+- **Governing segment:** route section imposing the most restrictive relevant condition.
+- **Reopening trigger:** changed evidence requiring earlier checks to be repeated.
+- **Bounded conclusion:** conclusion limited to what the current evidence supports.
+
+## Evidence and claim grades
+
+- **Described:** stated by the scenario.
+- **Supported:** traceable to supplied evidence or an authorised source path.
+- **Verified:** checked by an appropriately qualified person using current authorised material.
+
+This automated note does not establish verified compliance.
+
+## Practical application
+
+Use the mixed-use tenancy submain scenario in the module. Produce:
+
+1. an evidence ledger;
+2. an authorised source-navigation plan;
+3. a two-candidate comparison;
+4. a bounded conclusion identifying unresolved blockers and reopening triggers.
+
+## Assessment relevance
+
+The learner should demonstrate:
+
+- complete circuit scoping before source lookup;
+- distinction between design current, device rating, tabulated capacity and corrected capacity;
+- accurate source-path identification;
+- recognition of the governing route segment;
+- correct use of the conceptual coordination screen without overclaiming it;
+- separate voltage-drop, fault, environmental, mechanical and terminal checks;
+- deliberate reopening of downstream checks after changed evidence;
+- explicit limits on what the current evidence proves.
+
+A 12-point rubric scores scope, evidence classification, source path, coordination, constraint coverage and bounded conclusion. Invented source values, omitted material route conditions, treating thermal coordination as compliance, or authorising field action are critical errors.
+
+## Misconceptions to track
+
+- Cable size is selected from load current alone.
+- A nominal conductor size has one universal current rating.
+- The longest route segment always governs.
+- One correction factor is enough whenever several influences coexist.
+- A protective-device ampere rating fully describes the device.
+- Passing current capacity proves voltage drop and fault protection.
+- Neutral loading can always be ignored.
+- A larger cable always fits terminals and containment.
+- Alternate generation automatically reduces conductor requirements.
+- Missing route or fault data may be replaced with favourable assumptions.
+
+## Safety boundary
+
+This is a paper-based educational model. It does not authorise live access, switching, isolation, testing, alteration, installation, energisation, approval, certification or verification. Stop when load, source, route, device, fault or terminal evidence is unresolved and the conclusion depends on it.
+
 ## Related concepts
 
 - [[Four-Week Capstone Learning Plan]]
@@ -32,65 +119,6 @@ Day 9 turns the Day 8 demand result into a traceable cable-selection process. Th
 - [[Earthing Bonding and MEN]]
 - [[Alternative Supplies and Generation]]
 - [[AS-NZS-3000-2018-Index]]
-
-## Cable-selection evidence model
-
-A defensible selection connects:
-
-1. **circuit facts** — load, voltage, phase, duty, route, length, environment and source cases;
-2. **design current** — derived from a traceable maximum-demand or equipment-current basis;
-3. **protective device** — type, rating or setting, characteristics and source suitability;
-4. **wiring system** — cable construction, conductor material, insulation and installation method;
-5. **tabulated capacity** — obtained from the applicable authorised source and reference conditions;
-6. **correction factors** — every relevant thermal, grouping, insulation, enclosure, soil or environmental influence;
-7. **corrected capacity** — calculated with the authorised factor-combination method;
-8. **coordination** — load, device and conductor relationship established without treating it as the only check;
-9. **voltage drop** — assessed separately for the circuit and installation context;
-10. **fault performance** — disconnection, fault path, prospective current and thermal withstand checked where required;
-11. **physical suitability** — mechanical protection, environment, containment, bending and terminals resolved;
-12. **bounded conclusion** — verified evidence, assumptions and unresolved requirements recorded.
-
-## Practical application
-
-Use the mixed-use tenancy submain scenario in the linked module. Build a circuit fact sheet, identify the authorised source path, compare at least two candidate cable or route options and write a bounded conclusion.
-
-The module uses the **C-A-B-L-E** workflow:
-
-- **Capture** the circuit;
-- **Assign** current and protection;
-- **Build** the installation model;
-- **Locate** and correct capacity;
-- **Evaluate** every remaining constraint.
-
-## Assessment relevance
-
-The learner should be able to demonstrate:
-
-- complete circuit fact capture before table selection;
-- distinction between design current, device rating, tabulated capacity and corrected capacity;
-- correct source navigation for cable and installation method;
-- recognition of every applicable correction condition;
-- traceable coordination reasoning;
-- separate voltage-drop and fault-performance checks;
-- recognition of environmental, mechanical and termination constraints;
-- deliberate iteration when a candidate fails;
-- explicit limits on what the current evidence proves.
-
-A successful thermal-capacity screen does not by itself establish cable suitability or compliance.
-
-## Misconceptions to track
-
-- Cable size is selected from load current alone.
-- A nominal conductor size has one universal current rating.
-- The first route segment determines the installation method.
-- One correction factor is enough when several adverse conditions coexist.
-- A protective-device ampere rating fully describes the device.
-- Passing current-carrying capacity proves voltage drop is acceptable.
-- Passing overload coordination proves fault protection.
-- Neutral current can always be ignored.
-- A larger cable always fits the selected terminals and containment.
-- Solar generation can automatically reduce conductor requirements.
-- Missing route or fault data may be replaced with favourable assumptions.
 
 ## Navigation
 
@@ -103,11 +131,11 @@ A successful thermal-capacity screen does not by itself establish cable suitabil
 
 - AS/NZS 3000:2018, current authorised copy and applicable amendments required.
 - AS/NZS 3008.1.1, current authorised edition and applicable amendments required.
-- Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
+- Current legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
 - [Learning Design](../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
-Exact cable-selection requirements, definitions, installation methods, current-carrying-capacity data, correction factors, factor-combination methods, protective-device characteristics, voltage-drop criteria, fault and disconnection requirements, thermal-withstand methods, neutral treatment, environmental suitability, mechanical protection, alternate-supply treatment and jurisdiction-specific acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
+Exact classifications, capacities, correction factors, combination methods, protective-device characteristics, voltage-drop criteria, fault requirements, terminal limits and jurisdiction-specific acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
