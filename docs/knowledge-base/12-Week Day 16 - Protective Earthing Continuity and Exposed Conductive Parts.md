@@ -91,5 +91,5 @@ This note uses original summaries, workflows, scenarios and assessment structure
 ## Navigation
 
 - **Previous:** [[12-Week Day 15 - Earthing Terminology and Component Roles]]
-- **Next:** Day 17 — Equipotential Bonding Purpose and Boundary Reasoning
+- **Next:** [[12-Week Day 17 - Equipotential Bonding Purpose and Boundary Reasoning]]
 - **Map of content:** [[Protective Earthing]]
