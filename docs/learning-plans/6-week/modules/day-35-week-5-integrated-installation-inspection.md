@@ -89,4 +89,4 @@ State I-N-T-E-G-R-A-T-E; distinguish four evidence categories; name five interac
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 34 — Multiple and Alternative Supplies Awareness](day-34-multiple-and-alternative-supplies-awareness.md)
 - **Knowledge note:** [[Six-Week Day 35 - Week 5 Integrated Installation Inspection]]
-- **Next:** Day 36 — Verification Purpose, Evidence and Visual Inspection
+- **Next:** [Day 36 — Verification Purpose, Evidence and Visual Inspection](day-36-verification-purpose-evidence-and-visual-inspection.md)

@@ -93,9 +93,9 @@ These blocks introduce no unnecessary new electrical theory. Each must include t
 
 ### Week 6 — Verification, fault finding and assessment readiness
 
-- [ ] Day 36 — Verification purpose, evidence and visual inspection
-- [ ] Day 37 — Mandatory test purposes and safe test preconditions
-- [ ] Day 38 — Test sequence, expected evidence and result interpretation
+- [x] [Day 36 — Verification purpose, evidence and visual inspection](modules/day-36-verification-purpose-evidence-and-visual-inspection.md)
+- [x] [Day 37 — Mandatory test purposes and safe test preconditions](modules/day-37-mandatory-test-purposes-and-safe-test-preconditions.md)
+- [x] [Day 38 — Test sequence, expected evidence and result interpretation](modules/day-38-test-sequence-expected-evidence-and-result-interpretation.md)
 - [ ] Day 39 — Systematic fault-finding workflow and evidence control
 - [ ] Day 40 — Rest, final catch-up and readiness triage
 - [ ] Day 41 — Full mock assessment with design, inspection and verification components
