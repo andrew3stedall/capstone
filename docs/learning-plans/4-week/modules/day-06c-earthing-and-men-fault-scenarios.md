@@ -6,14 +6,17 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
+quality_pass_completed: true
+quality_pass_completed_on: 2026-07-14
 standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
+practical_authority: none
 prerequisites:
   - Day 6A — Earthing Terminology and Component Roles
   - Day 6B — MEN Fault-Current Path
@@ -26,12 +29,12 @@ related_simulations: []
 
 # Day 6C — Earthing and MEN Fault Scenarios
 
-> **Source and safety notice:** This module teaches paper-based diagnosis of conceptual earthing and MEN fault scenarios. It is not a live testing, isolation, repair or commissioning procedure. Exact MEN arrangements, connection locations, conductor requirements, test methods, expected readings, device operating conditions, disconnection times, touch-voltage criteria, alternate-supply requirements, exceptions and clause references remain `reference_check_required`. This module is not `technically-reviewed`.
+> **Source and safety notice:** This module teaches paper-based diagnosis of conceptual earthing and MEN fault scenarios. It is not a live testing, isolation, repair or commissioning procedure. Exact MEN arrangements, connection locations, conductor requirements, test methods, expected readings, device operating conditions, disconnection times, touch-voltage criteria, alternate-supply requirements, exceptions and clause references remain `reference_check_required`. This module is not `technically-reviewed` and grants no practical authority.
 
 ## Navigation
 
 - **Previous:** [Day 6B — MEN Fault-Current Path](./day-06b-men-fault-current-path.md)
-- **Next:** Day 7 — Week 1 Consolidation and Competency Check
+- **Next:** [Day 7 — Week 1 Consolidation and Competency Check](./day-07-week-1-consolidation-and-competency-check.md)
 
 ## 1. Outcome and entry check
 
@@ -39,13 +42,15 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. classify a described defect as missing, open, loose, high-resistance, misplaced or supply-context dependent;
-2. trace how that defect changes the conceptual fault-current path;
-3. distinguish the immediate electrical consequence from the protective consequence and the possible human-contact consequence;
-4. identify the evidence needed before concluding that a protective device will operate as required;
-5. compare at least four MEN-related scenarios without treating neutral, protective earth, bonding and the earthing electrode as interchangeable;
-6. state a safe stop or escalation condition for every scenario;
-7. mark exact technical claims that require checking against current authorised sources.
+1. classify a described defect as open, high-resistance, misplaced, unidentified or supply-context dependent;
+2. redraw the normal-current path and the fault-current path without treating them as the same path;
+3. identify the exact path segment changed by the defect;
+4. separate the immediate electrical consequence, protective consequence and possible human-contact consequence;
+5. grade a conclusion as **described**, **supported** or **verified**, and explain why a stronger grade is not yet justified;
+6. identify the evidence required before claiming a protective device will operate as required;
+7. compare at least four MEN-related scenarios without treating neutral, protective earth, bonding and the earthing electrode as interchangeable;
+8. state a safe stop or escalation condition for every scenario; and
+9. mark exact technical claims that require checking against current authorised sources.
 
 ### Entry check
 
@@ -57,22 +62,24 @@ Answer without notes:
 4. Why can a misplaced neutral-earth connection alter current paths even when equipment appears to operate?
 5. Why must alternate or multiple supplies be identified before applying a familiar MEN sketch?
 
-Record confidence. Any confident wrong answer goes into the error log before continuing.
+Record both the answer and confidence. A confident wrong answer is a priority error-log item because it can produce unsafe certainty.
 
 ## 2. Why it matters
 
-Many dangerous defects do not announce themselves during normal operation. A metal-cased appliance may still run while its protective earthing path is ineffective. A loose connection may carry too little current during a fault to produce the expected protective response. A misplaced neutral-earth connection may create unintended parallel paths. An alternate source may keep part of an installation energised after an assumed supply path is opened.
+Many protective-path defects are hidden during normal operation. Equipment may still function while a protective earthing conductor is open, a connection is deteriorated or an unintended neutral-earth connection changes current distribution. An alternate source may also invalidate an assumed isolation or fault-loop model.
 
-The assessment skill is therefore not merely naming the defect. A defensible response must explain:
+A defensible assessment response must therefore do more than name a defect. It must explain:
 
 1. what changed;
-2. which path segment is affected;
-3. what may happen during a fault;
-4. which protective outcome is uncertain;
-5. what evidence is missing;
-6. when to stop and escalate.
+2. where the path changed;
+3. what can and cannot be inferred;
+4. which protective outcome remains uncertain;
+5. what evidence is missing; and
+6. when work must stop and be escalated.
 
-![A stick figure diagnoses a broken protective chain one link at a time rather than guessing at the breaker](../../../assets/learning/4-week/day-06c-earthing-and-men-fault-scenarios/diagnose-the-link.svg)
+![A stick figure traces a broken protective chain one link at a time before making a device claim](../../../assets/learning/4-week/day-06c-earthing-and-men-fault-scenarios/diagnose-the-link.svg)
+
+*Caption: Trace the failed relationship before predicting the protective outcome.*
 
 ## 3. Core concepts and terminology
 
@@ -82,150 +89,184 @@ A **defect** is a condition that prevents a component or arrangement from perfor
 
 ### Open circuit
 
-An **open circuit** is a broken conductive path. In a protective earthing path, an open connection can prevent substantial fault current from returning through the intended metallic loop.
+An **open circuit** is a broken conductive path. In a protective earthing path, an open connection can interrupt the intended metallic return loop.
 
 ### High-resistance connection
 
-A **high-resistance connection** is not fully open, but it opposes current more than intended. It may arise from looseness, corrosion, damage or poor contact. The resulting fault current may be lower than expected, and the connection may heat.
+A **high-resistance connection** is not fully open, but opposes current more than intended. It may arise from looseness, corrosion, damage or poor contact. Its effect cannot be quantified without verified evidence.
 
 ### Misplaced connection
 
-A **misplaced connection** is a connection made at the wrong point or in an arrangement where it is not permitted. A misplaced neutral-earth connection can create unintended current paths and undermine assumptions used for protection and testing.
+A **misplaced connection** is a connection shown or made at an incorrect or unverified location. A misplaced neutral-earth connection may create unintended parallel current paths and invalidate assumptions used for protection or testing.
+
+### Unidentified conductor or component
+
+An **unidentified conductor or component** is one whose role has not been established from reliable evidence. Colour, position or familiarity alone does not prove function.
 
 ### Parallel path
 
-A **parallel path** is an additional conductive route between two points. Current divides among available paths according to their impedances. An unintended parallel path can place normal current on conductive parts or conductors not intended to carry it.
+A **parallel path** is an additional conductive route between two points. Current may divide among available paths according to their impedances. A conceptual diagram can show that an unintended route may exist, but not how much current it carries without further evidence.
 
 ### Supply context
 
-**Supply context** means the complete source arrangement relevant to the installation, including utility supply, generators, inverters, batteries, transfer equipment and separate-building supplies. A familiar diagram is unsafe if it omits an energising source.
+**Supply context** means the complete source arrangement relevant to the installation, including utility supply, generators, inverters, batteries, transfer equipment and separate-building supplies. An omitted source can invalidate both isolation and fault-path assumptions.
 
-### Protective consequence
+### Consequence layers
 
-A **protective consequence** is the effect a defect has on the ability of protection to limit fault duration or hazardous touch conditions. It is separate from the immediate fault itself.
+- **Immediate electrical consequence:** what changes in the circuit or conductive path.
+- **Protective consequence:** what becomes uncertain about limiting fault magnitude or duration.
+- **Possible contact consequence:** how a person could be exposed to an unintended potential difference.
 
-![A stick figure spots a second power source hiding behind a switchboard drawing](../../../assets/learning/4-week/day-06c-earthing-and-men-fault-scenarios/find-every-source.svg)
+### Claim grades
+
+- **Described:** follows directly from the scenario statement.
+- **Supported:** follows from the scenario plus a complete conceptual path and identified assumptions.
+- **Verified:** requires authorised inspection, testing, source confirmation and acceptance criteria. This module does not produce verified installation claims.
 
 ## 4. Rule-finding workflow
 
-Use the **D-P-E-S** workflow: **Defect, Path, Evidence, Stop**.
+Use the **D-I-A-G-N-O-S-E** workflow:
 
-1. **Defect — describe only what is given.** State the failed or uncertain component and classify the defect. Do not invent measurements.
-2. **Path — redraw the affected loop.** Trace normal current first, then the fault-current path. Mark where continuity is lost, impedance is increased or a new parallel path appears.
-3. **Effect — separate consequences.** Record the immediate circuit effect, expected protective effect and possible contact-risk effect.
-4. **Evidence — identify what would prove the conclusion.** Examples include verified arrangement, continuity evidence, conductor identity, source configuration, protective-device data and authorised acceptance criteria.
-5. **Source — check the governing requirement.** Use the current authorised standard, amendments, regulator or network rules, manufacturer instructions and approved RTO procedures.
-6. **Stop — state the limit of the answer.** Escalate when the installation arrangement, energisation state, supply source, connection location or required procedure is uncertain.
+1. **D — Describe the given facts.** Separate stated facts from assumptions and missing information.
+2. **I — Identify the component and intended role.** Do not infer function from colour or location alone.
+3. **A — Analyse normal and fault paths separately.** Complete each loop back to its source.
+4. **G — Grade the defect.** Classify it as open, high-resistance, misplaced, unidentified or context-dependent.
+5. **N — Note the changed segment.** Mark exactly where continuity, impedance, identity or topology changes.
+6. **O — Outline consequences in layers.** Separate immediate, protective and possible contact consequences.
+7. **S — Seek evidence and sources.** Identify the arrangement, continuity, source, device and authorised requirement evidence needed.
+8. **E — End at the authority boundary.** State the bounded conclusion, review flag and stop condition.
 
 ```mermaid
 flowchart TD
-    A["Describe the stated defect"] --> B["Classify: open, resistive, misplaced or context-dependent"]
-    B --> C["Trace normal path and fault path separately"]
-    C --> D["Mark the changed path segment"]
-    D --> E["Separate circuit, protection and contact-risk effects"]
-    E --> F{"Enough verified evidence?"}
-    F -->|"No"| G["Mark reference_check_required and stop"]
-    F -->|"Yes"| H["State a bounded conclusion with source record"]
+    A["Scenario facts"] --> B["Identify component and intended role"]
+    B --> C["Draw normal path and fault path separately"]
+    C --> D["Classify the defect"]
+    D --> E["Mark the changed segment"]
+    E --> F["Separate immediate, protective and contact consequences"]
+    F --> G{"Evidence grade?"}
+    G -->|"Described or supported only"| H["State bounded conclusion and missing evidence"]
+    G -->|"Verified evidence available under authorised process"| I["Compare with current authorised criteria"]
+    H --> J["Stop or escalate"]
+    I --> J
 ```
 
-This workflow prevents two weak answers: “the breaker trips” without proving why, and “it is unsafe” without identifying the failed relationship.
+The diagram shows that a path explanation precedes a protective-device claim. It also prevents a paper scenario from being mislabelled as a verified installation result.
 
 ## 5. Visual model or worked example
 
-### Scenario comparison model
+### Evidence-to-conclusion ladder
 
 ```mermaid
 flowchart LR
-    S["Active-to-metal fault"] --> PE["Protective earthing path"]
-    PE --> O{"Defect type"}
-    O -->|"Open"| A["Loop interrupted"]
-    O -->|"High resistance"| B["Loop impedance increased"]
-    O -->|"Misplaced link"| C["Unintended parallel path possible"]
-    O -->|"Unseen source"| D["Energisation assumption invalid"]
-    A --> R["Protective outcome uncertain"]
-    B --> R
-    C --> R
-    D --> R
+    A["Component identity"] --> B["Connection location"]
+    B --> C["Complete path"]
+    C --> D["Continuity or impedance evidence"]
+    D --> E["Protective-device characteristics"]
+    E --> F["Authorised acceptance criteria"]
+    F --> G["Verified outcome claim"]
 ```
 
-### Worked reasoning example: open protective earthing conductor
+Each rung is necessary for a verified protective-outcome claim. Missing lower-rung evidence cannot be replaced by confidence or familiarity.
 
-Scenario: an active conductor contacts a metal enclosure, but the protective earthing conductor between the enclosure and the installation earthing system is open.
+### Worked example: open protective earthing conductor
 
-A strong response is:
+Scenario: an active conductor contacts a metal enclosure, but the protective earthing conductor between the enclosure and the installation earthing system is described as open.
 
-1. **Defect:** the protective earthing conductor has lost continuity.
-2. **Path change:** the intended metallic return loop is interrupted at that conductor.
-3. **Immediate consequence:** the enclosure can become connected to active potential through the fault.
-4. **Protective consequence:** sufficient fault current for the expected overcurrent-device response cannot be assumed.
-5. **Contact-risk consequence:** a person touching the enclosure and another conductive reference may become part of an unintended path.
-6. **Evidence needed:** verified isolation state, conductor identification, approved continuity test procedure, suitable instrument, device data and authorised acceptance criteria.
-7. **Stop condition:** do not energise, touch, test or repair based on this paper exercise; isolate and escalate under approved procedures.
+1. **Given fact:** the conductor is described as open.
+2. **Intended role:** provide part of the intended metallic fault-current return path.
+3. **Path change:** the intended loop is interrupted at the stated conductor.
+4. **Immediate consequence:** the enclosure may remain connected to the active conductor through the fault.
+5. **Protective consequence:** sufficient current for the expected overcurrent-device response cannot be assumed.
+6. **Possible contact consequence:** a person touching the enclosure and another conductive reference may form part of an unintended path.
+7. **Claim grade:** supported conceptual conclusion, not a verified installation finding.
+8. **Evidence needed:** verified source arrangement, conductor identity, authorised continuity evidence, device data and current acceptance criteria.
+9. **Stop condition:** do not energise, touch, test or repair from this paper exercise; escalate under approved procedures.
 
-No exact current, voltage, time or test value is asserted because those details are not verified here.
+No exact current, voltage, operating time or test value is asserted.
 
-### Four-scenario comparison
+### Comparison set
 
-| Scenario | Path change | Defensible conceptual conclusion | Evidence still required |
+| Scenario | Changed relationship | Defensible conceptual conclusion | Evidence still required |
 |---|---|---|---|
-| Open protective earthing conductor | Intended metallic return path interrupted | Expected automatic disconnection cannot be assumed | Continuity evidence, arrangement, device and authorised criteria |
-| Loose or corroded protective connection | Loop impedance may increase and heating may occur | Fault current and device response may differ from expectation | Approved inspection/test method, readings and limits |
-| Misplaced neutral-earth connection | Unintended parallel current path may exist | Normal current may flow on unintended conductive routes | Exact permitted arrangement, connection locations and source context |
-| Unrepresented generator or inverter | Original source and return model is incomplete | Isolation and fault-path assumptions may be invalid | Source topology, switching, neutral treatment and manufacturer/network requirements |
+| Open protective earthing conductor | Intended metallic return path interrupted | Expected automatic disconnection cannot be assumed | Identity, continuity, arrangement, device and criteria evidence |
+| Loose or deteriorated protective connection | Path impedance may be higher or unstable | Fault current and device response may differ from expectation | Approved inspection/test method, readings and limits |
+| Misplaced neutral-earth connection | Unintended parallel path may exist | Normal or fault current may use unintended conductive routes | Permitted topology, connection locations and source context |
+| Unrepresented generator or inverter | Original source model is incomplete | Isolation and fault-path assumptions may be invalid | Complete source topology, switching and neutral treatment |
 
-The table is an original reasoning aid, not a standards table.
+This is an original reasoning table, not a reproduced standards table.
 
 ## 6. Practical application
 
-### Fault-scenario cards
+### Four-scenario diagnostic set
 
-Create four paper cards. On each card, draw a simple installation and introduce one defect:
-
-1. protective earthing conductor disconnected at equipment;
-2. loose main earthing terminal connection;
-3. neutral-earth connection shown at an uncertain downstream point;
-4. inverter or generator added without updating the source diagram.
-
-For each card, complete this record:
+For each fictional paper scenario, complete this record:
 
 ```text
-Stated defect:
-Defect classification:
-Normal current path:
+Stated facts:
+Assumptions:
+Missing information:
+Component and intended role:
+Normal-current path:
 Fault-current path before defect:
 Fault-current path after defect:
-Immediate circuit consequence:
+Defect classification:
+Changed segment:
+Immediate electrical consequence:
 Protective consequence:
-Possible contact-risk consequence:
-Evidence required:
+Possible contact consequence:
+Current claim grade:
+Evidence required to strengthen the claim:
 Authorised source to check:
 Stop or escalation condition:
 Confidence:
 ```
 
-Then swap cards with another learner or review them after a ten-minute delay. The reviewer must challenge any conclusion containing “will trip”, “safe”, “compliant” or “isolated” unless the evidence chain is explicit.
+Use these scenarios:
 
-### Assessment response frame
+1. protective earthing conductor described as disconnected at equipment;
+2. main earthing terminal connection described as loose and corroded;
+3. neutral-earth connection shown at an uncertain downstream point; and
+4. inverter supply added without an updated source diagram.
 
-Use this order in a written or oral response:
+### Worked-example fading
 
-> The stated defect is ____. It changes the protective path by ____. Therefore ____ cannot be assumed. The main risk is ____. I would need ____ evidence and the current authorised requirement before concluding ____. I would stop and escalate if ____.
+- **Round 1:** complete the record with the worked example visible.
+- **Round 2:** use only the D-I-A-G-N-O-S-E headings.
+- **Round 3:** diagnose a changed scenario from a blank page within eight minutes.
 
-This frame rewards process, safety and source awareness rather than unsupported certainty.
+A reviewer must challenge any use of **will trip**, **safe**, **compliant**, **isolated**, **correct** or **verified** unless the evidence chain and authority are explicit.
+
+### Assessment rubric — 12 points
+
+Score each category 0, 1 or 2:
+
+1. component role identified accurately;
+2. normal and fault paths traced completely;
+3. defect and changed segment classified correctly;
+4. consequence layers separated;
+5. evidence and claim grade controlled; and
+6. stop condition and source boundary stated.
+
+A safety-critical error—such as recommending energisation, live investigation or repair from the paper scenario—requires remediation regardless of total score.
+
+### Varied re-attempt
+
+Change one condition in the weakest scenario: add a second source, make conductor identity uncertain, move the apparent connection point or remove device data. Re-answer without copying the first response and explain which conclusion changed.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- saying the fault current “goes to ground” without completing the loop;
-- treating a loose connection as equivalent to a sound connection because continuity may still appear intermittently;
+- saying fault current “goes to ground” without completing the loop;
+- treating a loose connection as equivalent to a sound connection;
 - assuming an RCD makes an open protective earthing conductor acceptable;
-- treating neutral and protective earth as interchangeable because they are related at a designated point;
-- assuming any neutral-earth link improves safety;
+- treating neutral, protective earth, bonding and the electrode as interchangeable;
+- assuming any neutral-earth connection improves safety;
 - concluding that normal equipment operation proves the protective path is effective;
 - ignoring generators, inverters, batteries or separate supplies;
-- recommending a test without stating isolation, competency, instrument and approved-procedure requirements;
-- inventing exact values, times or clauses from memory.
+- converting a conceptual diagnosis into a live test or repair instruction;
+- inventing exact values, times or clauses from memory; and
+- using **verified** when only scenario facts and a conceptual model are available.
 
 ### Safety checkpoint
 
@@ -236,27 +277,28 @@ Stop and obtain qualified guidance when:
 - the MEN connection location or conductor identity is uncertain;
 - isolation and proving de-energised requirements are unresolved;
 - a live test appears necessary;
-- damaged, loose, overheated or corroded connections are suspected;
-- the conclusion depends on an unverified clause, value, test method or acceptance limit.
+- damaged, loose, overheated or corroded connections are suspected; or
+- the conclusion depends on an unverified clause, value, method or acceptance limit.
 
-A paper diagnosis is not permission to interact with an installation. Electrical testing, isolation, repair and verification require competency, suitable equipment, current authorised procedures and jurisdiction-specific controls.
+This module authorises no switching, opening, isolation, fault creation, testing, resetting, disconnection, reconnection, alteration, repair, energisation, commissioning or verification.
 
 ## 8. Retrieval and next links
 
 Answer without notes:
 
-1. What four defect categories were used in this module?
-2. Apply D-P-E-S to an open protective earthing conductor.
-3. Why can a high-resistance connection be dangerous even if the circuit is not fully open?
-4. How can a misplaced neutral-earth connection create an unintended parallel path?
-5. Why does normal equipment operation not prove the protective system is sound?
-6. What additional questions arise when a generator or inverter is present?
-7. Which words in an assessment answer should trigger an evidence check?
-8. Name three conditions that require stopping and escalating.
+1. Name the eight D-I-A-G-N-O-S-E steps.
+2. Distinguish open, high-resistance, misplaced, unidentified and context-dependent defects.
+3. Why must normal-current and fault-current paths be drawn separately?
+4. What is the difference between an immediate, protective and possible contact consequence?
+5. What separates a supported claim from a verified claim?
+6. Why can normal equipment operation coexist with a defective protective path?
+7. How can an omitted alternate source invalidate the diagnosis?
+8. Name three words that should trigger an evidence check.
+9. State three stop conditions.
 
 ### Readiness check
 
-Proceed when the learner can diagnose four scenarios from a blank page, trace the changed path in each, separate circuit/protection/contact-risk consequences, identify missing evidence and state a safe stop condition without inventing values.
+Proceed when the learner can diagnose four varied scenarios from a blank page, complete both current paths, identify the changed segment, separate consequence layers, control the claim grade, identify missing evidence and state a safe stop condition without inventing values.
 
 ### Related vault notes
 
@@ -276,7 +318,7 @@ Return to [Day 6B — MEN Fault-Current Path](./day-06b-men-fault-current-path.m
 
 ### Next block
 
-Proceed to **Day 7 — Week 1 Consolidation and Competency Check** to retrieve and apply navigation, safety, protection, RCD and earthing concepts as an integrated set.
+Proceed to [Day 7 — Week 1 Consolidation and Competency Check](./day-07-week-1-consolidation-and-competency-check.md) to retrieve and apply source navigation, safety, protection, RCD and earthing concepts as an integrated set.
 
 ### References and currency notice
 
