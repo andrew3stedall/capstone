@@ -249,7 +249,7 @@ Submit the entry check with confidence ratings, all three checkpoint tasks, the 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 14 - Week 2 Protection Integration Checkpoint]]
 - **Previous:** [Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios](day-13-protection-selection-evidence-workflow-using-original-scenarios.md)
-- **Next:** Day 15 — Earthing Terminology and Component Roles
+- **Next:** [Day 15 — Earthing Terminology and Component Roles](day-15-earthing-terminology-and-component-roles.md)
 
 ### Reference and currency notice
 
