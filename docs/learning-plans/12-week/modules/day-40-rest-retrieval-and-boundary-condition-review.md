@@ -110,6 +110,6 @@ After at least one sleep period, repeat a five-minute boundary map using a diffe
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 40 - Rest Retrieval and Boundary-Condition Review]]
 - **Previous:** [Day 39 — Accessibility, Labelling and Original Defect-Recognition Scenarios](day-39-accessibility-labelling-and-original-defect-recognition-scenarios.md)
-- **Next:** Day 41 — Switchboard Inspection Decision Workshop
+- **Next:** [Day 41 — Switchboard Inspection Decision Workshop](day-41-switchboard-inspection-decision-workshop.md)
 
 This recovery module is original and adds no new electrical theory. It remains `review-required`, `reference_check_required` and not `technically-reviewed`.
