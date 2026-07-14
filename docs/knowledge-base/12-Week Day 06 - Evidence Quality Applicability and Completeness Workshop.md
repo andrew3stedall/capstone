@@ -81,5 +81,5 @@ This is original educational content organised around evidence decisions rather 
 ## Navigation
 
 - **Previous:** [[12-Week Day 05 - Rest Retrieval and Source-Navigation Correction]]
-- **Next:** Day 7 — Week 1 Consolidation and Individual Remediation Plan
+- **Next:** [[12-Week Day 07 - Week 1 Consolidation and Individual Remediation Plan]]
 - **Map of content:** [[Standards Navigation]]
