@@ -76,4 +76,4 @@ This is original educational organisation and wording. It does not reproduce sta
 ## Navigation
 
 - **Previous:** [[12-Week Day 03 - Roles Authority Supervision and Practical Stop Conditions]]
-- **Next:** Day 5 — Rest, Retrieval and Source-Navigation Correction
+- **Next:** [[12-Week Day 05 - Rest Retrieval and Source-Navigation Correction]]
