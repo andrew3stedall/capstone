@@ -20,10 +20,10 @@ pull_request: 6
 ## Current state
 
 - Canonical sequence: 42 scheduled blocks across six weeks.
-- Completed dedicated modules: Days 1–11.
+- Completed dedicated modules: Days 1–12.
 - Current block: none.
 - Content-development phase: active.
-- Exactly one next increment: Day 12 — Rest, retrieval and misconception repair.
+- Exactly one next increment: Day 13 — Earthing defect scenarios and consequence analysis.
 
 ## Completed increments
 
@@ -41,49 +41,50 @@ pull_request: 6
 | Day 9 — MEN arrangement and normal-current paths | Added the R-E-T-U-R-N workflow, source-to-load-to-source loop reasoning, separation of normal and protective paths, changed-source transfer, six-category rubric, accessible SVG and vault note. |
 | Day 10 — Earth-fault current path and disconnection reasoning | Added the L-O-O-P-S workflow, three claim levels, evidence-gated loop reasoning, worked-example fading, changed-condition transfer, six-category rubric, accessible SVG and vault note. |
 | Day 11 — Protective earthing continuity and equipotential bonding concepts | Added the B-O-N-D-S workflow, exposed/extraneous part distinctions, five claim layers, role comparison, changed-condition transfer, six-category rubric, accessible SVG and vault note. |
+| Day 12 — Rest, retrieval and misconception repair | Added the R-E-P-A-I-R recovery workflow, closed-note retrieval, six error categories, three-repair and 30-minute limits, varied re-attempts, fatigue stop conditions, readiness outcomes, accessible SVG and vault note without unnecessary new theory. |
 
-## Latest increment — Day 11
+## Latest increment — Day 12
 
 Completed work:
 
-- created the full eight-beat protective-earthing-continuity and equipotential-bonding module;
-- defined observable objectives for conductive-part classification, protective-role distinction and evidence control;
-- introduced the original B-O-N-D-S workflow;
-- separated identity, connection, continuity, condition and suitability into five claim layers;
-- added two valid Mermaid diagrams for evidence gates and protective-role comparison;
-- created a fictional worked example, part-and-purpose matrix, worked-example fading and changed-condition transfer;
-- added a six-category, 12-point educational rubric with critical zero controls;
-- created an original accessible black-and-white SVG contrasting protective earthing and bonding roles;
+- created the full eight-beat rest, retrieval and misconception-repair module;
+- defined observable retrieval, error-classification, remediation and readiness objectives;
+- introduced the original R-E-P-A-I-R workflow;
+- separated terminology, path, protection-role, evidence, confidence and safety-boundary errors;
+- added two valid Mermaid diagrams for prioritised repair and changed-scenario transfer;
+- limited the block to 30 minutes, three repairs and one bounded catch-up task;
+- created a six-category, 12-point educational rubric with critical zero controls;
+- created an original accessible black-and-white SVG showing one reasoning link repaired before progression;
 - created the corresponding Obsidian knowledge-base note with prerequisites, related concepts, assessment relevance and reciprocal navigation;
-- linked Day 11 directly from the master plan;
-- preserved explicit source-currency, practical-authority, copyright and technical-review boundaries.
+- linked Day 12 directly from the master plan;
+- preserved source-currency, fatigue, practical-authority, copyright and technical-review boundaries.
 
 ## Files created or updated in the latest increment
 
-- `docs/learning-plans/6-week/modules/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts.md`
-- `docs/assets/learning/6-week/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts/role-before-continuity.svg`
-- `docs/knowledge-base/Six-Week Day 11 - Protective Earthing Continuity and Equipotential Bonding Concepts.md`
+- `docs/learning-plans/6-week/modules/day-12-rest-retrieval-and-misconception-repair.md`
+- `docs/assets/learning/6-week/day-12-rest-retrieval-and-misconception-repair/repair-one-link-before-continuing.svg`
+- `docs/knowledge-base/Six-Week Day 12 - Rest Retrieval and Misconception Repair.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
 - Program status: `active`
-- Days 1–11 content status: `review-required`
-- Day 11 is safety-critical, paper-based educational content and authorises no practical electrical work or testing
-- Exact conductive-part classifications, required earthing and bonding connections, conductor requirements, continuity criteria, test methods, exceptions, official assessment criteria and jurisdiction-specific claims remain `reference_check_required`
+- Days 1–12 content status: `review-required`
+- Day 12 is a safety-aware, paper-based recovery block and authorises no practical electrical work or testing
+- Exact clauses, values, procedures, device behaviour, official assessment criteria and jurisdiction-specific claims remain `reference_check_required`
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
 - No standards tables, figures, systematic clause wording, official assessment material or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7, Day 8, Day 9, Day 10, Day 11
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7, Day 8, Day 9, Day 10, Day 11, Day 12
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 12 — Rest, retrieval and misconception repair**
+**Day 13 — Earthing defect scenarios and consequence analysis**
 
-Create the dedicated eight-beat rest-and-retrieval module without unnecessary new electrical theory, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 12 directly from the master plan, add reciprocal Day 11/Day 12 navigation, and update this status record with exactly one next increment.
+Create the dedicated eight-beat scenario-analysis module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 13 directly from the master plan, add reciprocal Day 12/Day 13 navigation, and update this status record with exactly one next increment.
