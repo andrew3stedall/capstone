@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Balance before belief</title>
+  <desc id="desc">A black-and-white stick figure compares outgoing and returning current cards, checks a neutral-path card and then separates RCD, overcurrent and earthing cards before reaching a bounded conclusion. A shortcut labelled safe is crossed out.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="155" r="32"/>
+    <path d="M105 187v105M105 220l-54 52M105 220l58 34M105 292l-42 82M105 292l47 82"/>
+    <rect x="230" y="84" width="150" height="92" rx="12"/>
+    <rect x="430" y="84" width="150" height="92" rx="12"/>
+    <path d="M380 130h50"/>
+    <path d="M305 176c30 80 130 80 200 0"/>
+    <path d="M305 176c-30 80-130 80-200 0" stroke-dasharray="12 12"/>
+    <rect x="255" y="270" width="140" height="76" rx="12"/>
+    <rect x="420" y="270" width="140" height="76" rx="12"/>
+    <rect x="585" y="270" width="140" height="76" rx="12"/>
+    <path d="M395 308h25M560 308h25"/>
+    <path d="M725 308h70"/>
+    <path d="M780 292l30 16-30 16"/>
+    <rect x="792" y="246" width="130" height="124" rx="14"/>
+    <path d="M585 120l180 70" stroke-dasharray="14 14"/>
+    <path d="M650 135l70 70M720 135l-70 70"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="305" y="119" font-size="23" font-weight="700">OUTGOING</text>
+    <text x="305" y="151" font-size="20">current</text>
+    <text x="505" y="119" font-size="23" font-weight="700">RETURNING</text>
+    <text x="505" y="151" font-size="20">current</text>
+    <text x="325" y="300" font-size="22" font-weight="700">RCD</text>
+    <text x="325" y="327" font-size="17">imbalance</text>
+    <text x="490" y="300" font-size="21" font-weight="700">OVERCURRENT</text>
+    <text x="490" y="327" font-size="17">excess current</text>
+    <text x="655" y="300" font-size="22" font-weight="700">EARTHING</text>
+    <text x="655" y="327" font-size="17">fault path</text>
+    <text x="857" y="284" font-size="22" font-weight="700">BOUNDED</text>
+    <text x="857" y="314" font-size="22" font-weight="700">CONCLUSION</text>
+    <text x="857" y="344" font-size="17">evidence first</text>
+    <text x="678" y="116" font-size="20" font-weight="700">SAFE?</text>
+    <text x="480" y="449" font-size="30" font-weight="700">“A label starts the check; it does not finish the proof.”</text>
+    <text x="480" y="489" font-size="21">Balance the currents, separate the protections, then state the limit.</text>
+  </g>
+</svg>
