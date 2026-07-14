@@ -65,7 +65,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 - [x] [Day 9 — MEN arrangement and normal-current paths](modules/day-09-men-arrangement-and-normal-current-paths.md)
 - [x] [Day 10 — Earth-fault current path and disconnection reasoning](modules/day-10-earth-fault-current-path-and-disconnection-reasoning.md)
 - [x] [Day 11 — Protective earthing continuity and equipotential bonding concepts](modules/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts.md)
-- [ ] Day 12 — Rest, retrieval and misconception repair
+- [x] [Day 12 — Rest, retrieval and misconception repair](modules/day-12-rest-retrieval-and-misconception-repair.md)
 - [ ] Day 13 — Earthing defect scenarios and consequence analysis
 - [ ] Day 14 — Week 2 integrated MEN and protection exercise
 
