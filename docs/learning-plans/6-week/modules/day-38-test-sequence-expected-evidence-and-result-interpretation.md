@@ -90,4 +90,4 @@ State S-E-Q-U-E-N-C-E; define dependency, provenance, validity, criterion and re
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 37 — Mandatory Test Purposes and Safe Test Preconditions](day-37-mandatory-test-purposes-and-safe-test-preconditions.md)
 - **Knowledge note:** [[Six-Week Day 38 - Test Sequence Expected Evidence and Result Interpretation]]
-- **Next:** Day 39 — Systematic Fault-Finding Workflow and Evidence Control
+- **Next:** [Day 39 — Systematic Fault-Finding Workflow and Evidence Control](day-39-systematic-fault-finding-workflow-and-evidence-control.md)
