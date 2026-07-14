@@ -6,15 +6,19 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
+quality_improvement_pass:
+  completed: true
+  completed_on: 2026-07-15
+  pass_number: 1
 standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
-estimated_minutes: 60-75
+estimated_minutes: 70-85
 prerequisites:
   - Day 7 — Week 1 Consolidation and Competency Check
 related_modules:
@@ -29,48 +33,48 @@ related_simulations: []
 
 # Day 8 — Maximum Demand
 
-> **Source, design and safety notice:** This module teaches an original maximum-demand reasoning workflow. It does not reproduce standards tables, demand-factor datasets, clause wording, network rules or jurisdiction-specific calculation methods. Every allowance, factor, exception and final design conclusion must be checked against current authorised standards, applicable amendments, legislation, regulator and network requirements, manufacturer instructions, workplace procedures and RTO directions. The worked figures below are fictional training assumptions, not compliance values. This module is not `technically-reviewed`.
+> **Source, design and safety notice:** This module teaches an original evidence-led maximum-demand workflow. It does not reproduce standards tables, demand-factor datasets, clause wording, network rules or jurisdiction-specific calculation methods. Every allowance, factor, exception and final design conclusion must be checked against current authorised sources. Fictional values below demonstrate reasoning only. This module is not `technically-reviewed` and grants no practical authority.
 
 ## Navigation
 
 - **Previous:** [Day 7 — Week 1 Consolidation and Competency Check](./day-07-week-1-consolidation-and-competency-check.md)
-- **Next scheduled block:** [Day 9 — Complete Cable-Selection Workflow](../MASTER_PLAN.md#week-2--circuit-design-cables-and-switchboards)
+- **Next:** [Day 9 — Complete Cable-Selection Workflow](./day-09-complete-cable-selection-workflow.md)
 
 ## 1. Outcome and entry check
 
-### Learning objectives
+### Observable learning objectives
 
-By the end of this block, the learner should be able to:
+By the end of this block, the learner can:
 
-1. explain maximum demand as a design estimate of the greatest load expected under the applicable assessment method, rather than the sum of every nameplate rating;
-2. distinguish connected load, maximum demand, demand allowance, diversity, coincidence and spare capacity;
-3. build a complete load inventory with units, phase allocation, operating mode and source assumptions recorded;
-4. choose an authorised maximum-demand method appropriate to the installation and identify when another source family may govern;
-5. convert between current, real power and apparent power only when the required voltage, phase and power-factor assumptions are known;
-6. apply a documented training-only demand method to an original scenario without presenting the factors as standards data;
-7. test the result against phase balance, unusual operating combinations, alternate supplies and future-load assumptions;
-8. state a bounded design conclusion that separates calculated evidence from unresolved requirements.
+1. distinguish connected load, assessed maximum demand, demand allowance, diversity, coincidence and spare capacity;
+2. build a load register that records quantity, rating basis, units, phase, source, operating mode and evidence gaps;
+3. select an authorised method only after confirming installation scope, load category and source applicability;
+4. classify every input as **fact**, **verified rule**, **derived value**, **training assumption** or **unresolved evidence**;
+5. perform unit conversions only when voltage, phase arrangement, rating basis, power factor and efficiency assumptions are known;
+6. calculate a fictional group contribution and preserve the calculation trail;
+7. test an aggregate result against phase allocation, credible operating combinations, controls, alternate supplies and future loads;
+8. write a bounded conclusion that states what the result supports, what it does not prove and what must be checked next.
 
 ### Entry check — six minutes, closed note
 
-Write a brief answer for each prompt:
+Answer briefly and mark confidence as guessing, unsure, reasonably confident or certain:
 
-1. Why is adding every connected load normally not the same as assessing maximum demand?
-2. What information is missing when a load is listed only as “12 kW”?
-3. What is the difference between a diversified estimate and an arbitrary discount?
-4. Why can a total three-phase demand hide an overloaded phase?
-5. What source information must be clarified when batteries, inverters, generators or controlled loads are present?
-6. Which parts of a maximum-demand answer must return to an authorised source?
+1. Why is connected load not automatically maximum demand?
+2. What information is missing from the statement “the load is 12 kW”?
+3. What makes diversity defensible rather than arbitrary?
+4. Why can an acceptable three-phase total still conceal a design problem?
+5. What evidence is required before relying on a demand-control system?
+6. Which parts of a maximum-demand result remain `reference_check_required`?
 
-Record confidence beside each answer. Do not correct it until after Beat 5.
+Do not correct answers until Beat 5. High-confidence errors must enter the error log.
 
 ## 2. Why it matters
 
-Maximum demand sits near the start of the design chain. It can influence the supply arrangement, consumer mains, submains, main switch selection, protective-device coordination, switchboard capacity, phase allocation and later voltage-drop work.
+Maximum demand is an early design input. It can influence supply capacity, consumer mains, submains, protective-device selection, switchboard capacity, phase allocation and later voltage-drop work.
 
-An estimate that is too low can create overheating, nuisance operation, unacceptable performance or inadequate capacity. An estimate that is unnecessarily high can drive larger equipment, higher cost and poor use of available capacity. The design task is therefore not “make the number small” or “add everything”; it is to apply the permitted method to a complete, realistic load model and preserve the evidence.
+Underestimation can contribute to overheating, nuisance operation, inadequate capacity or poor performance. Unnecessary overestimation can drive avoidable equipment size and cost. The aim is neither “add everything” nor “make the number smaller”; it is to create a complete load model, apply an authorised method and preserve the evidence chain.
 
-Maximum demand is also a boundary problem. The calculation cannot be defended until the installation type, supply characteristics, load categories, operating combinations, phase arrangement, source topology and governing method have been identified.
+A maximum-demand result is only as defensible as its weakest upstream input. Neat arithmetic cannot repair an incomplete load register, an inapplicable factor or an unsupported control assumption.
 
 ![A learner sorts a pile of loads into a traceable maximum-demand model rather than guessing one percentage](../../../assets/learning/4-week/day-08-maximum-demand/loads-need-a-model.svg)
 
@@ -78,325 +82,227 @@ Maximum demand is also a boundary problem. The calculation cannot be defended un
 
 ### Connected load
 
-**Connected load** is the combined rating of equipment or load points connected, or intended to be connected, within the defined scope. It is an inventory quantity. It does not by itself establish the greatest expected simultaneous demand.
+The combined rating of equipment or load points within the defined scope. It is an inventory quantity, not proof of simultaneous demand.
 
 ### Maximum demand
 
-**Maximum demand** is the greatest demand assessed for the installation or part of the installation using an applicable, authorised method and stated assumptions. It is a design input, not a permanent measurement of what every future operating condition will be.
+The greatest demand assessed for an installation or section using an applicable authorised method and stated assumptions. It is a design estimate, not a guarantee of every future operating condition.
 
 ### Demand allowance
 
-A **demand allowance** is the contribution assigned to a load or load group under the selected method. It may depend on load type, quantity, rating, control arrangement, installation type or other conditions. Exact allowances remain `reference_check_required`.
+The contribution assigned to a load or load group by the selected method. Exact allowances, factors and exceptions remain `reference_check_required`.
 
 ### Diversity and coincidence
 
-**Diversity** describes the reduction that may occur because individual maximum loads do not necessarily occur at the same time.
-
-**Coincidence** describes the extent to which loads operate together. Diversity must be justified by the authorised method or defensible operating evidence; it is not permission to apply an unsupported percentage.
+**Diversity** recognises that individual maximum loads may not occur together. **Coincidence** describes how much they overlap in time. Neither term permits an unsupported percentage reduction.
 
 ### Continuous, intermittent and controlled operation
 
-- **Continuous operation** means a load may operate for an extended period relevant to the design.
-- **Intermittent operation** means operation occurs in cycles or limited periods.
-- **Controlled operation** means an interlock, energy-management system, timer, demand controller or other arrangement limits simultaneous operation.
+- **Continuous:** may operate for an extended design-relevant period.
+- **Intermittent:** operates in cycles or limited periods.
+- **Controlled:** simultaneous operation is limited by an interlock, controller, timer or energy-management function.
 
-A control assumption counts only when the arrangement is reliable, documented and permitted to support the design conclusion.
+A control assumption is usable only when its function, settings, reliability, failure behaviour and acceptance are evidenced.
 
-### Existing measured demand
+### Real power, apparent power and rating basis
 
-Measured data may inform some design methods, but its usefulness depends on representativeness, measurement period, seasonal conditions, occupancy, future loads, data quality and the applicable rule. A convenient historical peak is not automatically an authorised maximum-demand result.
+**Real power** is commonly expressed in watts or kilowatts. **Apparent power** is commonly expressed in volt-amperes or kilovolt-amperes. **Power factor** relates real and apparent power for relevant AC loads. A motor output rating is not automatically electrical input demand.
 
-### Spare or future capacity
+### Spare capacity
 
-**Spare capacity** is a deliberate design allowance beyond the assessed present demand. It must not be hidden inside an unexplained factor. Record present assessed demand and additional design margin separately.
+A deliberate design margin beyond assessed present demand. Record it separately rather than hiding it inside a factor.
 
 ### Phase balance
 
-**Phase balance** is the distribution of single-phase loads across a multiphase supply. A reasonable total demand can still produce an unacceptable demand on one phase if large loads are unevenly allocated.
+The distribution of single-phase loads across a multiphase supply. Aggregate demand can appear acceptable while one phase carries a materially higher demand.
 
-### Real and apparent power
+### Evidence grades
 
-- **Real power** is commonly expressed in watts or kilowatts.
-- **Apparent power** is commonly expressed in volt-amperes or kilovolt-amperes.
-- **Power factor** relates real power to apparent power for relevant AC loads.
+- **Described:** supplied by the scenario but not independently confirmed.
+- **Supported:** backed by traceable records or an identified authorised source.
+- **Verified:** checked by a competent person through the required process.
 
-Do not convert a power rating to current until the rating basis, voltage, phase arrangement and any relevant power-factor or efficiency assumptions are known.
+Do not upgrade a claim merely because the calculation is internally consistent.
 
 ## 4. Rule-finding workflow
 
-Use the **I-M-A-G-E** workflow:
+Use the **D-E-M-A-N-D** workflow:
 
-1. **Inventory the scope.** List every load, rating basis, quantity, phase, supply source and relevant operating characteristic. Separate existing, proposed and future loads.
-2. **Match the governing method.** Identify the installation type and locate the permitted assessment path in current authorised material. Check definitions, table notes, exceptions and cross-references rather than lifting one factor in isolation.
-3. **Apply units and assumptions.** Convert ratings consistently, state voltage and phase assumptions, and document every demand allowance. Never mix amperes, kilowatts and kilovolt-amperes without an explicit conversion basis.
-4. **Group and calculate.** Calculate each load group, then each phase or supply section as required. Keep connected load, assessed demand and spare capacity as separate columns.
-5. **Evaluate the result.** Check phase balance, realistic simultaneous operation, controlled-load dependencies, alternate supplies, unusual loads, existing capacity and evidence gaps before using the result downstream.
+1. **Define the boundary.** State the installation or section, normal and alternate sources, existing/proposed/future scope and supply arrangement.
+2. **Enumerate every load.** Record quantity, rating, rating basis, units, phase, operating mode, source and evidence status.
+3. **Match the method.** Locate the authorised method for the installation and load category; inspect definitions, notes, exceptions and cross-references.
+4. **Apply units and allowances.** Convert only from known inputs. Keep connected load, assessed contribution and spare capacity separate.
+5. **Navigate operating cases.** Test phase allocation, credible simultaneous operation, control failure, alternate-source modes and unusual loads.
+6. **Document the bounded result.** Record calculations, source references, unresolved evidence, downstream dependencies and stop conditions.
 
 ```mermaid
 flowchart TD
-    A["Inventory every load and source"] --> B["Classify installation and load groups"]
-    B --> C["Locate an authorised assessment method"]
-    C --> D["Record units, phase and assumptions"]
-    D --> E["Apply verified allowances by group"]
-    E --> F["Calculate each phase and total"]
-    F --> G{"Operating cases and evidence complete?"}
-    G -->|"No"| H["Resolve source, control, phase or rule gaps"]
-    H --> C
-    G -->|"Yes"| I["Record bounded maximum-demand result"]
-    I --> J["Pass result to cable and equipment design"]
+    A[Define scope and sources] --> B[Build complete load register]
+    B --> C[Locate authorised method]
+    C --> D{Applicability and evidence complete?}
+    D -->|No| E[Mark unresolved and stop the affected conclusion]
+    D -->|Yes| F[Apply units and verified allowances]
+    F --> G[Calculate groups and phases]
+    G --> H[Test operating and failure cases]
+    H --> I{Result still supported?}
+    I -->|No| B
+    I -->|Yes| J[Record bounded maximum-demand result]
 ```
 
-### Source-navigation checklist
+The loop matters: a changed operating case may require the inventory, method or assumptions to be reopened rather than merely adjusting the final number.
 
-Before accepting a demand factor or method, record:
+### Source-navigation record
+
+For each allowance or method, capture:
 
 - source title, edition and amendment status;
-- installation category and scope;
-- load category and rating basis;
-- table heading, notes, definitions and relevant cross-references;
-- conditions or exceptions that change the method;
-- treatment of multiple supplies, generation, storage or controlled loads;
-- network-service or jurisdiction-specific requirements;
-- manufacturer data used for unusual equipment;
-- who checked the result and when.
+- installation and load category;
+- units, headings, definitions, notes and exceptions;
+- alternate-supply, generation, storage or control conditions;
+- network, regulator or jurisdiction-specific requirements;
+- who checked it and when.
 
-A copied number without its category, units, notes and conditions is not traceable evidence.
+A copied number without its conditions is not traceable evidence.
 
 ## 5. Visual model or worked example
 
-### Evidence stack
+### Evidence ledger
 
 ```mermaid
 flowchart LR
-    S["Supply and installation facts"] --> L["Complete load inventory"]
-    L --> M["Authorised demand method"]
-    M --> C["Group and phase calculations"]
-    C --> O["Operating-case challenge"]
-    O --> B["Bounded design result"]
-    B --> D["Downstream cable, protection and switchboard decisions"]
+    F[Facts] --> R[Verified rules]
+    R --> C[Derived calculations]
+    A[Training assumptions] -.label clearly.-> C
+    U[Unresolved evidence] -.blocks affected claim.-> C
+    C --> O[Operating-case challenge]
+    O --> B[Bounded conclusion]
 ```
 
-Each layer depends on the previous layer. A neat calculation cannot repair an incomplete inventory or an inapplicable method.
+Facts and verified rules may support a derived value. Training assumptions must remain labelled. Unresolved evidence blocks the affected conclusion rather than being silently guessed.
 
-### Worked training example — fictional allowances
+### Worked example — fictional training allowances
 
-**Scenario:** A small three-phase training workshop has the following proposed loads:
+A fictional three-phase workshop has these load groups:
 
-| Load group | Connected rating | Phase arrangement | Training-only demand assumption |
-|---|---:|---|---|
-| General lighting | 4.8 kW | single-phase loads distributed across three phases | 100% |
-| General socket-outlets | 18 kW equivalent inventory | distributed across three phases | 40% |
-| Fixed heater | 6 kW | three-phase | 100% |
-| Air compressor | 7.5 kW input | three-phase motor | 100% |
-| Two small process machines | 10 kW combined input | one on L1, one on L2 | 60% combined |
-| Future allowance | 3 kW | not yet allocated | add separately after assessed present demand |
+| Load group | Connected rating | Arrangement | Fictional contribution |
+|---|---:|---|---:|
+| Lighting | 4.8 kW | single-phase, distributed | 4.8 kW |
+| Socket-outlet inventory | 18 kW | single-phase, distributed | 7.2 kW |
+| Heater | 6 kW | three-phase | 6.0 kW |
+| Compressor input | 7.5 kW | three-phase | 7.5 kW |
+| Process machines | 10 kW | two single-phase machines | 6.0 kW |
 
-These percentages are invented solely to demonstrate the workflow. They must not be used for real design.
+Present fictional assessed demand: `4.8 + 7.2 + 6.0 + 7.5 + 6.0 = 31.5 kW`.
 
-#### Step 1 — calculate group contributions
+A separate fictional future allowance of `3.0 kW` produces a training design total of `34.5 kW` before any current conversion.
 
-- Lighting: `4.8 × 1.00 = 4.8 kW`
-- Socket-outlets: `18 × 0.40 = 7.2 kW`
-- Heater: `6 × 1.00 = 6.0 kW`
-- Compressor: `7.5 × 1.00 = 7.5 kW`
-- Process machines: `10 × 0.60 = 6.0 kW`
+These values are invented. They are not standards data and must not be used for real design.
 
-Assessed present training demand:
+Before using the total, the learner must resolve:
 
-`4.8 + 7.2 + 6.0 + 7.5 + 6.0 = 31.5 kW`
+- whether ratings are input power, output power, apparent power or current;
+- voltage, phase arrangement, power factor and efficiency where relevant;
+- actual authorised demand method;
+- phase allocation of single-phase loads;
+- whether controls limit simultaneous operation and what happens if they fail;
+- whether generation, storage or alternate supplies change operating cases;
+- whether network or service rules impose another method.
 
-Recorded future allowance:
+### Worked-example fading
 
-`3.0 kW`
+Recalculate the scenario after these changes, without copying the completed steps:
 
-Training design total before any current conversion:
+- one process machine moves from L2 to L3;
+- the EV load is added but its demand-control specification is missing;
+- the future allowance becomes phase-specific;
+- the compressor rating is discovered to be shaft output rather than electrical input.
 
-`31.5 + 3.0 = 34.5 kW`
-
-#### Step 2 — challenge the result
-
-The arithmetic alone is incomplete. Before converting the result to a design current, the learner must clarify:
-
-1. whether each rating is input power, output power, apparent power or current;
-2. the nominal voltage and supply arrangement;
-3. the applicable power-factor and efficiency data;
-4. whether the fictional allowances resemble any authorised method—they must not be assumed to;
-5. whether the heater and compressor can operate together;
-6. whether the process machines create phase imbalance;
-7. whether the future load should be allocated to a specific phase;
-8. whether starting, cyclic or harmonic characteristics affect another design check;
-9. whether any inverter, generator, battery or energy-management system changes the source or operating cases;
-10. whether network or service rules impose another assessment path.
-
-#### Step 3 — phase review
-
-Create a second table assigning each single-phase contribution to L1, L2 or L3. Add the balanced three-phase loads to every phase according to the verified calculation basis. Compare phase demands rather than relying only on the aggregate total.
-
-```mermaid
-flowchart TD
-    T["Aggregate demand appears acceptable"] --> P["Allocate single-phase loads"]
-    P --> L1["Calculate L1 demand"]
-    P --> L2["Calculate L2 demand"]
-    P --> L3["Calculate L3 demand"]
-    L1 --> X{"One phase materially higher?"}
-    L2 --> X
-    L3 --> X
-    X -->|"Yes"| R["Reallocate where practical and recalculate"]
-    X -->|"No"| V["Retain phase schedule and assumptions"]
-```
-
-The defensible output is not merely “34.5 kW”. It is a traceable workbook containing the inventory, source method, assumptions, group calculations, phase schedule, unresolved checks and design margin.
+For each change, identify which register fields, assumptions, calculations and conclusions must reopen.
 
 ## 6. Practical application
 
-### Original scenario — mixed-use training tenancy
+### Mixed-use tenancy task
 
-A proposed tenancy contains:
+A proposed tenancy includes lighting, socket-outlets, commercial-kitchen equipment, two air conditioners, a water heater, one three-phase appliance, controlled EV charging, rooftop solar, battery storage and two future spare ways. Demand factors, phase schedule, control specification and supply capacity are absent.
 
-- general lighting;
-- general socket-outlets;
-- a commercial kitchen area;
-- two split-system air conditioners;
-- a small water heater;
-- one three-phase appliance;
-- an EV charging point controlled by an energy-management system;
-- rooftop solar and a battery inverter;
-- two spare ways marked for future use.
+Complete these paper-based outputs:
 
-No demand factors, phase schedule, control specification or supply capacity are supplied.
+1. **Load register:** one row per load with quantity, rating basis, units, phase, operating mode, source, present/future status and evidence grade.
+2. **Source plan:** list the authorised sources required for the installation category, each load category, control arrangement, generation/storage treatment and network conditions.
+3. **Calculation frame:** use columns for connected load, verified method reference, allowance, assessed demand, phase and evidence flag. Enter `reference_check_required` where unresolved.
+4. **Operating cases:** test normal high demand, EV charging with major loads, alternate-source operation and demand-control failure or bypass.
+5. **Bounded conclusion:** state current result, highest phase, separate future allowance, unresolved evidence, downstream uses and stop conditions.
 
-Complete the following paper-based task:
+### Assessment rubric — 12 points
 
-#### Part A — inventory
+Score 0, 1 or 2 in each category:
 
-Create one row per load and record:
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Scope and sources | unclear | partial | complete and bounded |
+| Load register | material omissions | mostly complete | complete and traceable |
+| Method selection | guessed | source named | applicability evidenced |
+| Units and calculations | unsafe/inconsistent | minor errors | correct and auditable |
+| Operating cases | ignored | limited | phase, control and source cases tested |
+| Conclusion | overclaims | partly bounded | limits and next checks explicit |
 
-- description and quantity;
-- rating and rating basis;
-- single-phase or three-phase connection;
-- proposed phase;
-- continuous, intermittent or controlled operation;
-- normal source and any alternate source;
-- manufacturer information still required;
-- present or future status.
-
-#### Part B — source plan
-
-Without inventing clauses, list the authorised sources required to determine:
-
-1. the applicable maximum-demand method;
-2. treatment of each load category;
-3. any conditions attached to energy management;
-4. the effect of generation and storage on the installation model;
-5. network or service limitations;
-6. the evidence required for the existing or proposed supply capacity.
-
-#### Part C — calculation framework
-
-Build a blank calculation table with these columns:
-
-| Load group | Connected load | Verified method reference | Demand allowance | Assessed demand | Phase allocation | Evidence or flag |
-|---|---:|---|---:|---:|---|---|
-
-Do not insert a demand factor until it is verified. Use `reference_check_required` in the allowance column where the source remains unresolved.
-
-#### Part D — operating-case challenge
-
-Write at least four operating cases, including:
-
-- a normal high-demand period;
-- EV charging while major tenancy loads operate;
-- battery or inverter mode relevant to the installation;
-- failure or bypass of the assumed demand-control arrangement.
-
-For each case, state whether it changes the maximum-demand calculation, another design check, or both. Do not assume the answer without the authorised method and system details.
-
-#### Part E — bounded conclusion
-
-Use this structure:
-
-```text
-The connected-load inventory currently totals:
-The applicable maximum-demand method is:
-The assessed demand is:
-The highest phase demand is:
-The separate future allowance is:
-The result can support the next design step only if:
-The unresolved evidence is:
-Stop or escalate when:
-```
+A score does not override a critical error. Unsupported demand factors, unsafe unit conversion, omitted major loads or an unbounded compliance claim require correction and a fresh scenario.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- adding every nameplate rating and calling the result maximum demand without checking the permitted method;
-- applying one remembered percentage to the whole installation;
-- copying a factor without its heading, units, notes, conditions or installation category;
-- omitting small loads, controlled loads, future loads or alternate-source equipment from the inventory;
-- treating connected load, maximum demand and spare capacity as interchangeable;
-- mixing kilowatts, kilovolt-amperes and amperes without a stated conversion basis;
-- assuming a motor output rating is the same as electrical input demand;
-- using a three-phase total without checking each phase;
-- counting solar generation as guaranteed reduction in demand without verifying the applicable method and operating case;
-- assuming an energy-management system always limits demand without evidence of its design, settings, failure mode and acceptance;
-- relying on a short measurement period that does not represent the proposed installation;
-- rounding early or hiding an unexplained contingency inside a demand factor;
-- carrying an unverified result directly into cable, protection or switchboard selection.
+- treating connected load and maximum demand as synonyms;
+- applying a remembered percentage to the whole installation;
+- copying a factor without headings, units, notes or conditions;
+- omitting controlled, future or alternate-source loads;
+- mixing kW, kVA and A without a conversion basis;
+- treating motor output as electrical input;
+- relying on an aggregate total without checking phases;
+- subtracting solar generation as guaranteed demand reduction;
+- assuming a controller always works without failure-case evidence;
+- hiding spare capacity inside an unexplained factor;
+- carrying an unresolved result directly into cable or switchboard selection.
 
 ### Safety checkpoint
 
-This is a paper-based design exercise. It does not authorise access to switchboards, live measurement, alteration, energisation or verification work.
+This is a paper-based design exercise. It does not authorise switchboard access, live measurement, isolation, testing, alteration, energisation, commissioning, certification or verification.
 
 Stop and obtain qualified guidance when:
 
-- the installation scope or supply arrangement is uncertain;
-- existing equipment may be energised or access would expose electrical hazards;
-- load ratings, source topology, phase allocation or control behaviour cannot be established safely from approved records;
-- the calculation depends on an unverified demand table, factor, exception or network requirement;
-- measured data would require work outside approved procedures, competence or test-equipment requirements;
-- generation, storage, alternate supply or embedded control creates an operating case that has not been assessed;
-- the result is being used to declare an installation safe, compliant or adequate without completed downstream design and verification.
+- scope, supply arrangement or source topology is uncertain;
+- information cannot be obtained safely from approved records;
+- a factor, exception, network rule or control assumption is unverified;
+- measured data would require work outside approved competence or procedure;
+- generation, storage or alternate supply introduces an unassessed mode;
+- the result is being used to declare an installation safe, compliant or adequate.
 
-Maximum demand is one design input. It does not by itself prove conductor capacity, voltage drop, fault protection, switchboard suitability, supply adequacy or compliance.
+Maximum demand does not by itself prove conductor capacity, voltage drop, fault protection, switchboard suitability, supply adequacy or compliance.
 
 ![A confident calculator discovers that every percentage needs a source label](../../../assets/learning/4-week/day-08-maximum-demand/percentages-need-passports.svg)
 
 ## 8. Retrieval and next links
 
-### Final retrieval — closed note
+### Closed-note retrieval
 
-1. Define connected load and maximum demand without using the words interchangeably.
-2. Why is diversity not an arbitrary discount?
-3. State the five steps in the I-M-A-G-E workflow.
-4. What information is required before converting kilowatts to current?
-5. Why must maximum demand be reviewed by phase?
-6. How should spare capacity be recorded?
-7. When can measured demand be misleading?
-8. Why can controlled EV charging require a failure-case review?
-9. Why should solar generation not automatically be subtracted from demand?
-10. What evidence must accompany a copied demand factor?
-11. Name three downstream decisions influenced by maximum demand.
-12. Which conclusions remain unsafe after maximum demand has been calculated?
-13. What must be clarified for batteries, generators or inverters?
-14. Write one bounded maximum-demand conclusion.
+1. Define connected load and maximum demand.
+2. State the six D-E-M-A-N-D steps.
+3. Explain why diversity is not an arbitrary discount.
+4. List the inputs required before converting power to current.
+5. Explain why phase review is required.
+6. State how spare capacity should be recorded.
+7. Give two reasons measured demand may be unrepresentative.
+8. Explain why control failure must be considered.
+9. Explain why solar generation cannot automatically be subtracted.
+10. Write one bounded maximum-demand conclusion.
+
+### Varied re-attempt
+
+Use a new fictional scenario containing a single-phase heat pump, a three-phase machine, battery storage and a controlled EV charger. Build the register and evidence ledger from a blank page. Do not reuse the workshop totals or allowances.
 
 ### Error-log closeout
 
-For the most important error, record:
-
-```text
-Original answer:
-Confidence before checking:
-Missing fact, unit or source condition:
-Corrected reasoning:
-Authorised source location to verify:
-Fresh scenario:
-Result on fresh scenario:
-Next review date:
-```
-
-Clear the error only after successful retrieval and application with a different load schedule.
+Record the original answer, confidence, misconception, missing evidence, corrected reasoning, source location, fresh scenario result and next review date. Clear an error only after correct retrieval and application in a changed context.
 
 ### Related vault notes
 
@@ -405,28 +311,17 @@ Clear the error only after successful retrieval and application with a different
 - [[Day 09 - Complete Cable-Selection Workflow]]
 - [[Four-Week Capstone Learning Plan]]
 - [[Wiring Rules and Design]]
-- [[Control Switching and Protection]]
 - [[Alternative Supplies and Generation]]
 - [[Learning and Memory System]]
-- [[AS-NZS-3000-2018-Index]]
-
-### Previous block
-
-Return to [Day 7 — Week 1 Consolidation and Competency Check](./day-07-week-1-consolidation-and-competency-check.md) when the Week 1 evidence chain or readiness gate is not yet defensible.
-
-### Next block
-
-Proceed to [Day 9 — Complete Cable-Selection Workflow](../MASTER_PLAN.md#week-2--circuit-design-cables-and-switchboards) after the learner can produce a traceable load inventory, source plan, group calculation and phase review without inventing demand factors.
 
 ### References and currency notice
 
-- AS/NZS 3000:2018 — current authorised copy and applicable amendments required; exact maximum-demand methods, load categories, tables, factors, exceptions, calculation requirements and supply arrangements remain `reference_check_required`.
-- Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO assessment directions.
+- AS/NZS 3000:2018 — current authorised copy and applicable amendments required; exact methods, categories, allowances, tables, exceptions and supply arrangements remain `reference_check_required`.
+- Current legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO directions.
 - [Learning Design](../../../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
-- Day 7 and the relevant design, protection and supply notes.
 
-This module contains original organisation, diagrams, fictional values, scenario facts and assessment prompts. It does not reproduce standards wording, demand tables, figures or official datasets. A suitably qualified reviewer must verify the technical interpretation against current authorised sources before the status can move beyond `review-required`.
+This module contains original organisation, diagrams, fictional values, scenarios and assessment prompts. It does not reproduce standards wording, demand tables, figures or official datasets. A suitably qualified reviewer must verify the technical interpretation before the status can move beyond `review-required`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
