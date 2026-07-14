@@ -19,6 +19,30 @@ pull_request: 6
 
 ## Completed increments
 
+### 2026-07-14 — Day 5: Rest, retrieval and source-navigation correction
+
+Completed the first dedicated recovery block without adding unnecessary electrical theory.
+
+Completed work:
+
+- created the full eight-beat Day 5 module;
+- defined observable objectives for closed-note retrieval, error classification, source-navigation correction, time-boxed catch-up and readiness decisions;
+- introduced the original R-E-S-E-T recovery and remediation workflow;
+- added two valid Mermaid diagrams for fatigue-aware session control and error-to-correction triage;
+- created an original accessible black-and-white SVG contrasting targeted correction with wholesale rereading;
+- added green, amber and red readiness boundaries, a 30-minute maximum, explicit fatigue stop conditions and missed-work triage;
+- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept and reciprocal navigation links;
+- linked Day 5 directly from the master plan;
+- preserved explicit practical-authority, source-currency, copyright and technical-review boundaries.
+
+Files created or updated:
+
+- `docs/learning-plans/6-week/modules/day-05-rest-retrieval-and-source-navigation-correction.md`
+- `docs/assets/learning/6-week/day-05-rest-retrieval-and-source-navigation-correction/choose-the-smallest-fix.svg`
+- `docs/knowledge-base/Six-Week Day 05 - Rest Retrieval and Source-Navigation Correction.md`
+- `docs/learning-plans/6-week/MASTER_PLAN.md`
+- `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
+
 ### 2026-07-14 — Day 4: Overload and short-circuit protection reasoning
 
 Completed the fourth dedicated six-week module as a two-path evidence and coordination lesson following Day 3 fault classification.
@@ -139,27 +163,22 @@ Files created or updated:
 ## Review flags
 
 - Program status: `active`
-- Day 1 content status: `review-required`
-- Day 1 exact RTO assessment arrangements and technical-source claims: `reference_check_required`
-- Day 2 content status: `review-required`
-- Day 2 exact safety duties, procedural requirements and jurisdiction-specific claims: `reference_check_required`
-- Day 3 content status: `review-required`
-- Day 3 exact thresholds, device characteristics, disconnection requirements, fault-current calculations and procedures: `reference_check_required`
-- Day 4 content status: `review-required`
-- Day 4 exact current relationships, conductor capacities, correction factors, prospective-current methods, breaking capacities, operating characteristics, fault-duration limits, coordination requirements and procedures: `reference_check_required`
-- Days 1–4 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
+- Days 1–5 content status: `review-required`
+- Day 5 contains recovery, retrieval and source-navigation activities only and introduces no practical electrical procedure
+- Exact technical claims encountered during Day 5 correction remain `reference_check_required`
+- Days 1–5 are planning, simulated and paper-based learning content; they authorise no electrical work or testing
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
 - No standards tables, figures, device curves, systematic clause wording or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 5 — Rest, retrieval and source-navigation correction**
+**Day 6 — RCD purpose, limits and coordination with other protection**
 
-Create the dedicated eight-beat recovery module without unnecessary new electrical theory, add an original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 5 directly from the master plan, preserve reciprocal Day 4/Day 5 navigation, and update this status record with exactly one next increment.
+Create the dedicated eight-beat technical module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 6 directly from the master plan, preserve reciprocal Day 5/Day 6 navigation, and update this status record with exactly one next increment.
