@@ -2,7 +2,8 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-12
+reviewed_on: 2026-07-14
+quality_improvement_passed_on: 2026-07-14
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -10,7 +11,7 @@ technical_reviewer: pending
 
 # Day 06A - Earthing Terminology and Component Roles
 
-Day 6A establishes the vocabulary and component-role model required before tracing an MEN fault-current path. It separates normal current-carrying conductors from protective conductors and separates equipment metalwork from external conductive parts.
+Day 6A establishes the vocabulary and relationship model needed before tracing an MEN fault-current path. Its central rule is: classify every item by **job, connection and evidence**, not by colour, shape or habit.
 
 ## Learning module
 
@@ -33,36 +34,60 @@ Day 6A establishes the vocabulary and component-role model required before traci
 - [[Inspection Testing and Verification]]
 - [[AS-NZS-3000-2018-Index]]
 
+## R-O-L-E-S workflow
+
+1. **Recognise** the physical object before naming it.
+2. **Observe** whether it has a normal load-current role.
+3. **Locate** both ends or the relationship it creates.
+4. **Explain** its fault or potential-control role without overclaiming an outcome.
+5. **Source-check** the exact definition, requirement, exception and application boundary.
+
+Use three evidence grades:
+
+- **A — stated or observed fact:** information supplied by the scenario, drawing or authorised record.
+- **B — authorised technical evidence:** current applicable source with traceable context.
+- **C — assumption or memory:** colour, resemblance, habit or unverified recollection.
+
+Grade C evidence cannot support an exact technical requirement.
+
 ## Core distinctions
 
 - **Active conductor:** normal outgoing current path to the load.
 - **Neutral conductor:** normal return-current path; not automatically safe and not interchangeable with protective earth.
-- **Protective earthing conductor:** protective connection from exposed conductive equipment parts to the earthing system; not intended as the normal load-current return path.
+- **Protective earthing conductor:** protective connection from exposed conductive equipment parts to the earthing system; not the normal return path.
+- **Main earthing terminal:** principal protective-earthing connection point in the conceptual model.
 - **Main earthing conductor:** connection between the main earthing terminal and earthing electrode.
+- **Earthing electrode:** connection to the mass of earth with a role distinct from the complete metallic fault-return path.
 - **MEN connection:** designated intentional relationship between neutral and the earthing system; exact permitted arrangement requires authorised-source verification.
-- **Exposed conductive part:** conductive equipment metalwork that could become live after an internal fault.
-- **Extraneous conductive part:** external conductive material capable of introducing another potential into the installation area.
+- **Exposed conductive part:** conductive equipment metalwork that could become live following an internal fault.
+- **Extraneous conductive part:** conductive material capable of introducing another potential into the installation area.
 - **Equipotential bonding:** connection of qualifying conductive parts to limit dangerous potential differences where required.
 
 These are original working explanations. Exact definitions and application boundaries remain `reference_check_required`.
 
 ## Practical application
 
-Classify each item by answering:
+For each item, produce a five-part response:
 
-1. Is it a conductor, terminal, intentional link, electrode or conductive part?
-2. Does it carry normal load current?
-3. What does it connect?
-4. What role does it perform under fault conditions?
-5. Which exact requirement or exception must be checked in the authorised source?
+1. **Name:** most likely technical classification.
+2. **Normal role:** whether it carries normal load current.
+3. **Fault or potential role:** what it contributes under the relevant abnormal condition.
+4. **Relationship:** what it connects or which system relationship it creates.
+5. **Verification:** exact requirement, exception or context that must be source-checked.
 
-Use the five-part capstone response pattern: name, normal role, fault role, relationship and verification evidence.
+Then change one scenario condition—such as adding an inverter, separate building, insulating pipe section or uncertain conductor function—and identify which conclusion no longer transfers.
 
 ## Assessment relevance
 
-A defensible assessment response should not merely label a line “earth.” It should distinguish protective earthing conductors, the main earthing conductor, the electrode, bonding conductors and the MEN connection, then explain how their roles differ from active and neutral conductors.
+A defensible response should:
 
-The learner should also be able to classify exposed and extraneous conductive parts without assuming that every metal item requires the same treatment.
+- distinguish normal current-carrying conductors from protective conductors;
+- distinguish protective earthing, main earthing, bonding and MEN connection roles;
+- classify exposed and extraneous conductive parts using evidence rather than the word “metal”;
+- identify assumptions explicitly;
+- state a stop or source-check boundary when the supply arrangement or exact requirement is uncertain.
+
+A critical neutral/protective-earth role swap, arbitrary MEN connection claim or unsupported bonding instruction prevents readiness.
 
 ## Misconceptions to track
 
@@ -70,24 +95,30 @@ The learner should also be able to classify exposed and extraneous conductive pa
 - Neutral is always at zero volts and safe.
 - The earthing electrode alone clears every equipment fault.
 - Every metal object is an exposed conductive part.
-- Every metallic service must be bonded without further classification.
+- Every metallic service must be bonded without classification.
 - A neutral-to-earth connection may be added at any switchboard.
 - Conductor colour proves correct function and termination.
+- Main earthing and protective earthing conductors are merely two names for the same wire.
+
+## Safety boundary
+
+This note authorises no switching, opening, isolation, disconnection, testing, resetting, alteration, repair or energisation. Exact connection arrangements, sizes, identification, bonding, electrode requirements, MEN locations, alternate-supply arrangements and test criteria require current authorised sources and qualified review.
 
 ## Navigation
 
 - Previous: [[Day 05 - Rest Retrieval and Catch-Up]]
 - Next: [[Day 06B - MEN Fault-Current Path]]
+- Later application: [[Day 06C - Earthing and MEN Fault Scenarios]]
 - Map of content: [[Earthing Bonding and MEN]]
 
 ## References
 
 - AS/NZS 3000:2018, current authorised copy and applicable amendments required.
-- Current applicable legislation, regulator guidance, network service rules and RTO procedures.
+- Current applicable legislation, regulator guidance, network service rules, manufacturer instructions, workplace procedures and RTO requirements.
 - [Learning Design](../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
 
-Exact definitions, conductor identification, sizing, connection points, electrode requirements, bonding requirements, MEN locations, exceptions, alternate-supply arrangements and clause references remain `reference_check_required`. This note is not `technically-reviewed`.
+This note contains original organisation and explanation. It remains `review-required`, `reference_check_required` and not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
