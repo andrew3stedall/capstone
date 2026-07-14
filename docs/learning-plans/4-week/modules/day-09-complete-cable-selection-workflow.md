@@ -123,18 +123,18 @@ Use the **S-E-L-E-C-T** workflow:
 
 ```mermaid
 flowchart TD
-    A[Scope load, supply and route] --> B[Build evidence ledger]
-    B --> C[Locate authorised source paths]
-    C --> D[Model cable and installation method]
-    D --> E[Apply capacity and coordination checks]
-    E --> F{Evidence complete?}
-    F -->|No| G[Record gap and stop affected conclusion]
+    A["Scope load, supply and route"] --> B["Build evidence ledger"]
+    B --> C["Locate authorised source paths"]
+    C --> D["Model cable and installation method"]
+    D --> E["Apply capacity and coordination checks"]
+    E --> F{"Evidence complete?"}
+    F -->|"No"| G["Record gap and stop affected conclusion"]
     G --> B
-    F -->|Yes| H[Check voltage drop, faults and physical suitability]
-    H --> I{Any condition changed?}
-    I -->|Yes| J[Reopen affected earlier checks]
+    F -->|"Yes"| H["Check voltage drop, faults and physical suitability"]
+    H --> I{"Any condition changed?"}
+    I -->|"Yes"| J["Reopen affected earlier checks"]
     J --> B
-    I -->|No| K[Write bounded result]
+    I -->|"No"| K["Write bounded result"]
 ```
 
 The diagram shows that unresolved evidence is not filled with favourable assumptions. It sends the learner back to the evidence ledger or stops the affected conclusion.
@@ -151,12 +151,12 @@ This is a useful screen, not a complete proof. Exact definitions, conventions, e
 
 ```mermaid
 flowchart LR
-    L[Load changes] --> A[Recalculate design current]
-    R[Route changes] --> B[Reclassify installation and factors]
-    S[Source changes] --> C[Recheck fault and protection evidence]
-    D[Device changes] --> E[Recheck coordination and operating behaviour]
-    T[Terminal changes] --> F[Recheck physical suitability]
-    A --> G[Repeat downstream checks]
+    L["Load changes"] --> A["Recalculate design current"]
+    R["Route changes"] --> B["Reclassify installation and factors"]
+    S["Source changes"] --> C["Recheck fault and protection evidence"]
+    D["Device changes"] --> E["Recheck coordination and operating behaviour"]
+    T["Terminal changes"] --> F["Recheck physical suitability"]
+    A --> G["Repeat downstream checks"]
     B --> G
     C --> G
     E --> G
