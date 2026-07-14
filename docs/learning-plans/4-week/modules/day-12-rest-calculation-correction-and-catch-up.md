@@ -147,16 +147,16 @@ Do not reproduce standards tables, figures, systematic clause wording, official 
 flowchart TD
     A["Preserve original attempt"] --> B["State boundary, operating case and claim"]
     B --> C{"Boundary complete?"}
-    C -->|No| D["Repair boundary"]
-    C -->|Yes| E{"Evidence applicable and traceable?"}
-    E -->|No| F["Repair evidence trail"]
-    E -->|Yes| G{"Method fits the case?"}
-    G -->|No| H["Repair method"]
-    G -->|Yes| I{"Units and arithmetic correct?"}
-    I -->|No| J["Repair units or arithmetic"]
-    I -->|Yes| K{"Claim bounded by evidence?"}
-    K -->|No| L["Rewrite claim and limitations"]
-    K -->|Yes| M["Retain result"]
+    C -->|"No"| D["Repair boundary"]
+    C -->|"Yes"| E{"Evidence applicable and traceable?"}
+    E -->|"No"| F["Repair evidence trail"]
+    E -->|"Yes"| G{"Method fits the case?"}
+    G -->|"No"| H["Repair method"]
+    G -->|"Yes"| I{"Units and arithmetic correct?"}
+    I -->|"No"| J["Repair units or arithmetic"]
+    I -->|"Yes"| K{"Claim bounded by evidence?"}
+    K -->|"No"| L["Rewrite claim and limitations"]
+    K -->|"Yes"| M["Retain result"]
     D --> N["Reopen every dependent step"]
     F --> N
     H --> N
