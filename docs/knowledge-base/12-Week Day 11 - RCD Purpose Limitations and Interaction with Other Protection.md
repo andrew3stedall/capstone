@@ -101,5 +101,5 @@ This note uses original explanations, workflows, diagrams and scenarios. It does
 ## Navigation
 
 - **Previous:** [[12-Week Day 10 - Protective-Device Roles and Protection Boundaries]]
-- **Next:** Day 12 — Rest, Retrieval and Misconception Repair
+- **Next:** [[12-Week Day 12 - Rest Retrieval and Misconception Repair]]
 - **Map of content:** [[Protection Fundamentals]]
