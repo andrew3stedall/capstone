@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Follow the normal-current loop, not conductor colour</title>
+  <desc id="desc">A black-and-white stick figure traces a solid loop from source to load and back to source while a separate dotted protective path is marked as not carrying normal load current.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="80" y="120" width="170" height="110" rx="8"/>
+    <rect x="650" y="120" width="170" height="110" rx="8"/>
+    <path d="M250 160 H650"/>
+    <path d="M650 205 H250"/>
+    <path d="M620 145 l30 15 -30 15"/>
+    <path d="M280 190 l-30 15 30 15"/>
+    <circle cx="455" cy="330" r="28"/>
+    <path d="M455 358 V430 M455 380 L410 405 M455 380 L500 405 M455 430 L420 480 M455 430 L490 480"/>
+    <path d="M410 405 L330 270"/>
+    <path d="M650 260 H820 V400 H555" stroke-dasharray="14 14"/>
+    <path d="M555 400 l25 -14 M555 400 l25 14"/>
+    <path d="M90 300 H250"/>
+    <path d="M120 300 V350 M95 350 H145 M105 370 H135 M115 390 H125"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black">
+    <text x="165" y="178" font-size="28" text-anchor="middle">STATED</text>
+    <text x="165" y="210" font-size="28" text-anchor="middle">SOURCE</text>
+    <text x="735" y="178" font-size="28" text-anchor="middle">CONNECTED</text>
+    <text x="735" y="210" font-size="28" text-anchor="middle">LOAD</text>
+    <text x="450" y="135" font-size="24" text-anchor="middle">ACTIVE: OUTWARD</text>
+    <text x="450" y="245" font-size="24" text-anchor="middle">NEUTRAL: RETURN</text>
+    <text x="755" y="430" font-size="22" text-anchor="middle">PROTECTIVE PATH:</text>
+    <text x="755" y="460" font-size="22" text-anchor="middle">NOT NORMAL LOAD CURRENT</text>
+    <text x="455" y="515" font-size="26" text-anchor="middle">Trace the complete source loop before making a path claim.</text>
+  </g>
+</svg>
