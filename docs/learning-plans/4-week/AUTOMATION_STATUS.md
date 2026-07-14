@@ -1,21 +1,21 @@
 ---
 title: Four-Week Learning Automation Status
 status: active
-updated_on: 2026-07-14
+updated_on: 2026-07-15
 ---
 
 # Four-Week Learning Automation Status
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B and Day 6C.
-- **Current block:** Quality-improvement pass — [[Day 06C - Earthing and MEN Fault Scenarios]] completed.
-- **Next block:** Quality-improvement pass — [[Day 07 - Week 1 Consolidation and Competency Check]].
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C and Day 7.
+- **Current block:** Quality-improvement pass — [[Day 07 - Week 1 Consolidation and Competency Check]] completed.
+- **Next block:** Quality-improvement pass — [[Day 08 - Maximum Demand]].
 - **Working branch:** `automation/4-week-learning-plan`
-- **Draft PR:** #5, targeting `main`.
+- **Draft PR:** #5, targeting `main`; open, draft and mergeable at head `ed0f75f4a58a024903fbdd6bc1092aa7cf964d78` when checked.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
 - **Quality-pass rule:** Each module receives exactly one substantive quality-improvement pass before the final program-wide audit. Persistent review flags do not cause repeat selection.
-- **Review state:** Day 6C remains safety-critical, `review-required`, `reference_check_required`, not `technically-reviewed`, and grants no practical authority.
+- **Review state:** Day 7 remains safety-critical, `review-required`, `reference_check_required`, not `technically-reviewed`, and grants no practical authority.
 
 ## Run log
 
@@ -31,18 +31,21 @@ updated_on: 2026-07-14
 | 41 — 2026-07-14 | Quality-improvement pass — Day 6B | Added the L-O-O-P-S workflow, described/verified/outcome claim levels, three evidence grades, evidence-to-outcome ladder, worked-example fading, changed-supply transfer, six-category rubric, updated vault note and accessible prove-the-loop cartoon. | Quality-improvement pass — Day 6C. |
 | 42 — 2026-07-14 | Quality-improvement pass — Day 6C | Substantially improved the module and master-plan tracker, including the complete D-I-A-G-N-O-S-E workflow, claim grades, evidence ladder, worked-example fading, varied transfer and scored rubric. The knowledge-base-note write was blocked by the connector safety check, so the pass was not marked complete. | Retry and complete Day 6C knowledge-note alignment, then validate the increment. |
 | 43 — 2026-07-14 | Quality-improvement pass completion — Day 6C | Aligned the knowledge-base note with the improved module, added explicit quality-pass metadata, the D-I-A-G-N-O-S-E workflow, claim grades, Mermaid evidence ladder, worked-example fading, scored rubric and practical-authority boundary. Reconciled the canonical status with the master-plan tracker. | Quality-improvement pass — Day 7. |
+| 44 — 2026-07-15 | Quality-improvement pass — Day 7 | Added explicit quality-pass metadata, the I-N-T-E-G-R-A-T-E workflow, described/supported/verified claim grades, a faded changed-supply transfer, an eight-category 16-point rubric, critical-error gates and aligned knowledge-note content. Existing instructional SVGs were retained after accessibility review. | Quality-improvement pass — Day 8. |
 
-## Files updated in run 43
+## Files updated in run 44
 
-- `docs/knowledge-base/Day 06C - Earthing and MEN Fault Scenarios.md`
+- `docs/learning-plans/4-week/modules/day-07-week-1-consolidation-and-competency-check.md`
+- `docs/knowledge-base/Day 07 - Week 1 Consolidation and Competency Check.md`
+- `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 6C remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact MEN arrangements, connection points, conductor requirements, fault-loop methods, protective-device characteristics, operating times, touch-voltage criteria, testing requirements, alternate-supply provisions, exceptions and jurisdiction-specific duties require qualified checking against current authorised sources.
-- The D-I-A-G-N-O-S-E workflow, claim grades, diagrams, fictional scenarios and rubric are original educational models.
-- No standards table, figure, systematic clause sequence, exact technical value or practical field procedure was reproduced.
+- Day 7 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact source applicability, protection requirements, MEN arrangements, current-path conditions, protective-device characteristics, test requirements, values, limits, official assessment criteria and jurisdiction-specific duties require qualified checking against current authorised sources.
+- The I-N-T-E-G-R-A-T-E workflow, claim grades, diagrams, fictional scenarios, scoring rubric and remediation gates are original educational models.
+- No standards table, figure, systematic clause sequence, exact technical value, official assessment content or practical field procedure was reproduced.
 - The module and note grant no practical authority.
 
 ## Run rules
