@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Role before device</title>
+  <desc id="desc">A black-and-white stick figure learner compares three cards labelled hazard, protected interest and function before pointing to a separate device card. The caption says classify the role before claiming the device outcome.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="118" cy="118" r="28"/>
+    <path d="M118 146 L118 245 M118 175 L70 215 M118 175 L170 205 M118 245 L80 315 M118 245 L160 315"/>
+    <rect x="235" y="70" width="150" height="105" rx="8"/>
+    <rect x="420" y="70" width="180" height="105" rx="8"/>
+    <rect x="635" y="70" width="150" height="105" rx="8"/>
+    <rect x="700" y="245" width="170" height="105" rx="8"/>
+    <path d="M170 205 C220 220 250 215 285 190"/>
+    <path d="M385 205 C430 220 475 220 510 190"/>
+    <path d="M600 205 C650 220 690 225 735 245"/>
+    <path d="M675 295 L650 285 L660 315 Z" fill="black"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="310" y="117" font-size="25" font-weight="700">HAZARD</text>
+    <text x="310" y="148" font-size="19">What changed?</text>
+    <text x="510" y="107" font-size="23" font-weight="700">PROTECTED</text>
+    <text x="510" y="136" font-size="23" font-weight="700">INTEREST</text>
+    <text x="510" y="162" font-size="18">Who or what?</text>
+    <text x="710" y="117" font-size="25" font-weight="700">FUNCTION</text>
+    <text x="710" y="148" font-size="19">What must it do?</text>
+    <text x="785" y="289" font-size="25" font-weight="700">DEVICE</text>
+    <text x="785" y="320" font-size="18">Evidence required</text>
+    <text x="480" y="385" font-size="25" font-weight="700">Classify the role before claiming the device outcome.</text>
+  </g>
+</svg>
