@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Repair the smallest learning gap instead of revising the whole week</title>
+  <desc id="desc">A black-and-white stick figure leaves a large box labelled revise everything and selects three small cards labelled authority, evidence and units. A sign points from identify gap to varied re-attempt to readiness decision.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="140" cy="170" r="34"/>
+    <path d="M140 204v105M140 232l-62 50M140 232l62 37M140 309l-42 88M140 309l48 88"/>
+    <rect x="45" y="68" width="200" height="78" rx="12"/>
+    <path d="M245 108h110" stroke-dasharray="14 12"/>
+    <path d="M342 94l26 14-26 14"/>
+    <rect x="355" y="70" width="145" height="92" rx="12"/>
+    <rect x="525" y="70" width="145" height="92" rx="12"/>
+    <rect x="695" y="70" width="145" height="92" rx="12"/>
+    <path d="M500 116h25M670 116h25"/>
+    <rect x="330" y="260" width="150" height="78" rx="10"/>
+    <rect x="505" y="260" width="150" height="78" rx="10"/>
+    <rect x="680" y="260" width="150" height="78" rx="10"/>
+    <path d="M202 269c42 17 78 29 119 29"/>
+    <path d="M309 285l19 14-23 8"/>
+    <path d="M70 431h820"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="145" y="99" font-size="22" font-weight="700">REVISE</text>
+    <text x="145" y="126" font-size="22" font-weight="700">EVERYTHING</text>
+    <text x="427" y="106" font-size="22" font-weight="700">IDENTIFY</text>
+    <text x="427" y="136" font-size="19">smallest gap</text>
+    <text x="598" y="106" font-size="22" font-weight="700">RE-ATTEMPT</text>
+    <text x="598" y="136" font-size="19">new context</text>
+    <text x="768" y="106" font-size="22" font-weight="700">DECIDE</text>
+    <text x="768" y="136" font-size="19">readiness</text>
+    <text x="405" y="307" font-size="22" font-weight="700">AUTHORITY</text>
+    <text x="580" y="307" font-size="22" font-weight="700">EVIDENCE</text>
+    <text x="755" y="307" font-size="22" font-weight="700">UNITS</text>
+    <text x="480" y="478" font-size="30" font-weight="700">“Repair the gap, not the whole week.”</text>
+    <text x="480" y="512" font-size="20">Choose a focused correction, vary the scenario, then record readiness.</text>
+  </g>
+</svg>
