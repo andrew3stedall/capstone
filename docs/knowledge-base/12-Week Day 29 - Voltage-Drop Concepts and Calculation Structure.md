@@ -68,5 +68,5 @@ All exercise values are fictional or supplied for training. This note is not `te
 ## Navigation
 
 - **Previous:** [[12-Week Day 28 - Week 4 Independent Circuit-Design Checkpoint]]
-- **Next:** Day 30 — Voltage-Drop Interpretation and Design Iteration
+- **Next:** [[12-Week Day 30 - Voltage-Drop Interpretation and Design Iteration]]
 - **Map of content:** [[Circuit Design]]
