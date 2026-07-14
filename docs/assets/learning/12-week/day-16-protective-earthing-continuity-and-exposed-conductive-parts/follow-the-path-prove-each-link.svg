@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Follow the path and prove each link</title>
+  <desc id="desc">Black-and-white stick-figure learner beside a metal enclosure, following a dotted protective-earthing path through several labelled evidence gates. The final gate remains unresolved to show that appearance does not prove continuity.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="120" r="28"/>
+    <path d="M120 148v92M120 180l-48 40M120 180l52 24M120 240l-35 70M120 240l42 70"/>
+    <rect x="220" y="95" width="145" height="150" rx="8"/>
+    <circle cx="292" cy="170" r="15"/>
+    <path d="M365 170h92" stroke-dasharray="10 10"/>
+    <circle cx="485" cy="170" r="28"/>
+    <path d="M513 170h80" stroke-dasharray="10 10"/>
+    <circle cx="621" cy="170" r="28"/>
+    <path d="M649 170h80" stroke-dasharray="10 10"/>
+    <circle cx="757" cy="170" r="28"/>
+    <path d="M785 170h70" stroke-dasharray="10 10"/>
+    <rect x="855" y="125" width="70" height="90" rx="8"/>
+    <path d="M468 170l12 12 22-28"/>
+    <path d="M604 170l12 12 22-28"/>
+    <path d="M744 156l26 28M770 156l-26 28"/>
+    <path d="M172 204l42-16"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="292" y="78" font-size="22" font-weight="700">Exposed part?</text>
+    <text x="485" y="230" font-size="20">Presence</text>
+    <text x="621" y="230" font-size="20">Connection</text>
+    <text x="757" y="230" font-size="20">Continuity</text>
+    <text x="890" y="245" font-size="20">Outcome</text>
+    <text x="480" y="355" font-size="28" font-weight="700">Follow the path. Prove each link. Stop before guessing.</text>
+  </g>
+</svg>
