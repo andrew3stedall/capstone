@@ -189,13 +189,13 @@ Qualified confirmation required: yes / no
 
 ```mermaid
 flowchart LR
-    A[Recognise object] --> B[Observe normal-current role]
-    B --> C[Locate both ends or relationships]
-    C --> D[Explain fault or potential-control role]
-    D --> E[Source-check exact requirement]
-    E --> F{Evidence grades A and B sufficient?}
-    F -->|Yes| G[State bounded conclusion]
-    F -->|No| H[Mark assumption and stop]
+    A["Recognise object"] --> B["Observe normal-current role"]
+    B --> C["Locate both ends or relationships"]
+    C --> D["Explain fault or potential-control role"]
+    D --> E["Source-check exact requirement"]
+    E --> F{"Evidence grades A and B sufficient?"}
+    F -->|"Yes"| G["State bounded conclusion"]
+    F -->|"No"| H["Mark assumption and stop"]
 ```
 
 The stop branch is part of competent reasoning, not an incomplete answer.
@@ -206,12 +206,12 @@ The stop branch is part of competent reasoning, not an incomplete answer.
 
 ```mermaid
 flowchart LR
-    S[Supply system] -->|active: normal outgoing current| L[Load]
-    L -->|neutral: normal return current| N[Neutral system]
-    E[Equipment enclosure] -->|protective earthing conductor| T[Main earthing terminal]
-    T -->|main earthing conductor| R[Earthing electrode]
-    N -. designated MEN connection .-> T
-    X[Candidate extraneous conductive part] -->|bonding where required| T
+    S["Supply system"] -->|"active: normal outgoing current"| L["Load"]
+    L -->|"neutral: normal return current"| N["Neutral system"]
+    E["Equipment enclosure"] -->|"protective earthing conductor"| T["Main earthing terminal"]
+    T -->|"main earthing conductor"| R["Earthing electrode"]
+    N -.->|"designated MEN connection"| T
+    X["Candidate extraneous conductive part"] -->|"bonding where required"| T
 ```
 
 Read the map by job, not by colour:
