@@ -56,7 +56,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 - [x] [Day 3 — Fundamental protection concepts and fault types](modules/day-03-fundamental-protection-concepts-and-fault-types.md)
 - [x] [Day 4 — Overload and short-circuit protection reasoning](modules/day-04-overload-and-short-circuit-protection-reasoning.md)
 - [x] [Day 5 — Rest, retrieval and source-navigation correction](modules/day-05-rest-retrieval-and-source-navigation-correction.md)
-- [ ] Day 6 — RCD purpose, limits and coordination with other protection
+- [x] [Day 6 — RCD purpose, limits and coordination with other protection](modules/day-06-rcd-purpose-limits-and-coordination-with-other-protection.md)
 - [ ] Day 7 — Week 1 protection decision checkpoint
 
 ### Week 2 — Earthing, MEN and fault-current reasoning
