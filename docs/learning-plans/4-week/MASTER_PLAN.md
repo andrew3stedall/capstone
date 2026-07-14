@@ -108,7 +108,8 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] 2026-07-14 — [Day 6B — MEN fault-current path](./modules/day-06b-men-fault-current-path.md): added the L-O-O-P-S workflow, three claim levels, evidence grades, worked-example fading, changed-supply transfer, six-category rubric and accessible prove-the-loop visual.
 - [x] 2026-07-14 — [Day 6C — Earthing and MEN fault scenarios](./modules/day-06c-earthing-and-men-fault-scenarios.md): replaced the inconsistent D-P-E-S label with the complete D-I-A-G-N-O-S-E workflow, added claim grades, evidence ladder, worked-example fading, varied transfer and a scored safety rubric.
 - [x] 2026-07-15 — [Day 7 — Week 1 consolidation and competency check](./modules/day-07-week-1-consolidation-and-competency-check.md): added the I-N-T-E-G-R-A-T-E workflow, explicit claim grades, faded changed-supply transfer, an eight-category 16-point rubric, critical-error gates and aligned vault metadata.
-- [ ] Next — Day 8 — Maximum demand.
+- [x] 2026-07-15 — [Day 8 — Maximum demand](./modules/day-08-maximum-demand.md): added the D-E-M-A-N-D workflow, explicit evidence and claim grades, operating-case reopening logic, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
+- [ ] Next — Day 9 — Complete cable-selection workflow.
 
 ## Quality gates for every hourly run
 
