@@ -71,12 +71,12 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 32 — Coordination, selectivity and upstream/downstream consequences](modules/day-32-coordination-selectivity-and-upstream-downstream-consequences.md)
 - [x] [Day 33 — Rest, retrieval and formula-selection correction](modules/day-33-rest-retrieval-and-formula-selection-correction.md)
 - [x] [Day 34 — Integrated protection, conductor and voltage scenario](modules/day-34-integrated-protection-conductor-and-voltage-scenario.md)
-- [ ] Day 35 — Week 5 design-review conference and remediation
+- [x] [Day 35 — Week 5 design-review conference and remediation](modules/day-35-week-5-design-review-conference-and-remediation.md)
 
 ### Week 6 — Switching, isolation and switchboards
 
-- [ ] Day 36 — Functional switching, isolation and emergency switching distinctions
-- [ ] Day 37 — Main switches, alternate supplies and source identification
+- [x] [Day 36 — Functional switching, isolation and emergency switching distinctions](modules/day-36-functional-switching-isolation-and-emergency-switching-distinctions.md)
+- [x] [Day 37 — Main switches, alternate supplies and source identification](modules/day-37-main-switches-alternate-supplies-and-source-identification.md)
 - [ ] Day 38 — Switchboard functional areas and arrangement principles
 - [ ] Day 39 — Accessibility, labelling and original defect-recognition scenarios
 - [ ] Day 40 — Rest, retrieval and boundary-condition review
