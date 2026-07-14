@@ -62,7 +62,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 ### Week 2 — Earthing, MEN and fault-current reasoning
 
 - [x] [Day 8 — Earthing terminology and component identification](modules/day-08-earthing-terminology-and-component-identification.md)
-- [ ] Day 9 — MEN arrangement and normal-current paths
+- [x] [Day 9 — MEN arrangement and normal-current paths](modules/day-09-men-arrangement-and-normal-current-paths.md)
 - [ ] Day 10 — Earth-fault current path and disconnection reasoning
 - [ ] Day 11 — Protective earthing continuity and equipotential bonding concepts
 - [ ] Day 12 — Rest, retrieval and misconception repair
