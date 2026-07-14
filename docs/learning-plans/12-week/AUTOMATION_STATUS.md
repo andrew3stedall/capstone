@@ -8,9 +8,9 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Days 1–15, ending with Day 15 — Earthing terminology and component roles.
+- **Completed:** Days 1–16, ending with Day 16 — Protective earthing continuity and exposed conductive parts.
 - **Current block:** None.
-- **Next block:** Day 16 — Protective earthing continuity and exposed conductive parts.
+- **Next block:** Day 17 — Equipotential bonding purpose and boundary reasoning.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -25,31 +25,32 @@ updated_on: 2026-07-14
 | 2–14 | Days 1–13 | Completed the first thirteen dedicated modules, notes and linked assets in sequence. | Create Day 14. |
 | 15 — 2026-07-14 | Day 14 — Week 2 protection integration checkpoint | Added a complete eight-beat integration checkpoint, I-N-T-E-G-R-A-T-E workflow, two Mermaid models, three assessment tasks, 20-point rubric, misconception repair, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 15 — Earthing terminology and component roles. |
 | 16 — 2026-07-14 | Day 15 — Earthing terminology and component roles | Added a complete eight-beat terminology foundation, E-A-R-T-H workflow, two Mermaid role/evidence models, original classification and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 16 — Protective earthing continuity and exposed conductive parts. |
+| 17 — 2026-07-14 | Day 16 — Protective earthing continuity and exposed conductive parts | Added a complete eight-beat continuity-evidence module, C-O-N-T-I-N-U-E workflow, two Mermaid models, exposed-part classification, evidence-ladder and transfer tasks, 12-point rubric, accessible SVG, knowledge-base note and reciprocal navigation. | Create Day 17 — Equipotential bonding purpose and boundary reasoning. |
 
-## Files added or updated in run 16
+## Files added or updated in run 17
 
-- `docs/learning-plans/12-week/modules/day-15-earthing-terminology-and-component-roles.md`
-- `docs/assets/learning/12-week/day-15-earthing-terminology-and-component-roles/name-the-role-before-the-path.svg`
+- `docs/learning-plans/12-week/modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md`
+- `docs/assets/learning/12-week/day-16-protective-earthing-continuity-and-exposed-conductive-parts/follow-the-path-prove-each-link.svg`
+- `docs/knowledge-base/12-Week Day 16 - Protective Earthing Continuity and Exposed Conductive Parts.md`
 - `docs/knowledge-base/12-Week Day 15 - Earthing Terminology and Component Roles.md`
-- `docs/knowledge-base/12-Week Day 14 - Week 2 Protection Integration Checkpoint.md`
-- `docs/learning-plans/12-week/modules/day-14-week-2-protection-integration-checkpoint.md`
+- `docs/learning-plans/12-week/modules/day-15-earthing-terminology-and-component-roles.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
-## Day 15 design decisions
+## Day 16 design decisions
 
-- Day 15 establishes a precise vocabulary before later modules introduce continuity, bonding, MEN and fault-scenario reasoning.
-- Component identity, intended role, connection and verified condition remain separate claim layers.
-- Conductor colour, diagram symbols and physical location may support identification but never prove endpoints, continuity, suitability or compliance.
-- Protective earthing and equipotential bonding are related but not treated as synonyms.
-- The role map is explicitly conceptual and does not claim required connections, fault-current magnitude or protective-device operation.
-- A 12-point rubric requires no zero in terminology, evidence control or safety boundary before progression.
+- The module separates presence, described connection, continuity, suitability and verified protective outcome into distinct evidence gates.
+- Exposed-conductive-part classification depends on accessibility, equipment relationship and fault possibility rather than metal alone.
+- A conceptual continuity path never proves actual endpoints, joint integrity, conductor suitability, fault-current magnitude or protective-device operation.
+- Discontinuity consequences may be discussed without diagnosing a defect location or cause.
+- C-O-N-T-I-N-U-E is an original reasoning workflow and not a test sequence.
+- A 12-point rubric requires no zero in part classification, evidence control or safety boundary before progression.
 
 ## Review flags
 
-- Day 15 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact definitions, MEN arrangements, required connection points, conductor requirements, testing criteria and jurisdiction-specific duties require qualified checking.
-- E-A-R-T-H, fictional scenarios, diagrams, tables and rubric are original educational constructs.
+- Day 16 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact exposed-part definitions, required protective-earthing connections, continuity requirements, conductor criteria, test methods, acceptance criteria and jurisdiction-specific duties require qualified checking.
+- C-O-N-T-I-N-U-E, fictional scenarios, diagrams, tables and rubric are original educational constructs.
 - No standards table, figure, systematic clause sequence, exact technical value or official assessment material was reproduced.
 - The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
 
