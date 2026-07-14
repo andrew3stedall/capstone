@@ -69,7 +69,7 @@ Recovery days are planned learning blocks, not missing content. They must:
 - [x] [Day 3 — Roles, authority, supervision and practical stop conditions](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
 - [x] [Day 4 — Wiring Rules structure and efficient topic navigation](modules/day-04-wiring-rules-structure-and-efficient-topic-navigation.md)
 - [x] [Day 5 — Rest, retrieval and source-navigation correction](modules/day-05-rest-retrieval-and-source-navigation-correction.md)
-- [ ] Day 6 — Evidence quality, applicability and completeness workshop
+- [x] [Day 6 — Evidence quality, applicability and completeness workshop](modules/day-06-evidence-quality-applicability-and-completeness-workshop.md)
 - [ ] Day 7 — Week 1 consolidation and individual remediation plan
 
 ### Week 2 — Circuit fundamentals and protective-device purpose
