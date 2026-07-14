@@ -75,9 +75,9 @@ These blocks introduce no unnecessary new electrical theory. Each must include t
 
 - [x] [Day 22 — Functional switching, isolation and emergency switching distinctions](modules/day-22-functional-switching-isolation-and-emergency-switching-distinctions.md)
 - [x] [Day 23 — Main switches, alternate supplies and isolation boundaries](modules/day-23-main-switches-alternate-supplies-and-isolation-boundaries.md)
-- [ ] Day 24 — Switchboard functional areas, accessibility and identification
-- [ ] Day 25 — Wiring systems, mechanical protection and environmental influences
-- [ ] Day 26 — Rest, visual-recall practice and catch-up
+- [x] [Day 24 — Switchboard functional areas, accessibility and identification](modules/day-24-switchboard-functional-areas-accessibility-and-identification.md)
+- [x] [Day 25 — Wiring systems, mechanical protection and environmental influences](modules/day-25-wiring-systems-mechanical-protection-and-environmental-influences.md)
+- [x] [Day 26 — Rest, visual-recall practice and catch-up](modules/day-26-rest-visual-recall-practice-and-catch-up.md)
 - [ ] Day 27 — Consumer mains, submains and final-subcircuit roles
 - [ ] Day 28 — Week 4 switchboard and wiring-system inspection exercise
 

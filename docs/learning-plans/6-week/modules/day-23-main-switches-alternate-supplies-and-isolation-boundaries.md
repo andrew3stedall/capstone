@@ -96,4 +96,4 @@ Define alternate supply, backfeed and residual energisation risk; state S-O-U-R-
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 22 — Functional Switching, Isolation and Emergency Switching Distinctions](day-22-functional-switching-isolation-and-emergency-switching-distinctions.md)
 - **Knowledge note:** [[Six-Week Day 23 - Main Switches Alternate Supplies and Isolation Boundaries]]
-- **Next:** Day 24 — Switchboard Functional Areas, Accessibility and Identification
+- **Next:** [Day 24 — Switchboard Functional Areas, Accessibility and Identification](day-24-switchboard-functional-areas-accessibility-and-identification.md)
