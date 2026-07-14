@@ -8,14 +8,14 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C, Day 7, Day 8, Day 9, Day 10 and Day 11.
-- **Current block:** Quality-improvement pass — [[Day 11 - Voltage Drop]] completed.
-- **Next block:** Quality-improvement pass — [[Day 12 - Rest Calculation Correction and Catch-Up]].
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C, Day 7, Day 8, Day 9, Day 10, Day 11 and Day 12.
+- **Current block:** Quality-improvement pass — [[Day 12 - Rest Calculation Correction and Catch-Up]] completed.
+- **Next block:** Quality-improvement pass — [[Day 13A - Switching Isolation and Main Switches]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Draft PR:** #5, targeting `main`.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
 - **Quality-pass rule:** Each module receives exactly one substantive quality-improvement pass before the final program-wide audit. Persistent review flags do not cause repeat selection.
-- **Review state:** Day 11 remains safety-critical, `review-required`, `reference_check_required`, not `technically-reviewed`, and grants no practical authority.
+- **Review state:** Day 12 is a non-technical recovery block, but revisited Days 8–11 claims remain `review-required`, `reference_check_required`, not `technically-reviewed`, and grant no practical authority.
 
 ## Run log
 
@@ -36,19 +36,20 @@ updated_on: 2026-07-15
 | 46 — 2026-07-15 | Quality-improvement pass — Day 9 | Added S-E-L-E-C-T, explicit evidence grades, route and source reopening logic, two Mermaid models, a bounded fictional example, worked-example fading, a 12-point rubric, critical-error gates and aligned vault content. Existing instructional SVGs were retained after accessibility review. | Quality-improvement pass — Day 10. |
 | 47 — 2026-07-15 | Quality-improvement pass — Day 10 | Added C-O-N-D-I-T-I-O-N-S, observed/classified/calculated/unresolved evidence grades, described/supported/verified claim grades, source-applicability gates, changed-route transfer, recalculation triggers, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing accessible instructional SVGs. | Quality-improvement pass — Day 11. |
 | 48 — 2026-07-15 | Quality-improvement pass — Day 11 | Added V-O-L-T-A-G-E, observed/verified/derived/assumed/missing evidence grades, described/supported/verified claim grades, calculation-versus-interpretation gates, changed-route transfer, worked-example fading, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing instructional SVGs after accessibility review. | Quality-improvement pass — Day 12. |
+| 49 — 2026-07-15 | Quality-improvement pass — Day 12 | Added R-E-P-A-I-R, a five-category causal error model, confidence calibration, dependent-step reopening, varied and delayed retrieval, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing accessible instructional SVGs. | Quality-improvement pass — Day 13A. |
 
-## Files updated in run 48
+## Files updated in run 49
 
-- `docs/learning-plans/4-week/modules/day-11-voltage-drop.md`
-- `docs/knowledge-base/Day 11 - Voltage Drop.md`
+- `docs/learning-plans/4-week/modules/day-12-rest-calculation-correction-and-catch-up.md`
+- `docs/knowledge-base/Day 12 - Rest Calculation Correction and Catch-Up.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 11 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact voltage-drop limits, allocation rules, formulae, conductor data, length conventions, phase and neutral treatment, temperature and power-factor methods, starting criteria, rounding rules, measurement procedures and acceptance criteria require qualified checking against current authorised sources.
-- The V-O-L-T-A-G-E workflow, evidence and claim grades, diagrams, fictional example, changed-route transfer and rubric are original educational models.
+- Day 12 introduces no new technical theory and is not itself a field procedure.
+- Any technical claim revisited from Days 8–11 remains `review-required`, `reference_check_required`, not `technically-reviewed` and subject to current authorised sources.
+- The R-E-P-A-I-R workflow, error taxonomy, confidence calibration, diagrams, fictional example, transfer task and rubric are original educational models.
 - No standards table, figure, systematic clause sequence, exact authoritative value, official assessment content or practical field procedure was reproduced.
 - The module and note grant no practical authority.
 
