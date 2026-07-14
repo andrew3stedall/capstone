@@ -96,5 +96,5 @@ This note uses original explanations, workflows, diagrams and scenarios. It does
 ## Navigation
 
 - **Previous:** [[12-Week Day 09 - Overload Short-Circuit and Fault-Current Distinctions]]
-- **Next:** Day 11 — RCD Purpose, Limitations and Interaction with Other Protection
+- **Next:** [[12-Week Day 11 - RCD Purpose Limitations and Interaction with Other Protection]]
 - **Map of content:** [[Protection Fundamentals]]
