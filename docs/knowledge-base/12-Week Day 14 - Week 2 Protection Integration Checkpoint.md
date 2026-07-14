@@ -97,5 +97,5 @@ This note uses original workflows, scenarios, diagrams, matrices and assessment 
 ## Navigation
 
 - **Previous:** [[12-Week Day 13 - Protection-Selection Evidence Workflow Using Original Scenarios]]
-- **Next:** Day 15 — Earthing Terminology and Component Roles
+- **Next:** [[12-Week Day 15 - Earthing Terminology and Component Roles]]
 - **Map of content:** [[Protection Fundamentals]]
