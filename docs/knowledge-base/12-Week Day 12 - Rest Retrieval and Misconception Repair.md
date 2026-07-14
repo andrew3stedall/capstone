@@ -95,5 +95,5 @@ This note uses original recovery controls, retrieval prompts, error categories, 
 ## Navigation
 
 - **Previous:** [[12-Week Day 11 - RCD Purpose Limitations and Interaction with Other Protection]]
-- **Next:** Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios
+- **Next:** [[12-Week Day 13 - Protection-Selection Evidence Workflow Using Original Scenarios]]
 - **Map of content:** [[Protection Fundamentals]]
