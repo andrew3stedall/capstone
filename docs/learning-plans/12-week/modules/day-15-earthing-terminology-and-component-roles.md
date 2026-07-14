@@ -254,7 +254,7 @@ Submit the entry check with confidence ratings, Tasks A–C, the rubric score, o
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 15 - Earthing Terminology and Component Roles]]
 - **Previous:** [Day 14 — Week 2 Protection Integration Checkpoint](day-14-week-2-protection-integration-checkpoint.md)
-- **Next:** Day 16 — Protective Earthing Continuity and Exposed Conductive Parts
+- **Next:** [Day 16 — Protective Earthing Continuity and Exposed Conductive Parts](day-16-protective-earthing-continuity-and-exposed-conductive-parts.md)
 
 ### Reference and currency notice
 
