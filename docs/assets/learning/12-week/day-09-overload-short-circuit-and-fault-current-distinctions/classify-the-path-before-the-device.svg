@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Classify the current path before choosing a protective-device explanation</title>
+  <desc id="desc">A black-and-white stick figure compares three labelled cards for overload, short circuit and earth fault. The cards lead to a question-mark gate before a protective-device card. A crossed-out shortcut shows that device-first guessing is unsafe.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="172" r="34"/>
+    <path d="M105 206v112M105 238l-55 48M105 238l58 28M105 318l-42 82M105 318l48 82"/>
+    <rect x="235" y="92" width="165" height="100" rx="12"/>
+    <rect x="430" y="92" width="165" height="100" rx="12"/>
+    <rect x="625" y="92" width="165" height="100" rx="12"/>
+    <path d="M163 266c68-62 105-81 151-83"/>
+    <path d="M304 168l17 15-22 8"/>
+    <path d="M400 142h30M595 142h30"/>
+    <path d="M318 192v90M513 192v90M708 192v90"/>
+    <path d="M318 282h390"/>
+    <path d="M708 282c60 0 93 35 93 78"/>
+    <rect x="730" y="360" width="170" height="92" rx="12"/>
+    <path d="M640 360l70-60"/>
+    <circle cx="640" cy="360" r="34"/>
+    <path d="M640 339c0-18 24-26 36-12 12 15-4 24-18 32-10 6-13 14-13 23"/>
+    <path d="M646 402h1"/>
+    <path d="M240 394l360-210" stroke-dasharray="15 14"/>
+    <path d="M400 252l76 76M476 252l-76 76"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="318" y="128" font-size="24" font-weight="700">OVERLOAD</text>
+    <text x="318" y="158" font-size="17">intended path?</text>
+    <text x="513" y="128" font-size="24" font-weight="700">SHORT CIRCUIT</text>
+    <text x="513" y="158" font-size="17">unintended path?</text>
+    <text x="708" y="128" font-size="24" font-weight="700">EARTH FAULT</text>
+    <text x="708" y="158" font-size="17">protective return?</text>
+    <text x="815" y="397" font-size="23" font-weight="700">DEVICE</text>
+    <text x="815" y="428" font-size="17">evidence next</text>
+    <text x="420" y="235" font-size="20" font-weight="700">DEVICE-FIRST GUESS</text>
+    <text x="480" y="490" font-size="29" font-weight="700">“Classify the path before predicting the device.”</text>
+    <text x="480" y="520" font-size="19">Trace the loop, name the event, then verify protection evidence.</text>
+  </g>
+</svg>
