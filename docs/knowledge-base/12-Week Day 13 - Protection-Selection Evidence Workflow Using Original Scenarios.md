@@ -96,5 +96,5 @@ This note uses original workflows, scenarios, diagrams, evidence records and ass
 ## Navigation
 
 - **Previous:** [[12-Week Day 12 - Rest Retrieval and Misconception Repair]]
-- **Next:** Day 14 — Week 2 Protection Integration Checkpoint
+- **Next:** [[12-Week Day 14 - Week 2 Protection Integration Checkpoint]]
 - **Map of content:** [[Protection Fundamentals]]
