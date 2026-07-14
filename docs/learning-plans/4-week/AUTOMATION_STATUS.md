@@ -8,14 +8,14 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C, Day 7, Day 8 and Day 9.
-- **Current block:** Quality-improvement pass — [[Day 09 - Complete Cable-Selection Workflow]] completed.
-- **Next block:** Quality-improvement pass — [[Day 10 - Installation Conditions and Derating]].
+- **Completed:** Plan framework; all Day 1–28 learning blocks; quality-improvement passes on Day 1, Day 2, Day 3, Day 4, Day 5, Day 6A, Day 6B, Day 6C, Day 7, Day 8, Day 9 and Day 10.
+- **Current block:** Quality-improvement pass — [[Day 10 - Installation Conditions and Derating]] completed.
+- **Next block:** Quality-improvement pass — [[Day 11 - Voltage Drop]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Draft PR:** #5, targeting `main`.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
 - **Quality-pass rule:** Each module receives exactly one substantive quality-improvement pass before the final program-wide audit. Persistent review flags do not cause repeat selection.
-- **Review state:** Day 9 remains safety-critical, `review-required`, `reference_check_required`, not `technically-reviewed`, and grants no practical authority.
+- **Review state:** Day 10 remains safety-critical, `review-required`, `reference_check_required`, not `technically-reviewed`, and grants no practical authority.
 
 ## Run log
 
@@ -34,19 +34,20 @@ updated_on: 2026-07-15
 | 44 — 2026-07-15 | Quality-improvement pass — Day 7 | Added I-N-T-E-G-R-A-T-E, claim grades, changed-supply transfer, 16-point rubric, critical-error gates and aligned note content. | Quality-improvement pass — Day 8. |
 | 45 — 2026-07-15 | Quality-improvement pass — Day 8 | Added D-E-M-A-N-D, evidence and claim grades, reopening logic, faded changed-context exercise, 12-point rubric, critical-error gates and aligned note content. | Quality-improvement pass — Day 9. |
 | 46 — 2026-07-15 | Quality-improvement pass — Day 9 | Added S-E-L-E-C-T, explicit evidence grades, route and source reopening logic, two Mermaid models, a bounded fictional example, worked-example fading, a 12-point rubric, critical-error gates and aligned vault content. Existing instructional SVGs were retained after accessibility review. | Quality-improvement pass — Day 10. |
+| 47 — 2026-07-15 | Quality-improvement pass — Day 10 | Added C-O-N-D-I-T-I-O-N-S, observed/classified/calculated/unresolved evidence grades, described/supported/verified claim grades, source-applicability gates, changed-route transfer, recalculation triggers, a 12-point rubric and critical-error gates. Aligned the vault note and retained the two existing accessible instructional SVGs. | Quality-improvement pass — Day 11. |
 
-## Files updated in run 46
+## Files updated in run 47
 
-- `docs/learning-plans/4-week/modules/day-09-complete-cable-selection-workflow.md`
-- `docs/knowledge-base/Day 09 - Complete Cable-Selection Workflow.md`
+- `docs/learning-plans/4-week/modules/day-10-installation-conditions-and-derating.md`
+- `docs/knowledge-base/Day 10 - Installation Conditions and Derating.md`
 - `docs/learning-plans/4-week/MASTER_PLAN.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 9 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact installation classifications, capacities, correction factors, factor-combination methods, device characteristics, voltage-drop criteria, fault requirements, terminal limits and jurisdiction-specific acceptance criteria require qualified checking against current authorised sources.
-- The S-E-L-E-C-T workflow, evidence grades, diagrams, fictional example, scoring rubric and remediation gates are original educational models.
+- Day 10 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact classifications, reference conditions, capacity data, ambient-temperature treatment, grouping rules, insulation treatment, enclosure and underground factors, interaction methods, exceptions and acceptance criteria require qualified checking against current authorised sources.
+- The C-O-N-D-I-T-I-O-N-S workflow, evidence and claim grades, diagrams, fictional example, transfer task and rubric are original educational models.
 - No standards table, figure, systematic clause sequence, exact technical value, official assessment content or practical field procedure was reproduced.
 - The module and note grant no practical authority.
 
