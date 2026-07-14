@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Prove the fault loop before claiming the protective device operates</title>
+  <desc id="desc">A black-and-white stick figure traces a complete loop through labelled evidence cards before reaching a protective-device card. A shortcut arrow labelled guess is crossed out. The caption says the trip is the conclusion, not the first step.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="160" r="34"/>
+    <path d="M120 194v105M120 225l-58 55M120 225l62 30M120 299l-45 85M120 299l50 85"/>
+    <path d="M182 255c72-82 157-116 250-102"/>
+    <path d="M423 138l25 16-29 10"/>
+    <rect x="330" y="102" width="150" height="82" rx="12"/>
+    <rect x="525" y="102" width="150" height="82" rx="12"/>
+    <rect x="720" y="102" width="150" height="82" rx="12"/>
+    <path d="M480 143h45M675 143h45"/>
+    <path d="M795 184c-4 90-73 160-165 160H362c-79 0-143-49-162-118"/>
+    <path d="M213 239l-14-23-14 25"/>
+    <path d="M248 383c150-34 287-34 411 0"/>
+    <path d="M271 349l-38 41 54 14"/>
+    <path d="M645 357l34 33-45 21"/>
+    <path d="M300 305l350-128" stroke-dasharray="14 14"/>
+    <path d="M430 236l77 77M507 236l-77 77"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="405" y="134" font-size="24" font-weight="700">PATH</text>
+    <text x="405" y="163" font-size="18">complete?</text>
+    <text x="600" y="134" font-size="24" font-weight="700">EVIDENCE</text>
+    <text x="600" y="163" font-size="18">verified?</text>
+    <text x="795" y="134" font-size="24" font-weight="700">DEVICE</text>
+    <text x="795" y="163" font-size="18">response?</text>
+    <text x="465" y="222" font-size="20" font-weight="700">GUESS</text>
+    <text x="480" y="448" font-size="30" font-weight="700">“The trip is the conclusion, not the first step.”</text>
+    <text x="480" y="486" font-size="21">Trace the loop, grade the evidence, then state a bounded outcome.</text>
+  </g>
+</svg>
