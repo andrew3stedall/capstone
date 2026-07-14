@@ -111,7 +111,8 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] 2026-07-15 — [Day 8 — Maximum demand](./modules/day-08-maximum-demand.md): added the D-E-M-A-N-D workflow, explicit evidence and claim grades, operating-case reopening logic, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
 - [x] 2026-07-15 — [Day 9 — Complete cable-selection workflow](./modules/day-09-complete-cable-selection-workflow.md): added the S-E-L-E-C-T workflow, evidence and claim grades, reopening logic, two decision diagrams, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
 - [x] 2026-07-15 — [Day 10 — Installation conditions and derating](./modules/day-10-installation-conditions-and-derating.md): added the C-O-N-D-I-T-I-O-N-S workflow, evidence and claim grades, source-applicability gates, changed-route transfer, recalculation triggers, a six-category 12-point rubric and aligned vault metadata.
-- [ ] Next — Day 11 — Voltage drop.
+- [x] 2026-07-15 — [Day 11 — Voltage drop](./modules/day-11-voltage-drop.md): added the V-O-L-T-A-G-E workflow, explicit evidence and claim grades, calculation-versus-interpretation gates, changed-route transfer, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
+- [ ] Next — Day 12 — Rest, calculation correction and catch-up.
 
 ## Quality gates for every hourly run
 
