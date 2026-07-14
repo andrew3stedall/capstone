@@ -45,7 +45,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 ### Week 3 — Earthing, bonding and MEN mental models
 
-- [ ] Day 15 — Earthing terminology and component roles
+- [x] [Day 15 — Earthing terminology and component roles](modules/day-15-earthing-terminology-and-component-roles.md)
 - [ ] Day 16 — Protective earthing continuity and exposed conductive parts
 - [ ] Day 17 — Equipotential bonding purpose and boundary reasoning
 - [ ] Day 18 — MEN arrangement and normal-current versus fault-current paths
