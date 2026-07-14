@@ -6,6 +6,10 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
+quality_improvement_pass:
+  completed: true
+  completed_on: 2026-07-15
+  pass_number: 1
 standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
@@ -13,7 +17,7 @@ standard_references:
   - standard: AS/NZS 3008.1.1
     edition: current-authorised-edition-required
     clause: reference_check_required
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -33,350 +37,311 @@ related_simulations: []
 
 # Day 11 — Voltage Drop
 
-> **Source, design and safety notice:** This module teaches an original evidence workflow for voltage-drop reasoning. It does not reproduce standards tables, conductor datasets, clause wording, official limits or manufacturer calculations. Exact maximum permitted voltage drop, conductor parameters, formula conventions, phase arrangements, power-factor treatment, temperature assumptions, load profiles, motor-starting requirements and acceptance criteria must be checked against current authorised standards, amendments, legislation, regulator and network requirements, manufacturer instructions, workplace procedures and RTO directions. All numerical values below are fictional teaching inputs. This module is not `technically-reviewed`.
+> **Source, design and safety notice:** This module teaches an original evidence workflow for voltage-drop reasoning. It does not reproduce standards tables, conductor datasets, clause wording, official limits or manufacturer calculations. Exact permitted voltage drop, conductor parameters, formula conventions, phase arrangements, power-factor treatment, temperature assumptions, load profiles, motor-starting requirements and acceptance criteria must be checked against current authorised sources. All numerical values below are fictional teaching inputs. This module is not `technically-reviewed` and grants no authority to perform electrical work.
 
 ## Navigation
 
 - **Previous:** [Day 10 — Installation Conditions and Derating](./day-10-installation-conditions-and-derating.md)
-- **Next scheduled block:** [Day 12 — Rest, Calculation Correction and Catch-Up](../MASTER_PLAN.md#week-2--circuit-design-cables-and-switchboards)
+- **Next:** [Day 12 — Rest, Calculation Correction and Catch-Up](./day-12-rest-calculation-correction-and-catch-up.md)
 
 ## 1. Outcome and entry check
 
-### Learning objectives
+### Observable learning objectives
 
-By the end of this block, the learner should be able to:
+By the end of this block, the learner can:
 
-1. explain voltage drop as a difference between source voltage and voltage available at a load under stated operating conditions;
-2. distinguish voltage drop from supply variation, undervoltage faults and conductor current-carrying capacity;
-3. identify the complete current path and relevant route length before selecting a calculation method;
-4. separate upstream, submain and final-subcircuit contributions;
-5. use a source-controlled calculation structure without treating remembered constants as authoritative;
-6. explain why load current, conductor impedance, route length, phase arrangement and operating condition affect the result;
-7. test design alternatives when a provisional result is excessive;
-8. state a bounded conclusion that records assumptions, source references and unresolved evidence.
+1. define voltage drop using nominated source and load terminals and a stated operating case;
+2. distinguish voltage drop from supply variation, undervoltage caused by a fault, and conductor current-carrying capacity;
+3. draw the complete contributing path and identify upstream, submain and final-subcircuit sections;
+4. classify each input as **observed**, **verified**, **derived**, **assumed** or **missing**;
+5. select a calculation method only after confirming its source, applicability and units;
+6. calculate fictional section contributions and a cumulative result without presenting training data as authoritative;
+7. reopen affected design checks when current, length, conductor, route, source or load duty changes;
+8. produce a bounded conclusion graded as **described**, **supported** or **verified**.
 
 ### Entry check — six minutes, closed note
 
-1. Why can a thermally adequate cable still produce an unacceptable voltage at the load?
-2. Which current should be used: connected load, maximum demand, protective-device rating or another defined operating current?
-3. Why is one-way route length not always the same as the electrical path length used by a method?
-4. What upstream circuit sections may contribute to voltage drop at a final load?
-5. Why can motor starting require a different operating case from steady running?
-6. What evidence would make a voltage-drop result defensible?
+1. Why can a thermally adequate cable still produce unsuitable voltage at the load?
+2. Which current belongs in a calculation, and what evidence establishes it?
+3. Why may physical route length differ from calculation length?
+4. Which upstream sections may contribute at a remote load?
+5. Why can starting and running require different cases?
+6. What evidence separates a calculation from a defensible design conclusion?
 
-Mark confidence beside each answer. Treat a confident unsupported formula as a priority error.
+Mark confidence beside every answer. A confident answer based on a remembered constant is a priority correction.
 
 ## 2. Why it matters
 
-Equipment is designed to operate within a suitable voltage range. Excessive voltage drop can cause poor starting, reduced torque, dim lighting, malfunction, nuisance behaviour, excessive current in some loads or failure to meet design and compliance requirements.
+Equipment performance depends on voltage available at its terminals under the relevant operating condition. Excessive drop may contribute to poor starting, reduced torque, dim lighting, control malfunction or failure to meet verified design requirements.
 
-The common error is to reduce the task to one formula. A defensible result depends on a chain of evidence:
+The assessment skill is not formula recall. It is maintaining a traceable chain:
 
-**load and operating case → supply point → complete circuit path → conductor and arrangement → authorised method and data → section results → cumulative result → equipment and compliance check**
+**operating case → calculation boundary → complete path → applicable data → section results → cumulative result → interpretation → reopened design checks**
 
-Voltage drop is related to cable selection, but it is not the same check as current-carrying capacity. A conductor may pass thermal coordination and still fail the voltage-performance requirement.
+Voltage drop is one design gate. It does not replace current-carrying-capacity, protection, fault-performance, termination, equipment or supply-quality checks.
 
-![A learner follows the whole supply path while a shortcut formula falls off the page](../../../assets/learning/4-week/day-11-voltage-drop/voltage-drop-needs-the-whole-path.svg)
+![A learner follows the complete supply path while a shortcut formula falls away](../../../assets/learning/4-week/day-11-voltage-drop/voltage-drop-needs-the-whole-path.svg)
 
 ## 3. Core concepts and terminology
 
-### Voltage at the source and load
+### Voltage drop
 
-**Source voltage** is the voltage at the nominated supply point for the calculation. **Load voltage** is the voltage predicted or measured at the equipment terminals under a stated operating condition.
-
-Conceptually:
+**Voltage drop** is the difference between voltage at a nominated source point and voltage at nominated load terminals under a stated operating condition.
 
 ```text
 voltage drop = source voltage − load voltage
 ```
 
-The source point, operating condition and applicable acceptance rule must be defined. A result without those boundaries is incomplete.
+This relationship describes the concept. It is not, by itself, a complete design method.
+
+### Calculation boundary
+
+The **calculation boundary** identifies the exact start and finish points. A result is ambiguous when the source point, load terminals or upstream contribution is omitted.
 
 ### Circuit-section contribution
 
-A load may be supplied through several sections, such as consumer mains, a submain and a final subcircuit. Each relevant section contributes to the cumulative result.
-
-Conceptually:
+A supply path may contain consumer mains, submains and a final subcircuit. Each relevant section can contribute to the cumulative result.
 
 ```text
-total voltage drop = contribution of section 1 + section 2 + ... + section n
+cumulative result = section A + section B + ... + section n
 ```
 
-Whether contributions may be combined directly, and which method applies, remains `reference_check_required`.
+How contributions are determined and combined remains source-dependent.
 
-### Design current and operating current
+### Operating case
 
-The relevant current depends on the calculation purpose and authorised method. It may not equal connected load, maximum demand or protective-device rating. Continuous operation, intermittent duty, simultaneous loads, motor starting and control states may require separate cases.
+An **operating case** is a defined combination of load state, simultaneity, duty and supply condition. Running, starting, intermittent and abnormal scenarios must not be merged without evidence.
 
 ### Conductor impedance
 
-A conductor opposes current through resistance and reactance. The applicable model may depend on conductor material, cross-sectional area, temperature, arrangement, frequency, route and source data.
+**Impedance** is opposition to alternating current and may include resistance and reactance. Applicable values depend on conductor, arrangement, temperature, frequency and source method.
 
-Do not substitute a remembered millivolt-per-ampere-metre value, resistance constant or reactance assumption without verifying that it applies to the selected conductor and method.
+### Physical route length and calculation length
 
-### Route length and current path
+**Physical route length** describes the installed route. **Calculation length** is the length convention required by the verified method. They are not automatically interchangeable.
 
-**Physical route length** describes the installed path. **Calculation length** is the length required by the authorised method. The treatment of outgoing and return paths differs with circuit arrangement and source convention.
+### Evidence grades
 
-### Percentage voltage drop
+- **Observed:** directly provided by a drawing, schedule, label or scenario.
+- **Verified:** checked against an identified current authorised source.
+- **Derived:** calculated from verified or clearly stated inputs.
+- **Assumed:** provisional and explicitly labelled.
+- **Missing:** necessary evidence is unavailable; the conclusion remains unresolved.
 
-A result may be expressed as volts or as a percentage of a defined nominal or reference voltage.
+### Claim grades
 
-Conceptually:
+- **Described:** the path or issue is explained, but evidence is incomplete.
+- **Supported:** the method and principal inputs are identified, but a material verification remains outstanding.
+- **Verified:** every material input, method, boundary and acceptance source has been checked by an authorised competent person.
 
-```text
-percentage voltage drop = voltage drop ÷ reference voltage × 100
-```
-
-The correct reference voltage and rounding method remain source-dependent.
-
-### Steady-state and transient cases
-
-A **steady-state** case represents ongoing operation. A **transient** case may represent motor starting, transformer energisation or another short-duration event. Equipment performance may require both to be considered even where compliance calculations focus on a defined steady condition.
-
-### Voltage-drop budget
-
-A **voltage-drop budget** is a design allocation across circuit sections. It is not an automatic standards rule. It is a planning tool that must remain consistent with the authorised total requirement and the actual installation.
+Automated learning content cannot assign the verified grade to safety-critical compliance conclusions.
 
 ## 4. Rule-finding workflow
 
-Use the **D-R-O-P** workflow:
+Use the **V-O-L-T-A-G-E** workflow:
 
-1. **D — Define the duty and destination.** Identify the load, operating case, equipment requirement, source point and destination terminals.
-2. **R — Reconstruct the route.** Map every relevant circuit section, conductor arrangement, length, joint, phase and neutral path.
-3. **O — Obtain authorised method and inputs.** Select current source material, conductor data, formula conventions, voltage reference and applicable limit.
-4. **P — Prove the cumulative result and iterate.** Calculate by section, combine using the authorised method, challenge assumptions and redesign where required.
+1. **V — Verify the operating case.** Define running, starting or other duty and identify the current basis.
+2. **O — Outline the calculation boundary.** Nominate source and load terminals.
+3. **L — List every contributing section.** Include upstream sections rather than calculating only the final cable.
+4. **T — Tie inputs to evidence.** Record conductor, arrangement, length, temperature, power factor and source status.
+5. **A — Apply an authorised method.** Check edition, applicability, units, length convention and rounding.
+6. **G — Gather and combine section results.** Keep section arithmetic visible and preserve precision until the final step.
+7. **E — Evaluate, iterate and reopen.** Compare only with verified criteria, test design alternatives and reopen every affected design gate.
 
 ```mermaid
 flowchart TD
-    A["Define load and operating case"] --> B["Nominate source and load terminals"]
-    B --> C["Map every contributing circuit section"]
-    C --> D["Confirm conductor, arrangement and length"]
-    D --> E["Select authorised method and data"]
-    E --> F["Calculate each section"]
-    F --> G["Combine contributions"]
-    G --> H{"Within verified requirement and equipment needs?"}
-    H -->|"No or unresolved"| I["Change conductor, route, supply point, load allocation or equipment strategy"]
-    I --> C
-    H -->|"Yes"| J["Record result, assumptions and source evidence"]
+    A[Verify operating case] --> B[Outline source and load terminals]
+    B --> C[List every contributing section]
+    C --> D[Classify each input by evidence grade]
+    D --> E{Method and data applicable?}
+    E -->|No or unresolved| F[Stop and obtain authorised evidence]
+    E -->|Yes| G[Calculate section contributions]
+    G --> H[Combine cumulative result]
+    H --> I{Interpretation source verified?}
+    I -->|No| J[State supported or unresolved conclusion]
+    I -->|Yes| K[Compare and document]
+    J --> L[Change one design variable if required]
+    K --> L
+    L --> M[Reopen capacity protection fault termination and equipment checks]
 ```
 
-### Voltage-drop evidence record
+The diagram separates calculation from interpretation. A numerical answer does not become a compliance conclusion until the applicable boundary, method, inputs and acceptance source are verified.
 
-For each calculation, record:
+### Evidence record
 
-- load description and operating case;
-- source point and destination terminals;
-- nominal or reference voltage;
-- circuit arrangement and phase allocation;
-- each contributing circuit section;
-- conductor material, size, construction and loaded conductors;
-- route and calculation lengths;
-- current used and why it applies;
-- resistance, reactance or tabulated source data;
-- conductor-temperature assumption where relevant;
-- power factor or load characteristic where relevant;
-- formula or table source and edition;
-- section result and cumulative result;
-- equipment-specific voltage requirement;
-- compliance requirement and jurisdiction;
-- evidence status: confirmed, assumed or missing.
+Record:
 
-A neat answer with an unidentified current or unknown route is not a complete design result.
+- operating case and current basis;
+- source and destination terminals;
+- every contributing section;
+- physical and calculation length;
+- conductor material, size, construction and arrangement;
+- relevant temperature, power-factor or duty assumptions;
+- method, edition and data source;
+- units and conversion steps;
+- section and cumulative results;
+- equipment requirement and acceptance source;
+- evidence grade for every material input;
+- reopened design checks after any change.
 
 ## 5. Visual model or worked example
 
-### Upstream-to-load model
+### Complete-path model
 
 ```mermaid
 flowchart LR
-    S["Supply point"] --> M["Consumer mains"]
-    M --> MSB["Main switchboard"]
-    MSB --> SM["Submain"]
-    SM --> DB["Distribution board"]
-    DB --> F["Final subcircuit"]
-    F --> L["Load terminals"]
-    M --> V1["Contribution A"]
-    SM --> V2["Contribution B"]
-    F --> V3["Contribution C"]
-    V1 --> T["Cumulative result"]
-    V2 --> T
-    V3 --> T
+    S[Supply point] --> A[Section A]
+    A --> B[Section B]
+    B --> C[Section C]
+    C --> L[Load terminals]
+    A -. contribution A .-> T[Cumulative result]
+    B -. contribution B .-> T
+    C -. contribution C .-> T
 ```
 
-### Worked training example — fictional values
+The model shows why a final-subcircuit-only calculation can understate the complete source-to-load result.
 
-A fictional single operating case has three contributing sections. The values and method below are invented solely to demonstrate structure.
+### Fictional worked example
 
-| Section | Fictional current | Fictional length | Fictional source factor | Fictional contribution |
+The following values are invented solely to practise structure.
+
+| Section | Fictional current | Fictional length | Fictional factor | Fictional contribution |
 |---|---:|---:|---:|---:|
-| Consumer mains | `36 A` | `18 m` | `0.62 mV/A/m` | `0.40 V` |
-| Submain | `28 A` | `31 m` | `0.91 mV/A/m` | `0.79 V` |
-| Final subcircuit | `12 A` | `24 m` | `2.80 mV/A/m` | `0.81 V` |
-
-Fictional cumulative result:
+| A | `30 A` | `20 m` | `0.50 mV/A/m` | `0.30 V` |
+| B | `24 A` | `25 m` | `0.80 mV/A/m` | `0.48 V` |
+| C | `10 A` | `30 m` | `2.40 mV/A/m` | `0.72 V` |
 
 ```text
-0.40 V + 0.79 V + 0.81 V = 2.00 V
+fictional cumulative result = 0.30 V + 0.48 V + 0.72 V = 1.50 V
 ```
 
-These numbers are not standards data and must not be used for design.
+No pass/fail conclusion follows. The learner must still establish whether the factors, current bases, length convention, calculation boundary, equipment requirement and acceptance source apply.
 
-The important reasoning is not the arithmetic. It is that:
+### Worked-example fading
 
-- each section uses a current appropriate to its operating case;
-- upstream contributions are not ignored;
-- source data is tied to the conductor and arrangement;
-- the result is compared with both an authorised requirement and equipment needs;
-- assumptions are visible and can be challenged.
+1. **Fully guided:** classify every input and reproduce the section arithmetic.
+2. **Partly faded:** choose the operating current and length convention from supplied evidence.
+3. **Mostly faded:** reconstruct the complete path and identify missing evidence.
+4. **Independent transfer:** solve a changed scenario and explain which downstream checks reopen.
 
-A weak answer calculates only the final subcircuit because it is closest to the load. A stronger answer reconstructs the entire contributing path and states whether upstream values are verified, allocated or unresolved.
-
-![Two learners allocate a fictional voltage-drop budget while a giant percentage stamp is rejected](../../../assets/learning/4-week/day-11-voltage-drop/a-budget-is-not-a-rule.svg)
+![Two learners allocate a fictional voltage-drop budget while rejecting an unsupported percentage stamp](../../../assets/learning/4-week/day-11-voltage-drop/a-budget-is-not-a-rule.svg)
 
 ## 6. Practical application
 
-### Original scenario — workshop compressor and lighting extension
+### Scenario — workshop compressor and lighting extension
 
-A workshop distribution board supplies an existing lighting circuit and a proposed compressor in a detached work area. The supply path includes existing consumer mains, an existing submain and a proposed final subcircuit.
+A detached workshop is supplied through existing consumer mains and a submain. A proposed compressor will be connected by a new final subcircuit. Starting data is available only from an undated document, the route is longer than the concept drawing, conductor material for the submain is unconfirmed, and lights reportedly dim when another machine starts.
 
-Known information:
+Complete a paper-based review only.
 
-- the compressor has separate starting and running data, but the manufacturer document is not yet confirmed current;
-- the proposed route is longer than the drawing suggests because it follows structural supports;
-- the submain conductor size is recorded, but conductor material and installation temperature are not confirmed;
-- existing lighting complaints occur when another machine starts;
-- the upstream maximum-demand assessment was prepared before the compressor was proposed;
-- the final load terminals are remote from the distribution board.
+### Task A — establish cases
 
-Complete a paper-based design review.
+Create separate running and starting cases. For each section, identify the current basis and evidence grade.
 
-### Part A — define cases
+### Task B — reconstruct the path
 
-Prepare at least two operating cases:
+Draw the full source-to-load path. Record physical length, calculation length, conductor evidence and every missing input.
 
-1. compressor running with representative concurrent workshop loads;
-2. compressor starting with the relevant equipment and supply assumptions.
+### Task C — controlled calculation
 
-State what current belongs to each section in each case and why.
-
-### Part B — map the path
-
-Draw the complete source-to-load path. For every section, record:
-
-- physical route;
-- calculation length required by the source method;
-- conductor and circuit arrangement;
-- current used;
-- verified and missing evidence.
-
-### Part C — calculation worksheet
-
-Without inserting real standards data, prepare this structure:
+Use symbols or fictional factors rather than standards values. Show:
 
 ```text
-operating case
-source point
-load terminals
-section
-current and basis
-conductor and arrangement
-physical length
-calculation length
-source data reference
-section voltage drop
-cumulative voltage drop
-equipment requirement
-compliance requirement
-pass / fail / unresolved
+case → boundary → section → current basis → conductor data source
+→ length convention → section result → cumulative result → claim grade
 ```
 
-### Part D — design responses
+### Task D — changed-condition transfer
 
-For a provisional excessive result, compare at least four responses:
+The proposed final route becomes longer and passes through a different installation environment. Explain, without selecting real values:
 
-- increase conductor size;
-- shorten or reroute the circuit;
-- relocate a distribution point;
-- redistribute loads or phases where applicable;
-- revise the equipment or starting method using manufacturer guidance;
-- separate sensitive loads;
-- improve upstream supply arrangements through authorised design review.
+1. which voltage-drop inputs change;
+2. whether the governing section may change;
+3. which Day 10 installation classifications require reopening;
+4. which capacity, protection, fault, termination and equipment checks must be revisited;
+5. why changing only the final conductor may not resolve an upstream limitation.
 
-Do not assume that increasing the final-subcircuit conductor solves an upstream limitation.
+### Task E — bounded conclusion
 
-### Part E — bounded conclusion
+Write a conclusion containing:
 
-Write a conclusion that states:
+- the provisionally limiting operating case;
+- the complete path included;
+- evidence grades for material inputs;
+- missing authorised sources;
+- available design iterations;
+- a described or supported claim grade;
+- a clear statement that compliance is not established.
 
-1. which operating case is provisionally limiting;
-2. the cumulative path included;
-3. the assumptions that materially affect the result;
-4. the source information still required;
-5. the design changes available;
-6. why compliance or equipment performance cannot yet be claimed.
+### Assessment rubric — 12 points
+
+Score each category `0`, `1` or `2`:
+
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Boundary | unclear | partial | exact source and load terminals |
+| Operating cases | merged or unsupported | partly separated | clearly separated with current basis |
+| Path | final section only | most sections | every contributing section |
+| Evidence | assumptions hidden | mixed | every material input graded |
+| Method and arithmetic | unsupported | mostly traceable | source-controlled and unit-consistent |
+| Conclusion and reopening | overclaims | partly bounded | correctly graded and reopens all affected checks |
+
+**Readiness guide:** `10–12` with no critical error supports progression; `7–9` requires targeted correction; `0–6` requires rework from the workflow.
+
+**Critical errors override the score:** using remembered authoritative constants, omitting a material upstream section, confusing physical and calculation length, hiding a missing input, claiming compliance without a verified source, or recommending field work beyond authority.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- calculating only the final subcircuit and ignoring upstream contributions;
-- using protective-device rating automatically as the load current;
-- using connected load where a different operating case is required;
-- confusing physical one-way length with the source method's calculation length;
-- using a factor for the wrong conductor material, phase arrangement or temperature;
-- ignoring reactance or power factor where the authorised method requires them;
-- applying one steady-state result to motor starting;
-- treating an internally allocated voltage-drop budget as an official rule;
-- comparing percentage drop with the wrong reference voltage;
-- rounding intermediate values so aggressively that the conclusion changes;
-- redesigning a conductor without rechecking current-carrying capacity, protection, fault performance and termination constraints;
-- reporting a pass without identifying the source edition and assumptions.
+- calculating only the final subcircuit;
+- using protective-device rating automatically as load current;
+- combining starting and running cases;
+- using one-way physical length in an unverified convention;
+- using conductor data for the wrong material or arrangement;
+- treating a design budget as an official limit;
+- rounding intermediate values until the conclusion changes;
+- changing conductor size without reopening other design gates;
+- treating calculated low voltage as proof of a fault cause;
+- reporting a pass without an identified acceptance source.
 
 ### Safety checkpoint
 
 Stop and escalate when:
 
-- the source point or complete supply path is unknown;
-- conductor identity, circuit arrangement or route length cannot be established;
-- the load current or duty is unsupported;
-- manufacturer voltage or starting requirements are unavailable;
-- the calculation depends on remembered constants or unverified copied data;
-- supply variation, poor connections, neutral problems or another fault may be causing low voltage;
-- measurements or site access would require work beyond competence, authorisation or safe isolation procedures;
-- the proposed fix may affect protection, fault-loop performance, equipment ratings or network requirements.
+- the complete supply path or source point is unknown;
+- conductor identity, arrangement or length cannot be established;
+- load current or duty is unsupported;
+- manufacturer operating or starting requirements are unavailable;
+- the method depends on remembered or copied data;
+- poor connections, neutral faults, damaged conductors or supply variation may be involved;
+- measurement or access would exceed competence, authorisation or safe-isolation boundaries;
+- a proposed change may alter protection, fault performance, equipment ratings or network requirements.
 
-Voltage drop is a design calculation. It must not be used to dismiss evidence of a loose connection, damaged conductor, neutral fault or unsafe supply condition.
+Voltage-drop calculation must not be used to dismiss evidence of an unsafe connection or supply fault.
 
 ## 8. Retrieval and next links
 
 ### Closed-note retrieval
 
-1. Define voltage drop, source voltage and load voltage.
-2. Explain the D-R-O-P workflow.
-3. List six inputs that can materially change a voltage-drop result.
-4. Explain why upstream contributions matter.
-5. Distinguish physical route length from calculation length.
-6. Explain why current-carrying capacity and voltage drop are separate checks.
-7. State two reasons a starting case may differ from a running case.
-8. Write one bounded conclusion containing an explicit evidence gap.
+1. Define voltage drop and calculation boundary.
+2. Recite the V-O-L-T-A-G-E workflow.
+3. Distinguish physical route length from calculation length.
+4. Name the five evidence grades.
+5. Explain why upstream contributions matter.
+6. Explain why starting and running may require separate cases.
+7. List the design checks reopened by a conductor or route change.
+8. Write a supported conclusion with one explicit evidence gap.
 
-### Applied practice
+### Correction and re-attempt
 
-Choose a fictional load supplied through a submain and final subcircuit. Draw the complete path, create two operating cases and build the evidence worksheet. Use symbols or placeholders rather than real standards constants.
+Select the two lowest rubric categories. Correct only those categories, then repeat the changed-condition transfer with a different fictional load. Do not reread the entire module unless the workflow itself is unclear.
 
 ### Readiness check
 
-Proceed when you can:
+Proceed when you can map the complete path, grade every material input, apply a source-controlled method, preserve units, state a bounded claim and reopen affected design checks without claiming technical approval.
 
-- define the source and destination for the calculation;
-- map every contributing circuit section;
-- select an operating current only after stating its basis;
-- keep source data separate from assumptions;
-- calculate and combine section contributions using a verified method;
-- propose design iterations without claiming unverified compliance.
-
-Return to Day 8 if the load model is unclear, Day 9 if the wider cable-selection workflow is unclear, or Day 10 if the route and installation conditions are not established.
+Return to Day 8 if the load model is unclear, Day 9 if the wider selection workflow is unclear, or Day 10 if installation conditions are unresolved.
 
 ### Vault and sequence links
 
@@ -392,12 +357,12 @@ Return to Day 8 if the load model is unclear, Day 9 if the wider cable-selection
 
 - AS/NZS 3000:2018, current authorised copy and applicable amendments required.
 - Current authorised AS/NZS 3008 series material applicable to the conductor and installation.
-- Current manufacturer data for the connected equipment, including operating-voltage and starting requirements where relevant.
+- Current equipment-manufacturer voltage and starting requirements.
 - Current legislation, regulator guidance, network service rules, workplace procedures and RTO assessment directions.
 - [Learning Design](../../../LEARNING_DESIGN.md)
 - [Content, Standards and Copyright Policy](../../../CONTENT_AND_COPYRIGHT.md)
 
-Exact voltage-drop limits, allocation rules, formulae, conductor impedance data, phase and neutral treatment, temperature corrections, power-factor methods, motor-starting criteria, rounding conventions, measurement procedures and jurisdiction-specific acceptance criteria remain `reference_check_required`. No copied standards table, dataset, figure or clause wording is included. This module must remain `review-required` until checked by a suitably qualified reviewer against current authorised sources.
+Exact limits, allocation rules, formulae, conductor data, phase and neutral treatment, temperature assumptions, power-factor methods, motor-starting criteria, rounding conventions, measurement procedures and jurisdiction-specific acceptance criteria remain `reference_check_required`. No copied standards table, dataset, figure or clause wording is included.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
