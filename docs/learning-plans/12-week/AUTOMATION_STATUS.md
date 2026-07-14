@@ -8,9 +8,9 @@ updated_on: 2026-07-14
 
 ## Current state
 
-- **Completed:** Day 1 — Program orientation, baseline diagnostic and authorised-source map; Day 2 — Electrical hazards, exposure pathways and consequence reasoning; Day 3 — Roles, authority, supervision and practical stop conditions; Day 4 — Wiring Rules structure and efficient topic navigation; Day 5 — Rest, retrieval and source-navigation correction; Day 6 — Evidence quality, applicability and completeness workshop; Day 7 — Week 1 consolidation and individual remediation plan; Day 8 — Circuit quantities, load reasoning and prerequisite calculation check; Day 9 — Overload, short-circuit and fault-current distinctions; Day 10 — Protective-device roles and protection boundaries.
+- **Completed:** Day 1 — Program orientation, baseline diagnostic and authorised-source map; Day 2 — Electrical hazards, exposure pathways and consequence reasoning; Day 3 — Roles, authority, supervision and practical stop conditions; Day 4 — Wiring Rules structure and efficient topic navigation; Day 5 — Rest, retrieval and source-navigation correction; Day 6 — Evidence quality, applicability and completeness workshop; Day 7 — Week 1 consolidation and individual remediation plan; Day 8 — Circuit quantities, load reasoning and prerequisite calculation check; Day 9 — Overload, short-circuit and fault-current distinctions; Day 10 — Protective-device roles and protection boundaries; Day 11 — RCD purpose, limitations and interaction with other protection.
 - **Current block:** None.
-- **Next block:** Day 11 — RCD purpose, limitations and interaction with other protection.
+- **Next block:** Day 12 — Rest, retrieval and misconception repair.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -32,32 +32,33 @@ updated_on: 2026-07-14
 | 9 — 2026-07-14 | Day 8 — Circuit quantities, load reasoning and prerequisite calculation check | Added a complete eight-beat calculation-literacy module, Q-U-A-N-T-I-T-Y workflow, quantity and load terminology, evidence classification, unit handling, fictional worked examples, worked-example fading, load-schedule reasoning, two Mermaid models, six-category rubric, accessible SVG and knowledge-base note. | Create Day 9 — Overload, short-circuit and fault-current distinctions. |
 | 10 — 2026-07-14 | Day 9 — Overload, short-circuit and fault-current distinctions | Added a complete eight-beat current-event classification module, P-A-T-H-S workflow, normal/overload/short-circuit/earth-fault/residual-current distinctions, current-path models, worked-example fading, changed-condition transfer, six-category rubric, accessible SVG and knowledge-base note. | Create Day 10 — Protective-device roles and protection boundaries. |
 | 11 — 2026-07-14 | Day 10 — Protective-device roles and protection boundaries | Added a complete eight-beat protection-role module, G-U-A-R-D-S workflow, hazard/protected-interest/function/device distinctions, role-versus-operation boundary, layered protection models, worked-example fading, changed-condition transfer, six-category rubric, accessible SVG and knowledge-base note. | Create Day 11 — RCD purpose, limitations and interaction with other protection. |
+| 12 — 2026-07-14 | Day 11 — RCD purpose, limitations and interaction with other protection | Added a complete eight-beat residual-current module, I-M-B-A-L-A-N-C-E workflow, monitored-conductor and alternative-path reasoning, layered protection boundaries, misconception challenge, worked-example fading, changed-supply transfer, six-category rubric, accessible SVG and knowledge-base note. | Create Day 12 — Rest, retrieval and misconception repair. |
 
-## Files added or updated in run 11
+## Files added or updated in run 12
 
-- `docs/learning-plans/12-week/modules/day-10-protective-device-roles-and-protection-boundaries.md`
-- `docs/assets/learning/12-week/day-10-protective-device-roles-and-protection-boundaries/role-before-device.svg`
+- `docs/learning-plans/12-week/modules/day-11-rcd-purpose-limitations-and-interaction-with-other-protection.md`
+- `docs/assets/learning/12-week/day-11-rcd-purpose-limitations-and-interaction-with-other-protection/imbalance-before-claim.svg`
+- `docs/knowledge-base/12-Week Day 11 - RCD Purpose Limitations and Interaction with Other Protection.md`
 - `docs/knowledge-base/12-Week Day 10 - Protective-Device Roles and Protection Boundaries.md`
-- `docs/knowledge-base/12-Week Day 09 - Overload Short-Circuit and Fault-Current Distinctions.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
-## Day 10 design decisions
+## Day 11 design decisions
 
-- Day 10 separates hazard, protected interest, protection function, protective measure, protective device and protection boundary before any suitability claim.
-- G-U-A-R-D-S distinguishes a conceptual role statement from a verified operating conclusion.
-- Overload, short-circuit, fault and additional protection are presented as distinct purposes that may interact but are not interchangeable.
-- Device names are deliberately used as distractors in transfer exercises so the learner must identify the function and evidence first.
-- The RCD handoff explicitly rejects substitution for overcurrent protection, fault-path evidence or safe isolation.
-- Practical work, device selection, curve interpretation, testing and operating-time prediction remain outside this module.
+- Day 11 treats residual-current imbalance as an operating clue rather than a complete diagnosis or universal protection claim.
+- I-M-B-A-L-A-N-C-E requires explicit mapping of monitored conductors, intended paths, supported alternative paths and changed supply conditions.
+- RCD, overcurrent, earthing, bonding and safe-isolation functions remain separate even when they interact in one scenario.
+- Device labels, trip assumptions and reset behaviour are used as misconception prompts rather than accepted evidence.
+- Worked-example fading progresses from complete path prompts to omitted monitored-conductor data and an alternative-supply transfer.
+- Practical testing, resetting, device selection, coverage decisions and operating-time conclusions remain outside this module.
 
 ## Review flags
 
-- Day 10 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact definitions, clauses, protection coverage, device types, ratings, characteristics, breaking capacities, operating times, selectivity, coordination, conductor requirements, test methods, supply and earthing arrangements, official assessment rules and jurisdiction-specific duties require qualified checking against current authorised sources.
-- G-U-A-R-D-S, the layered protection models, scenarios, protection-role record, exercises and rubric are original educational constructs.
+- Day 11 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact clauses, circuit coverage, RCD types, residual-current values, operating times, device characteristics, monitored-conductor requirements, testing methods, coordination, supply arrangements, official assessment rules and jurisdiction-specific duties require qualified checking against current authorised sources.
+- I-M-B-A-L-A-N-C-E, the diagrams, scenarios, interaction record, misconception challenge, exercises and rubric are original educational constructs.
 - No standards table, figure, device curve, systematic clause sequence, exact technical value or official assessment material was reproduced.
-- The module authorises no switching, isolation, opening equipment, testing, measurement, fault creation, resetting, device replacement, disconnection, alteration, repair, energisation, commissioning or verification.
+- The module authorises no switching, isolation, opening, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning or verification.
 
 ## Run rules
 
