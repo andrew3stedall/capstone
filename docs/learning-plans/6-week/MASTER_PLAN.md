@@ -57,7 +57,7 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 - [x] [Day 4 — Overload and short-circuit protection reasoning](modules/day-04-overload-and-short-circuit-protection-reasoning.md)
 - [x] [Day 5 — Rest, retrieval and source-navigation correction](modules/day-05-rest-retrieval-and-source-navigation-correction.md)
 - [x] [Day 6 — RCD purpose, limits and coordination with other protection](modules/day-06-rcd-purpose-limits-and-coordination-with-other-protection.md)
-- [ ] Day 7 — Week 1 protection decision checkpoint
+- [x] [Day 7 — Week 1 protection decision checkpoint](modules/day-07-week-1-protection-decision-checkpoint.md)
 
 ### Week 2 — Earthing, MEN and fault-current reasoning
 
@@ -138,8 +138,3 @@ A block is complete only when:
 - previous and next links are reciprocal;
 - the status file records the increment and exactly one next block;
 - copyright transformation and safety boundaries are explicit;
-- unverified technical details remain marked for qualified review.
-
-## Completion behaviour
-
-Do not create duplicate modules. Complete the first unchecked block, then continue in order. After all blocks are written, perform one quality-improvement pass per module, tracking each pass explicitly. After every module has one pass, perform one final program-wide audit covering links, metadata, diagrams, duplication, accessibility, copyright and technical-review boundaries. Content-development completion does not constitute qualified technical approval.
