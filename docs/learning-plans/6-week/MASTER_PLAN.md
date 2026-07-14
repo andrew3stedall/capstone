@@ -71,9 +71,9 @@ These blocks introduce no unnecessary new electrical theory. Each must include:
 
 ### Week 3 — Demand, conductor selection and circuit design
 
-- [ ] Day 15 — Load identification and maximum-demand workflow
-- [ ] Day 16 — Design current, device rating and conductor capacity relationship
-- [ ] Day 17 — Installation conditions and derating-factor reasoning
+- [x] [Day 15 — Load identification and maximum-demand workflow](modules/day-15-load-identification-and-maximum-demand-workflow.md)
+- [x] [Day 16 — Design current, device rating and conductor capacity relationship](modules/day-16-design-current-device-rating-and-conductor-capacity-relationship.md)
+- [x] [Day 17 — Installation conditions and derating-factor reasoning](modules/day-17-installation-conditions-and-derating-factor-reasoning.md)
 - [ ] Day 18 — Voltage-drop concepts and calculation workflow
 - [ ] Day 19 — Rest, calculation correction and catch-up
 - [ ] Day 20 — Complete cable-selection decision sequence
