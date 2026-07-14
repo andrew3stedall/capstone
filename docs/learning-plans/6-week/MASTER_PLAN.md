@@ -87,9 +87,9 @@ These blocks introduce no unnecessary new electrical theory. Each must include t
 - [x] [Day 30 — Other special locations and additional-condition screening](modules/day-30-other-special-locations-and-additional-condition-screening.md)
 - [x] [Day 31 — Fixed appliances, local isolation and connection decisions](modules/day-31-fixed-appliances-local-isolation-and-connection-decisions.md)
 - [x] [Day 32 — Motors, starting conditions and associated protection concepts](modules/day-32-motors-starting-conditions-and-associated-protection-concepts.md)
-- [ ] Day 33 — Rest, retrieval and scenario triage
-- [ ] Day 34 — Multiple and alternative supplies awareness
-- [ ] Day 35 — Week 5 integrated installation inspection
+- [x] [Day 33 — Rest, retrieval and scenario triage](modules/day-33-rest-retrieval-and-scenario-triage.md)
+- [x] [Day 34 — Multiple and alternative supplies awareness](modules/day-34-multiple-and-alternative-supplies-awareness.md)
+- [x] [Day 35 — Week 5 integrated installation inspection](modules/day-35-week-5-integrated-installation-inspection.md)
 
 ### Week 6 — Verification, fault finding and assessment readiness
 

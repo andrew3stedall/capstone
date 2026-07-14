@@ -95,4 +95,4 @@ State M-O-T-O-R-S; compare running, starting and fault states; distinguish four 
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 31 — Fixed Appliances, Local Isolation and Connection Decisions](day-31-fixed-appliances-local-isolation-and-connection-decisions.md)
 - **Knowledge note:** [[Six-Week Day 32 - Motors Starting Conditions and Associated Protection Concepts]]
-- **Next:** Day 33 — Rest, Retrieval and Scenario Triage
+- **Next:** [Day 33 — Rest, Retrieval and Scenario Triage](day-33-rest-retrieval-and-scenario-triage.md)
