@@ -71,13 +71,13 @@ A supported explanation is not automatically a verified installation finding.
 
 ```mermaid
 flowchart TD
-    A[Scenario observation] --> B[Possible defect classification]
-    B --> C[Normal and fault paths redrawn]
-    C --> D[Conditional consequence stated]
-    D --> E{Required evidence available?}
-    E -->|No| F[Supported claim only]
-    F --> G[Stop, source-check or escalate]
-    E -->|Yes| H[Qualified verification may proceed]
+    A["Scenario observation"] --> B["Possible defect classification"]
+    B --> C["Normal and fault paths redrawn"]
+    C --> D["Conditional consequence stated"]
+    D --> E{"Required evidence available?"}
+    E -->|"No"| F["Supported claim only"]
+    F --> G["Stop, source-check or escalate"]
+    E -->|"Yes"| H["Qualified verification may proceed"]
 ```
 
 The ladder shows why a plausible path explanation remains conditional until the required evidence and competent verification are available.
