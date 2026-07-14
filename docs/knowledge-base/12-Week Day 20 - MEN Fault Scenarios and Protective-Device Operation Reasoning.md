@@ -4,7 +4,7 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 ---
 
 # 12-Week Day 20 - MEN Fault Scenarios and Protective-Device Operation Reasoning
@@ -88,5 +88,5 @@ This note uses original summaries, workflows and scenarios. It reproduces no sta
 ## Navigation
 
 - **Previous:** [[12-Week Day 19 - Rest Retrieval and Diagram Reconstruction]]
-- **Next:** Day 21 — Week 3 Earthing and Protection Integration Checkpoint
+- **Next:** [[12-Week Day 21 - Week 3 Earthing and Protection Integration Checkpoint]]
 - **Map of content:** [[MEN System]]
