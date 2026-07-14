@@ -70,7 +70,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 31 — Fault-loop reasoning at concept level](modules/day-31-fault-loop-reasoning-at-concept-level.md)
 - [x] [Day 32 — Coordination, selectivity and upstream/downstream consequences](modules/day-32-coordination-selectivity-and-upstream-downstream-consequences.md)
 - [x] [Day 33 — Rest, retrieval and formula-selection correction](modules/day-33-rest-retrieval-and-formula-selection-correction.md)
-- [ ] Day 34 — Integrated protection, conductor and voltage scenario
+- [x] [Day 34 — Integrated protection, conductor and voltage scenario](modules/day-34-integrated-protection-conductor-and-voltage-scenario.md)
 - [ ] Day 35 — Week 5 design-review conference and remediation
 
 ### Week 6 — Switching, isolation and switchboards
