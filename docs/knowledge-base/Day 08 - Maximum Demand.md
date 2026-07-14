@@ -64,12 +64,12 @@ A correct calculation does not promote an unsupported input to verified status.
 
 ```mermaid
 flowchart LR
-    B[Defined boundary] --> L[Complete load register]
-    L --> M[Applicable authorised method]
-    M --> C[Auditable group and phase calculations]
-    C --> O[Operating-case challenge]
-    O --> R[Bounded result]
-    U[Unresolved evidence] -.blocks affected claim.-> R
+    B["Defined boundary"] --> L["Complete load register"]
+    L --> M["Applicable authorised method"]
+    M --> C["Auditable group and phase calculations"]
+    C --> O["Operating-case challenge"]
+    O --> R["Bounded result"]
+    U["Unresolved evidence"] -.blocks affected claim.-> R
 ```
 
 ## Practical application
