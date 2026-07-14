@@ -61,5 +61,5 @@ This original note remains `reference_check_required` and is not `technically-re
 ## Navigation
 
 - **Previous:** [[12-Week Day 33 - Rest Retrieval and Formula-Selection Correction]]
-- **Next:** Day 35 — Week 5 Design-Review Conference and Remediation
+- **Next:** [[12-Week Day 35 - Week 5 Design-Review Conference and Remediation]]
 - **Map of content:** [[Circuit Design]]
