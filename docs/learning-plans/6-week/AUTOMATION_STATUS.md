@@ -20,10 +20,10 @@ pull_request: 6
 ## Current state
 
 - Canonical sequence: 42 scheduled blocks across six weeks.
-- Completed dedicated modules: Days 1–7.
+- Completed dedicated modules: Days 1–8.
 - Current block: none.
 - Content-development phase: active.
-- Exactly one next increment: Day 8 — Earthing terminology and component identification.
+- Exactly one next increment: Day 9 — MEN arrangement and normal-current paths.
 
 ## Completed increments
 
@@ -37,50 +37,50 @@ pull_request: 6
 | Day 5 — Rest, retrieval and source-navigation correction | Added the R-E-S-E-T recovery workflow, fatigue boundaries, time-boxed catch-up, error correction, SVG and vault note without unnecessary new theory. |
 | Day 6 — RCD purpose, limits and coordination with other protection | Added the B-A-L-A-N-C-E workflow, current-balance model, protection-layer separation, changed-context transfer, SVG and vault note. |
 | Day 7 — Week 1 protection decision checkpoint | Added the D-E-C-I-D-E cumulative workflow, four-question separation, evidence grading, changed-condition revision, timed checkpoint, six-category rubric, accessible SVG and vault note. |
+| Day 8 — Earthing terminology and component identification | Added the N-A-M-E-S identification workflow, precise earthing and MEN terminology, role mapping, evidence grades, changed-supply transfer, six-category rubric, accessible SVG and vault note. |
 
-## Latest increment — Day 7
+## Latest increment — Day 8
 
 Completed work:
 
-- created the full eight-beat cumulative checkpoint module;
-- defined observable objectives integrating Days 1–6;
-- introduced the original D-E-C-I-D-E decision and source-control workflow;
-- separated overcurrent, residual-current, fault-path and work-control questions;
-- defined decision claims, blocking evidence gaps, bounded conclusions and decision revision;
-- added two Mermaid diagrams for evidence-gated decisions and protection-question separation;
-- created a worked example, a timed scenario pack, worked-example fading and changed-condition transfer;
+- created the full eight-beat terminology and component-identification module;
+- defined observable objectives that distinguish neutral, protective earthing, bonding, electrode and MEN roles;
+- introduced the original N-A-M-E-S identification and source-control workflow;
+- separated component name, conceptual role, physical context and evidence status;
+- added two Mermaid diagrams for evidence-gated identification and conceptual role mapping;
+- created a fictional worked example, labelled role sort, worked-example fading and changed-supply transfer;
 - added a six-category, 12-point educational rubric with critical zero controls;
-- created an original accessible black-and-white SVG showing classification, evidence and safety gates;
-- created the corresponding Obsidian knowledge-base note with prerequisite, related-concept, assessment and reciprocal navigation links;
-- linked Day 7 directly from the master plan and preserved Day 6/Day 7 reciprocal navigation;
+- created an original accessible black-and-white SVG showing name, evidence and role gates;
+- created the corresponding Obsidian knowledge-base note with prerequisites, related concepts, assessment relevance and reciprocal navigation;
+- linked Day 8 directly from the master plan and preserved Day 7/Day 8 reciprocal navigation;
 - preserved explicit source-currency, practical-authority, copyright and technical-review boundaries.
 
 ## Files created or updated in the latest increment
 
-- `docs/learning-plans/6-week/modules/day-07-week-1-protection-decision-checkpoint.md`
-- `docs/assets/learning/6-week/day-07-week-1-protection-decision-checkpoint/decide-through-gates.svg`
-- `docs/knowledge-base/Six-Week Day 07 - Week 1 Protection Decision Checkpoint.md`
+- `docs/learning-plans/6-week/modules/day-08-earthing-terminology-and-component-identification.md`
+- `docs/assets/learning/6-week/day-08-earthing-terminology-and-component-identification/name-the-role-before-the-path.svg`
+- `docs/knowledge-base/Six-Week Day 08 - Earthing Terminology and Component Identification.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
 - Program status: `active`
-- Days 1–7 content status: `review-required`
-- Day 7 is safety-critical, paper-based educational content and authorises no practical electrical work or testing
-- Exact clauses, limits, device characteristics, current paths, source conditions, test methods, official assessment criteria, exceptions and jurisdiction-specific claims remain `reference_check_required`
+- Days 1–8 content status: `review-required`
+- Day 8 is safety-critical, paper-based educational content and authorises no practical electrical work or testing
+- Exact definitions, supply arrangements, MEN connection permissions and locations, conductor requirements, bonding requirements, source conditions, official assessment criteria, exceptions and jurisdiction-specific claims remain `reference_check_required`
 - Technical review remains required before any module is presented as authoritative
 - Automated content must not be marked `technically-reviewed`
-- No standards tables, figures, device curves, systematic clause wording, official assessment material or source PDF content were reproduced
+- No standards tables, figures, systematic clause wording, official assessment material or source PDF content were reproduced
 
 ## Quality-pass tracker
 
-- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7
+- Completed modules awaiting later quality-improvement pass: Day 1, Day 2, Day 3, Day 4, Day 5, Day 6, Day 7, Day 8
 - Quality-improvement passes completed: none
 - Persistent `review-required` or `reference_check_required` flags must not cause duplicate module creation or repeated quality passes.
 
 ## Exact next increment
 
-**Day 8 — Earthing terminology and component identification**
+**Day 9 — MEN arrangement and normal-current paths**
 
-Create the dedicated eight-beat terminology and component-role module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 8 directly from the master plan, preserve reciprocal Day 7/Day 8 navigation, and update this status record with exactly one next increment.
+Create the dedicated eight-beat MEN arrangement and normal-current-path module, add original instructional SVG asset or assets, create the corresponding knowledge-base note, link Day 9 directly from the master plan, add reciprocal Day 8/Day 9 navigation, and update this status record with exactly one next increment.
