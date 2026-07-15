@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Repair three errors, then stop</title>
+  <desc id="desc">A black-and-white stick figure sorts three error cards into repair slots beside a timer and stop sign, illustrating a bounded recovery session.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="145" cy="155" r="38"/>
+    <path d="M145 193v130M145 230l-62 55M145 230l70 45M145 323l-48 92M145 323l55 92"/>
+    <rect x="300" y="110" width="150" height="95" rx="10"/>
+    <rect x="300" y="225" width="150" height="95" rx="10"/>
+    <rect x="300" y="340" width="150" height="95" rx="10"/>
+    <path d="M330 157h90M330 272h90M330 387h90"/>
+    <path d="M480 158h170M480 273h170M480 388h170"/>
+    <rect x="650" y="120" width="125" height="75" rx="8"/>
+    <rect x="650" y="235" width="125" height="75" rx="8"/>
+    <rect x="650" y="350" width="125" height="75" rx="8"/>
+    <circle cx="835" cy="165" r="62"/>
+    <path d="M835 165v-36M835 165l28 18"/>
+    <path d="M805 245h60l35 60-35 60h-60l-35-60z"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="375" y="98" font-size="25">ERROR CARDS</text>
+    <text x="712" y="98" font-size="25">REPAIR SLOTS</text>
+    <text x="835" y="312" font-size="24">STOP</text>
+    <text x="480" y="490" font-size="28">Retrieve → prioritise → repair three → stop</text>
+  </g>
+</svg>
