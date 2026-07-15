@@ -24,7 +24,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 ## Ordered learning blocks
 
 ### Week 1 — Orientation, evidence and foundational safety reasoning
-
 - [x] [Day 1 — Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Day 2 — Electrical hazards, exposure pathways and consequence reasoning](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Day 3 — Roles, authority, supervision and practical stop conditions](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -34,7 +33,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 7 — Week 1 consolidation and individual remediation plan](modules/day-07-week-1-consolidation-and-individual-remediation-plan.md)
 
 ### Week 2 — Circuit fundamentals and protective-device purpose
-
 - [x] [Day 8 — Circuit quantities, load reasoning and prerequisite calculation check](modules/day-08-circuit-quantities-load-reasoning-and-prerequisite-calculation-check.md)
 - [x] [Day 9 — Overload, short-circuit and fault-current distinctions](modules/day-09-overload-short-circuit-and-fault-current-distinctions.md)
 - [x] [Day 10 — Protective-device roles and protection boundaries](modules/day-10-protective-device-roles-and-protection-boundaries.md)
@@ -44,7 +42,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 14 — Week 2 protection integration checkpoint](modules/day-14-week-2-protection-integration-checkpoint.md)
 
 ### Week 3 — Earthing, bonding and MEN mental models
-
 - [x] [Day 15 — Earthing terminology and component roles](modules/day-15-earthing-terminology-and-component-roles.md)
 - [x] [Day 16 — Protective earthing continuity and exposed conductive parts](modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md)
 - [x] [Day 17 — Equipotential bonding purpose and boundary reasoning](modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md)
@@ -54,7 +51,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 21 — Week 3 earthing and protection integration checkpoint](modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md)
 
 ### Week 4 — Maximum demand and complete circuit-design workflow
-
 - [x] [Day 22 — Load schedules and maximum-demand concepts](modules/day-22-load-schedules-and-maximum-demand-concepts.md)
 - [x] [Day 23 — Design current, protective-device rating and conductor capacity](modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md)
 - [x] [Day 24 — Complete cable-selection workflow and evidence record](modules/day-24-complete-cable-selection-workflow-and-evidence-record.md)
@@ -64,7 +60,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 28 — Week 4 independent circuit-design checkpoint](modules/day-28-week-4-independent-circuit-design-checkpoint.md)
 
 ### Week 5 — Voltage conditions, discrimination and coordinated design
-
 - [x] [Day 29 — Voltage-drop concepts and calculation structure](modules/day-29-voltage-drop-concepts-and-calculation-structure.md)
 - [x] [Day 30 — Voltage-drop interpretation and design iteration](modules/day-30-voltage-drop-interpretation-and-design-iteration.md)
 - [x] [Day 31 — Fault-loop reasoning at concept level](modules/day-31-fault-loop-reasoning-at-concept-level.md)
@@ -74,7 +69,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 35 — Week 5 design-review conference and remediation](modules/day-35-week-5-design-review-conference-and-remediation.md)
 
 ### Week 6 — Switching, isolation and switchboards
-
 - [x] [Day 36 — Functional switching, isolation and emergency switching distinctions](modules/day-36-functional-switching-isolation-and-emergency-switching-distinctions.md)
 - [x] [Day 37 — Main switches, alternate supplies and source identification](modules/day-37-main-switches-alternate-supplies-and-source-identification.md)
 - [x] [Day 38 — Switchboard functional areas and arrangement principles](modules/day-38-switchboard-functional-areas-and-arrangement-principles.md)
@@ -84,7 +78,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 42 — Week 6 integrated switching and switchboard checkpoint](modules/day-42-week-6-integrated-switching-and-switchboard-checkpoint.md)
 
 ### Week 7 — Wiring systems, distribution and equipment installation
-
 - [x] [Day 43 — Wiring-system selection and mechanical protection](modules/day-43-wiring-system-selection-and-mechanical-protection.md)
 - [x] [Day 44 — Environmental influences, segregation and support concepts](modules/day-44-environmental-influences-segregation-and-support-concepts.md)
 - [x] [Day 45 — Consumer mains, submains and final subcircuits](modules/day-45-consumer-mains-submains-and-final-subcircuits.md)
@@ -94,7 +87,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 49 — Week 7 installation planning exercise](modules/day-49-week-7-installation-planning-exercise.md)
 
 ### Week 8 — Special locations and non-standard supply conditions
-
 - [x] [Day 50 — Special-location method: classify, map zones and verify sources](modules/day-50-special-location-method-classify-map-zones-and-verify-sources.md)
 - [x] [Day 51 — Bathrooms, showers and other wet-area reasoning](modules/day-51-bathrooms-showers-and-other-wet-area-reasoning.md)
 - [x] [Day 52 — Other special installations and location-specific controls](modules/day-52-other-special-installations-and-location-specific-controls.md)
@@ -104,7 +96,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 56 — Week 8 cumulative design and inspection checkpoint](modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md)
 
 ### Week 9 — Verification principles and visual inspection
-
 - [x] [Day 57 — Verification purpose, evidence types and responsibility boundaries](modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md)
 - [x] [Day 58 — Visual inspection categories and defect recording](modules/day-58-visual-inspection-categories-and-defect-recording.md)
 - [x] [Day 59 — Test purposes, dependencies and safe sequencing concepts](modules/day-59-test-purposes-dependencies-and-safe-sequencing-concepts.md)
@@ -114,7 +105,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 63 — Week 9 verification planning checkpoint](modules/day-63-week-9-verification-planning-checkpoint.md)
 
 ### Week 10 — Test interpretation and systematic fault finding
-
 - [x] [Day 64 — Continuity evidence and common interpretation errors](modules/day-64-continuity-evidence-and-common-interpretation-errors.md)
 - [x] [Day 65 — Insulation, polarity and connection-integrity concepts](modules/day-65-insulation-polarity-and-connection-integrity-concepts.md)
 - [x] [Day 66 — Fault-loop and RCD result interpretation at concept level](modules/day-66-fault-loop-and-rcd-result-interpretation-at-concept-level.md)
@@ -124,7 +114,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 70 — Week 10 verification and fault-diagnosis checkpoint](modules/day-70-week-10-verification-and-fault-diagnosis-checkpoint.md)
 
 ### Week 11 — Integrated Capstone performance
-
 - [x] [Day 71 — Reading and decomposing an integrated assessment scenario](modules/day-71-reading-and-decomposing-an-integrated-assessment-scenario.md)
 - [x] [Day 72 — Planning a compliant design response and evidence trail](modules/day-72-planning-a-compliant-design-response-and-evidence-trail.md)
 - [x] [Day 73 — Inspection, testing and documentation integration](modules/day-73-inspection-testing-and-documentation-integration.md)
@@ -134,7 +123,6 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 77 — Week 11 competency conference and targeted remediation](modules/day-77-week-11-competency-conference-and-targeted-remediation.md)
 
 ### Week 12 — Mock assessment, review and transition
-
 - [x] [Day 78 — Mock preparation, time allocation and stop-rule rehearsal](modules/day-78-mock-preparation-time-allocation-and-stop-rule-rehearsal.md)
 - [x] [Day 79 — Staged written and rule-navigation mock assessment](modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
 - [x] [Day 80 — Staged design and calculation mock assessment](modules/day-80-staged-design-and-calculation-mock-assessment.md)
@@ -147,10 +135,11 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** none (0 of 84).
-- **Next quality-improvement pass:** Day 1 — Program orientation, baseline diagnostic and authorised-source map.
+- **Completed quality-improvement passes:** 1 of 84.
+- [x] [Quality pass 1 — Day 1, Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
+- **Next quality-improvement pass:** Day 2 — Electrical hazards, exposure pathways and consequence reasoning.
 - Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
 
-Complete the selected sequential increments without duplication. A module increment is complete only when the eight beats, observable objectives, terminology, instructional visuals, reciprocal links, knowledge note, status record, copyright transformation and safety boundaries have been checked together. Do not create duplicate modules or label automated content `technically-reviewed`.
+Complete selected sequential increments without duplication. A quality-improvement pass must materially improve observable assessment evidence, explanation, scenario transfer, navigation, accessibility, safety boundaries or source handling; metadata-only edits do not qualify. Record every completed pass in this file and `AUTOMATION_STATUS.md`. After all 84 passes, perform one final program-wide completion audit. Automated content must never be labelled `technically-reviewed` without qualified review evidence.
