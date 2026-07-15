@@ -90,7 +90,8 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 - [x] 2026-07-15 — [Day 1 — Program orientation, assessment map and source hierarchy](modules/day-01-program-orientation-assessment-map-and-source-hierarchy.md): strengthened authority-versus-applicability reasoning, evidence and claim statuses, source-applicability checks, changed-scenario transfer, delayed retrieval, a six-category 12-point rubric and aligned vault metadata.
 - [x] 2026-07-15 — [Day 2 — Hazard, risk, exposure and critical controls](modules/day-02-hazard-risk-exposure-and-critical-controls.md): strengthened exposure-chain reasoning, added six control-state questions, evidence grades, worked-example fading, delayed and changed-scenario retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible control-evidence visual.
-- [ ] Next — Day 3 — Fundamental protection concepts and fault types.
+- [x] 2026-07-15 — [Day 3 — Fundamental protection concepts and fault types](modules/day-03-fundamental-protection-concepts-and-fault-types.md): strengthened symptom-versus-diagnosis reasoning, added evidence and claim grades, classification reopening logic, worked-example fading, changed-scenario and delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible evidence-before-diagnosis visual.
+- [ ] Next — Day 4 — Overload and short-circuit protection reasoning.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
