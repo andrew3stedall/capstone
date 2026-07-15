@@ -5,15 +5,18 @@ domain: motors-and-control
 level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
+content_status: review-required
 standard_references:
   - standard: AS/NZS 3000
-    edition: 2018
-    clause: topic-reference-only
-reviewed_on: 2026-07-13
-status: review-required
+    edition: "2018"
+    clause: reference_check_required
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
+estimated_minutes: 60-75
 prerequisites:
   - day-03-overcurrent-protection
   - day-09-complete-cable-selection-workflow
@@ -29,330 +32,233 @@ related_simulations: []
 
 # Day 20B — Motors and Associated Protection
 
-> **Source and currency notice:** This is original educational material for analysing motor circuits and planning evidence. It does not prescribe motor protection settings, starting methods, conductor sizes, isolation arrangements, test values or field procedures. Exact requirements depend on the motor, driven machine, control system, supply, manufacturer data, current authorised standards, legislation, regulator guidance and RTO procedures. Qualified technical review is required before publication or operational use.
+> **Source and safety notice:** This original module supports paper-based reasoning only. It does not prescribe motor settings, starting methods, conductor sizes, isolation arrangements, test values, adjustment sequences or commissioning procedures. Exact requirements require current authorised sources, manufacturer information and qualified technical review. It is not `technically-reviewed`.
 
-## Beat 1 — Outcome and entry check
+## Navigation
 
-### What you will learn
+- **Previous:** [Day 20A — Fixed Appliances and Local Isolation](./day-20a-fixed-appliances-and-local-isolation.md)
+- **Next:** [Day 20C — Alternative and Multiple Supplies Awareness](./day-20c-alternative-and-multiple-supplies-awareness.md)
 
-By the end of this block, you should be able to:
+## 1. Outcome and entry check
 
-1. separate the motor, driven machine, final subcircuit, controller, starter, protective functions and isolating means;
-2. explain why overload, short-circuit, loss-of-phase, stall and unintended restart are different hazards;
-3. map the operating states and energy paths that affect a motor installation;
-4. use the **M-O-T-O-R** workflow to assemble a defensible evidence plan;
-5. write a bounded paper-based conclusion without selecting settings or authorising physical work.
+### Learning objectives
+
+By the end of this block, the learner should be able to:
+
+1. separate the motor, driven machine, supply circuit, starter, controls, protective functions and isolating means;
+2. distinguish starting, running, overload, short circuit, stall, abnormal supply and unintended restart cases;
+3. apply **M-O-T-O-R** to build an evidence plan;
+4. grade evidence as observed, documented, manufacturer-verified, derived, assumed or missing;
+5. grade conclusions as described, supported, verified or unresolved;
+6. explain coordination across motor, cable, starter, contactor, enclosure and upstream protection;
+7. reopen affected conclusions when duty, starting method, supply, control logic or driven load changes.
 
 ### Entry check
 
-Answer without notes:
+Without notes, answer:
 
-1. Why is a circuit breaker alone not necessarily complete motor protection?
-2. What is the difference between starting current and overload?
-3. Why must the driven machine be considered with the motor?
-4. How can a stopped motor still present an electrical or mechanical hazard?
-5. Which missing documents should prevent a protection recommendation?
+1. Why is one upstream breaker not necessarily complete motor protection?
+2. Why is starting current not automatically a defect?
+3. How can a stationary motor remain hazardous?
+4. Why must the driven machine be included?
+5. Which missing records should stop a settings or suitability recommendation?
 
-Record confidence. A high-confidence answer that “the nameplate current is the protection setting” is a priority misconception.
+A high-confidence statement that the nameplate current is automatically the correct setting is a critical misconception.
 
-## Beat 2 — Why it matters
+## 2. Why it matters
 
-Motor circuits combine electrical, thermal and mechanical behaviour. A design that appears adequate during normal running may fail during starting, repeated starts, stall, phase imbalance, locked-rotor conditions, poor ventilation or abnormal mechanical loading.
+Motor circuits combine electrical, thermal, mechanical and control behaviour. A design adequate during steady running may fail during starting, repeated starts, stall, phase abnormality, poor ventilation, excessive load or automatic restart.
 
-Common assessment and workplace failures include:
+The governing model is:
 
-- treating every high current as a fault of the same type;
-- using full-load current as a universal setting without checking the device function or manufacturer data;
-- coordinating the motor but ignoring the cable, starter, contactor, enclosure or upstream device;
-- ignoring duty cycle, starting frequency, acceleration time or driven-load characteristics;
-- assuming a stop button establishes isolation;
-- overlooking automatic restart, remote control or stored mechanical energy;
-- selecting a starting method without checking supply effects and equipment compatibility;
-- converting a conceptual exercise into a commissioning or adjustment instruction.
+**machine and duty → operating cases → protection functions → coordination → control and isolation → evidence-backed conclusion**
 
 ![Stick figure sorting separate cards for overload, short circuit, stall and restart](../../../assets/learning/4-week/day-20b-motors-and-associated-protection/not-all-current-is-the-same.svg)
 
-*Caption: The ammeter sees current; the protection plan must identify why it is flowing.*
+*Caption: Current magnitude is evidence; the operating case explains what it means.*
 
-## Beat 3 — Core concepts and terminology
+## 3. Core concepts and terminology
 
-### Separate the system objects
+### System objects
 
-A motor installation may include:
+- **Motor:** converts electrical energy into mechanical motion.
+- **Driven machine:** the pump, fan, compressor, conveyor or other load.
+- **Starter or controller:** starts, stops or regulates operation.
+- **Contactor or switching element:** makes or breaks an operating circuit.
+- **Protective function:** responds to a defined abnormal condition.
+- **Control circuit:** local, remote, automatic or interlocked command path.
+- **Isolation boundary:** the verified energy boundary required for the intended task.
 
-- **motor** — the electrical machine converting electrical energy into mechanical motion;
-- **driven machine** — the pump, fan, compressor, conveyor or other load;
-- **final subcircuit** — conductors and associated equipment supplying the motor system;
-- **controller or starter** — equipment that starts, stops or regulates operation;
-- **contactor or switching element** — equipment used to make or break the operating circuit;
-- **protective functions** — responses to specific abnormal conditions;
-- **control circuit** — local, remote, automatic or interlocked command paths;
-- **isolating means** — equipment intended to establish a verified boundary when correctly selected and used.
+### Operating and abnormal cases
 
-One device may provide several functions, but the evidence must show which functions, under what conditions and with what limitations.
+- **Starting:** expected acceleration case with different current and torque behaviour from steady running.
+- **Overload:** sustained demand above normal operating conditions.
+- **Short circuit:** low-impedance fault path with potentially severe current.
+- **Stall or locked rotor:** energised motor cannot accelerate or continue turning.
+- **Abnormal supply:** loss of phase, imbalance or other unsuitable supply condition.
+- **Excessive starting duty:** repeated or prolonged starts causing thermal stress.
+- **Unintended restart:** automatic, remote or supply-restoration operation when not expected.
 
-### Distinguish the abnormal conditions
+### Evidence grades
 
-- **overload** — current above normal operating demand over time, often associated with excessive mechanical load or abnormal operation;
-- **short circuit** — a low-impedance fault path producing a rapid and potentially severe current;
-- **stall or locked rotor** — the rotor cannot accelerate or continue turning while energised;
-- **loss of phase or phase imbalance** — an abnormal supply condition that can increase heating or reduce torque;
-- **excessive starting duty** — repeated or prolonged starts causing thermal stress;
-- **unintended restart** — automatic or remote re-energisation when people or equipment are not prepared.
+1. **Observed** — visible in supplied material.
+2. **Documented** — stated in current drawings, schedules or records.
+3. **Manufacturer-verified** — supported by applicable product data.
+4. **Derived** — calculated from verified inputs using an authorised method.
+5. **Assumed** — plausible but not evidenced.
+6. **Missing** — required but unavailable.
 
-These conditions can overlap, but they are not interchangeable.
+### Claim grades
 
-### Starting is an operating case, not a defect by definition
+- **Described** — reports supplied information.
+- **Supported** — connects applicable evidence within a stated boundary.
+- **Verified** — requires complete authorised evidence and qualified confirmation.
+- **Unresolved** — a material gap prevents the claim.
 
-Motor starting may involve current, torque and acceleration behaviour that differs substantially from steady running. The design review must therefore establish:
+## 4. Rule-finding workflow
 
-- motor and driven-load characteristics;
-- intended starting method;
-- expected acceleration and starting frequency;
-- supply-system constraints;
-- controller and protective-device compatibility;
-- cable and voltage-performance implications;
-- manufacturer limits.
+Use **M-O-T-O-R**:
 
-Do not invent a current multiple, time, setting or permissible voltage effect.
-
-### Protection is a coordinated system
-
-A defensible review considers the relationship among:
-
-- motor thermal capability;
-- conductor current-carrying and fault withstand;
-- overload protective function;
-- short-circuit protective function;
-- starter, contactor and enclosure ratings;
-- upstream and downstream devices;
-- control logic and restart behaviour;
-- isolation and emergency-action requirements.
-
-## Beat 4 — Rule-finding workflow: M-O-T-O-R
-
-Use **M-O-T-O-R** to structure the evidence review.
-
-1. **M — Machine and mission:** identify the motor, driven equipment, duty, environment, users and consequences of failure.
-2. **O — Operating cases:** document start, run, stop, jam, stall, repeated start, abnormal supply, remote command and maintenance states.
-3. **T — Thermal and fault protection:** identify each protective function and the evidence needed to coordinate motor, conductors, starter and supply.
-4. **O — Operating controls and isolation:** separate normal control, interlocks, emergency action, automatic restart prevention and maintenance isolation.
-5. **R — Records and review:** verify drawings, nameplate data, manufacturer instructions, device characteristics, settings evidence, calculations and current authorised requirements; record unresolved items.
+1. **M — Machine and mission:** identify motor, driven equipment, duty, environment, users and consequences of failure.
+2. **O — Operating cases:** map start, run, stop, repeated start, jam, stall, abnormal supply, remote command, supply restoration and maintenance states.
+3. **T — Thermal and fault protection:** identify each claimed protective function and coordination evidence.
+4. **O — Operating controls and isolation:** separate normal control, interlocks, emergency action, restart prevention and maintenance isolation.
+5. **R — Records and review:** verify drawings, manufacturer data, device characteristics, calculations and current requirements; record gaps and reopening triggers.
 
 ```mermaid
 flowchart TD
-    A["Identify motor driven machine and duty"] --> B["Map operating and abnormal cases"]
-    B --> C["Identify required protective functions"]
-    C --> D["Check motor cable starter and device coordination"]
-    D --> E["Map controls interlocks restart and isolation"]
-    E --> F{"Evidence complete and current?"}
-    F -- No --> G["Record gap and stop recommendation"]
-    F -- Yes --> H["Write bounded paper conclusion"]
+    A[Identify motor driven machine and duty] --> B[Map normal and abnormal operating cases]
+    B --> C[Identify each required protection function]
+    C --> D[Check motor cable starter contactor and upstream coordination]
+    D --> E[Map controls interlocks restart and isolation]
+    E --> F{Evidence complete and applicable?}
+    F -->|No| G[Claim unresolved and request targeted evidence]
+    F -->|Yes| H[Write bounded supported claim]
+    H --> I{Duty supply control or driven load changed?}
+    I -->|Yes| B
+    I -->|No| J[Retain claim within scope]
 ```
 
-### Current-source search sequence
+For each conclusion, record operating case, affected component, claimed function, evidence grade, claim grade, missing evidence and reopening trigger.
 
-For a paper scenario:
+## 5. Visual model or worked example
 
-1. obtain the motor nameplate record, manufacturer instructions and driven-machine information;
-2. confirm the supply arrangement, circuit diagram, control diagram and equipment schedule;
-3. list normal and abnormal operating cases;
-4. identify each claimed protective and control function;
-5. consult current authorised material for motor circuits, conductors, protection, switching and isolation;
-6. obtain device characteristics and compatibility evidence from authorised manufacturer sources;
-7. verify duty, environment, ventilation, enclosure, starting and restart assumptions;
-8. record edition, amendment, jurisdiction, source and date accessed;
-9. leave settings, ratings, device selections and field actions unresolved where evidence is incomplete.
+A fictional extract fan uses a three-phase motor. The drawing shows an upstream breaker, contactor and local stop button. A building-management system can also command the fan. Motor nameplate information is available, but driven-load duty, overload characteristics, starting frequency, phase-abnormality response and local isolation evidence are absent.
 
-## Beat 5 — Visual model and worked example
+Apply M-O-T-O-R:
 
-### Motor-system evidence model
+| Step | Evidence-led response |
+|---|---|
+| Machine and mission | Extract fan serving an occupied process area; loss of operation and restart matter. |
+| Operating cases | Local and remote start shown; duty and starting frequency missing. |
+| Thermal and fault protection | Breaker, contactor and unspecified overload function shown; coordination unresolved. |
+| Operating controls and isolation | Stop button and remote command documented; stopped is not isolated. |
+| Records and review | Manufacturer and design evidence incomplete; no setting or approval claim is supportable. |
 
 ```mermaid
 flowchart LR
-    S["Supply and final subcircuit"] --> P["Short-circuit protection"]
-    P --> C["Controller starter and contactor"]
-    C --> M["Motor"]
-    M --> D["Driven machine"]
-    O["Overload and abnormal-operation protection"] --> M
-    L["Local remote and automatic controls"] --> C
-    I["Interlocks and restart logic"] --> C
-    X["Isolation and emergency functions"] --> B["Safe operating boundary"]
+    S[Supply and circuit] --> P[Short-circuit function]
+    P --> C[Starter and contactor]
+    C --> M[Motor]
+    M --> D[Driven machine]
+    O[Overload and abnormal-operation functions] --> M
+    R[Remote automatic and interlock logic] --> C
+    I[Isolation and emergency functions] --> B[Operating boundary]
     S --> B
     C --> B
     M --> B
     D --> B
 ```
 
-### Fictional worked review
+### Worked-example fading
 
-A fictional extract fan uses a three-phase motor. The drawing shows an upstream circuit breaker, a contactor and a local stop button. The fan can also be commanded by a building-management system. The motor nameplate is available, but the driven-load duty, overload-device characteristics, contactor utilisation data, starting frequency, phase-loss response and local isolation arrangement are not documented.
+A second motor has complete nameplate data and a documented overload device, but no driven-load duty, control diagram or cable-route evidence. The learner must:
 
-Apply M-O-T-O-R:
+1. grade every input;
+2. identify four operating cases that remain unresolved;
+3. write one described and one unresolved claim;
+4. explain which conclusions reopen if the motor begins frequent reversing duty.
 
-| Step | Finding | Consequence |
-|---|---|---|
-| Machine and mission | Extract fan serving an occupied process area | Loss of operation and unintended restart both matter |
-| Operating cases | Local and remote start are shown; duty and starting frequency are unknown | Starting and restart assumptions cannot be verified |
-| Thermal and fault protection | Breaker, contactor and an unspecified overload function are shown | Coordination and function coverage remain unproven |
-| Operating controls and isolation | Stop button and remote command exist; isolation evidence is absent | “Stopped” cannot be treated as isolated |
-| Records and review | Several manufacturer and design records are missing | No setting, device or compliance recommendation is supportable |
+## 6. Practical application
 
-The correct result is a targeted evidence request and a bounded conclusion, not a guessed setting or switching instruction.
+### Scenario
 
-## Beat 6 — Practical application
+A fictional workshop air compressor includes a pressure-switch control, upstream protective device, starter enclosure, overload function, automatic restart, remote enable, local stop, incomplete cable-route information and no verified starting study or isolation drawing.
 
-### Scenario: workshop air-compressor motor
+Produce:
 
-A fictional workshop has an air compressor with:
+1. an operating-case register;
+2. a function map for control, overload, short circuit, abnormal supply, restart and isolation;
+3. an evidence ledger using the six evidence grades;
+4. a coordination map across supply, cable, starter, contactor, motor and driven machine;
+5. a targeted evidence request;
+6. a bounded conclusion using the four claim grades;
+7. a change-propagation note for a later driven-load or starting-method change.
 
-- a motor-driven compressor and pressure-switch control;
-- an upstream protective device;
-- a starter enclosure with a contactor and overload function;
-- automatic restart after pressure falls;
-- a remote enable input;
-- a local stop control;
-- incomplete cable-route information;
-- no verified starting study, protection schedule or isolation drawing.
+### Assessment rubric
 
-### Task A — Build the operating-case register
+Score each category from **0 to 2**.
 
-Record:
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| System boundary | Motor only | Some components included | Motor, driven machine, circuit, controls and isolation bounded |
+| Operating cases | Running only | Several cases listed | Normal, abnormal, restart and maintenance cases connected |
+| Protection reasoning | One device assumed complete | Functions partly separated | Distinct functions and coordination evidence identified |
+| Evidence discipline | Settings or facts invented | Grades inconsistent | Evidence and claim grades applied consistently |
+| Change propagation | Changed duty ignored | Some reopening | Every dependent conclusion reopened and explained |
+| Safety communication | Adjustment or field authority implied | General caution | Clear unresolved claim and stop boundary |
 
-1. normal start and run;
-2. normal stop;
-3. repeated starts;
-4. compressor jam or motor stall;
-5. abnormal supply or phase condition;
-6. remote enable and automatic restart;
-7. maintenance state;
-8. loss and restoration of supply.
+A score of **10/12 or higher** with no critical error indicates readiness for Day 20C. This is an educational threshold, not an official assessment rule.
 
-### Task B — Build the function map
+## 7. Common errors and safety checkpoint
 
-Use these columns:
+Common errors include using nameplate current as an automatic setting, assuming one breaker covers every motor hazard, ignoring the driven machine, treating a stop command as isolation, overlooking automatic restart and inventing settings or starting methods.
 
-| Equipment or function | Normal control | Overload response | Short-circuit response | Abnormal-supply response | Restart control | Isolation | Evidence status |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Example only | possible | unverified | upstream claim | unknown | automatic | unverified | incomplete |
+Critical errors include:
 
-Do not infer a function from a label, enclosure position or device appearance.
-
-### Task C — Write the evidence request
-
-Request only what is needed to close the gaps, such as:
-
-- current motor and driven-machine data;
-- duty and starting information;
-- single-line and control diagrams;
-- cable and route evidence;
-- protective-device and starter characteristics;
-- manufacturer compatibility information;
-- control, interlock and restart logic;
-- isolation and emergency-function evidence;
-- authorised design calculations and records.
-
-### Task D — Write the bounded conclusion
-
-Use this pattern:
-
-> The available information identifies the motor system and several control and protection components, but it does not demonstrate complete coordination across starting, running, overload, fault, abnormal-supply, restart and maintenance conditions. Verify the missing motor, driven-load, circuit, device, control and isolation evidence against current authorised requirements and manufacturer instructions before selecting settings, approving the arrangement or undertaking physical work.
-
-## Beat 7 — Common errors and safety checkpoint
-
-### Common errors
-
-- using nameplate current as an automatic protection setting;
-- assuming an upstream breaker covers overload, stall, phase loss and restart hazards;
-- checking the motor but not the driven machine;
-- ignoring starting duty and acceleration;
-- treating a contactor, stop button or software command as isolation;
-- overlooking remote enable, automatic restart or supply restoration;
-- recommending device types or settings from memory;
-- ignoring cable, starter, contactor, enclosure and upstream coordination;
-- treating manufacturer data as optional;
-- writing a commissioning sequence from an incomplete paper scenario.
+- prescribing a protection setting, adjustment or test method without authorised evidence;
+- omitting a disclosed remote, automatic or alternative control path;
+- treating a stationary motor as safely isolated;
+- ignoring mechanical or stored-energy hazards;
+- proposing opening, switching, resetting, testing, commissioning, installing or altering equipment.
 
 ![Stick figure at a stopped motor while a remote-start arrow approaches from behind](../../../assets/learning/4-week/day-20b-motors-and-associated-protection/stopped-can-still-restart.svg)
 
-*Caption: A stationary shaft is an observation, not a promise about the next command.*
+*Caption: Stationary describes now; the control map explains what may happen next.*
 
-### Safety checkpoint
+This module authorises no electrical or mechanical work.
 
-Stop the exercise and escalate when:
+## 8. Retrieval and next links
 
-- motor, driven-machine, supply or duty data are incomplete;
-- any control, auxiliary, remote, automatic or alternative source is unclear;
-- device functions, characteristics, compatibility or settings cannot be verified;
-- current authorised sources or manufacturer instructions are unavailable;
-- the task would require opening, touching, switching, isolating, testing, adjusting, resetting, commissioning, installing or altering equipment;
-- mechanical, thermal, pneumatic, hydraulic or stored-energy hazards are not controlled by an approved system;
-- damaged equipment, exposed parts, abnormal heat, smoke, noise, vibration or immediate danger is observed;
-- a learner is about to convert the evidence model into a field procedure.
+### Closed-note retrieval
 
-This module does not provide a motor-isolation sequence, lockout procedure, setting method, test method, commissioning process or permission to work.
-
-## Beat 8 — Retrieval, practice and next links
-
-### Recall check
-
-1. What five steps make up M-O-T-O-R?
-2. Why must the driven machine be included in the review?
-3. Distinguish overload, short circuit and stall.
-4. Why is starting current not automatically a fault?
-5. Which components must be coordinated in a motor circuit?
+1. Expand M-O-T-O-R.
+2. Distinguish starting, overload, short circuit and stall.
+3. Name the six evidence grades and four claim grades.
+4. Why must the driven machine be included?
+5. Which components require coordination evidence?
 6. Why does a stop control not prove isolation?
-7. Which restart paths should be mapped?
-8. Name four stop conditions.
+7. What changes reopen the analysis?
+8. State four critical errors.
 
-### Applied practice
+### Changed-scenario transfer
 
-Create a fictional motor system with:
+Re-attempt the practical application after changing the driven load, introducing frequent reversing duty or adding a remote restart source. Rebuild operating cases and coordination claims rather than carrying forward the earlier conclusion.
 
-- one driven load;
-- one normal starter;
-- one upstream protective device;
-- one automatic-start condition;
-- one remote command;
-- one missing manufacturer document;
-- one unclear isolation boundary.
+### Knowledge-base links
 
-Require another learner to:
+- [[Day 03 - Overcurrent Protection]]
+- [[Day 09 - Complete Cable-Selection Workflow]]
+- [[Day 20A - Fixed Appliances and Local Isolation]]
+- [[Day 20B - Motors and Associated Protection]]
+- [[Day 20C - Alternative and Multiple Supplies Awareness]]
+- [[Overcurrent Protection]]
+- [[Fault Finding and Commissioning]]
+- [[Safety and Electrical Risk]]
 
-1. complete the M-O-T-O-R review;
-2. draw the operating-case map;
-3. classify each device or control function;
-4. identify the first blocking evidence gap;
-5. write a bounded conclusion without selecting settings or describing field work.
+### Review boundary
 
-### Reflection
-
-Complete these prompts:
-
-- The motor-protection function I am most likely to merge with another is…
-- The operating case I am most likely to overlook is…
-- The evidence that should stop my recommendation is…
-
-### Navigation
-
-- **Previous:** [Day 20A — Fixed Appliances and Local Isolation](./day-20a-fixed-appliances-and-local-isolation.md)
-- **Knowledge note:** [[Day 20B - Motors and Associated Protection]]
-- **Next:** Day 20C — Alternative and Multiple Supplies Awareness
-
-## Technical-review flags
-
-Before publication or operational use, a qualified reviewer must verify against current authorised sources:
-
-- motor-circuit scope, definitions and classifications;
-- conductor selection and coordination;
-- overload, short-circuit, stall, phase-failure and abnormal-operation protection;
-- device ratings, characteristics, settings and combination rules;
-- starter, contactor, enclosure and manufacturer compatibility;
-- starting methods, duty, frequency, acceleration and supply effects;
-- control, interlock, emergency action, automatic restart and supply-restoration behaviour;
-- isolation, switching, earthing, testing, documentation and jurisdiction-specific requirements.
-
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+Day 20B remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`. Exact motor classifications, settings, coordination methods, starting performance, controls, restart behaviour, isolation, testing and acceptance criteria require current authorised sources and qualified review.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
