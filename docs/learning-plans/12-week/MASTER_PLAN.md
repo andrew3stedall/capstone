@@ -111,7 +111,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 60 — Instrument suitability, limitations and pre-use evidence](modules/day-60-instrument-suitability-limitations-and-pre-use-evidence.md)
 - [x] [Day 61 — Rest, retrieval and sequence reconstruction](modules/day-61-rest-retrieval-and-sequence-reconstruction.md)
 - [x] [Day 62 — Result plausibility and evidence-quality reasoning](modules/day-62-result-plausibility-and-evidence-quality-reasoning.md)
-- [ ] Day 63 — Week 9 verification planning checkpoint
+- [x] [Day 63 — Week 9 verification planning checkpoint](modules/day-63-week-9-verification-planning-checkpoint.md)
 
 ### Week 10 — Test interpretation and systematic fault finding
 
