@@ -131,7 +131,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 74 — Fault diagnosis, correction reasoning and re-verification planning](modules/day-74-fault-diagnosis-correction-reasoning-and-re-verification-planning.md)
 - [x] [Day 75 — Rest, retrieval and weak-domain triage](modules/day-75-rest-retrieval-and-weak-domain-triage.md)
 - [x] [Day 76 — Timed integrated scenario with worked-example fading removed](modules/day-76-timed-integrated-scenario-with-worked-example-fading-removed.md)
-- [ ] Day 77 — Week 11 competency conference and targeted remediation
+- [x] [Day 77 — Week 11 competency conference and targeted remediation](modules/day-77-week-11-competency-conference-and-targeted-remediation.md)
 
 ### Week 12 — Mock assessment, review and transition
 

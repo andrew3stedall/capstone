@@ -162,6 +162,6 @@ Stop or mark the response blocked if the scenario requires unavailable authorise
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 76 - Timed Integrated Scenario with Worked-Example Fading Removed]]
 - **Previous:** [Day 75 — Rest, Retrieval and Weak-Domain Triage](day-75-rest-retrieval-and-weak-domain-triage.md)
-- **Next:** Day 77 — Week 11 Competency Conference and Targeted Remediation
+- **Next:** [Day 77 — Week 11 Competency Conference and Targeted Remediation](day-77-week-11-competency-conference-and-targeted-remediation.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.

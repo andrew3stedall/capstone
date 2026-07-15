@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sort evidence before remediation</title>
+  <desc id="desc">A stick-figure learner and reviewer sort evidence cards into demonstrated, inconsistent and missing groups, then select three cards for targeted repair.</desc>
+  <rect width="760" height="360" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="65" cy="85" r="23"/><path d="M65 108v72M65 132l-32 28M65 132l35 18M65 180l-25 52M65 180l30 52"/>
+    <circle cx="690" cy="85" r="23"/><path d="M690 108v72M690 132l-35 18M690 132l32 28M690 180l-30 52M690 180l25 52"/>
+    <rect x="145" y="45" width="135" height="90"/><rect x="312" y="45" width="135" height="90"/><rect x="480" y="45" width="135" height="90"/>
+    <rect x="180" y="180" width="55" height="42"/><rect x="352" y="180" width="55" height="42"/><rect x="520" y="180" width="55" height="42"/>
+    <path d="M207 222v35M379 222v35M547 222v35"/>
+    <rect x="250" y="270" width="260" height="55" stroke-width="6"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="212" y="78" font-size="17">Demonstrated</text><text x="212" y="104" font-size="15">preserve</text>
+    <text x="379" y="78" font-size="17">Inconsistent</text><text x="379" y="104" font-size="15">diagnose</text>
+    <text x="547" y="78" font-size="17">Missing</text><text x="547" y="104" font-size="15">define evidence</text>
+    <text x="380" y="304" font-size="20">Select no more than three targeted repairs</text>
+    <text x="380" y="348" font-size="18">Classify evidence before planning remediation.</text>
+  </g>
+</svg>
