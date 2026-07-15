@@ -2,13 +2,17 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
 ---
 
 # Day 14 - Week 2 Integrated Design Exercise
+
+Day 14 integrates demand, cable selection, route conditions, voltage performance, source arrangements, switchboard evidence and visible-condition reporting into one traceable paper exercise.
 
 ## Learning module
 
@@ -25,22 +29,57 @@ technical_reviewer: pending
 - [[Day 13B - Switchboard Construction and Arrangements]]
 - [[Day 13C - Switchboard Defect Inspection]]
 
+## D-E-S-I-G-N workflow
+
+1. **Define** the brief, boundary, sources and outputs.
+2. **Extract** facts, assumptions, missing evidence and exclusions.
+3. **Select** authorised source families and manufacturer information.
+4. **Integrate** demand, device, conductor, route and voltage reasoning using one design basis.
+5. **Gate** the calculations against sources, switching, board arrangement, visible condition and maintainability.
+6. **Note** the bounded recommendation, rejected options and reopening triggers.
+
 ## Core concepts
 
-- An integrated design response needs one consistent design basis across demand, conductor selection, derating, voltage drop, source arrangements and switchboard evidence.
-- The **D-E-S-I-G-N** workflow is: Define the brief and boundary; Extract facts and evidence gaps; Select governing source families; Integrate the calculation chain; Gate the design against physical evidence; Note the bounded conclusion.
-- A favourable calculation does not compensate for missing source, board, device, conductor or route evidence.
-- Design is iterative: a failed or unsupported downstream check may require revisiting the load model, route, conductor, device or arrangement.
-- Visible switchboard observations and defect causes remain different evidence levels.
-- A recommendation must separate supported conclusions, rejected options, unresolved evidence and the next authorised review action.
+- A **design basis** keeps operating cases, source topology, route, environment and input data consistent.
+- An **evidence register** grades inputs as observed, documented, derived, assumed or missing.
+- A **controlling condition** governs the current decision.
+- An **integration error** occurs when individually plausible steps use inconsistent assumptions.
+- A **bounded recommendation** separates supported findings, rejected options, unresolved evidence and the next authorised action.
+
+## Claim grades
+
+- described;
+- supported;
+- verified;
+- unresolved.
 
 ## Practical application
 
-Use the fictional community-workshop brief to build an evidence register, demand model, cable-selection chain, route-segment review, cumulative voltage-drop model, source and switchboard gate, and bounded one-page recommendation. The exercise remains paper-based and does not authorise opening, testing, switching, isolation or alteration.
+Use the fictional community-workshop case to produce:
+
+1. a brief and boundary statement;
+2. an evidence register;
+3. a load and operating-case model;
+4. a traceable device, conductor and route chain;
+5. a cumulative voltage model;
+6. a source and switchboard gate;
+7. an observation-versus-cause record;
+8. a bounded recommendation;
+9. a change-propagation note after one material condition changes.
 
 ## Assessment relevance
 
-The learner should be able to combine Week 2 concepts without changing assumptions between calculations, omitting possible supplies, treating spare board space as capacity or presenting fictional exercise data as authoritative. Exact methods, values, source arrangements and acceptance criteria remain `reference_check_required`.
+The module uses a six-category, 12-point educational rubric covering the brief and evidence register, consistent design basis, calculation chain, physical and source gates, recommendation and iteration, and safety/source discipline. Critical errors override the score. This is not an official assessment rule.
+
+## Misconceptions to track
+
+- A favourable calculation proves approval.
+- Connected load automatically equals maximum demand.
+- One route condition applies to the full run.
+- Spare board space proves capacity.
+- A visible sign proves its cause.
+- An alternate supply can be ignored when it is not the normal operating source.
+- A changed assumption only affects the final calculation.
 
 ## Related concepts
 
@@ -50,6 +89,10 @@ The learner should be able to combine Week 2 concepts without changing assumptio
 - [[Fault Finding and Commissioning]]
 - [[Day 13C - Switchboard Defect Inspection]]
 - [[Day 15 - Wiring Systems and Mechanical Protection]]
+
+## Safety boundary
+
+The exercise is paper-based. It authorises no opening, testing, switching, isolation, measurement, alteration or installation work. Unknown sources, unavailable authorised data, immediate-danger indicators and any conclusion requiring invented evidence require stop and escalation.
 
 ## Navigation
 
@@ -64,7 +107,7 @@ The learner should be able to combine Week 2 concepts without changing assumptio
 - Workplace design, isolation, inspection and escalation procedures.
 - RTO directions and supervised practical requirements.
 
-No standards wording, official demand factors, cable tables, correction-factor datasets, voltage-drop limits, device curves, switchboard ratings or defect classifications are reproduced. This note is not `technically-reviewed`.
+No standards wording, official demand factors, cable tables, correction-factor datasets, voltage-drop limits, device curves, switchboard ratings or defect classifications are reproduced. Exact methods, values, source arrangements and acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
