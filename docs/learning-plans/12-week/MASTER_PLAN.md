@@ -135,9 +135,9 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 ### Week 12 — Mock assessment, review and transition
 
-- [ ] Day 78 — Mock preparation, time allocation and stop-rule rehearsal
-- [ ] Day 79 — Staged written and rule-navigation mock assessment
-- [ ] Day 80 — Staged design and calculation mock assessment
+- [x] [Day 78 — Mock preparation, time allocation and stop-rule rehearsal](modules/day-78-mock-preparation-time-allocation-and-stop-rule-rehearsal.md)
+- [x] [Day 79 — Staged written and rule-navigation mock assessment](modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
+- [x] [Day 80 — Staged design and calculation mock assessment](modules/day-80-staged-design-and-calculation-mock-assessment.md)
 - [ ] Day 81 — Staged inspection, verification and fault-reasoning mock assessment
 - [ ] Day 82 — Rest and evidence-led error-log consolidation
 - [ ] Day 83 — Full integrated mock assessment

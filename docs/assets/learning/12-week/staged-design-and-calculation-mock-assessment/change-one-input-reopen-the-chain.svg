@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="400" viewBox="0 0 840 400" role="img" aria-labelledby="title desc">
+  <title id="title">Change one input and reopen the chain</title>
+  <desc id="desc">A stick-figure learner follows boxes from sourced inputs through calculations and design gates to a provisional candidate, then a changed input arrow returns to the start.</desc>
+  <rect width="840" height="400" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="75" cy="100" r="24"/><path d="M75 124v78M75 148l-35 28M75 148l45 18M75 202l-28 58M75 202l34 58"/>
+    <rect x="165" y="80" width="135" height="75" rx="6"/>
+    <rect x="350" y="80" width="135" height="75" rx="6"/>
+    <rect x="535" y="80" width="135" height="75" rx="6"/>
+    <rect x="690" y="210" width="120" height="75" rx="6"/>
+    <path d="M300 118h50M485 118h50M670 118h55v92"/>
+    <path d="M325 105l25 13-25 13M510 105l25 13-25 13"/>
+    <path d="M750 300v45H230v-150" stroke-dasharray="10 8"/>
+    <path d="M215 215l15-20 15 20"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="232" y="112" font-size="18" font-weight="700">SOURCED</text><text x="232" y="136" font-size="18">INPUTS</text>
+    <text x="417" y="112" font-size="18" font-weight="700">CALCULATION</text><text x="417" y="136" font-size="18">STEPS</text>
+    <text x="602" y="112" font-size="18" font-weight="700">DESIGN</text><text x="602" y="136" font-size="18">GATES</text>
+    <text x="750" y="240" font-size="17" font-weight="700">PROVISIONAL</text><text x="750" y="264" font-size="17">CANDIDATE</text>
+    <text x="490" y="335" font-size="18">changed input returns to the evidence chain</text>
+    <text x="420" y="382" font-size="23" font-weight="700">Change one fact; reopen every affected decision.</text>
+  </g>
+</svg>

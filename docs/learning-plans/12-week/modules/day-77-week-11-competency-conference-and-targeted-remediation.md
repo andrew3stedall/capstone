@@ -175,6 +175,6 @@ Stop the conference and record a blocker if the evidence depends on an unavailab
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 77 - Week 11 Competency Conference and Targeted Remediation]]
 - **Previous:** [Day 76 — Timed Integrated Scenario with Worked-Example Fading Removed](day-76-timed-integrated-scenario-with-worked-example-fading-removed.md)
-- **Next:** Day 78 — Mock Preparation, Time Allocation and Stop-Rule Rehearsal
+- **Next:** [Day 78 — Mock Preparation, Time Allocation and Stop-Rule Rehearsal](day-78-mock-preparation-time-allocation-and-stop-rule-rehearsal.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.

@@ -8,51 +8,65 @@ updated_on: 2026-07-16
 
 ## Current state
 
-- **Completed:** Days 1–77.
-- **Current block:** Day 77 — Week 11 Competency Conference and Targeted Remediation is complete.
-- **Next block:** Day 78 — Mock Preparation, Time Allocation and Stop-Rule Rehearsal.
+- **Completed:** Days 1–80.
+- **Current block:** Day 80 — Staged Design and Calculation Mock Assessment is complete.
+- **Next block:** Day 81 — Staged Inspection, Verification and Fault-Reasoning Mock Assessment.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Day 77 — Week 11 Competency Conference and Targeted Remediation
+### Day 78 — Mock Preparation, Time Allocation and Stop-Rule Rehearsal
 
-- Added the exact eight-beat module using **C-O-N-F-E-R**.
-- Added criterion-level evidence classification, confidence calibration, critical/dependency error prioritisation, maximum-three-target remediation, transfer checks and conditional Week 12 readiness.
-- Added an original accessible black-and-white SVG and corresponding Obsidian knowledge note.
-- Updated reciprocal Day 76/77 module navigation and preserved the existing Day 76/77 note relationship.
-- Tracker state after this increment: Days 1–77 complete; next is Day 78.
+- Added the exact eight-beat module using **P-R-E-P-A-R-E**.
+- Added deliverable mapping, protected review allocation, task budgets, source placeholders, progression conditions and rehearsed blocked, unsafe and unverifiable stop rules.
+- Added an original accessible SVG and corresponding Obsidian note.
+- Tracker state after this increment: Days 1–78 complete; next was Day 79.
+
+### Day 79 — Staged Written and Rule-Navigation Mock Assessment
+
+- Added the exact eight-beat module using **N-A-V-I-G-A-T-E**.
+- Added staged release, reproducible search trails, source currency/scope/applicability checks, completion markers, bounded responses and an untouched-submission requirement.
+- Added an original accessible SVG and corresponding Obsidian note.
+- Tracker state after this increment: Days 1–79 complete; next was Day 80.
+
+### Day 80 — Staged Design and Calculation Mock Assessment
+
+- Added the exact eight-beat module using **C-A-L-C-U-L-A-T-E**.
+- Added design-basis control, input provenance, visible intermediate steps, reasonableness checks, interacting design gates, provisional candidates and changed-input propagation.
+- Added an original accessible SVG and corresponding Obsidian note.
+- Updated reciprocal module and knowledge-note navigation across Days 77–80.
+- Tracker state after this increment: Days 1–80 complete; next is Day 81.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-77-week-11-competency-conference-and-targeted-remediation.md`
-- `docs/assets/learning/12-week/week-11-competency-conference-and-targeted-remediation/sort-evidence-before-remediation.svg`
-- `docs/knowledge-base/12-Week Day 77 - Week 11 Competency Conference and Targeted Remediation.md`
-- `docs/learning-plans/12-week/modules/day-76-timed-integrated-scenario-with-worked-example-fading-removed.md`
-- `docs/learning-plans/12-week/MASTER_PLAN.md`
-- `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
+- Three modules under `docs/learning-plans/12-week/modules/` for Days 78–80.
+- Three corresponding knowledge-base notes under `docs/knowledge-base/`.
+- Three original accessible SVGs under `docs/assets/learning/12-week/`.
+- `docs/learning-plans/12-week/modules/day-77-week-11-competency-conference-and-targeted-remediation.md`.
+- `docs/learning-plans/12-week/MASTER_PLAN.md`.
+- `docs/learning-plans/12-week/AUTOMATION_STATUS.md`.
 
 ## Review flags
 
-- Day 77 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact technical, assessment, competency, readiness and remediation requirements require qualified checking against current authorised sources and relevant RTO arrangements.
-- No official pass mark, competency decision, standards table, copied figure, systematic clause wording, official checklist or practical procedure was added.
-- The module authorises no access, switching, isolation, testing, measurement, alteration, repair, energisation, certification or verification.
+- Days 78–80 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact technical values, design criteria, permitted materials, timing rules, assessment conditions and acceptance decisions require current authorised sources, relevant RTO instructions and qualified review.
+- No official pass mark, assessment question, standards table, copied figure, systematic clause wording, exact official value, field procedure or approved design was added.
+- The modules authorise no access, switching, isolation, testing, measurement, alteration, repair, energisation, certification or verification.
 
 ## Validation performed
 
-- Confirmed YAML metadata and the exact eight required section headings.
-- Checked observable objectives, defined terminology, original fictional evidence, assessment-focused remediation and explicit stop conditions.
-- Reviewed Mermaid flowchart syntax and its nearby explanation.
-- Confirmed the SVG uses a white background, black line art, semantic title, descriptive text, useful alt text and an instructional caption.
-- Checked Day 76/77 module navigation, Day 77 knowledge-note links, the direct master-plan link and exactly one next increment.
-- Checked for duplicate wording, unsupported technical claims, formal competency overreach, copyright risk and practical-authority overreach.
+- Confirmed YAML metadata and the exact eight required section headings in all three modules.
+- Checked observable objectives, defined terminology, original staged scenarios, assessment-focused rubrics and explicit stop conditions.
+- Reviewed Mermaid flowchart syntax and confirmed each diagram is explained nearby.
+- Confirmed each SVG uses a white background, black line art, semantic title, descriptive text, useful alt text and an instructional caption.
+- Checked direct master-plan links, module sequence, knowledge-note navigation and reciprocal links from Day 77 through Day 80.
+- Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Commit behaviour
 
-Day 77, its note, asset, reciprocal navigation and canonical tracker updates were assembled into one Git tree commit at the end of the run.
+Days 78–80, their notes, assets, reciprocal navigation and canonical tracker updates were assembled for one Git tree commit at the end of the run.
 
 ## Run rules
 
