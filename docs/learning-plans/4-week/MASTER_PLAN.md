@@ -3,7 +3,7 @@ title: Four-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
 ---
 
 # Four-Week Capstone Learning Plan
@@ -115,7 +115,10 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 - [x] 2026-07-15 — [Day 12 — Rest, calculation correction and catch-up](./modules/day-12-rest-calculation-correction-and-catch-up.md): added the R-E-P-A-I-R workflow, five-category causal error model, confidence calibration, dependent-step reopening, varied and delayed retrieval, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
 - [x] 2026-07-15 — [Day 13A — Switching, isolation and main switches](./modules/day-13a-switching-isolation-and-main-switches.md): added the S-E-P-A-R-A-T-E workflow, evidence and claim grades, source-boundary reopening triggers, two original Mermaid models, worked-example fading, changed-source transfer, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
 - [x] 2026-07-15 — [Day 13B — Switchboard construction and arrangements](./modules/day-13b-switchboard-construction-and-arrangements.md): added the B-O-A-R-D-S workflow, evidence and claim grades, assembly-interaction models, worked-example fading, changed-source transfer, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible assembly-evidence visual.
-- [ ] Next — Day 13C — Switchboard defect inspection.
+- [x] 2026-07-16 — [Day 13C — Switchboard defect inspection](./modules/day-13c-switchboard-defect-inspection.md): added evidence and claim grades, urgency-versus-certainty reasoning, change propagation, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
+- [x] 2026-07-16 — [Day 14 — Week 2 integrated design exercise](./modules/day-14-week-2-integrated-design-exercise.md): strengthened the D-E-S-I-G-N workflow, consistent design-basis model, input and claim grades, controlling-condition logic, changed-scenario transfer, a six-category 12-point rubric and aligned vault metadata.
+- [x] 2026-07-16 — [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md): strengthened the R-O-U-T-E workflow, exposure-zone and transition reasoning, control-strategy comparison, evidence and claim grades, changed-route transfer, a six-category 12-point rubric and aligned vault metadata.
+- [ ] Next — Day 16 — Consumer mains, submains and final subcircuits.
 
 ## Quality gates for every hourly run
 
