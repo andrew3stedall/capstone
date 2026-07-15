@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Open one evidence envelope at a time</title>
+  <desc id="desc">A stick-figure learner keeps three hypothesis cards visible while opening numbered evidence envelopes one at a time. A locked notebook preserves each earlier diagnostic snapshot.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="145" r="38"/>
+    <path d="M160 183v118M160 220l-65 70M160 220l72 45M160 301l-48 92M160 301l55 92"/>
+    <path d="M90 410h185"/>
+    <rect x="315" y="105" width="150" height="105" rx="8"/>
+    <rect x="490" y="105" width="150" height="105" rx="8"/>
+    <rect x="665" y="105" width="150" height="105" rx="8"/>
+    <path d="M335 135h110M335 165h90M510 135h110M510 165h90M685 135h110M685 165h90"/>
+    <rect x="300" y="280" width="145" height="95" rx="8"/>
+    <path d="M300 280l72 55 73-55"/>
+    <text x="365" y="345" font-family="Arial, sans-serif" font-size="34" fill="black" stroke="none">1</text>
+    <rect x="485" y="280" width="145" height="95" rx="8"/>
+    <path d="M485 280l72 55 73-55"/>
+    <text x="550" y="345" font-family="Arial, sans-serif" font-size="34" fill="black" stroke="none">2</text>
+    <rect x="670" y="280" width="145" height="95" rx="8"/>
+    <path d="M670 280l72 55 73-55"/>
+    <text x="735" y="345" font-family="Arial, sans-serif" font-size="34" fill="black" stroke="none">3</text>
+    <rect x="420" y="415" width="230" height="80" rx="8"/>
+    <path d="M470 415v-28a45 45 0 0190 0v28"/>
+    <path d="M455 450h160"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="390" y="92" font-size="24">Hypothesis A</text>
+    <text x="565" y="92" font-size="24">Hypothesis B</text>
+    <text x="740" y="92" font-size="24">Hypothesis C</text>
+    <text x="535" y="525" font-size="24">Lock each snapshot before the next release</text>
+  </g>
+</svg>
