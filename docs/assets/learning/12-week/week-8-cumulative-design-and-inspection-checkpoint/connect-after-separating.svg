@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Connect evidence only after separating it</title>
+  <desc id="desc">A stick-figure learner arranges separate cards labelled design, inspection, source and missing before drawing arrows to a bounded conclusion.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="205" r="28"/>
+    <path d="M110 233V330 M110 265L185 235 M110 270L55 305 M110 330L75 390 M110 330L150 390"/>
+    <rect x="245" y="65" width="150" height="72" rx="7"/>
+    <rect x="245" y="170" width="150" height="72" rx="7"/>
+    <rect x="245" y="275" width="150" height="72" rx="7"/>
+    <rect x="455" y="170" width="150" height="72" rx="7"/>
+    <rect x="700" y="155" width="205" height="105" rx="8"/>
+    <path d="M395 101L700 185 M395 206L700 205 M395 311L700 230 M605 206L700 215"/>
+    <path d="M675 180L700 185L685 205 M675 200L700 205L685 225 M675 220L700 230L682 245"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="320" y="108" font-size="22" font-weight="700">DESIGN</text>
+    <text x="320" y="213" font-size="22" font-weight="700">INSPECTION</text>
+    <text x="320" y="318" font-size="22" font-weight="700">SOURCE</text>
+    <text x="530" y="213" font-size="22" font-weight="700">MISSING</text>
+    <text x="802" y="198" font-size="22" font-weight="700">BOUNDED</text>
+    <text x="802" y="230" font-size="22" font-weight="700">CONCLUSION</text>
+    <text x="480" y="420" font-size="27" font-weight="700">Separate first. Connect second. Claim last.</text>
+  </g>
+</svg>
