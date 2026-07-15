@@ -76,13 +76,13 @@ Use **S-O-U-R-C-E**:
 
 ```mermaid
 flowchart TD
-    A[Register every credible source] --> B[Map operating and restoration states]
-    B --> C[Trace routes to the assessment boundary]
-    C --> D[Separate control transfer protection and isolation]
-    D --> E{All paths supported by current evidence?}
-    E -- No --> F[Record blocking gap and escalate]
-    E -- Yes --> G[Check authorised current requirements]
-    G --> H[Write a bounded claim]
+    A["Register every credible source"] --> B["Map operating and restoration states"]
+    B --> C["Trace routes to the assessment boundary"]
+    C --> D["Separate control transfer protection and isolation"]
+    D --> E{"All paths supported by current evidence?"}
+    E -- No --> F["Record blocking gap and escalate"]
+    E -- Yes --> G["Check authorised current requirements"]
+    G --> H["Write a bounded claim"]
 ```
 
 ## Beat 5 — Visual model or worked example
@@ -133,3 +133,11 @@ Without notes, reconstruct S-O-U-R-C-E, define feedback-capable path, and explai
 ## Technical-review flags
 
 A qualified reviewer must verify formal source classifications; transfer and interlocking requirements; conductor, neutral and earthing arrangements; fault and protection implications; labelling; isolation; testing; commissioning; and jurisdiction-specific obligations. **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 20B — Motors and Associated Protection](./day-20b-motors-and-associated-protection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 21 — Week 3 Simulated Visual Inspection →](./day-21-week-3-simulated-visual-inspection.md)
+<!-- sequence-navigation:end -->
