@@ -2,7 +2,9 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -22,53 +24,53 @@ technical_reviewer: pending
 - [[Day 13A - Switching Isolation and Main Switches]]
 - [[Day 15 - Wiring Systems and Mechanical Protection]]
 
-## Core idea
+## T-R-A-C-E workflow
 
-Consumer mains, submains and final subcircuits are classified by their source, destination, function and installation boundary, not by cable appearance. Each section must remain part of one traceable load, protection, conductor, route, voltage, fault, earthing and isolation evidence chain.
+1. **Terminals** — mark exact start and end points.
+2. **Role** — assign a candidate function from source, destination and purpose.
+3. **Applicable sources** — locate current authorised evidence.
+4. **Coordination** — test load, protection, route, voltage, fault, neutral, earth, switching and source interactions.
+5. **Evidence and escalation** — grade evidence and claims, record gaps and reopen dependencies after change.
 
-The module uses the **T-R-A-C-E** workflow:
+## Core distinctions
 
-1. **Terminals** — mark the exact start and end points.
-2. **Role** — classify the section's function in the supply hierarchy.
-3. **Applicable sources** — identify the current authorised source families.
-4. **Coordination** — check interacting design and safety obligations.
-5. **Evidence** — record sources, assumptions, unresolved items and a bounded conclusion.
+- Circuit function is established by source, destination, purpose and boundary, not cable appearance.
+- A candidate consumer-mains, submain or final-subcircuit classification is not a verified compliance conclusion.
+- A satisfactory downstream result does not repair an unsupported upstream assumption.
+- A changed source, board, route or operating state can reopen load, protection, voltage, fault and isolation conclusions.
+
+## Evidence and claim grades
+
+Evidence: **observed**, **documented**, **derived**, **assumed**, **missing**.
+
+Claims: **described**, **supported**, **verified**, **unresolved**.
+
+## Practical application
+
+Map a fictional multi-board installation, classify every conductor section provisionally, trace normal and alternative-source operating cases, grade the supporting evidence and write bounded claims. Then move one source or load and rebuild every dependent conclusion.
+
+## Assessment relevance
+
+A strong response defines terminals and boundaries, classifies by function, carries upstream dependencies into downstream reasoning, grades evidence consistently and stops before unsupported design or isolation claims. The module uses a six-category, 12-point educational rubric; it is not an official assessment rule.
+
+## Safety boundary
+
+This note authorises no opening, touching, testing, switching, isolation, installation, alteration, verification or energisation. Formal classifications, supply boundaries, conductor and protection arrangements, neutral and earthing treatment, voltage-drop and fault methods, board ratings and alternative-supply obligations require current authorised sources and qualified review.
 
 ## Related concepts
 
 - [[Wiring Rules and Design]]
 - [[Safety and Electrical Risk]]
-- [[Four-Week Capstone Learning Plan]]
 - [[Day 17 - Bathrooms Showers and Other Wet Areas]]
+- [[Four-Week Capstone Learning Plan]]
 
-## Practical application
-
-The learner maps a fictional multi-board installation, provisionally classifies each conductor section, traces normal and alternative-source operating cases, and records evidence required before any design conclusion.
-
-## Assessment relevance
-
-The topic tests whether the learner can interpret a single-line diagram, identify circuit boundaries, distinguish distribution from final utilisation, carry upstream dependencies into downstream calculations and explain uncertainty without inventing requirements.
-
-## Common misconceptions
-
-- cable size determines circuit classification;
-- every outgoing circuit is a final subcircuit;
-- a switchboard breaks the cumulative voltage-drop or fault evidence chain;
-- an upstream protective device automatically proves downstream coordination;
-- a main switch necessarily removes every source;
-- a circuit label proves the physical route and termination points.
-
-## Safety boundary
-
-This note does not authorise opening, touching, testing, switching, isolation, installation, repair or alteration. Formal classifications, supply boundaries, consumer-mains rules, circuit arrangements, protection, neutral and earthing treatment, voltage-drop and fault methods, board ratings, alternative supplies and jurisdiction-specific obligations require current authorised sources and qualified review.
-
-## References
+## References and review boundary
 
 - AS/NZS 3000:2018 and current amendments — topic reference only; authorised access required.
 - Applicable legislation, regulator, network-service-provider and RTO requirements.
-- Current manufacturer instructions for protective devices, switchboards, generation equipment, cables and connected equipment.
+- Current manufacturer instructions and authorised project records.
 
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+This note remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
