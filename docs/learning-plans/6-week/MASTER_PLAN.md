@@ -3,7 +3,7 @@ title: Six-Week Capstone Learning Plan
 status: drafted-awaiting-quality-passes
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
 ---
 
 # Six-Week Capstone Learning Plan
@@ -103,7 +103,8 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 - [x] 2026-07-15 — [Day 13 — Earthing defect scenarios and consequence analysis](modules/day-13-earthing-defect-scenarios-and-consequence-analysis.md): strengthened D-E-F-E-C-T with five evidence grades, four claim grades, explicit path/fault/exposure/protection dependencies, a defect-consequence ledger, reopening triggers, worked-example fading, independent transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible dependency-chain visual.
 - [x] 2026-07-15 — [Day 14 — Week 2 integrated MEN and protection exercise](modules/day-14-week-2-integrated-men-and-protection-exercise.md): strengthened I-N-T-E-G-R-A-T-E with five evidence grades, four claim grades, an integration ledger, dependency and reopening controls, worked-example fading, independent transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible complete-chain visual.
 - [x] 2026-07-15 — [Day 15 — Load identification and maximum-demand workflow](modules/day-15-load-identification-and-maximum-demand-workflow.md): strengthened L-O-A-D-S with five evidence grades, four claim grades, a demand-dependency ledger, reopening triggers, worked-example fading, changed-source transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible total-versus-proof visual.
-- [ ] Next — Day 16 — Design current, device rating and conductor capacity relationship.
+- [x] 2026-07-16 — [Day 16 — Design current, device rating and conductor capacity relationship](modules/day-16-design-current-device-rating-and-conductor-capacity-relationship.md): strengthened R-A-T-I-N-G with five evidence grades, four claim grades, a coordination ledger, dependency and reopening controls, worked-example fading, independent transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible order-versus-proof visual.
+- [ ] Next — Day 17 — Installation conditions and derating-factor reasoning.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
