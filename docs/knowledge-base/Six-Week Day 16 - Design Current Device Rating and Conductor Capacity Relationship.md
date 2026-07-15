@@ -5,18 +5,36 @@ block: 16
 content_status: review-required
 reference_check_required: true
 technically_reviewed: false
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
+quality_passes:
+  - date: 2026-07-16
+    type: substantive-quality-improvement
 ---
 
 # Six-Week Day 16 - Design Current Device Rating and Conductor Capacity Relationship
 
 ## Purpose
 
-Connect the assessed load, protective-device candidate and installed conductor capacity through explicit evidence gates rather than treating three numbers as a complete design.
+Connect the assessed load, protective-device candidate and installed conductor capacity through explicit evidence, dependency and reopening gates rather than treating three ordered values as a complete design.
 
 ## Core workflow
 
-**R-A-T-I-N-G:** Retrieve the design input → Analyse load behaviour → Target each protective function → Identify device and conductor data → Normalise for actual conditions → Gate the conclusion.
+**R-A-T-I-N-G:** Retrieve the bounded design input → Analyse load behaviour → Target each protective function → Identify device and conductor evidence → Normalise for actual conditions → Gate the conclusion.
+
+## Evidence and claim control
+
+Evidence is graded as **supplied, corroborated, derived, assumed, or missing/conflicting**. Claims are limited to **description, provisional relationship, supported paper conclusion, or authorised verification**. Automated learning content cannot award authorised verification.
+
+Use a coordination ledger that records:
+
+- design input and load behaviour;
+- required protective functions;
+- device and conductor evidence;
+- installation corrections;
+- downstream checks;
+- claim grade;
+- dependencies; and
+- reopening triggers.
 
 ## Prerequisites
 
@@ -32,18 +50,20 @@ Connect the assessed load, protective-device candidate and installed conductor c
 - [[Cable Derating]]
 - [[Voltage Drop]]
 - [[Fault Protection]]
+- [[Evidence Grading]]
+- [[Dependency Reopening]]
 
 ## Practical application
 
-Build a relationship ledger, then reopen the provisional selection when load behaviour, installation method or a downstream check changes.
+Build a coordination ledger, then reopen only the affected fields when load behaviour, controls, installation method, source currency, device evidence or a downstream check changes.
 
 ## Assessment relevance
 
-The learner must define each quantity, separate protective functions, expose missing inputs and state the strongest evidence-bounded conclusion.
+The learner must define each quantity, separate protective functions, grade evidence, expose unresolved inputs, identify dependencies and state the strongest evidence-bounded conclusion without claiming technical approval.
 
 ## References and review boundary
 
-Exact relationships, capacities, device characteristics, correction methods, limits and exceptions remain `reference_check_required`. This note is not `technically-reviewed` and grants no practical authority.
+Exact relationships, capacities, device characteristics, correction methods, limits, exceptions and assessment requirements remain `reference_check_required`. This note is not `technically-reviewed` and grants no practical authority.
 
 ## Navigation
 
