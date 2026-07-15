@@ -1,17 +1,20 @@
 ---
-status: draft-unverified
+status: review-required
 jurisdiction: general
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: false
 reference_check_required: false
+technical_reviewer: not-required-for-recovery-workflow
 ---
 
 # Day 19 - Rest Retrieval and Catch-Up
 
 ## Purpose
 
-A planned recovery and consolidation block for Days 15–18. It introduces no new electrical requirements. The learner retrieves key workflows, distinguishes technical gaps from evidence gaps, corrects one high-confidence error and checks readiness for fixed appliances and local isolation.
+A planned 30-minute recovery and consolidation block for Days 15–18. It introduces no new electrical requirements. The learner retrieves, calibrates confidence, classifies one important error, corrects it and tests the correction in a changed scenario.
 
 ## Prerequisites
 
@@ -25,10 +28,37 @@ A planned recovery and consolidation block for Days 15–18. It introduces no ne
 **R-E-S-E-T**
 
 1. **Retrieve first** — answer before opening notes.
-2. **Expose the gap** — classify it as conceptual, evidentiary or both.
-3. **Source-return** — revisit the original module and its source notice.
-4. **Explain again** — rewrite the smallest corrected idea in original words.
-5. **Test transfer** — apply the correction in a changed scenario.
+2. **Expose the gap** — classify concept, evidence, transfer or calibration failure.
+3. **Source-return** — revisit the smallest relevant module section and its source notice.
+4. **Explain again** — rewrite the corrected idea in original words.
+5. **Test transfer** — answer a changed scenario and schedule delayed retrieval.
+
+## Gap model
+
+- **Concept gap:** governing idea is not understood.
+- **Evidence gap:** an exact claim requires an authorised source.
+- **Transfer gap:** performance collapses when context changes.
+- **Calibration gap:** confidence does not match answer quality.
+
+## Practical application
+
+Use a maximum 30-minute session:
+
+- 3 minutes for state and setup;
+- 9 minutes for closed-note retrieval;
+- 7 minutes to correct one priority error;
+- 7 minutes for changed-scenario transfer;
+- 4 minutes for scoring and delayed-review scheduling.
+
+The readiness rubric scores retrieval, gap classification, correction quality, confidence calibration, source discipline and time-box discipline. A score of 10/12 or higher with no critical error is an internal educational threshold, not an official assessment rule.
+
+## Assessment relevance
+
+The block tests whether the learner can reconstruct Week 3 reasoning without prompts, distinguish understanding from source verification, transfer a correction and preserve safe limits when information or attention is inadequate.
+
+## Safety boundary
+
+This note authorises no opening, touching, switching, isolation, testing, installation, repair or alteration. Technical statements retrieved from Days 15–18 retain the source and review flags of those modules.
 
 ## Related concepts
 
@@ -38,32 +68,16 @@ A planned recovery and consolidation block for Days 15–18. It introduces no ne
 - [[Inspection Testing and Verification]]
 - [[Day 20A - Fixed Appliances and Local Isolation]]
 
-## Practical application
-
-Use a maximum 30-minute session:
-
-- 3 minutes for state and setup;
-- 10 minutes for closed-note retrieval;
-- 7 minutes to correct one priority error;
-- 7 minutes for one bounded catch-up task;
-- 3 minutes for a readiness statement.
-
-Stop earlier if concentration becomes unreliable. Do not turn an evidence gap into a guessed rule, value, dimension, permission or procedure.
-
-## Assessment relevance
-
-The block tests whether the learner can reconstruct Week 3 reasoning without prompts, calibrate confidence, identify an incomplete evidence chain and preserve safe limits when information is missing.
-
-## Safety boundary
-
-This note authorises no opening, touching, switching, isolation, testing, installation, repair or alteration. Technical statements retrieved from Days 15–18 retain the source and review flags of those modules.
-
 ## References
 
 - [Day 19 module](../learning-plans/4-week/modules/day-19-rest-retrieval-and-catch-up.md)
 - [[Four-Week Capstone Learning Plan]]
 - [[Learning Design]]
-- Current authorised standards, regulator guidance, manufacturer instructions and RTO procedures where the original technical module requires them.
+- Current authorised sources where the originating technical module requires them.
+
+## Review state
+
+`review-required`; non-safety-critical as a recovery workflow; not `technically-reviewed`. No new technical rule is introduced.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
