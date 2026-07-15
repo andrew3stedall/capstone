@@ -20,34 +20,20 @@ This is the canonical sequence for the intensive four-week program. It assumes t
 
 ## Module production standard
 
-Every scheduled learning block must be written as its own eight-beat educational module, including rest, retrieval and catch-up days:
+Every scheduled learning block must use the exact eight-beat structure:
 
-1. **Outcome and entry check** — measurable objectives, prerequisites and a short diagnostic.
-2. **Why it matters** — practical risk, assessment relevance and workplace consequence.
-3. **Core concepts and terminology** — precise definitions and the governing mental model.
-4. **Rule-finding workflow** — how to locate and verify the applicable requirement without reproducing copyrighted standards content.
-5. **Visual model or worked example** — Mermaid diagram, calculation or step-by-step example where it improves understanding.
-6. **Practical application** — installation scenario, inspection task, design decision or fault analysis.
-7. **Common errors and safety checkpoint** — misconceptions, unsafe shortcuts, stop conditions and correction method.
-8. **Retrieval and next links** — recall questions, applied practice, vault links and the next scheduled block.
+1. **Outcome and entry check**
+2. **Why it matters**
+3. **Core concepts and terminology**
+4. **Rule-finding workflow**
+5. **Visual model or worked example**
+6. **Practical application**
+7. **Common errors and safety checkpoint**
+8. **Retrieval and next links**
 
-Every module must include YAML metadata compatible with `docs/LEARNING_DESIGN.md`, explicit learning objectives, prerequisite links, related notes, a source/currency notice and a review status. Exact clause numbers, limits or test values must be verified against authorised current material before being labelled technically reviewed.
+Every module requires compatible YAML metadata, observable objectives, prerequisite links, related notes, a source/currency notice and explicit review status. Exact clause numbers, limits and test values require authorised current-source verification and qualified technical review.
 
-### Rest, retrieval and catch-up module standard
-
-A rest day is a planned learning block, not an omitted page. Each rest, retrieval or catch-up day must therefore have a dedicated module and corresponding knowledge-base note.
-
-The page must:
-
-- introduce no unnecessary new technical theory;
-- explain the learning purpose of deliberate recovery and spaced retrieval;
-- provide a time-boxed retrieval activity and a method for triaging missed work;
-- direct the learner to correct selected items from their error log rather than reread everything;
-- state the maximum catch-up period and clear stop conditions when fatigue or poor concentration is present;
-- include a simple readiness check for the next technical block;
-- retain previous and next module links so the daily sequence remains continuous.
-
-Rest-day diagrams and cartoons must still have a genuine instructional purpose. A recovery, catch-up or readiness decision workflow is appropriate; decorative filler is not.
+Rest, retrieval and catch-up days remain dedicated modules with time-boxed retrieval, error-log triage, fatigue stop conditions, readiness checks and reciprocal navigation.
 
 ## Ordered learning blocks
 
@@ -99,38 +85,26 @@ Rest-day diagrams and cartoons must still have a genuine instructional purpose. 
 
 ## Quality-improvement passes
 
-- [x] 2026-07-14 — [Day 1 — Exam orientation and Wiring Rules navigation](./modules/day-01-exam-orientation-and-wiring-rules-navigation.md): strengthened source hierarchy, applicability checks, evidence-quality rubric, error remediation and accessible visual support.
-- [x] 2026-07-14 — [Day 2 — Fundamental safety principles](./modules/day-02-fundamental-safety-principles.md): added the B-O-U-N-D-A-R-Y workflow, evidence ladder, exposure-pathway distinction, measurable safety-reasoning rubric, varied re-attempt and accessible evidence-before-action visual.
-- [x] 2026-07-14 — [Day 3 — Overcurrent protection](./modules/day-03-overcurrent-protection.md): added the P-R-O-T-E-C-T workflow, path–magnitude–time model, evidence hierarchy, scored rubric, varied re-attempt and accessible missing-evidence stop visual.
-- [x] 2026-07-14 — [Day 4 — RCD protection and additional protection](./modules/day-04-rcd-protection-and-additional-protection.md): added the R-E-S-I-D-U-A-L workflow, three-protection-question model, evidence ladder, scored transfer rubric, varied re-attempt and accessible evidence-before-reset visual.
-- [x] 2026-07-14 — [Day 5 — Rest, retrieval and catch-up](./modules/day-05-rest-retrieval-and-catch-up.md): added the R-E-S-E-T workflow, confidence-calibration method, blocking/beneficial/defer triage, observable performance rubric, changed-scenario transfer and fatigue stop visual.
-- [x] 2026-07-14 — [Day 6A — Earthing terminology and component roles](./modules/day-06a-earthing-terminology-and-component-roles.md): added the R-O-L-E-S workflow, evidence grades, bounded component-role explanations, changed-scenario transfer, six-category rubric and accessible role-before-colour visual.
-- [x] 2026-07-14 — [Day 6B — MEN fault-current path](./modules/day-06b-men-fault-current-path.md): added the L-O-O-P-S workflow, three claim levels, evidence grades, worked-example fading, changed-supply transfer, six-category rubric and accessible prove-the-loop visual.
-- [x] 2026-07-14 — [Day 6C — Earthing and MEN fault scenarios](./modules/day-06c-earthing-and-men-fault-scenarios.md): replaced the inconsistent D-P-E-S label with the complete D-I-A-G-N-O-S-E workflow, added claim grades, evidence ladder, worked-example fading, varied transfer and a scored safety rubric.
-- [x] 2026-07-15 — [Day 7 — Week 1 consolidation and competency check](./modules/day-07-week-1-consolidation-and-competency-check.md): added the I-N-T-E-G-R-A-T-E workflow, explicit claim grades, faded changed-supply transfer, an eight-category 16-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-15 — [Day 8 — Maximum demand](./modules/day-08-maximum-demand.md): added the D-E-M-A-N-D workflow, explicit evidence and claim grades, operating-case reopening logic, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-15 — [Day 9 — Complete cable-selection workflow](./modules/day-09-complete-cable-selection-workflow.md): added the S-E-L-E-C-T workflow, evidence and claim grades, reopening logic, two decision diagrams, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-15 — [Day 10 — Installation conditions and derating](./modules/day-10-installation-conditions-and-derating.md): added the C-O-N-D-I-T-I-O-N-S workflow, evidence and claim grades, source-applicability gates, changed-route transfer, recalculation triggers, a six-category 12-point rubric and aligned vault metadata.
-- [x] 2026-07-15 — [Day 11 — Voltage drop](./modules/day-11-voltage-drop.md): added the V-O-L-T-A-G-E workflow, explicit evidence and claim grades, calculation-versus-interpretation gates, changed-route transfer, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-15 — [Day 12 — Rest, calculation correction and catch-up](./modules/day-12-rest-calculation-correction-and-catch-up.md): added the R-E-P-A-I-R workflow, five-category causal error model, confidence calibration, dependent-step reopening, varied and delayed retrieval, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-15 — [Day 13A — Switching, isolation and main switches](./modules/day-13a-switching-isolation-and-main-switches.md): added the S-E-P-A-R-A-T-E workflow, evidence and claim grades, source-boundary reopening triggers, two original Mermaid models, worked-example fading, changed-source transfer, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-15 — [Day 13B — Switchboard construction and arrangements](./modules/day-13b-switchboard-construction-and-arrangements.md): added the B-O-A-R-D-S workflow, evidence and claim grades, assembly-interaction models, worked-example fading, changed-source transfer, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible assembly-evidence visual.
-- [x] 2026-07-16 — [Day 13C — Switchboard defect inspection](./modules/day-13c-switchboard-defect-inspection.md): added evidence and claim grades, urgency-versus-certainty reasoning, change propagation, worked-example fading, a six-category 12-point rubric, critical-error gates and aligned vault metadata.
-- [x] 2026-07-16 — [Day 14 — Week 2 integrated design exercise](./modules/day-14-week-2-integrated-design-exercise.md): strengthened the D-E-S-I-G-N workflow, consistent design-basis model, input and claim grades, controlling-condition logic, changed-scenario transfer, a six-category 12-point rubric and aligned vault metadata.
-- [x] 2026-07-16 — [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md): strengthened the R-O-U-T-E workflow, exposure-zone and transition reasoning, control-strategy comparison, evidence and claim grades, changed-route transfer, a six-category 12-point rubric and aligned vault metadata.
-- [ ] Next — Day 16 — Consumer mains, submains and final subcircuits.
+- [x] Day 1 through Day 13B — one tracked substantive pass completed per module.
+- [x] 2026-07-16 — [Day 13C — Switchboard defect inspection](./modules/day-13c-switchboard-defect-inspection.md): evidence and claim grades, urgency-versus-certainty reasoning, transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 14 — Week 2 integrated design exercise](./modules/day-14-week-2-integrated-design-exercise.md): strengthened D-E-S-I-G-N, controlling-condition logic, transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md): strengthened R-O-U-T-E, exposure transitions, transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 16 — Consumer mains, submains and final subcircuits](./modules/day-16-consumer-mains-submains-and-final-subcircuits.md): strengthened T-R-A-C-E, evidence and claim grades, cumulative dependencies, changed-source transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 17 — Bathrooms, showers and other wet areas](./modules/day-17-bathrooms-showers-and-other-wet-areas.md): strengthened W-A-T-E-R, provisional-zone discipline, four suitability gates, geometry-change transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 18 — Other special installations and locations](./modules/day-18-other-special-installations-and-locations.md): strengthened S-C-O-P-E, six trigger categories, overlap reasoning, changed-trigger transfer, rubric and vault alignment.
+- [ ] Next — Day 19 — Rest, retrieval and catch-up.
 
-## Quality gates for every hourly run
+## Quality gates for every run
 
-A block, including a rest day, is complete only when all of the following are true:
+A block is complete only when:
 
 - the eight beats are present and logically connected;
 - objectives are observable and assessable;
-- terminology is consistent with the existing documentation and vault;
-- Mermaid is used only where it makes a process, relationship or decision clearer;
-- one to three original black-and-white stick-figure SVG cartoons are added with useful alt text and a restrained witty caption;
-- the master plan links to the module and its checkbox is updated;
-- an Obsidian-style knowledge note is created or updated with prerequisites, related concepts, practical application, assessment relevance and references;
-- all new and changed links are checked for consistency;
-- the status note records what changed and identifies exactly one next block;
-- unverified safety-critical details are clearly marked for technical review rather than presented as authoritative.
+- terminology is consistent with the vault;
+- Mermaid materially improves understanding and is syntactically valid;
+- one to three original accessible black-and-white instructional SVGs are present or retained after review;
+- the master plan, status tracker and knowledge note are aligned;
+- reciprocal navigation and relevant backlinks are correct;
+- safety and copyright boundaries are explicit;
+- automated content is never labelled `technically-reviewed`;
+- exactly one next block is recorded.
