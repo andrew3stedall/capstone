@@ -2,7 +2,9 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -21,53 +23,54 @@ technical_reviewer: pending
 - [[Day 15 - Wiring Systems and Mechanical Protection]]
 - [[Day 16 - Consumer Mains Submains and Final Subcircuits]]
 
-## Core idea
+## W-A-T-E-R workflow
 
-Wet-area decisions require a chain of evidence. First identify fixed water features and physical geometry, then build a provisional zone map, classify the proposed equipment and verify location, construction, circuit and installation requirements separately.
+1. **Water features** — identify fixed outlets, vessels and relevant enclosures.
+2. **Area geometry** — verify reference points, dimensions and fixed boundaries.
+3. **Type of equipment** — classify function, supply and intended use.
+4. **Evidence gates** — check location, construction, circuit and installation requirements.
+5. **Record and reopen** — grade evidence and claims, record gaps and repeat after change.
 
-The module uses the **W-A-T-E-R** workflow:
+## Core distinctions
 
-1. **Water features** — identify fixed water sources, vessels, outlets and relevant enclosures.
-2. **Area geometry** — map verified reference points and fixed boundaries.
-3. **Type of equipment** — classify the item, supply arrangement and intended use.
-4. **Evidence checks** — verify location, construction, circuit and installation gates.
-5. **Record** — document sources, assumptions, unresolved facts and a bounded conclusion.
+- A room boundary is not automatically a wet-area zone boundary.
+- A provisional zone map is not a verified compliance result.
+- Equipment location, construction suitability, circuit protection and installation method are separate gates.
+- An IP marking may be relevant but cannot independently prove installation permission.
+- A changed water outlet, screen, equipment type or source requires the geometry and dependent claims to be rebuilt.
+
+## Evidence and claim grades
+
+Evidence: **observed**, **documented**, **manufacturer-verified**, **assumed**, **missing**.
+
+Claims: **described**, **supported**, **verified**, **unresolved**.
+
+## Practical application
+
+Review a fictional bathroom using original plan and elevation sketches. Mark fixed water features, missing dimensions and proposed equipment; apply all four gates; request authorised and manufacturer evidence; then change the outlet or screen and redo the analysis.
+
+## Assessment relevance
+
+A strong response uses correct geometry references, treats each equipment category separately, applies all four gates, grades evidence consistently and refuses to guess dimensions or permissions. The module uses a six-category, 12-point educational rubric; it is not an official assessment rule.
+
+## Safety boundary
+
+This note authorises no opening, touching, testing, switching, isolation, installation, alteration, verification or energisation. Exact zone definitions, dimensions, barrier effects, equipment permissions, ingress requirements, protection, switching, isolation, earthing, bonding, wiring and verification obligations require current authorised sources and qualified review.
 
 ## Related concepts
 
 - [[Safety and Electrical Risk]]
 - [[Wiring Rules and Design]]
-- [[Four-Week Capstone Learning Plan]]
 - [[Day 18 - Other Special Installations and Locations]]
+- [[Four-Week Capstone Learning Plan]]
 
-## Practical application
-
-The learner reviews a fictional accessible-bathroom plan, marks fixed water sources and missing geometry, applies four evidence gates to proposed electrical equipment and refuses to guess zone dimensions or permissions where source evidence is incomplete.
-
-## Assessment relevance
-
-The topic tests whether the learner can interpret plan and elevation information, identify the correct geometry references, distinguish a provisional zone from a verified zone and combine equipment-location rules with product suitability, circuit protection, switching, isolation, earthing and installation evidence.
-
-## Common misconceptions
-
-- the entire bathroom is one electrical zone;
-- any screen changes a zone boundary;
-- an IP label proves installation permission;
-- plan view alone always provides enough information;
-- one rule applies equally to fans, lights, heaters, controls and socket-outlets;
-- remembered dimensions are acceptable without current-source verification.
-
-## Safety boundary
-
-This note does not authorise opening, touching, testing, switching, isolation, installation, repair or alteration. Exact zone definitions, dimensions, equipment permissions, ingress requirements, protection, switching, isolation, earthing, bonding, wiring and verification obligations require current authorised sources and qualified review.
-
-## References
+## References and review boundary
 
 - AS/NZS 3000:2018 and current amendments — topic reference only; authorised access required.
 - Applicable legislation, regulator and RTO requirements.
-- Current manufacturer instructions for electrical equipment and wiring systems used in wet locations.
+- Current manufacturer instructions and authorised project records.
 
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+This note remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
