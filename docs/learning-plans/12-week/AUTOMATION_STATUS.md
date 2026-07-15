@@ -8,11 +8,11 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–52, ending with Day 52 — Other Special Installations and Location-Specific Controls.
-- **Current block:** Days 50–52 completed in this cycle.
-- **Next block:** Day 53 — Alternative, Multiple and Embedded Supply Awareness.
+- **Completed:** Days 1–55, ending with Day 55 — Mixed Special-Location Scenario Workshop.
+- **Current block:** Days 53–55 completed in this cycle.
+- **Next block:** Day 56 — Week 8 Cumulative Design and Inspection Checkpoint.
 - **Working branch:** `automation/12-week-learning-plan`
-- **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
+- **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged. PR #7 targets the four-week branch and should be retargeted after that work reaches the default branch.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
 - **Quality-pass rule:** After all modules are drafted, each receives exactly one substantive quality-improvement pass before the final program-wide audit.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without suitably qualified review against current authorised sources.
@@ -36,44 +36,48 @@ updated_on: 2026-07-15
 | 51 — 2026-07-15 | Day 50 — Special-location method | Added Z-O-N-E-S, fact-led classification, original exposure mapping, source-applicability checks, bounded claims, note and accessible SVG. | Create Day 51. |
 | 52 — 2026-07-15 | Day 51 — Bathrooms, showers and other wet-area reasoning | Added W-A-T-E-R, fixed/movable source mapping, plan/elevation reasoning, equipment/protection separation, note and accessible SVG. | Create Day 52. |
 | 53 — 2026-07-15 | Day 52 — Other special installations and location-specific controls | Added S-P-E-C-I-A-L, dominant-condition comparison, shared/location-specific control reasoning, false-transfer checks, note and accessible SVG. | Create Day 53. |
+| 54 — 2026-07-15 | Day 53 — Alternative, multiple and embedded supply awareness | Added S-O-U-R-C-E-S, source classes, operating-state mapping, interaction reopening, evidence grades, a 12-point rubric, note and accessible SVG. | Create Day 54. |
+| 55 — 2026-07-15 | Day 54 — Rest, retrieval and applicability-check repair | Added R-E-S-T-O-R-E, closed-note retrieval, causal error triage, three-repair limit, changed-context transfer, fatigue controls, note and accessible SVG without adding unnecessary theory. | Create Day 55. |
+| 56 — 2026-07-15 | Day 55 — Mixed special-location scenario workshop | Added L-A-Y-E-R-S, separate classification/source/design/inspection layers, dependency and conflict mapping, staged-change transfer, a 12-point rubric, note and accessible SVG. | Create Day 56. |
 
 ## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-50-special-location-method-classify-map-zones-and-verify-sources.md`
-- `docs/assets/learning/12-week/special-location-method-classify-map-zones-and-verify-sources/map-before-you-match.svg`
-- `docs/knowledge-base/12-Week Day 50 - Special-Location Method - Classify, Map Zones and Verify Sources.md`
-- `docs/learning-plans/12-week/modules/day-51-bathrooms-showers-and-other-wet-area-reasoning.md`
-- `docs/assets/learning/12-week/bathrooms-showers-and-other-wet-area-reasoning/source-reach-device.svg`
-- `docs/knowledge-base/12-Week Day 51 - Bathrooms, Showers and Other Wet-Area Reasoning.md`
+- `docs/learning-plans/12-week/modules/day-53-alternative-multiple-and-embedded-supply-awareness.md`
+- `docs/assets/learning/12-week/alternative-multiple-and-embedded-supply-awareness/map-every-source.svg`
+- `docs/knowledge-base/12-Week Day 53 - Alternative, Multiple and Embedded Supply Awareness.md`
+- `docs/learning-plans/12-week/modules/day-54-rest-retrieval-and-applicability-check-repair.md`
+- `docs/assets/learning/12-week/rest-retrieval-and-applicability-check-repair/repair-three-not-thirty.svg`
+- `docs/knowledge-base/12-Week Day 54 - Rest, Retrieval and Applicability-Check Repair.md`
+- `docs/learning-plans/12-week/modules/day-55-mixed-special-location-scenario-workshop.md`
+- `docs/assets/learning/12-week/mixed-special-location-scenario-workshop/layer-before-conclusion.svg`
+- `docs/knowledge-base/12-Week Day 55 - Mixed Special-Location Scenario Workshop.md`
 - `docs/learning-plans/12-week/modules/day-52-other-special-installations-and-location-specific-controls.md`
-- `docs/assets/learning/12-week/other-special-installations-and-location-specific-controls/compare-the-condition.svg`
-- `docs/knowledge-base/12-Week Day 52 - Other Special Installations and Location-Specific Controls.md`
-- `docs/learning-plans/12-week/modules/day-49-week-7-installation-planning-exercise.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 50 establishes a reusable applicability method before any location-specific rule selection.
-- Day 51 deepens wet-area reasoning through fixed and movable source mapping, plan/elevation evidence and separate placement, suitability and protection questions.
-- Day 52 compares distinct special-installation condition families and explicitly prevents false transfer of requirements between superficially similar settings.
+- Day 53 expands alternate-supply awareness into explicit source classes, connection boundaries and operating-state maps rather than repeating Day 37 switching content.
+- Day 54 remains a genuine recovery block: no new theory, a 20–30 minute limit, no more than three repairs and transfer-based readiness evidence.
+- Day 55 interleaves Week 8 concepts through separate reasoning layers, preventing design intent, inspection observation, classification and source coverage from being collapsed into one checklist.
 - All examples, diagrams, matrices and rubrics are independently created and avoid copied standards content or official assessment material.
 
 ## Review flags
 
-- Days 50–52 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact special-location classifications, official zones, dimensions, limits, protection, equipment-placement, suitability, supply, access, isolation, environmental and verification requirements require qualified checking against current authorised sources.
+- Days 53–55 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact alternative, multiple and embedded supply arrangements; operating modes; switching; isolation; protection; fault; neutral; earthing; identification; location classification; equipment suitability; design; inspection and verification requirements require qualified checking against current authorised sources.
 - No standards table, figure, systematic clause sequence, official zone diagram, exact official value, field procedure or official assessment material was reproduced.
-- The modules authorise no site classification, measurement, access, switching, isolation, testing, installation, alteration, energisation, commissioning, certification or verification.
+- The modules authorise no site classification, design approval, access, switching, isolation, proving de-energised, testing, installation, alteration, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings in Days 50–52.
-- Checked Mermaid fences, flow direction and labels.
+- Confirmed the exact eight required headings in Days 53–55.
+- Checked Mermaid fences, flow directions, decision branches and nearby explanations.
 - Checked each SVG for a white background, black line art, semantic title, description, useful alt text and instructional purpose.
-- Checked Day 49–52 module navigation and knowledge-note sequence.
+- Checked Day 52–55 module navigation and knowledge-note sequence.
 - Checked master-plan links and exactly one next increment.
-- Checked terminology, observable objectives, worked-example fading, copyright transformation, safety boundaries and technical-review flags.
+- Checked terminology, observable objectives, worked-example fading, recovery limits, copyright transformation, safety boundaries and technical-review flags.
+- The GitHub contents connector generated one commit per file write; a single consolidated commit was not available through this interface.
 
 ## Run rules
 
