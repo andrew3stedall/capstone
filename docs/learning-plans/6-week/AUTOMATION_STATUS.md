@@ -24,8 +24,8 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–10.
-- Exactly one next increment: quality-improvement pass — Day 11, Protective Earthing Continuity and Equipotential Bonding Concepts.
+- Completed quality passes: Days 1–11.
+- Exactly one next increment: quality-improvement pass — Day 12, Rest, Retrieval and Misconception Repair.
 
 ## Completed increments
 
@@ -41,37 +41,38 @@ pull_request: 6
 | Quality-improvement pass — Day 8 | Strengthened N-A-M-E-S with five evidence grades, four claim grades, a component-role ledger, dependency reopening, worked-example fading, changed-source transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible label-versus-role visual. |
 | Quality-improvement pass — Day 9 | Strengthened R-E-T-U-R-N with five evidence grades, four claim grades, a dependency-reopening model, worked-example fading, changed-source transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible relationship-versus-return-path visual. |
 | Quality-improvement pass — Day 10 | Strengthened L-O-O-P-S with four evidence gates, five evidence grades, four claim grades, a dependency ledger, reopening logic, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible loop-versus-trip-proof visual. |
+| Quality-improvement pass — Day 11 | Strengthened B-O-N-D-S with five evidence grades, four claim grades, a protective-relationship ledger, dependency reopening, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible continuity-chain visual. |
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-10-earth-fault-current-path-and-disconnection-reasoning.md`
-- `docs/assets/learning/6-week/day-10-earth-fault-current-path-and-disconnection-reasoning/a-loop-is-not-a-trip-proof.svg`
-- `docs/knowledge-base/Six-Week Day 10 - Earth-Fault Current Path and Disconnection Reasoning.md`
+- `docs/learning-plans/6-week/modules/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts.md`
+- `docs/assets/learning/6-week/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts/every-link-needs-evidence.svg`
+- `docs/knowledge-base/Six-Week Day 11 - Protective Earthing Continuity and Equipotential Bonding Concepts.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 10 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact MEN arrangements, conductor requirements, continuity criteria, loop conditions, protective-device characteristics, operating times, test methods and jurisdiction-specific duties require current authorised information and qualified review.
-- L-O-O-P-S, the evidence and claim grades, dependency ledger, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
-- No standards table, copied figure, device curve, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
-- The module authorises no opening, cover removal, isolation, proving, testing, continuity measurement, loop measurement, fault creation, bridging, disconnection, reconnection, resetting, alteration, energisation, commissioning or verification.
+- Day 11 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact classifications, required connections, conductor requirements, continuity criteria, bonding arrangements, exceptions, test methods and jurisdiction-specific duties require current authorised information and qualified review.
+- B-O-N-D-S, the evidence and claim grades, protective-relationship ledger, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
+- No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
+- The module authorises no opening, cover removal, isolation, proving, testing, resistance or continuity measurement, conductor tracing, bridging, disconnection, reconnection, alteration, repair, energisation, commissioning or verification.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 11–42.
-- Quality-improvement passes completed: Days 1–10.
+- Modules awaiting one quality-improvement pass: Days 12–42.
+- Quality-improvement passes completed: Days 1–11.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 10 retains the exact eight required beats and compatible YAML metadata.
+- Day 11 retains the exact eight required beats and compatible YAML metadata.
 - Objectives are observable, assessment-focused and aligned with the Week 2 earthing sequence.
 - Three Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
-- Module and note navigation are reciprocal and point to Days 9 and 11.
+- Module and note navigation are reciprocal and point to Days 10 and 12.
 - Both SVGs use white backgrounds, black line art, semantic image metadata, descriptive alt text and instructional captions.
-- Four evidence questions, five evidence grades, four claim grades and explicit reopening triggers prevent a closed conceptual loop from becoming an unsupported device-operation claim.
+- Five evidence grades, four claim grades, five claim layers and explicit reopening triggers prevent a visible connection from becoming an unsupported continuity or compliance claim.
 - Worked-example fading, changed-condition transfer and delayed retrieval are included without adding unverified practical procedures.
 - The rubric includes critical-error gates and the educational threshold is explicitly distinguished from an official RTO pass mark.
 - Safety and copyright boundaries remain explicit.
@@ -83,4 +84,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 11: Protective Earthing Continuity and Equipotential Bonding Concepts**
+**Quality-improvement pass — Day 12: Rest, Retrieval and Misconception Repair**
