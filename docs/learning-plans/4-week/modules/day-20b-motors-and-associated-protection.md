@@ -127,16 +127,16 @@ Use **M-O-T-O-R**:
 
 ```mermaid
 flowchart TD
-    A[Identify motor driven machine and duty] --> B[Map normal and abnormal operating cases]
-    B --> C[Identify each required protection function]
-    C --> D[Check motor cable starter contactor and upstream coordination]
-    D --> E[Map controls interlocks restart and isolation]
-    E --> F{Evidence complete and applicable?}
-    F -->|No| G[Claim unresolved and request targeted evidence]
-    F -->|Yes| H[Write bounded supported claim]
-    H --> I{Duty supply control or driven load changed?}
-    I -->|Yes| B
-    I -->|No| J[Retain claim within scope]
+    A["Identify motor driven machine and duty"] --> B["Map normal and abnormal operating cases"]
+    B --> C["Identify each required protection function"]
+    C --> D["Check motor cable starter contactor and upstream coordination"]
+    D --> E["Map controls interlocks restart and isolation"]
+    E --> F{"Evidence complete and applicable?"}
+    F -->|"No"| G["Claim unresolved and request targeted evidence"]
+    F -->|"Yes"| H["Write bounded supported claim"]
+    H --> I{"Duty supply control or driven load changed?"}
+    I -->|"Yes"| B
+    I -->|"No"| J["Retain claim within scope"]
 ```
 
 For each conclusion, record operating case, affected component, claimed function, evidence grade, claim grade, missing evidence and reopening trigger.
@@ -157,13 +157,13 @@ Apply M-O-T-O-R:
 
 ```mermaid
 flowchart LR
-    S[Supply and circuit] --> P[Short-circuit function]
-    P --> C[Starter and contactor]
-    C --> M[Motor]
-    M --> D[Driven machine]
-    O[Overload and abnormal-operation functions] --> M
-    R[Remote automatic and interlock logic] --> C
-    I[Isolation and emergency functions] --> B[Operating boundary]
+    S["Supply and circuit"] --> P["Short-circuit function"]
+    P --> C["Starter and contactor"]
+    C --> M["Motor"]
+    M --> D["Driven machine"]
+    O["Overload and abnormal-operation functions"] --> M
+    R["Remote automatic and interlock logic"] --> C
+    I["Isolation and emergency functions"] --> B["Operating boundary"]
     S --> B
     C --> B
     M --> B
