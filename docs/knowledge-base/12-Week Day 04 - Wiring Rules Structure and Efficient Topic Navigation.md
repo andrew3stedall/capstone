@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 04 - Wiring Rules Structure and Efficient Topic Navigation
 
 ## Purpose
 
-This note connects Day 4 to the wider Capstone knowledge graph. It treats standards navigation as a reproducible evidence process rather than clause-number recall or keyword matching.
+This note connects Day 4 to the wider Capstone knowledge graph. It treats standards navigation as a reproducible evidence process that begins with source-family choice and ends with a bounded applicability statement, not clause-number recall or keyword matching.
 
 ## Module
 
@@ -27,30 +27,49 @@ This note connects Day 4 to the wider Capstone knowledge graph. It treats standa
 
 ## Core concepts
 
-- **Source hierarchy:** the relationship between controlling and supporting documents for a task.
+- **Source family:** the category of authorised material likely to control or qualify the decision.
+- **Source hierarchy:** the task-specific relationship between controlling and supporting documents.
 - **Topic map:** an original outline of subject families and headings used for navigation, not copied technical content.
-- **Scope:** what a document or section covers and excludes.
-- **Cross-reference:** a dependency that directs the reader to related material.
-- **Applicability statement:** the learner's explanation of why located material governs the scenario.
-- **Evidence trail:** the recorded source identity, route, context, dependencies, conclusion boundary and unresolved checks.
+- **Search concept:** an object, action, condition, relationship or decision extracted from the scenario.
+- **Candidate location:** potentially relevant material that has not yet passed context and applicability checks.
+- **Context envelope:** source identity, currency, hierarchy, definitions, scope, conditions, exceptions and cross-references surrounding a candidate.
+- **Dependency closure:** all references capable of changing the conclusion have been checked or recorded as unresolved.
+- **Applicability statement:** the learner's explanation of why verified material governs the stated scenario and where the conclusion stops.
+- **Reproducible evidence trail:** source identity, routes, context, dependencies, learner reasoning, confidence and unresolved checks sufficient for another authorised reader to repeat the search.
 
 ## Reasoning workflow
 
 Use **T-R-A-C-E**:
 
-1. Translate the scenario.
-2. Route to the authorised source and subject family.
-3. Analyse hierarchy, scope, definitions, conditions and exceptions.
-4. Connect material dependencies and cross-references.
-5. Evidence the conclusion and unresolved checks.
+1. **Translate** the scenario into objects, actions, conditions, relationships and the requested decision.
+2. **Route** through a justified authorised source family using at least two plausible navigation paths.
+3. **Analyse** the candidate's identity, currency, hierarchy, definitions, scope, conditions, exceptions and status.
+4. **Close** material dependencies or assign unresolved checks to an owner.
+5. **Evidence** a bounded applicability statement that separates source material from learner reasoning.
 
-A search result remains only a candidate until context, currency and applicability are supported.
+A search result remains only a candidate until context, currency, source authority and applicability are supported. Conflicting routes are evidence to reopen the topic map, not a reason to conceal one route.
+
+## Evidence model
+
+A secure navigation record shows:
+
+- why the source family was selected;
+- which competing source family was considered;
+- two reproducible search routes;
+- the heading path and candidate location;
+- the complete context envelope;
+- material dependencies followed or explicitly unresolved;
+- an original summary of source evidence;
+- a separate applicability statement and conclusion boundary;
+- confidence before and after checking;
+- an owner and recheck trigger for unresolved items.
 
 ## Related concepts
 
 - [[Standards Navigation]]
 - [[Evidence Quality]]
 - [[Applicability Reasoning]]
+- [[Authorised Sources]]
 - [[Learning and Assessment Design]]
 - [[Content Copyright and Source Policy]]
 - [[Circuit Design]]
@@ -59,15 +78,15 @@ A search result remains only a candidate until context, currency and applicabili
 
 ## Practical application
 
-The learner completes three source-navigation rounds: a guided topic map, a context and dependency check, and a faded-support attempt using a fresh scenario. Each record identifies the authorised source, edition or version, heading path, candidate location, definitions, scope, conditions, exceptions, cross-references, applicability statement and unresolved checks.
+The learner completes a guided scenario decomposition, a two-route source-navigation record, a false-positive challenge and a changed-context transfer task. When a material scenario fact changes, the learner must rebuild search concepts and source choice rather than carrying the earlier conclusion forward.
 
 ## Assessment relevance
 
-A strong response does not merely provide a clause location. It demonstrates a repeatable search route, distinguishes source material from learner reasoning, follows dependencies and stops when currency or applicability cannot be established. Speed does not compensate for missing context.
+A secure response justifies source choice, records two routes, checks the complete context envelope, closes material dependencies and distinguishes source evidence from learner interpretation. A technically plausible answer remains unsupported when source identity, currency, scope or a material dependency is unresolved. Blocking errors are assessed separately and cannot be averaged away by speed or a correct final answer.
 
 ## Safety boundary
 
-This note authorises no switching, isolation, testing, opening equipment, resetting, disconnection, alteration, repair, energisation or verification. Standards navigation does not establish practical authority. Exact technical requirements and source status require confirmation from current authorised material.
+This note authorises no access, switching, isolation, testing, opening equipment, resetting, disconnection, alteration, repair, energisation, commissioning, certification or verification. Standards navigation does not establish practical authority or technical approval. Exact technical requirements and source status require confirmation from current authorised material.
 
 ## References and currency
 
