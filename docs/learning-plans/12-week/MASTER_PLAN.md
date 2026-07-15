@@ -135,9 +135,10 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 1 of 84.
+- **Completed quality-improvement passes:** 2 of 84.
 - [x] [Quality pass 1 — Day 1, Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
-- **Next quality-improvement pass:** Day 2 — Electrical hazards, exposure pathways and consequence reasoning.
+- [x] [Quality pass 2 — Day 2, Electrical hazards, exposure pathways and consequence reasoning](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
+- **Next quality-improvement pass:** Day 3 — Roles, authority, supervision and practical stop conditions.
 - Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
