@@ -16,7 +16,7 @@ pull_request: 6
 - Base branch: `automation/4-week-learning-plan`
 - Relationship: stacked on the open four-week learning-plan branch because draft PR #5 has not merged.
 - Retarget PR #6 to `main` only after PR #5 merges and the resulting diff is checked.
-- GitHub reports PR #6 as open and draft against its current stacked base.
+- GitHub reports PR #6 as open, draft and mergeable against its current stacked base.
 
 ## Current state
 
@@ -24,8 +24,8 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–12.
-- Exactly one next increment: quality-improvement pass — Day 13, Earthing Defect Scenarios and Consequence Analysis.
+- Completed quality passes: Days 1–13.
+- Exactly one next increment: quality-improvement pass — Day 14, Week 2 Integrated MEN and Protection Exercise.
 
 ## Completed increments
 
@@ -43,38 +43,39 @@ pull_request: 6
 | Quality-improvement pass — Day 10 | Strengthened L-O-O-P-S with four evidence gates, five evidence grades, four claim grades, a dependency ledger, reopening logic, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible loop-versus-trip-proof visual. |
 | Quality-improvement pass — Day 11 | Strengthened B-O-N-D-S with five evidence grades, four claim grades, a protective-relationship ledger, dependency reopening, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible continuity-chain visual. |
 | Quality-improvement pass — Day 12 | Strengthened R-E-P-A-I-R with five evidence states, a misconception-repair ledger, dependency reopening, worked-example fading, changed-scenario transfer, critical-error gates, aligned vault metadata and an accessible confidence-versus-evidence visual. |
+| Quality-improvement pass — Day 13 | Strengthened D-E-F-E-C-T with five evidence grades, four claim grades, explicit path/fault/exposure/protection dependencies, a defect-consequence ledger, reopening triggers, worked-example fading, independent transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible dependency-chain visual. |
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-12-rest-retrieval-and-misconception-repair.md`
-- `docs/assets/learning/6-week/day-12-rest-retrieval-and-misconception-repair/confidence-is-not-evidence.svg`
-- `docs/knowledge-base/Six-Week Day 12 - Rest Retrieval and Misconception Repair.md`
+- `docs/learning-plans/6-week/modules/day-13-earthing-defect-scenarios-and-consequence-analysis.md`
+- `docs/assets/learning/6-week/day-13-earthing-defect-scenarios-and-consequence-analysis/every-consequence-needs-dependencies.svg`
+- `docs/knowledge-base/Six-Week Day 13 - Earthing Defect Scenarios and Consequence Analysis.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 12 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact earthing and MEN definitions, arrangements, connection requirements, current paths, continuity criteria, test methods, values and jurisdiction-specific duties require current authorised information and qualified review.
-- R-E-P-A-I-R, the evidence states, misconception-repair ledger, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
+- Day 13 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact earthing and MEN definitions, conductive-part classifications, connection requirements, continuity criteria, fault paths, device characteristics, test methods, values, acceptance criteria and jurisdiction-specific duties require current authorised information and qualified review.
+- D-E-F-E-C-T, the evidence and claim grades, dependency gates, defect-consequence ledger, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
 - No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
-- The module authorises no opening, cover removal, isolation, proving, testing, resistance or continuity measurement, conductor tracing, bridging, disconnection, reconnection, alteration, repair, energisation, commissioning or verification.
+- The module authorises no site access, opening, cover removal, isolation, proving, conductor tracing, continuity testing, resistance or loop measurement, fault creation, resetting, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 13–42.
-- Quality-improvement passes completed: Days 1–12.
+- Modules awaiting one quality-improvement pass: Days 14–42.
+- Quality-improvement passes completed: Days 1–13.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 12 retains the exact eight required beats and compatible YAML metadata.
-- The rest block adds no unnecessary electrical theory and remains bounded to retrieval, selective repair, catch-up triage, fatigue management and readiness.
-- Two Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
-- Module and note navigation are reciprocal and point to Days 11 and 13.
+- Day 13 retains the exact eight required beats and compatible YAML metadata.
+- Three Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
+- Module and note navigation are reciprocal and point to Days 12 and 14.
 - Both SVGs use white backgrounds, black line art, semantic image metadata, descriptive alt text and instructional captions.
-- Five evidence states, a misconception-repair ledger and explicit reopening triggers prevent confidence or a copied correction from becoming an unsupported claim.
-- Worked-example fading, changed-scenario transfer and delayed retrieval are included without adding unverified practical procedures.
+- Five evidence grades, four claim grades and explicit classification, path, fault, exposure and protection dependencies prevent one clue from becoming an unsupported consequence claim.
+- Reopening triggers cover changed sources, drawings, boundaries, component identity, alteration records and historical evidence.
+- Worked-example fading, independent changed-scenario transfer and delayed retrieval are included without adding unverified practical procedures.
 - The rubric includes critical-error gates and the educational threshold is explicitly distinguished from an official RTO pass mark.
 - Safety and copyright boundaries remain explicit.
 
@@ -85,4 +86,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 13: Earthing Defect Scenarios and Consequence Analysis**
+**Quality-improvement pass — Day 14: Week 2 Integrated MEN and Protection Exercise**
