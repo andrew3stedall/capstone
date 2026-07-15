@@ -8,13 +8,13 @@ updated_on: 2026-07-16
 
 ## Current state
 
-- **Completed:** Plan framework; all Day 1–28 learning blocks; one quality-improvement pass on every block from Day 1 through Day 20B, including split blocks Day 6A–6C and Day 13A–13C.
-- **Current cycle:** Quality-improvement passes — Day 19, Day 20A and Day 20B completed.
-- **Next block:** Quality-improvement pass — [[Day 20C - Alternative and Multiple Supplies Awareness]].
+- **Completed:** Plan framework; all Day 1–28 learning blocks; one quality-improvement pass on every block from Day 1 through Day 22, including split blocks Day 6A–6C, Day 13A–13C and Day 20A–20C.
+- **Current cycle:** Quality-improvement passes — Day 20C, Day 21 and Day 22 completed.
+- **Next block:** Quality-improvement pass — [[Day 23 - Mandatory Electrical Tests and Purposes]].
 - **Working branch:** `automation/4-week-learning-plan`
 - **Draft PR:** #5, targeting `main`.
 - **Quality-pass rule:** Each module receives exactly one substantive pass before the final program-wide audit. Persistent review flags do not cause repeat selection.
-- **Review state:** Day 19 is non-safety-critical as a recovery workflow. Days 20A–20B remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`. None grants practical authority.
+- **Review state:** Days 20C–22 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`. None grants practical authority.
 
 ## Run log
 
@@ -24,30 +24,30 @@ updated_on: 2026-07-16
 | 35–51 | Quality passes — Day 1 through Day 13B | Completed one tracked substantive pass per module. | Day 13C. |
 | 52–54 — 2026-07-16 | Quality passes — Day 13C through Day 15 | Added evidence discipline, transfer, rubrics, safety gates and vault alignment. | Day 16. |
 | 55–57 — 2026-07-16 | Quality passes — Day 16 through Day 18 | Strengthened T-R-A-C-E, W-A-T-E-R and S-C-O-P-E with evidence discipline, transfer, rubrics and vault alignment. | Day 19. |
-| 58 — 2026-07-16 | Quality-improvement pass — Day 19 | Added concept/evidence/transfer/calibration gap classification, confidence calibration, changed and delayed retrieval, a 12-point rubric, critical-error gates and aligned vault metadata. | Day 20A. |
-| 59 — 2026-07-16 | Quality-improvement pass — Day 20A | Strengthened L-O-C-K with five evidence grades, four claim grades, complete energy-boundary reasoning, changed-source transfer, a 12-point rubric and aligned vault metadata. | Day 20B. |
-| 60 — 2026-07-16 | Quality-improvement pass — Day 20B | Strengthened M-O-T-O-R with six evidence grades, four claim grades, operating-case and coordination reasoning, changed-duty transfer, a 12-point rubric and aligned vault metadata. | Day 20C. |
+| 58–60 — 2026-07-16 | Quality passes — Day 19 through Day 20B | Added recovery calibration, L-O-C-K and M-O-T-O-R workflows, changed-scenario transfer and 12-point rubrics. | Day 20C. |
+| 61 — 2026-07-16 | Quality-improvement pass — Day 20C | Rebuilt S-O-U-R-C-E around source/state completeness, evidence and claim grades, changed-source transfer and a critical-error-gated 12-point rubric. | Day 21. |
+| 62 — 2026-07-16 | Quality-improvement pass — Day 21 | Rebuilt I-N-S-P-E-C-T around six-zone coverage, objective finding records, changed-evidence transfer and a critical-error-gated 12-point rubric. | Day 22. |
+| 63 — 2026-07-16 | Quality-improvement pass — Day 22 | Rebuilt V-E-R-I-F-Y around evidence convergence, contradiction handling, claim reopening, test-purpose matching and a critical-error-gated 12-point rubric. | Day 23. |
 
 ## Files updated in this cycle
 
-- `docs/learning-plans/4-week/modules/day-19-rest-retrieval-and-catch-up.md`
-- `docs/knowledge-base/Day 19 - Rest Retrieval and Catch-Up.md`
-- `docs/learning-plans/4-week/modules/day-20a-fixed-appliances-and-local-isolation.md`
-- `docs/knowledge-base/Day 20A - Fixed Appliances and Local Isolation.md`
-- `docs/learning-plans/4-week/modules/day-20b-motors-and-associated-protection.md`
-- `docs/knowledge-base/Day 20B - Motors and Associated Protection.md`
-- `docs/learning-plans/4-week/MASTER_PLAN.md`
+- `docs/learning-plans/4-week/modules/day-20c-alternative-and-multiple-supplies-awareness.md`
+- `docs/knowledge-base/Day 20C - Alternative and Multiple Supplies Awareness.md`
+- `docs/learning-plans/4-week/modules/day-21-week-3-simulated-visual-inspection.md`
+- `docs/knowledge-base/Day 21 - Week 3 Simulated Visual Inspection.md`
+- `docs/learning-plans/4-week/modules/day-22-verification-principles-and-visual-inspection.md`
+- `docs/knowledge-base/Day 22 - Verification Principles and Visual Inspection.md`
 - `docs/learning-plans/4-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 19 introduces no technical requirement; retrieved claims retain the review flags of their source modules.
-- Exact fixed-appliance classifications, isolation requirements, device capability, conductor coverage, neutral treatment, access, identification, securing and verification requirements remain subject to authorised sources and qualified review.
-- Exact motor classifications, protection functions, settings, coordination methods, starting behaviour, controls, restart, isolation, testing and acceptance criteria remain subject to authorised sources and qualified review.
-- R-E-S-E-T, L-O-C-K, M-O-T-O-R, evidence models, claim grades, fictional scenarios, Mermaid diagrams, transfer tasks and rubrics are original educational structures.
-- Existing referenced black-and-white instructional SVGs were retained after accessibility and relevance review.
+- Formal source classifications, transfer arrangements, interlocking, conductor and neutral treatment, earthing, protection, isolation and acceptance requirements remain subject to authorised current sources and qualified review.
+- Formal visual-inspection scope, required items, access preconditions, response classifications, reporting and acceptance criteria remain subject to authorised current sources and qualified review.
+- Formal verification responsibilities, records, approved test purposes and sequence, acceptance criteria and certification duties remain subject to authorised current sources and qualified review.
+- S-O-U-R-C-E, I-N-S-P-E-C-T, V-E-R-I-F-Y, evidence models, fictional scenarios, Mermaid diagrams, transfer tasks and rubrics are original educational structures.
+- Existing black-and-white instructional SVGs were retained and their alternative text was strengthened in the modules.
 - No standards table, copied figure, systematic clause sequence, exact authoritative value, official assessment content or practical field procedure was reproduced.
-- The modules grant no opening, touching, switching, isolation, testing, adjustment, commissioning, installation, alteration, verification or energisation authority.
+- The modules grant no opening, touching, switching, isolation, testing, adjustment, commissioning, installation, alteration, verification, certification or energisation authority.
 
 ## Run rules
 
