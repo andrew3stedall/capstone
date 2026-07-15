@@ -88,9 +88,9 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-- [x] Days 1–17 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
-- [x] 2026-07-16 — [Day 18 — Voltage-drop concepts and calculation workflow](modules/day-18-voltage-drop-concepts-and-calculation-workflow.md): strengthened V-O-L-T-A-G-E with five evidence grades, four claim grades, a voltage-drop dependency ledger, explicit reopening triggers, worked-example fading, independent transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible number-versus-design-proof visual.
-- [ ] Next — Day 19 — Rest, calculation correction and catch-up.
+- [x] Days 1–18 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
+- [x] 2026-07-16 — [Day 19 — Rest, calculation correction and catch-up](modules/day-19-rest-calculation-correction-and-catch-up.md): strengthened R-E-C-O-V-E-R with five evidence states, a repair ledger, explicit dependencies and reopening triggers, worked-example fading, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible correction-evidence-transfer visual.
+- [ ] Next — Day 20 — Complete cable-selection decision sequence.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 

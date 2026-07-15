@@ -5,7 +5,10 @@ block: 19
 content_status: review-required
 reference_check_required: true
 technically_reviewed: false
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
+quality_passes:
+  - date: 2026-07-16
+    focus: evidence-calibrated calculation repair, transfer and fatigue control
 ---
 
 # Six-Week Day 19 - Rest Calculation Correction and Catch-Up
@@ -16,7 +19,14 @@ Use bounded recovery, retrieval and targeted error repair without adding new ele
 
 ## Core workflow
 
-**R-E-C-O-V-E-R:** Rest → Elicit from memory → Classify error → Open minimum source → Verify correction → Enter prevention cue → Report readiness and stop.
+**R-E-C-O-V-E-R:** Rest → Elicit from memory and assign evidence states → Classify the first error → Open the minimum authorised source → Verify the correction and one changed scenario → Enter the prevention cue and reopening trigger → Report readiness and stop.
+
+## Evidence and repair model
+
+- Evidence states: **recalled**, **located**, **supported**, **transferred**, **unresolved**.
+- Error categories: **input**, **unit**, **method**, **arithmetic**, **criterion**, **conclusion**.
+- Repair ledger: error → evidence → correction → dependency → reopening trigger → prevention cue.
+- A corrected number remains provisional until its method is supported and it transfers to one changed paper scenario.
 
 ## Prerequisites
 
@@ -30,18 +40,20 @@ Use bounded recovery, retrieval and targeted error repair without adding new ele
 - [[Fatigue Management]]
 - [[Calculation Checking]]
 - [[Catch-Up Triage]]
+- [[Confidence Calibration]]
+- [[Evidence Ledger]]
 
 ## Practical application
 
-Reconstruct Days 15–18, repair no more than three high-value errors, complete one bounded catch-up task and state readiness for Day 20.
+Reconstruct Days 15–18, repair no more than three high-value errors, record dependencies and reopening triggers, transfer each completed repair to one changed paper scenario, complete one bounded catch-up task and state readiness for Day 20.
 
 ## Assessment relevance
 
-The learner must distinguish input, unit, method, arithmetic, criterion and conclusion errors and apply explicit stop conditions.
+The learner must distinguish the six error categories, calibrate evidence strength, preserve units and boundaries, explain dependencies, reopen stale repairs and obey time, fatigue and critical-error stop conditions. The 12-point rubric is educational and is not an official RTO threshold.
 
 ## References and review boundary
 
-This block introduces no standards values or field procedures. It remains `review-required`, is not `technically-reviewed` and grants no practical authority.
+This block introduces no standards values or field procedures. Exact equations, coefficients, limits, criteria and assessment arrangements remain `reference_check_required`. It remains `review-required`, is not `technically-reviewed` and grants no practical authority.
 
 ## Navigation
 
