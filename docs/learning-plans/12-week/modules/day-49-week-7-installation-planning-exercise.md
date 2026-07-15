@@ -116,6 +116,6 @@ This module authorises no installation, switching, isolation, testing, alteratio
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 49 - Week 7 Installation Planning Exercise]]
 - **Previous:** [Day 48 — Motors, Associated Protection and Control Boundaries](day-48-motors-associated-protection-and-control-boundaries.md)
-- **Next:** Day 50 — Special-Location Method: Classify, Map Zones and Verify Sources
+- **Next:** [Day 50 — Special-Location Method: Classify, Map Zones and Verify Sources](day-50-special-location-method-classify-map-zones-and-verify-sources.md)
 
 This module remains `review-required`, `reference_check_required` and not `technically-reviewed`.
