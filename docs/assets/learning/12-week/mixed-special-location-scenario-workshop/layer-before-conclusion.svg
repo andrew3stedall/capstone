@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Layer the scenario before writing the conclusion</title>
+  <desc id="desc">A stick-figure learner aligns three transparent panels labelled location, sources and evidence over one mixed scenario, showing that separate reasoning layers must be combined carefully.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="220" r="28"/>
+    <path d="M115 248V330 M115 275L210 245 M115 280L60 315 M115 330L78 390 M115 330L155 390"/>
+    <rect x="300" y="70" width="250" height="220" rx="8"/>
+    <rect x="360" y="105" width="250" height="220" rx="8"/>
+    <rect x="420" y="140" width="250" height="220" rx="8"/>
+    <path d="M210 245L285 225"/>
+    <rect x="740" y="160" width="160" height="95" rx="8"/>
+    <path d="M670 250L725 210"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="425" y="105" font-size="21" font-weight="700">LOCATION</text>
+    <text x="485" y="140" font-size="21" font-weight="700">SOURCES</text>
+    <text x="545" y="175" font-size="21" font-weight="700">EVIDENCE</text>
+    <text x="820" y="205" font-size="20" font-weight="700">BOUNDED</text>
+    <text x="820" y="232" font-size="20" font-weight="700">CONCLUSION</text>
+    <text x="480" y="420" font-size="27" font-weight="700">Align the layers. Do not flatten the problem.</text>
+  </g>
+</svg>
