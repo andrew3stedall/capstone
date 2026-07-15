@@ -90,17 +90,17 @@ Use **R-E-S-E-T**:
 
 ```mermaid
 flowchart TD
-    A[Attempt from memory] --> B[Record confidence]
-    B --> C{Answer correct and sufficiently explained?}
-    C -->|Yes| D{Confidence calibrated?}
-    C -->|No| E[Classify the gap]
-    D -->|Yes| F[Schedule delayed retrieval]
-    D -->|No| E
-    E --> G[Return to smallest relevant source]
-    G --> H{Exact requirement needed?}
-    H -->|Yes| I[Use authorised source or leave unresolved]
-    H -->|No| J[Rewrite the concept]
-    I --> K[Answer changed scenario]
+    A["Attempt from memory"] --> B["Record confidence"]
+    B --> C{"Answer correct and sufficiently explained?"}
+    C -->|"Yes"| D{"Confidence calibrated?"}
+    C -->|"No"| E["Classify the gap"]
+    D -->|"Yes"| F["Schedule delayed retrieval"]
+    D -->|"No"| E
+    E --> G["Return to smallest relevant source"]
+    G --> H{"Exact requirement needed?"}
+    H -->|"Yes"| I["Use authorised source or leave unresolved"]
+    H -->|"No"| J["Rewrite the concept"]
+    I --> K["Answer changed scenario"]
     J --> K
     K --> F
 ```
@@ -121,12 +121,12 @@ The correction succeeds only when the learner avoids both the original shortcut 
 
 ```mermaid
 flowchart LR
-    A[Original answer] --> B[Confidence]
-    B --> C[Error category]
-    C --> D[Smallest source return]
-    D --> E[Corrected explanation]
-    E --> F[Changed scenario]
-    F --> G[Delayed retrieval]
+    A["Original answer"] --> B["Confidence"]
+    B --> C["Error category"]
+    C --> D["Smallest source return"]
+    D --> E["Corrected explanation"]
+    E --> F["Changed scenario"]
+    F --> G["Delayed retrieval"]
 ```
 
 ## 6. Practical application
