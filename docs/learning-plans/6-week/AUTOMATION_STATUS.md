@@ -1,7 +1,7 @@
 ---
 title: Six-Week Capstone Automation Status
 status: quality-passes-active
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
 branch: automation/6-week-learning-plan
 base_branch: automation/4-week-learning-plan
 pull_request: 6
@@ -24,8 +24,8 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–15.
-- Exactly one next increment: quality-improvement pass — Day 16, Design Current, Device Rating and Conductor Capacity Relationship.
+- Completed quality passes: Days 1–16.
+- Exactly one next increment: quality-improvement pass — Day 17, Installation Conditions and Derating-Factor Reasoning.
 
 ## Completed increments
 
@@ -46,46 +46,47 @@ pull_request: 6
 | Quality-improvement pass — Day 13 | Strengthened D-E-F-E-C-T with five evidence grades, four claim grades, explicit path/fault/exposure/protection dependencies, a defect-consequence ledger, reopening triggers, worked-example fading, independent transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible dependency-chain visual. |
 | Quality-improvement pass — Day 14 | Strengthened I-N-T-E-G-R-A-T-E with five evidence grades, four claim grades, an integration ledger, dependency and reopening controls, worked-example fading, independent transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible complete-chain visual. |
 | Quality-improvement pass — Day 15 | Strengthened L-O-A-D-S with five evidence grades, four claim grades, a demand-dependency ledger, explicit reopening triggers, worked-example fading, changed-source transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible total-versus-proof visual. |
+| Quality-improvement pass — Day 16 | Strengthened R-A-T-I-N-G with five evidence grades, four claim grades, a coordination ledger, explicit dependency and reopening controls, worked-example fading, independent transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible order-versus-proof visual. |
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-15-load-identification-and-maximum-demand-workflow.md`
-- `docs/assets/learning/6-week/day-15-load-identification-and-maximum-demand-workflow/a-total-is-not-a-demand-proof.svg`
-- `docs/knowledge-base/Six-Week Day 15 - Load Identification and Maximum-Demand Workflow.md`
+- `docs/learning-plans/6-week/modules/day-16-design-current-device-rating-and-conductor-capacity-relationship.md`
+- `docs/assets/learning/6-week/day-16-design-current-device-rating-and-conductor-capacity-relationship/an-order-is-not-a-coordination-proof.svg`
+- `docs/knowledge-base/Six-Week Day 16 - Design Current Device Rating and Conductor Capacity Relationship.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 15 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact demand categories, allowances, definitions, equations, conversion requirements, voltage and phase assumptions, control conditions, source arrangements, network requirements, exceptions and jurisdiction-specific duties require current authorised information and qualified review.
-- L-O-A-D-S, the evidence and claim grades, demand-dependency ledger, reopening triggers, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
-- No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
-- The module authorises no site access, inspection, switching, opening, isolation, proving, measurement, testing, alteration, energisation, commissioning, certification or approval.
+- Day 16 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact current relationships, conductor capacities, correction methods, device characteristics, fault and disconnection requirements, voltage-drop limits, coordination rules, terminal constraints, exceptions and jurisdiction-specific duties require current authorised information and qualified review.
+- R-A-T-I-N-G, the evidence and claim grades, coordination ledger, reopening triggers, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
+- No standards table, copied figure, systematic clause wording, exact official selection value, official assessment content or practical field procedure was reproduced.
+- The module authorises no site access, opening, switching, isolation, proving, measurement, testing, installation, alteration, energisation, commissioning, certification or approval.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 16–42.
-- Quality-improvement passes completed: Days 1–15.
+- Modules awaiting one quality-improvement pass: Days 17–42.
+- Quality-improvement passes completed: Days 1–16.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 15 retains the exact eight required beats and compatible YAML metadata.
+- Day 16 retains the exact eight required beats and compatible YAML metadata.
 - Two Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
-- Module and note navigation are reciprocal and point to Days 14 and 16.
-- Both Day 15 SVG references use descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
-- Five evidence grades, four claim grades and the demand-dependency ledger prevent a precise total from substituting for supported load, method and operating-case evidence.
-- Reopening triggers cover changed loads, rating bases, controls, phases, source arrangements, authorised methods, conflicting evidence and newly credible operating cases.
-- Worked-example fading, changed-source transfer and delayed retrieval are included without adding unverified practical procedures.
+- Module and note navigation are reciprocal and point to Days 15 and 17.
+- Both Day 16 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
+- Five evidence grades, four claim grades and the coordination ledger prevent numerical ordering from substituting for supported load, device, conductor, installation and downstream evidence.
+- Reopening triggers cover changed loads, controls, installation methods, source currency, conflicting device data and failed downstream checks.
+- Worked-example fading, independent changed-scenario transfer and delayed retrieval are included without adding unverified practical procedures.
 - The six-category rubric includes critical-error gates and is explicitly distinguished from an official RTO pass mark.
 - Safety and copyright boundaries remain explicit.
 
 ## Commit behaviour
 
-- The GitHub contents connector creates one commit per file write; a single combined commit was not available through the connected write path.
+- The GitHub contents connector created one commit per file write; a single combined commit was not available through the connected write path.
 - No history rewrite, force-push or unsafe commit squashing was attempted.
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 16: Design Current, Device Rating and Conductor Capacity Relationship**
+**Quality-improvement pass — Day 17: Installation Conditions and Derating-Factor Reasoning**
