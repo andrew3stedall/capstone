@@ -8,51 +8,51 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–69.
-- **Current block:** Day 69 — Fault Scenario with Staged Evidence Release is complete.
-- **Next block:** Day 70 — Week 10 Verification and Fault-Diagnosis Checkpoint.
+- **Completed:** Days 1–70.
+- **Current block:** Day 70 — Week 10 Verification and Fault-Diagnosis Checkpoint is complete.
+- **Next block:** Day 71 — Reading and Decomposing an Integrated Assessment Scenario.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Latest increment
 
-### Day 69 — Fault Scenario with Staged Evidence Release
+### Day 70 — Week 10 Verification and Fault-Diagnosis Checkpoint
 
-- Added the exact eight-beat scenario module using **R-E-L-E-A-S-E**.
-- Added four controlled fictional evidence stages, locked diagnostic snapshots and explicit confidence updates.
-- Distinguished supporting, contradictory and non-discriminating evidence, correlation, contributing conditions and bounded causal conclusions.
-- Added worked-example fading, changed-scenario transfer, a Mermaid evidence-release model, a 12-point rubric, knowledge note and accessible SVG.
+- Added the exact eight-beat checkpoint module using **I-N-T-E-G-R-A-T-E**.
+- Integrated continuity, insulation, polarity, connection-integrity, fault-loop, RCD, evidence-quality and hypothesis-control concepts without adding field procedures.
+- Added a fictional multi-record checkpoint pack, worked-example fading, evidence ledger, dependency map, contradiction register and bounded readiness decision.
+- Added a Mermaid integration model, 12-point rubric, knowledge note and accessible black-and-white SVG.
 
 ## Files changed
 
+- `docs/learning-plans/12-week/modules/day-70-week-10-verification-and-fault-diagnosis-checkpoint.md`
+- `docs/assets/learning/12-week/week-10-verification-and-fault-diagnosis-checkpoint/connect-evidence-before-concluding.svg`
+- `docs/knowledge-base/12-Week Day 70 - Week 10 Verification and Fault-Diagnosis Checkpoint.md`
 - `docs/learning-plans/12-week/modules/day-69-fault-scenario-with-staged-evidence-release.md`
-- `docs/assets/learning/12-week/fault-scenario-with-staged-evidence-release/open-one-envelope-at-a-time.svg`
-- `docs/knowledge-base/12-Week Day 69 - Fault Scenario with Staged Evidence Release.md`
-- `docs/learning-plans/12-week/modules/day-68-rest-retrieval-and-high-confidence-error-repair.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 69 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact diagnostic, verification, document, acceptance and safety-critical requirements remain subject to qualified checking against current authorised sources.
+- Day 70 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact verification, inspection, testing, diagnostic, acceptance, documentation and assessment requirements remain subject to qualified checking against current authorised sources.
 - No official values, field methods, standards tables, copied figures, systematic clause wording or official assessment content were added.
 - The module authorises no access, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation, certification or verification.
 
 ## Validation performed
 
 - Confirmed YAML metadata and the exact eight required section headings.
-- Checked observable objectives, defined terminology, stage sequence, relative links, SVG reference and Obsidian navigation.
+- Checked observable objectives, defined terminology, evidence-purpose boundaries, relative links, SVG reference and Obsidian navigation.
 - Reviewed the Mermaid flow for valid nodes, decisions and labelled branches.
-- Confirmed the SVG has a white background, black line art, semantic title, descriptive text and an instructional caption.
-- Checked that staged evidence remains fictional, document-based and non-procedural.
-- Confirmed Day 68 and Day 69 reciprocal module navigation and the sequence links in the knowledge notes.
-- Checked that no complete wording from the four-, six- or nine-week programs was duplicated.
+- Confirmed the SVG has a white background, black line art, semantic title, descriptive text and instructional caption.
+- Checked that the checkpoint is fictional, document-based, assessment-focused and non-procedural.
+- Confirmed Day 69 and Day 70 reciprocal module navigation and the direct Day 70 link in the master plan.
+- Checked for duplicate complete wording, inaccessible decorative imagery, copied standards structure and unsupported technical claims.
 
 ## Commit behaviour
 
-The three new Day 69 files were added in one Git tree commit. Reciprocal navigation and the two canonical tracker updates required separate contents commits through the connected interface, so the branch contains four commits for this increment rather than one fully atomic commit.
+The connected GitHub interface produced separate commits for new files and tracker/navigation updates. A single atomic multi-file commit was not available through the successful write path used in this run.
 
 ## Run rules
 
