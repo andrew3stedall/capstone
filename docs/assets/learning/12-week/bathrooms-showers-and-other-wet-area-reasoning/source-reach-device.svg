@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Separate source, reach and equipment evidence</title>
+  <desc id="desc">A stick-figure learner compares a fixed water source, a movable hose reach and an electrical device position on an original wet-area sketch.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="205" r="28"/><path d="M115 233V320 M115 265L205 235 M115 270L62 305 M115 320L80 390 M115 320L155 390"/>
+    <rect x="290" y="85" width="410" height="270" rx="10"/>
+    <path d="M365 125V190 M345 145H385"/>
+    <path d="M365 190C410 205 430 245 470 285"/>
+    <path d="M365 190Q470 130 600 195" stroke-dasharray="12 10"/>
+    <rect x="565" y="225" width="78" height="78" rx="8"/>
+    <path d="M495 85V355" stroke-dasharray="8 10"/>
+    <path d="M700 220H815"/>
+    <rect x="815" y="180" width="95" height="80" rx="7"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="365" y="70" font-size="20" font-weight="700">WATER SOURCE</text>
+    <text x="505" y="330" font-size="20" font-weight="700">REACH + BARRIER</text>
+    <text x="604" y="325" font-size="20" font-weight="700">DEVICE</text>
+    <text x="862" y="165" font-size="18" font-weight="700">EVIDENCE</text>
+    <text x="480" y="420" font-size="27" font-weight="700">One distance never tells the whole story.</text>
+  </g>
+</svg>
