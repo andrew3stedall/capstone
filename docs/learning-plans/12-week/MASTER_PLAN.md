@@ -89,9 +89,9 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 44 — Environmental influences, segregation and support concepts](modules/day-44-environmental-influences-segregation-and-support-concepts.md)
 - [x] [Day 45 — Consumer mains, submains and final subcircuits](modules/day-45-consumer-mains-submains-and-final-subcircuits.md)
 - [x] [Day 46 — Fixed appliances and local isolation reasoning](modules/day-46-fixed-appliances-and-local-isolation-reasoning.md)
-- [ ] Day 47 — Rest, retrieval and installation-defect correction
-- [ ] Day 48 — Motors, associated protection and control boundaries
-- [ ] Day 49 — Week 7 installation planning exercise
+- [x] [Day 47 — Rest, retrieval and installation-defect correction](modules/day-47-rest-retrieval-and-installation-defect-correction.md)
+- [x] [Day 48 — Motors, associated protection and control boundaries](modules/day-48-motors-associated-protection-and-control-boundaries.md)
+- [x] [Day 49 — Week 7 installation planning exercise](modules/day-49-week-7-installation-planning-exercise.md)
 
 ### Week 8 — Special locations and non-standard supply conditions
 
