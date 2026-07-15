@@ -128,6 +128,6 @@ This module authorises no classification, design approval, site access, switchin
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 52 - Other Special Installations and Location-Specific Controls]]
 - **Previous:** [Day 51 — Bathrooms, Showers and Other Wet-Area Reasoning](day-51-bathrooms-showers-and-other-wet-area-reasoning.md)
-- **Next:** Day 53 — Alternative, Multiple and Embedded Supply Awareness
+- **Next:** [Day 53 — Alternative, Multiple and Embedded Supply Awareness](day-53-alternative-multiple-and-embedded-supply-awareness.md)
 
 This module remains `review-required`, `reference_check_required` and not `technically-reviewed`.
