@@ -7,17 +7,19 @@ tags:
   - checkpoint
   - evidence-control
 status: review-required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-15
 ---
 
 # Six-Week Day 07 — Week 1 Protection Decision Checkpoint
 
 ## Purpose
 
-This cumulative checkpoint integrates Week 1 safety, fault classification, overcurrent, residual-current and source-control reasoning. It tests whether the learner can separate protection questions, identify blocking evidence gaps and produce a bounded decision without turning a familiar device label into false certainty.
+This cumulative checkpoint integrates Week 1 safety, fault classification, overcurrent, residual-current and source-control reasoning. It tests whether the learner can separate protection questions, grade evidence and claims, identify blocking gaps and produce a bounded decision without turning a familiar device label into false certainty.
 
 ## Core model
 
@@ -26,9 +28,9 @@ Use **D-E-C-I-D-E**:
 - **Define the scenario boundary** — record circuit, users, environment, sources, documents and learner authority.
 - **Establish the condition class** — distinguish normal operation, overload, short circuit, earth fault, leakage, residual-current imbalance, open circuit and unresolved conditions.
 - **Choose the protection questions** — separate overcurrent, residual-current, fault-path and work-control questions.
-- **Identify applicable evidence** — select current authorised requirements, manufacturer information, approved records and supplied observations.
-- **Detect gaps and contradictions** — grade claims as facts, authorised evidence or assumptions and identify blockers.
-- **Express and evaluate the bounded decision** — state supported facts, uncertainty, stop conditions, escalation and the effect of a changed scenario fact.
+- **Identify applicable evidence** — grade supplied items and select current authorised requirements, manufacturer information, approved records and observations.
+- **Detect gaps, contradictions and dependencies** — identify blockers and the assumptions on which conclusions rely.
+- **Express, evaluate and reopen the decision** — grade the claim, state the safety boundary and revisit every dependent conclusion after a material change.
 
 The central rule is:
 
@@ -70,9 +72,9 @@ Keep four questions distinct:
 3. **Fault path:** are earthing, bonding and disconnection arrangements present and effective as required?
 4. **Work control:** what practical action is authorised and what must stop or escalate?
 
-### Blocking evidence gap
+### Blocking gap and reopening trigger
 
-A blocking gap is missing information that prevents an exact conclusion. Typical blockers include unknown source conditions, uncertain conductor grouping, incomplete device markings, absent manufacturer data, unverified current paths and missing authority.
+A **blocking evidence gap** is missing information that prevents an exact conclusion. A **reopening trigger** is a changed source, load, route, device, environmental condition or record that weakens a dependency. The complete reasoning chain must be revisited after such a change.
 
 ### Bounded conclusion
 
@@ -80,11 +82,20 @@ A bounded conclusion states what the evidence supports, what remains unproven, w
 
 ## Evidence grades
 
-- **Grade A — stated fact or supplied observation:** scenario detail, marking, approved drawing detail or recorded result.
-- **Grade B — applicable authorised evidence:** current requirement, manufacturer instruction, approved design, workplace procedure or competent direction.
-- **Grade C — assumption or hypothesis:** inferred cause, guessed path, presumed suitability or unverified exception.
+- **Observed:** directly supplied or visible in the fictional scenario.
+- **Documented:** stated in a current drawing, schedule, label or record.
+- **Authorised:** supported by an applicable requirement, manufacturer instruction, approved design, workplace procedure or competent direction.
+- **Assumed:** plausible but not evidenced.
+- **Missing:** required for the conclusion but unavailable.
 
-Grade C can guide a question but cannot support an exact safety-critical conclusion.
+## Claim grades
+
+- **Described:** states what the material shows or reports.
+- **Supported:** combines applicable evidence into a bounded reasoning statement.
+- **Verified:** requires all authorised evidence and qualified confirmation appropriate to the claim.
+- **Unresolved:** a material gap or contradiction prevents the claim.
+
+A learner must not promote an assumed or missing item into a verified safety-critical claim.
 
 ## Practical application
 
@@ -94,13 +105,11 @@ For a fictional scenario pack:
 2. classify the condition and plausible alternatives;
 3. state separate overcurrent, residual-current, fault-path and work-control questions;
 4. select source families and explain applicability;
-5. grade every material claim A, B or C;
-6. identify at least four blocking gaps;
-7. draw only the current paths supported by the scenario;
-8. write a bounded conclusion and escalation statement;
-9. change one material fact and revise the entire decision chain.
-
-The changed-condition task is essential. It reveals whether the learner can transfer the method rather than repeat a memorised answer.
+5. grade every material evidence item;
+6. identify at least four blocking gaps and dependencies;
+7. draw only current paths supported by the scenario;
+8. grade each conclusion and write a bounded escalation statement;
+9. change one material fact and reopen every dependent part of the decision.
 
 ## Assessment relevance
 
@@ -109,22 +118,23 @@ A strong response:
 - classifies by mechanism rather than hardware familiarity;
 - keeps protection functions separate;
 - selects applicable evidence and explains source limits;
-- identifies contradictions and blocking gaps;
+- uses evidence and claim grades consistently;
+- identifies contradictions, dependencies and blocking gaps;
 - refuses unsupported diagnosis or compliance claims;
 - states practical authority and stop conditions;
-- revises classification, evidence priorities and conclusion when the scenario changes.
+- revises classification, evidence priorities and all dependent conclusions when the scenario changes.
 
-The module uses a 12-point educational rubric. It is not an official RTO pass mark.
+The module uses a 12-point educational rubric and critical-error gates. It is not an official RTO pass mark.
 
-## Common misconceptions
+## Critical errors
 
-- Protective-device operation proves the cause.
-- An RCD label answers overcurrent and earthing questions.
-- A schedule proves actual conductor routing.
-- A correct requirement applies without a scope check.
-- Listing many possible causes is equivalent to prioritising evidence.
-- “Get an electrician” is sufficient without explaining the evidence and authority boundary.
-- A changed scenario requires changing only the final sentence.
+- treating device operation as proof of cause;
+- treating one protection function as proof of another;
+- presenting an assumed path, source condition or device suitability as fact;
+- claiming compliance, verified safety or permission to reset without authorised evidence;
+- omitting a disclosed source or material condition;
+- failing to reopen dependent conclusions after a change;
+- proposing practical work outside authority.
 
 ## Safety and review boundary
 
