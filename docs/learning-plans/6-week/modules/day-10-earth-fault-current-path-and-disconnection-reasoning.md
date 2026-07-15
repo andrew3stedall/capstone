@@ -13,11 +13,13 @@ standard_references:
   - source: applicable legislation, regulator guidance, network information, approved drawings, manufacturer information and RTO instructions
     edition: current
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
-quality_passes: []
+quality_passes:
+  - date: 2026-07-15
+    type: substantive-quality-improvement
 prerequisites:
   - Day 9 — MEN Arrangement and Normal-Current Paths
 related_modules:
@@ -41,9 +43,9 @@ By the end of this block, the learner should be able to:
 2. trace a complete conceptual earth-fault loop from source to fault and back to source;
 3. identify the protective earthing, MEN and neutral segments that may form part of the stated conceptual loop;
 4. explain why a complete path is necessary but not sufficient to prove automatic disconnection;
-5. separate path evidence, loop-condition evidence and protective-device evidence;
-6. classify a disconnection conclusion as supported, conditional or unsupported;
-7. revise the analysis when continuity, source arrangement or device information changes;
+5. separate path evidence, continuity evidence, loop-condition evidence and protective-device evidence;
+6. grade the evidence and classify each claim as descriptive, provisional, supported paper reasoning or authorised verification;
+7. reopen the analysis when any source, path, continuity, device or arrangement dependency changes;
 8. score at least 10 out of 12 on the educational rubric with no zero in path accuracy, evidence control or safety boundary.
 
 ### Entry check
@@ -54,18 +56,22 @@ Without notes, answer and rate confidence as **guessing**, **unsure**, **reasona
 2. What event changes that loop into an earth-fault loop?
 3. Does identifying a protective conductor prove its continuity?
 4. Does a complete conceptual loop prove a protective device will operate in the required way?
-5. What evidence categories are needed before making a disconnection claim?
-6. Name one condition that would force the analysis to stop.
+5. What four evidence categories are needed before making a disconnection claim?
+6. Name one changed dependency that would force the conclusion to be reopened.
 
 Record every high-confidence error for Beat 8.
 
 ## 2. Why it matters
 
-A learner can draw a plausible fault path and still make an unsafe conclusion. Protective operation depends not only on the route, but also on the electrical condition of that route, the source arrangement and the characteristics of the protective device. Day 10 therefore moves from **where fault current could flow** to **what must be verified before claiming disconnection**.
+A learner can draw a plausible fault path and still make an unsafe conclusion. Protective operation depends not only on the route, but also on continuity, the electrical condition of that route, the source arrangement and the applicable protective-device characteristics. Day 10 therefore moves from **where fault current could flow** to **what evidence must exist before a bounded disconnection claim can be made**.
 
 ![A learner checks the complete fault loop before pointing to a protective device](../../../assets/learning/6-week/day-10-earth-fault-current-path-and-disconnection-reasoning/prove-the-loop-before-the-trip.svg)
 
-*Caption: A labelled path is the beginning of the argument; continuity, loop conditions and device evidence must also be established before a disconnection claim.*
+*Caption: A labelled path begins the argument; continuity, loop condition and device evidence must also be established before a disconnection claim.*
+
+![A learner stops at continuity, loop-condition and device-evidence gates before making a trip claim](../../../assets/learning/6-week/day-10-earth-fault-current-path-and-disconnection-reasoning/a-loop-is-not-a-trip-proof.svg)
+
+*Caption: A closed loop starts the proof. It does not finish it.*
 
 ## 3. Core concepts and terminology
 
@@ -79,27 +85,49 @@ An **earth fault** is an unintended conductive connection between a live part an
 
 ### Fault-current loop
 
-A **fault-current loop** is the complete route from the source, through the fault and protective return path, back to the source relationship. A path that stops at an earthing terminal, electrode, neutral or MEN point is incomplete unless the source return is also explained.
+A **fault-current loop** is the complete route from the source, through the fault and protective return path, back to the source relationship. A path that stops at an earthing terminal, electrode, neutral or MEN point is incomplete unless the return to the stated source is also explained.
 
 ### Protective earthing continuity
 
-**Protective earthing continuity** means the relevant protective path is electrically continuous. A drawing, conductor colour or visual presence does not prove continuity or condition.
+**Protective earthing continuity** means the relevant protective path is electrically continuous. A drawing, conductor colour, label or visual presence does not prove continuity or condition.
 
 ### Loop condition
 
-**Loop condition** is the combined electrical condition of the stated path that influences fault-current magnitude. This module does not provide or approve numerical limits.
+**Loop condition** is the combined electrical condition of the stated path that influences fault-current magnitude and protective response. This module provides no numerical limits or acceptance values.
 
 ### Automatic disconnection
 
-**Automatic disconnection** is protective interruption that occurs when the applicable fault and protective conditions are satisfied. A conceptual path alone does not prove that those conditions are met.
+**Automatic disconnection** is protective interruption that occurs when the applicable fault, path, source and device conditions are satisfied. A conceptual path alone does not prove those conditions.
 
-### Three claim levels
+### Four evidence questions
 
-- **Path claim:** the stated evidence supports a possible complete route.
-- **Condition claim:** authorised evidence supports the relevant continuity and electrical conditions.
-- **Outcome claim:** authorised evidence supports the applicable protective-device response and required outcome.
+A disconnection argument must answer four different questions:
 
-Each level depends on the previous level. Skipping a level produces an unsupported conclusion.
+1. **Path:** Is a complete source–fault–source route supported?
+2. **Continuity:** Is the required protective path established as electrically continuous?
+3. **Loop condition:** Is applicable authorised evidence available for the electrical condition that affects fault-current magnitude?
+4. **Device response:** Is the device identity, location and applicable operating evidence established?
+
+Answering one question does not answer the others.
+
+### Evidence grades
+
+- **Grade A — supplied fact:** information explicitly supplied by the fictional scenario, approved learning drawing or stated source record.
+- **Grade B — corroborated identity or relationship:** two consistent sources support the component, source or relationship identification, but do not prove electrical condition.
+- **Grade C — authorised derived evidence:** a bounded conclusion derived from current authorised requirements, approved design information, verified records, competent test evidence or manufacturer information.
+- **Grade D — assumption:** colour, visible presence, familiar arrangement, presumed continuity, guessed impedance or remembered device behaviour.
+- **Grade E — missing or conflicting evidence:** the required information is absent, inconsistent, stale or outside the learner's authority to establish.
+
+Grades D and E may identify a question or stop condition. They cannot support a safety-critical protective outcome.
+
+### Claim grades
+
+- **Claim 1 — description:** states only what the scenario shows or says.
+- **Claim 2 — provisional identification:** identifies a likely component, relationship or route while recording unresolved dependencies.
+- **Claim 3 — supported paper reasoning:** combines applicable evidence into a bounded conceptual conclusion without claiming physical verification.
+- **Claim 4 — authorised verification:** relies on competent, authorised verification under current requirements and approved procedures.
+
+This module trains Claims 1–3. It does not authorise Claim 4 activity.
 
 ## 4. Rule-finding workflow
 
@@ -107,32 +135,51 @@ Use **L-O-O-P-S**.
 
 1. **L — Locate the fault and exposed conductive part.** State exactly where the unintended connection occurs and what part becomes involved.
 2. **O — Outline the outward source path.** Trace from the stated source through active conductors and the fault point without inventing hidden links.
-3. **O — Outline the protective return path.** Trace through the stated protective earthing, earthing junction, designated MEN relationship and neutral/source relationship as applicable to the supplied scenario.
-4. **P — Prove conditions and protection separately.** Identify evidence for continuity and loop condition, then separately identify protective-device type, location and applicable characteristic evidence.
-5. **S — State the bounded conclusion and stop point.** Label the conclusion supported, conditional or unsupported; record missing evidence and practical-authority limits.
+3. **O — Outline the protective return path.** Trace through the stated protective earthing, earthing junction, designated MEN relationship and neutral/source relationship only as supported by the scenario.
+4. **P — Prove path, conditions and protection separately.** Grade the evidence for route, continuity, loop condition and device response; do not merge them into one conclusion.
+5. **S — State the bounded conclusion and stop point.** Assign a claim grade, list unresolved dependencies and state what change would reopen the analysis.
 
 ```mermaid
 flowchart TD
     A["Locate fault and exposed conductive part"] --> B["Trace source-to-fault path"]
-    B --> C["Trace protective return to source"]
+    B --> C["Trace supported protective return to source"]
     C --> D{"Complete supported loop?"}
-    D -->|"No"| E["Stop: path unsupported"]
-    D -->|"Yes"| F{"Continuity and loop conditions verified?"}
-    F -->|"No"| G["Path only: outcome conditional"]
-    F -->|"Yes"| H{"Applicable device evidence verified?"}
-    H -->|"No"| I["Condition supported; outcome unproven"]
-    H -->|"Yes"| J["State bounded protective-outcome claim"]
+    D -->|"No"| E["Stop: path claim unsupported"]
+    D -->|"Yes"| F{"Continuity evidence established?"}
+    F -->|"No"| G["Path only: outcome unsupported"]
+    F -->|"Yes"| H{"Loop-condition evidence established?"}
+    H -->|"No"| I["Path and continuity supported; outcome conditional"]
+    H -->|"Yes"| J{"Applicable device evidence established?"}
+    J -->|"No"| K["Condition supported; device outcome unproven"]
+    J -->|"Yes"| L["State bounded protective-outcome claim"]
 ```
 
-The diagram separates three evidence gates. Passing the path gate does not automatically pass the condition or outcome gates.
+The diagram shows four separate gates. Passing the route gate does not silently prove continuity, loop condition or device response.
 
-### Evidence grades
+### Dependency ledger
 
-- **Grade A — scenario fact:** supplied source, fault location, labels, approved learning drawing or provided record.
-- **Grade B — applicable authorised evidence:** current requirements, approved design, verified records, competent test evidence, manufacturer information or competent direction.
-- **Grade C — assumption:** colour, visible presence, familiar arrangement, presumed continuity, guessed impedance or remembered device behaviour.
+Record these dependencies before finalising the conclusion:
 
-Grade C may identify a question. It cannot prove a safety-critical path or protective outcome.
+| Dependency | Current evidence | Evidence grade | Claim affected | Reopen when |
+|---|---|---|---|---|
+| Source arrangement | Learner completes | A–E | Path and outcome | Source type or supply mode changes |
+| Fault location | Learner completes | A–E | Path | Fault point or exposed part changes |
+| Protective return route | Learner completes | A–E | Path and continuity | Drawing, conductor identity or connection relationship changes |
+| Continuity | Learner completes | A–E | Condition and outcome | Evidence is missing, contradicted or superseded |
+| Loop condition | Learner completes | A–E | Outcome | Route, conductor, source or authorised evidence changes |
+| Protective device | Learner completes | A–E | Outcome | Device identity, location, setting or source evidence changes |
+
+```mermaid
+flowchart LR
+    A["Bounded conclusion"] --> B{"Any dependency changed?"}
+    B -->|"No"| C["Retain conclusion with evidence date"]
+    B -->|"Yes"| D["Reopen affected claim levels"]
+    D --> E["Regrade evidence"]
+    E --> F["Retrace only the affected path and gates"]
+    F --> G["Issue revised bounded conclusion"]
+```
+
+A changed dependency does not always invalidate every statement. It does require the affected path, condition or outcome claim to be reopened rather than copied forward.
 
 ## 5. Visual model or worked example
 
@@ -144,7 +191,7 @@ flowchart LR
     F -->|"protective earthing path"| T["Installation earthing junction"]
     T -->|"designated MEN relationship"| N["Neutral/source return relationship"]
     N --> S
-    D["Protective device"] -. "operation requires separate characteristic evidence" .- S
+    D["Protective device"] -. "operation requires separate applicable evidence" .- S
 ```
 
 The solid arrows show a conceptual closed route. They do not prove conductor continuity, impedance, exact physical routing, permitted connection points or device operation.
@@ -158,24 +205,24 @@ Apply L-O-O-P-S:
 1. **Locate:** active-to-enclosure fault.
 2. **Outward path:** source active to equipment and fault point.
 3. **Protective return:** enclosure to protective conductor, earthing junction, designated MEN relationship, neutral/source relationship and back to source.
-4. **Prove separately:** the drawing supports a conceptual path only; it supplies no continuity, loop-condition or device-response evidence.
-5. **State:** the path is conceptually supported, but automatic disconnection remains unsupported until the missing evidence is verified by an authorised competent person using current requirements.
+4. **Prove separately:** the drawing provides Grade A path facts and may support a Claim 3 conceptual route. It provides no Grade C continuity, loop-condition or device-response evidence.
+5. **State:** the path is conceptually supported, but automatic disconnection remains unsupported until the missing evidence is established through authorised verification. Source arrangement, continuity, loop condition and device identity remain explicit dependencies.
 
 ## 6. Practical application
 
-### Round 1 — fault-loop record
+### Round 1 — fault-loop evidence record
 
 Use a trainer-created fictional scenario and complete:
 
-| Segment or claim | Role in reasoning | Evidence grade | Supported, conditional or unsupported | Missing evidence |
-|---|---|---|---|---|
-| Learner completes | Path, condition or outcome | A, B or C | Learner completes | Learner completes |
+| Segment or claim | Role in reasoning | Evidence source | Evidence grade | Claim grade | Missing evidence or dependency |
+|---|---|---|---|---|---|
+| Learner completes | Path, continuity, condition or outcome | Learner completes | A–E | 1–4 | Learner completes |
 
-Then write one sentence for each claim level: path, condition and outcome.
+Then write one sentence for each level: path, continuity, loop condition and protective outcome.
 
 ### Round 2 — worked-example fading
 
-Repeat with the MEN/source relationship partly hidden. The learner must stop at the unsupported segment, name the missing information and avoid completing the loop from memory.
+Repeat with the MEN/source relationship partly hidden. Stop at the unsupported segment, name the missing dependency and avoid completing the loop from memory.
 
 ### Round 3 — changed-condition transfer
 
@@ -184,9 +231,20 @@ Provide a second version where one of these changes:
 - protective earthing continuity is not established;
 - the source changes to an unspecified alternative supply;
 - the protective device is identified only by appearance;
+- the fault moves to a different exposed conductive part;
 - a parallel conductive path is shown without verified status.
 
-Reassess all three claim levels. The correct conclusion may fall from outcome claim to condition claim, path claim or insufficient evidence.
+Reopen the affected claims, regrade the evidence and issue a revised bounded conclusion. Do not assume the original outcome survives.
+
+### Round 4 — delayed retrieval
+
+After 24–48 hours, use a new diagram with different labels and layout. Without referring to the original example:
+
+1. trace the complete supported loop;
+2. mark the four evidence gates;
+3. identify two dependencies;
+4. state one condition that would reopen the analysis;
+5. give the highest defensible claim grade.
 
 ### Performance rubric
 
@@ -195,10 +253,10 @@ Score each category **0–2**.
 | Category | 0 | 1 | 2 |
 |---|---|---|---|
 | Terminology | Confuses normal, fault and residual current | Defines terms with one blurred distinction | Uses all defined terms consistently |
-| Path accuracy | Produces an open or invented loop | Traces most segments with one unsupported link | Completes only the supported source-fault-source loop |
-| Evidence control | Treats visual clues as proof | Marks some assumptions | Grades every material path, condition and outcome claim |
-| Protection reasoning | Claims tripping from path alone | Names missing factors generally | Separates path, loop-condition and device evidence |
-| Transfer | Reuses the original conclusion unchanged | Revises one claim level | Reassesses every level after the scenario changes |
+| Path accuracy | Produces an open or invented loop | Traces most segments with one unsupported link | Completes only the supported source–fault–source loop |
+| Evidence control | Treats labels or visible conductors as proof | Marks some assumptions | Grades every material path, continuity, condition and outcome claim |
+| Protection reasoning | Claims operation from path alone | Names missing factors generally | Separates all four evidence questions and bounds the outcome |
+| Dependency transfer | Reuses the original conclusion unchanged | Reopens one obvious dependency | Reopens every affected claim and preserves unaffected facts |
 | Safety and conclusion | Proposes unauthorised testing or certainty | Gives a general caution | States evidence, uncertainty, authority boundary and escalation |
 
 A score below **10/12**, or any zero in **path accuracy**, **evidence control** or **safety and conclusion**, requires targeted remediation and a varied re-attempt. This is an educational threshold, not an official RTO pass mark.
@@ -208,12 +266,23 @@ A score below **10/12**, or any zero in **path accuracy**, **evidence control** 
 ### Common errors
 
 - **Stopping at earth or the MEN point.** Complete the conceptual return to the stated source.
-- **Treating an electrode as a universal return explanation.** Use only the path supported by the stated arrangement and authorised evidence.
-- **Assuming visible protective earthing proves continuity.** Identity and continuity are different claims.
-- **Claiming a device will trip because a path exists.** Prove applicable conditions and device evidence separately.
-- **Using an RCD explanation for every earth fault.** First identify the protective function and applicable device evidence.
-- **Importing the grid model into an alternative-source scenario.** Re-establish source and neutral relationships.
+- **Treating an electrode as a universal return explanation.** Use only the route supported by the stated arrangement and authorised evidence.
+- **Assuming visible protective earthing proves continuity.** Identity and continuity are separate claims.
+- **Claiming a device will operate because a path exists.** Prove continuity, loop condition and applicable device evidence separately.
+- **Using an RCD explanation for every earth fault.** Identify the relevant protective function and evidence before making a device claim.
+- **Importing the grid model into an alternative-source scenario.** Re-establish source, neutral and protective relationships.
+- **Carrying forward a conclusion after a dependency changes.** Reopen the affected claim level and regrade evidence.
 - **Quoting remembered values or times.** Use current authorised sources and mark unverified details `reference_check_required`.
+
+### Critical-error gates
+
+The attempt is not acceptable when the learner:
+
+- invents a hidden return path;
+- treats conductor colour, presence or a diagram label as continuity proof;
+- claims protective operation without applicable loop-condition and device evidence;
+- applies a grid-connected MEN explanation unchanged to an unspecified alternative source;
+- proposes unauthorised practical access, testing, resetting, alteration or energisation.
 
 ### Safety checkpoint
 
@@ -234,22 +303,22 @@ Stop and seek qualified guidance when:
 1. Define earth fault, earth-fault current and fault-current loop.
 2. State the five L-O-O-P-S steps.
 3. Why is a complete path necessary but insufficient for a disconnection claim?
-4. Distinguish path, condition and outcome claims.
-5. Name three Grade C assumptions.
+4. State the four evidence questions.
+5. Distinguish the five evidence grades and four claim grades.
 6. Why does visible protective earthing not prove continuity?
-7. What must be reconsidered when the source changes?
+7. Name three dependencies that can reopen the analysis.
 8. State four stop conditions.
 
 ### Error-log remediation
 
-Select no more than three errors. For each, redraw a small original loop, mark the unsupported gate, identify the required evidence and complete a varied re-attempt within 48 hours.
+Select no more than three errors. For each, redraw a small original loop, mark the unsupported gate, identify the required evidence, state the affected dependency and complete a varied re-attempt within 48 hours.
 
 ### Navigation
 
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 9 — MEN Arrangement and Normal-Current Paths](day-09-men-arrangement-and-normal-current-paths.md)
 - **Knowledge note:** [[Six-Week Day 10 - Earth-Fault Current Path and Disconnection Reasoning]]
-- **Next:** Day 11 — Protective Earthing Continuity and Equipotential Bonding Concepts
+- **Next:** [Day 11 — Protective Earthing Continuity and Equipotential Bonding Concepts](day-11-protective-earthing-continuity-and-equipotential-bonding-concepts.md)
 
 ### References and review boundary
 
