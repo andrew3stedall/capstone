@@ -88,9 +88,9 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-- [x] Days 1–20 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
-- [x] 2026-07-16 — [Day 21 — Week 3 integrated circuit-design exercise](modules/day-21-week-3-integrated-circuit-design-exercise.md): strengthened I-N-T-E-G-R-A-T-E with five evidence grades, four claim grades, an integration ledger, explicit dependencies and reopening triggers, worked-example fading, changed-brief transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible complete-chain visual.
-- [ ] Next — Day 22 — Functional switching, isolation and emergency switching distinctions.
+- [x] Days 1–21 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
+- [x] 2026-07-16 — [Day 22 — Functional switching, isolation and emergency switching distinctions](modules/day-22-functional-switching-isolation-and-emergency-switching-distinctions.md): strengthened S-W-I-T-C-H with five evidence grades, four claim grades, a switching-function ledger, independent function proof, explicit dependencies and reopening triggers, worked-example fading, changed-source transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible separate-function-proof visual.
+- [ ] Next — Day 23 — Main switches, alternate supplies and isolation boundaries.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
