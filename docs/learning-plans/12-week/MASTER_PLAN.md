@@ -141,11 +141,15 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 81 — Staged inspection, verification and fault-reasoning mock assessment](modules/day-81-staged-inspection-verification-and-fault-reasoning-mock-assessment.md)
 - [x] [Day 82 — Rest and evidence-led error-log consolidation](modules/day-82-rest-and-evidence-led-error-log-consolidation.md)
 - [x] [Day 83 — Full integrated mock assessment](modules/day-83-full-integrated-mock-assessment.md)
-- [ ] Day 84 — Mock review, readiness decision and post-program study plan
+- [x] [Day 84 — Mock review, readiness decision and post-program study plan](modules/day-84-mock-review-readiness-decision-and-post-program-study-plan.md)
 
 ## Quality-improvement passes
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
+
+- **Completed quality-improvement passes:** none (0 of 84).
+- **Next quality-improvement pass:** Day 1 — Program orientation, baseline diagnostic and authorised-source map.
+- Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
 
