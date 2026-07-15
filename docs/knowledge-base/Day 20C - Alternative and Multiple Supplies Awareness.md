@@ -2,7 +2,9 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_pass_completed_on: 2026-07-16
+quality_pass_number: 1
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -15,48 +17,23 @@ technical_reviewer: pending
 - [Day 20C — Alternative and Multiple Supplies Awareness](../learning-plans/4-week/modules/day-20c-alternative-and-multiple-supplies-awareness.md)
 - [[Four-Week Capstone Learning Plan]]
 
-## Prerequisites
-
-- [[Day 13A - Switching Isolation and Main Switches]]
-- [[Day 13B - Switchboard Construction and Arrangements]]
-- [[Day 16 - Consumer Mains Submains and Final Subcircuits]]
-- [[Day 20A - Fixed Appliances and Local Isolation]]
-- [[Day 20B - Motors and Associated Protection]]
-
 ## Core concept
 
-A multiple-supply review begins with a complete source and operating-state map, not with an assumed main switch. Normal, alternative, generated, stored, auxiliary and feedback-capable paths must be treated as distinct evidence questions before transfer, protection, isolation or verification claims are accepted.
+A multiple-supply review starts with every credible source and operating state, not an assumed main switch. Transfer, control, interlocking, protection, isolation and verification are separate claims.
 
-## Evidence workflow
+## Retrieval model
 
-Use **S-O-U-R-C-E**:
+Use **S-O-U-R-C-E**: Sources; Operating states; Users and boundaries; Routes and relationships; Controls and coordination; Evidence and escalation.
 
-1. **Sources** — identify every credible energy source or path.
-2. **Operating states** — map normal, outage, transfer, restoration, maintenance and fault states.
-3. **Users and boundaries** — define the supplied equipment, users and assessment boundary.
-4. **Routes and relationships** — trace conductors, conversion equipment, transfer devices and possible feedback.
-5. **Controls and coordination** — distinguish control, transfer, interlocking, protection and isolation.
-6. **Evidence and escalation** — verify current records and stop where evidence is incomplete.
+Evidence is graded as direct, corroborated, single unverified, inferred or unknown. Claims are observed, supported, provisional or blocked.
 
-## Practical application
+## Assessment evidence
 
-Use the workflow to review a fictional installation containing network supply, local generation, storage, auxiliary controls and possible feedback. The output is a source register, state map, evidence-gap list and bounded conclusion—not a field switching or isolation procedure.
+The learner must produce a source register, state map, ranked evidence gaps, changed-scenario transfer and a bounded handover. Invented switching or isolation procedures are critical errors.
 
-## Assessment relevance
+## Safety and review boundary
 
-The topic tests whether the learner can resist single-source assumptions, distinguish system functions and identify blocking evidence gaps. It interleaves switching, isolation, switchboards, circuits, controls and protection.
-
-## Safety boundary
-
-This note does not authorise opening, touching, switching, operating, isolating, locking, testing, proving de-energised, commissioning, installing, repairing or altering equipment. Any unclear source, stored-energy path, automatic action or conflicting record requires escalation.
-
-## Related concepts
-
-- [[Safety and Electrical Risk]]
-- [[Wiring Rules and Design]]
-- [[Earthing Bonding and MEN]]
-- [[Inspection Testing and Verification]]
-- [[Day 21 - Week 3 Simulated Visual Inspection]]
+No opening, touching, switching, isolation, testing, commissioning, alteration or energisation is authorised. Formal classifications, transfer arrangements, conductor and neutral treatment, earthing, protection and acceptance requirements remain `reference_check_required` and not `technically-reviewed`.
 
 ## Navigation
 
@@ -64,18 +41,9 @@ This note does not authorise opening, touching, switching, operating, isolating,
 - **Plan:** [[Four-Week Capstone Learning Plan]]
 - **Next:** [[Day 21 - Week 3 Simulated Visual Inspection]]
 
-## References and review status
+## Related concepts
 
-- AS/NZS 3000:2018 — topic reference only; use an authorised current copy.
-- Current manufacturer instructions, network requirements, legislation, regulator guidance and RTO procedures are required where applicable.
-- Formal supply classifications, transfer and interlock arrangements, conductor and neutral treatment, earthing, protection, isolation, labelling, testing and commissioning remain `reference_check_required`.
-- **Review state:** `review-required`; safety-critical; not `technically-reviewed`.
-
-<!-- sequence-navigation:start -->
-### Sequence navigation
-
-- [← Previous: Day 20B - Motors and Associated Protection](./Day%2020B%20-%20Motors%20and%20Associated%20Protection.md)
-- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
-- [Open the full learning module](../learning-plans/4-week/modules/day-20c-alternative-and-multiple-supplies-awareness.md)
-- [Next: Day 21 - Week 3 Simulated Visual Inspection →](./Day%2021%20-%20Week%203%20Simulated%20Visual%20Inspection.md)
-<!-- sequence-navigation:end -->
+- [[Safety and Electrical Risk]]
+- [[Wiring Rules and Design]]
+- [[Inspection Testing and Verification]]
+- [[Day 22 - Verification Principles and Visual Inspection]]
