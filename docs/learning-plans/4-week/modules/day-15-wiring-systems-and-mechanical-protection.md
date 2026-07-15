@@ -10,7 +10,9 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -28,12 +30,12 @@ related_simulations: []
 
 # Day 15 — Wiring Systems and Mechanical Protection
 
-> **Source and safety notice:** This original learning module explains a reasoning framework for selecting and reviewing wiring systems. It does not reproduce standards tables, prescribe a field installation method or approve work. Exact wiring-system classifications, permitted locations, depth or spacing requirements, impact classifications, fire and environmental requirements, support methods, segregation rules and jurisdiction-specific obligations remain `reference_check_required`. This module is not `technically-reviewed`.
+> **Source and safety notice:** This original module teaches a paper-based selection and review framework. It does not reproduce standards tables, prescribe a field installation method or approve work. Exact classifications, permitted locations, dimensions, impact levels, fire and environmental requirements, support methods, segregation rules and jurisdiction-specific obligations remain `reference_check_required`. This module is not `technically-reviewed`.
 
 ## Navigation
 
 - **Previous:** [Day 14 — Week 2 Integrated Design Exercise](./day-14-week-2-integrated-design-exercise.md)
-- **Next scheduled block:** [Day 16 — Consumer Mains, Submains and Final Subcircuits](../MASTER_PLAN.md#week-3--installation-requirements-and-special-locations)
+- **Next:** [Day 16 — Consumer Mains, Submains and Final Subcircuits](./day-16-consumer-mains-submains-and-final-subcircuits.md)
 
 ## 1. Outcome and entry check
 
@@ -41,36 +43,34 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. distinguish a cable from the complete wiring system that supports and protects it;
-2. identify mechanical, environmental, thermal, fire, access and interference hazards along a route;
-3. divide a route into exposure zones rather than applying one protection assumption to the whole run;
-4. compare concealment, enclosure, armouring, location, barriers and warning measures as different control types;
-5. explain why protection must continue through entries, bends, joints, transitions and terminations;
-6. use current authorised sources and manufacturer information without reproducing protected tables or diagrams;
-7. document a bounded wiring-system selection with assumptions and unresolved evidence visible;
-8. stop when the route, substrate, services, equipment compatibility or field conditions are not known.
+1. distinguish a cable from the complete wiring system that carries, supports and protects it;
+2. divide a route into exposure zones and transition points;
+3. identify mechanical, environmental, thermal, fire, access and interference hazards;
+4. compare route change, cable construction, enclosure, guarding and position as different control strategies;
+5. explain why protection must remain continuous through supports, bends, entries, joints and terminations;
+6. apply the **R-O-U-T-E** workflow using authorised source families;
+7. grade route evidence and write a bounded selection without inventing official dimensions or classifications;
+8. reopen the analysis when route, substrate, nearby service, environment or connected equipment changes.
 
 ### Entry check — five minutes, closed note
 
-Answer in one sentence each:
+1. Why is current-carrying capacity only one part of cable selection?
+2. What can damage a wiring system before and after energisation?
+3. Why can a concealed route remain exposed to foreseeable damage?
+4. What often changes at a wall, ceiling, floor, enclosure or underground transition?
+5. Why can an enclosure solve one hazard while creating another?
 
-1. Why is conductor current-carrying capacity only one part of cable selection?
-2. What could damage a cable before it is energised?
-3. Why might a concealed route be more exposed to later damage than a visible route?
-4. What route details can change at a wall, ceiling, floor, enclosure or underground transition?
-5. Why does a protective enclosure not automatically solve heat, water, chemical or fire concerns?
-
-Mark each answer **secure**, **partial** or **guess**. Revisit Day 9 or Day 10 if you cannot separate electrical capacity from physical installation suitability.
+Rate each answer **guess**, **unsure**, **reasonably confident** or **certain**. Revisit Day 9 or Day 10 when electrical capacity is being confused with physical installation suitability.
 
 ## 2. Why it matters
 
-A conductor may be electrically adequate yet installed in a way that exposes it to crushing, penetration, abrasion, tension, vibration, heat, moisture, chemicals, ultraviolet radiation, pests, fire spread or later building work. Damage can arise during installation, normal use, maintenance or an unrelated trade activity years later.
+A conductor may be electrically adequate yet exposed to penetration, crushing, abrasion, tension, vibration, heat, moisture, chemicals, ultraviolet radiation, pests, fire spread or later building work. Risk often concentrates at route changes rather than along the obvious straight section.
 
-The design question is therefore not merely **Which cable?** It is:
+The governing mental model is:
 
-> Which complete wiring system remains suitable through every route segment, transition and foreseeable exposure?
+**complete route → exposure zones → hazard mechanisms → control options → transition continuity → authorised evidence → bounded selection**
 
-A strong answer connects cable construction, support, enclosure, route position, entries, joints, terminations, accessibility, environment and future work. A weak answer names one product and assumes the route is uniform.
+The question is not simply **Which cable?** It is **Which complete wiring system remains supportable through every route segment, transition and foreseeable activity?**
 
 ![A learner checks the complete route while another protects only the straight section](../../../assets/learning/4-week/day-15-wiring-systems-and-mechanical-protection/protect-the-whole-route.svg)
 
@@ -78,221 +78,201 @@ A strong answer connects cable construction, support, enclosure, route position,
 
 ### Wiring system
 
-A **wiring system** is the combined arrangement used to carry, contain, support, route and protect conductors. It may include cable construction, conduit, trunking, ducting, tray, supports, barriers, fittings, glands, entries, joints and termination arrangements.
-
-### Mechanical damage
-
-**Mechanical damage** is physical harm that can reduce insulation integrity, conductor continuity, enclosure performance or safe separation. Relevant mechanisms include impact, crushing, penetration, abrasion, excessive bending, pulling stress, vibration and movement.
+A **wiring system** is the combined arrangement used to carry, contain, support, route and protect conductors. It may include cable construction, conduit, trunking, ducting, tray, supports, barriers, fittings, glands, entries, joints and terminations.
 
 ### Exposure zone
 
-An **exposure zone** is a route segment with a distinct hazard profile. A single circuit can pass through accessible wall cavities, ceiling spaces, plant areas, outdoor locations, underground sections and equipment entries. Each zone needs its own evidence review.
-
-### Protection by position
-
-**Protection by position** relies on the route being located where foreseeable contact or damage is sufficiently controlled. It is not a universal claim that concealed, elevated or inaccessible always means protected.
-
-### Protection by construction or enclosure
-
-Protection may be provided by the cable construction or by a separate system such as a suitable enclosure, barrier or guard. Compatibility, continuity, entries, bends and terminations still require review.
-
-### Foreseeable activity
-
-A **foreseeable activity** includes normal use, cleaning, storage, maintenance, fixing items to surfaces, excavation, pest activity, equipment movement and work by other trades. The assessment should not be limited to the moment of installation.
+An **exposure zone** is a route segment with a distinct hazard profile. One circuit may pass through accessible walls, ceiling spaces, plant areas, outdoor locations, underground sections and equipment entries.
 
 ### Transition point
 
-A **transition point** is where the wiring system changes direction, environment, support, enclosure or termination. These points often concentrate stress and are easy to omit from a route sketch.
+A **transition point** is where direction, environment, support, enclosure, movement or termination changes. These points often concentrate stress and break otherwise plausible protection strategies.
+
+### Foreseeable activity
+
+A **foreseeable activity** includes installation work, normal use, cleaning, storage, maintenance, fixing to surfaces, excavation, pests, equipment movement and work by other trades.
+
+### Protection strategies
+
+- **Route avoidance:** remove or reduce exposure.
+- **Protection by position:** locate the system where foreseeable contact or damage is controlled.
+- **Protection by construction:** use cable or assembly characteristics suited to the hazard.
+- **Protection by enclosure or guarding:** add a compatible physical control.
+- **Administrative warning:** communicate a residual risk; it does not automatically replace physical suitability.
+
+### Evidence grades
+
+1. **Observed** — visible in the supplied route material.
+2. **Documented** — stated in current drawings, schedules or product information.
+3. **Manufacturer-verified** — supported by applicable compatibility or installation data.
+4. **Assumed** — plausible but not evidenced.
+5. **Missing** — required for the selection but unavailable.
+
+### Claim grades
+
+- **Described** — states the route or supplied condition.
+- **Supported** — connects hazard, control and evidence within a bounded scenario.
+- **Verified** — requires complete authorised evidence and qualified confirmation.
+- **Unresolved** — a material gap prevents the selection claim.
 
 ## 4. Rule-finding workflow
 
-Use the **R-O-U-T-E** workflow.
+Use **R-O-U-T-E**:
 
-1. **R — Record the complete route.** Mark source, destination, each physical segment, change of level, entry, bend, joint and termination.
-2. **O — Observe the exposure profile.** Identify impact, penetration, crushing, abrasion, movement, heat, water, chemicals, ultraviolet exposure, pests, fire conditions, access and nearby services.
-3. **U — Use authorised source families.** Check current standards and amendments, legislation, regulator or network requirements, manufacturer instructions, equipment data, building/fire requirements, workplace procedures and RTO directions.
-4. **T — Test each proposed control.** Ask what hazard it controls, where it begins and ends, whether it creates another problem, and whether every fitting and transition preserves the intended protection.
-5. **E — Evidence the bounded selection.** Record supported decisions, assumptions, unresolved details, rejected options and the exact review needed before approval or work.
+1. **R — Record the complete route:** mark source, destination, segments, changes of level, entries, bends, joints and terminations.
+2. **O — Observe each exposure profile:** identify impact, penetration, crushing, abrasion, movement, heat, water, chemicals, ultraviolet exposure, pests, fire conditions, access and nearby services.
+3. **U — Use authorised source families:** check current standards, legislation, regulator or network requirements, manufacturer instructions, building/fire requirements, workplace procedures and RTO directions.
+4. **T — Test each proposed control:** ask what hazard it controls, where it begins and ends, what new problem it may create, and whether every fitting and transition preserves the protection.
+5. **E — Evidence the bounded selection:** record supported decisions, rejected options, assumptions, missing evidence, claim grade and reopening triggers.
 
 ```mermaid
 flowchart TD
-    A["Draw complete route and transitions"] --> B["Divide route into exposure zones"]
-    B --> C["Identify mechanical, environmental, thermal and fire hazards"]
-    C --> D["Locate current authorised requirements and manufacturer data"]
-    D --> E["Compare cable, enclosure, location, support and barrier options"]
-    E --> F{"Protection continuous through fittings and terminations?"}
-    F -->|"No"| G["Revise system or route"]
+    A["Draw complete route and transition points"] --> B["Divide route into exposure zones"]
+    B --> C["Identify hazard mechanisms and foreseeable activities"]
+    C --> D["Locate authorised requirements and manufacturer data"]
+    D --> E["Compare route cable enclosure position support and guarding options"]
+    E --> F{"Protection continuous through entries bends joints and terminations?"}
+    F -->|"No"| G["Revise route or control strategy"]
     G --> B
-    F -->|"Supported within reviewed evidence"| H["Document bounded selection"]
+    F -->|"Yes within reviewed evidence"| H["Write bounded selection"]
+    H --> I{"Route environment or equipment changed?"}
+    I -->|"Yes"| B
+    I -->|"No"| J["Retain selection within its stated boundary"]
 ```
 
-This is a study model, not a field installation sequence.
-
 ## 5. Visual model or worked example
-
-### Layered protection model
 
 ```mermaid
 flowchart LR
     H["Hazard and foreseeable activity"] --> Z["Exposure zone"]
-    Z --> P["Primary protection method"]
-    P --> D["Detail at supports, bends, entries and joints"]
-    D --> C["Compatibility with thermal, environmental and fire needs"]
-    C --> V["Verified evidence and bounded conclusion"]
+    Z --> P["Primary control strategy"]
+    P --> T["Transition detail"]
+    T --> C["Thermal environmental fire and compatibility checks"]
+    C --> E["Evidence grade"]
+    E --> R["Bounded claim"]
 ```
 
-A protection method is incomplete when the route detail breaks the protection chain.
+### Complete fictional example
 
-### Fictional route review
+A circuit route passes:
 
-A fictional circuit runs:
-
-- from a distribution board through an accessible storeroom wall;
+- through an accessible storeroom wall;
 - above a suspended ceiling shared with other services;
 - down a workshop column near mobile equipment;
 - into a vibrating machine enclosure.
 
-A sound paper review would:
+Apply **R-O-U-T-E**:
 
-1. split the route into at least four exposure zones;
-2. identify fixing or penetration risk in the wall zone;
-3. check support, access, service interaction and heat conditions above the ceiling;
-4. consider impact and crushing near mobile equipment;
-5. consider movement, vibration, entry and termination strain at the machine;
-6. verify that the proposed wiring-system components are compatible with one another and the environment;
-7. record unresolved dimensions, classifications and manufacturer requirements rather than inventing them.
-
-The result is not one generic statement such as **install in conduit**. It is a route-specific evidence record.
+1. Record four exposure zones plus every entry and transition.
+2. Identify penetration risk in the wall, support and service interaction above the ceiling, impact near mobile equipment, and movement or strain at the machine.
+3. Locate authorised requirements and applicable manufacturer information.
+4. Compare route change, suitable cable construction and added guarding rather than naming one generic product.
+5. Check whether entries, bends, supports and terminations preserve the intended control.
+6. Mark unknown substrate, dimensions, classifications and compatibility as missing.
+7. Write: **The route hazards are described; final wiring-system suitability is unresolved pending authorised route and compatibility evidence.**
 
 ![A stick figure points out that a strong enclosure with an unprotected entry still has a weak point](../../../assets/learning/4-week/day-15-wiring-systems-and-mechanical-protection/the-entry-counts-too.svg)
 
+### Worked-example fading
+
+Repeat the example after moving the final equipment outdoors and adding a wash-down transition. Complete only the changed exposure zones, new evidence requests, affected control boundaries and revised claim grade.
+
 ## 6. Practical application
 
-### Workshop route comparison — 25 minutes
-
-A training facility proposes a new circuit from an existing board to equipment on the opposite side of a workshop. The preliminary sketch mentions:
+A training facility proposes a circuit crossing:
 
 - a plasterboard wall used for shelving;
 - a ceiling space with maintenance access;
 - a wash-down area;
 - a short outdoor section;
-- a steel equipment frame subject to vibration;
+- a vibrating steel frame;
 - an uncertain crossing with communications and pipework.
 
-No opening, drilling, testing or physical inspection is authorised.
+No opening, drilling, excavation, testing or physical inspection is authorised.
 
-#### Part A — exposure map
+Produce:
 
-Create a route table with these original headings:
+1. a route sketch with exposure zones and transitions;
+2. an evidence table with **segment**, **known condition**, **hazard**, **control option**, **missing evidence** and **source family**;
+3. a comparison of route avoidance, cable construction and added physical protection;
+4. a continuity review for supports, bends, entries, joints and terminations;
+5. a bounded recommendation under **supported**, **not established**, **preferred direction**, **required review** and **reopening trigger**;
+6. a changed-scenario review after adding regular forklift traffic.
 
-| Segment | Known condition | Foreseeable hazard | Missing evidence | Source family to check |
-|---|---|---|---|---|
-| Board to wall entry |  |  |  |  |
-| Wall section |  |  |  |  |
-| Ceiling section |  |  |  |  |
-| Wash-down transition |  |  |  |  |
-| Outdoor section |  |  |  |  |
-| Equipment entry |  |  |  |  |
+### Assessment rubric
 
-Do not enter official classifications or minimum values from memory.
+Score each category from **0 to 2**.
 
-#### Part B — option comparison
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Route and zones | Incomplete route | Main segments only | Complete route, zones and transitions |
+| Hazard mechanisms | Generic labels | Some mechanisms linked | Foreseeable activities and mechanisms linked by zone |
+| Control comparison | Product named without purpose | Limited comparison | Route, construction and guarding options compared |
+| Transition continuity | Ignored | Some transitions checked | Supports, entries, bends, joints and terminations checked |
+| Evidence discipline | Official values invented | Gaps partly recorded | Evidence and claim grades used consistently |
+| Safety communication | Physical work implied | General caution | Clear boundary, stop conditions and authorised next action |
 
-Compare three conceptual options:
+A score of **10/12 or higher** with no critical error indicates readiness for Day 16. This is an educational threshold, not an official assessment rule.
 
-1. route change to reduce exposure;
-2. cable construction selected for the environment;
-3. added enclosure, guarding or barrier protection.
+### Critical errors
 
-For each option, state:
-
-- which hazard it addresses;
-- where the control starts and ends;
-- what transitions remain vulnerable;
-- possible thermal, moisture, corrosion, fire, support or maintainability consequences;
-- evidence required before selection.
-
-#### Part C — bounded recommendation
-
-Write no more than 150 words. Use this structure:
-
-- **Supported:** what the current sketch establishes.
-- **Not established:** route, substrate, service, environment or equipment details still missing.
-- **Preferred direction:** the option that best reduces exposure without claiming compliance.
-- **Required review:** authorised sources, manufacturer data and competent inspection needed before approval.
+- selecting from current capacity alone;
+- treating concealed location as automatic protection;
+- ignoring a transition point;
+- prescribing official dimensions or classifications from memory;
+- claiming compatibility from physical fit or product coexistence;
+- proposing drilling, excavation, access or alteration outside authority.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- choosing a cable solely from current-carrying capacity;
-- treating the full route as one environment;
-- assuming concealed means protected;
-- naming conduit, armouring or a barrier without identifying the hazard it controls;
-- protecting the straight run while ignoring entries, bends, joints and terminations;
-- overlooking installation damage caused by pulling, bending, fastening or poor support;
-- solving impact risk while creating heat, moisture, corrosion or maintainability problems;
+- treating the route as one environment;
+- naming conduit, armouring or a barrier without stating the hazard controlled;
+- protecting the straight run while entries remain vulnerable;
+- solving impact risk while creating heat, moisture, corrosion, fire or maintenance problems;
+- overlooking installation damage from pulling, bending, fastening or poor support;
 - assuming one product description proves compatibility with every fitting and enclosure;
-- inventing official depths, distances, zones or classifications from memory;
-- writing **compliant** when material evidence remains unresolved.
+- failing to reopen the selection after a route change.
 
-### Safety checkpoint and stop conditions
+### Safety checkpoint
 
-Stop the exercise or escalate when:
+Stop and escalate when the route, substrate or nearby services are unknown; the proposal requires opening, drilling, excavation, penetration or access outside the learning boundary; damage, exposed conductive parts, overheating or moisture ingress is observed; component compatibility cannot be verified; a specialised environment may apply; or authorised requirements and supervision are unavailable.
 
-- the actual route, substrate or nearby services are unknown;
-- the proposal involves opening, drilling, excavation, penetration or access outside the authorised learning boundary;
-- damage, exposed conductive parts, overheating, moisture ingress or an immediate hazard is observed;
-- the suitability or compatibility of cable, enclosure, fittings, glands, supports or equipment entries cannot be verified;
-- a fire-rated, hazardous, medical, explosive, corrosive or otherwise specialised environment may apply;
-- current authorised requirements, manufacturer instructions or competent supervision are unavailable.
-
-This module does not authorise physical work, live access, testing, repair or alteration.
+This module authorises no physical work, live access, testing, repair or alteration.
 
 ## 8. Retrieval and next links
 
-### Recall check — closed note
+### Closed-note retrieval
 
-1. Define a wiring system in your own words.
-2. Name six mechanical or environmental exposure mechanisms.
-3. Why should a route be divided into exposure zones?
-4. What does each letter in **R-O-U-T-E** represent?
-5. Why can protection by position fail over the life of an installation?
-6. Which route details commonly break a protection chain?
-7. Why can an added enclosure create new design questions?
-8. What evidence must be visible before using the word **suitable**?
+1. Define wiring system, exposure zone and transition point.
+2. Expand **R-O-U-T-E**.
+3. Name five hazard mechanisms and five control strategies.
+4. Why can protection by position fail over the installation life?
+5. Which details commonly break the protection chain?
+6. Why can an enclosure create new design questions?
+7. Name the evidence and claim grades.
+8. State four stop conditions.
 
-### Applied retrieval
+### Changed-scenario transfer
 
-Sketch a route from a switchboard to a fixed outdoor appliance. Mark five exposure zones and one transition risk at each boundary. Then exchange the appliance for indoor vibrating equipment and identify which assumptions change.
+Sketch a route to a fixed outdoor appliance, then replace it with indoor vibrating equipment. Rebuild the exposure map and evidence requests rather than changing only the product label.
 
-### Confidence calibration
+### Exit check
 
-For each answer, record **guessing**, **unsure**, **reasonably confident** or **certain**. Prioritise any high-confidence answer that omitted transitions, foreseeable later work or an authorised-source check.
+Proceed when you can map the complete route, connect hazards to controls, inspect transitions, grade evidence, write a bounded selection and stop before unsupported physical or compliance claims.
 
-### Related topics
+### Knowledge-base links
 
-- [Day 9 — Complete Cable-Selection Workflow](./day-09-complete-cable-selection-workflow.md)
-- [Day 10 — Installation Conditions and Derating](./day-10-installation-conditions-and-derating.md)
-- [Day 14 — Week 2 Integrated Design Exercise](./day-14-week-2-integrated-design-exercise.md)
+- [[Day 14 - Week 2 Integrated Design Exercise]]
 - [[Day 15 - Wiring Systems and Mechanical Protection]]
+- [[Day 16 - Consumer Mains Submains and Final Subcircuits]]
 - [[Wiring Rules and Design]]
 - [[Safety and Electrical Risk]]
 
-### Next block
+### Review boundary
 
-Continue to **Day 16 — Consumer Mains, Submains and Final Subcircuits**.
-
-## References and currency notice
-
-- AS/NZS 3000:2018 and current amendments — topic reference only; use authorised access and verify the applicable wiring-system and mechanical-protection requirements.
-- Applicable legislation, regulator, network, building/fire and workplace requirements.
-- Current manufacturer instructions and compatibility data for cables, enclosures, fittings, supports, entries and connected equipment.
-- RTO-approved learning and assessment material.
-
-Capstone Ready is an independent educational resource. It is not affiliated with or endorsed by Standards Australia, Standards New Zealand, an electrical regulator or a registered training organisation. Always use current authorised standards, legislation, regulator guidance and your RTO's approved procedures.
-
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+Use current authorised standards, legislation, regulator, network, building/fire and workplace requirements, manufacturer instructions and RTO material. No protected tables, diagrams, systematic clause wording, official dimensions or classification datasets are reproduced. Exact requirements remain `reference_check_required` and require qualified review.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
