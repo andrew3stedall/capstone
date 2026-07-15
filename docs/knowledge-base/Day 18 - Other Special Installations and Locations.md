@@ -2,7 +2,9 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -21,54 +23,55 @@ technical_reviewer: pending
 - [[Day 15 - Wiring Systems and Mechanical Protection]]
 - [[Day 17 - Bathrooms Showers and Other Wet Areas]]
 
-## Core idea
+## S-C-O-P-E workflow
 
-A special installation or location should be approached as a set of risk and scope triggers rather than a memorised place name. The learner first records the physical facts, users, activities, environmental conditions, supplies and construction, then verifies which formal topics apply and how overlapping requirements interact.
-
-The module uses the **S-C-O-P-E** workflow:
-
-1. **Situation facts** — record the arrangement, users, activity, environment, equipment and supplies.
-2. **Candidate triggers** — list every plausible special-installation or special-location topic.
+1. **Situation facts** — record arrangement, users, activity, environment, equipment and every source.
+2. **Candidate triggers** — list all plausible special-installation topics.
 3. **Official scope** — verify definitions, boundaries, exclusions and interactions.
 4. **Protection set** — identify equipment, wiring, supply, switching, protection and verification evidence.
-5. **Evidence record** — document sources, assumptions, unresolved details and a bounded conclusion.
+5. **Evidence and escalation** — grade evidence and claims, record gaps and reopen after change.
+
+## Core distinctions
+
+- A site label is not a verified formal classification.
+- Location, activity, environment, supply, user and construction triggers must be considered separately.
+- Several special topics can overlap, and general requirements may still apply.
+- Product suitability does not by itself prove installation permission.
+- A changed source, user group, environment or operating mode requires the evidence plan to be rebuilt.
+
+## Evidence and claim grades
+
+Evidence: **observed**, **documented**, **manufacturer-verified**, **assumed**, **missing**.
+
+Claims: **described**, **supported**, **verified**, **unresolved**.
+
+## Practical application
+
+Review a fictional mixed-use site containing wet, corrosive, public-access, transportable, temporary and multiple-supply conditions. Build a six-category trigger register, verify scope, create a combined evidence matrix and repeat the review after adding a new trigger.
+
+## Assessment relevance
+
+A strong response records situation facts before labels, recognises overlapping topics, verifies scope before detailed requirements, grades evidence consistently and stops when geometry, supply or product evidence is incomplete. The module uses a six-category, 12-point educational rubric; it is not an official assessment rule.
+
+## Safety boundary
+
+This note authorises no opening, touching, testing, switching, isolation, installation, alteration, verification or energisation. Exact definitions, scopes, boundaries, equipment permissions, wiring, mechanical protection, separation, source interactions, testing and acceptance criteria require current authorised sources and qualified review.
 
 ## Related concepts
 
 - [[Safety and Electrical Risk]]
 - [[Wiring Rules and Design]]
 - [[Inspection Testing and Verification]]
-- [[Four-Week Capstone Learning Plan]]
 - [[Day 19 - Rest Retrieval and Catch-Up]]
+- [[Four-Week Capstone Learning Plan]]
 
-## Practical application
-
-The learner reviews a fictional rural service area containing wet, cold, corrosive, public-access, transportable, temporary and multiple-supply conditions. They build a trigger register and combined evidence matrix without guessing formal classifications, distances, ratings or equipment permissions.
-
-## Assessment relevance
-
-The topic tests whether the learner can recognise special-condition triggers, verify scope before detailed rules, identify overlapping topics and produce a defensible source-search plan. It also tests whether the learner stops when geometry, supply, product or authorised-source evidence is incomplete.
-
-## Common misconceptions
-
-- a site name establishes the full formal classification;
-- only one special-location topic can apply;
-- product suitability proves installation permission;
-- special requirements replace all general installation requirements;
-- temporary or alternative supplies can be ignored during classification;
-- remembered distances, ratings or permissions are acceptable without current-source verification.
-
-## Safety boundary
-
-This note does not authorise opening, touching, testing, switching, isolation, installation, repair or alteration. Exact definitions, boundaries, equipment permissions, wiring arrangements, protection measures, separation distances, supply interactions, test requirements and acceptance criteria require current authorised sources and qualified review.
-
-## References
+## References and review boundary
 
 - AS/NZS 3000:2018 and current amendments — topic reference only; authorised access required.
 - Applicable legislation, regulator, network and RTO requirements.
-- Current manufacturer instructions for equipment and wiring systems used in the relevant environment.
+- Current manufacturer instructions and authorised project records.
 
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+This note remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
