@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A boundary needs every source and operating state</title>
+  <desc id="desc">A black-and-white stick figure points to a table with three source rows and three operating-state columns. Two cells contain question marks, showing that an isolation boundary cannot be accepted until every relevant source and state has evidence.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="190" r="28"/>
+    <path d="M105 218v108M105 250l-48 42M105 250l84 5M105 326l-38 64M105 326l43 64"/>
+    <rect x="245" y="70" width="640" height="290" rx="10"/>
+    <path d="M245 140h640M245 213h640M245 286h640"/>
+    <path d="M405 70v290M565 70v290M725 70v290"/>
+    <path d="M385 250l-155 5"/>
+    <path d="M600 171l18 18 31-43"/>
+    <path d="M760 244l18 18 31-43"/>
+    <circle cx="645" cy="323" r="24"/>
+    <path d="M635 317q10-14 20 0q0 10-10 15v8"/>
+    <circle cx="805" cy="177" r="24"/>
+    <path d="M795 171q10-14 20 0q0 10-10 15v8"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="38" font-size="28" font-weight="700">CHECK EVERY SOURCE AGAINST EVERY RELEVANT STATE</text>
+    <text x="325" y="112" font-size="18" font-weight="700">SOURCE</text>
+    <text x="485" y="112" font-size="18" font-weight="700">NORMAL</text>
+    <text x="645" y="112" font-size="18" font-weight="700">ALTERNATE</text>
+    <text x="805" y="112" font-size="18" font-weight="700">TRANSFER</text>
+    <text x="325" y="184" font-size="18">GRID</text>
+    <text x="325" y="257" font-size="18">BATTERY</text>
+    <text x="325" y="330" font-size="18">CONTROL</text>
+    <text x="480" y="420" font-size="22">Missing evidence in one cell keeps the boundary claim open.</text>
+  </g>
+</svg>
