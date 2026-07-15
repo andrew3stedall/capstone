@@ -10,7 +10,9 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -38,7 +40,7 @@ related_simulations: []
 ## Navigation
 
 - **Previous:** [Day 13C — Switchboard Defect Inspection](./day-13c-switchboard-defect-inspection.md)
-- **Next scheduled block:** [Day 15 — Wiring Systems and Mechanical Protection](../MASTER_PLAN.md#week-3--installation-requirements-and-special-locations)
+- **Next:** [Day 15 — Wiring Systems and Mechanical Protection](./day-15-wiring-systems-and-mechanical-protection.md)
 
 ## 1. Outcome and entry check
 
@@ -46,335 +48,243 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. convert a mixed-use installation brief into stated facts, assumptions, missing information and source-verification tasks;
-2. construct a load inventory and explain why connected load is not automatically maximum demand;
-3. apply a traceable cable-selection chain from design current through protective-device coordination, installation conditions and follow-up checks;
-4. divide a route into segments and identify which segment could control corrected current-carrying capacity;
-5. prepare a cumulative voltage-drop model without inventing official limits or conductor data;
-6. identify every stated or possible source before making switching, isolation or main-switch claims;
-7. review switchboard capacity and visible condition as separate evidence questions;
-8. produce a bounded design recommendation that clearly separates supported conclusions from unresolved technical review.
+1. convert a mixed-use brief into facts, assumptions, missing information and source-verification tasks;
+2. maintain one consistent design basis across demand, conductor, route, voltage-drop, source and switchboard reasoning;
+3. identify the controlling condition rather than reporting only favourable calculations;
+4. apply the **D-E-S-I-G-N** workflow to a complete fictional design case;
+5. grade inputs as observed, documented, derived, assumed or missing;
+6. grade conclusions as described, supported, verified or unresolved;
+7. reject an unsupported option without inventing a replacement answer;
+8. explain which earlier conclusions reopen when one material assumption changes.
 
 ### Entry check — ten minutes, closed note
 
 Write one sentence for each prompt:
 
-1. What is the difference between connected load and maximum demand?
-2. What relationship should be checked among design current, protective-device rating and corrected conductor capacity?
-3. Why can one adverse route section control a cable decision?
-4. Why should voltage drop be modelled across the complete supply path?
-5. Why is **off** not equivalent to **isolated**?
-6. Why does spare switchboard space not prove spare capacity?
-7. What is the difference between an observation and a defect cause?
-8. Which words require verified evidence before use: **compliant**, **safe**, **suitable**, **isolated**, **will operate**?
+1. Connected load versus maximum demand.
+2. Design current, device rating and corrected conductor capacity.
+3. Why one adverse route section can control a decision.
+4. Why voltage drop must be modelled across the full relevant path.
+5. Why **off** is not equivalent to **isolated**.
+6. Why spare board space does not prove capacity.
+7. Observation versus defect cause.
+8. Which evidence is needed before using **compliant**, **safe**, **suitable**, **isolated** or **will operate**.
 
-Mark each answer **secure**, **partial** or **guess**. Any unsafe assumption—especially omitted supplies, invented values or a field action outside the exercise boundary—must be corrected before continuing.
+Mark each answer **guess**, **unsure**, **reasonably confident** or **certain**. Correct any high-confidence unsafe assumption before continuing.
 
 ## 2. Why it matters
 
-Real design and assessment tasks rarely arrive as one clean calculation. A short brief may combine demand, conductor selection, installation conditions, voltage drop, protective-device suitability, source arrangements, switchboard limitations and visible defects.
+Real design tasks combine loads, route conditions, protection, voltage performance, source arrangements, switchboard constraints and visible evidence. Individually plausible steps can still form an invalid whole when assumptions change between calculations or when a material source or constraint is omitted.
 
-The risk is not merely arithmetic error. A neat calculation can still be invalid when:
+The governing mental model is:
 
-- the wrong operating case was modelled;
-- a load or alternate supply was omitted;
-- a correction factor was applied to the wrong route segment;
-- conductor data came from an unverified source;
-- voltage drop ignored an upstream section;
-- board space was mistaken for thermal or fault capacity;
-- an observation was promoted to a cause without evidence;
-- a design conclusion was presented as approval.
+**brief and boundary → evidence register → consistent design basis → calculation chain → physical and source gates → bounded recommendation → change propagation**
 
-The aim of Day 14 is therefore **integration with bounded certainty**. The learner must connect the Week 2 models while preserving the evidence boundary around every technical claim.
+A favourable calculation is one branch of evidence, not an approval.
 
 ![A learner links demand, cable, route, voltage, sources and switchboard evidence instead of trusting one calculation](../../../assets/learning/4-week/day-14-week-2-integrated-design-exercise/one-design-many-checks.svg)
 
 ## 3. Core concepts and terminology
 
-### Design brief
+### Design brief and design basis
 
-A **design brief** is the stated task, operating need and constraint set. It may be incomplete. The learner must not silently convert missing information into facts.
-
-### Design basis
-
-The **design basis** records the selected operating cases, source arrangement, load assumptions, environmental conditions, route description, equipment information and authorised references used in the reasoning.
+The **design brief** states the task, purpose and constraints. The **design basis** records the operating cases, source arrangement, load assumptions, route, environment, equipment data and authorised references used throughout the reasoning.
 
 ### Evidence register
 
-An **evidence register** separates:
+Use five input grades:
 
-- stated facts;
-- derived values;
-- assumptions;
-- missing information;
-- source locations;
-- review flags.
+1. **Observed** — visible in supplied photographs or drawings.
+2. **Documented** — stated in a current schedule, label or authorised record.
+3. **Derived** — calculated from stated inputs using a visible method.
+4. **Assumed** — plausible but not evidenced.
+5. **Missing** — required for the conclusion but unavailable.
 
 ### Controlling condition
 
-A **controlling condition** is the condition that governs the current decision. It may be a route segment, protective-device limitation, voltage-drop outcome, switchboard constraint, fault-performance requirement or unresolved source arrangement.
-
-### Design iteration
-
-A **design iteration** is a deliberate return to an earlier step after a later check fails or remains unsupported. Cable selection is not a one-pass lookup.
-
-### Bounded recommendation
-
-A **bounded recommendation** states what the available evidence supports, what remains unresolved and what authorised review is required before approval or field action.
+A **controlling condition** governs the current decision. It may be demand, route conditions, corrected conductor capacity, voltage performance, source topology, board limitations, fault performance or a missing item that prevents a conclusion.
 
 ### Integration error
 
-An **integration error** occurs when individually plausible steps do not form one consistent design chain. Examples include using one current for demand, a different unexplained current for voltage drop, and a third device rating for cable coordination.
+An **integration error** occurs when individually plausible steps do not share one consistent basis—for example, using different unexplained currents or route assumptions in connected calculations.
+
+### Bounded recommendation
+
+A **bounded recommendation** states supported findings, rejected options, unresolved evidence, review flags and the exact next authorised action.
+
+### Claim grades
+
+- **Described** — states supplied facts or observations.
+- **Supported** — connects applicable evidence into a bounded conclusion.
+- **Verified** — requires complete authorised evidence and qualified confirmation.
+- **Unresolved** — a material gap prevents the claim.
 
 ## 4. Rule-finding workflow
 
-Use the **D-E-S-I-G-N** workflow.
+Use **D-E-S-I-G-N**:
 
-1. **D — Define the brief and boundary.** Record the installation purpose, assessment scope, field-action exclusions, possible supplies and required outputs.
-2. **E — Extract facts and evidence gaps.** Build the load, route, source, switchboard and environmental evidence register.
-3. **S — Select governing source families.** Identify current authorised standards and amendments, legislation, regulator or network requirements, manufacturer data, workplace procedures and RTO directions.
-4. **I — Integrate the calculation chain.** Link maximum demand, design current, protective device, conductor capacity, correction factors, voltage drop and other required checks using consistent assumptions.
-5. **G — Gate the design against physical evidence.** Review source switching, board arrangement, visible condition, route practicality, termination constraints and maintainability.
-6. **N — Note the bounded conclusion.** State the preferred option, rejected options, unresolved evidence, review flags and exact next authorised action.
+1. **D — Define** the brief, boundary, possible supplies and required outputs.
+2. **E — Extract** facts, assumptions, missing evidence and field-action exclusions.
+3. **S — Select** current authorised source families and manufacturer information.
+4. **I — Integrate** demand, design current, device, conductor, route factors, voltage drop and other required checks using one basis.
+5. **G — Gate** the calculation chain against sources, switching, board arrangement, visible condition, route practicality and maintainability.
+6. **N — Note** the bounded recommendation, rejected options, unresolved evidence and reopening triggers.
 
 ```mermaid
 flowchart TD
-    A["Define brief, scope and every possible source"] --> B["Build facts, assumptions and evidence-gap register"]
-    B --> C["Locate current authorised source families"]
+    A["Define brief boundary and possible sources"] --> B["Build facts assumptions and missing-evidence register"]
+    B --> C["Select current authorised source families"]
     C --> D["Model demand and design current"]
-    D --> E["Coordinate device and conductor"]
-    E --> F["Apply route-segment conditions"]
-    F --> G["Check cumulative voltage drop and other required performance"]
-    G --> H["Review switchboard, switching and visible evidence"]
-    H --> I{"All material claims supported?"}
-    I -->|"No"| J["Iterate or mark reference_check_required"]
-    J --> B
-    I -->|"Yes, within reviewed evidence"| K["Write bounded recommendation"]
+    D --> E["Coordinate device conductor and route conditions"]
+    E --> F["Model cumulative voltage performance"]
+    F --> G["Gate against sources switchboard and visible evidence"]
+    G --> H{"All material claims supported?"}
+    H -->|"No"| I["Iterate or grade unresolved"]
+    I --> B
+    H -->|"Yes within reviewed evidence"| J["Write bounded recommendation"]
+    J --> K{"Material assumption changed?"}
+    K -->|"Yes"| B
+    K -->|"No"| L["Retain recommendation within its boundary"]
 ```
-
-The diagram is a study reasoning model, not a universal field sequence or approval process.
 
 ## 5. Visual model or worked example
 
-### Integrated dependency model
-
 ```mermaid
 flowchart LR
-    L["Load inventory and operating cases"] --> MD["Maximum-demand model"]
+    L["Load inventory and operating cases"] --> MD["Demand model"]
     MD --> IB["Design current"]
-    IB --> PD["Protective-device choice"]
+    IB --> PD["Protective-device option"]
     R["Route and installation conditions"] --> CC["Corrected conductor capacity"]
-    PD --> CO["Coordination check"]
+    PD --> CO["Coordination gate"]
     CC --> CO
-    IB --> VD["Cumulative voltage-drop model"]
-    S["Source and switching arrangement"] --> BR["Board and isolation review"]
-    B["Visible board evidence"] --> BR
+    IB --> VD["Cumulative voltage model"]
+    S["Sources and switching"] --> BG["Board and source gate"]
+    B["Visible board evidence"] --> BG
     CO --> REC["Bounded recommendation"]
     VD --> REC
-    BR --> REC
+    BG --> REC
 ```
 
-No branch is sufficient alone. The final recommendation depends on a consistent set of load, route, conductor, source and board assumptions.
+### Complete fictional example
 
-### Fictional worked integration
+A training workshop proposes a new three-phase machine and additional single-phase loads. The route includes a ceiling section, grouped riser and warm plant room. An old drawing mentions a generator. The schedule shows spare ways. A photograph shows faded identification and discolouration near an unrelated device.
 
-**Scenario:** A training workshop proposes a new three-phase machine, two single-phase socket-outlet groups and lighting. The fictional design pack states:
+Trainer-only fictional data gives:
 
-- an existing main switchboard supplies a distribution board;
-- the proposed circuit route includes a ceiling section, a grouped riser section and a warmer plant-room section;
-- a standby generator connection is shown on an old drawing but its present relationship to the board is unclear;
-- the board schedule shows spare ways;
-- a photograph shows one faded circuit label and a discoloured area near an unrelated device;
-- fictional calculation data supplied by the trainer gives a proposed design current of **48 A**, a device rating of **50 A**, a tabulated conductor capacity of **76 A**, fictional route factors of **0.90**, **0.82** and **0.88**, and fictional voltage contributions of **1.1 V**, **1.8 V** and **2.4 V**.
+- design current: **48 A**;
+- device rating: **50 A**;
+- tabulated capacity: **76 A**;
+- fictional factors: **0.90**, **0.82**, **0.88**;
+- fictional voltage contributions: **1.1 V**, **1.8 V**, **2.4 V**.
 
-A traceable paper response is:
+Evidence-led response:
 
-1. **Brief boundary:** the task is to compare design options on paper. It does not authorise opening the board, testing, isolation or installation work.
-2. **Evidence register:** record the loads, operating assumptions, route segments, old generator drawing, board schedule and photograph. Mark generator topology, present board condition, conductor data source and official criteria as unresolved.
-3. **Demand model:** use the trainer-supplied fictional maximum-demand result only for the exercise. Do not treat its factors as standards data.
-4. **Coordination model:** calculate the fictional corrected capacity as `76 × 0.90 × 0.82 × 0.88 ≈ 49.4 A` only if the supplied method permits those factors to be combined in that manner. The result would not support a confident `48 A ≤ 50 A ≤ 49.4 A` coordination statement because the device rating exceeds the fictional corrected capacity.
-5. **Iteration:** options may include revisiting conductor size, installation arrangement, device choice, load model or route. No option is approved without verified data and all required checks.
-6. **Voltage model:** total fictional contribution is `1.1 + 1.8 + 2.4 = 5.3 V`. Compare it only with the trainer's stated exercise criterion; do not invent an official limit.
-7. **Source and board gate:** spare ways do not establish thermal, fault, enclosure, device-compatibility or maintainability capacity. The unclear generator relationship prevents a complete switching or isolation conclusion.
-8. **Visible evidence:** faded labelling and discolouration are observations requiring bounded reporting and authorised follow-up. They do not establish a cause or prove the proposed circuit is unacceptable.
-9. **Conclusion:** the first option is not presently supported by the fictional capacity chain, and the source and board evidence is incomplete. Iterate the design and escalate the unresolved generator and board evidence for authorised review.
-
-The example demonstrates integration and rejection logic. It does not provide a real design value, compliance result or field instruction.
-
-## 6. Practical application
-
-### Integrated design exercise — 90 to 120 minutes
-
-Use the following fictional brief.
-
-A community workshop wants to add:
-
-- one three-phase dust extractor;
-- one single-phase compressor;
-- a bank of general socket-outlets;
-- task lighting;
-- provision for a future machine.
-
-The proposed route runs from an existing main switchboard through a ceiling space, a shared service riser and an enclosed workshop wall. A rooftop solar system and a portable generator inlet are mentioned in different documents. The switchboard schedule is incomplete. External photographs show spare ways, mixed-age labels and one unused cable entry. No internal access, testing or measurements are authorised.
-
-The trainer provides a separate fictional data sheet for arithmetic. Treat every figure as exercise-only.
-
-#### Part A — brief and evidence register, 15 minutes
-
-Create six headings:
-
-1. stated facts;
-2. operating cases;
-3. assumptions;
-4. missing information;
-5. source families to verify;
-6. field-action exclusions and stop conditions.
-
-Include normal supply, solar, generator, future load, route sections and board evidence.
-
-#### Part B — load and demand model, 15 minutes
-
-1. Build a load inventory.
-2. Separate connected load from the selected maximum-demand method.
-3. Identify simultaneous and mutually exclusive operating cases.
-4. Record which demand factors or methods require authorised-source verification.
-5. Produce one design-current statement with its assumptions visible.
-
-#### Part C — cable-selection and derating chain, 20 minutes
-
-For each candidate option, record:
-
-- design current;
-- proposed protective-device rating and characteristic source;
-- conductor construction and installation method;
-- tabulated capacity source;
-- each route segment and applicable condition;
-- factor source and combination method;
-- corrected capacity;
-- coordination result;
-- unresolved follow-up checks.
-
-Reject any option whose evidence chain is incomplete, even when the arithmetic appears favourable.
-
-#### Part D — voltage-drop model, 15 minutes
-
-1. Draw the complete path from supply point to the final load.
-2. Record the operating current used for each section.
-3. identify conductor data, route length and phase assumptions.
-4. Calculate each fictional section contribution.
-5. Add contributions and compare only with the exercise criterion supplied by the trainer.
-6. Record starting or other operating cases that may require a separate review.
-
-#### Part E — sources, switching and switchboard gate, 15 minutes
-
-Prepare a paper review covering:
-
-- every normal, alternate, generated, stored or feedback source mentioned or reasonably indicated by the documents;
-- the intended main-switch and switching relationships requiring verification;
-- board identity, spare ways, enclosure, equipment compatibility, thermal considerations, fault-rating evidence, conductor facilities, labels and maintainability;
-- objective visual observations;
-- evidence that cannot be established from photographs or schedules.
-
-Do not write an isolation sequence or infer internal condition from external appearance.
-
-#### Part F — recommendation and challenge, 10 to 20 minutes
-
-Write a one-page recommendation containing:
-
-1. preferred design option;
-2. reason for rejecting alternatives;
-3. controlling condition;
-4. consistent calculation chain;
-5. unresolved source and board evidence;
-6. `reference_check_required` items;
-7. exact next authorised review action;
-8. a sentence limiting the conclusion to the paper exercise.
-
-Then challenge the response:
-
-- Did one assumption change between calculations?
-- Was any source omitted?
-- Was spare space treated as capacity?
-- Was an observation treated as a cause?
-- Was an exercise value presented as an official requirement?
-- Was any field action implied without authority?
-
-## 7. Common errors and safety checkpoint
-
-### Common integration errors
-
-- calculating before defining operating cases;
-- using connected load as maximum demand without a supported method;
-- selecting a conductor before documenting the installation method;
-- applying one correction factor to an entire route without segment evidence;
-- multiplying factors without verifying the permitted method;
-- checking only the final circuit for voltage drop;
-- changing current, length or power-factor assumptions without recording why;
-- assuming device rating below tabulated capacity proves final suitability;
-- treating spare switchboard ways as proof of capacity;
-- omitting solar, generator, storage or feedback paths from the source model;
-- converting discolouration, noise, smell or damaged labelling directly into a cause;
-- writing **compliant**, **safe**, **isolated** or **will operate** without sufficient evidence.
+1. State the paper-only boundary and unknown generator relationship.
+2. Grade every input in the evidence register.
+3. Calculate `76 × 0.90 × 0.82 × 0.88 ≈ 49.4 A` only if the trainer's method permits combining those factors.
+4. Do not support `48 A ≤ 50 A ≤ 49.4 A`; the fictional device rating exceeds the fictional corrected capacity.
+5. Add fictional voltage contributions to **5.3 V** and compare only with the trainer's exercise criterion.
+6. Treat spare ways as observed space, not proven board capacity.
+7. Treat faded identification and discolouration as observations, not causes.
+8. Grade the option unresolved and iterate the design.
 
 ![A confident calculation stops at a locked gate labelled missing source and board evidence](../../../assets/learning/4-week/day-14-week-2-integrated-design-exercise/the-calculation-is-not-the-approval.svg)
 
+### Worked-example fading
+
+Repeat the example with one factor removed, a different route segment controlling the result and a confirmed inverter source. Complete the evidence register, calculation chain, source gate and bounded recommendation without reusing the first conclusion.
+
+## 6. Practical application
+
+### Integrated exercise — 90 to 120 minutes
+
+A community workshop proposes a dust extractor, compressor, socket-outlet group, task lighting and future machine provision. The route crosses a ceiling, service riser, wash-down area and enclosed wall. Documents separately mention rooftop solar and a generator inlet. The board schedule is incomplete and external photographs show spare ways, mixed-age labels and an unused cable entry. No internal access, testing or measurement is authorised.
+
+Produce:
+
+1. a brief and boundary statement;
+2. an evidence register;
+3. a load inventory and operating-case model;
+4. a traceable demand and design-current statement;
+5. a route-segment and corrected-capacity chain using trainer-supplied fictional data;
+6. a cumulative voltage model;
+7. a source, switching and switchboard gate;
+8. an observation-versus-cause record;
+9. a one-page bounded recommendation;
+10. a change-propagation note after replacing the future load with battery storage.
+
+### Assessment rubric
+
+Score each category from **0 to 2**.
+
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Brief and evidence register | Missing or invented | Partial | Complete facts, assumptions, gaps and exclusions |
+| Consistent design basis | Assumptions conflict | Minor inconsistency | One traceable basis across all checks |
+| Calculation chain | Disconnected or unsupported | Mostly linked | Demand, device, conductor, route and voltage linked |
+| Physical and source gates | Ignored | Partly reviewed | Sources, board and observations fully gated |
+| Recommendation and iteration | Approval claimed | Some limits stated | Bounded recommendation with rejected options and reopening triggers |
+| Safety and source discipline | Field authority or official values invented | General caution | Clear authority boundary and source verification |
+
+A score of **10/12 or higher** with no critical error indicates readiness for Day 15. This is an educational threshold, not an official assessment rule.
+
+### Critical errors
+
+- omitting a stated or possible source;
+- changing an assumption silently between calculations;
+- presenting fictional values as official requirements;
+- treating board space as proven capacity;
+- promoting an observation to a cause;
+- claiming approval, compliance, isolation or field authority.
+
+## 7. Common errors and safety checkpoint
+
+### Common errors
+
+- calculating before defining operating cases;
+- using connected load as maximum demand without a supported method;
+- applying one route condition to every segment;
+- combining factors without checking the applicable method;
+- checking voltage performance only on the final section;
+- using favourable arithmetic to ignore missing source or board evidence;
+- failing to reopen earlier steps after one material change.
+
 ### Safety checkpoint
 
-Stop the exercise and seek authorised guidance when:
-
-- the task drifts from paper review into opening, touching, testing, switching or altering equipment;
-- any possible supply or feedback path is unresolved;
-- the applicable standard, amendment, jurisdiction or network requirement is unknown;
-- conductor, device, enclosure or assembly data cannot be traced to an authorised source;
-- the switchboard evidence suggests immediate danger or requires access beyond the approved boundary;
-- fatigue causes repeated assumption changes or arithmetic mistakes;
-- the only way to reach a conclusion is to invent a value, condition, cause or approval.
-
-A technically neat answer does not override competence, access, isolation, supervision or source-verification requirements.
+Stop and seek authorised guidance when the task drifts into opening, touching, testing, switching, isolation or alteration; a possible source remains unresolved; applicable requirements or manufacturer data are unavailable; immediate-danger indicators appear; fatigue causes repeated assumption changes; or a conclusion requires an invented value, condition, cause or approval.
 
 ## 8. Retrieval and next links
 
-### Retrieval questions
+### Closed-note retrieval
 
-1. What are the six stages of D-E-S-I-G-N?
-2. Why is a design basis necessary?
-3. What makes a condition controlling rather than merely relevant?
-4. Why is cable selection iterative?
-5. How can a favourable voltage-drop result coexist with an unacceptable design?
-6. Why does spare board space not prove suitability?
-7. What is the evidence difference between discolouration and its cause?
-8. Which unresolved supply detail can invalidate switching and isolation reasoning?
-9. What belongs in a bounded recommendation?
-10. Which statements in your exercise remain `reference_check_required`?
+1. Expand **D-E-S-I-G-N**.
+2. Define design basis, controlling condition and integration error.
+3. Name the five input grades and four claim grades.
+4. Why can a favourable voltage result coexist with an unacceptable option?
+5. Why does spare board space not prove suitability?
+6. What belongs in a bounded recommendation?
+7. Which changes require earlier conclusions to reopen?
 
-### Readiness check
+### Changed-scenario transfer
 
-Proceed to Day 15 only when you can:
+Repeat the practical exercise after moving the route outdoors and confirming an alternate supply. Rebuild the route, source, calculation and board gates from the evidence register rather than editing only the final paragraph.
 
-- keep one consistent assumption set across demand, cable and voltage-drop reasoning;
-- identify the controlling route or equipment condition;
-- list every possible source without asserting an isolation outcome;
-- separate visible evidence from defect cause;
-- reject an unsupported option without replacing it with an invented answer;
-- state the exact evidence required before technical approval.
+### Exit check
 
-### Next links
+Proceed when you can maintain one consistent basis, identify the controlling condition, reject unsupported options, separate observations from causes, reopen dependent conclusions and state exact evidence required before technical approval.
 
-- **Previous module:** [Day 13C — Switchboard Defect Inspection](./day-13c-switchboard-defect-inspection.md)
-- **Next module:** [Day 15 — Wiring Systems and Mechanical Protection](../MASTER_PLAN.md#week-3--installation-requirements-and-special-locations)
-- **Knowledge note:** [Day 14 — Week 2 Integrated Design Exercise](../../../knowledge-base/Day%2014%20-%20Week%202%20Integrated%20Design%20Exercise.md)
+### Knowledge-base links
 
-## References and review boundary
+- [[Day 13C - Switchboard Defect Inspection]]
+- [[Day 14 - Week 2 Integrated Design Exercise]]
+- [[Day 15 - Wiring Systems and Mechanical Protection]]
+- [[Wiring Rules and Design]]
+- [[Safety and Electrical Risk]]
+- [[Inspection Testing and Verification]]
 
-Use only current authorised versions applicable to the task, including:
+### Review boundary
 
-- AS/NZS 3000 and current amendments;
-- applicable legislation, regulator and network requirements;
-- relevant cable, protective-device, switchboard and equipment manufacturer data;
-- workplace design, isolation, inspection and escalation procedures;
-- RTO assessment directions and supervised practical requirements.
-
-No standards wording, demand tables, cable tables, correction-factor datasets, voltage-drop limits, device curves, switchboard ratings or official defect classifications are reproduced here. Publication requires editorial review and qualified technical review.
+Use current authorised standards, legislation, regulator and network requirements, manufacturer data, workplace procedures and RTO directions. No standards wording, demand tables, cable tables, factor datasets, voltage limits, device curves, switchboard ratings or official defect classifications are reproduced. Publication requires editorial and qualified technical review.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
