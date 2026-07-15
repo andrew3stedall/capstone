@@ -24,8 +24,8 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–11.
-- Exactly one next increment: quality-improvement pass — Day 12, Rest, Retrieval and Misconception Repair.
+- Completed quality passes: Days 1–12.
+- Exactly one next increment: quality-improvement pass — Day 13, Earthing Defect Scenarios and Consequence Analysis.
 
 ## Completed increments
 
@@ -42,38 +42,39 @@ pull_request: 6
 | Quality-improvement pass — Day 9 | Strengthened R-E-T-U-R-N with five evidence grades, four claim grades, a dependency-reopening model, worked-example fading, changed-source transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible relationship-versus-return-path visual. |
 | Quality-improvement pass — Day 10 | Strengthened L-O-O-P-S with four evidence gates, five evidence grades, four claim grades, a dependency ledger, reopening logic, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible loop-versus-trip-proof visual. |
 | Quality-improvement pass — Day 11 | Strengthened B-O-N-D-S with five evidence grades, four claim grades, a protective-relationship ledger, dependency reopening, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible continuity-chain visual. |
+| Quality-improvement pass — Day 12 | Strengthened R-E-P-A-I-R with five evidence states, a misconception-repair ledger, dependency reopening, worked-example fading, changed-scenario transfer, critical-error gates, aligned vault metadata and an accessible confidence-versus-evidence visual. |
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts.md`
-- `docs/assets/learning/6-week/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts/every-link-needs-evidence.svg`
-- `docs/knowledge-base/Six-Week Day 11 - Protective Earthing Continuity and Equipotential Bonding Concepts.md`
+- `docs/learning-plans/6-week/modules/day-12-rest-retrieval-and-misconception-repair.md`
+- `docs/assets/learning/6-week/day-12-rest-retrieval-and-misconception-repair/confidence-is-not-evidence.svg`
+- `docs/knowledge-base/Six-Week Day 12 - Rest Retrieval and Misconception Repair.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 11 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact classifications, required connections, conductor requirements, continuity criteria, bonding arrangements, exceptions, test methods and jurisdiction-specific duties require current authorised information and qualified review.
-- B-O-N-D-S, the evidence and claim grades, protective-relationship ledger, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
+- Day 12 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact earthing and MEN definitions, arrangements, connection requirements, current paths, continuity criteria, test methods, values and jurisdiction-specific duties require current authorised information and qualified review.
+- R-E-P-A-I-R, the evidence states, misconception-repair ledger, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
 - No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
 - The module authorises no opening, cover removal, isolation, proving, testing, resistance or continuity measurement, conductor tracing, bridging, disconnection, reconnection, alteration, repair, energisation, commissioning or verification.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 12–42.
-- Quality-improvement passes completed: Days 1–11.
+- Modules awaiting one quality-improvement pass: Days 13–42.
+- Quality-improvement passes completed: Days 1–12.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 11 retains the exact eight required beats and compatible YAML metadata.
-- Objectives are observable, assessment-focused and aligned with the Week 2 earthing sequence.
-- Three Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
-- Module and note navigation are reciprocal and point to Days 10 and 12.
+- Day 12 retains the exact eight required beats and compatible YAML metadata.
+- The rest block adds no unnecessary electrical theory and remains bounded to retrieval, selective repair, catch-up triage, fatigue management and readiness.
+- Two Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
+- Module and note navigation are reciprocal and point to Days 11 and 13.
 - Both SVGs use white backgrounds, black line art, semantic image metadata, descriptive alt text and instructional captions.
-- Five evidence grades, four claim grades, five claim layers and explicit reopening triggers prevent a visible connection from becoming an unsupported continuity or compliance claim.
-- Worked-example fading, changed-condition transfer and delayed retrieval are included without adding unverified practical procedures.
+- Five evidence states, a misconception-repair ledger and explicit reopening triggers prevent confidence or a copied correction from becoming an unsupported claim.
+- Worked-example fading, changed-scenario transfer and delayed retrieval are included without adding unverified practical procedures.
 - The rubric includes critical-error gates and the educational threshold is explicitly distinguished from an official RTO pass mark.
 - Safety and copyright boundaries remain explicit.
 
@@ -84,4 +85,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 12: Rest, Retrieval and Misconception Repair**
+**Quality-improvement pass — Day 13: Earthing Defect Scenarios and Consequence Analysis**
