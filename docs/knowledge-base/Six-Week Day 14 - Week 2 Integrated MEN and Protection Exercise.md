@@ -8,17 +8,20 @@ tags:
   - protection
   - integration
 status: review-required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
+quality_passes:
+  - date: 2026-07-15
+    type: substantive-educational-quality-pass
 ---
 
 # Six-Week Day 14 — Week 2 Integrated MEN and Protection Exercise
 
 ## Purpose
 
-This note supports cumulative paper-based reasoning across earthing terminology, MEN models, normal and fault paths, protective earthing, bonding, protective-device roles and evidence control. It does not authorise practical work or establish the condition of any real installation.
+This note supports cumulative paper-based reasoning across earthing terminology, MEN models, normal and fault paths, protective earthing, bonding, protective-device roles, evidence control and dependency reopening. It does not authorise practical work or establish the condition of any real installation.
 
 ## Core model
 
@@ -28,15 +31,15 @@ Use **I-N-T-E-G-R-A-T-E**:
 - **Name each intended role** — keep normal-current, protective-earthing, bonding, overcurrent, residual-current and work-control functions distinct.
 - **Trace normal and possible fault paths separately** — mark every unverified connection or condition.
 - **Evaluate each protection layer** — state its purpose and limitation.
-- **Grade every claim** — observed, derived, conditional, supported or `reference_check_required`.
-- **Recheck against current authorised sources** — identify which source family governs each exact claim.
-- **Apply a changed condition** — revise only the reasoning genuinely affected.
-- **Trigger stop and escalation boundaries** — do not turn paper analysis into unauthorised work.
-- **Explain the final bounded conclusion** — state what is known, plausible, missing and safely escalated.
+- **Grade evidence and claims** — apply the five evidence grades and four claim grades consistently.
+- **Record dependencies and reopening triggers** — identify what must remain true for each claim to stand.
+- **Apply current authorised source checks** — match exact claims to the governing source family and competent evidence.
+- **Test a changed condition** — revise only the reasoning genuinely affected.
+- **Explain the bounded conclusion and stop boundary** — state what is known, conditional, missing and outside learner authority.
 
 The central rule is:
 
-> A complete explanation must align current path, protection role and evidence strength. A drawing or named device cannot prove continuity, suitability or protective operation by itself.
+> An integrated conclusion is only as strong as its weakest material dependency. A drawing, label, device symbol or historical result cannot prove continuity, suitability or protective operation by itself.
 
 ## Prerequisites
 
@@ -58,6 +61,23 @@ The central rule is:
 - [[Safety Boundaries]]
 - [[Six-Week Day 15 - Load Identification and Maximum-Demand Workflow]]
 
+## Evidence grades
+
+1. **Supplied** — directly stated or shown in the fictional scenario.
+2. **Corroborated** — supported by more than one compatible supplied source.
+3. **Derived** — reasoned from supplied facts with the inference shown.
+4. **Assumed** — necessary for the reasoning but not supplied or verified.
+5. **Missing or conflicting** — absent, stale, incompatible or unresolved.
+
+## Claim grades
+
+1. **Descriptive** — reports what the scenario states or shows.
+2. **Conditional** — explains what may follow if named dependencies are true.
+3. **Supported within the fictional facts** — justified by the supplied scenario and bounded to it.
+4. **Authorised verification required** — depends on current sources, competent inspection, test evidence or practical authority.
+
+Evidence grades describe support. Claim grades describe the strength and boundary of the conclusion. Neither is a compliance determination.
+
 ## Integration layers
 
 A defensible response keeps these layers separate:
@@ -66,27 +86,37 @@ A defensible response keeps these layers separate:
 2. **Role layer** — what each conductor, connection or device is intended to do.
 3. **Path layer** — normal current and conceptual fault current traced separately.
 4. **Protection layer** — the harm each control is intended to limit.
-5. **Claim layer** — the strongest wording justified by the evidence.
-6. **Authority layer** — the point where current sources, competent inspection, testing or authorised action are required.
+5. **Dependency layer** — the facts that must remain true for the reasoning to stand.
+6. **Claim layer** — the strongest wording justified by the evidence.
+7. **Authority layer** — the point where current sources, competent inspection, testing or authorised action are required.
 
 Collapsing these layers creates overclaims such as “the RCD proves the earthing is effective” or “the drawing omission proves non-compliance.”
 
-## Evidence gates
+## Dependency and reopening model
 
-Before strengthening an integrated claim, check:
+A **dependency** is a material fact or condition supporting a claim. A **reopening trigger** is new or changed information that makes the earlier conclusion provisional again.
 
-- identity and classification;
-- intended role;
-- required connection;
-- actual connection;
-- continuity;
-- suitability;
-- source and installation conditions;
-- device characteristics;
-- current inspection or test evidence; and
-- the learner's authority to act.
+Typical dependencies include:
 
-Not every scenario requires every gate, but any gate material to the conclusion must be identified rather than assumed.
+- source arrangement and installation boundary;
+- component and conductor identity;
+- required and actual connection locations;
+- continuity and current physical condition;
+- device type, characteristics and coordination context;
+- approved drawing or record currency;
+- absence of subsequent alteration; and
+- learner authority and evidence scope.
+
+Typical reopening triggers include a changed source, revised drawing, replaced device, altered conductor route, stale record, conflicting observation or missing inspection history.
+
+## Integration ledger
+
+For each material claim, record:
+
+| Claim | Evidence grade | Claim grade | Dependencies | Missing or conflicting evidence | Reopening trigger | Current authorised source or competent evidence needed |
+|---|---|---|---|---|---|---|
+
+The ledger is an educational reasoning-control tool, not a certificate or technical approval.
 
 ## Practical application
 
@@ -96,15 +126,16 @@ For one original fictional installation, produce:
 |---|---|
 | Supplied facts | Drawings, labels, records and observations only |
 | Role map | Normal-current, protective-earthing, bonding and device roles |
-| Normal path | Intended operational current loop |
+| Normal path | Intended operational current loop with assumptions marked |
 | Fault path | Conditional current path with evidence gaps marked |
 | Protection layers | Purpose and limitation of each relevant layer |
-| Claim grades | Observed, derived, conditional, supported or unresolved |
-| Source needs | Current authorised source family for each exact claim |
-| Changed condition | One altered fact and the claims that must change |
+| Evidence and claim grades | Consistent grading for every material conclusion |
+| Dependency ledger | Facts that must remain true and triggers that reopen the claim |
+| Source needs | Current authorised source family or competent evidence for each exact claim |
+| Changed condition | One altered fact and only the claims that must change |
 | Final boundary | Bounded conclusion, stop conditions and escalation |
 
-Then revisit the scenario after 48 hours and identify one hidden assumption or skipped evidence gate.
+Then revisit the scenario after 48 hours and identify one hidden assumption, skipped dependency or incorrectly graded claim.
 
 ## Assessment relevance
 
@@ -114,13 +145,25 @@ A strong learner response:
 - keeps normal and protective paths distinct;
 - distinguishes protective-earthing, bonding, overcurrent and residual-current roles;
 - marks unverified links explicitly;
+- applies evidence and claim grades consistently;
+- records dependencies and reopening triggers;
 - avoids claiming device operation from a conceptual path;
 - matches exact claims to current authorised source families;
 - revises only affected claims after a fact changes;
 - writes a concise bounded conclusion; and
 - applies an explicit practical stop boundary.
 
-The module uses a 20-point educational rubric. It is not an official RTO pass mark.
+The module uses a 12-point educational rubric with critical-error gates. It is not an official RTO pass mark.
+
+## Critical errors
+
+The response is not educationally satisfactory if it:
+
+- merges neutral and protective-earthing roles;
+- treats a drawing, label or historical record as proof of current continuity or suitability;
+- treats a conceptual fault path as proof of required device operation;
+- invents an exact clause, value, test result or official assessment requirement; or
+- proposes unauthorised opening, isolation, testing, resetting, alteration, repair or energisation.
 
 ## Common misconceptions
 
@@ -130,7 +173,8 @@ The module uses a 20-point educational rubric. It is not an official RTO pass ma
 - An RCD proves effective earthing or complete overcurrent protection.
 - A plausible fault path proves the device will operate as required.
 - Missing drawing information proves a physical defect or non-compliance.
-- One historical result proves current condition.
+- One historical result proves current condition indefinitely.
+- One changed fact invalidates every conclusion.
 - Correct paper reasoning authorises inspection, testing or repair.
 
 ## Safety and review boundary
