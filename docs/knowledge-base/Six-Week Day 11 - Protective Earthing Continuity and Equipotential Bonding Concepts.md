@@ -7,10 +7,12 @@ tags:
   - bonding
   - continuity
 status: review-required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
+quality_passes:
+  - 2026-07-15-substantive-quality-improvement
 ---
 
 # Six-Week Day 11 — Protective Earthing Continuity and Equipotential Bonding Concepts
@@ -26,8 +28,8 @@ Use **B-O-N-D-S**:
 - **Bound the scenario and source context** — identify equipment, conductive parts, drawings and evidence limits.
 - **Observe and classify each relevant part** — distinguish exposed conductive parts, candidate extraneous conductive parts, protective conductors, bonding conductors and unrelated metalwork.
 - **Name the intended protective role** — state whether the claim concerns protective earthing continuity, potential equalisation, both under separate evidence, or neither.
-- **Demand evidence for every claim layer** — separate identity, connection, continuity, condition and suitability.
-- **State the bounded conclusion and stop point** — classify the conclusion as supported, conditional or unsupported and record missing evidence.
+- **Demand evidence for every claim layer** — separate identity, connection, continuity, condition and suitability; grade every dependency.
+- **State the bounded conclusion and stop point** — use descriptive, provisional or supported paper reasoning and record missing authorised evidence.
 
 The central rule is:
 
@@ -61,13 +63,38 @@ An exposed conductive part belongs to electrical equipment and may become live u
 
 These are separate claim layers. A learner must not silently upgrade a visible conductor or drawing into proof of electrical continuity or compliance.
 
-## Evidence grades
+## Evidence and claim control
 
-- **Grade A — scenario fact:** supplied labels, stated equipment construction, approved learning drawing or provided record.
-- **Grade B — applicable authorised evidence:** current requirements, approved design, competent inspection or test evidence, manufacturer information, network information or competent direction.
-- **Grade C — assumption:** colour, appearance, proximity, familiar layout, presumed continuity or guessed classification.
+### Five evidence grades
 
-Grade C can generate a question but cannot prove a safety-critical outcome.
+- **Grade 1 — directly supplied:** explicit scenario facts, labelled learning drawings, stated equipment construction or provided records.
+- **Grade 2 — corroborated:** independent supplied sources agree and apply to the same item and arrangement.
+- **Grade 3 — derived:** a transparent conclusion follows from supplied facts and stated dependencies.
+- **Grade 4 — assumed:** colour, appearance, proximity, familiar layout, presumed continuity or guessed classification.
+- **Grade 5 — missing or conflicting:** required evidence is absent, ambiguous, stale or inconsistent.
+
+Grades 4 and 5 can generate a question or stop condition. They cannot prove a safety-critical outcome.
+
+### Four claim grades
+
+- **Descriptive:** reports what the scenario states or shows.
+- **Provisional:** proposes a role while naming unresolved dependencies.
+- **Supported paper reasoning:** supplied evidence supports a bounded educational conclusion.
+- **Authorised verification:** requires current requirements, competent inspection or testing, approved procedures and qualified judgement.
+
+Automated learning content cannot award authorised verification.
+
+## Protective-relationship ledger
+
+Track each conclusion against:
+
+1. part classification;
+2. connection identity;
+3. intended protective purpose;
+4. continuity and condition evidence;
+5. suitability against current authorised requirements.
+
+Reopen the affected claim when equipment construction, external-potential evidence, source arrangement, routing, termination, continuity evidence, damage, alteration or applicable requirements change.
 
 ## Practical application
 
@@ -76,11 +103,13 @@ For a fictional trainer-created scenario:
 1. classify each relevant conductive part;
 2. state the claimed protective role of each connection;
 3. separate identity, connection, continuity, condition and suitability claims;
-4. grade the evidence for each claim;
-5. identify what remains missing;
+4. grade the evidence and claim level;
+5. record every dependency in the ledger;
 6. change one condition, such as equipment construction, service isolation, source arrangement or reported corrosion;
-7. reassess every affected claim layer;
+7. reopen and reassess every affected claim;
 8. write a bounded conclusion and escalation statement.
+
+After at least 24 hours, repeat with a varied scenario and reconstruct B-O-N-D-S without prompts.
 
 ## Assessment relevance
 
@@ -91,10 +120,11 @@ A strong response:
 - does not use colour or appearance as proof;
 - identifies the intended role before discussing continuity;
 - keeps continuity separate from suitability and compliance;
-- revises the conclusion when equipment, source or connection evidence changes;
+- grades evidence and limits the claim accordingly;
+- reopens the conclusion when equipment, source, connection or condition evidence changes;
 - states uncertainty, authority limits and stop conditions.
 
-The module uses a 12-point educational rubric. It is not an official RTO pass mark.
+The module uses a six-category, 12-point educational rubric with critical-error gates. It is not an official RTO pass mark.
 
 ## Common misconceptions
 
@@ -104,6 +134,7 @@ The module uses a 12-point educational rubric. It is not an official RTO pass ma
 - A drawing proves the installed condition.
 - Every incoming metallic service is automatically extraneous.
 - Continuity alone proves suitability or compliance.
+- A previous conclusion remains valid after a dependency changes.
 
 ## Safety and review boundary
 
