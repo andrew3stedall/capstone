@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–58, ending with Day 58 — Visual Inspection Categories and Defect Recording.
-- **Current block:** Days 56–58 completed in this cycle.
-- **Next block:** Day 59 — Test Purposes, Dependencies and Safe Sequencing Concepts.
+- **Completed:** Days 1–59, ending with Day 59 — Test Purposes, Dependencies and Safe Sequencing Concepts.
+- **Current block:** Day 59 completed in this cycle.
+- **Next block:** Day 60 — Instrument Suitability, Limitations and Pre-Use Evidence.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged. PR #7 targets the four-week branch and should be retargeted after that work reaches the default branch.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -42,42 +42,38 @@ updated_on: 2026-07-15
 | 57 — 2026-07-15 | Day 56 — Week 8 cumulative design and inspection checkpoint | Added C-H-E-C-K-S, integrated workflow selection, evidence separation, dependency reopening, staged changes, remediation rubric, note and accessible SVG. | Create Day 57. |
 | 58 — 2026-07-15 | Day 57 — Verification purpose, evidence types and responsibility boundaries | Added V-E-R-I-F-Y, four evidence streams, responsibility and dependency boundaries, bounded verification planning, note and accessible SVG. | Create Day 58. |
 | 59 — 2026-07-15 | Day 58 — Visual inspection categories and defect recording | Added O-B-S-E-R-V-E, observation/interpretation/finding distinctions, traceable defect-candidate recording, changed-context transfer, rubric, note and accessible SVG. | Create Day 59. |
+| 60 — 2026-07-15 | Day 59 — Test purposes, dependencies and safe sequencing concepts | Added P-U-R-P-O-S-E, verification-question framing, prerequisite and dependency gates, rationale-based sequencing, changed-source transfer, rubric, note and accessible SVG. | Create Day 60. |
 
 ## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md`
-- `docs/assets/learning/12-week/week-8-cumulative-design-and-inspection-checkpoint/connect-after-separating.svg`
-- `docs/knowledge-base/12-Week Day 56 - Week 8 Cumulative Design and Inspection Checkpoint.md`
-- `docs/learning-plans/12-week/modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md`
-- `docs/assets/learning/12-week/verification-purpose-evidence-types-and-responsibility-boundaries/one-result-is-not-the-whole-case.svg`
-- `docs/knowledge-base/12-Week Day 57 - Verification Purpose, Evidence Types and Responsibility Boundaries.md`
+- `docs/learning-plans/12-week/modules/day-59-test-purposes-dependencies-and-safe-sequencing-concepts.md`
+- `docs/assets/learning/12-week/test-purposes-dependencies-and-safe-sequencing-concepts/question-before-sequence.svg`
+- `docs/knowledge-base/12-Week Day 59 - Test Purposes, Dependencies and Safe Sequencing Concepts.md`
 - `docs/learning-plans/12-week/modules/day-58-visual-inspection-categories-and-defect-recording.md`
-- `docs/assets/learning/12-week/visual-inspection-categories-and-defect-recording/observe-before-naming.svg`
-- `docs/knowledge-base/12-Week Day 58 - Visual Inspection Categories and Defect Recording.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 56 tests cumulative Week 8 reasoning through workflow selection, dependency control and staged changes rather than repeating topic summaries.
-- Day 57 introduces verification as coordinated evidence and responsibility reasoning, explicitly avoiding field procedures and acceptance values.
-- Day 58 separates neutral observation, interpretation, defect candidate and formal finding while requiring traceable location, provenance and limitations.
-- All examples, diagrams, matrices and rubrics are independently created and avoid copied standards content or official assessment material.
+- Day 59 starts with verification questions and evidence dependencies rather than a memorised test list or instrument-led procedure.
+- The sequence model is explicitly installation-specific and requires a documented rationale for every ordering dependency.
+- The module separates purpose, method, result, interpretation and conclusion, and stops before field procedure, instrument connection or acceptance values.
+- The scenario uses original fictional evidence and cannot substitute for authorised standards, procedures or qualified supervision.
 
 ## Review flags
 
-- Days 56–58 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact design, special-location, alternative-supply, inspection, verification, responsibility, acceptance, defect-classification and documentation requirements require qualified checking against current authorised sources.
-- No standards table, figure, systematic clause sequence, official zone diagram, exact official value, field procedure, official checklist or official assessment material was reproduced.
-- The modules authorise no site classification, design approval, access, opening, dismantling, switching, isolation, proving de-energised, testing, instrument use, alteration, repair, energisation, commissioning, certification or verification.
+- Day 59 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact verification purposes, prerequisites, test sequences, methods, instrument configurations, acceptance values and documentation requirements require qualified checking against current authorised sources.
+- No standards table, official sequence, copied figure, systematic clause wording, exact test value, field procedure, official checklist or official assessment material was reproduced.
+- The module authorises no access, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings in Days 56–58.
-- Checked Mermaid fences, flow directions, decision branches and nearby explanations.
-- Checked each SVG for a white background, black line art, semantic title, description, useful alt text and instructional purpose.
-- Checked module and knowledge-note sequence across Days 55–59.
-- Checked master-plan links and exactly one next increment.
+- Confirmed the exact eight required headings in Day 59.
+- Checked the Mermaid flow direction, decision branch and nearby explanation.
+- Checked the SVG for a white background, black line art, semantic title, description, useful alt text and instructional purpose.
+- Checked module sequence and reciprocal navigation between Days 58 and 59; Day 60 remains the next planned note and module.
+- Checked master-plan linkage and exactly one next increment.
 - Checked terminology, observable objectives, worked-example fading, changed-context transfer, copyright transformation, safety boundaries and technical-review flags.
 - The GitHub contents connector generated one commit per file write; a single consolidated commit was not available through this interface.
 
