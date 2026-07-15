@@ -24,8 +24,8 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–3.
-- Exactly one next increment: quality-improvement pass — Day 4, Overload and Short-Circuit Protection Reasoning.
+- Completed quality passes: Days 1–4.
+- Exactly one next increment: quality-improvement pass — Day 5, Rest, Retrieval and Source-Navigation Correction.
 
 ## Completed increments
 
@@ -34,37 +34,38 @@ pull_request: 6
 | Quality-improvement pass — Day 1 | Added authority-versus-applicability reasoning, evidence and claim statuses, source-applicability checks, changed-scenario transfer, delayed retrieval, a 12-point rubric, critical-error gates and aligned vault metadata. |
 | Quality-improvement pass — Day 2 | Strengthened the hazard-to-consequence chain; added initiating events, six control-state questions, five evidence grades, worked-example fading, delayed and changed-scenario retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible control-evidence visual. |
 | Quality-improvement pass — Day 3 | Strengthened symptom-versus-diagnosis reasoning; added five evidence grades, four claim grades, classification reopening logic, worked-example fading, changed-scenario and delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible evidence-before-diagnosis visual. |
+| Quality-improvement pass — Day 4 | Added five evidence grades, four claim grades, separate overload and short-circuit evidence chains, dependency reopening logic, worked-example fading, changed-scenario and delayed retrieval, a 12-point rubric, critical-error gates, aligned vault metadata and an accessible rated-current-versus-breaking-capacity visual. |
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-03-fundamental-protection-concepts-and-fault-types.md`
-- `docs/assets/learning/6-week/day-03-fundamental-protection-concepts-and-fault-types/symptom-is-not-diagnosis.svg`
-- `docs/knowledge-base/Six-Week Day 03 - Fundamental Protection Concepts and Fault Types.md`
+- `docs/learning-plans/6-week/modules/day-04-overload-and-short-circuit-protection-reasoning.md`
+- `docs/assets/learning/6-week/day-04-overload-and-short-circuit-protection-reasoning/rating-is-not-breaking-capacity.svg`
+- `docs/knowledge-base/Six-Week Day 04 - Overload and Short-Circuit Protection Reasoning.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 3 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Current thresholds, protective-device characteristics, disconnection requirements, fault-current calculations, verification procedures, source applicability and assessment arrangements require authorised current information and qualified review.
-- F-A-U-L-T, the evidence and claim grades, classification record, scenarios, Mermaid diagrams and rubric are original educational models.
-- No standards tables, copied figures, systematic clause wording, exact official values, official assessment content or practical field procedure were reproduced.
-- The module authorises no opening, resetting, isolation, proving, testing, fault creation, bridging, disconnection, repair, device replacement, alteration or energisation.
+- Day 4 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact current relationships, conductor capacities, correction factors, prospective-current methods, breaking capacities, operating characteristics, fault-duration limits, coordination requirements, source applicability and assessment arrangements require authorised current information and qualified review.
+- C-L-E-A-R, the evidence and claim grades, evidence chains, fictional scenarios, Mermaid diagrams and rubric are original educational models.
+- No standards table, copied figure, device curve, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
+- The module authorises no opening, isolation, proving, testing, fault creation, bridging, resetting, disconnection, replacement, alteration, energisation or prospective-fault-current measurement.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 4–42.
-- Quality-improvement passes completed: Days 1–3.
+- Modules awaiting one quality-improvement pass: Days 5–42.
+- Quality-improvement passes completed: Days 1–4.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 3 retains the exact eight required beats and compatible YAML metadata.
-- Objectives are observable and distinguish symptoms, current paths, mechanisms, consequences, protection purposes, evidence grades and claim grades.
+- Day 4 retains the exact eight required beats and compatible YAML metadata.
+- Objectives are observable and distinguish mechanisms, current paths, protection purposes, evidence grades, claim grades and reopening triggers.
 - Both Mermaid diagrams use standard flowchart syntax and distinct node identifiers.
-- Module and note navigation remain reciprocal and point to Days 2 and 4.
+- Module and note navigation remain reciprocal and point to Days 3 and 5.
 - The new SVG uses a white background, black line art, semantic image metadata, descriptive alternative text and an instructional caption.
-- Changed-scenario transfer and delayed retrieval support spacing and classification reopening rather than answer memorisation.
+- Changed-scenario transfer and delayed retrieval support dependency reopening rather than numerical-pattern memorisation.
 - Safety and copyright boundaries remain explicit.
 
 ## Commit behaviour
@@ -74,4 +75,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 4: Overload and Short-Circuit Protection Reasoning**
+**Quality-improvement pass — Day 5: Rest, Retrieval and Source-Navigation Correction**
