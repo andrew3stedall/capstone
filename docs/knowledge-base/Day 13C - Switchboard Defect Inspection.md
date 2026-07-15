@@ -2,13 +2,17 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
 ---
 
 # Day 13C - Switchboard Defect Inspection
+
+Day 13C converts the assembly reasoning from [[Day 13B - Switchboard Construction and Arrangements]] into a bounded external-inspection and reporting method. The emphasis is objective evidence, urgency without invented certainty, and authorised escalation.
 
 ## Learning module
 
@@ -20,30 +24,79 @@ technical_reviewer: pending
 - [[Day 13A - Switching Isolation and Main Switches]]
 - [[Safety and Electrical Risk]]
 
-## Core concepts
+## S-I-G-N-S workflow
 
-- Observation, indicator, defect conclusion and cause are different evidence levels.
-- A bounded review organises identity, enclosure, visible equipment, entries, environmental signs, source warnings and surrounding access into evidence zones.
-- The **S-I-G-N-S** workflow is: Set the boundary; Inspect by evidence zone; Gather objective signs; Name the evidence gap and urgency; Stop, secure and report.
-- Similar appearances do not establish identical causes.
-- Reports should state location, observable condition, extent, evidence conflicts and the next authorised action.
-- Physical intervention is outside this learning block.
+1. **Set** the boundary, known sources, documents and prohibited actions.
+2. **Inspect** by visible evidence zone.
+3. **Gather** objective location–condition–extent records.
+4. **Name** urgency, evidence grade, claim grade and missing evidence.
+5. **Stop**, secure and report through the authorised process.
+
+## Core distinctions
+
+- **Observation:** directly visible or document-supported fact.
+- **Indicator:** observation that may point to a concern.
+- **Defect conclusion:** evidence-backed statement that a requirement is not met.
+- **Cause:** explanation requiring more evidence than appearance alone.
+- **Urgency:** how quickly control or escalation may be needed.
+- **Certainty:** how strongly the evidence supports the claim.
+
+An urgent condition can have an unresolved cause. Absence of visible damage does not establish safe internal condition.
+
+## Evidence and claim grades
+
+### Evidence grades
+
+- observed;
+- documented;
+- corroborated;
+- assumed;
+- missing.
+
+### Claim grades
+
+- described;
+- supported;
+- verified;
+- unresolved.
 
 ## Practical application
 
-Use a fictional photograph and document pack to separate objective observations from hypotheses, identify source and access uncertainties, assign provisional urgency without inventing an official defect code, and prepare a bounded handover.
+Use a fictional photograph and document pack to:
+
+1. define the external boundary and sources;
+2. review identity, enclosure, visible equipment, openings, entries, environmental signs, source warnings and access;
+3. record observations in location–condition–extent form;
+4. separate urgency from certainty;
+5. identify evidence gaps;
+6. prepare a bounded handover;
+7. reopen conclusions when a new source, record or observation appears.
 
 ## Assessment relevance
 
-The learner should be able to review a paper or externally visible scenario systematically, recognise safety indicators, document evidence gaps and stop at access or competence boundaries. Exact classifications, procedures, reporting duties and acceptance criteria remain `reference_check_required`.
+The module uses a six-category, 12-point educational rubric covering boundary, observation quality, evidence discipline, urgency reasoning, handover and safety communication. Critical errors override the numerical result. This is not an official assessment rule.
+
+## Misconceptions to track
+
+- Discolouration proves a loose termination.
+- A damaged label proves the circuit itself is defective.
+- An urgent response requires a known cause.
+- No visible damage means the board is safe.
+- A photograph proves hidden construction.
+- An old defect code can be reused without checking current criteria.
+- External review permits opening or touching the board.
 
 ## Related concepts
 
 - [[Inspection Testing and Verification]]
 - [[Fault Finding and Commissioning]]
 - [[Wiring Rules and Design]]
-- [[Day 13B - Switchboard Construction and Arrangements]]
+- [[Safety and Electrical Risk]]
 - [[Day 14 - Week 2 Integrated Design Exercise]]
+
+## Safety boundary
+
+This learning block authorises no opening, touching, testing, isolation, alteration or energisation. Smoke, burning smell, arcing sound, water entry, severe damage, accessible exposed conductive parts, uncertain source status, unexpected operation, recent-heat indicators or any need to cross the access boundary require immediate stop and authorised escalation.
 
 ## Navigation
 
@@ -57,7 +110,7 @@ The learner should be able to review a paper or externally visible scenario syst
 - Manufacturer information, current drawings, schedules and source records.
 - RTO directions and supervised inspection procedures.
 
-No standards wording, official defect codes, acceptance values or practical procedures are reproduced. This note is not `technically-reviewed`.
+No standards wording, official defect codes, acceptance values or practical procedures are reproduced. Exact defect categories, inspection procedures, access controls, emergency responses, reporting duties and acceptance criteria remain `reference_check_required`. This note is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
