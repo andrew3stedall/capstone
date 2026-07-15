@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–46, ending with Day 46 — Fixed Appliances and Local Isolation Reasoning.
-- **Current block:** Days 44–46 completed in this cycle.
-- **Next block:** Day 47 — Rest, Retrieval and Installation-Defect Correction.
+- **Completed:** Days 1–49, ending with Day 49 — Week 7 Installation Planning Exercise.
+- **Current block:** Days 47–49 completed in this cycle.
+- **Next block:** Day 50 — Special-Location Method: Classify, Map Zones and Verify Sources.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -30,44 +30,47 @@ updated_on: 2026-07-15
 | 45 — 2026-07-15 | Day 44 — Environmental influences, segregation and support concepts | Added S-E-P-A-R-E, condition segmentation, segregation-purpose reasoning, support and transition evidence, faded practice, note and accessible SVG. | Create Day 45. |
 | 46 — 2026-07-15 | Day 45 — Consumer mains, submains and final subcircuits | Added T-R-A-C-E, source-to-load boundaries, functional circuit classification, protection dependencies, alternate-source transfer, note and accessible SVG. | Create Day 46. |
 | 47 — 2026-07-15 | Day 46 — Fixed appliances and local isolation reasoning | Added A-P-P-L-Y, appliance and energy boundaries, control-versus-isolation reasoning, multiple-source reopening, note and accessible SVG. | Create Day 47. |
+| 48 — 2026-07-15 | Day 47 — Rest, retrieval and installation-defect correction | Added R-E-C-O-V-E-R, closed-note retrieval, causal error triage, three-repair limit, fatigue stop rules, note and accessible SVG. | Create Day 48. |
+| 49 — 2026-07-15 | Day 48 — Motors, associated protection and control boundaries | Added M-O-T-O-R-S, power/control/protection boundaries, operating-state mapping, driven-equipment reasoning, note and accessible SVG. | Create Day 49. |
+| 50 — 2026-07-15 | Day 49 — Week 7 installation planning exercise | Added P-L-A-N-I-T, integrated design basis, evidence ledger, dependency reopening, cumulative rubric, note and accessible SVG. | Create Day 50. |
 
 ## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-44-environmental-influences-segregation-and-support-concepts.md`
-- `docs/assets/learning/12-week/environmental-influences-segregation-and-support-concepts/classify-before-you-route.svg`
-- `docs/knowledge-base/12-Week Day 44 - Environmental Influences, Segregation and Support Concepts.md`
-- `docs/learning-plans/12-week/modules/day-45-consumer-mains-submains-and-final-subcircuits.md`
-- `docs/assets/learning/12-week/consumer-mains-submains-and-final-subcircuits/follow-the-boundary.svg`
-- `docs/knowledge-base/12-Week Day 45 - Consumer Mains, Submains and Final Subcircuits.md`
+- `docs/learning-plans/12-week/modules/day-47-rest-retrieval-and-installation-defect-correction.md`
+- `docs/assets/learning/12-week/rest-retrieval-and-installation-defect-correction/repair-three-not-everything.svg`
+- `docs/knowledge-base/12-Week Day 47 - Rest, Retrieval and Installation-Defect Correction.md`
+- `docs/learning-plans/12-week/modules/day-48-motors-associated-protection-and-control-boundaries.md`
+- `docs/assets/learning/12-week/motors-associated-protection-and-control-boundaries/map-the-whole-motor-system.svg`
+- `docs/knowledge-base/12-Week Day 48 - Motors, Associated Protection and Control Boundaries.md`
+- `docs/learning-plans/12-week/modules/day-49-week-7-installation-planning-exercise.md`
+- `docs/assets/learning/12-week/week-7-installation-planning-exercise/connect-the-decisions.svg`
+- `docs/knowledge-base/12-Week Day 49 - Week 7 Installation Planning Exercise.md`
 - `docs/learning-plans/12-week/modules/day-46-fixed-appliances-and-local-isolation-reasoning.md`
-- `docs/assets/learning/12-week/fixed-appliances-and-local-isolation-reasoning/control-is-not-proof-of-isolation.svg`
-- `docs/knowledge-base/12-Week Day 46 - Fixed Appliances and Local Isolation Reasoning.md`
-- `docs/learning-plans/12-week/modules/day-43-wiring-system-selection-and-mechanical-protection.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 44 treats segregation and support as responses to classified conditions and defined purposes, not generic construction details.
-- Day 45 classifies circuits from source, destination and function rather than conductor appearance, size or route length.
-- Day 46 separates normal control from documented isolation and requires every source, control path and relevant stored-energy condition to be included.
+- Day 47 introduces no new electrical theory and limits remediation to three blocking or high-confidence errors within a fixed recovery time box.
+- Day 48 treats a motor as a power, control, protection and driven-equipment system rather than a single load or button.
+- Day 49 requires an explicit design basis, evidence ledger, dependencies and changed-condition reopening across all Week 7 topics.
 - All examples, diagrams and rubrics are independently created and avoid copied standards content or official assessment material.
 
 ## Review flags
 
-- Days 44–46 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact environmental, segregation, support, circuit-definition, demand, protection, appliance, isolation, accessibility, rating and installation requirements require qualified checking against current authorised sources.
+- Days 47–49 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact motor, starting, overload, fault, control, isolation, conductor, routing, environmental, segregation, support, appliance and installation requirements require qualified checking against current authorised sources.
 - No standards table, figure, systematic clause sequence, exact official value, field procedure or official assessment material was reproduced.
-- The modules authorise no switching, isolation, opening, proving de-energised, testing, measurement, installation, alteration, repair, energisation, commissioning, certification or verification.
+- The modules authorise no switching, isolation, testing, adjustment, opening, installation, alteration, mechanical intervention, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings in Days 44–46.
+- Confirmed the exact eight required headings in Days 47–49.
 - Checked Mermaid fences, flow direction and labels.
 - Checked each SVG for white background, black line art, semantic title, description, useful alt text and instructional purpose.
-- Checked Day 43–46 module navigation and knowledge-note sequence.
+- Checked Day 46–49 module navigation and knowledge-note sequence.
 - Checked master-plan links and exactly one next increment.
-- Checked terminology, observable objectives, copyright transformation, safety boundaries and technical-review flags.
+- Checked terminology, observable objectives, rest-day scope, copyright transformation, safety boundaries and technical-review flags.
 
 ## Run rules
 
