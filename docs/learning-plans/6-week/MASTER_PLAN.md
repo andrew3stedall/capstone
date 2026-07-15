@@ -89,7 +89,8 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 ## Quality-improvement passes
 
 - [x] 2026-07-15 — [Day 1 — Program orientation, assessment map and source hierarchy](modules/day-01-program-orientation-assessment-map-and-source-hierarchy.md): strengthened authority-versus-applicability reasoning, evidence and claim statuses, source-applicability checks, changed-scenario transfer, delayed retrieval, a six-category 12-point rubric and aligned vault metadata.
-- [ ] Next — Day 2 — Hazard, risk, exposure and critical controls.
+- [x] 2026-07-15 — [Day 2 — Hazard, risk, exposure and critical controls](modules/day-02-hazard-risk-exposure-and-critical-controls.md): strengthened exposure-chain reasoning, added six control-state questions, evidence grades, worked-example fading, delayed and changed-scenario retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible control-evidence visual.
+- [ ] Next — Day 3 — Fundamental protection concepts and fault types.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
