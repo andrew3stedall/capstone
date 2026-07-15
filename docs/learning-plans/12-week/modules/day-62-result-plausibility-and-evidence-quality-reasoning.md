@@ -179,6 +179,6 @@ Regrade the fictional record after discovering that the modification occurred be
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 62 - Result Plausibility and Evidence-Quality Reasoning]]
 - **Previous:** [Day 61 — Rest, Retrieval and Sequence Reconstruction](day-61-rest-retrieval-and-sequence-reconstruction.md)
-- **Next:** Day 63 — Week 9 Verification Planning Checkpoint
+- **Next:** [Day 63 — Week 9 Verification Planning Checkpoint](day-63-week-9-verification-planning-checkpoint.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
