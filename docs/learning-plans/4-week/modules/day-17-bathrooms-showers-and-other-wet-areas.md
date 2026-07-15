@@ -5,15 +5,18 @@ domain: special-locations
 level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
+content_status: review-required
 standard_references:
   - standard: AS/NZS 3000
-    edition: 2018
-    clause: topic-reference-only
-reviewed_on: 2026-07-13
-status: review-required
+    edition: "2018"
+    clause: reference_check_required
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
+estimated_minutes: 60-75
 prerequisites:
   - day-04-rcd-protection-and-additional-protection
   - day-13a-switching-isolation-and-main-switches
@@ -21,290 +24,205 @@ prerequisites:
   - day-16-consumer-mains-submains-and-final-subcircuits
 related_modules:
   - day-18-other-special-installations-and-locations
-related_questions: []
-related_simulations: []
 ---
 
 # Day 17 — Bathrooms, Showers and Other Wet Areas
 
-> **Source and currency notice:** This is original educational material about evidence-based reasoning in wet locations. It is not a substitute for current authorised standards, legislation, regulator guidance, manufacturer instructions or RTO procedures. Exact zone boundaries, dimensions, equipment permissions, ingress-protection ratings, protection requirements, bonding arrangements and verification methods require current-source checking and qualified technical review.
+> **Source and safety notice:** This original paper-based module does not reproduce standards diagrams, dimensions or permissions. Exact zone geometry, reference points, equipment categories, ingress requirements, additional protection, switching, isolation, earthing, bonding, wiring and verification obligations require current authorised sources and qualified review. It is not `technically-reviewed`.
 
-## Beat 1 — Outcome and entry check
+## Navigation
 
-### What you will learn
+- **Previous:** [Day 16 — Consumer Mains, Submains and Final Subcircuits](./day-16-consumer-mains-submains-and-final-subcircuits.md)
+- **Next:** [Day 18 — Other Special Installations and Locations](./day-18-other-special-installations-and-locations.md)
 
-By the end of this block, you should be able to:
+## 1. Outcome and entry check
 
-1. explain why the presence and movement of water change electrical risk;
-2. build a provisional wet-area zone map from fixed installation features without inventing dimensions;
-3. separate equipment location, equipment suitability, circuit protection and installation-method questions;
-4. use current authorised sources to verify a proposed arrangement;
-5. write a bounded conclusion that clearly identifies assumptions and unresolved evidence.
+By the end of this block, the learner should be able to:
+
+1. identify fixed water features and geometry evidence before classifying a wet area;
+2. produce a provisional plan-and-elevation zone map without inventing dimensions;
+3. distinguish location, construction, circuit and installation suitability gates;
+4. grade evidence as observed, documented, manufacturer-verified, assumed or missing;
+5. grade claims as described, supported, verified or unresolved;
+6. apply **W-A-T-E-R** to each proposed item;
+7. reopen conclusions when geometry, equipment, water outlets or supply details change;
+8. state stop conditions without implying field authority.
 
 ### Entry check
 
-Answer without notes:
+1. Why is a room boundary not automatically a zone boundary?
+2. Why can an IP marking fail to prove installation permission?
+3. When are both plan and elevation views necessary?
+4. Which facts about a screen or barrier must be verified?
+5. What evidence gap prevents a final placement conclusion?
 
-1. Why can wet skin increase electric-shock consequence?
-2. What is the difference between a room boundary and an electrical zone boundary?
-3. Why is an equipment IP marking not, by itself, proof that installation is permitted?
-4. What protection questions should be asked before considering equipment placement?
-5. When should a drawing be treated as insufficient for a compliance decision?
+## 2. Why it matters
 
-Record confidence beside each answer. Correct high-confidence errors before continuing.
+Wet locations can combine water, wet skin, grounded surfaces, restricted movement and closely accessible equipment. The assessment task is not to recall one diagram; it is to derive the correct evidence question from fixed geometry and equipment function.
 
-## Beat 2 — Why it matters
+The governing model is:
 
-Bathrooms, showers and similar locations combine conductive water, wet skin, grounded surfaces, restricted movement and equipment that may be touched at close range. A design error can reduce the separation between a person and an energised part or place unsuitable equipment where splashing, spray, condensation or cleaning water is foreseeable.
+**water feature → verified geometry → provisional zone → equipment category → four gates → bounded claim**
 
-Assessment errors commonly arise when a learner:
+![A learner maps water features before placing electrical equipment](../../../assets/learning/4-week/day-17-bathrooms-showers-and-other-wet-areas/map-water-before-equipment.svg)
 
-- memorises one diagram but does not identify the actual fixed water outlet or enclosure geometry;
-- treats the entire room as one zone;
-- selects equipment from an IP label alone;
-- checks location but forgets circuit protection, wiring method, switching or manufacturer limits;
-- assumes a portable screen or movable fitting changes a fixed boundary;
-- quotes a remembered dimension without verifying the current source.
+## 3. Core concepts and terminology
 
-![Stick figure mapping water reach before placing electrical equipment](../../../assets/learning/4-week/day-17-bathrooms-showers-and-other-wet-areas/map-water-before-equipment.svg)
+### Provisional zone
 
-*Caption: Place the water source first. The equipment can wait its turn.*
+A **provisional zone** is a learner-created spatial classification based on supplied geometry and current authorised definitions. It is not a verified compliance result.
 
-## Beat 3 — Core concepts and terminology
+### Fixed geometry
 
-### Hazard model
+**Fixed geometry** includes the water outlet, vessel, enclosure, barrier and reference surfaces whose position and construction affect the classification.
 
-Wet-area reasoning begins with four interacting questions:
+### Four suitability gates
 
-- **Where can water originate?** Identify fixed outlets, vessels, shower fittings and foreseeable spray or overflow paths.
-- **Where can a person be exposed?** Consider standing, bathing, reaching and normal use without inventing behaviour.
-- **What electrical equipment is proposed?** Identify its function, supply, construction, location and accessibility.
-- **What safeguards apply together?** Consider location restrictions, equipment suitability, additional protection, wiring systems, isolation, earthing and verification.
+1. **Location:** is this equipment category permitted at the classified position?
+2. **Construction:** is its environmental and ingress suitability supported?
+3. **Circuit:** are supply, additional protection, switching, isolation and earthing suitable?
+4. **Installation:** are wiring, mounting, entries, supports and manufacturer conditions suitable?
 
-### Zones are evidence boundaries
+### Evidence grades
 
-A wet-area zone is not simply “near water.” It is a defined spatial classification derived from the relevant installation geometry and the current authorised rules. The classification may depend on features such as:
+- **Observed:** visible in the supplied plan, elevation or scenario.
+- **Documented:** stated in a current drawing, schedule or authorised record.
+- **Manufacturer-verified:** supported by applicable product information.
+- **Assumed:** plausible but unsupported.
+- **Missing:** required but unavailable.
 
-- the type and position of a bath, shower or fixed water outlet;
-- whether an enclosure or fixed barrier satisfies the applicable definition;
-- the relevant vertical and horizontal reference surfaces;
-- whether a feature is fixed, movable, open or enclosed;
-- the exact point from which a boundary is measured.
+### Claim grades
 
-Do not insert remembered dimensions into an exercise unless they have been checked against current authorised material.
+- **Described:** states what is shown.
+- **Supported:** gives a bounded conclusion from applicable evidence.
+- **Verified:** requires complete authorised evidence and qualified confirmation.
+- **Unresolved:** a material gap prevents the claim.
 
-### Four separate suitability gates
+## 4. Rule-finding workflow
 
-A proposed item must pass all relevant gates:
+Use **W-A-T-E-R**:
 
-1. **Location gate** — is this equipment category permitted in the classified position?
-2. **Construction gate** — does the equipment have the required environmental and ingress suitability?
-3. **Circuit gate** — are supply, additional protection, switching, isolation and earthing arrangements suitable?
-4. **Installation gate** — are wiring method, mounting, entries, supports and manufacturer conditions suitable?
-
-Passing one gate does not imply the others pass.
-
-## Beat 4 — Rule-finding workflow: W-A-T-E-R
-
-Use **W-A-T-E-R** to avoid jumping from a room sketch directly to an equipment verdict.
-
-1. **W — Water features:** identify every fixed water source, vessel, outlet and relevant enclosure.
-2. **A — Area geometry:** build a provisional map from verified reference points and fixed boundaries.
-3. **T — Type of equipment:** classify the proposed equipment, supply arrangement and intended use.
-4. **E — Evidence checks:** verify location, protection, construction, wiring and manufacturer requirements.
-5. **R — Record:** document the source, edition, assumptions, unresolved facts and bounded conclusion.
+1. **W — Water features:** identify every fixed outlet, vessel and relevant enclosure.
+2. **A — Area geometry:** verify reference points, dimensions and fixed boundaries.
+3. **T — Type of equipment:** classify function, supply and intended use.
+4. **E — Evidence gates:** check location, construction, circuit and installation requirements.
+5. **R — Record and reopen:** grade evidence and claims, record gaps and repeat after change.
 
 ```mermaid
 flowchart TD
-    A["Identify fixed water features"] --> B["Confirm physical geometry"]
+    A["Identify fixed water features"] --> B["Confirm plan and elevation geometry"]
     B --> C["Build provisional zone map"]
     C --> D["Classify proposed equipment"]
-    D --> E{"Current authorised rule located?"}
-    E -- No --> F["Record unresolved and stop conclusion"]
-    E -- Yes --> G["Check location construction circuit and installation gates"]
-    G --> H{"All evidence supports proposal?"}
-    H -- No --> I["Reject or redesign on paper"]
-    H -- Yes --> J["Record bounded verified conclusion"]
+    D --> E["Check location construction circuit and installation gates"]
+    E --> F{"Evidence complete and current?"}
+    F -->|"No"| G["Claim unresolved; request evidence"]
+    F -->|"Yes"| H["Write bounded supported claim"]
+    H --> I{"Geometry equipment or supply changed?"}
+    I -->|"Yes"| A
+    I -->|"No"| J["Retain claim within stated boundary"]
 ```
 
-### Source-search sequence
-
-For a paper exercise:
-
-1. mark every fixed bath, shower fitting, water outlet and enclosure;
-2. identify missing dimensions and ambiguous construction details;
-3. locate the current wet-area definitions and diagrams in authorised material;
-4. reproduce only your own simplified reasoning sketch, not the source figure;
-5. locate the rule for the proposed equipment category;
-6. check ingress, environmental and manufacturer requirements;
-7. check circuit protection, switching, isolation, earthing and wiring-system requirements;
-8. record edition, amendment, jurisdiction and date accessed;
-9. leave unsupported details unresolved.
-
-## Beat 5 — Visual model and worked example
-
-### Evidence dependency model
+## 5. Visual model or worked example
 
 ```mermaid
 flowchart LR
-    W["Fixed water feature"] --> Z["Provisional zone classification"]
+    W["Fixed water outlet"] --> Z["Provisional zone"]
     G["Measured geometry"] --> Z
-    B["Fixed barriers or enclosures"] --> Z
-    Z --> L["Location permission check"]
+    B["Verified fixed barrier"] --> Z
+    Z --> L["Location gate"]
     E["Equipment category"] --> L
-    E --> C["Construction suitability"]
-    P["Circuit and protection evidence"] --> V["Overall proposal review"]
+    E --> C["Construction gate"]
+    P["Circuit and protection evidence"] --> V["Overall review"]
     L --> V
     C --> V
-    M["Manufacturer instructions"] --> V
-    I["Wiring and installation method"] --> V
+    I["Installation and manufacturer evidence"] --> V
 ```
 
-### Fictional worked review
+A fictional renovation shows a shower outlet, partial screen, fan, luminaire and socket-outlet, but omits screen construction, key dimensions, product data and circuit details.
 
-A fictional renovation drawing shows a fixed shower outlet, a partial screen, a wall-mounted fan, a luminaire and a socket-outlet symbol. Several dimensions and the screen construction are missing.
-
-Apply W-A-T-E-R:
-
-| Step | Finding | Consequence |
+| Evidence item | Grade | Consequence |
 |---|---|---|
-| Water features | Fixed shower outlet is shown | It becomes a primary geometry reference, subject to current definitions |
-| Area geometry | Screen height, permanence and key distances are missing | No final zone map can be asserted |
-| Type of equipment | Fan, luminaire and socket-outlet are different categories | Each requires a separate rule and suitability review |
-| Evidence checks | Product data and circuit-protection details are absent | IP, location and protection compliance remain unresolved |
-| Record | Drawing is incomplete | Request dimensions, construction details, circuit data and authorised-source verification |
+| Fixed outlet position | Observed | Can anchor provisional reasoning |
+| Screen construction | Missing | Its effect on geometry is unresolved |
+| Equipment symbols | Observed | Categories still require confirmation |
+| Product suitability | Missing | Construction gate remains open |
+| Circuit protection | Missing | Circuit gate remains open |
 
-The correct result is not a guessed zone diagram. It is a clear statement that the available evidence cannot support a final placement decision.
+**Bounded conclusion:** the drawing supports an evidence request, not a final zone or placement verdict.
 
-## Beat 6 — Practical application
+### Worked-example fading
 
-### Scenario: accessible bathroom refurbishment
+A second plan includes complete dimensions but no elevation and no product schedule. Identify:
 
-A fictional plan contains:
+1. what can be described;
+2. what remains unresolved;
+3. which gate fails first for one item;
+4. one changed feature that forces the map to be rebuilt.
 
-- an open shower area with a fixed outlet;
-- a bath on an adjacent wall;
-- a fixed glass screen of unspecified dimensions;
-- a heated towel rail;
-- an exhaust fan;
-- two luminaires;
-- a mirror cabinet with an internal electrical function;
-- a socket-outlet proposed near the vanity;
-- a switch proposed inside the room;
-- no product schedules or circuit details.
+## 6. Practical application
 
-### Task A — Build the evidence sketch
+For a fictional accessible bathroom with a shower, bath, screen, towel rail, fan, luminaires, cabinet and socket-outlet, produce:
 
-Create an original plan and elevation sketch. Mark:
+1. an original plan and elevation;
+2. a fixed-feature and missing-dimension register;
+3. a provisional zone map without numerical limits;
+4. an evidence ledger for each item;
+5. a four-gate review;
+6. authorised-source and manufacturer evidence requests;
+7. a bounded claim for each item;
+8. a change-propagation note after moving the outlet or changing the screen.
 
-1. fixed water features;
-2. fixed and movable boundaries;
-3. every missing dimension;
-4. candidate zone reference surfaces without adding numerical limits;
-5. each proposed electrical item;
-6. the supply and switching information still required.
+### Assessment rubric
 
-### Task B — Apply the four gates
+Score each category from **0 to 2**.
 
-For every item, prepare a table with:
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Water features and geometry | Missing or invented | Partial | Complete evidence-led map |
+| Equipment classification | Generic labels | Some categories | Each item classified separately |
+| Four-gate reasoning | One factor only | Some gates | All gates connected |
+| Evidence discipline | Assumptions as facts | Inconsistent | Evidence and claims graded consistently |
+| Change propagation | Change ignored | Some reopening | Map and dependent claims rebuilt |
+| Safety communication | Field authority implied | General caution | Clear stop conditions and bounded claims |
 
-- candidate location classification;
-- equipment category;
-- location rule to verify;
-- construction or ingress evidence required;
-- circuit and additional-protection evidence required;
-- switching or isolation evidence required;
-- manufacturer information required;
-- conclusion: supported, unsupported or unresolved.
+A score of **10/12 or higher** with no critical error indicates readiness for Day 18. This is not an official assessment rule.
 
-### Task C — Write a bounded conclusion
+## 7. Common errors and safety checkpoint
 
-Use this pattern:
+Common errors include measuring from the wrong feature, assuming any screen changes a boundary, treating an IP rating as universal permission, using plan view alone, applying one rule to all equipment and quoting remembered dimensions.
 
-> The proposed item cannot yet be accepted or rejected because the zone geometry, equipment category, product suitability and circuit protection have not all been verified. Obtain the missing fixed dimensions and product/circuit evidence, then check each gate against current authorised sources.
+![A learner holds an IP label while four evidence gates remain unchecked](../../../assets/learning/4-week/day-17-bathrooms-showers-and-other-wet-areas/ip-is-one-gate.svg)
 
-## Beat 7 — Common errors and safety checkpoint
+Critical errors include inventing dimensions, copying a standards diagram, declaring compliance from an IP label, omitting a supply or proposing opening, testing, isolation or installation outside authority.
 
-### Common errors
+This module authorises no opening, touching, testing, switching, isolation, installation, alteration, verification or energisation. Stop when geometry, current definitions, product data, circuit details or source arrangements are uncertain, or when damage, ingress or immediate danger is observed.
 
-- measuring from the room wall instead of the defined water feature or reference surface;
-- assuming any screen changes a zone boundary;
-- treating a vanity or basin as equivalent to a bath or shower without checking the applicable topic;
-- assuming a high IP rating permits equipment in any location;
-- applying one equipment rule to all fans, luminaires, heaters, controls and socket-outlets;
-- ignoring equipment supplied from another room or concealed source;
-- forgetting additional protection, isolation, earthing or manufacturer limitations;
-- using a plan view when an elevation is also required;
-- copying a standards diagram or relying on an old training sketch;
-- presenting a provisional zone as a verified compliance result.
+## 8. Retrieval and next links
 
-![Stick figure holding an IP label while four unchecked evidence gates remain](../../../assets/learning/4-week/day-17-bathrooms-showers-and-other-wet-areas/ip-is-one-gate.svg)
+### Closed-note retrieval
 
-*Caption: An IP label is useful evidence, not a universal passport.*
+1. Expand **W-A-T-E-R**.
+2. Name the four suitability gates.
+3. Name the five evidence grades and four claim grades.
+4. Why can an IP marking be necessary but insufficient?
+5. Why can both plan and elevation be required?
+6. State three stop conditions.
 
-### Safety checkpoint
+### Changed-scenario transfer
 
-Stop the exercise and escalate when:
+Replace the fixed screen with a movable screen, change the shower outlet position, or add equipment supplied from another source. Rebuild the geometry, evidence ledger and dependent claims.
 
-- fixed geometry, enclosure construction or water-outlet position is uncertain;
-- current authorised zone definitions or equipment rules are unavailable;
-- product markings, instructions or supply details cannot be verified;
-- multiple or concealed sources may be present;
-- the task would require opening, touching, testing, switching, isolation, installation or alteration;
-- damaged equipment, exposed parts, water ingress or immediate danger is observed;
-- a paper exercise is being treated as permission for real work.
+### Knowledge-base links
 
-This module does not provide a field isolation, testing or installation procedure. Physical work must follow applicable law, supervision, competency, safe-work systems and approved procedures.
+- [[Day 16 - Consumer Mains Submains and Final Subcircuits]]
+- [[Day 17 - Bathrooms Showers and Other Wet Areas]]
+- [[Day 18 - Other Special Installations and Locations]]
+- [[Safety and Electrical Risk]]
+- [[Wiring Rules and Design]]
 
-## Beat 8 — Retrieval, practice and next links
+## Review boundary
 
-### Recall check
-
-1. What five steps make up W-A-T-E-R?
-2. Why is a room boundary different from a zone boundary?
-3. What information establishes the provisional geometry?
-4. What are the four suitability gates?
-5. Why is an IP rating insufficient by itself?
-6. Why may both plan and elevation views be required?
-7. What makes a barrier relevant to zone reasoning?
-8. Name three stop conditions from this module.
-
-### Applied practice
-
-Draw a fictional room containing a shower, bath, fan, light, heater and socket-outlet. Deliberately omit three critical details. Exchange it with another learner and require them to:
-
-1. identify the missing evidence before classifying zones;
-2. list the authorised source topics needed;
-3. apply all four suitability gates to one item;
-4. write a bounded conclusion without guessing any dimension or permission.
-
-### Reflection
-
-Write one sentence for each prompt:
-
-- The assumption I am most likely to make too early is…
-- The evidence gate I most often forget is…
-- The condition that should make me stop is…
-
-### Navigation
-
-- **Previous:** [Day 16 — Consumer Mains, Submains and Final Subcircuits](./day-16-consumer-mains-submains-and-final-subcircuits.md)
-- **Knowledge note:** [[Day 17 - Bathrooms Showers and Other Wet Areas]]
-- **Next:** [Day 18 — Other Special Installations and Locations](./day-18-other-special-installations-and-locations.md)
-
-## Technical-review flags
-
-Before publication or operational use, a qualified reviewer must verify against current authorised sources:
-
-- wet-area definitions, zone geometry, reference points and dimensions;
-- the effect of fixed screens, barriers, enclosures and room construction;
-- equipment categories and location permissions;
-- ingress-protection and environmental requirements;
-- additional protection, supply, switching, isolation, earthing and bonding requirements;
-- wiring systems, cable routes, entries, mounting and verification;
-- manufacturer instructions and jurisdiction-specific obligations.
-
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+Exact wet-area definitions, geometry, reference points, dimensions, barrier effects, equipment permissions, ingress requirements, protection, supply, switching, isolation, earthing, bonding, wiring and verification obligations remain `reference_check_required`. This module is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
