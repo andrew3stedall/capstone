@@ -101,12 +101,12 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 53 — Alternative, multiple and embedded supply awareness](modules/day-53-alternative-multiple-and-embedded-supply-awareness.md)
 - [x] [Day 54 — Rest, retrieval and applicability-check repair](modules/day-54-rest-retrieval-and-applicability-check-repair.md)
 - [x] [Day 55 — Mixed special-location scenario workshop](modules/day-55-mixed-special-location-scenario-workshop.md)
-- [ ] Day 56 — Week 8 cumulative design and inspection checkpoint
+- [x] [Day 56 — Week 8 cumulative design and inspection checkpoint](modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md)
 
 ### Week 9 — Verification principles and visual inspection
 
-- [ ] Day 57 — Verification purpose, evidence types and responsibility boundaries
-- [ ] Day 58 — Visual inspection categories and defect recording
+- [x] [Day 57 — Verification purpose, evidence types and responsibility boundaries](modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md)
+- [x] [Day 58 — Visual inspection categories and defect recording](modules/day-58-visual-inspection-categories-and-defect-recording.md)
 - [ ] Day 59 — Test purposes, dependencies and safe sequencing concepts
 - [ ] Day 60 — Instrument suitability, limitations and pre-use evidence
 - [ ] Day 61 — Rest, retrieval and sequence reconstruction
