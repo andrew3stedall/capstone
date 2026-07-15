@@ -8,9 +8,9 @@ updated_on: 2026-07-15
 
 ## Current state
 
-- **Completed:** Days 1–55, ending with Day 55 — Mixed Special-Location Scenario Workshop.
-- **Current block:** Days 53–55 completed in this cycle.
-- **Next block:** Day 56 — Week 8 Cumulative Design and Inspection Checkpoint.
+- **Completed:** Days 1–58, ending with Day 58 — Visual Inspection Categories and Defect Recording.
+- **Current block:** Days 56–58 completed in this cycle.
+- **Next block:** Day 59 — Test Purposes, Dependencies and Safe Sequencing Concepts.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` because draft PR #5 remains open and unmerged. PR #7 targets the four-week branch and should be retargeted after that work reaches the default branch.
 - **Module coverage rule:** Every scheduled block, including rest, retrieval and catch-up days, requires a dedicated eight-beat module and corresponding Obsidian note.
@@ -39,44 +39,46 @@ updated_on: 2026-07-15
 | 54 — 2026-07-15 | Day 53 — Alternative, multiple and embedded supply awareness | Added S-O-U-R-C-E-S, source classes, operating-state mapping, interaction reopening, evidence grades, a 12-point rubric, note and accessible SVG. | Create Day 54. |
 | 55 — 2026-07-15 | Day 54 — Rest, retrieval and applicability-check repair | Added R-E-S-T-O-R-E, closed-note retrieval, causal error triage, three-repair limit, changed-context transfer, fatigue controls, note and accessible SVG without adding unnecessary theory. | Create Day 55. |
 | 56 — 2026-07-15 | Day 55 — Mixed special-location scenario workshop | Added L-A-Y-E-R-S, separate classification/source/design/inspection layers, dependency and conflict mapping, staged-change transfer, a 12-point rubric, note and accessible SVG. | Create Day 56. |
+| 57 — 2026-07-15 | Day 56 — Week 8 cumulative design and inspection checkpoint | Added C-H-E-C-K-S, integrated workflow selection, evidence separation, dependency reopening, staged changes, remediation rubric, note and accessible SVG. | Create Day 57. |
+| 58 — 2026-07-15 | Day 57 — Verification purpose, evidence types and responsibility boundaries | Added V-E-R-I-F-Y, four evidence streams, responsibility and dependency boundaries, bounded verification planning, note and accessible SVG. | Create Day 58. |
+| 59 — 2026-07-15 | Day 58 — Visual inspection categories and defect recording | Added O-B-S-E-R-V-E, observation/interpretation/finding distinctions, traceable defect-candidate recording, changed-context transfer, rubric, note and accessible SVG. | Create Day 59. |
 
 ## Files added or updated in this cycle
 
-- `docs/learning-plans/12-week/modules/day-53-alternative-multiple-and-embedded-supply-awareness.md`
-- `docs/assets/learning/12-week/alternative-multiple-and-embedded-supply-awareness/map-every-source.svg`
-- `docs/knowledge-base/12-Week Day 53 - Alternative, Multiple and Embedded Supply Awareness.md`
-- `docs/learning-plans/12-week/modules/day-54-rest-retrieval-and-applicability-check-repair.md`
-- `docs/assets/learning/12-week/rest-retrieval-and-applicability-check-repair/repair-three-not-thirty.svg`
-- `docs/knowledge-base/12-Week Day 54 - Rest, Retrieval and Applicability-Check Repair.md`
-- `docs/learning-plans/12-week/modules/day-55-mixed-special-location-scenario-workshop.md`
-- `docs/assets/learning/12-week/mixed-special-location-scenario-workshop/layer-before-conclusion.svg`
-- `docs/knowledge-base/12-Week Day 55 - Mixed Special-Location Scenario Workshop.md`
-- `docs/learning-plans/12-week/modules/day-52-other-special-installations-and-location-specific-controls.md`
+- `docs/learning-plans/12-week/modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md`
+- `docs/assets/learning/12-week/week-8-cumulative-design-and-inspection-checkpoint/connect-after-separating.svg`
+- `docs/knowledge-base/12-Week Day 56 - Week 8 Cumulative Design and Inspection Checkpoint.md`
+- `docs/learning-plans/12-week/modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md`
+- `docs/assets/learning/12-week/verification-purpose-evidence-types-and-responsibility-boundaries/one-result-is-not-the-whole-case.svg`
+- `docs/knowledge-base/12-Week Day 57 - Verification Purpose, Evidence Types and Responsibility Boundaries.md`
+- `docs/learning-plans/12-week/modules/day-58-visual-inspection-categories-and-defect-recording.md`
+- `docs/assets/learning/12-week/visual-inspection-categories-and-defect-recording/observe-before-naming.svg`
+- `docs/knowledge-base/12-Week Day 58 - Visual Inspection Categories and Defect Recording.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Design decisions
 
-- Day 53 expands alternate-supply awareness into explicit source classes, connection boundaries and operating-state maps rather than repeating Day 37 switching content.
-- Day 54 remains a genuine recovery block: no new theory, a 20–30 minute limit, no more than three repairs and transfer-based readiness evidence.
-- Day 55 interleaves Week 8 concepts through separate reasoning layers, preventing design intent, inspection observation, classification and source coverage from being collapsed into one checklist.
+- Day 56 tests cumulative Week 8 reasoning through workflow selection, dependency control and staged changes rather than repeating topic summaries.
+- Day 57 introduces verification as coordinated evidence and responsibility reasoning, explicitly avoiding field procedures and acceptance values.
+- Day 58 separates neutral observation, interpretation, defect candidate and formal finding while requiring traceable location, provenance and limitations.
 - All examples, diagrams, matrices and rubrics are independently created and avoid copied standards content or official assessment material.
 
 ## Review flags
 
-- Days 53–55 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact alternative, multiple and embedded supply arrangements; operating modes; switching; isolation; protection; fault; neutral; earthing; identification; location classification; equipment suitability; design; inspection and verification requirements require qualified checking against current authorised sources.
-- No standards table, figure, systematic clause sequence, official zone diagram, exact official value, field procedure or official assessment material was reproduced.
-- The modules authorise no site classification, design approval, access, switching, isolation, proving de-energised, testing, installation, alteration, energisation, commissioning, certification or verification.
+- Days 56–58 remain `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact design, special-location, alternative-supply, inspection, verification, responsibility, acceptance, defect-classification and documentation requirements require qualified checking against current authorised sources.
+- No standards table, figure, systematic clause sequence, official zone diagram, exact official value, field procedure, official checklist or official assessment material was reproduced.
+- The modules authorise no site classification, design approval, access, opening, dismantling, switching, isolation, proving de-energised, testing, instrument use, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation completed
 
-- Confirmed the exact eight required headings in Days 53–55.
+- Confirmed the exact eight required headings in Days 56–58.
 - Checked Mermaid fences, flow directions, decision branches and nearby explanations.
 - Checked each SVG for a white background, black line art, semantic title, description, useful alt text and instructional purpose.
-- Checked Day 52–55 module navigation and knowledge-note sequence.
+- Checked module and knowledge-note sequence across Days 55–59.
 - Checked master-plan links and exactly one next increment.
-- Checked terminology, observable objectives, worked-example fading, recovery limits, copyright transformation, safety boundaries and technical-review flags.
+- Checked terminology, observable objectives, worked-example fading, changed-context transfer, copyright transformation, safety boundaries and technical-review flags.
 - The GitHub contents connector generated one commit per file write; a single consolidated commit was not available through this interface.
 
 ## Run rules
