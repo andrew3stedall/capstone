@@ -166,6 +166,6 @@ Revise the plan after a later document confirms the drawing is current but revea
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 63 - Week 9 Verification Planning Checkpoint]]
 - **Previous:** [Day 62 — Result Plausibility and Evidence-Quality Reasoning](day-62-result-plausibility-and-evidence-quality-reasoning.md)
-- **Next:** Day 64 — Continuity Evidence and Common Interpretation Errors
+- **Next:** [Day 64 — Continuity Evidence and Common Interpretation Errors](day-64-continuity-evidence-and-common-interpretation-errors.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
