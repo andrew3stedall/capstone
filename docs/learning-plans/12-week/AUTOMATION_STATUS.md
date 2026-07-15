@@ -9,55 +9,59 @@ updated_on: 2026-07-16
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 1 completed for Day 1 — Program Orientation, Baseline Diagnostic and Authorised-Source Map.
-- **Quality-improvement passes:** 1 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 2, Electrical Hazards, Exposure Pathways and Consequence Reasoning.
+- **Current increment:** Quality-improvement pass 2 completed for Day 2 — Electrical Hazards, Exposure Pathways and Consequence Reasoning.
+- **Quality-improvement passes:** 2 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 3, Roles, Authority, Supervision and Practical Stop Conditions.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 1 — Day 1
+### Quality-improvement pass 2 — Day 2
 
-- Added explicit review of result, reasoning, evidence and boundary rather than scoring only the final answer.
-- Added educational performance anchors: secure, developing, unsupported and stop-required, without introducing a pass mark.
-- Added source recheck triggers, unresolved-check ownership and a final baseline completeness check.
-- Strengthened observable objectives, changed-context retrieval and reciprocal module navigation.
-- Preserved the exact eight-beat structure, original accessible SVG references and all safety/copyright boundaries.
-- Tracker state after this increment: 1 of 84 quality-improvement passes complete; next is Day 2.
+- Reframed the learning outcomes as observable classification, chain-construction, control-matching, boundary and changed-context transfer evidence.
+- Added explicit separation of exposed targets, immediate and secondary consequences, facts, reports, inferences and evidence gaps.
+- Added four-stage control status: named, present, applicable and verified effective.
+- Added educational evidence-strength anchors and a criterion-level performance rubric with blocking safety conditions.
+- Strengthened the worked scenario, evidence-owner requirement, changed-context retrieval and direct Day 3 navigation.
+- Updated the corresponding knowledge-base note with reciprocal navigation and assessment-relevance links.
+- Tracker state after this increment: 2 of 84 quality-improvement passes complete; next is Day 3.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md`
+- `docs/learning-plans/12-week/modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md`
+- `docs/knowledge-base/12-Week Day 02 - Electrical Hazards Exposure Pathways and Consequence Reasoning.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 1 remains `review-required`, `reference_check_required` and not `technically-reviewed`.
-- Assessment conditions, authorised-source status, jurisdictional requirements and all technical or safety-critical conclusions still require current authorised sources, relevant RTO instructions and qualified review.
-- No official pass mark, assessment question, standards table, copied figure, systematic clause wording, exact official value, field procedure or approved design was added.
-- The module authorises no access, switching, isolation, testing, measurement, alteration, repair, energisation, commissioning, certification or verification.
+- Day 2 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Legal duties, regulator requirements, control effectiveness, emergency arrangements, authorised procedures and all safety-critical conclusions still require current authorised sources and qualified review.
+- No official risk matrix, pass mark, assessment question, standards table, copied figure, systematic clause wording, exact official value, field procedure or approved safe-work method was added.
+- The module authorises no access, switching, isolation, testing, measurement, alteration, repair, energisation, rescue, commissioning, certification or verification.
 
 ## Validation performed
 
 - Confirmed YAML metadata and the exact eight required section headings.
-- Checked observable objectives, defined terminology, revised diagnostic anchors, source-map ownership fields and recheck triggers.
-- Reviewed both Mermaid flowcharts for valid node and edge syntax and confirmed each is explained nearby.
-- Confirmed existing SVG references remain relative, descriptive and instructional.
-- Checked direct master-plan link and reciprocal Day 1/Day 2 module navigation.
+- Checked terminology definitions, control-status distinctions, evidence anchors, observable rubric criteria and changed-context transfer task.
+- Reviewed both Mermaid flowcharts for valid node, edge, label and decision syntax and confirmed each diagram is explained nearby.
+- Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible.
+- Checked direct master-plan link, reciprocal Day 1/Day 2/Day 3 module navigation and corresponding knowledge-note navigation.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
 
-- **Completed passes:** [Day 1 — Program Orientation, Baseline Diagnostic and Authorised-Source Map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md).
-- **Next pass:** Day 2 — Electrical Hazards, Exposure Pathways and Consequence Reasoning.
-- Persistent `review-required` and `reference_check_required` flags do not cause Day 1 to be selected again.
+- **Completed passes:**
+  - [Day 1 — Program Orientation, Baseline Diagnostic and Authorised-Source Map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
+  - [Day 2 — Electrical Hazards, Exposure Pathways and Consequence Reasoning](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
+- **Next pass:** Day 3 — Roles, Authority, Supervision and Practical Stop Conditions.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1 or 2 to be selected again.
 
 ## Commit behaviour
 
-The Day 1 module and both canonical tracker updates were assembled into one Git tree commit at the end of the run.
+The connected contents interface created separate commits for the module, knowledge note and canonical tracker updates. A local authenticated Git client was unavailable, so these writes could not be consolidated into one atomic commit in this run.
 
 ## Run rules
 
