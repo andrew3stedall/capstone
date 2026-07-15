@@ -225,6 +225,6 @@ Revise the worked example after learning that the source-state record covered on
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 69 - Fault Scenario with Staged Evidence Release]]
 - **Previous:** [Day 68 — Rest, Retrieval and High-Confidence-Error Repair](day-68-rest-retrieval-and-high-confidence-error-repair.md)
-- **Next:** Day 70 — Week 10 Verification and Fault-Diagnosis Checkpoint
+- **Next:** [Day 70 — Week 10 Verification and Fault-Diagnosis Checkpoint](day-70-week-10-verification-and-fault-diagnosis-checkpoint.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
