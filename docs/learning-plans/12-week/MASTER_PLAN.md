@@ -120,7 +120,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 66 — Fault-loop and RCD result interpretation at concept level](modules/day-66-fault-loop-and-rcd-result-interpretation-at-concept-level.md)
 - [x] [Day 67 — Systematic fault-finding workflow and hypothesis control](modules/day-67-systematic-fault-finding-workflow-and-hypothesis-control.md)
 - [x] [Day 68 — Rest, retrieval and high-confidence-error repair](modules/day-68-rest-retrieval-and-high-confidence-error-repair.md)
-- [ ] Day 69 — Fault scenario with staged evidence release
+- [x] [Day 69 — Fault scenario with staged evidence release](modules/day-69-fault-scenario-with-staged-evidence-release.md)
 - [ ] Day 70 — Week 10 verification and fault-diagnosis checkpoint
 
 ### Week 11 — Integrated Capstone performance
