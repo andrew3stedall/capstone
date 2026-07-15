@@ -107,6 +107,6 @@ Critical errors include inventing hidden route conditions, presenting unverified
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 43 - Wiring-System Selection and Mechanical Protection]]
 - **Previous:** [Day 42 — Week 6 Integrated Switching and Switchboard Checkpoint](day-42-week-6-integrated-switching-and-switchboard-checkpoint.md)
-- **Next:** Day 44 — Environmental Influences, Segregation and Support Concepts
+- **Next:** [Day 44 — Environmental Influences, Segregation and Support Concepts](day-44-environmental-influences-segregation-and-support-concepts.md)
 
 This module remains `review-required`, `reference_check_required` and not `technically-reviewed`.
