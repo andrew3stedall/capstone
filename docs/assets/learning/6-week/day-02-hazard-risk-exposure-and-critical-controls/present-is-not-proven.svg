@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">A present control is not automatically a proven control</title>
+  <desc id="desc">A stick-figure learner points to a barrier while four evidence cards ask whether the barrier applies, is intact, is independent and has been verified.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="205" r="27"/>
+    <path d="M120 232V320 M120 265L205 230 M120 272L70 300 M120 320L82 388 M120 320L160 388"/>
+    <rect x="285" y="90" width="170" height="240" rx="8"/>
+    <path d="M285 130H455 M325 90V330"/>
+    <path d="M455 150L560 95 M455 205L590 180 M455 260L590 275 M455 315L560 365"/>
+    <rect x="560" y="55" width="310" height="70" rx="8"/>
+    <rect x="590" y="145" width="280" height="70" rx="8"/>
+    <rect x="590" y="240" width="280" height="70" rx="8"/>
+    <rect x="560" y="335" width="310" height="70" rx="8"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="370" y="210" font-size="23" font-weight="700">CONTROL</text>
+    <text x="715" y="98" font-size="22" font-weight="700">DOES IT APPLY HERE?</text>
+    <text x="730" y="188" font-size="22" font-weight="700">IS IT INTACT?</text>
+    <text x="730" y="283" font-size="22" font-weight="700">IS IT INDEPENDENT?</text>
+    <text x="715" y="378" font-size="22" font-weight="700">WHAT PROVES IT WORKS?</text>
+    <text x="480" y="425" font-size="27" font-weight="700">Present is an observation. Effective is a conclusion.</text>
+  </g>
+</svg>
