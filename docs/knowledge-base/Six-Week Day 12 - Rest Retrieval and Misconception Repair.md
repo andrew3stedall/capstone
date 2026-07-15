@@ -7,32 +7,32 @@ tags:
   - remediation
   - fatigue-management
 status: review-required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
+quality_passes:
+  - 2026-07-15-substantive-quality-pass
 ---
 
 # Six-Week Day 12 — Rest, Retrieval and Misconception Repair
 
 ## Purpose
 
-This note supports a bounded recovery block after the Week 2 earthing and MEN modules. It introduces no new electrical theory. Its purpose is to retrieve key distinctions, prioritise high-risk misconceptions, complete varied re-attempts and make a defensible readiness decision.
+This note supports a bounded recovery block after the Week 2 earthing and MEN modules. It introduces no new electrical theory. Its purpose is to retrieve key distinctions, prioritise high-risk misconceptions, verify bounded corrections, transfer them to changed scenarios and make a defensible readiness decision.
 
 ## Core model
 
 Use **R-E-P-A-I-R**:
 
 - **Retrieve before reopening notes** — produce answers from memory first.
-- **Examine errors and confidence** — identify both the error type and whether confidence exceeded evidence.
+- **Examine errors and confidence** — identify the error type and whether confidence exceeded evidence.
 - **Prioritise no more than three repairs** — address safety-boundary, path and evidence errors before minor wording issues.
 - **Authorise the source of correction** — use the relevant module and current authorised material where exact detail matters.
 - **Interleave a changed scenario** — test the corrected model in a new fictional context.
-- **Record readiness and stop** — choose a readiness outcome and end the session at the time or fatigue limit.
+- **Record evidence, reopening triggers, readiness and stop** — preserve the limits of the correction and end at the time or fatigue boundary.
 
-The central rule is:
-
-> A corrected sentence is not yet a repaired misconception; the learner must explain the missing distinction and apply it accurately in a varied scenario.
+> A corrected sentence is not yet a repaired misconception. The learner must explain the missing distinction, support the bounded correction and apply it accurately after a relevant condition changes.
 
 ## Prerequisites
 
@@ -54,13 +54,27 @@ The central rule is:
 ## Error categories
 
 1. **Terminology error** — a technical term is swapped, undefined or used too broadly.
-2. **Path error** — the learner omits, reverses or invents part of a current path.
+2. **Path error** — part of a current path is omitted, reversed or invented.
 3. **Protection-role error** — a device, conductor or connection is assigned the wrong purpose.
 4. **Evidence error** — appearance, memory or assumption is treated as proof.
 5. **Confidence error** — certainty exceeds the available evidence.
-6. **Safety-boundary error** — the learner proposes work, testing or certainty beyond authority.
+6. **Safety-boundary error** — work, testing or certainty is proposed beyond authority.
 
 High-confidence safety, path and evidence errors receive priority because they are most likely to survive into assessment or workplace reasoning.
+
+## Evidence states
+
+- **Recalled** — produced from memory; useful for diagnosis, not proof.
+- **Located** — a relevant source has been found, but applicability is not established.
+- **Supported** — the applicable source supports the bounded claim.
+- **Transferred** — the correction works in a changed scenario.
+- **Unresolved** — evidence is missing, conflicting, inapplicable or beyond authority to establish.
+
+A claim must be reopened when its source arrangement, component identity, path boundary, scenario facts or authorised reference changes.
+
+## Misconception-repair ledger
+
+Record the original claim, confidence, error category, missing distinction, evidence state, dependencies, reopening trigger and result. This prevents the error log from becoming a list of replacement sentences without evidence or transfer.
 
 ## Rest and catch-up boundaries
 
@@ -75,14 +89,16 @@ These are study-management limits, not official assessment conditions or electri
 
 For each selected error:
 
-1. copy the learner's original claim;
+1. preserve the learner's original claim;
 2. record confidence;
 3. classify the error;
 4. state the missing distinction;
-5. verify the correction from the appropriate source;
-6. apply it to a changed fictional scenario;
-7. re-rate confidence;
-8. mark the item repaired, partly repaired or unresolved.
+5. locate and check the appropriate source;
+6. mark the evidence state;
+7. apply the correction to a changed fictional scenario;
+8. record dependencies and a reopening trigger;
+9. re-rate confidence;
+10. mark the item repaired, partly repaired or unresolved.
 
 The block ends with one of three readiness decisions:
 
@@ -97,12 +113,18 @@ A strong learner response:
 - retrieves before rereading;
 - distinguishes terminology, path, role, evidence, confidence and safety errors;
 - prioritises high-risk misconceptions rather than attempting all missed content;
+- distinguishes recalled, located, supported, transferred and unresolved evidence;
 - verifies exact claims instead of trusting memory;
-- transfers the corrected model to a varied scenario;
+- transfers the corrected model after a relevant scenario condition changes;
+- records dependencies and reopening triggers;
 - stops when fatigue or an unresolved safety-critical gap makes further work unreliable;
 - records a specific readiness outcome.
 
-The module uses a 12-point educational rubric. It is not an official RTO pass mark.
+The module uses a 12-point educational rubric with critical-error gates. It is not an official RTO pass mark.
+
+## Critical-error gates
+
+Record **not ready—remediation required** when the learner treats memory, a label or confidence as proof; confuses normal and fault paths; confuses earthing and bonding purposes; proposes practical work beyond authority; carries a correction into changed conditions without reopening it; or continues after a defined stop condition.
 
 ## Common misconceptions
 
@@ -110,6 +132,8 @@ The module uses a 12-point educational rubric. It is not an official RTO pass ma
 - Every error must be fixed in one sitting.
 - Correct wording proves the mental model has changed.
 - Confidence proves accuracy.
+- Locating a source proves it applies.
+- A repaired claim remains valid after its dependencies change.
 - A rest block should be filled with new theory.
 - A remembered clause, value or test rule is current authority.
 - Continuing while fatigued is always better than stopping.
