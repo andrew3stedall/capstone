@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">A symptom is not a diagnosis</title>
+  <desc id="desc">A stick-figure learner looks at a tripped device symbol while separate arrows point to demand, unintended path, earth-associated path, discontinuity and missing evidence.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="210" r="28"/>
+    <path d="M115 238V325 M115 270L190 235 M115 278L60 310 M115 325L78 390 M115 325L155 390"/>
+    <rect x="260" y="145" width="170" height="145" rx="10"/>
+    <path d="M315 190H375 M345 190V245 M315 245H375"/>
+    <path d="M430 175L600 70 M430 205L645 150 M430 235L645 240 M430 265L600 345"/>
+    <rect x="600" y="42" width="250" height="58" rx="8"/>
+    <rect x="645" y="122" width="230" height="58" rx="8"/>
+    <rect x="645" y="212" width="230" height="58" rx="8"/>
+    <rect x="600" y="317" width="250" height="58" rx="8"/>
+    <path d="M190 235L250 215"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="345" y="320" font-size="21" font-weight="700">OBSERVED SYMPTOM</text>
+    <text x="725" y="78" font-size="20" font-weight="700">DEMAND?</text>
+    <text x="760" y="158" font-size="20" font-weight="700">UNINTENDED PATH?</text>
+    <text x="760" y="248" font-size="20" font-weight="700">EARTH PATH?</text>
+    <text x="725" y="353" font-size="20" font-weight="700">DISCONTINUITY OR MISSING DATA?</text>
+    <text x="480" y="420" font-size="27" font-weight="700">One symptom. Several mechanisms. Evidence decides.</text>
+  </g>
+</svg>
