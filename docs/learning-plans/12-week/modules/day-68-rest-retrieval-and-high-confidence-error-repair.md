@@ -161,6 +161,6 @@ Before Day 69, state one distinction you can now retrieve reliably and one unres
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 68 - Rest, Retrieval and High-Confidence-Error Repair]]
 - **Previous:** [Day 67 — Systematic Fault-Finding Workflow and Hypothesis Control](day-67-systematic-fault-finding-workflow-and-hypothesis-control.md)
-- **Next:** Day 69 — Fault Scenario with Staged Evidence Release
+- **Next:** [Day 69 — Fault Scenario with Staged Evidence Release](day-69-fault-scenario-with-staged-evidence-release.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
