@@ -13,11 +13,12 @@ standard_references:
   - source: applicable legislation, regulator guidance, manufacturer information and RTO instructions
     edition: current
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
-quality_passes: []
+quality_passes:
+  - substantive-quality-improvement-2026-07-15
 prerequisites:
   - Day 1 — Program Orientation, Assessment Map and Source Hierarchy
   - Day 2 — Hazard, Risk, Exposure and Critical Controls
@@ -43,14 +44,15 @@ related_simulations: []
 By the end of this block, the learner should be able to:
 
 1. classify a fictional condition as normal operation, overload, short circuit, earth fault, leakage, residual-current imbalance, open circuit or unresolved;
-2. distinguish hazard, exposure, consequence and critical control in a supplied scenario;
-3. state separate residual-current, overcurrent and fault-path questions without substituting one for another;
-4. select appropriate source families and explain why each is applicable;
-5. grade every material claim as stated fact, authorised evidence or assumption;
-6. identify missing evidence that blocks an exact conclusion;
-7. produce a bounded recommendation within learner authority;
-8. revise the decision when one scenario condition changes;
-9. score at least 10 out of 12 on the checkpoint rubric with no zero in protection classification, evidence control or safety boundary.
+2. distinguish hazard, initiating event, exposure pathway, consequence and critical control in a supplied scenario;
+3. state separate residual-current, overcurrent, fault-path and work-control questions without substituting one for another;
+4. select appropriate source families and explain their applicability and limits;
+5. grade every material item as observed, documented, authorised, assumed or missing;
+6. grade each conclusion as described, supported, verified or unresolved;
+7. identify missing evidence that blocks an exact conclusion;
+8. produce a bounded recommendation within learner authority;
+9. reopen every dependent conclusion when one material scenario condition changes;
+10. score at least 10 out of 12 on the checkpoint rubric with no critical error.
 
 ### Entry check
 
@@ -73,16 +75,21 @@ Capstone questions rarely announce which single concept is being tested. A scena
 A weak response jumps from one visible clue to a familiar answer. A defensible response:
 
 - bounds the scenario;
-- classifies the condition;
-- identifies the protection objective;
-- checks the current path and device evidence;
+- classifies the condition by mechanism and path;
+- identifies each protection objective;
+- checks current-path and device evidence separately;
 - selects applicable authorised sources;
-- separates facts from assumptions;
+- separates observations, documents, authorised evidence, assumptions and missing information;
+- grades the conclusion honestly;
 - stops where evidence or authority ends.
 
 ![A learner passes scenario cards through classification, evidence and safety gates before reaching a bounded decision](../../../assets/learning/6-week/day-07-week-1-protection-decision-checkpoint/decide-through-gates.svg)
 
 *Caption: The decision is earned by passing every gate, not by recognising one familiar label.*
+
+![A learner carries one device label toward four evidence gates before reaching a bounded decision](../../../assets/learning/6-week/day-07-week-1-protection-decision-checkpoint/one-clue-is-not-a-decision.svg)
+
+*Caption: One clue starts the questions. It does not finish them.*
 
 ## 3. Core concepts and terminology
 
@@ -108,17 +115,32 @@ A **bounded conclusion** states:
 4. what action is outside learner authority;
 5. where qualified escalation is required.
 
-### Decision revision
+### Dependency and reopening trigger
 
-**Decision revision** is the disciplined re-evaluation of a conclusion after a material scenario condition changes. It tests transfer rather than memorisation.
+A **dependency** is an earlier fact, assumption or evidence item on which a conclusion relies. A **reopening trigger** is a change that invalidates or weakens that dependency, such as a newly disclosed alternate source, changed load, different conductor route, revised device information or conflicting record. A changed condition requires the learner to revisit every dependent classification and claim, not merely edit the final sentence.
 
 ### Evidence grades
 
-- **Grade A — stated fact or supplied observation:** scenario detail, visible marking, authorised drawing detail or supplied result.
-- **Grade B — applicable authorised evidence:** current requirement, manufacturer instruction, approved design, workplace procedure or competent direction.
-- **Grade C — assumption or hypothesis:** inferred cause, guessed path, presumed device suitability or unverified exception.
+Use five evidence grades:
 
-Grade C may guide the next question. It cannot support an exact safety-critical conclusion.
+1. **Observed** — directly supplied or visible in the fictional scenario.
+2. **Documented** — stated in a current drawing, schedule, label, record or scenario document.
+3. **Authorised** — supported by an applicable current requirement, manufacturer instruction, approved design, workplace procedure or competent direction.
+4. **Assumed** — plausible but not evidenced.
+5. **Missing** — required for the conclusion but unavailable.
+
+Observed or documented information does not become proof of hidden condition, suitability or performance merely because it appears credible.
+
+### Claim grades
+
+Use four claim grades:
+
+- **Described** — states only what supplied material shows or reports.
+- **Supported** — combines applicable evidence into a bounded reasoning statement.
+- **Verified** — requires all authorised evidence and qualified confirmation appropriate to the claim.
+- **Unresolved** — a material evidence gap or contradiction prevents the claim.
+
+The learner may write described, supported and unresolved claims. A safety-critical verified claim must not be made without the required authorised evidence and qualified confirmation.
 
 ## 4. Rule-finding workflow
 
@@ -127,23 +149,38 @@ Use **D-E-C-I-D-E**.
 1. **D — Define the scenario boundary.** Record supply, circuit, load, users, environment, reported symptom, available documents and learner authority.
 2. **E — Establish the condition class.** Separate normal operation, overload, short circuit, earth fault, leakage, residual-current imbalance, open circuit and unresolved conditions.
 3. **C — Choose the protection questions.** State separate overcurrent, residual-current, fault-path and work-control questions that actually arise.
-4. **I — Identify applicable evidence.** Select current authorised requirements, manufacturer information, approved drawings, supplied observations and relevant RTO or workplace instructions.
-5. **D — Detect gaps and contradictions.** Grade claims A, B or C; identify missing paths, ratings, source conditions, device characteristics or authority.
-6. **E — Express and evaluate the bounded decision.** State what is supported, what is conditional, the stop condition and how the answer changes if a material fact changes.
+4. **I — Identify applicable evidence.** Grade supplied items; select current authorised requirements, manufacturer information, approved drawings, observations and relevant RTO or workplace instructions.
+5. **D — Detect gaps, contradictions and dependencies.** Identify missing paths, ratings, source conditions, device characteristics, authority and every assumption on which a conclusion would depend.
+6. **E — Express, evaluate and reopen the decision.** Assign a claim grade, state the stop condition and reopen the complete decision chain when a material fact changes.
 
 ```mermaid
 flowchart TD
     A["Define scenario and authority"] --> B["Establish condition class"]
     B --> C["Separate protection questions"]
-    C --> D["Identify applicable Grade A and B evidence"]
+    C --> D["Grade evidence and retrieve applicable sources"]
     D --> E{"Blocking gap or contradiction?"}
-    E -->|"Yes"| F["State unresolved outcome and escalation"]
-    E -->|"No"| G["Form bounded decision"]
-    G --> H["Change one scenario condition"]
-    H --> I["Re-evaluate classification, evidence and decision"]
+    E -->|"Yes"| F["Grade claim unresolved and escalate"]
+    E -->|"No"| G["Form bounded supported claim"]
+    G --> H{"Material dependency changed?"}
+    H -->|"Yes"| B
+    H -->|"No"| I["Retain claim within stated boundary"]
 ```
 
-The changed-condition step is mandatory. A response that cannot adapt may be a memorised script rather than a usable reasoning method.
+The change loop is mandatory. A response that cannot adapt may be a memorised script rather than a usable reasoning method.
+
+### Decision ledger
+
+For every material conclusion, record:
+
+- scenario boundary;
+- condition class and alternatives;
+- protection question;
+- evidence item and grade;
+- applicable authorised source;
+- assumption or missing evidence;
+- claim grade;
+- practical stop condition;
+- reopening trigger.
 
 ### Source-selection matrix
 
@@ -172,7 +209,7 @@ flowchart LR
 
 The branches may interact, but they do not share identical evidence. A protective-device label cannot answer every branch.
 
-### Worked example
+### Complete worked example
 
 **Scenario:** A fictional metal-cased appliance circuit operates a combined protective device after a second portable load is connected. The schedule identifies the circuit, but the scenario gives no conductor-routing evidence, appliance data, device settings, source conditions or authorised test results. A person proposes repeated resetting.
 
@@ -181,13 +218,25 @@ Apply D-E-C-I-D-E:
 1. **Define:** record the circuit, two loads, metal enclosure, combined device, reported operation and proposed reset. Supply arrangement and practical authority are incomplete.
 2. **Establish:** overload, residual-current operation, equipment fault, neutral-path issue and another unresolved cause remain possible. The operating function is not identified.
 3. **Choose:** ask separate overcurrent, residual-current, fault-path and work-control questions.
-4. **Identify:** require applicable installation rules, device and appliance manufacturer information, approved circuit information and authorised investigation evidence.
-5. **Detect:** conductor grouping, device characteristics, load current, leakage behaviour, earthing effectiveness and cause are blocking gaps.
-6. **Express:** do not reset or diagnose. State that operation is observed but its function and cause are unresolved; qualified investigation is required.
+4. **Identify:** the reported operation is observed; the schedule is documented; exact device capability, appliance behaviour and installation requirements require authorised evidence; several current paths are assumed or missing.
+5. **Detect:** conductor grouping, device characteristics, load current, leakage behaviour, earthing effectiveness and cause are blocking gaps and dependencies.
+6. **Express:** do not reset or diagnose. Grade the operating event **described**, and the cause and suitability conclusions **unresolved** pending qualified investigation.
 
 A bounded conclusion is:
 
-> The supplied facts establish that a combined protective device operated after a load change, but they do not identify the operating function or cause. Overcurrent, residual-current, equipment, conductor-grouping and fault-path questions require separate authorised evidence. Repeated resetting is not justified. Exact requirements and investigation procedures remain `reference_check_required`.
+> The supplied facts establish that a combined protective device operated after a load change, but they do not identify the operating function or cause. Overcurrent, residual-current, equipment, conductor-grouping and fault-path questions require separate authorised evidence. Repeated resetting is not justified. The cause and continued suitability remain unresolved, and exact requirements and investigation procedures remain `reference_check_required`.
+
+### Worked-example fading
+
+A second fictional scenario reports intermittent operation after wet weather and supplies a current schedule plus a partial device label, but no environmental inspection record, current-path evidence or manufacturer information.
+
+Complete only:
+
+1. the boundary and condition alternatives;
+2. evidence and claim grades;
+3. the first four blocking gaps;
+4. one bounded conclusion;
+5. one change that would reopen the conclusion.
 
 ## 6. Practical application
 
@@ -210,15 +259,11 @@ Complete the following independently:
 2. classify the condition and list plausible alternatives;
 3. state the four protection or control questions that apply;
 4. create a source-selection table;
-5. grade every claim A, B or C;
-6. identify at least four blocking evidence gaps;
-7. draw the relevant conceptual current paths without inventing wiring detail;
-8. write a bounded conclusion and escalation statement;
-9. change one material fact and revise the answer.
-
-### Worked-example fading
-
-The first scenario may include headings for each D-E-C-I-D-E step. For the second scenario, remove the headings and source prompts. For the third, provide only the scenario pack and response limit.
+5. grade every material item using the five evidence grades;
+6. identify at least four blocking evidence gaps and dependencies;
+7. draw only conceptual current paths supported by the scenario;
+8. grade each conclusion and write a bounded escalation statement;
+9. change one material fact and reopen every dependent part of the answer.
 
 ### Time control
 
@@ -240,11 +285,23 @@ Score each category **0–2**.
 | Protection classification | Selects a label without mechanism | Identifies a likely class but misses alternatives | Classifies by mechanism and records unresolved alternatives |
 | Question separation | Treats one device as universal protection | Separates some functions | Clearly separates overcurrent, residual-current, fault-path and work-control questions |
 | Source applicability | Uses generic or unsupported sources | Names sources without scope reasoning | Selects source families and explains applicability and limits |
-| Evidence control | Presents assumptions as facts | Marks some uncertainty | Grades all material claims and identifies blocking gaps |
-| Transfer and decision revision | Repeats the first answer unchanged | Revises one detail incompletely | Re-evaluates classification, evidence priorities and conclusion after the change |
+| Evidence and claim control | Presents assumptions as facts | Uses grades inconsistently | Grades all material evidence and claims and identifies blocking gaps |
+| Change propagation | Repeats the first answer unchanged | Reopens some dependent reasoning | Re-evaluates classification, evidence priorities and every dependent conclusion |
 | Safety and bounded conclusion | Proposes unauthorised action or false certainty | Gives general caution | States supported facts, uncertainty, stop condition, authority boundary and escalation |
 
-A score below **10/12**, or any zero in **protection classification**, **evidence control** or **safety and bounded conclusion**, requires targeted remediation and a varied re-attempt. This is an educational threshold, not an official RTO pass mark.
+A score below **10/12** requires targeted remediation and a varied re-attempt. This is an educational threshold, not an official RTO pass mark.
+
+### Critical errors
+
+Any of the following requires remediation regardless of score:
+
+- treating protective-device operation as proof of cause;
+- treating one protective function as proof of another;
+- presenting an assumed current path, source condition or device suitability as fact;
+- claiming compliance, verified safety or permission to reset without authorised evidence;
+- omitting a disclosed source or material condition;
+- failing to reopen dependent conclusions after a scenario change;
+- proposing opening, testing, resetting, isolation, alteration or energisation outside authority.
 
 ## 7. Common errors and safety checkpoint
 
@@ -278,14 +335,14 @@ Stop and seek qualified guidance when:
 ### Closed-note retrieval
 
 1. What are the six D-E-C-I-D-E steps?
-2. Define a blocking evidence gap.
+2. Define a blocking evidence gap and a reopening trigger.
 3. What are the four separate protection or control questions?
 4. Why is device operation not a diagnosis?
-5. What can manufacturer information establish?
-6. What can an approved drawing fail to prove?
-7. State the three evidence grades.
+5. Name the five evidence grades and four claim grades.
+6. What can manufacturer information establish?
+7. What can an approved drawing fail to prove?
 8. What must a bounded conclusion contain?
-9. Why is changed-condition revision required?
+9. Why must a changed condition reopen dependent conclusions?
 10. State four stop conditions.
 
 ### Error-log remediation
@@ -297,6 +354,10 @@ Select no more than three errors from this checkpoint. For each:
 3. identify the evidence that would support it;
 4. complete one varied re-attempt within 48 hours;
 5. record whether confidence became better calibrated.
+
+### Delayed retrieval
+
+Within 72 hours, complete a new five-minute scenario without the D-E-C-I-D-E headings. Record whether you independently separated the four protection questions, used evidence and claim grades, and reopened the answer after a changed fact.
 
 ### Navigation
 
