@@ -119,6 +119,6 @@ This module authorises no switching, isolation, opening, proving de-energised, t
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 46 - Fixed Appliances and Local Isolation Reasoning]]
 - **Previous:** [Day 45 — Consumer Mains, Submains and Final Subcircuits](day-45-consumer-mains-submains-and-final-subcircuits.md)
-- **Next:** Day 47 — Rest, Retrieval and Installation-Defect Correction
+- **Next:** [Day 47 — Rest, Retrieval and Installation-Defect Correction](day-47-rest-retrieval-and-installation-defect-correction.md)
 
 This module remains `review-required`, `reference_check_required` and not `technically-reviewed`.
