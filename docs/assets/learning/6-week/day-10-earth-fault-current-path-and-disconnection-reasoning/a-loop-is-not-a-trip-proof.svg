@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">A complete loop is not proof of protective operation</title>
+  <desc id="desc">A stick-figure learner follows a closed fault-current loop, then stops at separate evidence gates labelled continuity, loop condition and device response before reaching a trip conclusion.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="210" r="27"/>
+    <path d="M105 237V325 M105 270L170 235 M105 276L55 306 M105 325L72 390 M105 325L143 390"/>
+    <rect x="205" y="145" width="150" height="120" rx="8"/>
+    <path d="M245 205H315 M280 170V240"/>
+    <path d="M355 205C405 120 510 120 555 205C600 290 705 290 755 205"/>
+    <path d="M755 205C705 120 600 120 555 205C510 290 405 290 355 205"/>
+    <rect x="410" y="55" width="160" height="58" rx="6"/>
+    <rect x="575" y="170" width="150" height="70" rx="6"/>
+    <rect x="730" y="55" width="170" height="58" rx="6"/>
+    <path d="M490 113V155 M650 170V132 M815 113V155"/>
+    <path d="M815 155V205"/>
+    <rect x="760" y="285" width="135" height="62" rx="6"/>
+    <path d="M825 240V285"/>
+    <path d="M785 317H805 M845 317H865"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="280" y="195" font-size="20" font-weight="700">FAULT</text>
+    <text x="280" y="222" font-size="18">LOOP</text>
+    <text x="490" y="90" font-size="19" font-weight="700">CONTINUITY</text>
+    <text x="650" y="198" font-size="18" font-weight="700">LOOP</text>
+    <text x="650" y="221" font-size="18" font-weight="700">CONDITION</text>
+    <text x="815" y="82" font-size="18" font-weight="700">DEVICE</text>
+    <text x="815" y="104" font-size="18" font-weight="700">EVIDENCE</text>
+    <text x="827" y="323" font-size="18" font-weight="700">TRIP CLAIM</text>
+    <text x="480" y="420" font-size="27" font-weight="700">A closed loop starts the proof. It does not finish it.</text>
+  </g>
+</svg>
