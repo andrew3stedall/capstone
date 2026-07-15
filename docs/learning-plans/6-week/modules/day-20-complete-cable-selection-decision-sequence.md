@@ -10,11 +10,13 @@ standard_references:
   - source: current authorised standards, manufacturer data, installation instructions, workplace procedures and RTO instructions
     edition: current
     clause: reference_check_required
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
-quality_passes: []
+quality_passes:
+  - date: 2026-07-16
+    focus: evidence-gated selection, dependency control and changed-condition transfer
 prerequisites:
   - Day 19 — Rest, Calculation Correction and Catch-Up
 related_modules:
@@ -34,111 +36,148 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. state the complete cable-selection decision sequence in a defensible order;
-2. identify which decisions are inputs, checks, outcomes and reopening triggers;
-3. define candidate conductor, governing condition, terminal constraint and design margin;
-4. keep load, device, conductor, route and voltage-drop evidence traceable;
-5. reject a selection where one required evidence gate remains unresolved;
-6. compare two fictional candidates without treating size alone as proof of suitability;
-7. explain how one changed condition propagates through the chain; and
-8. score at least 17/20 on the educational rubric with no zero in evidence control, integration or safety boundary.
+1. reconstruct the complete cable-selection sequence in a defensible order;
+2. assign an evidence grade and claim grade to each material decision;
+3. distinguish inputs, dependencies, checks, conclusions and reopening triggers;
+4. define candidate conductor, governing condition, terminal constraint and design margin;
+5. complete a selection ledger linking every claim to evidence, scope and unresolved dependencies;
+6. reject a selection where one critical gate remains unresolved;
+7. compare two fictional candidates without treating size or one passing result as proof; and
+8. transfer the sequence to a changed scenario and score at least 10/12 on the educational rubric with no critical error.
 
 ### Entry check — eight minutes, closed note
 
 1. Reconstruct Days 15–18 in order.
 2. Name one reason each stage can reopen an earlier stage.
-3. What is the difference between a candidate and a verified selection?
-4. Why must terminal and equipment constraints be checked separately?
-5. Which claims remain outside an automated learning module?
+3. Distinguish a candidate, provisional preference and supported paper conclusion.
+4. Explain why terminal and equipment constraints are separate evidence gates.
+5. State the practical and technical-review boundaries.
 
 ## 2. Why it matters
 
-Cable selection is not a single table lookup. It is a controlled sequence of linked decisions. A candidate that passes one check can still fail another, and a late route or equipment change can invalidate apparently completed work. The defensible outcome is therefore a traceable chain with explicit unresolved evidence and reopening rules.
+Cable selection is not a size lookup or a one-direction calculation. It is a controlled argument in which each conclusion depends on current evidence about the load, protective function, route, conductor, terminals and operating case. A late change can invalidate several earlier decisions. The defensible outcome is a bounded, traceable conclusion—not a plausible cable size.
 
-![A learner moves a cable candidate through five evidence gates before reaching a bounded conclusion](../../../assets/learning/6-week/day-20-complete-cable-selection-decision-sequence/pass-every-gate-before-selection.svg)
+![A learner carries one cable candidate through linked evidence gates while a changed condition reopens earlier checks](../../../assets/learning/6-week/day-20-complete-cable-selection-decision-sequence/pass-every-gate-before-selection.svg)
 
-*Caption: A cable candidate becomes a selection only after every required gate is addressed.*
+*Caption: A candidate becomes supportable only when every material gate and dependency is addressed.*
+
+![A stick-figure learner compares a neat final cable label with an evidence chain that remains incomplete](../../../assets/learning/6-week/day-20-complete-cable-selection-decision-sequence/a-size-is-not-a-selection-proof.svg)
+
+*Caption: A cable size is an output label; the selection proof is the evidence chain behind it.*
 
 ## 3. Core concepts and terminology
 
-- **Candidate conductor:** a conductor considered for evaluation but not yet accepted.
-- **Verified selection:** a bounded design conclusion supported by all required current evidence and authorised methods.
-- **Governing condition:** the operating case or route section that controls the result.
-- **Terminal constraint:** a limitation associated with equipment or device connection points, conductor type, size or temperature basis.
-- **Design margin:** the difference between a required value and the verified available capability; it is not a substitute for compliance.
-- **Evidence gate:** a required question that must be resolved before progressing.
-- **Reopening trigger:** a changed fact that invalidates one or more earlier decisions.
-- **Decision record:** the traceable set of inputs, sources, calculations, assumptions, outcomes and review flags.
+- **Candidate conductor:** a conductor being evaluated; it is not yet accepted.
+- **Provisional preference:** the strongest candidate under stated fictional evidence, still subject to unresolved dependencies or review.
+- **Supported paper conclusion:** a bounded educational conclusion whose material inputs, methods and dependencies are evidenced for the supplied scenario.
+- **Governing condition:** the operating case or route section that controls a result.
+- **Terminal constraint:** a limitation associated with equipment connection points, conductor type, size, temperature basis or manufacturer instruction.
+- **Design margin:** the difference between required and available capability; it cannot cure a failed or unsupported requirement.
+- **Evidence gate:** a material question that must be resolved before a stronger claim is made.
+- **Dependency:** a fact or earlier conclusion on which a later decision relies.
+- **Reopening trigger:** changed or conflicting evidence that invalidates an earlier conclusion.
+- **Selection ledger:** a record of claim, evidence, evidence grade, dependencies, result, unresolved item and reopening trigger.
+
+### Evidence grades
+
+1. **Supplied:** stated in the controlled scenario pack.
+2. **Corroborated:** supported by more than one consistent controlled source.
+3. **Derived:** calculated from supported inputs using an authorised method.
+4. **Assumed:** introduced for learning continuity but not verified.
+5. **Missing or conflicting:** absent, stale or inconsistent evidence.
+
+### Claim grades
+
+1. **Observation:** what the supplied information shows.
+2. **Provisional reasoning:** a possible interpretation with open dependencies.
+3. **Supported paper conclusion:** a bounded conclusion for the supplied fictional case.
+4. **Authorised technical determination:** reserved for current authorised sources and qualified review; this module cannot make it.
 
 ## 4. Rule-finding workflow
 
 Use **S-E-L-E-C-T-I-O-N**:
 
-1. **S — Scope the circuit and operating cases.** Define source, load, route, phases, duty and boundaries.
-2. **E — Establish load evidence.** Build the load register and determine the authorised demand method.
-3. **L — Link design current, device function and candidate conductor.** Keep each role distinct.
-4. **E — Evaluate installation conditions.** Map sections and establish adjusted capacity using authorised data.
-5. **C — Check protection relationships.** Confirm the candidate does not rely on an unsupported device or fault-performance claim.
-6. **T — Test voltage drop.** Use verified inputs, units, method and criterion.
-7. **I — Inspect terminal, equipment and environmental constraints.** Record manufacturer and installation requirements.
-8. **O — Observe interactions and changed-condition effects.** Reopen earlier gates where needed.
-9. **N — Note the bounded conclusion.** State candidate status, unresolved evidence, technical-review needs and stop conditions.
+1. **S — Scope the circuit and operating cases.** Define source, load, route, phases, duty, boundaries and exclusions.
+2. **E — Establish load evidence.** Build the load register and identify the authorised demand method.
+3. **L — Link design current, protective function and candidate conductor.** Keep each role and dependency distinct.
+4. **E — Evaluate installation conditions.** Segment the route and establish adjusted capacity using authorised data.
+5. **C — Check protection relationships.** Do not infer device or fault performance from labels alone.
+6. **T — Test voltage drop.** Preserve method, units, path boundary and criterion.
+7. **I — Inspect terminal, equipment and environmental constraints.** Record manufacturer and installation dependencies.
+8. **O — Observe interactions and changed-condition effects.** Reopen every affected gate before recalculating.
+9. **N — Note the bounded conclusion.** State claim grade, unresolved evidence, technical-review needs and stop conditions.
 
 ```mermaid
 flowchart TD
-    A[Scope circuit and operating cases] --> B[Establish load and design current]
-    B --> C[Select device function and candidate conductor]
-    C --> D[Evaluate route and adjusted capacity]
-    D --> E[Check protection relationships]
-    E --> F[Test voltage drop]
-    F --> G[Check terminals equipment and environment]
-    G --> H{All required gates supported?}
-    H -->|No| I[Revise candidate or obtain evidence]
-    I --> B
-    H -->|Yes| J[Record bounded selection conclusion]
+    S20[Scope circuit and operating cases] --> E20[Establish load evidence]
+    E20 --> L20[Link current device function and candidate]
+    L20 --> R20[Evaluate route and adjusted capacity]
+    R20 --> P20[Check protection relationships]
+    P20 --> V20[Test voltage drop]
+    V20 --> T20[Inspect terminals equipment and environment]
+    T20 --> G20{All critical gates supported?}
+    G20 -->|No| U20[Record unresolved dependency and revise or stop]
+    U20 --> E20
+    G20 -->|Yes| B20[Record supported bounded paper conclusion]
 ```
 
-No gate is “passed” merely because a value looks plausible. Each material input and method must have a source and scope.
+The loop is deliberate. A changed load, route, device, terminal, source arrangement, manufacturer instruction or criterion can reopen several gates; only the affected checks should be repeated, but none may be silently carried forward.
+
+### Selection ledger
+
+| Claim or gate | Evidence and grade | Dependencies | Result | Reopening trigger |
+|---|---|---|---|---|
+| Operating case | controlled brief — supplied | load controls and duty | open/supported | load or control changes |
+| Adjusted capacity | authorised fictional data — derived | route section and installation conditions | open/supported | route, grouping or ambient changes |
+| Protection relationship | controlled device evidence — supplied/derived | protective function and conductor | open/supported | device or source changes |
+| Voltage-drop conclusion | supported inputs — derived | current, length, arrangement and method | open/supported | load, length or method changes |
+| Terminal compatibility | manufacturer evidence — supplied/missing | conductor construction and equipment | open/supported | equipment or instruction changes |
 
 ## 5. Visual model or worked example
 
 ### Fictional candidate comparison
 
-A training scenario supplies two unnamed conductor candidates, A and B, plus authorised fictional data. Candidate A has lower capacity margin but lower fictional voltage drop. Candidate B has higher capacity margin but a terminal compatibility question.
+A controlled training pack supplies candidates A and B. Candidate A has lower fictional adjusted-capacity margin but lower fictional voltage drop. Candidate B has higher margin but incomplete terminal evidence.
 
-A valid comparison must record:
+A defensible comparison records:
 
-- which operating case governs demand;
-- which route section governs adjusted capacity;
-- whether the device function and conductor relationship is supported;
-- which voltage-drop method and path length apply;
-- whether terminal and manufacturer constraints are resolved; and
-- which unresolved item prevents a verified selection.
+- the governing operating case;
+- the governing route section;
+- the evidence grade for every material input;
+- whether protective function and conductor relationship are supported;
+- the voltage-drop method, path boundary and units;
+- terminal and manufacturer dependencies; and
+- the strongest permitted claim grade.
 
-The correct educational conclusion may be: “Candidate A is provisionally preferred for the supplied fictional case, subject to authorised technical review,” or “Neither candidate is yet supportable because terminal evidence is missing.”
+The correct outcome may be: “Candidate A is the provisional preference for the supplied fictional case, subject to the stated unresolved review items.” If terminal evidence is missing for both, neither candidate supports a completed paper conclusion.
 
 ```mermaid
 flowchart LR
-    A[Candidate A] --> G1[Capacity gate]
-    A --> G2[Voltage-drop gate]
-    B[Candidate B] --> G3[Capacity gate]
-    B --> G4[Terminal gate]
-    G1 --> C[Comparison record]
-    G2 --> C
-    G3 --> C
-    G4 --> C
-    C --> R[Bounded conclusion or unresolved status]
+    CA20[Candidate A] --> AC20[Capacity evidence]
+    CA20 --> AV20[Voltage-drop evidence]
+    CB20[Candidate B] --> BC20[Capacity evidence]
+    CB20 --> BT20[Terminal evidence missing]
+    AC20 --> CR20[Selection ledger]
+    AV20 --> CR20
+    BC20 --> CR20
+    BT20 --> CR20
+    CR20 --> CG20{Strongest supported claim?}
+    CG20 --> CP20[Provisional preference]
+    CG20 --> CU20[Unresolved no selection]
 ```
 
-### Worked-example fading
+### Worked-example fading and transfer
 
-Repeat the comparison after the route moves through a hotter grouped section. Identify every gate that reopens before doing arithmetic.
+1. Complete the ledger with headings supplied.
+2. Repeat with only the gate names supplied.
+3. Rebuild from a blank page after the route moves through a hotter grouped section.
+4. Before arithmetic, identify every reopened dependency and explain why unaffected evidence may remain valid.
 
 ## 6. Practical application
 
 ### Part A — complete decision record
 
-Prepare one page with circuit scope, evidence ledger, operating cases, candidate comparison, source list, calculations, unresolved items and reopening triggers.
+Produce one page containing scope, evidence ledger, operating cases, candidate comparison, source list, calculations, unresolved items, claim grades and reopening triggers.
 
 ### Part B — change propagation
 
@@ -150,28 +189,40 @@ Analyse separately:
 4. longer route; and
 5. different equipment terminals.
 
-For each, mark every affected S-E-L-E-C-T-I-O-N step.
+For each change, identify the first affected dependency, every reopened S-E-L-E-C-T-I-O-N gate and the strongest remaining claim.
 
-### Part C — assessment response
+### Part C — independent assessment response
 
-Given a fresh fictional scenario, produce a concise bounded recommendation and identify the exact evidence preventing any stronger claim.
+Given a fresh fictional scenario, produce a bounded recommendation without copying the worked example. State exactly what prevents any stronger claim.
 
 ### Educational rubric
 
-Score **0–2** for scope, load evidence, device/conductor roles, route and capacity, protection reasoning, voltage drop, terminal/equipment checks, interaction tracing, conclusion quality and safety boundary. Below **17/20**, or zero in evidence control, integration or safety, requires a varied re-attempt. This is not an official assessment threshold.
+Score **0–2** for each category:
+
+1. scope and operating cases;
+2. evidence and claim calibration;
+3. dependency and interaction control;
+4. complete selection sequence;
+5. bounded conclusion and communication; and
+6. safety, copyright and authority boundary.
+
+A score below **10/12** requires a varied re-attempt. Any critical error also requires remediation regardless of total score. This is not an official RTO pass mark.
+
+**Critical errors:** inventing a material value; treating missing evidence as passed; presenting a candidate as approved or compliant; omitting a governing route or operating case; hiding an assumption; or implying authority for practical work or technical approval.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- starting with cable size instead of circuit scope and load evidence;
+- starting with cable size instead of scope and load evidence;
 - treating one passing check as complete selection;
+- using a high design margin to excuse another failed gate;
 - hiding assumptions inside arithmetic;
 - using device rating as proof of conductor suitability;
-- ignoring the governing route section;
-- failing to check terminal or equipment restrictions;
-- applying remembered values or limits;
-- not reopening earlier decisions after a change; and
+- ignoring the governing route section or operating case;
+- failing to verify terminal or equipment restrictions;
+- applying remembered values, factors or limits;
+- carrying stale conclusions through a changed scenario; and
 - describing an educational candidate as approved or compliant.
 
 ### Safety checkpoint
@@ -183,22 +234,22 @@ This module authorises no site access, switching, isolation, opening, measuremen
 ### Closed-note retrieval
 
 1. State the nine S-E-L-E-C-T-I-O-N steps.
-2. Define candidate conductor, governing condition and reopening trigger.
-3. Name five evidence gates.
-4. Explain why capacity margin cannot replace another failed check.
-5. State the strongest conclusion permitted when one material item remains unresolved.
+2. Define candidate conductor, dependency, claim grade and reopening trigger.
+3. Name the five evidence grades.
+4. Explain why design margin cannot replace a failed gate.
+5. State the strongest conclusion permitted when one critical dependency remains unresolved.
 
 ### Delayed transfer
 
-After 48 hours, rebuild the sequence from a blank page and apply one changed condition without referring to the worked example.
+After 48 hours, rebuild the workflow and selection ledger from a blank page. Apply one changed condition and identify reopened gates before doing arithmetic.
 
 ### Navigation
 
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 19 — Rest, Calculation Correction and Catch-Up](day-19-rest-calculation-correction-and-catch-up.md)
 - **Knowledge note:** [[Six-Week Day 20 - Complete Cable-Selection Decision Sequence]]
-- **Next:** Day 21 — Week 3 Integrated Circuit-Design Exercise
+- **Next:** [Day 21 — Week 3 Integrated Circuit-Design Exercise](day-21-week-3-integrated-circuit-design-exercise.md)
 
 ### References and review boundary
 
-Use current authorised standards, manufacturer data, installation instructions, workplace procedures and RTO instructions. Exact demand methods, ratings, capacities, factors, equations, limits, terminal requirements and exceptions remain `reference_check_required`; no standards table, figure or clause sequence is reproduced.
+Use current authorised standards, manufacturer data, installation instructions, workplace procedures and RTO instructions. Exact demand methods, ratings, capacities, factors, equations, limits, terminal requirements and exceptions remain `reference_check_required`; no standards table, figure, clause sequence or near-substitute content is reproduced.

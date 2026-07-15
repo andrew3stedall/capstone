@@ -8,7 +8,7 @@ reviewed_on: 2026-07-16
 
 # Six-Week Capstone Learning Plan
 
-This is the canonical sequence for the six-week program. It is designed for a learner with prior trade-school and workplace exposure who needs more spacing, retrieval and application than the intensive four-week stream provides.
+This is the canonical sequence for the six-week program. It is designed for a learner with prior trade-school and workplace exposure who needs more spacing, retrieval and application than the intensive four-week stream.
 
 The sequence is not a stretched copy of the four-week plan. Concepts are separated into smaller learning decisions, revisited in varied contexts and integrated progressively through design, inspection, verification, fault-finding and mock-assessment work.
 
@@ -88,9 +88,9 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-- [x] Days 1–18 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
-- [x] 2026-07-16 — [Day 19 — Rest, calculation correction and catch-up](modules/day-19-rest-calculation-correction-and-catch-up.md): strengthened R-E-C-O-V-E-R with five evidence states, a repair ledger, explicit dependencies and reopening triggers, worked-example fading, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible correction-evidence-transfer visual.
-- [ ] Next — Day 20 — Complete cable-selection decision sequence.
+- [x] Days 1–19 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
+- [x] 2026-07-16 — [Day 20 — Complete cable-selection decision sequence](modules/day-20-complete-cable-selection-decision-sequence.md): strengthened S-E-L-E-C-T-I-O-N with five evidence grades, four claim grades, a selection ledger, explicit dependencies and reopening triggers, worked-example fading, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible size-versus-proof visual.
+- [ ] Next — Day 21 — Week 3 integrated circuit-design exercise.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 

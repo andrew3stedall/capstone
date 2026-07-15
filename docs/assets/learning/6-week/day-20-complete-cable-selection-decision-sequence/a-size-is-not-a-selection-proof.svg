@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A cable size is not a selection proof</title>
+  <desc id="desc">A black-and-white stick figure compares a large cable-size label with a linked evidence chain for load, route, protection, voltage drop and terminals. One missing terminal link keeps the selection gate closed.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="190" r="30"/>
+    <path d="M110 220v115M110 250l-55 45M110 250l70 25M110 335l-42 74M110 335l48 74"/>
+    <rect x="205" y="80" width="185" height="120" rx="12"/>
+    <path d="M240 120h115M240 155h115"/>
+    <rect x="440" y="55" width="115" height="70" rx="10"/>
+    <rect x="590" y="55" width="115" height="70" rx="10"/>
+    <rect x="740" y="55" width="115" height="70" rx="10"/>
+    <rect x="515" y="180" width="115" height="70" rx="10"/>
+    <rect x="665" y="180" width="115" height="70" rx="10"/>
+    <path d="M390 140h50M555 90h35M705 90h35M797 125l-102 55M630 215h35"/>
+    <path d="M780 215h55" stroke-dasharray="12 12"/>
+    <rect x="835" y="145" width="75" height="145" rx="10"/>
+    <path d="M835 215h75"/>
+    <path d="M805 180l30 35-30 35"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="35" font-size="32" font-weight="700">A SIZE IS AN OUTPUT, NOT THE PROOF</text>
+    <text x="298" y="128" font-size="26" font-weight="700">CABLE SIZE</text>
+    <text x="298" y="168" font-size="20">neat final label</text>
+    <text x="498" y="98" font-size="18">LOAD</text>
+    <text x="648" y="98" font-size="18">ROUTE</text>
+    <text x="798" y="98" font-size="18">PROTECTION</text>
+    <text x="573" y="223" font-size="17">VOLTAGE DROP</text>
+    <text x="723" y="223" font-size="18">TERMINALS?</text>
+    <text x="873" y="320" font-size="20" font-weight="700">GATE</text>
+    <text x="480" y="430" font-size="24">Every material link must be supported before the conclusion becomes stronger.</text>
+  </g>
+</svg>

@@ -16,7 +16,7 @@ pull_request: 6
 - Base branch: `automation/4-week-learning-plan`
 - Relationship: stacked on the open four-week learning-plan branch because draft PR #5 has not merged.
 - Retarget PR #6 to `main` only after PR #5 merges and the resulting diff is checked.
-- GitHub reports PR #6 as open, draft and mergeable against its current stacked base.
+- GitHub reports PR #6 as open and draft. Its current mergeability should be rechecked after this commit because GitHub reported a transient non-mergeable state during inspection.
 
 ## Current state
 
@@ -24,48 +24,47 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–19.
-- Exactly one next increment: quality-improvement pass — Day 20, Complete Cable-Selection Decision Sequence.
+- Completed quality passes: Days 1–20.
+- Exactly one next increment: quality-improvement pass — Day 21, Week 3 Integrated Circuit-Design Exercise.
 
 ## Completed increments
 
-- Quality-improvement passes for Days 1–18 are recorded in prior repository history and each module's YAML metadata.
-- **Day 19:** strengthened R-E-C-O-V-E-R with five evidence states, a repair ledger, explicit dependencies and reopening triggers, worked-example fading, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible correction-evidence-transfer visual.
+- Quality-improvement passes for Days 1–19 are recorded in prior repository history and each module's YAML metadata.
+- **Day 20:** strengthened S-E-L-E-C-T-I-O-N with five evidence grades, four claim grades, a selection ledger, explicit dependencies and reopening triggers, worked-example fading, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible size-versus-selection-proof visual.
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-19-rest-calculation-correction-and-catch-up.md`
-- `docs/assets/learning/6-week/day-19-rest-calculation-correction-and-catch-up/a-correction-needs-evidence-and-transfer.svg`
-- `docs/knowledge-base/Six-Week Day 19 - Rest Calculation Correction and Catch-Up.md`
+- `docs/learning-plans/6-week/modules/day-20-complete-cable-selection-decision-sequence.md`
+- `docs/assets/learning/6-week/day-20-complete-cable-selection-decision-sequence/a-size-is-not-a-selection-proof.svg`
+- `docs/knowledge-base/Six-Week Day 20 - Complete Cable-Selection Decision Sequence.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 19 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact equations, coefficients, limits, criteria, authorised methods, source applicability and assessment arrangements require current authorised information and qualified review where encountered during repair.
-- R-E-C-O-V-E-R, the evidence states, repair ledger, reopening triggers, fictional transfer tasks, Mermaid diagrams and rubric are original educational models.
+- Day 20 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact demand methods, ratings, capacities, correction factors, equations, limits, terminal requirements, protective relationships, exceptions and assessment arrangements require current authorised information and qualified review.
+- S-E-L-E-C-T-I-O-N, the evidence and claim grades, selection ledger, reopening triggers, fictional scenarios, Mermaid diagrams, transfer tasks and rubric are original educational models.
 - No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
-- The module authorises no site access, switching, isolation, measurement, testing, design approval or practical electrical work.
+- The module authorises no site access, switching, isolation, opening, measurement, testing, alteration, installation, energisation, commissioning, certification, verification or design approval.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 20–42.
-- Quality-improvement passes completed: Days 1–19.
+- Modules awaiting one quality-improvement pass: Days 21–42.
+- Quality-improvement passes completed: Days 1–20.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 19 retains the exact eight required beats and compatible YAML metadata.
+- Day 20 retains the exact eight required beats and compatible YAML metadata.
 - Two Mermaid diagrams use standard flowchart syntax and unique node identifiers within each diagram.
-- Module and note navigation are reciprocal and point to Days 18 and 20.
-- Both Day 19 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
-- Five evidence states and the repair ledger prevent a neat recalculation from substituting for supported method, preserved units, explicit dependencies and changed-condition transfer.
-- Reopening triggers cover changed loads, source arrangements, route boundaries, conductor assumptions, units, methods, criteria, source editions, RTO instructions and conflicting later evidence.
-- Worked-example fading, independent transfer and delayed retrieval are included without adding new electrical theory or unverified practical procedures.
+- Module and note navigation are reciprocal and point to Days 19 and 21; Day 21 already links back to Day 20.
+- Both Day 20 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
+- Five evidence grades, four claim grades and the selection ledger prevent cable size, margin or one passing calculation from substituting for a complete evidence chain.
+- Reopening triggers cover changed loads, controls, sources, routes, grouping, ambient conditions, devices, terminals, equipment, manufacturer instructions, criteria and conflicting later evidence.
+- Worked-example fading, independent changed-condition transfer and delayed retrieval are included without adding unverified practical procedures.
 - The six-category rubric includes critical-error gates and is explicitly distinguished from an official RTO pass mark.
-- The 30-minute, three-repair, fatigue and critical-error stop conditions remain explicit.
-- Safety and copyright boundaries remain explicit.
+- Safety, accessibility and copyright boundaries remain explicit.
 
 ## Commit behaviour
 
@@ -74,4 +73,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 20: Complete Cable-Selection Decision Sequence**
+**Quality-improvement pass — Day 21: Week 3 Integrated Circuit-Design Exercise**
