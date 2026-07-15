@@ -115,7 +115,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 ### Week 10 — Test interpretation and systematic fault finding
 
-- [ ] Day 64 — Continuity evidence and common interpretation errors
+- [x] [Day 64 — Continuity evidence and common interpretation errors](modules/day-64-continuity-evidence-and-common-interpretation-errors.md)
 - [ ] Day 65 — Insulation, polarity and connection-integrity concepts
 - [ ] Day 66 — Fault-loop and RCD result interpretation at concept level
 - [ ] Day 67 — Systematic fault-finding workflow and hypothesis control
