@@ -119,18 +119,18 @@ Use **L-O-C-K**:
 
 ```mermaid
 flowchart TD
-    A[Define appliance and task context] --> B[Map every energy origin]
-    B --> C[Classify each control purpose]
-    C --> D[Define candidate isolation boundary]
-    D --> E{All sources and relevant conductors covered?}
-    E -->|No| F[Claim unresolved and record missing evidence]
-    E -->|Yes| G[Check access identification securing and suitability]
-    G --> H{Authorised and manufacturer evidence complete?}
-    H -->|No| F
-    H -->|Yes| I[Write bounded supported claim]
-    I --> J{Source control mode or appliance changed?}
-    J -->|Yes| B
-    J -->|No| K[Retain claim within stated scope]
+    A["Define appliance and task context"] --> B["Map every energy origin"]
+    B --> C["Classify each control purpose"]
+    C --> D["Define candidate isolation boundary"]
+    D --> E{"All sources and relevant conductors covered?"}
+    E -->|"No"| F["Claim unresolved and record missing evidence"]
+    E -->|"Yes"| G["Check access identification securing and suitability"]
+    G --> H{"Authorised and manufacturer evidence complete?"}
+    H -->|"No"| F
+    H -->|"Yes"| I["Write bounded supported claim"]
+    I --> J{"Source control mode or appliance changed?"}
+    J -->|"Yes"| B
+    J -->|"No"| K["Retain claim within stated scope"]
 ```
 
 For every claim, record the equipment boundary, source map, device purpose, evidence grade, claim grade, missing evidence and reopening trigger.
@@ -152,16 +152,16 @@ Result: **appliance and some energisation paths described; complete maintenance-
 
 ```mermaid
 flowchart LR
-    S1[Normal supply] --> E[Energy-source map]
-    S2[Auxiliary supply] --> E
-    S3[Remote or automatic start] --> E
-    S4[Alternative or feedback path] --> E
-    E --> B[Required boundary]
-    B --> D[Candidate device evidence]
-    D --> C[Conductor and source coverage]
-    D --> A[Access identification securing]
-    D --> M[Manufacturer compatibility]
-    C --> R[Bounded result]
+    S1["Normal supply"] --> E["Energy-source map"]
+    S2["Auxiliary supply"] --> E
+    S3["Remote or automatic start"] --> E
+    S4["Alternative or feedback path"] --> E
+    E --> B["Required boundary"]
+    B --> D["Candidate device evidence"]
+    D --> C["Conductor and source coverage"]
+    D --> A["Access identification securing"]
+    D --> M["Manufacturer compatibility"]
+    C --> R["Bounded result"]
     A --> R
     M --> R
 ```
