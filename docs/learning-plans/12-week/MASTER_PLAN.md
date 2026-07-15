@@ -107,7 +107,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 - [x] [Day 57 — Verification purpose, evidence types and responsibility boundaries](modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md)
 - [x] [Day 58 — Visual inspection categories and defect recording](modules/day-58-visual-inspection-categories-and-defect-recording.md)
-- [ ] Day 59 — Test purposes, dependencies and safe sequencing concepts
+- [x] [Day 59 — Test purposes, dependencies and safe sequencing concepts](modules/day-59-test-purposes-dependencies-and-safe-sequencing-concepts.md)
 - [ ] Day 60 — Instrument suitability, limitations and pre-use evidence
 - [ ] Day 61 — Rest, retrieval and sequence reconstruction
 - [ ] Day 62 — Result plausibility and evidence-quality reasoning
