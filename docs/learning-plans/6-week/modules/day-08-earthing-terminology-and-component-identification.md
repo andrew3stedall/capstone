@@ -13,23 +13,18 @@ standard_references:
   - source: applicable legislation, regulator guidance, network information, manufacturer information and RTO instructions
     edition: current
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
-quality_passes: []
-prerequisites:
-  - Day 7 — Week 1 Protection Decision Checkpoint
-related_modules:
-  - Day 9 — MEN Arrangement and Normal-Current Paths
-related_questions:
-  - 6w-day-08-earthing-component-identification
-related_simulations: []
+quality_passes:
+  - date: 2026-07-15
+    type: substantive-quality-improvement
 ---
 
 # Day 8 — Earthing Terminology and Component Identification
 
-> **Currency and safety notice:** This is an original identification and reasoning module. It does not authorise opening equipment, tracing live conductors, disconnecting conductors, testing continuity or altering an earthing arrangement. Exact definitions, permitted arrangements, connection locations, conductor requirements and jurisdiction-specific duties remain `reference_check_required`. This module is `review-required`, not `technically-reviewed`.
+> **Currency and safety notice:** This is an original identification and reasoning module. It does not authorise opening equipment, tracing conductors, disconnecting conductors, testing continuity or altering an earthing arrangement. Exact definitions, permitted arrangements, connection locations, conductor requirements and jurisdiction-specific duties remain `reference_check_required`. This module is `review-required`, not `technically-reviewed`.
 
 ## 1. Outcome and entry check
 
@@ -39,12 +34,13 @@ By the end of this block, the learner should be able to:
 
 1. distinguish earthing, protective earthing, bonding and the MEN relationship in plain technical language;
 2. identify the conceptual roles of the main earthing terminal, protective earthing conductor, main earthing conductor, earthing electrode, neutral conductor and MEN connection from a supplied learning diagram;
-3. separate a component name from its function, location and evidence status;
-4. avoid identifying conductors solely by colour, position or familiarity;
-5. classify supplied labels and observations as stated fact, authorised evidence or assumption;
-6. explain which component-role questions must be resolved before tracing normal or fault-current paths;
-7. produce a bounded component-identification record with uncertainty and escalation clearly stated;
-8. score at least 10 out of 12 on the educational rubric with no zero in role accuracy, evidence control or safety boundary.
+3. separate component identity, role, location, condition and applicability;
+4. grade every material identification claim using the five evidence grades;
+5. classify conclusions using the four claim grades;
+6. avoid identifying conductors solely by colour, position, familiarity or an unverified label;
+7. reopen affected conclusions when the source arrangement, drawing status or component evidence changes;
+8. produce a bounded component-role ledger with uncertainty and escalation clearly stated;
+9. score at least 10 out of 12 on the educational rubric with no critical error.
 
 ### Entry check
 
@@ -58,11 +54,11 @@ Without notes, answer and rate confidence as **guessing**, **unsure**, **reasona
 6. What does MEN stand for?
 7. Which source types can confirm the applicable arrangement and permitted connection locations?
 
-Record any high-confidence error. Correct it through a varied diagram later rather than rereading the whole module.
+Record every high-confidence error. Correct it through a varied diagram later rather than rereading the whole module.
 
 ## 2. Why it matters
 
-Earthing questions become unreliable when component names, physical locations and electrical roles are blended together. A learner may recognise a green/yellow conductor or an electrode symbol yet still misunderstand what part of the current path it represents.
+Earthing questions become unreliable when component names, physical locations and electrical roles are blended together. A learner may recognise a green/yellow conductor or an electrode symbol yet still misunderstand what part of the arrangement it represents.
 
 Accurate identification matters because later reasoning depends on it:
 
@@ -70,11 +66,16 @@ Accurate identification matters because later reasoning depends on it:
 - a protective earthing conductor must not be treated as interchangeable with neutral;
 - bonding must not be described as a substitute for earthing or protective-device coordination;
 - an electrode must not be imagined as a universal drain that makes fault current disappear into soil;
-- a familiar diagram must not be applied outside its stated supply arrangement.
+- a familiar diagram must not be applied outside its stated supply arrangement;
+- a label must not be treated as proof of continuity, condition or permitted connection.
 
 ![A learner identifies labelled earthing components by evidence and role rather than guessing from colour or position](../../../assets/learning/6-week/day-08-earthing-terminology-and-component-identification/name-the-role-before-the-path.svg)
 
 *Caption: Name the component, prove the evidence, then state its role; colour and position are clues, not conclusions.*
+
+![A learner checks identity, role and applicability before beginning path reasoning](../../../assets/learning/6-week/day-08-earthing-terminology-and-component-identification/a-label-is-not-a-proven-role.svg)
+
+*Caption: A familiar label is a clue, not a complete conclusion.*
 
 ## 3. Core concepts and terminology
 
@@ -118,48 +119,75 @@ An **earthing electrode** is a conductive part in contact with earth and forms p
 
 The **MEN connection** is the designated relationship between the installation earthing system and neutral under the applicable multiple earthed neutral arrangement. Exact location, number, permissions and exceptions are safety-critical and remain `reference_check_required`.
 
-### Component identity record
+### Component-role ledger
 
-A **component identity record** keeps five items separate:
+A **component-role ledger** keeps six items separate:
 
 1. supplied label or observation;
-2. proposed component name;
+2. proposed component identity;
 3. conceptual role;
-4. evidence source and grade;
-5. uncertainty or missing context.
+4. evidence grade;
+5. claim grade;
+6. uncertainty, dependency or missing context.
 
 This prevents a visual clue from silently becoming a safety-critical fact.
+
+### Evidence grades
+
+- **E1 — directly supplied:** an explicit label, approved schedule entry, stated scenario fact or authorised recorded observation.
+- **E2 — corroborated:** two or more independent applicable sources support the same identification or role.
+- **E3 — derived:** the conclusion follows from supported facts and a stated reasoning step, but is not directly observed.
+- **E4 — assumed:** the conclusion relies on colour, position, familiarity, presumed continuity or an arrangement copied from another scenario.
+- **E5 — missing or conflicting:** the required information is absent, outdated, ambiguous or inconsistent.
+
+E4 may generate a question. E5 requires the conclusion to remain unresolved. Neither grade can establish a safety-critical connection or role.
+
+### Claim grades
+
+- **C1 — described:** reports only what the supplied material shows or states.
+- **C2 — provisionally identified:** proposes an identity or role with explicit uncertainty.
+- **C3 — supported:** evidence and applicability are sufficient for bounded paper reasoning.
+- **C4 — verified:** requires the authorised practical or documentary verification appropriate to the claim.
+
+This module normally stops at C1–C3. It does not authorise practical work needed to reach C4.
 
 ## 4. Rule-finding workflow
 
 Use **N-A-M-E-S**.
 
 1. **N — Note the scenario boundary.** Record the stated supply context, installation section, drawing type, labels, accessible observations and learner authority.
-2. **A — Assign a provisional name.** Name the component only as strongly as the supplied evidence permits; use “unidentified conductor” or “proposed earthing junction” when necessary.
+2. **A — Assign a provisional identity.** Name the component only as strongly as the supplied evidence permits; use “unidentified conductor” or “proposed earthing junction” when necessary.
 3. **M — Map the conceptual role.** State whether the item belongs to the normal-current path, protective path, bonding arrangement, earth-reference arrangement or source relationship.
-4. **E — Establish evidence and applicability.** Check current authorised requirements, approved drawings, manufacturer information and supplied records. Grade each claim A, B or C.
-5. **S — State boundaries and next question.** Record what is supported, what is conditional, what remains unknown and which exact source or qualified check is required next.
+4. **E — Establish evidence, claim grade and applicability.** Grade the evidence E1–E5, the claim C1–C4, and check that the source applies to this supply arrangement and installation section.
+5. **S — State boundaries, dependencies and next question.** Record what is supported, what remains conditional, what must be reopened after a change and which exact source or qualified check is required next.
 
 ```mermaid
 flowchart TD
-    A["Note supply context and supplied evidence"] --> B["Assign provisional component name"]
+    A["Note supply context and supplied evidence"] --> B["Assign provisional component identity"]
     B --> C["Map conceptual role"]
-    C --> D{"Applicable Grade A or B evidence?"}
-    D -->|"No"| E["Keep identity provisional and record missing evidence"]
-    D -->|"Yes"| F["Record supported identity and role"]
-    E --> G["State stop or escalation condition"]
-    F --> H["Prepare for current-path reasoning"]
+    C --> D["Grade evidence and claim"]
+    D --> E{"Applicable support for identity and role?"}
+    E -->|"No"| F["Keep provisional or unresolved"]
+    E -->|"Yes"| G["Record bounded supported identity"]
+    F --> H["State missing evidence and stop condition"]
+    G --> I["Check dependencies before path reasoning"]
 ```
 
-The workflow deliberately stops before current-path tracing if component identity or supply context is unresolved.
+The workflow deliberately stops before current-path tracing if component identity, role, supply context or applicability is unresolved.
 
-### Evidence grades
+### Reopening rule
 
-- **Grade A — supplied fact or authorised observation:** a labelled learning drawing, approved schedule entry, supplied photograph detail or recorded observation.
-- **Grade B — applicable authorised evidence:** current standard requirement, network information, approved design, manufacturer information, workplace procedure or competent direction.
-- **Grade C — assumption or visual guess:** colour-only identification, position-based inference, presumed continuity, guessed MEN location or an arrangement copied from a different scenario.
+Reopen every dependent conclusion when any of these change:
 
-Grade C may generate a question. It cannot establish a safety-critical connection or role.
+- source or supply arrangement;
+- drawing status or revision;
+- conductor label or termination information;
+- component location or installation boundary;
+- evidence grade;
+- neutral-to-earthing relationship;
+- alternative or multiple supply context.
+
+A changed input invalidates dependent conclusions until they are rebuilt.
 
 ## 5. Visual model or worked example
 
@@ -187,12 +215,16 @@ Apply N-A-M-E-S:
 1. **Note:** the drawing is conceptual; supply context and approval status are absent.
 2. **Assign:** the enclosure conductor is provisionally a protective earthing conductor; the electrode conductor is provisionally a main earthing conductor; the junction is a proposed main earthing terminal or relevant junction.
 3. **Map:** enclosure connection belongs to the protective path; electrode connection belongs to the earth-reference arrangement; neutral link could represent a designated MEN relationship but remains unverified.
-4. **Establish:** the labels are Grade A scenario facts. The exact component classifications and permitted connection need Grade B authorised evidence.
+4. **Establish:** the labels are E1 scenario facts. The proposed identities are C2 derived claims. Exact classifications and permitted connections need applicable authorised support; the neutral relationship is E5 because supply context is missing.
 5. **State:** the diagram supports a conceptual earthing arrangement, but exact identity, connection location and supply applicability remain unresolved.
 
 A bounded conclusion is:
 
-> The supplied drawing supports provisional identification of a protective earthing connection, an installation earthing junction and an electrode connection. The neutral-to-earthing relationship cannot be confirmed as a permitted MEN connection without the applicable supply context and current authorised evidence. No physical tracing, testing or alteration is authorised.
+> The supplied drawing describes a protective connection, an installation earthing junction and an electrode connection. These identities remain provisional, and the neutral-to-earthing relationship cannot be supported as a permitted MEN connection without the applicable supply context and current authorised evidence. No physical tracing, testing or alteration is authorised.
+
+### Worked-example fading
+
+For a second diagram, provide only the scenario boundary and one completed ledger row. The learner completes the remaining rows, grades each claim and explains why path reasoning must stop for any E4 or E5 item.
 
 ## 6. Practical application
 
@@ -209,19 +241,20 @@ Use a trainer-created fictional diagram containing:
 - one bonding connection;
 - one deliberately misleading colour cue.
 
-For each item, complete a component identity record:
+For each item, complete a component-role ledger:
 
-| Supplied clue | Provisional name | Conceptual role | Evidence grade | Missing context |
-|---|---|---|---|---|
-| Learner completes | Learner completes | Learner completes | A, B or C | Learner completes |
+| Supplied clue | Provisional identity | Conceptual role | Evidence grade | Claim grade | Dependency or missing context |
+|---|---|---|---|---|---|
+| Learner completes | Learner completes | Learner completes | E1–E5 | C1–C4 | Learner completes |
 
 Then:
 
 1. circle every component that participates in the normal-current model;
 2. box every component that participates in the protective arrangement;
-3. mark every identity based only on colour or position as Grade C;
-4. list the current authorised sources needed to confirm the arrangement;
-5. write a bounded two-sentence conclusion.
+3. mark every identity based only on colour or position as E4;
+4. mark absent or conflicting supply information as E5;
+5. list the current authorised sources needed to confirm the arrangement;
+6. write a bounded two-sentence conclusion.
 
 ### Round 2 — worked-example fading
 
@@ -229,11 +262,17 @@ Repeat with labels removed from three components. The learner must choose betwee
 
 - supported identification;
 - provisional identification;
-- unidentified pending evidence.
+- unresolved pending evidence.
+
+No unsupported label may be promoted to C3.
 
 ### Round 3 — changed-context transfer
 
 Change the scenario from a normal grid-supplied learning model to an unspecified alternative-source context. Reassess every neutral, earthing and MEN claim. Do not carry the first diagram’s assumptions into the changed scenario.
+
+### Delayed retrieval
+
+Within 48 hours, complete a fresh four-component ledger without notes. Include one misleading label and one missing supply fact. Compare confidence with evidence grade and correct any high-confidence E4 claim.
 
 ### Performance rubric
 
@@ -243,12 +282,24 @@ Score each category **0–2**.
 |---|---|---|---|
 | Terminology | Uses neutral, earth and bonding interchangeably | Defines terms but blurs one distinction | Defines and consistently separates all key terms |
 | Component-role accuracy | Assigns roles by appearance | Identifies most roles with some unsupported inference | Correctly maps normal-current, protective, bonding and earth-reference roles |
-| Evidence control | Treats visual clues as facts | Marks some assumptions | Grades every material identity and records missing evidence |
+| Evidence and claim control | Treats visual clues as facts | Grades some claims inconsistently | Grades every material identity and keeps claims within evidence limits |
 | Source applicability | Names generic sources only | Selects sources without context limits | Chooses source families and explains scope and limitations |
-| Transfer | Reuses the first arrangement unchanged | Revises some labels | Reassesses all affected identities after the supply context changes |
+| Change propagation | Reuses the first arrangement unchanged | Revises some labels | Reopens every affected identity and role after the context changes |
 | Safety and bounded conclusion | Proposes tracing, testing or alteration | Gives general caution | States supported identity, uncertainty, authority boundary and escalation |
 
-A score below **10/12**, or any zero in **component-role accuracy**, **evidence control** or **safety and bounded conclusion**, requires targeted remediation and a varied re-attempt. This is an educational threshold, not an official RTO pass mark.
+A score below **10/12**, or any critical error, requires targeted remediation and a varied re-attempt. This is an educational threshold, not an official RTO pass mark.
+
+### Critical errors
+
+Any of the following requires remediation regardless of score:
+
+- treating neutral and protective earthing conductors as interchangeable;
+- treating colour or position as proof of identity;
+- describing the electrode as the sole universal fault-current return path;
+- claiming an MEN connection without applicable evidence;
+- treating a label as proof of continuity, condition or permitted connection;
+- carrying a grid-supply conclusion into a changed source arrangement without reopening it;
+- proposing opening, tracing, testing, disconnection, alteration or energisation outside authority.
 
 ## 7. Common errors and safety checkpoint
 
@@ -261,6 +312,7 @@ A score below **10/12**, or any zero in **component-role accuracy**, **evidence 
 - **Assuming the MEN connection from a familiar diagram.** Verify supply context, permitted location and applicable arrangement.
 - **Using a component label to prove continuity or effectiveness.** Identification does not establish condition, impedance or performance.
 - **Applying one installation drawing to an alternative supply.** Reassess source and neutral relationships whenever supply context changes.
+- **Leaving missing evidence ungraded.** Use E5 so uncertainty remains visible.
 
 ### Safety checkpoint
 
@@ -272,6 +324,7 @@ Stop and seek qualified guidance when:
 - conductor identity depends only on colour, position or memory;
 - neutral and protective conductors cannot be distinguished from authorised evidence;
 - an MEN connection location or permission is assumed;
+- records conflict or applicability is unclear;
 - damage, exposed live parts, overheating, moisture or altered conductors are reported;
 - the question requires exact clauses, sizes, locations, test methods or jurisdiction-specific requirements not supplied by a current authorised source.
 
@@ -285,10 +338,10 @@ Stop and seek qualified guidance when:
 4. State the conceptual role of the main earthing terminal or relevant junction.
 5. State the conceptual role of the main earthing conductor.
 6. Why is an electrode not taught as the sole metallic fault-current return path?
-7. What are the five N-A-M-E-S steps?
-8. State the three evidence grades.
-9. Why is colour-only identification Grade C?
-10. Name four stop conditions.
+7. Expand N-A-M-E-S.
+8. State the five evidence grades.
+9. State the four claim grades.
+10. Name four reopening triggers and four stop conditions.
 
 ### Error-log remediation
 
@@ -296,7 +349,7 @@ Select no more than three errors. For each:
 
 1. name the failed distinction;
 2. redraw a small original role map;
-3. identify the missing evidence;
+3. identify the missing evidence or inapplicable source;
 4. complete a varied identification card within 48 hours;
 5. record confidence before and after correction.
 
@@ -305,7 +358,7 @@ Select no more than three errors. For each:
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 7 — Week 1 Protection Decision Checkpoint](day-07-week-1-protection-decision-checkpoint.md)
 - **Knowledge note:** [[Six-Week Day 08 - Earthing Terminology and Component Identification]]
-- **Next:** Day 9 — MEN Arrangement and Normal-Current Paths
+- **Next:** [Day 9 — MEN Arrangement and Normal-Current Paths](day-09-men-arrangement-and-normal-current-paths.md)
 
 ### References and review boundary
 
