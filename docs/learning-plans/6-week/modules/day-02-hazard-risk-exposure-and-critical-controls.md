@@ -9,11 +9,13 @@ content_status: review-required
 standard_references:
   - standard: AS/NZS 3000
     edition: current-authorised-edition-required
-    clause: reference-only
-reviewed_on: 2026-07-14
+    clause: reference_check_required
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
-quality_passes: []
+technical_reviewer: pending
+quality_passes:
+  - quality-improvement-pass-2026-07-15
 prerequisites:
   - Day 1 — Program Orientation, Assessment Map and Source Hierarchy
 related_modules:
@@ -25,7 +27,7 @@ related_simulations: []
 
 # Day 2 — Hazard, Risk, Exposure and Critical Controls
 
-> **Currency notice:** This module teaches an original reasoning method for paper-based and supervised learning scenarios. It does not replace current legislation, regulator guidance, authorised standards, RTO instructions, workplace risk controls, permits, isolation procedures, manufacturer information or competent supervision. Confirm the controlling requirements for the learner's jurisdiction, workplace and task before practical use.
+> **Currency and authority notice:** This original module supports paper-based and supervised learning scenarios. It does not replace current legislation, regulator guidance, authorised standards, RTO instructions, workplace risk controls, permits, isolation procedures, manufacturer information or competent supervision. Exact duties, control requirements and practical procedures must be verified from current authorised sources. This module is not `technically-reviewed`.
 
 ## 1. Outcome and entry check
 
@@ -33,93 +35,118 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. distinguish a hazard, an exposure pathway, a possible consequence, risk and a control;
-2. analyse a scenario without treating the presence of personal protective equipment as proof that the risk is controlled;
-3. identify which controls are critical because their failure could permit a severe outcome;
-4. separate observed facts from assumptions and unresolved evidence;
-5. use the **S-C-O-P-E** workflow to locate the source family governing a safety decision;
-6. state a safe stop condition when authority, equipment state, isolation status or control effectiveness is uncertain;
-7. produce a concise evidence record showing hazard, exposure, consequence, controls, verification and residual uncertainty.
+1. distinguish a hazard, exposure pathway, initiating event, consequence, risk and control;
+2. map at least one complete exposure chain from observed fact to plausible consequence without inventing evidence;
+3. classify a control as present, applicable, intact, independent, verified or unresolved;
+4. identify which controls are critical because their failure could permit a severe outcome;
+5. explain why personal protective equipment or a visible switch position does not, by itself, prove adequate control;
+6. use the **S-C-O-P-E** workflow to locate the governing source family and test a safety conclusion;
+7. grade evidence as observed, documented, verified, assumed or missing;
+8. write a bounded decision to continue in simulation, obtain evidence, or stop and escalate.
 
 ### Entry check
 
 Answer without references, then rate confidence as **guessing**, **unsure**, **reasonably confident** or **certain**:
 
-1. Is a damaged enclosure a hazard, a risk or a consequence?
+1. Is a damaged enclosure a hazard, a risk or evidence of a failed control?
 2. Can a hazard exist when nobody is currently exposed?
-3. What makes a control “critical” rather than merely helpful?
-4. Why is “the switch is off” incomplete evidence of a safe state?
-5. What should happen when the learner cannot verify a control?
+3. What is the difference between a control being present and being effective?
+4. What makes a control critical rather than merely useful?
+5. Why is “the switch is off” incomplete evidence of a safe state?
+6. What should happen when the learner cannot verify a critical control?
 
-Do not turn this diagnostic into a pass mark. Record any high-confidence error for later retrieval.
+Record every high-confidence error in the error log. The diagnostic is not a pass mark.
 
 ## 2. Why it matters
 
-Safety questions are often answered poorly because the learner jumps directly from a visible problem to a familiar control. That shortcut can hide the actual exposure pathway, omit a second source of energy, or assume that a control is effective without evidence.
+Safety reasoning fails when the learner jumps from a visible condition directly to a familiar control. That shortcut can hide the actual exposure pathway, omit an alternate or stored energy source, or treat the presence of a control as proof of effectiveness.
 
-A defensible explanation shows a chain:
+A defensible explanation shows this chain:
 
-**hazard → exposure pathway → consequence → controls → verification → remaining uncertainty**
+**hazard → initiating event or condition → exposure pathway → consequence → controls → verification → residual uncertainty**
 
 This matters in assessment because a technically familiar answer may still be unsafe if it:
 
 - confuses the hazardous source with the likelihood of harm;
-- names a control without explaining how it interrupts exposure;
+- names a control without explaining which pathway it interrupts;
 - assumes equipment is de-energised from an indicator, label or control position alone;
+- treats one control as independent when it relies on another unverified condition;
 - ignores competence, permission, supervision or task boundaries;
-- continues despite missing evidence.
+- continues despite safety-critical missing evidence.
 
 ![A learner traces a hazard pathway on paper and stops at a missing verification gate before taking action](../../../assets/learning/6-week/day-02-hazard-risk-exposure-and-critical-controls/trace-before-action.svg)
+
+![A learner checks whether a visible control applies, is intact, is independent and has evidence of effectiveness](../../../assets/learning/6-week/day-02-hazard-risk-exposure-and-critical-controls/present-is-not-proven.svg)
 
 ## 3. Core concepts and terminology
 
 ### Hazard
 
-A **hazard** is a source or situation with the potential to cause harm. In electrical contexts this may include electrical energy, heat, arc effects, unexpected movement, stored energy, damaged insulation, conductive surroundings or an unsuitable work environment.
+A **hazard** is a source or situation with the potential to cause harm. Electrical examples may include electrical energy, heat, arc effects, unexpected movement, stored energy, damaged insulation, conductive surroundings or an unsuitable work environment.
+
+### Initiating event or condition
+
+An **initiating event or condition** is what allows the hazard to begin affecting the exposure pathway. It may be a failure, action, environmental change, loss of separation, unexpected energisation or restoration of supply.
 
 ### Exposure pathway
 
-An **exposure pathway** is the route or set of conditions by which the hazard could reach a person, equipment or property. Examples include contact with an energised conductive part, bridging two different potentials, conductive contamination, loss of an enclosure barrier or unexpected energisation.
+An **exposure pathway** is the route or set of conditions by which the hazard could reach a person, equipment or property. Examples include contact with an energised conductive part, bridging different potentials, conductive contamination, loss of an enclosure barrier or unexpected operation.
 
 ### Consequence
 
-A **consequence** is the harm or loss that could result if exposure occurs. Consequences can affect people, equipment, property, continuity of supply and others who are not performing the task.
+A **consequence** is the harm or loss that could result if exposure occurs. Consequences can affect people, equipment, property, continuity of supply and people who are not performing the task.
 
 ### Risk
 
-**Risk** is the combination of the possibility of the event and the severity of its consequences, considered in the actual context. Risk is not a synonym for hazard. The same hazard can present different risk depending on access, environment, task, controls and uncertainty.
+**Risk** combines the possibility of an event with the severity of its consequences in the actual context. Risk is not a synonym for hazard. The same hazard can present different risk depending on access, environment, task, controls and uncertainty.
 
 ### Control
 
-A **control** is a measure intended to eliminate the hazard or interrupt the pathway to harm. Controls should be described by function, not only by name. For example, a barrier controls access only while it is suitable, intact, correctly placed and maintained.
+A **control** is a measure intended to eliminate the hazard or interrupt the pathway to harm. Describe a control by function, not only by name. A barrier, for example, controls access only while it is suitable, intact, correctly placed and maintained.
 
 ### Critical control
 
-A **critical control** is a control whose absence or failure could materially permit a severe outcome. Because the consequence of failure is high, its presence and effectiveness require explicit verification rather than assumption.
+A **critical control** is a control whose absence or failure could materially permit a severe outcome. Its presence and effectiveness require explicit evidence rather than assumption.
 
-### Control verification
+### Control state
 
-**Control verification** means obtaining evidence that the control exists, applies to the scenario and is effective at the required time. A checklist tick without supporting evidence is not verification.
+Use six control-state questions:
+
+1. **Present:** can the control be directly observed or documented?
+2. **Applicable:** does it address the actual hazard and pathway in this scenario?
+3. **Intact:** is there evidence it has not been damaged, bypassed or degraded?
+4. **Independent:** does it still function if another control or assumption fails?
+5. **Verified:** is there authorised evidence that it is effective at the required time?
+6. **Unresolved:** is any material question unanswered?
+
+A control can be present but inapplicable, damaged, dependent or unverified.
 
 ### Residual uncertainty
 
-**Residual uncertainty** is what remains unresolved after the available evidence has been reviewed. It must be stated where it could change the decision. Safety-critical uncertainty is a reason to stop and escalate, not a gap to fill from memory.
+**Residual uncertainty** is what remains unresolved after the available evidence has been reviewed. State it whenever it could change the decision. Safety-critical uncertainty is a reason to stop and escalate, not a gap to fill from memory.
+
+### Evidence grades
+
+- **Observed:** directly visible in the supplied scenario, image or record.
+- **Documented:** stated in a current authorised record, procedure, label or drawing.
+- **Verified:** supported by the authorised process appropriate to the claim.
+- **Assumed:** plausible but not evidenced.
+- **Missing:** required for the decision but unavailable.
 
 ### Evidence record
-
-Use this original compact format:
 
 ```text
 Observed facts:
 Hazard source:
+Initiating event or condition:
 Exposure pathway:
 Plausible consequence:
 Existing controls and intended function:
 Critical controls:
-Evidence of control effectiveness:
+Control state: present / applicable / intact / independent / verified / unresolved
 Authority / supervision boundary:
-Unresolved assumptions:
-Decision: proceed in simulation / obtain evidence / stop and escalate
+Residual uncertainty:
+Decision: continue in simulation / obtain evidence / stop and escalate
 ```
 
 ## 4. Rule-finding workflow
@@ -128,108 +155,133 @@ Use **S-C-O-P-E** before accepting a safety conclusion.
 
 1. **S — State the scenario.** Identify the task, people, equipment, environment, energy sources and what is actually observed.
 2. **C — Choose the controlling source family.** Determine whether the issue is governed by legislation, regulator guidance, an authorised standard, network rules, manufacturer information, RTO direction or an approved workplace procedure.
-3. **O — Outline the exposure chain.** Connect the hazard to the exposure pathway and plausible consequence without skipping assumptions.
-4. **P — Prove the controls.** Identify critical controls and the evidence required to show they are present, applicable and effective.
+3. **O — Outline the exposure chain.** Connect hazard, initiating event, exposure pathway and plausible consequence without skipping assumptions.
+4. **P — Prove the controls.** Test each critical control for presence, applicability, integrity, independence and authorised verification.
 5. **E — Escalate uncertainty.** Stop when authority, isolation, equipment state, control integrity or source applicability cannot be confirmed.
 
 ```mermaid
 flowchart TD
-    A["State the task and observed facts"] --> B["Identify hazard sources"]
-    B --> C["Map each exposure pathway"]
-    C --> D["Describe plausible consequences"]
-    D --> E["Select the controlling source family"]
-    E --> F["Identify controls and their functions"]
-    F --> G{"Are critical controls verified?"}
-    G -->|"No"| H["Stop, record missing evidence and escalate"]
-    G -->|"Yes"| I{"Is the task within authority and supervision?"}
-    I -->|"No"| H
-    I -->|"Yes"| J["Continue only within the authorised learning or work process"]
+    A["State task people equipment environment and observed facts"] --> B["Identify hazard sources and possible initiating events"]
+    B --> C["Map each exposure pathway and plausible consequence"]
+    C --> D["Choose the controlling source family"]
+    D --> E["Identify controls and the pathway each should interrupt"]
+    E --> F{"Critical control present applicable intact independent and verified?"}
+    F -->|"No or unresolved"| G["Record missing evidence stop and escalate"]
+    F -->|"Yes"| H{"Task within authority competence and supervision?"}
+    H -->|"No"| G
+    H -->|"Yes"| I["Continue only within the authorised process"]
 ```
 
-The diagram is a reasoning sequence, not a practical isolation procedure. It deliberately places evidence and authority gates before any continuation decision.
+The diagram is a reasoning sequence, not a practical isolation procedure. It places evidence and authority gates before continuation.
 
 ## 5. Visual model or worked example
 
-### Paper-based scenario
+### Complete worked example
 
-A learner is shown a photograph of a closed item of electrical equipment. The external control is in an off position, a warning label is partly damaged and the supply arrangement is not visible. The question asks whether the equipment can be treated as safe to access.
+A learner is shown a photograph of closed electrical equipment. An external control is in an off position, a warning label is partly damaged, and the supply arrangement is not visible. The question asks whether the equipment can be treated as safe to access.
 
 A weak response says: “It is off, so it is safe.”
 
-A stronger analysis is:
-
 | Element | Evidence-based analysis |
 |---|---|
-| Observed fact | The external control appears to be in an off position |
-| Hazard | Electrical or stored energy may still be present |
-| Exposure pathway | Access could defeat an enclosure barrier and permit contact or another harmful event |
-| Consequence | Serious injury, equipment damage or harm to another person is plausible |
-| Missing evidence | Supply sources, isolation status, stored energy, control function, authority and approved procedure are unknown |
-| Critical controls | Task-specific isolation and verification controls determined by authorised current requirements and approved procedures |
-| Decision | Do not infer a safe state; stop at the paper-analysis boundary and state the evidence required from an authorised process |
+| Observed fact | The external control appears to be in an off position. |
+| Hazard | Electrical or stored energy may remain present. |
+| Initiating condition | Access, restoration, alternate supply or stored-energy release could create exposure. |
+| Exposure pathway | Defeating the enclosure boundary could permit contact or another harmful event. |
+| Consequence | Serious injury, equipment damage or harm to another person is plausible. |
+| Control state | The control position is observed, but applicability, independence and effectiveness are not verified. |
+| Missing evidence | Sources, isolation status, stored energy, control function, authority and approved procedure are unknown. |
+| Decision | Do not infer a safe state; stop at the paper-analysis boundary and request authorised evidence. |
 
 ```mermaid
 flowchart LR
-    A["Control appears off"] --> B{"Does that prove all hazardous energy is controlled?"}
-    B -->|"No"| C["List unseen sources, stored energy and alternate paths"]
-    C --> D["Identify the authorised verification process"]
-    D --> E{"Evidence and authority available?"}
+    A["Control appears off"] --> B{"Does that prove every hazardous source is controlled?"}
+    B -->|"No"| C["List unseen sources stored energy and alternate paths"]
+    C --> D["Test the control for applicability integrity independence and verification"]
+    D --> E{"Evidence and authority complete?"}
     E -->|"No"| F["Stop and escalate"]
-    E -->|"Yes"| G["Follow the approved process within competence and supervision limits"]
+    E -->|"Yes"| G["Follow the approved process within authority"]
 ```
 
 The key lesson is that an indication can be relevant evidence without being sufficient evidence.
+
+### Worked-example fading
+
+A second fictional scenario shows a damaged enclosure near a damp surface. A warning sign is present and the area is normally restricted.
+
+Complete only the following:
+
+1. identify the hazard and initiating condition;
+2. map one exposure pathway;
+3. test the warning sign and restricted area against the six control-state questions;
+4. identify missing evidence;
+5. write one bounded stop or escalation decision.
 
 ## 6. Practical application
 
 ### Scenario analysis set
 
-Complete three paper-based scenarios supplied by the trainer or created from fictional equipment arrangements. Use varied contexts such as:
+Complete three paper-based scenarios using varied contexts:
 
 1. damaged enclosure near a conductive or wet environment;
-2. equipment with an unexpected or alternate supply possibility;
+2. equipment with an unexpected, stored or alternate supply possibility;
 3. a reported fault where another person proposes repeated resetting or immediate access.
 
 For each scenario:
 
 1. list only observed facts;
-2. identify at least one hazard and one exposure pathway;
-3. state one plausible consequence without exaggeration;
-4. identify existing controls and explain their intended function;
-5. nominate the critical control or controls;
-6. state what evidence would verify those controls;
-7. identify the controlling source family using S-C-O-P-E;
-8. state the authority or supervision boundary;
-9. make one of three decisions: continue in simulation, obtain missing evidence, or stop and escalate.
+2. identify at least one hazard and initiating event or condition;
+3. map at least one exposure pathway;
+4. state one plausible consequence without exaggeration;
+5. identify existing controls and explain their intended function;
+6. nominate the critical controls;
+7. test every critical control for presence, applicability, integrity, independence and verification;
+8. identify the controlling source family using S-C-O-P-E;
+9. state the authority or supervision boundary;
+10. decide to continue in simulation, obtain evidence, or stop and escalate.
 
-### Assessment-focused completion criteria
+### Assessment rubric
 
-The activity is complete when the learner can produce three records that:
+Score each category from **0 to 2**.
 
-- distinguish hazards from risk and consequences;
-- contain no invented observations;
-- explain how each named control interrupts the exposure chain;
-- mark critical controls explicitly;
-- identify missing evidence and source checks;
-- contain an unambiguous stop decision where required;
-- use original wording rather than reconstructed standards text.
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Evidence discipline | Invents facts | Some assumptions labelled | Observed, documented, verified, assumed and missing evidence separated consistently |
+| Exposure-chain reasoning | Names hazard only | Partial chain | Hazard, initiating event, pathway and consequence connected clearly |
+| Control analysis | Lists controls | Functions partly explained | Critical controls tested across all control-state questions |
+| Source and authority | No source or boundary | General source named | Applicable source family and authority boundary stated |
+| Decision quality | Unsafe or vague conclusion | Cautious but incomplete | Bounded decision follows directly from evidence and uncertainty |
+| Transfer | Repeats memorised wording | Adapts some elements | Rebuilds the analysis when a condition changes |
+
+A score of **10/12 or higher** with no critical error indicates readiness for Day 3. This is an educational threshold, not an official assessment rule.
 
 ### Varied re-attempt
 
-After feedback, repeat one scenario with a changed environment, a different person exposed, or an added alternate energy source. Do not simply correct the original wording. Show how the changed condition alters the pathway, control verification or decision.
+Repeat one scenario after changing the environment, exposed person, supply arrangement or control condition. Rebuild the exposure chain and control-state analysis rather than editing the previous answer.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- **Calling the hazard “the risk”:** state the hazardous source first, then analyse exposure and consequence in context.
-- **Jumping straight to PPE:** first consider whether the hazard can be removed or the pathway prevented by higher-order controls required by the authorised process.
-- **Listing controls without functions:** explain what pathway each control interrupts.
-- **Treating presence as effectiveness:** a control may be present but unsuitable, damaged, bypassed, incorrectly applied or unverified.
+- **Calling the hazard “the risk”:** state the hazardous source first, then analyse exposure and consequence.
+- **Jumping straight to PPE:** first identify whether the hazard or pathway can be addressed by controls required by the authorised process.
+- **Listing controls without functions:** explain which pathway each control interrupts.
+- **Treating presence as effectiveness:** a control may be present but unsuitable, damaged, dependent, bypassed or unverified.
+- **Assuming independence:** two controls may rely on the same source, person, component or assumption.
 - **Inventing certainty from appearance:** labels, switch positions, indicators and historical information may be incomplete.
 - **Ignoring others:** consider coworkers, occupants, the public and people affected by restoration or unexpected operation.
-- **Using a generic checklist as authority:** identify the current source family and approved task-specific process.
-- **Proceeding because the likely answer is obvious:** safety-critical missing evidence remains a stop condition.
+- **Using a generic checklist as authority:** locate the current task-specific source and approved process.
+
+### Critical errors
+
+Any of the following requires remediation regardless of score:
+
+- claiming a safe state from appearance alone;
+- omitting a plausible alternate or stored energy source supplied by the scenario;
+- treating a visible control as verified effectiveness;
+- inventing an observation or verification result;
+- proposing practical access, isolation, testing, resetting or energisation outside authority;
+- continuing despite an unresolved critical control.
 
 ### Safety checkpoint
 
@@ -237,41 +289,34 @@ This module authorises no electrical access, isolation, proving, testing, reset,
 
 Stop and escalate when:
 
-- the equipment state or all possible energy sources are not established;
+- equipment state or all possible energy sources are not established;
 - a critical control cannot be verified;
-- the task exceeds the learner's competence, permission, licence or supervision;
+- the task exceeds competence, permission, licence or supervision;
 - environmental conditions differ from the approved plan;
 - another person's action could defeat the control;
-- the controlling requirement or approved procedure is unavailable or appears inconsistent;
-- practical action is being proposed merely to answer a study question.
+- the controlling requirement or approved procedure is unavailable or inconsistent;
+- practical action is proposed merely to answer a study question.
 
 ## 8. Retrieval and next links
 
-### Recall questions
+### Closed-note retrieval
 
-Answer without looking, then verify against the module.
+1. Distinguish hazard, initiating event, exposure pathway, consequence and risk.
+2. What makes a control critical?
+3. Name the six control-state questions.
+4. Expand S-C-O-P-E.
+5. Why can two controls fail to be independent?
+6. Name the five evidence grades.
+7. Why is a switch position insufficient by itself?
+8. State three stop conditions.
 
-1. What is the difference between a hazard and risk?
-2. What is an exposure pathway?
-3. What makes a control critical?
-4. What does each letter in S-C-O-P-E represent?
-5. Why is a switch position insufficient by itself?
-6. What is residual uncertainty?
-7. What evidence is needed before relying on a critical control?
-8. When must the learner stop and escalate?
+### Delayed retrieval
 
-### Fresh application
+At the start of Day 3, reconstruct the exposure-chain model and six control-state questions from memory before opening either module.
 
-For a fictional scenario involving a damaged barrier and an unknown supply arrangement, write six sentences covering:
+### Changed-scenario transfer
 
-1. observed fact;
-2. hazard;
-3. exposure pathway;
-4. consequence;
-5. missing critical-control evidence;
-6. stop and escalation statement.
-
-Rate confidence before checking. A high-confidence response that invents facts must be entered into the error log.
+For a fictional damaged barrier, change one condition: add an alternate source, remove the access restriction, or introduce a person unfamiliar with the equipment. Rebuild the analysis and explain exactly which conclusion changes.
 
 ### Navigation
 
@@ -282,7 +327,7 @@ Rate confidence before checking. A high-confidence response that invents facts m
 
 ### References and review boundary
 
-- Verify task-specific safety duties and controls using current legislation, regulator guidance, authorised standards, approved workplace procedures, manufacturer information and RTO direction as applicable.
+- Verify task-specific duties and controls using current legislation, regulator guidance, authorised standards, approved workplace procedures, manufacturer information and RTO direction.
 - Exact procedural requirements, limits and jurisdiction-specific claims remain `reference_check_required`.
 - This original module is organised around learner decisions rather than a standards clause sequence and reproduces no standards table, figure or systematic clause wording.
 - It remains `review-required`, has not received qualified technical review and must not be labelled `technically-reviewed`.
