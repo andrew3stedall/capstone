@@ -92,7 +92,10 @@ Rest, retrieval and catch-up days remain dedicated modules with time-boxed retri
 - [x] 2026-07-16 — [Day 16 — Consumer mains, submains and final subcircuits](./modules/day-16-consumer-mains-submains-and-final-subcircuits.md): strengthened T-R-A-C-E, evidence and claim grades, cumulative dependencies, changed-source transfer, rubric and vault alignment.
 - [x] 2026-07-16 — [Day 17 — Bathrooms, showers and other wet areas](./modules/day-17-bathrooms-showers-and-other-wet-areas.md): strengthened W-A-T-E-R, provisional-zone discipline, four suitability gates, geometry-change transfer, rubric and vault alignment.
 - [x] 2026-07-16 — [Day 18 — Other special installations and locations](./modules/day-18-other-special-installations-and-locations.md): strengthened S-C-O-P-E, six trigger categories, overlap reasoning, changed-trigger transfer, rubric and vault alignment.
-- [ ] Next — Day 19 — Rest, retrieval and catch-up.
+- [x] 2026-07-16 — [Day 19 — Rest, retrieval and catch-up](./modules/day-19-rest-retrieval-and-catch-up.md): added four-category error classification, confidence calibration, changed-scenario and delayed retrieval, a six-category rubric and aligned vault metadata.
+- [x] 2026-07-16 — [Day 20A — Fixed appliances and local isolation](./modules/day-20a-fixed-appliances-and-local-isolation.md): strengthened L-O-C-K with evidence and claim grades, complete energy-boundary reasoning, changed-source transfer, a six-category rubric and aligned vault metadata.
+- [x] 2026-07-16 — [Day 20B — Motors and associated protection](./modules/day-20b-motors-and-associated-protection.md): strengthened M-O-T-O-R with operating-case discipline, evidence and claim grades, coordination reasoning, changed-duty transfer, a six-category rubric and aligned vault metadata.
+- [ ] Next — Day 20C — Alternative and multiple supplies awareness.
 
 ## Quality gates for every run
 
