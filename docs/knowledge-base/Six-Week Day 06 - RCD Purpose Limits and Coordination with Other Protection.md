@@ -7,7 +7,8 @@ tags:
   - protection
   - current-balance
 status: review-required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
+quality_improvement_pass: completed
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
@@ -17,23 +18,21 @@ technically_reviewed: false
 
 ## Purpose
 
-This module develops a current-balance explanation of residual-current protection and keeps it distinct from overcurrent protection, protective earthing, basic protection, isolation and safe work controls. It uses evidence-controlled paper scenarios rather than practical testing.
+Develop an evidence-controlled explanation of residual-current protection while keeping it distinct from overcurrent protection, protective earthing, basic protection, isolation and safe work controls. The learning activity is paper-based and authorises no practical testing.
 
-## Core model
+## Core workflow
 
 Use **B-A-L-A-N-C-E**:
 
-- **Bound the scenario** — identify circuit, users, location, supply and loads.
-- **Ask the protection question** — separate residual-current, overcurrent and fault-path concerns.
-- **Locate current authorised sources** — use requirements and manufacturer information that apply to the scenario.
-- **Analyse all monitored paths** — trace outgoing and returning live-conductor current and possible bypass paths.
-- **Name the device evidence** — record device family, type, markings and separate functions without guessing.
-- **Coordinate the protective layers** — retain earthing, bonding, insulation, isolation and overcurrent functions as separate checks.
-- **Evidence the conclusion** — grade facts, authorised evidence and assumptions, then state a bounded outcome.
+- **Bound the scenario** — identify circuit, location, users, loads, supply and alternate sources.
+- **Ask the protection question** — separate residual-current, overcurrent, fault-path and work-control questions.
+- **Locate authorised sources** — identify current requirements, manufacturer information and approved procedures that apply.
+- **Analyse monitored paths** — map outgoing, intended-return and possible bypass paths.
+- **Name device evidence** — record family, markings, type and separate functions without guessing.
+- **Coordinate protective layers** — retain earthing, bonding, insulation, isolation and overcurrent protection as separate checks.
+- **Evidence and stress-test the conclusion** — grade evidence and claims, then reopen them after a material change.
 
-The central rule is:
-
-> An RCD detects monitored-current imbalance; it does not identify the alternate path or prove every other protective layer.
+> An RCD detects monitored-current imbalance. It does not identify the alternate path or prove every other protective layer.
 
 ## Prerequisites
 
@@ -57,15 +56,18 @@ The central rule is:
 
 ### Current balance and residual current
 
-In a simple conceptual circuit, outgoing active current and returning neutral current pass through the monitored group. Current returning outside that group creates residual current. The device observes the imbalance, not the physical cause.
+In a simple conceptual circuit, outgoing active current and returning neutral current pass through the monitored group. Current returning outside that group creates residual current. The device observes imbalance, not the physical cause.
 
-### Residual-current protection and overcurrent protection
+### Four protection questions
 
-Residual-current protection responds to monitored-current imbalance. Overcurrent protection addresses excessive current conditions such as overload and short circuit. A combined device may contain both functions, but each function still requires separate evidence.
+1. **Residual-current:** Is current leaving the monitored live-conductor group by another path?
+2. **Overcurrent:** Are conductors and equipment protected against excessive current?
+3. **Fault-path:** Are earthing, bonding and automatic-disconnection arrangements effective as required?
+4. **Work-control:** Are isolation, access, authority and safe procedures adequate for the task?
 
-### Residual-current protection and protective earthing
+### Combined devices
 
-Protective earthing supports a fault-current return path and the intended operation of protective measures under applicable conditions. RCD presence does not prove protective-earthing continuity, connection quality or compliance.
+An RCBO contains residual-current and overcurrent functions in one enclosure. The shared enclosure does not remove the need to assess each function and its evidence separately.
 
 ### Additional protection
 
@@ -73,39 +75,46 @@ Additional protection supplements rather than replaces basic protection, fault p
 
 ## Evidence grades
 
-- **Grade A — stated or observed fact:** scenario detail, visible marking, authorised drawing detail or supplied recorded result.
-- **Grade B — authorised technical evidence:** current requirement, manufacturer instruction, approved design or competent reviewer direction.
-- **Grade C — assumption:** inferred device suitability, guessed neutral grouping, presumed exception or unsupported cause.
+- **Observed** — directly visible or stated in the supplied scenario.
+- **Documented** — supported by a current drawing, schedule, label or authorised record.
+- **Manufacturer-verified** — supported by applicable device or load information.
+- **Assumed** — plausible but not evidenced.
+- **Missing** — required for the conclusion but unavailable.
 
-Grade C evidence may form a hypothesis but cannot support an exact safety-critical conclusion.
+## Claim grades
+
+- **Described** — states what the supplied evidence shows.
+- **Supported** — combines applicable evidence into a bounded conclusion.
+- **Verified** — requires complete authorised evidence and qualified confirmation.
+- **Unresolved** — a material evidence gap prevents the conclusion.
+
+Assumptions may form hypotheses but cannot support exact safety-critical conclusions.
 
 ## Practical application
 
 For a fictional protected circuit:
 
-1. draw the outgoing active and returning neutral paths;
-2. add one possible alternate return path;
-3. state the residual-current question;
-4. state separate overcurrent and fault-path questions;
-5. identify monitored conductors and neutral-grouping evidence;
-6. record device family, type and separate functions;
-7. grade every material claim A, B or C;
-8. state what the installed device does not prove;
-9. produce a bounded conclusion and stop condition.
-
-Then vary the scenario by adding a crossed-neutral possibility, electronic loads, an alternate source, incomplete markings or upstream/downstream devices. Reassess the evidence priorities without copying the first answer.
+1. draw outgoing, intended-return and one possible alternate path;
+2. state the four protection questions;
+3. complete B-A-L-A-N-C-E;
+4. grade every material item and claim;
+5. identify neutral-grouping, supply and manufacturer evidence;
+6. state at least six limits of the installed-device conclusion;
+7. produce a bounded conclusion and stop condition;
+8. repeat after changing a neutral path, adding an electronic load or adding an alternate supply.
 
 ## Assessment relevance
 
 A strong response:
 
-- explains current balance in terms of monitored conductors;
-- avoids the slogan that an RCD simply “detects earth”;
-- separates residual-current, overcurrent and fault-path functions;
-- identifies device and load evidence;
-- recognises neutral-grouping and alternate-source risks;
-- coordinates protective layers without treating one as universal;
-- states assumptions, stop conditions and exact reference checks.
+- explains current balance using monitored conductors;
+- avoids saying an RCD simply “detects earth”;
+- separates all four protection questions;
+- distinguishes device labels from compatibility and installation evidence;
+- recognises neutral-grouping, load and alternate-source dependencies;
+- applies evidence and claim grades consistently;
+- reopens conclusions after a material change;
+- states stop conditions and exact reference checks.
 
 The module uses a 12-point educational rubric. It is not an official RTO pass mark.
 
@@ -118,8 +127,19 @@ The module uses a 12-point educational rubric. It is not an official RTO pass ma
 - A test button proves the installation is safe.
 - Device operation proves the RCD is defective.
 - Repeated resetting is a valid diagnosis.
-- Neutral can be treated as protective earth.
 - A typical single-source diagram applies unchanged to every installation.
+
+## Reopening triggers
+
+Rebuild the analysis when any of these changes:
+
+- supply or alternate-source arrangement;
+- connected load or leakage behaviour;
+- monitored-conductor or neutral grouping;
+- device family, type or manufacturer information;
+- upstream/downstream coordination;
+- environmental condition or reported damage;
+- evidence needed for the proposed claim.
 
 ## Safety and review boundary
 
