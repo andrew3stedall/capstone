@@ -95,9 +95,9 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 ### Week 8 — Special locations and non-standard supply conditions
 
-- [ ] Day 50 — Special-location method: classify, map zones and verify sources
-- [ ] Day 51 — Bathrooms, showers and other wet-area reasoning
-- [ ] Day 52 — Other special installations and location-specific controls
+- [x] [Day 50 — Special-location method: classify, map zones and verify sources](modules/day-50-special-location-method-classify-map-zones-and-verify-sources.md)
+- [x] [Day 51 — Bathrooms, showers and other wet-area reasoning](modules/day-51-bathrooms-showers-and-other-wet-area-reasoning.md)
+- [x] [Day 52 — Other special installations and location-specific controls](modules/day-52-other-special-installations-and-location-specific-controls.md)
 - [ ] Day 53 — Alternative, multiple and embedded supply awareness
 - [ ] Day 54 — Rest, retrieval and applicability-check repair
 - [ ] Day 55 — Mixed special-location scenario workshop
