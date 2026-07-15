@@ -10,10 +10,14 @@ standard_references:
   - standard: AS/NZS 3000
     edition: current-authorised-edition-required
     clause: reference-only
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
-quality_passes: []
+technical_reviewer: pending
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-15
+quality_passes:
+  - evidence-and-classification-discipline
 prerequisites:
   - Day 2 — Hazard, Risk, Exposure and Critical Controls
 related_modules:
@@ -25,7 +29,7 @@ related_simulations: []
 
 # Day 3 — Fundamental Protection Concepts and Fault Types
 
-> **Currency notice:** This module provides an original conceptual framework for classifying abnormal electrical conditions and explaining the purpose of protective measures. It does not specify device ratings, disconnection times, test limits, installation procedures or authorised work methods. Verify all technical decisions against current authorised standards, legislation, regulator guidance, manufacturer information, network requirements, workplace procedures and RTO instructions.
+> **Currency notice:** This module provides an original conceptual framework for classifying abnormal electrical conditions and explaining the purpose of protective measures. It does not specify device ratings, disconnection times, test limits, installation procedures or authorised work methods. Verify all technical decisions against current authorised standards, legislation, regulator guidance, manufacturer information, network requirements, workplace procedures and RTO instructions. It is not `technically-reviewed`.
 
 ## 1. Outcome and entry check
 
@@ -33,13 +37,14 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. distinguish normal operation, overload, short circuit, earth fault, leakage current and open-circuit conditions from a written scenario;
-2. identify the initiating condition, current path, likely consequence and intended protection purpose without guessing missing facts;
-3. explain the difference between protection of people, conductors, equipment and continuity of supply;
-4. avoid treating one protective measure as a universal response to every fault type;
-5. use the **F-A-U-L-T** workflow to classify a paper-based scenario and identify the authoritative source family required for the next decision;
-6. state when a scenario cannot be classified confidently because circuit arrangement, protective device data or fault-path evidence is missing;
-7. produce a concise fault-classification record suitable for later device-coordination and verification work.
+1. distinguish normal operation, overload, short circuit, earth fault, leakage current, residual current and open-circuit conditions from a written scenario;
+2. separate an observed symptom from an initiating condition, current path, mechanism, consequence and protection purpose;
+3. grade supplied information as **observed**, **documented**, **derived**, **assumed** or **missing**;
+4. grade a conclusion as **described**, **supported**, **provisional** or **unresolved**;
+5. explain the difference between protection of people, conductors, equipment and continuity of supply;
+6. use the **F-A-U-L-T** workflow without treating one protective measure as a universal response;
+7. identify the authorised source family and technical evidence required before device selection, calculation, testing or practical action;
+8. reopen a classification when the current path, source, circuit arrangement or supplied evidence changes.
 
 ### Entry check
 
@@ -48,24 +53,27 @@ Answer without references, then rate confidence as **guessing**, **unsure**, **r
 1. Is every current above normal load current a short circuit?
 2. Can an earth fault exist without a person receiving an electric shock?
 3. Does an RCD provide all required protection against overload?
-4. What is the difference between a fault condition and its consequence?
+4. What is the difference between a symptom, a fault mechanism and a consequence?
 5. Why must the current path be identified before selecting the relevant protection concept?
+6. Which missing fact would make a classification provisional rather than supported?
 
 Record high-confidence errors. Do not convert this entry check into an unofficial pass mark.
 
 ## 2. Why it matters
 
-Protection questions become unreliable when the learner begins with a device name instead of the abnormal condition. A familiar device may be relevant, but the reasoning must begin with what changed, where current can flow, what is exposed to harm and which protective purpose applies.
+Protection reasoning becomes unreliable when the learner begins with a device name or visible symptom. A familiar device may be relevant, but the reasoning must begin with what changed, where current can flow, what is exposed to harm and which protection purpose applies.
 
-The same visible symptom can arise from different mechanisms. For example, loss of operation may result from an open circuit, a protective device operating, a control condition or a supply issue. Likewise, a protective device operating does not by itself prove the location or type of fault.
+The same symptom can result from different mechanisms. Loss of operation may follow an open circuit, protective-device operation, a control condition or a supply issue. Protective-device operation is an observation; it does not by itself prove the fault type, location or cause.
 
 A defensible answer separates:
 
-**initiating condition → current path → exposure or heating mechanism → consequence → protection purpose → evidence required**
+**symptom → initiating condition → current path → mechanism → consequence → protection purpose → evidence required**
 
 This supports later work on overcurrent protection, RCDs, earthing, conductor selection, verification and fault finding.
 
 ![A learner sorts fault cards by current path and protection purpose instead of choosing a device by appearance](../../../assets/learning/6-week/day-03-fundamental-protection-concepts-and-fault-types/sort-the-fault-path.svg)
+
+![A learner refuses to turn one symptom into a diagnosis until the path and evidence are known](../../../assets/learning/6-week/day-03-fundamental-protection-concepts-and-fault-types/symptom-is-not-diagnosis.svg)
 
 ## 3. Core concepts and terminology
 
@@ -77,41 +85,45 @@ This supports later work on overcurrent protection, RCDs, earthing, conductor se
 
 An **abnormal condition** is a departure from intended operation. It may be caused by excessive load, unintended connection, insulation failure, conductor discontinuity, equipment failure, environmental influence or another verified mechanism.
 
+### Symptom
+
+A **symptom** is an observed effect, such as loss of operation, heating, noise, protective-device operation or intermittent performance. A symptom is evidence to classify; it is not a complete diagnosis.
+
 ### Fault
 
-A **fault** is an abnormal condition caused by failure, damage, incorrect connection or another defect that changes the intended electrical behaviour. The word does not identify the path or severity by itself.
-
-### Overload
-
-An **overload** is an overcurrent occurring in an electrically sound circuit because the connected demand or operating condition exceeds what the circuit is intended to carry. It is conceptually different from current caused by an unintended low-impedance connection.
-
-### Short circuit
-
-A **short circuit** is an unintended conductive connection between points that should be at different potentials, producing a current path whose magnitude is governed by the source and total path impedance. Exact prospective current and protective response require authorised data and calculation.
-
-### Earth fault
-
-An **earth fault** is an unintended conductive connection between a live part and earth, an exposed conductive part, a protective conductor or another conductive path associated with earth. The consequence depends on the complete fault path, earthing arrangement and operation of protective measures.
-
-### Leakage current
-
-**Leakage current** is current that flows by a path other than the intended load-current path, including through insulation, filtering components or capacitance. Some leakage may exist in normal operation. Whether it is acceptable, cumulative or indicative of a fault requires current authorised requirements and equipment information.
-
-### Residual current
-
-**Residual current** is the imbalance obtained when the currents in the relevant live conductors do not sum as expected. It can indicate current leaving the intended return path, but it does not by itself identify the exact location or cause.
-
-### Open circuit
-
-An **open circuit** is a discontinuity that prevents or restricts intended current flow. It may stop equipment operating, create intermittent operation or remove a required protective or control path. Absence of load current does not prove absence of hazardous voltage.
+A **fault** is an abnormal condition caused by failure, damage, incorrect connection or another defect that changes intended electrical behaviour. The word does not identify the path, magnitude or consequence by itself.
 
 ### Overcurrent
 
 **Overcurrent** is current exceeding the applicable rated or design value. It is a broad category that can include overload current and fault current. The cause must be classified before applying a protection conclusion.
 
+### Overload
+
+An **overload** is an overcurrent occurring in an electrically sound circuit because connected demand or an operating condition exceeds what the circuit is intended to carry. It is conceptually different from excessive current caused by an unintended conductive connection.
+
+### Short circuit
+
+A **short circuit** is an unintended conductive connection between points that should be at different potentials. Current magnitude depends on the source and total path impedance. Exact prospective current and protective response require authorised data and calculation.
+
+### Earth fault
+
+An **earth fault** is an unintended conductive connection between a live part and earth, an exposed conductive part, a protective conductor or another conductive path associated with earth. Consequences depend on the complete path, earthing arrangement and operation of protective measures.
+
+### Leakage current
+
+**Leakage current** is current flowing by a path other than the intended load-current path, including through insulation, filtering components or capacitance. Some leakage may exist during normal operation. Whether it is acceptable, cumulative or fault-related requires current authorised requirements and equipment information.
+
+### Residual current
+
+**Residual current** is the imbalance obtained when currents in the relevant live conductors do not sum as expected. It indicates that current is not returning through the expected monitored path, but it does not identify the exact location or cause.
+
+### Open circuit
+
+An **open circuit** is a discontinuity that prevents or restricts intended current flow. It may stop operation, cause intermittent performance or remove a required protective or control path. Absence of load current does not prove absence of hazardous voltage.
+
 ### Protection purpose
 
-A **protection purpose** states what harm the measure is intended to prevent or limit. Common purposes include:
+A **protection purpose** states what harm a measure is intended to prevent or limit. Purposes may include:
 
 - limiting conductor or equipment heating;
 - reducing the duration of a hazardous fault condition;
@@ -121,50 +133,74 @@ A **protection purpose** states what harm the measure is intended to prevent or 
 
 No single measure should be assumed to satisfy every purpose.
 
+### Evidence grades
+
+Use five evidence grades:
+
+1. **Observed** — directly stated or visible in the supplied scenario.
+2. **Documented** — supported by a current drawing, schedule, label, record or authorised document.
+3. **Derived** — calculated or logically inferred from verified inputs using an applicable method.
+4. **Assumed** — plausible but not evidenced.
+5. **Missing** — required for the conclusion but unavailable.
+
+### Claim grades
+
+- **Described:** states only what the supplied evidence shows.
+- **Supported:** links applicable evidence to a bounded classification.
+- **Provisional:** a classification is plausible, but one or more material facts remain unverified.
+- **Unresolved:** available evidence does not distinguish safely between credible mechanisms.
+
 ### Fault-classification record
 
 Use this original record:
 
 ```text
 Observed symptom or stated condition:
-Known circuit arrangement:
+Known circuit arrangement and sources:
 Initiating condition:
 Intended current path:
 Abnormal current path or discontinuity:
 Fault category:
 Possible consequences:
 Relevant protection purpose:
+Evidence grade for each input:
+Claim grade:
 Evidence still required:
 Authorised source family:
-Decision: classify / classify provisionally / stop and obtain evidence
+Reopening trigger:
+Decision: describe / support / classify provisionally / stop unresolved
 ```
 
 ## 4. Rule-finding workflow
 
 Use **F-A-U-L-T** before naming a protection response.
 
-1. **F — Fix the facts.** Record only the circuit arrangement, symptoms and conditions actually provided.
+1. **F — Fix the facts.** Record the circuit arrangement, sources, symptoms and conditions actually provided. Grade each item of evidence.
 2. **A — Analyse the path.** Trace the intended current path and any stated abnormal path or discontinuity.
 3. **U — Understand the mechanism.** Decide whether the evidence points to overload, short circuit, earth fault, leakage, residual imbalance, open circuit or an unresolved condition.
-4. **L — Link the protection purpose.** State whether the immediate concern is heating, shock exposure, fault energy, equipment damage or another defined consequence.
-5. **T — Test the evidence boundary.** Identify the authorised source, device data, circuit information or supervision needed before making a technical selection or practical decision.
+4. **L — Link the protection purpose.** State whether the immediate concern is heating, shock exposure, fault energy, equipment damage, continuity or another defined consequence.
+5. **T — Test the evidence boundary.** Grade the claim, identify missing evidence and name the authorised source, device data, circuit information or supervision required before the next decision.
 
 ```mermaid
 flowchart TD
-    A["Record observed facts and circuit arrangement"] --> B["Trace intended current path"]
-    B --> C{"What changed?"}
-    C -->|"Demand exceeds intended loading"| D["Possible overload"]
-    C -->|"Unintended connection between different potentials"| E["Possible short circuit"]
-    C -->|"Unintended path associated with earth"| F["Possible earth fault"]
-    C -->|"Current leaves intended return path"| G["Possible leakage or residual-current condition"]
-    C -->|"Intended path is discontinuous"| H["Possible open circuit"]
-    C -->|"Evidence is incomplete or conflicting"| I["Unresolved classification"]
-    D --> J["State protection purpose and evidence required"]
-    E --> J
-    F --> J
-    G --> J
-    H --> J
-    I --> K["Stop classification and obtain authoritative evidence"]
+    A["Record facts sources and circuit arrangement"] --> B["Grade each input observed documented derived assumed or missing"]
+    B --> C["Trace intended current path"]
+    C --> D{"What changed?"}
+    D -->|"Demand exceeds intended loading"| E["Possible overload"]
+    D -->|"Unintended connection between different potentials"| F["Possible short circuit"]
+    D -->|"Unintended path associated with earth"| G["Possible earth fault"]
+    D -->|"Current leaves expected monitored return path"| H["Possible leakage or residual-current condition"]
+    D -->|"Intended path is discontinuous"| I["Possible open circuit"]
+    D -->|"Evidence incomplete or conflicting"| J["Unresolved classification"]
+    E --> K["Link consequence and protection purpose"]
+    F --> K
+    G --> K
+    H --> K
+    I --> K
+    J --> L["Stop classification and request evidence"]
+    K --> M{"Material evidence complete?"}
+    M -->|"No"| N["Grade provisional or unresolved"]
+    M -->|"Yes"| O["Write bounded supported classification"]
 ```
 
 The diagram is a classification aid. It does not establish device suitability, ratings, operating times or permission to inspect or test equipment.
@@ -173,7 +209,7 @@ The diagram is a classification aid. It does not establish device suitability, r
 
 ### Worked paper scenario
 
-A fictional final subcircuit supplies several loads. The scenario states that the conductors and connections are intact, the connected demand has increased beyond the design assumption, and no unintended conductive connection is reported.
+A fictional final subcircuit supplies several loads. The scenario states that conductors and connections are intact, connected demand has increased beyond the design assumption, and no unintended conductive connection is reported.
 
 A weak response says: “It is a short circuit because the current is too high.”
 
@@ -181,28 +217,42 @@ A stronger response is:
 
 | Reasoning element | Analysis |
 |---|---|
-| Known facts | The circuit is stated to be electrically intact and connected demand has increased |
-| Intended path | Current still follows the intended active and return path |
-| Initiating condition | Demand exceeds the condition used for design |
-| Classification | The evidence points to overload rather than short circuit |
+| Observed facts | Demand has increased; the scenario states that conductors and connections remain intact |
+| Intended path | Current continues through the intended active and return path |
+| Initiating condition | Connected demand exceeds the stated design assumption |
+| Mechanism | Excessive current on the intended path |
+| Classification | Overload is supported within the fictional scenario |
 | Possible consequence | Excess heating may damage conductors, connections or equipment if the condition persists |
 | Protection purpose | Limit damaging overcurrent and coordinate protection with the circuit design |
 | Missing evidence | Actual design current, device characteristics, conductor capacity, installation conditions and authorised source requirements |
-| Boundary | Do not select or alter a device from this conceptual scenario |
+| Claim grade | Classification supported; device suitability unresolved |
+| Boundary | Do not select, reset or alter a device from this conceptual scenario |
 
 ```mermaid
 flowchart LR
     A["Higher connected demand"] --> B["Current remains on intended path"]
-    B --> C["Heating risk increases"]
+    B --> C["Heating risk may increase"]
     C --> D["Overload-protection purpose"]
-    D --> E["Verify design data, conductor conditions and device characteristics"]
+    D --> E["Verify design data conductor conditions and device characteristics"]
 ```
 
-The critical distinction is not merely “high current.” It is whether the excessive current follows the intended path because of demand or follows an unintended path because of a fault.
+The critical distinction is not merely “high current.” It is whether excessive current follows the intended path because of demand or follows an unintended path because of a fault.
 
-### Contrast case
+### Contrast and reopening case
 
-Change one fact: an unintended conductive connection is now stated between points at different potentials. The classification changes toward short circuit because the mechanism and path changed. The learner must not preserve the original answer simply because the symptom “high current” remains.
+Change one fact: an unintended conductive connection is now documented between points at different potentials. The earlier overload classification must be reopened. The mechanism and path now support short-circuit reasoning even though the visible symptom remains “high current.”
+
+### Worked-example fading
+
+A second fictional scenario states only that a protective device operated and a load stopped. Complete these fields without inventing test results:
+
+1. observed symptom;
+2. at least four credible mechanisms;
+3. evidence grade for each supplied fact;
+4. claim grade;
+5. missing evidence;
+6. practical stop boundary;
+7. one change that would reopen any provisional conclusion.
 
 ## 6. Practical application
 
@@ -212,43 +262,49 @@ Complete six fictional paper-based fault cards. Include at least one of each:
 
 1. increased connected demand with an otherwise intact circuit;
 2. unintended connection between conductors at different potentials;
-3. unintended connection from a live part to an earth-associated conductive path;
+3. unintended connection from a live part to an earth-associated path;
 4. current imbalance with the exact leakage path unknown;
 5. discontinuity in an intended current path;
 6. ambiguous symptoms with insufficient evidence for classification.
 
 For each card:
 
-1. list the facts and explicitly mark assumptions;
-2. sketch the intended current path using labels rather than conductor colours alone;
-3. sketch or describe the abnormal path or discontinuity;
-4. classify the condition, or state that classification is provisional;
-5. identify at least one plausible consequence;
-6. state the relevant protection purpose without naming a universal device;
-7. identify the source family and technical data needed for the next decision;
-8. state the practical boundary and stop condition.
+1. list facts and mark assumptions;
+2. grade every item of evidence;
+3. sketch the intended path using functional labels rather than conductor colours alone;
+4. sketch or describe the abnormal path or discontinuity;
+5. classify the condition and grade the claim;
+6. identify at least one plausible consequence;
+7. state the relevant protection purpose without naming a universal device;
+8. identify the source family and data needed for the next decision;
+9. state the stop condition and reopening trigger.
 
-### Assessment-focused completion criteria
+### Assessment rubric
 
-The task is complete when the learner can:
+Score each category from **0 to 2**.
 
-- classify at least five cards without confusing symptom, mechanism and consequence;
-- explain why overload and short circuit are both overcurrent conditions but arise from different mechanisms;
-- distinguish earth-fault reasoning from a claim that shock has necessarily occurred;
-- explain why residual current is evidence of imbalance rather than proof of a particular defect;
-- refuse to force a classification when material facts are absent;
-- use original language rather than reconstructing standards wording;
-- identify which conclusions require authorised values or procedures.
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Facts and sources | Invents or omits material facts | Partial source inventory | Complete bounded facts and source inventory |
+| Path reasoning | No intended or abnormal path | One path partly described | Intended path and abnormal path or discontinuity clearly distinguished |
+| Classification | Symptom treated as diagnosis | Plausible category with weak mechanism | Category linked correctly to mechanism and path |
+| Evidence discipline | Assumptions presented as facts | Grades used inconsistently | Evidence and claim grades applied consistently |
+| Protection purpose | Universal device answer | General consequence named | Consequence and protection purpose linked without overclaiming |
+| Safety boundary | Practical action implied | General caution only | Clear stop conditions, missing evidence and authorised next source |
 
-### Worked-example fading
+A score of **10/12 or higher** with no critical error indicates readiness for Day 4. This is an educational threshold, not an official assessment rule.
 
-Use three stages:
+### Critical errors
 
-1. first card: complete model with all reasoning fields shown;
-2. second and third cards: headings provided, analysis completed by the learner;
-3. remaining cards: learner creates the record independently.
+Any of the following requires remediation regardless of score:
 
-After feedback, replace one card with a varied scenario that preserves the symptom but changes the current path. This tests transfer rather than memory of the answer.
+- treating protective-device operation as proof of fault type or location;
+- calling every overcurrent a short circuit;
+- claiming an earth fault proves that a person received a shock;
+- treating an RCD as universal overload or short-circuit protection;
+- treating an open circuit as proof of absence of hazardous voltage;
+- inventing measurements, source conditions, conductor paths or device data;
+- proposing resetting, opening, testing, bridging, alteration or energisation outside authority.
 
 ## 7. Common errors and safety checkpoint
 
@@ -270,41 +326,33 @@ This module authorises no opening of equipment, removal of covers, resetting, is
 Stop and escalate when:
 
 - the circuit arrangement or possible sources cannot be established;
-- the proposed classification depends on inspection or testing outside current authority;
+- classification depends on inspection or testing outside current authority;
 - protective-conductor, neutral or alternate-supply conditions are uncertain;
 - device markings, manufacturer data or authorised requirements are unavailable;
 - a learner is asked to create or simulate a real electrical fault;
 - any proposed action could expose a person to live parts, stored energy, arc effects, unexpected movement or re-energisation;
-- the scenario moves beyond paper-based analysis or an approved supervised training environment.
+- the scenario moves beyond paper analysis or an approved supervised training environment.
 
 ## 8. Retrieval and next links
 
-### Recall questions
+### Closed-note retrieval
 
-Answer without looking, then verify.
-
-1. What is the difference between overcurrent and overload?
-2. What feature distinguishes the conceptual path of a short circuit from an overload?
-3. What is an earth fault?
+1. Distinguish symptom, initiating condition, mechanism and consequence.
+2. What is the difference between overcurrent and overload?
+3. What feature distinguishes the conceptual path of a short circuit from an overload?
 4. Why does residual current not identify the exact defect?
-5. What is an open circuit, and why can it still be hazardous?
-6. What does each letter in F-A-U-L-T represent?
-7. Why must protection purpose be stated before device selection?
+5. Why can an open circuit remain hazardous?
+6. Expand **F-A-U-L-T**.
+7. Name the five evidence grades and four claim grades.
 8. Which missing facts should force provisional classification or escalation?
 
-### Fresh application
+### Changed-scenario transfer
 
-A fictional circuit stops operating after a protective device operates. No information is provided about connected demand, insulation condition, conductor continuity, fault path, device characteristics or alternate supplies.
+Re-attempt one fault card after changing exactly one material condition: add an alternate source, change the documented current path, reveal a broken protective conductor, or replace an assumed connection with a verified drawing. Rebuild the classification rather than editing only the final label.
 
-Write a response that:
+### Delayed retrieval
 
-1. states what is known;
-2. lists at least four plausible but unproven mechanisms;
-3. explains why device operation alone does not identify the fault;
-4. identifies the authorised evidence needed next;
-5. states a clear stop boundary.
-
-Rate confidence before checking. Enter any high-confidence unsupported diagnosis into the error log.
+On the next study day, complete one new card without reopening this module. Compare confidence with evidence quality. A high-confidence unsupported diagnosis goes into the error log and must be corrected using a varied scenario.
 
 ### Navigation
 
