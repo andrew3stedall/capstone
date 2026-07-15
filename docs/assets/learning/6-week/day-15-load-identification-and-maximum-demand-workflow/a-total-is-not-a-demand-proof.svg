@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">A total is not a demand proof</title>
+  <desc id="desc">Black-and-white stick figure illustration. A learner looks from a calculator showing one total to a structured ledger containing load inventory, evidence, operating cases and phase checks. A stop sign beside the total says total only, while a tick beside the ledger says traceable model.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="145" cy="165" r="34"/>
+    <path d="M145 199 L145 315 M145 230 L85 270 M145 230 L220 250 M145 315 L95 410 M145 315 L205 410"/>
+    <rect x="230" y="110" width="190" height="170" rx="12"/>
+    <rect x="260" y="140" width="130" height="55" rx="6"/>
+    <path d="M275 220 h30 M330 220 h30 M275 250 h30 M330 250 h30"/>
+    <path d="M420 195 C475 195 480 195 515 195"/>
+    <path d="M495 175 L520 195 L495 215"/>
+    <rect x="535" y="70" width="350" height="370" rx="12"/>
+    <path d="M535 135 H885 M650 70 V440"/>
+    <path d="M555 175 H630 M670 175 H855 M555 220 H630 M670 220 H855 M555 265 H630 M670 265 H855 M555 310 H630 M670 310 H855 M555 355 H630 M670 355 H855"/>
+    <circle cx="820" cy="475" r="28"/>
+    <path d="M806 475 l10 12 21 -27"/>
+    <circle cx="335" cy="350" r="38"/>
+    <path d="M309 324 L361 376 M361 324 L309 376"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="325" y="130" font-size="24" font-weight="700">CALCULATOR</text>
+    <text x="325" y="177" font-size="27">18.0 kW</text>
+    <text x="335" y="418" font-size="24" font-weight="700">TOTAL ONLY</text>
+    <text x="710" y="110" font-size="27" font-weight="700">DEMAND-DEPENDENCY LEDGER</text>
+    <text x="592" y="166" font-size="19" font-weight="700">LOAD</text>
+    <text x="753" y="166" font-size="19" font-weight="700">EVIDENCE / CASE</text>
+    <text x="592" y="211" font-size="18">Ratings</text>
+    <text x="753" y="211" font-size="18">Rating basis</text>
+    <text x="592" y="256" font-size="18">Phases</text>
+    <text x="753" y="256" font-size="18">Operating cases</text>
+    <text x="592" y="301" font-size="18">Controls</text>
+    <text x="753" y="301" font-size="18">Dependencies</text>
+    <text x="592" y="346" font-size="18">Sources</text>
+    <text x="753" y="346" font-size="18">Reopening triggers</text>
+    <text x="710" y="410" font-size="20" font-weight="700">TRACEABLE MODEL</text>
+    <text x="480" y="500" font-size="25" font-weight="700">A total is an output—not proof of the method.</text>
+  </g>
+</svg>
