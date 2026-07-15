@@ -149,6 +149,6 @@ Stop and record a hold point when a required exact value, installation condition
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 80 - Staged Design and Calculation Mock Assessment]]
 - **Previous:** [Day 79 — Staged Written and Rule-Navigation Mock Assessment](day-79-staged-written-and-rule-navigation-mock-assessment.md)
-- **Next:** Day 81 — Staged Inspection, Verification and Fault-Reasoning Mock Assessment
+- **Next:** [Day 81 — Staged Inspection, Verification and Fault-Reasoning Mock Assessment](day-81-staged-inspection-verification-and-fault-reasoning-mock-assessment.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.

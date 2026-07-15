@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img" aria-labelledby="title desc">
+  <title id="title">One scenario, one evidence system</title>
+  <desc id="desc">A stick-figure learner connects source, design, inspection, verification and fault-reasoning streams into one submission while a protected review box remains separate.</desc>
+  <rect width="860" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="100" r="24"/><path d="M70 124v80M70 150l-35 28M70 150l45 18M70 204l-28 58M70 204l34 58"/>
+    <rect x="155" y="40" width="135" height="60"/><rect x="155" y="115" width="135" height="60"/><rect x="155" y="190" width="135" height="60"/><rect x="155" y="265" width="135" height="60"/>
+    <path d="M290 70h120M290 145h120M290 220h120M290 295h120"/>
+    <rect x="410" y="95" width="245" height="185" rx="8"/>
+    <rect x="690" y="110" width="135" height="100" stroke-width="7"/>
+    <path d="M655 185h35"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="222" y="78" font-size="18">Sources</text><text x="222" y="153" font-size="18">Design</text><text x="222" y="228" font-size="18">Verification</text><text x="222" y="303" font-size="18">Fault reasoning</text>
+    <text x="532" y="170" font-size="21" font-weight="700">INTEGRATED</text><text x="532" y="200" font-size="21" font-weight="700">SUBMISSION</text>
+    <text x="757" y="155" font-size="18" font-weight="700">PROTECTED</text><text x="757" y="182" font-size="18" font-weight="700">REVIEW</text>
+    <text x="430" y="390" font-size="23" font-weight="700">One scenario. Separate evidence. One traceable system.</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="390" viewBox="0 0 820 390" role="img" aria-labelledby="title desc">
+  <title id="title">Repair three then close the log</title>
+  <desc id="desc">A stick-figure learner checks three priority error cards, closes a folder and walks toward a rest sign.</desc>
+  <rect width="820" height="390" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="75" cy="95" r="24"/><path d="M75 119v80M75 145l-35 28M75 145l45 18M75 199l-28 58M75 199l34 58"/>
+    <rect x="170" y="65" width="130" height="90"/><rect x="330" y="65" width="130" height="90"/><rect x="490" y="65" width="130" height="90"/>
+    <path d="M195 110l20 20 50-55M355 110l20 20 50-55M515 110l20 20 50-55"/>
+    <path d="M210 215h300l45 45H255z"/><path d="M255 260v55h300v-55"/>
+    <path d="M650 205v110M620 205h100"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="235" y="180" font-size="18">Priority 1</text><text x="395" y="180" font-size="18">Priority 2</text><text x="555" y="180" font-size="18">Priority 3</text>
+    <text x="670" y="250" font-size="22" font-weight="700">REST</text>
+    <text x="410" y="365" font-size="23" font-weight="700">Repair three. Close the log. Recover.</text>
+  </g>
+</svg>
