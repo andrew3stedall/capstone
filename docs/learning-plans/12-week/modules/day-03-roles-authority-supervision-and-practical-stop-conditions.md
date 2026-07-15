@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: 2018
     clause: reference-only
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 prerequisites:
@@ -35,214 +35,217 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. distinguish **role**, **competence**, **task authority**, **supervision**, **scope** and **stop condition**;
-2. identify which person or source can authorise a stated learning or workplace task;
-3. separate permission to observe, discuss, prepare, assist, operate, test, alter and verify;
-4. construct an authority statement that names the task, limits, supervisor, approved method and escalation route;
-5. recognise at least six conditions that invalidate or suspend an earlier permission;
-6. explain why experience, confidence, urgency or another person's informal request does not independently establish authority;
-7. stop a scenario at the first unsupported transition from learning activity to practical action.
+1. classify a scenario statement as evidence of **role**, **competence**, **task authority**, **scope**, **supervision** or a **stop condition**;
+2. rank authority evidence as direct and current, indirect, incomplete or unsupported;
+3. rewrite vague instructions into observable activity verbs and explicit exclusions;
+4. test whether a supervision arrangement remains adequate when task, equipment, personnel, energy source, environment or learner capability changes;
+5. produce an authority statement naming the task, authoriser, evidence, limits, approved method, supervision, expiry conditions and escalation route;
+6. identify the first unsupported transition and stop before practical interaction;
+7. defend the stop decision using scenario evidence rather than confidence, custom, urgency or hierarchy alone;
+8. transfer the reasoning to a changed scenario without importing permission from the original scenario.
 
 ### Entry check
 
-Answer without notes and record confidence:
+Answer without notes and record confidence from 0–100%:
 
-1. Does knowing how to perform a task prove that you are authorised to perform it?
-2. Can a person be competent in one part of a task but outside scope for another part?
-3. What information must be explicit before “work under supervision” is a usable instruction?
-4. Name three changes that should trigger a fresh authority check.
-5. Who owns the decision to stop when a learner reaches an unclear boundary?
-6. Why is “my supervisor usually lets me” weak evidence?
+1. Does knowing how to perform a task prove authority to perform it?
+2. What evidence would distinguish a direct instruction from hearsay?
+3. Can supervision remain adequate when the activity changes from observation to operation?
+4. Name three facts that can expire an earlier permission.
+5. What is the first unsupported transition in: “Watch the inspection, then remove the cover while I take a call”?
+6. Who owns the decision to stop when the learner cannot establish a safe and authorised boundary?
 
-Use written or trainer-approved scenarios only. Do not convert this entry check into a workplace experiment.
+For each answer, mark the evidence used as **stated fact**, **reasonable inference**, **missing evidence** or **assumption**. Use written or trainer-approved scenarios only.
 
 ![A learner pauses at a boundary gate and checks the task, authority, supervisor and stop conditions before proceeding](../../../assets/learning/12-week/day-03-roles-authority-supervision-and-practical-stop-conditions/check-the-boundary.svg)
 
 ## 2. Why it matters
 
-Many unsafe decisions occur before a tool is touched. The person may misunderstand what they were asked to do, rely on an assumed supervision arrangement, continue after conditions change, or confuse technical familiarity with legal and organisational authority.
+Many unsafe decisions occur before a tool is touched. A person may understand a method but misunderstand the assignment, rely on an assumed supervision arrangement, continue after conditions change, or treat familiarity and urgency as permission.
 
-Capstone preparation must therefore assess more than whether a learner can describe a correct technical method. A defensible response also shows:
+Capstone performance therefore requires two separate judgements:
 
-- who is responsible for the task;
-- what the learner is permitted to do;
-- what remains outside scope;
-- what supervision and approved procedure apply;
-- which changes require work to stop;
-- how uncertainty is escalated without improvisation.
+- **technical judgement:** what method or principle may be relevant;
+- **authority judgement:** whether this person may perform this exact action, under these conditions, with this evidence and oversight.
 
-This is a prerequisite for later modules on isolation, inspection, testing, fault finding and verification. Those modules cannot safely rely on the vague instruction “under supervision.”
+A technically plausible action is still unacceptable when the authority chain is unsupported. Conversely, stopping without identifying the missing authority evidence is safer than proceeding, but it is incomplete assessment evidence because the learner may not understand the boundary.
 
 ## 3. Core concepts and terminology
 
 ### Role
-
-A **role** is the recognised function a person holds in a learning or work system, such as learner, apprentice, supervisor, assessor, licence holder, site manager or equipment operator. A role suggests responsibilities but does not by itself authorise every task.
+A **role** is a recognised function in a learning or work system. It suggests responsibilities but does not independently authorise every task.
 
 ### Competence
-
-**Competence** is demonstrated capability to perform a defined activity to the required standard. It is task-specific and evidence-based. Training exposure, confidence or previous success may contribute evidence but does not automatically prove current competence.
+**Competence** is demonstrated capability for a defined activity to the required standard. It is task-specific, current and evidence-based. It does not create legal or organisational permission.
 
 ### Task authority
+**Task authority** is explicit permission from the correct person or system for a defined activity under stated conditions. Usable authority identifies the activity, subject equipment or location, limits, approved method, supervision and expiry or recheck conditions.
 
-**Task authority** is explicit permission from the correct person or system to perform a defined activity under stated conditions. It should identify the task, location or equipment, limits, supervision, approved method and time or condition boundary.
+### Authority evidence
+**Authority evidence** is information supporting the claim that permission is valid. Use four educational categories:
+
+- **direct and current:** issued by the authorised person or controlling system, for this task and current conditions;
+- **indirect:** relayed by another person or inferred from a roster, custom or previous task;
+- **incomplete:** the authoriser may be valid, but task, limits, method, supervision or conditions are missing;
+- **unsupported:** based only on confidence, urgency, silence, habit or assumed seniority.
+
+These categories are learning aids, not legal classifications.
 
 ### Scope
-
-**Scope** is the outer boundary of what the person may do. It can be limited by law, licence, training stage, workplace policy, task allocation, equipment type, environment, supervision or the approved procedure.
+**Scope** is the outer boundary of permitted action. It may be limited by law, licence, training stage, workplace policy, task allocation, equipment, environment, supervision or the approved method.
 
 ### Supervision
-
-**Supervision** is an arranged control in which a suitably authorised person directs, monitors and intervenes according to the task risk, learner capability and governing requirements. The word alone is incomplete unless availability, communication, proximity, intervention and stop arrangements are understood.
+**Supervision** is an arranged control in which a suitably authorised person directs, monitors and can intervene. Its adequacy depends on the exact task, learner capability, hazards, communication, proximity, visibility, response time and governing requirements.
 
 ### Delegation
-
-**Delegation** is the assignment of a task or responsibility by a person who has authority to assign it. Delegation cannot create powers the delegating person does not hold, and it does not remove the recipient's duty to stay within scope.
+**Delegation** is assignment by a person who has authority to assign the task. It cannot create powers the delegator does not hold or remove the recipient's obligation to stay within scope.
 
 ### Stop condition
-
-A **stop condition** is a predefined or emerging circumstance that requires the task to pause and be referred for authorised direction. It is a control, not a failure of confidence.
+A **stop condition** is a predefined or emerging circumstance requiring the activity to pause and be referred for authorised direction. A justified stop is a control, not a failure of confidence.
 
 ### Re-authorisation trigger
+A **re-authorisation trigger** is a material change that makes earlier permission incomplete or unreliable. Examples include changed task verbs, equipment identity, energy sources, environment, personnel, method, fault evidence, learner capability or supervision availability.
 
-A **re-authorisation trigger** is a change that makes the original task permission incomplete or unreliable, such as changed equipment, supply arrangement, environment, personnel, procedure, fault evidence or supervision availability.
+### First unsupported transition
+The **first unsupported transition** is the earliest point where the proposed action moves beyond the evidence-backed authority envelope. Detecting this point prevents later reasoning from normalising an unsafe step.
 
 ## 4. Rule-finding workflow
 
 Use **A-U-T-H-O-R-I-T-Y** before any practical transition:
 
-1. **A — Activity:** state the exact action being considered using a clear verb.
-2. **U — User role:** identify the learner's role, demonstrated competence and known limits.
-3. **T — Task authority:** identify who or what validly authorises this particular activity.
-4. **H — Hazards and controls:** connect the authority check to the Day 2 hazard pathways and critical controls.
-5. **O — Oversight:** define the supervision, communication and intervention arrangement.
-6. **R — Rules and method:** locate current legislation, RTO instructions, workplace procedures and manufacturer information that apply.
-7. **I — In-scope boundary:** write what is permitted and what is expressly excluded.
-8. **T — Triggers to stop:** name conditions that suspend the permission.
-9. **Y — Yield and escalate:** stop at the first missing element and refer to the authorised person.
+1. **A — Activity:** state the exact action using an observable verb.
+2. **U — User role:** identify role, relevant demonstrated capability and known limits.
+3. **T — Task authority:** identify the authoriser and rank the evidence supporting permission.
+4. **H — Hazards and controls:** connect the task to Day 2 exposure pathways and critical controls.
+5. **O — Oversight:** define direction, monitoring, communication, intervention and availability.
+6. **R — Rules and method:** identify current controlling instructions and the approved method.
+7. **I — In-scope boundary:** state permitted actions, exclusions and unresolved evidence.
+8. **T — Triggers to stop:** name changes that suspend permission.
+9. **Y — Yield and escalate:** stop at the first missing or changed element and refer to the authorised person.
 
 ```mermaid
 flowchart TD
-    A["Name the exact activity"] --> B["Identify role and demonstrated capability"]
-    B --> C{"Valid task authority identified?"}
-    C -->|"No"| S["Stop and seek authorised direction"]
-    C -->|"Yes"| D["Confirm supervision and approved method"]
-    D --> E["Write permitted and excluded actions"]
-    E --> F{"Conditions unchanged and evidence complete?"}
+    A["Name the exact activity"] --> B["Identify role and relevant capability"]
+    B --> C["Identify authoriser and authority evidence"]
+    C --> D{"Evidence direct, current and complete?"}
+    D -->|"No"| S["Stop, record the gap and escalate"]
+    D -->|"Yes"| E["Confirm method, supervision and exclusions"]
+    E --> F{"Task and conditions unchanged?"}
     F -->|"No"| S
-    F -->|"Yes"| G["Proceed only within the stated learning or work boundary"]
-    G --> H{"Stop trigger appears?"}
+    F -->|"Yes"| G["Proceed only within the documented boundary"]
+    G --> H{"Stop trigger or unsupported transition?"}
     H -->|"Yes"| S
     H -->|"No"| I["Continue monitoring within scope"]
 ```
 
-The workflow makes authority a maintained condition rather than a one-time verbal permission.
+The workflow treats authority as a maintained condition. A previous valid instruction does not survive every change.
 
 ## 5. Visual model or worked example
 
 ### The authority envelope
 
-Think of permission as an envelope around a specific activity. Five boundaries must overlap:
-
 ```mermaid
 flowchart LR
-    R["Role boundary"] --> E["Valid authority envelope"]
+    R["Role boundary"] --> E["Evidence-backed authority envelope"]
     C["Competence boundary"] --> E
+    A["Authoriser and permission boundary"] --> E
     M["Approved method boundary"] --> E
     S["Supervision boundary"] --> E
-    X["Site and task conditions"] --> E
-    E --> O["Only the action inside every boundary is in scope"]
+    X["Current task and conditions"] --> E
+    E --> O["Only actions inside every supported boundary are in scope"]
 ```
 
-If one boundary changes or is unknown, the action moves outside the envelope until checked again.
+The overlap is only as strong as its weakest unsupported boundary. Missing evidence is not automatically proof that permission is absent, but it is sufficient reason for the learner to stop and seek clarification.
 
 ### Fictional worked example
 
-A learner is asked to “help check a faulty circuit.” The supervisor is elsewhere on site. The fault description is incomplete and an alternate supply may be present.
+A learner is told by a co-worker: “The supervisor said you can help check the faulty circuit. Start by taking the cover off; she is somewhere on site.” The equipment identifier differs from the job sheet and an alternate supply label is visible.
 
-| Reasoning element | Defensible statement | Unsafe shortcut |
+| Element | Evidence classification | Defensible response |
 |---|---|---|
-| Activity | “Help check” must be converted into exact permitted verbs: observe, retrieve documents, record information or another defined action. | Treat the phrase as permission to open, operate or test equipment. |
-| Role | The learner's training stage and demonstrated capability must be known for the exact activity. | Assume time served equals authority. |
-| Authority | The authorised person must define the task and limits. | Rely on a message relayed by a co-worker. |
-| Oversight | Supervisor availability, communication and intervention arrangements must match the task. | Assume being on the same site is sufficient supervision. |
-| Conditions | Possible alternate supply and incomplete fault evidence are re-authorisation triggers. | Continue because the circuit was previously discussed. |
-| Decision | Stop before any practical interaction; clarify the activity, sources, method and supervision. | “Just have a quick look” inside equipment. |
+| Request | Indirect | The co-worker's statement does not establish the supervisor's exact instruction. |
+| Activity | Incomplete | “Help check” must be replaced with defined verbs and exclusions. |
+| Equipment | Contradictory | The identifier differs from the job sheet. |
+| Supervision | Incomplete | “Somewhere on site” does not define monitoring or intervention. |
+| Conditions | Changed | Alternate-supply information requires a fresh authority and method check. |
+| First unsupported transition | Clear | Removing the cover is the earliest proposed practical interaction without supported authority. |
+| Decision | Stop-required | Do not interact with the equipment; record the mismatches and contact the authorised supervisor through the approved channel. |
 
-The worked example deliberately ends before a technical procedure. The learning objective is to detect the unsupported transition.
+A weaker answer merely says “stop because it looks dangerous.” A stronger answer identifies the exact transition, the missing and contradictory evidence, and the person or source required to resolve it.
 
 ## 6. Practical application
 
-### Authority-boundary worksheet
+### Authority evidence ledger
 
-For a trainer-provided fictional scenario, complete:
+For each trainer-provided fictional scenario, complete:
 
 ```text
 Exact activity verb:
+Equipment, location or document identifier:
 Person requesting the activity:
-Learner role:
-Evidence of capability relevant to this activity:
-Source of task authority:
-Approved method or instruction:
-Required supervision arrangement:
+Claimed authoriser:
+Evidence the authoriser controls this task:
+Authority evidence: direct-current / indirect / incomplete / unsupported
+Learner role and relevant capability evidence:
+Approved method or controlling instruction:
+Supervision arrangement:
 Permitted actions:
-Explicitly excluded actions:
+Explicit exclusions:
 Known hazards and critical controls:
-Missing evidence:
+Missing or contradictory evidence:
 Re-authorisation triggers:
-Immediate stop conditions:
-Escalation person or channel:
-Boundary statement:
+First unsupported transition:
+Stop statement:
+Escalation owner and channel:
+Expiry or recheck condition:
 ```
 
-Complete three passes:
+Complete three rounds:
 
-1. **Observation-only pass:** identify what can be learned without practical interaction.
-2. **Boundary pass:** mark the first point where explicit authority, supervision or procedure becomes necessary.
-3. **Changed-condition pass:** re-evaluate after one detail changes, such as supervisor availability, equipment identity, supply arrangement, environment or fault evidence.
+1. **Classification round:** label each scenario statement as fact, inference, gap or assumption and rank authority evidence.
+2. **Boundary round:** identify the first unsupported transition and write a specific stop statement.
+3. **Transfer round:** change one material condition and rebuild the authority envelope from the start rather than carrying permission forward.
 
-### Observable performance rubric
+### Observable performance anchors
 
-Score each category 0, 1 or 2:
+Assess each criterion separately:
 
-- exact activity definition;
-- correct separation of role, competence and authority;
-- supervision specificity;
-- permitted-versus-excluded action boundary;
-- identification of re-authorisation triggers;
-- timely stop and escalation decision.
+- **secure:** evidence is classified correctly; the boundary and first unsupported transition are explicit; stop and escalation are justified;
+- **developing:** the safe decision is reached but one authority, supervision, exclusion or evidence link is incomplete;
+- **unsupported:** the answer relies on custom, confidence, hierarchy, proximity or an assumed instruction;
+- **stop-required:** the response proposes or normalises practical action beyond supported authority.
 
-Any response that performs or proposes an unauthorised practical action is not satisfactory regardless of the total score.
+A correct stop reached for the wrong reason is not yet secure. Any proposal for unauthorised practical action is unsatisfactory regardless of other strengths.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- **Competence equals permission:** capability and authority are separate questions.
-- **Role title equals unlimited scope:** titles do not replace task-specific limits.
-- **Vague action verbs:** “check,” “look at,” “help with” and “make safe” must be clarified.
-- **Supervision by proximity:** being nearby is not a complete supervision arrangement.
-- **Borrowed authority:** a co-worker's request may not come from the authorised decision-maker.
-- **Permission survives every change:** altered conditions require the envelope to be checked again.
-- **Silence means consent:** lack of objection is not authorisation.
+- **Competence equals permission:** capability and authority answer different questions.
+- **Role title equals unlimited scope:** titles do not replace task-specific evidence.
+- **Vague verbs:** “check,” “help,” “look at” and “make safe” conceal different authority boundaries.
+- **Supervision by proximity:** being on site does not prove adequate direction, monitoring or intervention.
+- **Borrowed authority:** a relayed instruction is not automatically direct or complete.
+- **Permission survives change:** task, equipment, environment, method or personnel changes trigger reassessment.
+- **Stop without diagnosis:** stopping is safer than guessing, but assessment evidence must name the unsupported transition and missing evidence.
+- **Silence means consent:** absence of objection is not authorisation.
 - **Urgency expands scope:** time pressure does not create authority.
-- **Stopping is insubordination:** a justified stop protects the learner, supervisor and task.
 - **Inventing legal or RTO rules:** uncertain requirements remain `reference_check_required`.
 
 ### Safety checkpoint
 
-This module authorises no switching, isolation, testing, opening of equipment, resetting, disconnection, alteration, repair, rescue, energisation or verification.
+This module authorises no switching, isolation, testing, opening equipment, resetting, disconnection, alteration, repair, rescue, energisation or verification.
 
 Stop and seek authorised direction when:
 
-- the action cannot be stated precisely;
-- the person granting permission or their authority is unclear;
-- the learner's competence or scope for the exact activity is unverified;
-- supervision is unavailable, interrupted or materially different from the arrangement;
-- the approved method, equipment identity, energy sources or site conditions are uncertain;
-- a fault, damage, unexpected reading, alternate supply or environmental change appears;
-- the activity moves from observation or documentation into practical interaction;
-- pressure, fatigue or fear of embarrassment discourages escalation.
+- the action, equipment or location cannot be stated precisely;
+- the authoriser, their authority or the evidence trail is unclear;
+- competence or scope for the exact activity is unverified;
+- supervision is unavailable, interrupted or mismatched to the task;
+- the approved method, energy sources or site conditions are uncertain;
+- information is missing, contradictory, stale or relayed indirectly;
+- the activity crosses from discussion, observation or documentation into practical interaction;
+- pressure, fatigue or fear of embarrassment encourages assumption.
 
 In an actual emergency, follow current emergency arrangements and directions from emergency services and authorised workplace personnel. This module is not emergency-response training.
 
@@ -251,42 +254,36 @@ In an actual emergency, follow current emergency arrangements and directions fro
 ### Closed-note recall
 
 1. Define role, competence, task authority, scope, supervision and stop condition.
-2. Recite the nine steps of **A-U-T-H-O-R-I-T-Y**.
-3. Why must an instruction such as “help check it” be rewritten with exact verbs?
-4. Name five boundaries in the authority envelope.
-5. Give six re-authorisation triggers.
-6. Explain why supervision is more than physical proximity.
-7. What is the first action when valid authority cannot be established?
-8. Why does urgency not expand scope?
+2. Recite **A-U-T-H-O-R-I-T-Y**.
+3. Name the four educational authority-evidence categories.
+4. Explain the first unsupported transition.
+5. Why can a correct stop still be incomplete assessment evidence?
+6. Name six re-authorisation triggers.
+7. What evidence makes a supervision arrangement usable rather than vague?
 
-### Varied retrieval
+### Changed-context retrieval
 
-A learner was authorised to observe a planned inspection with a named supervisor. On arrival, the equipment is different, the supervisor has left temporarily, and a worker asks the learner to remove a cover so the job can start sooner.
+A learner has direct permission to observe a planned inspection with a named supervisor. On arrival, the equipment differs, the supervisor leaves, and another worker asks the learner to operate a device so the inspection can start.
 
-Without proposing a technical procedure, write:
+Without proposing a technical procedure, produce:
 
-- the original authority envelope;
-- each condition that has changed;
-- the exact unsupported transition;
-- the stop statement;
-- the information and person needed before any new activity could be considered.
+- a fact/inference/gap/assumption table;
+- the original and changed authority envelopes;
+- the first unsupported transition;
+- the evidence classification for the worker's request;
+- a specific stop statement and escalation owner;
+- a confidence rating before and after checking the module.
 
 ### Evidence to retain
 
-Keep:
-
-- the completed authority-boundary worksheet;
-- the changed-condition re-attempt;
-- confidence ratings before and after checking;
-- any high-confidence scope errors added to the error log;
-- unresolved legal, RTO or workplace questions for authorised review.
+Keep the authority evidence ledger, changed-context re-attempt, confidence ratings, any high-confidence scope errors, and unresolved legal, RTO or workplace questions for authorised review.
 
 ### Navigation
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 03 - Roles Authority Supervision and Practical Stop Conditions]]
 - **Previous:** [Day 2 — Electrical Hazards, Exposure Pathways and Consequence Reasoning](day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
-- **Next:** Day 4 — Wiring Rules Structure and Efficient Topic Navigation
+- **Next:** [Day 4 — Wiring Rules Structure and Efficient Topic Navigation](day-04-wiring-rules-structure-and-efficient-topic-navigation.md)
 
 ### Reference and currency notice
 
