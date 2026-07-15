@@ -90,7 +90,8 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 - [x] Days 1–22 — completed and recorded in `AUTOMATION_STATUS.md` and each module's YAML metadata.
 - [x] 2026-07-16 — [Day 23 — Main switches, alternate supplies and isolation boundaries](modules/day-23-main-switches-alternate-supplies-and-isolation-boundaries.md): strengthened S-O-U-R-C-E-S with five evidence grades, four claim grades, a source-state boundary ledger, explicit dependencies and reopening triggers, worked-example fading, changed-source and changed-boundary transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible source-state visual.
-- [ ] Next — Day 24 — Switchboard functional areas, accessibility and identification.
+- [x] 2026-07-16 — [Day 24 — Switchboard functional areas, accessibility and identification](modules/day-24-switchboard-functional-areas-accessibility-and-identification.md): strengthened B-O-A-R-D-S with five evidence grades, four claim grades, a board-evidence ledger, access and permission distinctions, identification-correspondence controls, explicit dependencies and reopening triggers, worked-example fading, changed-identification and changed-task transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible correspondence-evidence visual.
+- [ ] Next — Day 25 — Wiring systems, mechanical protection and environmental influences.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
