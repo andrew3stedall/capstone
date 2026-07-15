@@ -5,15 +5,18 @@ domain: special-locations
 level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
+content_status: review-required
 standard_references:
   - standard: AS/NZS 3000
-    edition: 2018
-    clause: topic-reference-only
-reviewed_on: 2026-07-13
-status: review-required
+    edition: "2018"
+    clause: reference_check_required
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
+estimated_minutes: 60-75
 prerequisites:
   - day-04-rcd-protection-and-additional-protection
   - day-13a-switching-isolation-and-main-switches
@@ -21,303 +24,207 @@ prerequisites:
   - day-17-bathrooms-showers-and-other-wet-areas
 related_modules:
   - day-19-rest-retrieval-and-catch-up
-related_questions: []
-related_simulations: []
 ---
 
 # Day 18 — Other Special Installations and Locations
 
-> **Source and currency notice:** This is original educational material about recognising special-installation triggers and building an evidence plan. It is not a substitute for current authorised standards, legislation, regulator guidance, network requirements, manufacturer instructions or RTO procedures. Exact definitions, boundaries, equipment permissions, protection measures, separation distances, test requirements and acceptance criteria require current-source checking and qualified technical review.
+> **Source and safety notice:** This original paper-based module teaches trigger recognition and evidence planning. Exact definitions, scope boundaries, equipment permissions, protection measures, separation requirements, testing and acceptance criteria require current authorised sources and qualified review. It is not `technically-reviewed`.
 
-## Beat 1 — Outcome and entry check
+## Navigation
 
-### What you will learn
+- **Previous:** [Day 17 — Bathrooms, Showers and Other Wet Areas](./day-17-bathrooms-showers-and-other-wet-areas.md)
+- **Next:** [Day 19 — Rest, Retrieval and Catch-Up](./day-19-rest-retrieval-and-catch-up.md)
 
-By the end of this block, you should be able to:
+## 1. Outcome and entry check
 
-1. recognise when an installation has conditions that may trigger special requirements;
-2. separate location, activity, environment, supply and user-risk triggers;
-3. classify a scenario without assuming that one remembered rule covers it;
-4. build a current-source search plan for each identified trigger;
-5. write a bounded conclusion that distinguishes confirmed facts from unresolved requirements.
+By the end of this block, the learner should be able to:
+
+1. identify location, activity, environment, supply, user and construction triggers;
+2. distinguish a site label from a verified special-installation classification;
+3. identify overlapping topic scopes without discarding general requirements;
+4. grade evidence as observed, documented, manufacturer-verified, assumed or missing;
+5. grade claims as described, supported, verified or unresolved;
+6. apply **S-C-O-P-E** to unfamiliar scenarios;
+7. reopen the evidence plan when a trigger, source, user group or operating mode changes;
+8. state stop conditions without implying field authority.
 
 ### Entry check
 
-Answer without notes:
+1. Why is a location name insufficient for classification?
+2. How can one site trigger several topic checks?
+3. Why does product suitability not prove installation permission?
+4. What must be verified before detailed requirements are applied?
+5. When must a paper review stop without a verdict?
 
-1. What makes a location “special” for electrical design purposes?
-2. Why can two installations in similar buildings require different controls?
-3. What evidence is needed before deciding that a general installation rule is sufficient?
-4. Why should several special-location topics sometimes be checked for one site?
-5. When must a paper review stop without a compliance verdict?
+## 2. Why it matters
 
-Record confidence. Correct any high-confidence answer that relies only on a remembered label or rule.
+Special installations combine ordinary electrical hazards with unusual exposure, users, construction or supply conditions. The principal error is often not forgetting one requirement, but failing to recognise the complete trigger set.
 
-## Beat 2 — Why it matters
+The governing model is:
 
-Some installations combine ordinary electrical hazards with unusual exposure, restricted movement, conductive surroundings, public access, vulnerable users, harsh environmental conditions, temporary arrangements or multiple supplies. The mistake is not merely forgetting a detail. It is failing to recognise that a different evidence set may apply.
+**situation facts → trigger set → verified scope → combined controls → evidence-led claim**
 
-Common assessment and workplace failures include:
+![A learner sorts several hazard triggers before selecting the applicable source topics](../../../assets/learning/4-week/day-18-other-special-installations-and-locations/name-the-trigger-first.svg)
 
-- treating a location name as the full classification;
-- checking only water exposure while ignoring corrosion, heat, impact or public access;
-- applying one special-location rule where several topics overlap;
-- assuming portable, temporary or transportable equipment follows the same evidence path as fixed equipment;
-- accepting product markings without checking installation, supply and protection requirements;
-- quoting remembered dimensions or permissions without current authorised evidence.
+## 3. Core concepts and terminology
 
-![Stick figure sorting several hazard signs before opening the rule book](../../../assets/learning/4-week/day-18-other-special-installations-and-locations/name-the-trigger-first.svg)
+### Trigger categories
 
-*Caption: The sign on the door is not the whole classification.*
+- **Location:** the physical setting or defined installation type.
+- **Activity:** how people, animals, machinery or processes use the area.
+- **Environment:** water, dust, corrosion, heat, cold, impact, vibration, fire or chemicals.
+- **Supply:** temporary, generated, stored, multiple-source or unusual distribution arrangements.
+- **User:** public access, children, patients, restricted movement or other vulnerability.
+- **Construction:** conductive structures, transportable structures, confined spaces or unusual wiring conditions.
 
-## Beat 3 — Core concepts and terminology
+### Candidate topic
 
-### A special location is a trigger set
+A **candidate topic** is a plausible special-installation subject requiring scope verification. It is not a final classification.
 
-Do not begin with a memorised list of places. Begin with the conditions that may alter risk or installation requirements:
+### Combined control set
 
-- **location trigger** — the physical setting or defined installation type;
-- **activity trigger** — how people, animals, machinery or processes use the area;
-- **environment trigger** — water, dust, corrosion, heat, cold, vibration, impact, fire or chemical exposure;
-- **supply trigger** — temporary supply, generation, storage, multiple sources, extra-low voltage or unusual distribution;
-- **user trigger** — public access, children, patients, people with restricted movement or other vulnerable users;
-- **construction trigger** — conductive structures, confined spaces, transportable structures or unusual mounting and wiring conditions.
+A **combined control set** is the evidence-backed interaction of general and special requirements applying to the same scenario.
 
-One scenario may have several triggers. Each trigger can lead to a separate source check.
+### Evidence grades
 
-### Classification before permission
+- **Observed:** directly shown.
+- **Documented:** stated in a current authorised record.
+- **Manufacturer-verified:** supported by applicable product information.
+- **Assumed:** plausible but unsupported.
+- **Missing:** required but unavailable.
 
-A sound review follows this order:
+### Claim grades
 
-1. establish the facts;
-2. identify possible special-location topics;
-3. verify formal definitions and scope;
-4. classify equipment, wiring and supply arrangements;
-5. locate the applicable requirements;
-6. combine overlapping controls;
-7. record what remains unresolved.
+- **Described:** states what is shown.
+- **Supported:** gives a bounded conclusion from applicable evidence.
+- **Verified:** requires complete authorised evidence and qualified confirmation.
+- **Unresolved:** a material gap prevents the claim.
 
-The name of a site—such as “pool,” “caravan,” “construction site” or “medical room”—does not by itself prove the exact scope, boundaries or permitted arrangement.
+## 4. Rule-finding workflow
 
-### Overlap is normal
+Use **S-C-O-P-E**:
 
-A single installation may require simultaneous consideration of:
-
-- wet or corrosive conditions;
-- additional protection;
-- mechanical protection;
-- switching and isolation;
-- alternative or temporary supplies;
-- public or vulnerable-user access;
-- fire and emergency arrangements;
-- inspection, testing and documentation.
-
-Do not discard a general requirement merely because a special-location topic also applies. Determine how the requirements interact using current authorised sources.
-
-## Beat 4 — Rule-finding workflow: S-C-O-P-E
-
-Use **S-C-O-P-E** to prevent a location label from becoming an unsupported conclusion.
-
-1. **S — Situation facts:** record the physical arrangement, users, activity, environment, equipment and supplies.
-2. **C — Candidate triggers:** list every plausible special-location or special-installation topic.
-3. **O — Official scope:** verify definitions, boundaries, exclusions and interactions in current authorised sources.
-4. **P — Protection set:** identify the location, equipment, wiring, supply, switching, protection and verification evidence required.
-5. **E — Evidence record:** document sources, assumptions, unresolved details and the bounded result.
+1. **S — Situation facts:** record arrangement, users, activity, environment, equipment and every source.
+2. **C — Candidate triggers:** list every plausible topic without stopping at the first.
+3. **O — Official scope:** verify definitions, boundaries, exclusions and interactions.
+4. **P — Protection set:** identify equipment, wiring, supply, switching, protection and verification evidence.
+5. **E — Evidence and escalation:** grade evidence and claims, record gaps and reopen after change.
 
 ```mermaid
 flowchart TD
     A["Record situation facts"] --> B["List candidate triggers"]
-    B --> C["Verify formal scope and boundaries"]
-    C --> D{"More than one topic applies?"}
-    D -- Yes --> E["Build combined evidence matrix"]
-    D -- No --> F["Build single-topic evidence matrix"]
+    B --> C["Verify formal scope boundaries and exclusions"]
+    C --> D{"Multiple topics apply?"}
+    D -->|"Yes"| E["Build combined evidence matrix"]
+    D -->|"No"| F["Build single-topic evidence matrix"]
     E --> G["Check equipment wiring supply protection and verification"]
     F --> G
     G --> H{"Evidence complete and current?"}
-    H -- No --> I["Record unresolved and stop verdict"]
-    H -- Yes --> J["Write bounded conclusion"]
+    H -->|"No"| I["Claim unresolved; request evidence"]
+    H -->|"Yes"| J["Write bounded supported claim"]
+    J --> K{"Trigger source user or mode changed?"}
+    K -->|"Yes"| A
+    K -->|"No"| L["Retain claim within stated boundary"]
 ```
 
-### Source-search sequence
-
-For a paper scenario:
-
-1. describe the site without using a compliance label;
-2. mark fixed and temporary features, users, activities and environmental exposures;
-3. identify every supply source and operating mode;
-4. search authorised material for definitions and scope before requirements;
-5. check whether multiple special topics overlap;
-6. locate equipment, wiring, protection, switching, isolation and verification requirements;
-7. check regulator, network, manufacturer and RTO requirements where relevant;
-8. record edition, amendment, jurisdiction and date accessed;
-9. leave unsupported dimensions, ratings and permissions unresolved.
-
-## Beat 5 — Visual model and worked example
-
-### Trigger-to-evidence model
+## 5. Visual model or worked example
 
 ```mermaid
 flowchart LR
-    L["Location"] --> T["Candidate trigger set"]
+    L["Location"] --> T["Trigger set"]
     A["Activity"] --> T
     E["Environment"] --> T
     U["Users"] --> T
     S["Supplies"] --> T
     C["Construction"] --> T
     T --> D["Definition and scope checks"]
-    D --> M["Combined requirement map"]
+    D --> M["Combined control set"]
     M --> Q["Equipment suitability"]
     M --> W["Wiring and mechanical protection"]
     M --> P["Protection switching and isolation"]
     M --> V["Verification and documentation"]
 ```
 
-### Fictional worked review
+A fictional community facility includes an outdoor therapy pool, pump enclosure, battery-backed control system, public access, temporary outlet and nearby chemical store.
 
-A fictional community facility includes an outdoor therapy pool, a pump enclosure, a small battery-backed control system, public access, a temporary event outlet and a nearby corrosive chemical store. The drawing omits boundary dimensions, equipment schedules and supply details.
-
-Apply S-C-O-P-E:
-
-| Step | Finding | Consequence |
+| Trigger | Evidence grade | Consequence |
 |---|---|---|
-| Situation facts | Water, public users, chemicals, pumps, battery backup and temporary supply are present | Several risk dimensions must be reviewed |
-| Candidate triggers | Wet-area, pool-related, corrosive-environment, motor, alternative-supply and temporary-supply topics may apply | One topic cannot be assumed to cover the site |
-| Official scope | Definitions, physical boundaries and exclusions are not available in the drawing | Final classification cannot be asserted |
-| Protection set | Equipment, wiring, additional protection, isolation, source interaction and verification evidence are missing | No installation permission can be concluded |
-| Evidence record | Scenario remains incomplete | Request geometry, equipment schedules, supply diagrams and current-source verification |
+| Water and public use | Observed | Several topic scopes may apply |
+| Battery backup | Documented only by note | Source diagram still required |
+| Boundary dimensions | Missing | Final scope cannot be asserted |
+| Equipment schedules | Missing | Suitability and permission unresolved |
+| Temporary supply | Assumed from symbol | Must be confirmed before conclusions |
 
-The correct result is a structured evidence request, not an improvised list of remembered special-location rules.
+**Bounded conclusion:** the scenario supports a candidate-topic and evidence plan, not an installation approval.
 
-## Beat 6 — Practical application
+### Worked-example fading
 
-### Scenario: mixed-use rural service area
+A second site contains a transportable office, wash-down area and generator inlet, but no operating-mode description. Identify the six trigger categories, grade the evidence, build one matrix row and state what change would reopen the review.
 
-A fictional site includes:
+## 6. Practical application
 
-- an animal-wash bay;
-- a refrigerated produce room;
-- an outdoor public charging point;
-- a transportable site office;
-- a generator connection point;
-- a battery system;
-- a chemical-cleaning area;
-- a temporary event marquee supplied from the site;
-- underground wiring between buildings;
-- no complete single-line diagram or equipment schedule.
+For a fictional mixed-use rural service area, produce:
 
-### Task A — Build the trigger register
+1. a situation-fact register;
+2. a six-category trigger register;
+3. a candidate-topic list;
+4. an authorised-source scope plan;
+5. a combined evidence matrix;
+6. source and operating-mode questions;
+7. bounded claims using the four grades;
+8. a change-propagation note after adding public access, a battery or temporary supply.
 
-For each area, list:
+### Assessment rubric
 
-1. situation facts;
-2. likely location, activity, environment, supply, user and construction triggers;
-3. missing geometry or operating information;
-4. candidate authorised-source topics;
-5. possible overlaps with general requirements.
+Score each category from **0 to 2**.
 
-### Task B — Build an evidence matrix
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Situation facts | Missing or invented | Partial | Complete and bounded |
+| Trigger recognition | Site label only | Some triggers | All relevant categories considered |
+| Scope and overlap | One topic assumed | Some scope checks | General and special topics integrated |
+| Evidence discipline | Assumptions as facts | Inconsistent | Evidence and claims graded consistently |
+| Change propagation | Change ignored | Some reopening | Evidence plan fully rebuilt |
+| Safety communication | Field authority implied | General caution | Clear stop conditions and bounded claims |
 
-Use these headings:
+A score of **10/12 or higher** with no critical error indicates readiness for Day 19. This is not an official assessment rule.
 
-- formal scope or definition to verify;
-- equipment category and suitability evidence;
-- wiring-system and mechanical-protection evidence;
-- supply, protection, switching and isolation evidence;
-- earthing or bonding evidence;
-- environmental and manufacturer evidence;
-- inspection, testing and documentation evidence;
-- conclusion: supported, unsupported or unresolved.
+## 7. Common errors and safety checkpoint
 
-### Task C — Write a bounded conclusion
+Common errors include selecting a topic from the site name, stopping after one trigger, overlooking temporary or stored-energy supplies, treating environmental suitability as permission, ignoring general requirements and inventing dimensions or ratings.
 
-Use this pattern:
+![A learner holds one checklist while other overlapping evidence checks remain](../../../assets/learning/4-week/day-18-other-special-installations-and-locations/one-topic-may-not-be-enough.svg)
 
-> The scenario contains multiple potential special-installation triggers. The available information supports a candidate-topic list but not a final classification or compliance conclusion. Verify each topic's current scope, resolve overlaps and obtain the missing geometry, supply and equipment evidence before accepting any arrangement.
+Critical errors include omitting a disclosed source, asserting a formal scope without evidence, copying standards tables or figures, or proposing opening, testing, isolation, installation or energisation outside authority.
 
-## Beat 7 — Common errors and safety checkpoint
+This module authorises no opening, touching, testing, switching, isolation, installation, alteration, verification or energisation. Stop when scope, boundaries, source arrangements, environmental risks, user risks, product data or current authorised sources are uncertain, or when immediate danger is observed.
 
-### Common errors
+## 8. Retrieval and next links
 
-- selecting a special-location rule from the site name alone;
-- stopping after the first plausible trigger;
-- overlooking temporary, portable, generated or stored-energy supplies;
-- treating environmental suitability as equivalent to installation permission;
-- ignoring general wiring, protection and verification requirements;
-- assuming a product certification resolves location, circuit and mounting questions;
-- copying an old training diagram or table;
-- inventing a distance, rating or equipment permission;
-- presenting a candidate classification as a verified result.
+### Closed-note retrieval
 
-![Stick figure holding one checklist while several overlapping checklists remain behind it](../../../assets/learning/4-week/day-18-other-special-installations-and-locations/one-topic-may-not-be-enough.svg)
+1. Expand **S-C-O-P-E**.
+2. Name the six trigger categories.
+3. Why is a candidate topic not a verified classification?
+4. Why can general and special requirements both apply?
+5. Name the five evidence grades and four claim grades.
+6. State three stop conditions.
 
-*Caption: One checklist can be correct and still be incomplete.*
+### Changed-scenario transfer
 
-### Safety checkpoint
+Add a temporary event supply, public access, a battery or corrosive process to the worked scenario. Rebuild the trigger set, scope plan, combined matrix and dependent claims.
 
-Stop the exercise and escalate when:
+### Knowledge-base links
 
-- the formal scope, boundary or installation type cannot be established;
-- current authorised sources are unavailable;
-- more than one supply may energise equipment and the source arrangement is unclear;
-- environmental, public-access or vulnerable-user risks are not defined;
-- equipment markings or manufacturer instructions cannot be verified;
-- the task would require opening, touching, testing, switching, isolation, installation or alteration;
-- damaged equipment, exposed parts, water ingress, chemical damage or immediate danger is observed;
-- a paper exercise is being treated as authority for real work.
+- [[Day 17 - Bathrooms Showers and Other Wet Areas]]
+- [[Day 18 - Other Special Installations and Locations]]
+- [[Day 19 - Rest Retrieval and Catch-Up]]
+- [[Safety and Electrical Risk]]
+- [[Wiring Rules and Design]]
 
-This module does not provide field isolation, testing, installation or emergency procedures. Physical work must follow applicable law, supervision, competency, safe-work systems and approved procedures.
+## Review boundary
 
-## Beat 8 — Retrieval, practice and next links
-
-### Recall check
-
-1. What five steps make up S-C-O-P-E?
-2. Name the six trigger categories used in this module.
-3. Why is a location name insufficient for classification?
-4. Why can several special-location topics apply at once?
-5. What must be verified before checking detailed requirements?
-6. What belongs in a combined evidence matrix?
-7. Why is product suitability only one part of the decision?
-8. Name three stop conditions.
-
-### Applied practice
-
-Create a fictional site with at least four overlapping triggers. Deliberately omit three critical facts. Require another learner to:
-
-1. identify the missing facts before giving a verdict;
-2. list all plausible topic triggers;
-3. build a source-search sequence;
-4. complete one evidence-matrix row;
-5. write a bounded conclusion without guessing requirements.
-
-### Reflection
-
-Complete these prompts:
-
-- The trigger I am most likely to overlook is…
-- The site label I am most likely to trust too quickly is…
-- The missing evidence that should stop my conclusion is…
-
-### Navigation
-
-- **Previous:** [Day 17 — Bathrooms, Showers and Other Wet Areas](./day-17-bathrooms-showers-and-other-wet-areas.md)
-- **Knowledge note:** [[Day 18 - Other Special Installations and Locations]]
-- **Next:** Day 19 — Rest, Retrieval and Catch-Up
-
-## Technical-review flags
-
-Before publication or operational use, a qualified reviewer must verify against current authorised sources:
-
-- formal definitions, scope, boundaries and exclusions for each special installation or location;
-- interactions between general requirements and multiple special topics;
-- equipment categories, location permissions and environmental suitability;
-- wiring systems, mechanical protection, segregation and mounting;
-- additional protection, supply, switching, isolation, earthing and bonding;
-- temporary, alternative, generated and stored-energy supply arrangements;
-- inspection, testing, documentation and jurisdiction-specific obligations;
-- current manufacturer, regulator, network and RTO requirements.
-
-**Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+Formal definitions, scopes, boundaries, exclusions, equipment permissions, environmental suitability, wiring, mechanical protection, segregation, supply, switching, isolation, earthing, bonding, testing and acceptance criteria remain `reference_check_required`. This module is not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
