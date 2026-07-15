@@ -5,12 +5,15 @@ domain: study-practice-and-readiness
 level: capstone
 jurisdiction: general
 source_status: original-summary
+content_status: review-required
 standard_references: []
-reviewed_on: 2026-07-13
-status: draft-unverified
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: false
 reference_check_required: false
 technical_reviewer: not-required-for-recovery-workflow
+estimated_minutes: 30
 prerequisites:
   - day-15-wiring-systems-and-mechanical-protection
   - day-16-consumer-mains-submains-and-final-subcircuits
@@ -25,287 +28,189 @@ related_simulations: []
 
 # Day 19 — Rest, Retrieval and Catch-Up
 
-> **Purpose and currency notice:** This planned recovery block introduces no new electrical rules, values, dimensions, permissions or field procedures. It retrieves and corrects learning from Days 15–18. Any technical answer checked here retains the review status and source requirements of its original module. Use current authorised sources and qualified review for exact technical claims.
+> **Purpose and currency notice:** This recovery block introduces no new electrical rule, value, dimension, permission or field procedure. Technical answers retain the source and review status of Days 15–18. Exact claims still require current authorised sources and qualified review where those modules require it.
 
-## Beat 1 — Outcome and entry check
+## Navigation
 
-### What you will learn
+- **Previous:** [Day 18 — Other Special Installations and Locations](./day-18-other-special-installations-and-locations.md)
+- **Next:** [Day 20A — Fixed Appliances and Local Isolation](./day-20a-fixed-appliances-and-local-isolation.md)
 
-By the end of this block, you should be able to:
+## 1. Outcome and entry check
 
-1. retrieve the main reasoning workflows from Days 15–18 without rereading first;
-2. distinguish a knowledge gap from a source-verification gap;
-3. prioritise one high-confidence safety misconception for correction;
-4. triage unfinished work as **blocking**, **useful** or **defer**;
-5. apply a maximum 30-minute study limit and stop when attention is unreliable;
-6. write an evidence-based readiness statement for Day 20A.
+### Learning objectives
+
+By the end of this block, the learner should be able to:
+
+1. reconstruct the R-O-U-T-E, T-R-A-C-E, W-A-T-E-R and S-C-O-P-E workflows without rereading first;
+2. classify an error as a concept gap, evidence gap, transfer gap or confidence-calibration gap;
+3. select one blocking misconception using explicit priority criteria;
+4. correct it with **R-E-S-E-T** and answer a changed scenario;
+5. stop at 30 minutes or earlier when attention becomes unreliable;
+6. produce a scored readiness statement for Day 20A.
 
 ### Entry check
 
-Before opening notes, answer **yes** or **no**:
+Before opening notes, rate energy and concentration as **poor**, **workable** or **strong**. Then answer one question from each prior module and record confidence as **guess**, **unsure**, **reasonably confident** or **certain**.
 
-1. Can I explain why a cable route must be assessed as a whole system rather than only by conductor type?
-2. Can I classify a circuit by source, destination and function without relying only on its label?
-3. Can I explain why wet-area equipment suitability is not proved by one product marking?
-4. Can I identify multiple special-location triggers in one scenario?
-5. Am I alert enough to compare answers accurately?
+If concentration is poor, record a recovery-only decision, prepare Day 20A materials and stop. Recovery is a valid completion path.
 
-If question 5 is **no**, record a recovery-only decision, prepare Day 20A materials and stop. Recovery is the correct completion path when concentration is poor.
+## 2. Why it matters
 
-## Beat 2 — Why it matters
+Recognition can conceal weak retrieval. Fatigue can also turn catch-up into repeated guessing. This block therefore prioritises one high-value correction over broad rereading.
 
-Week 3 has introduced several topics where incomplete reasoning can look convincing. A learner may remember a route, circuit name, product marking or location label yet miss the interaction between environment, protection, isolation, supply and verification.
+The governing model is:
 
-This block protects against three risks:
-
-- **familiarity without retrieval** — recognising a diagram but being unable to reconstruct the reasoning;
-- **confident oversimplification** — treating one feature as the complete decision;
-- **fatigue-driven backlog clearing** — attempting too much and reinforcing errors.
-
-The goal is not to reread four modules. It is to expose weak links, correct one important error and preserve enough attention for the next technical block.
+**retrieve → calibrate → classify → correct → transfer → stop → schedule**
 
 ![A learner choosing one marked error card while a tall stack of notes remains closed](../../../assets/learning/4-week/day-19-rest-retrieval-and-catch-up/one-error-before-the-stack.svg)
 
 *Caption: The biggest pile is not automatically the highest priority.*
 
-## Beat 3 — Core concepts and terminology
+## 3. Core concepts and terminology
 
-### Retrieval before review
+- **Concept gap:** the learner cannot explain the governing idea.
+- **Evidence gap:** the reasoning structure is sound, but an exact requirement needs an authorised source.
+- **Transfer gap:** the learner succeeds only when the scenario resembles the worked example.
+- **Calibration gap:** confidence does not match answer quality.
+- **Blocking task:** a safety misconception or prerequisite needed for Day 20A.
+- **Useful task:** improves fluency but does not prevent progression.
+- **Defer task:** cannot be completed safely or meaningfully inside the time box.
 
-**Retrieval** means producing an explanation, diagram or decision from memory before checking the source. Opening notes first tests recognition instead.
+A high-confidence incorrect answer is prioritised because it is both wrong and likely to be repeated without checking.
 
-### Technical gap
+## 4. Rule-finding workflow
 
-A **technical gap** exists when the learner cannot explain the concept or apply the workflow even at a general level.
+Use **R-E-S-E-T**:
 
-### Evidence gap
-
-An **evidence gap** exists when the reasoning structure is sound but an exact definition, boundary, rating, permission, dimension or procedure still needs a current authorised source.
-
-Do not “correct” an evidence gap by inventing a value from memory.
-
-### High-confidence misconception
-
-A **high-confidence misconception** is an incorrect answer given with strong confidence. It receives priority because it is likely to be repeated without checking.
-
-### Catch-up triage
-
-Classify unfinished work as:
-
-- **Blocking:** a safety misconception or prerequisite needed for Day 20A.
-- **Useful:** practice that improves fluency but does not prevent progression.
-- **Defer:** optional expansion, note formatting or work too large for the time box.
-
-### Readiness evidence
-
-Readiness is supported by successful retrieval, accurate confidence calibration, correction of blocking errors and a clear plan for unresolved source checks. It is not supported by time spent alone.
-
-## Beat 4 — Source-return workflow: R-E-S-E-T
-
-Use **R-E-S-E-T** when an answer is wrong, incomplete or uncertain.
-
-1. **R — Retrieve first:** write the answer and confidence before checking notes.
-2. **E — Expose the gap:** identify whether the problem is conceptual, evidentiary or both.
-3. **S — Source-return:** revisit the original module and its authorised-source notice.
-4. **E — Explain again:** rewrite the smallest corrected idea in original words.
-5. **T — Test transfer:** answer one fresh scenario that requires the corrected reasoning.
+1. **R — Retrieve first:** answer before opening notes.
+2. **E — Expose the gap:** classify concept, evidence, transfer or calibration failure.
+3. **S — Source-return:** revisit the smallest relevant module section and its source notice.
+4. **E — Explain again:** rewrite the corrected idea in original words.
+5. **T — Test transfer:** answer a materially changed scenario and schedule delayed retrieval.
 
 ```mermaid
 flowchart TD
-    A["Attempt from memory"] --> B["Record confidence"]
-    B --> C{"Answer sound?"}
-    C -- Yes --> D["Move to next retrieval item"]
-    C -- No --> E{"Concept gap or evidence gap?"}
-    E --> F["Return to original module"]
-    F --> G{"Exact rule value or permission required?"}
-    G -- Yes --> H["Use current authorised source or leave unresolved"]
-    G -- No --> I["Correct the concept in original words"]
-    H --> J["Create fresh transfer question"]
-    I --> J
-    J --> K["Schedule later retrieval"]
+    A[Attempt from memory] --> B[Record confidence]
+    B --> C{Answer correct and sufficiently explained?}
+    C -->|Yes| D{Confidence calibrated?}
+    C -->|No| E[Classify the gap]
+    D -->|Yes| F[Schedule delayed retrieval]
+    D -->|No| E
+    E --> G[Return to smallest relevant source]
+    G --> H{Exact requirement needed?}
+    H -->|Yes| I[Use authorised source or leave unresolved]
+    H -->|No| J[Rewrite the concept]
+    I --> K[Answer changed scenario]
+    J --> K
+    K --> F
 ```
 
-The workflow prevents broad searching and copied clause notes. Return to the smallest relevant learning item, preserve source boundaries and test the corrected reasoning in a changed context.
+## 5. Visual model or worked example
 
-## Beat 5 — Visual model and worked example
-
-### Thirty-minute recovery decision
-
-```mermaid
-flowchart TD
-    A["Start Day 19"] --> B{"Attention reliable?"}
-    B -- No --> C["Record recovery-only decision"]
-    C --> D["Prepare Day 20A and stop"]
-    B -- Yes --> E["Complete closed-note retrieval"]
-    E --> F["Mark confidence and check"]
-    F --> G{"High-confidence safety error?"}
-    G -- Yes --> H["Correct one error with RESET"]
-    G -- No --> I["Review unfinished work"]
-    H --> I
-    I --> J{"Blocking task exists?"}
-    J -- Yes --> K["Complete one bounded blocking task"]
-    J -- No --> L["Complete one useful task or stop"]
-    K --> M{"Thirty minutes reached or focus falling?"}
-    L --> M
-    M -- Yes --> N["Write readiness note and stop"]
-    M -- No --> O["Finish current small task only"]
-    O --> N
-```
-
-### Fictional correction example
-
-A learner confidently states: “Because an outdoor outlet has a weather-resistant cover, its location and circuit arrangement are acceptable.”
+A learner confidently states that a weather-resistant cover proves an outdoor outlet arrangement is acceptable.
 
 Apply R-E-S-E-T:
 
-1. **Retrieve:** record the statement and high confidence.
-2. **Expose:** the answer collapses environmental suitability, location permission, circuit protection, mounting and supply conditions into one product feature.
-3. **Source-return:** revisit Days 17 and 18 and their source notices.
-4. **Explain again:** a product feature is one evidence item; the complete arrangement still needs location, equipment, wiring, protection, supply and installation evidence.
-5. **Test transfer:** assess a covered outlet in a different fictional area with public access, temporary supply and chemical exposure. The learner must list the separate evidence gates without giving an unsupported verdict.
+- **Retrieve:** record the statement and confidence.
+- **Expose:** classify a concept gap and an evidence gap; one product feature has been treated as the whole installation decision.
+- **Source-return:** revisit Days 17 and 18, then identify which exact matters still require authorised sources.
+- **Explain again:** separate product feature, location, wiring, protection, supply and installation evidence.
+- **Test transfer:** analyse a changed fictional location with public access, temporary supply and chemical exposure.
 
-No official product rating or location permission is inferred.
+The correction succeeds only when the learner avoids both the original shortcut and an invented replacement rule.
 
-## Beat 6 — Practical application
+```mermaid
+flowchart LR
+    A[Original answer] --> B[Confidence]
+    B --> C[Error category]
+    C --> D[Smallest source return]
+    D --> E[Corrected explanation]
+    E --> F[Changed scenario]
+    F --> G[Delayed retrieval]
+```
+
+## 6. Practical application
 
 ### Maximum 30-minute protocol
 
-#### Minutes 0–3: state and setup
+- **Minutes 0–3:** state check and recovery decision.
+- **Minutes 3–12:** closed-note retrieval across Days 15–18.
+- **Minutes 12–19:** correct one blocking or high-confidence error.
+- **Minutes 19–26:** answer one changed scenario.
+- **Minutes 26–30:** score readiness and schedule one delayed retrieval item.
 
 Record:
 
 ```text
-Energy: low / workable / strong
-Concentration: poor / workable / strong
-Existing stop condition: yes / no
-Decision: recovery only / retrieval plus limited catch-up
-```
-
-#### Minutes 3–13: closed-note retrieval
-
-Answer without notes and rate confidence:
-
-1. What five steps make up R-O-U-T-E from Day 15?
-2. Why must entries, supports and transitions be reviewed as part of a wiring system?
-3. What five steps make up T-R-A-C-E from Day 16?
-4. How do source, destination and function improve circuit classification?
-5. Why is an equipment marking only one evidence gate in a wet area?
-6. What five steps make up S-C-O-P-E from Day 18?
-7. Name four trigger categories that may overlap in a special installation.
-8. What information should stop a compliance conclusion when it is missing?
-
-#### Minutes 13–20: correct one priority error
-
-Choose using this order:
-
-1. high-confidence safety misconception;
-2. weak prerequisite for fixed-appliance isolation;
-3. repeated reasoning error;
-4. missing source-verification flag;
-5. minor wording omission.
-
-Complete:
-
-```text
-Original answer:
-Confidence:
-Gap type: concept / evidence / both
+Original answer and confidence:
+Gap category:
 Why the reasoning failed:
 Corrected explanation:
-Module and authorised source checked:
-Fresh transfer question:
-Next review date:
+Authorised-source need:
+Changed scenario result:
+Delayed review date:
 ```
 
-#### Minutes 20–27: one catch-up task
+### Readiness rubric
 
-Choose only one:
+Score each category from **0 to 2**.
 
-- redraw one route or classification workflow from memory;
-- complete one unresolved evidence matrix row;
-- correct one circuit-boundary explanation;
-- create one comparison card for product suitability versus installation permission;
-- prepare a fixed-appliance and isolation vocabulary list for Day 20A.
+| Category | 0 | 1 | 2 |
+|---|---|---|---|
+| Retrieval | Cannot reconstruct workflows | Partial reconstruction | Four workflows reconstructed accurately |
+| Gap classification | Gap hidden or misclassified | Broad category identified | Concept, evidence, transfer and calibration separated |
+| Correction quality | Rereading only | Corrected explanation | Explanation plus changed-scenario success |
+| Confidence calibration | Confidence omitted | Recorded inconsistently | Confidence compared with performance |
+| Safety and source discipline | Guesses become claims | General caution | Exact claims left unresolved without authorised evidence |
+| Time-box discipline | Session expands | Stops late or incompletely | Stops at 30 minutes or earlier with clear next action |
 
-Do not begin a task that cannot be left in a clear state when the timer ends.
-
-#### Minutes 27–30: readiness note
-
-```text
-Strongest retained workflow:
-Highest-priority corrected error:
-Unresolved authorised-source check:
-Blocking work remaining:
-Ready for Day 20A: yes / yes with support / not yet
-First action next session:
-```
+A score of **10/12 or higher**, with no critical error, indicates readiness for Day 20A. This is an educational threshold, not an official assessment rule.
 
 ![A learner placing a single task inside a small timer box while optional tasks wait outside](../../../assets/learning/4-week/day-19-rest-retrieval-and-catch-up/timebox-one-useful-task.svg)
 
 *Caption: A time box is a boundary, not a challenge to overfill.*
 
-## Beat 7 — Common errors and safety checkpoint
+## 7. Common errors and safety checkpoint
 
-### Common errors
+Common errors include rereading before retrieval, treating all backlog as urgent, correcting wording instead of reasoning, inventing an exact rule, and continuing after concentration falls.
 
-- rereading before attempting recall;
-- treating all unfinished work as equally urgent;
-- correcting wording without identifying the failed reasoning;
-- inventing an exact rule to fill an evidence gap;
-- spending the session reorganising notes instead of retrieving;
-- attempting to clear the entire Week 3 backlog;
-- starting Day 20A early and turning recovery into new-content study;
-- ignoring fatigue because the timer has not yet expired.
+A critical error occurs when the learner:
 
-### Safety checkpoint
+- records a guess as an authoritative technical claim;
+- attempts to inspect, open, touch, switch, isolate, test, install or alter equipment;
+- continues after the 30-minute limit or a fatigue stop condition;
+- begins new technical content instead of completing recovery.
 
-Stop immediately when:
+This block authorises no electrical work.
 
-- attention is too poor to compare an answer accurately;
-- guesses are being recorded as facts;
-- correction requires an unavailable current authorised source;
-- the learner is tempted to inspect, open, touch, switch, isolate, test, install or alter electrical equipment;
-- a scenario reveals damaged equipment, exposed parts, water ingress, burning, unusual heat or other immediate danger;
-- 30 minutes has elapsed;
-- the current task has expanded beyond one bounded correction.
+## 8. Retrieval and next links
 
-This block authorises no electrical work. Practical activity remains subject to law, competency, supervision, safe-work systems, manufacturer instructions and approved procedures.
+### Closed-note retrieval
 
-## Beat 8 — Retrieval, readiness and next links
-
-### Final recall check
-
-1. What does R-E-S-E-T stand for?
-2. How does a technical gap differ from an evidence gap?
-3. Why should high-confidence errors be corrected first?
+1. Expand R-E-S-E-T.
+2. Distinguish concept, evidence, transfer and calibration gaps.
+3. Why are high-confidence errors prioritised?
 4. What makes unfinished work blocking?
-5. What is the maximum catch-up period?
-6. Name four stop conditions.
-7. Why must exact requirements retain the source status of their original module?
-8. What evidence supports readiness for Day 20A?
+5. State the maximum study period and three earlier stop conditions.
+6. What score and critical-error rule indicate readiness?
 
-### Day 20A readiness check
+### Delayed retrieval
 
-You are ready to begin Day 20A when you can:
+Within 24–72 hours, answer the changed scenario again without viewing the correction. A correct immediate answer alone is not treated as mastery.
 
-- distinguish equipment function, supply path and isolation purpose conceptually;
-- explain why “off” does not by itself prove isolation;
-- trace a circuit boundary through boards and loads without relying only on labels;
-- identify environmental and mechanical evidence that may affect appliance installation;
-- stop and seek authorised evidence rather than inventing a rule or procedure;
-- begin without an unresolved high-confidence safety misconception from Days 15–18.
+### Knowledge-base links
 
-A **yes with support** learner may proceed with their error log and prerequisite notes open. A **not yet** learner should schedule one named prerequisite correction, not repeat all four modules.
+- [[Day 15 - Wiring Systems and Mechanical Protection]]
+- [[Day 16 - Consumer Mains Submains and Final Subcircuits]]
+- [[Day 17 - Bathrooms Showers and Other Wet Areas]]
+- [[Day 18 - Other Special Installations and Locations]]
+- [[Day 19 - Rest Retrieval and Catch-Up]]
+- [[Day 20A - Fixed Appliances and Local Isolation]]
+- [[Learning and Memory System]]
 
-### Navigation
+### Review boundary
 
-- **Previous:** [Day 18 — Other Special Installations and Locations](./day-18-other-special-installations-and-locations.md)
-- **Knowledge note:** [[Day 19 - Rest Retrieval and Catch-Up]]
-- **Next:** Day 20A — Fixed Appliances and Local Isolation
-
-## Review state
-
-Day 19 is `draft-unverified`, non-safety-critical as a recovery workflow and not `technically-reviewed`. It adds no new technical requirements. Technical statements retrieved from Days 15–18 retain their original `review-required` and `reference_check_required` flags.
+Day 19 is `review-required` as educational content, non-safety-critical as a recovery workflow and not `technically-reviewed`. It introduces no technical requirements. Retrieved technical claims retain the flags of their source modules.
 
 <!-- sequence-navigation:start -->
 ### Sequence navigation
