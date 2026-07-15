@@ -71,14 +71,14 @@ Use **I-N-S-P-E-C-T**:
 
 ```mermaid
 flowchart TD
-    A[Define scope state and exclusions] --> B[Map sources and functions]
-    B --> C[Scan six zones]
-    C --> D[Record objective observations]
-    D --> E{Immediate danger or boundary exceeded?}
-    E -- Yes --> F[Stop and escalate]
-    E -- No --> G[Grade evidence and identify gaps]
-    G --> H[Assign provisional response]
-    H --> I[Transfer traceable bounded record]
+    A["Define scope state and exclusions"] --> B["Map sources and functions"]
+    B --> C["Scan six zones"]
+    C --> D["Record objective observations"]
+    D --> E{"Immediate danger or boundary exceeded?"}
+    E -- Yes --> F["Stop and escalate"]
+    E -- No --> G["Grade evidence and identify gaps"]
+    G --> H["Assign provisional response"]
+    H --> I["Transfer traceable bounded record"]
 ```
 
 ## Beat 5 — Visual model or worked example
@@ -125,3 +125,11 @@ Reconstruct I-N-S-P-E-C-T from memory. Classify five statements as observation, 
 ## Technical-review flags
 
 Qualified review must verify formal inspection scope, required items, access preconditions, response classifications, reporting duties, acceptance criteria and the relationship between inspection and testing. **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 20C — Alternative and Multiple Supplies Awareness](./day-20c-alternative-and-multiple-supplies-awareness.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 22 — Verification Principles and Visual Inspection →](./day-22-verification-principles-and-visual-inspection.md)
+<!-- sequence-navigation:end -->
