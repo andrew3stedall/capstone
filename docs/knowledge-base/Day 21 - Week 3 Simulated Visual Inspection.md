@@ -44,3 +44,12 @@ No approaching, opening, touching, operating, isolation, testing, repair or alte
 - [[Inspection Testing and Verification]]
 - [[Safety and Electrical Risk]]
 - [[Day 13C - Switchboard Defect Inspection]]
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 20C - Alternative and Multiple Supplies Awareness](./Day%2020C%20-%20Alternative%20and%20Multiple%20Supplies%20Awareness.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-21-week-3-simulated-visual-inspection.md)
+- [Next: Day 22 - Verification Principles and Visual Inspection →](./Day%2022%20-%20Verification%20Principles%20and%20Visual%20Inspection.md)
+<!-- sequence-navigation:end -->

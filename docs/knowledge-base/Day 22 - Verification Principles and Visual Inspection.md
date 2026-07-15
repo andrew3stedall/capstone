@@ -46,3 +46,12 @@ No access, isolation, operation, testing, energisation or certification is autho
 - [[Inspection Testing and Verification]]
 - [[Fault Finding and Commissioning]]
 - [[Safety and Electrical Risk]]
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 21 - Week 3 Simulated Visual Inspection](./Day%2021%20-%20Week%203%20Simulated%20Visual%20Inspection.md)
+- [Four-week learning plan](./Four-Week%20Capstone%20Learning%20Plan.md)
+- [Open the full learning module](../learning-plans/4-week/modules/day-22-verification-principles-and-visual-inspection.md)
+- [Next: Day 23 - Mandatory Electrical Tests and Purposes →](./Day%2023%20-%20Mandatory%20Electrical%20Tests%20and%20Purposes.md)
+<!-- sequence-navigation:end -->

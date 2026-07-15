@@ -69,14 +69,14 @@ Use **V-E-R-I-F-Y**:
 
 ```mermaid
 flowchart TD
-    A[Define subject scope and exclusions] --> B[Establish sources and state]
-    B --> C[Retrieve authorised criteria]
-    C --> D[Gather visual and documentary evidence]
-    D --> E{Evidence complete and consistent?}
-    E -- No --> F[Record gap contradiction or stop condition]
-    E -- Yes --> G[Match approved tests to unresolved purposes]
-    G --> H[Reconcile all evidence families]
-    H --> I[Issue bounded verification record]
+    A["Define subject scope and exclusions"] --> B["Establish sources and state"]
+    B --> C["Retrieve authorised criteria"]
+    C --> D["Gather visual and documentary evidence"]
+    D --> E{"Evidence complete and consistent?"}
+    E -- No --> F["Record gap contradiction or stop condition"]
+    E -- Yes --> G["Match approved tests to unresolved purposes"]
+    G --> H["Reconcile all evidence families"]
+    H --> I["Issue bounded verification record"]
 ```
 
 ## Beat 5 — Visual model or worked example
@@ -123,3 +123,11 @@ Reconstruct V-E-R-I-F-Y and the five evidence families. Distinguish not observed
 ## Technical-review flags
 
 Qualified review must verify formal verification responsibilities, required records, visual-inspection items, approved test purposes and sequence, acceptance criteria, certification duties and jurisdiction-specific requirements. **Review state:** `review-required`; `reference_check_required`; safety-critical; not `technically-reviewed`.
+
+<!-- sequence-navigation:start -->
+### Sequence navigation
+
+- [← Previous: Day 21 — Week 3 Simulated Visual Inspection](./day-21-week-3-simulated-visual-inspection.md)
+- [Four-week learning plan](../MASTER_PLAN.md)
+- [Next: Day 23 — Mandatory Electrical Tests and Purposes →](./day-23-mandatory-electrical-tests-and-purposes.md)
+<!-- sequence-navigation:end -->
