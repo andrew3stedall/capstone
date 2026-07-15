@@ -182,6 +182,6 @@ Reclassify and rewrite two records after a clearer image shows that one apparent
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 58 - Visual Inspection Categories and Defect Recording]]
 - **Previous:** [Day 57 — Verification Purpose, Evidence Types and Responsibility Boundaries](day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md)
-- **Next:** Day 59 — Test Purposes, Dependencies and Safe Sequencing Concepts
+- **Next:** [Day 59 — Test Purposes, Dependencies and Safe Sequencing Concepts](day-59-test-purposes-dependencies-and-safe-sequencing-concepts.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
