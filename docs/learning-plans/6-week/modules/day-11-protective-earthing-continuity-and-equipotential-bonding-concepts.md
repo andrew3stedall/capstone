@@ -13,11 +13,14 @@ standard_references:
   - source: applicable legislation, regulator guidance, network information, approved drawings, manufacturer information and RTO instructions
     edition: current
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-15
 safety_critical: true
 reference_check_required: true
 technically_reviewed: false
-quality_passes: []
+quality_passes:
+  - date: 2026-07-15
+    type: substantive-quality-improvement
+    summary: Strengthened B-O-N-D-S with five evidence grades, four claim grades, a protective-relationship ledger, dependency reopening, worked-example fading, changed-condition transfer, delayed retrieval, a 12-point rubric, critical-error gates and an accessible continuity-chain visual.
 prerequisites:
   - Day 10 — Earth-Fault Current Path and Disconnection Reasoning
 related_modules:
@@ -42,8 +45,8 @@ By the end of this block, the learner should be able to:
 3. explain the different protective purposes of a fault-current return path and potential equalisation;
 4. map a stated conductor or connection to its claimed function without relying on colour or appearance alone;
 5. separate identity, connection, continuity, condition and suitability claims;
-6. identify the evidence required before each claim can be treated as supported;
-7. revise a conclusion when a connection, source arrangement or conductive part classification changes;
+6. grade supplied evidence and limit each conclusion to the claim level actually supported;
+7. reopen a conclusion when part classification, source arrangement, connection identity or condition changes;
 8. score at least 10 out of 12 on the educational rubric with no zero in role distinction, evidence control or safety boundary.
 
 ### Entry check
@@ -66,6 +69,10 @@ Protective earthing and equipotential bonding are often grouped together because
 ![A learner labels earthing and bonding roles before claiming protection](../../../assets/learning/6-week/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts/role-before-continuity.svg)
 
 *Caption: First identify the part, connection and protective purpose; only then assess whether continuity and suitability are actually supported.*
+
+![A learner checks each link in a protective continuity chain](../../../assets/learning/6-week/day-11-protective-earthing-continuity-and-equipotential-bonding-concepts/every-link-needs-evidence.svg)
+
+*Caption: A labelled conductor is one clue. Every connection, classification and condition in the claimed protective relationship needs its own evidence.*
 
 ## 3. Core concepts and terminology
 
@@ -103,6 +110,23 @@ An **extraneous conductive part** is a conductive part that may introduce a pote
 
 A supported identity claim does not automatically support the later layers.
 
+### Five evidence grades
+
+- **Grade 1 — directly supplied:** an explicit scenario fact, labelled training drawing, stated equipment construction or provided record.
+- **Grade 2 — corroborated:** two or more independent supplied sources agree and are applicable to the same item and arrangement.
+- **Grade 3 — derived:** a transparent conclusion follows from supplied facts, with every dependency stated.
+- **Grade 4 — assumed:** colour, appearance, proximity, familiar layout, presumed continuity, guessed classification or remembered rule.
+- **Grade 5 — missing or conflicting:** required evidence is absent, ambiguous, stale or inconsistent.
+
+Grades 4 and 5 can generate questions or stop conditions. They cannot prove a safety-critical connection or outcome.
+
+### Four claim grades
+
+- **Descriptive:** reports what the scenario shows or states.
+- **Provisional:** proposes a classification or role while naming unresolved dependencies.
+- **Supported paper reasoning:** the supplied evidence supports a bounded educational conclusion.
+- **Authorised verification:** requires current authorised requirements, competent inspection or testing, approved procedures and qualified judgement; this module cannot award this grade.
+
 ## 4. Rule-finding workflow
 
 Use **B-O-N-D-S**.
@@ -110,8 +134,8 @@ Use **B-O-N-D-S**.
 1. **B — Bound the scenario and source context.** Identify the supplied source arrangement, equipment, conductive parts, drawings and evidence limits.
 2. **O — Observe and classify each relevant part.** Decide whether the scenario supports exposed conductive part, extraneous conductive part, protective conductor, bonding conductor or unrelated metalwork.
 3. **N — Name the intended protective role.** State whether the claimed function is protective earthing continuity, potential equalisation, both under separate evidence, or neither.
-4. **D — Demand evidence for every claim layer.** Separate identity, connection, continuity, condition and suitability; mark assumptions explicitly.
-5. **S — State the bounded conclusion and stop point.** Use supported, conditional or unsupported; identify missing authorised evidence and practical-authority limits.
+4. **D — Demand evidence for every claim layer.** Separate identity, connection, continuity, condition and suitability; grade each item and mark assumptions explicitly.
+5. **S — State the bounded conclusion and stop point.** Use descriptive, provisional or supported paper reasoning; identify missing authorised evidence and practical-authority limits.
 
 ```mermaid
 flowchart TD
@@ -119,22 +143,40 @@ flowchart TD
     B --> C{"Protective role supported?"}
     C -->|"No"| D["Do not assign earthing or bonding function"]
     C -->|"Yes"| E["Separate identity and connection claims"]
-    E --> F{"Continuity and condition verified?"}
+    E --> F{"Continuity and condition supported?"}
     F -->|"No"| G["Role identified; protective performance unproven"]
     F -->|"Yes"| H{"Suitability verified against current requirements?"}
     H -->|"No"| I["Continuity supported; compliance conditional"]
-    H -->|"Yes"| J["State bounded protective conclusion"]
+    H -->|"Yes"| J["Authorised verification required"]
 ```
 
 The diagram prevents a learner from converting a visible connection directly into a compliance claim. Each evidence gate must be passed independently.
 
-### Evidence grades
+### Protective-relationship ledger
 
-- **Grade A — scenario fact:** supplied labels, approved learning drawing, stated equipment construction, provided record or explicit scenario condition.
-- **Grade B — applicable authorised evidence:** current requirements, approved design, competent inspection or test evidence, manufacturer information, network information or competent direction.
-- **Grade C — assumption:** colour, appearance, proximity, familiar layout, presumed continuity, guessed classification or remembered rule.
+For every claimed relationship, record:
 
-Grade C may identify a question. It cannot prove a safety-critical connection or outcome.
+| Dependency | Question | Evidence grade | Claim grade | Reopen when |
+|---|---|---|---|---|
+| Part classification | What is the conductive part and why? | 1–5 | descriptive to supported | equipment construction or external-potential evidence changes |
+| Connection identity | What conductor or connection is claimed? | 1–5 | descriptive to supported | labels, drawings, terminations or routing differ |
+| Protective purpose | Earthing, bonding, both separately, or neither? | 1–5 | provisional to supported | source, fault-path or simultaneous-touch context changes |
+| Continuity | Is the required path electrically continuous? | 1–5 | provisional or authorised verification | connection condition or competent evidence changes |
+| Suitability | Does the arrangement satisfy current requirements? | 1–5 | authorised verification only | requirement, conductor, arrangement or exception changes |
+
+A conclusion must be reopened whenever one of its recorded dependencies changes. Do not preserve an earlier answer merely because the visible conductor remains in the same place.
+
+```mermaid
+flowchart LR
+    C["Classification changes"] --> R["Reopen affected claims"]
+    S["Source arrangement changes"] --> R
+    I["Connection identity changes"] --> R
+    D["Damage or condition changes"] --> R
+    R --> E["Regrade evidence"]
+    E --> B["Restate bounded conclusion"]
+```
+
+This reopening model prevents stale reasoning from surviving a material scenario change.
 
 ## 5. Visual model or worked example
 
@@ -160,8 +202,18 @@ Apply B-O-N-D-S:
 1. **Bound:** grid-connected training scenario; drawing evidence only.
 2. **Observe:** enclosure is stated as an exposed conductive part; service is presented as a candidate extraneous conductive part.
 3. **Name:** enclosure connection is claimed protective earthing; service connection is claimed equipotential bonding.
-4. **Demand:** drawing supports identity and intended connection only. Continuity, condition, classification validity and suitability remain unverified.
-5. **State:** the intended roles are conceptually supported, but protective performance and compliance remain conditional pending current authorised evidence and competent verification.
+4. **Demand:** the drawing is Grade 1 evidence for identity and intended connection. Continuity, condition, classification validity and suitability are Grade 5 because evidence is missing.
+5. **State:** the intended roles have a descriptive claim grade. Protective performance and compliance remain unsupported pending current authorised evidence and competent verification.
+
+### Worked-example fading
+
+Repeat the scenario with these supports removed in sequence:
+
+1. remove the written role labels but retain equipment construction and routing;
+2. remove the stated classification of the metallic service;
+3. retain only a simplified drawing and a report of corrosion at one termination.
+
+At each stage, complete the ledger and explain why the maximum defensible claim grade falls or remains unchanged.
 
 ## 6. Practical application
 
@@ -169,15 +221,11 @@ Apply B-O-N-D-S:
 
 For a trainer-created fictional drawing, complete:
 
-| Item | Claimed classification | Intended protective role | Evidence grade | Supported claim layer | Missing evidence |
+| Item | Claimed classification | Intended protective role | Evidence grade | Claim grade | Missing evidence |
 |---|---|---|---|---|---|
-| Learner completes | Exposed, extraneous, conductor or unrelated | Earthing, bonding, both separately, or neither | A, B or C | Identity, connection, continuity, condition or suitability | Learner completes |
+| Learner completes | Exposed, extraneous, conductor or unrelated | Earthing, bonding, both separately, or neither | 1–5 | Descriptive, provisional or supported paper reasoning | Learner completes |
 
-### Round 2 — worked-example fading
-
-Repeat with labels removed from one conductor and one conductive part. The learner must avoid assigning a role from colour, location or familiarity and must identify the evidence needed.
-
-### Round 3 — changed-condition transfer
+### Round 2 — changed-condition transfer
 
 Reassess when one condition changes:
 
@@ -187,7 +235,11 @@ Reassess when one condition changes:
 - the source arrangement changes or is unspecified;
 - corrosion, looseness or alteration is reported at a connection.
 
-For each change, identify which claim layers fall from supported to conditional or unsupported.
+For each change, identify which ledger rows must reopen and which claim grades fall from supported to provisional or unsupported.
+
+### Round 3 — delayed retrieval
+
+After at least 24 hours, complete a new fictional scenario without the B-O-N-D-S prompt. Reconstruct the workflow, identify five dependencies and state one practical stop condition before checking notes.
 
 ### Performance rubric
 
@@ -197,12 +249,22 @@ Score each category **0–2**.
 |---|---|---|---|
 | Terminology | Treats all conductive parts or conductors as equivalent | Defines terms with one blurred distinction | Uses exposed, extraneous, earthing and bonding terms consistently |
 | Role distinction | Treats bonding and protective earthing as identical | States different roles without applying them reliably | Maps each connection to its distinct protective purpose |
-| Evidence control | Treats colour or appearance as proof | Marks some assumptions | Separates all five claim layers and grades evidence |
-| Scenario analysis | Assigns roles without source or equipment context | Uses context incompletely | Bounds source, equipment, parts and evidence before concluding |
-| Transfer | Keeps the original conclusion after a material change | Revises one claim | Reassesses classification, role and claim layers |
+| Evidence control | Treats colour or appearance as proof | Marks some assumptions | Grades evidence, separates claim layers and limits the claim grade |
+| Dependency control | Keeps conclusions after material changes | Reopens one affected claim | Uses the ledger to reopen every affected dependency |
+| Transfer | Copies the worked answer | Revises one claim | Reconstructs the workflow and reassesses a changed scenario |
 | Safety and conclusion | Proposes unauthorised testing or certainty | Gives a general caution | States evidence limits, authority boundary and escalation |
 
 A score below **10/12**, or any zero in **role distinction**, **evidence control** or **safety and conclusion**, requires targeted remediation and a varied re-attempt. This is an educational threshold, not an official RTO pass mark.
+
+### Critical-error gates
+
+Regardless of total score, the attempt is incomplete when the learner:
+
+- treats bonding and protective earthing as interchangeable;
+- treats colour, appearance or a drawing as proof of continuity;
+- classifies all metalwork as exposed or extraneous without evidence;
+- claims compliance or protective performance from incomplete evidence;
+- proposes unauthorised opening, isolation, measurement, alteration or energisation.
 
 ## 7. Common errors and safety checkpoint
 
@@ -237,21 +299,22 @@ Stop and seek qualified guidance when:
 2. Define exposed conductive part and extraneous conductive part in bounded terms.
 3. State the five B-O-N-D-S steps.
 4. List the five claim layers.
-5. Why does a visible conductor not prove continuity?
-6. Why does continuity not by itself prove suitability?
-7. Give two Grade C assumptions.
-8. State four stop conditions.
+5. List the five evidence grades and four claim grades.
+6. Why does a visible conductor not prove continuity?
+7. Name three dependencies that reopen a conclusion.
+8. Why does continuity not by itself prove suitability?
+9. State four stop conditions.
 
 ### Error-log remediation
 
-Select no more than three errors. For each, create a new fictional part-and-purpose card, identify the failed claim layer, state the required evidence and complete a varied re-attempt within 48 hours.
+Select no more than three errors. For each, create a new fictional part-and-purpose card, identify the failed dependency or claim layer, state the required evidence and complete a varied re-attempt within 48 hours.
 
 ### Navigation
 
 - **Program:** [Six-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Previous:** [Day 10 — Earth-Fault Current Path and Disconnection Reasoning](day-10-earth-fault-current-path-and-disconnection-reasoning.md)
 - **Knowledge note:** [[Six-Week Day 11 - Protective Earthing Continuity and Equipotential Bonding Concepts]]
-- **Next:** Day 12 — Rest, Retrieval and Misconception Repair
+- **Next:** [Day 12 — Rest, Retrieval and Misconception Repair](day-12-rest-retrieval-and-misconception-repair.md)
 
 ### References and review boundary
 
