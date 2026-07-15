@@ -2,7 +2,9 @@
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-13
+reviewed_on: 2026-07-16
+quality_improvement_pass: completed
+quality_improvement_passed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -12,7 +14,7 @@ technical_reviewer: pending
 
 ## Purpose
 
-This note links fixed-appliance analysis to the evidence required for local isolation without providing a field isolation procedure.
+A paper-based evidence model for distinguishing fixed appliances, controls, protection and maintenance-isolation boundaries without providing a field isolation procedure.
 
 ## Prerequisites
 
@@ -21,9 +23,7 @@ This note links fixed-appliance analysis to the evidence required for local isol
 - [[Day 16 - Consumer Mains Submains and Final Subcircuits]]
 - [[Day 19 - Rest Retrieval and Catch-Up]]
 
-## Core concept
-
-A fixed appliance, its normal control, protective device and isolating device are separate objects unless current evidence establishes that one device validly performs more than one function.
+## Core workflow
 
 Use **L-O-C-K**:
 
@@ -32,19 +32,25 @@ Use **L-O-C-K**:
 - **C — Control purposes**
 - **K — Keep evidence**
 
-The source map must include normal, auxiliary, alternative, stored, feedback and automatic-start paths before an isolation boundary can be assessed.
+The source map includes normal, auxiliary, alternative, feedback, remote-start and stored-energy paths. A nearby control or OFF state is not proof of a complete isolation boundary.
+
+## Evidence model
+
+Evidence is graded **observed**, **documented**, **manufacturer-verified**, **assumed** or **missing**. Claims are graded **described**, **supported**, **verified** or **unresolved**. A material source, control-mode or appliance change reopens every dependent conclusion.
 
 ## Practical application
 
-Build an equipment register and purpose matrix for a fictional group of hard-wired appliances. Record every source and control path, then identify missing device, conductor, location, accessibility, identification, securing and manufacturer evidence. Finish with a bounded conclusion rather than a device prescription or switching sequence.
+Build an equipment register, source inventory, purpose matrix and evidence ledger for a fictional group of hard-wired appliances. Finish with a bounded claim and a change-propagation note rather than a device prescription or switching sequence.
 
 ## Assessment relevance
 
-This block tests whether the learner can distinguish functional control, protection, emergency action and maintenance isolation; recognise incomplete source maps; navigate current authorised material; and stop before making unsupported safety claims.
+A strong response separates normal control, protection, emergency action and maintenance isolation; maps every supplied energisation path; identifies missing manufacturer and authorised evidence; and stops before unsupported safety claims.
+
+The module uses a six-category, 12-point educational rubric. A score of 10/12 with no critical error indicates readiness for Day 20B; it is not an official assessment rule.
 
 ## Safety boundary
 
-This note does not authorise opening, touching, switching, isolating, testing, locking, proving de-energised, installing, repairing or altering electrical equipment. It contains no field isolation or lockout procedure.
+This note authorises no opening, touching, switching, isolating, testing, locking, proving de-energised, installing, repairing or altering electrical equipment. It contains no field isolation or lockout procedure.
 
 ## Related concepts
 
@@ -63,7 +69,7 @@ This note does not authorise opening, touching, switching, isolating, testing, l
 
 - AS/NZS 3000:2018 — topic reference only; use authorised current access.
 - Current legislation, regulator guidance, manufacturer instructions and RTO procedures.
-- Exact classifications, device requirements, pole and neutral arrangements, location, accessibility, identification, securing and verification requirements remain `reference_check_required`.
+- Exact classifications, isolation requirements, device capability, conductor coverage, neutral treatment, access, identification, securing and verification requirements remain `reference_check_required`.
 - **Review state:** safety-critical; `review-required`; not `technically-reviewed`.
 
 <!-- sequence-navigation:start -->
