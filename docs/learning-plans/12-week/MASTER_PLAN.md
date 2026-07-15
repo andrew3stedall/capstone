@@ -3,7 +3,7 @@ title: Twelve-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
 ---
 
 # Twelve-Week Capstone Learning Plan
@@ -125,9 +125,9 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 ### Week 11 — Integrated Capstone performance
 
-- [ ] Day 71 — Reading and decomposing an integrated assessment scenario
-- [ ] Day 72 — Planning a compliant design response and evidence trail
-- [ ] Day 73 — Inspection, testing and documentation integration
+- [x] [Day 71 — Reading and decomposing an integrated assessment scenario](modules/day-71-reading-and-decomposing-an-integrated-assessment-scenario.md)
+- [x] [Day 72 — Planning a compliant design response and evidence trail](modules/day-72-planning-a-compliant-design-response-and-evidence-trail.md)
+- [x] [Day 73 — Inspection, testing and documentation integration](modules/day-73-inspection-testing-and-documentation-integration.md)
 - [ ] Day 74 — Fault diagnosis, correction reasoning and re-verification planning
 - [ ] Day 75 — Rest, retrieval and weak-domain triage
 - [ ] Day 76 — Timed integrated scenario with worked-example fading removed
