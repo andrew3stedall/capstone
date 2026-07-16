@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 11 - RCD Purpose Limitations and Interaction with Other Protection
 
 ## Purpose
 
-This note connects Day 10 protection-role boundaries to residual-current reasoning. Day 11 focuses on the imbalance clue, monitored conductors, alternative return paths, RCD limitations, interaction with other protection and bounded conclusions.
+This note connects [[12-Week Day 10 - Protective-Device Roles and Protection Boundaries]] to residual-current reasoning. Day 11 focuses on monitored-current relationships, supported and competing current paths, RCD limitations, separate protection functions and evidence-bounded conclusions.
 
 ## Module
 
@@ -25,28 +25,37 @@ This note connects Day 10 protection-role boundaries to residual-current reasoni
 - [[Protection Fundamentals]]
 - [[Residual Current Device]]
 - [[Evidence Quality]]
+- [[Confidence Calibration]]
 
 ## Core concepts
 
-- **Residual current:** the difference between the currents in the conductors being compared by the device.
-- **Current imbalance:** the measurable difference that may indicate current returning outside the intended monitored relationship.
-- **Monitored conductors:** the conductors whose currents are compared by the device.
-- **Alternative return path:** a current-return path outside the intended monitored relationship.
-- **RCD role statement:** a bounded statement about the residual-current or additional-protection function the device may contribute.
-- **Verified operating claim:** a conclusion about suitability or operation supported by authorised-source, device, installation, path and test evidence.
-- **Interaction with other protection:** the relationship between the RCD, overcurrent protection, earthing, bonding, upstream/downstream devices and safe-work controls.
+- **Residual current:** the difference between currents in the conductors compared by the device.
+- **Current imbalance:** the measurable difference; an operating clue rather than a complete diagnosis.
+- **Monitored conductors:** the conductors whose currents are compared.
+- **Alternative return path:** a return path outside the intended monitored relationship.
+- **RCD role statement:** a bounded description of the function an RCD may contribute.
+- **Suitability claim:** a conclusion that a device and arrangement are appropriate for the actual application.
+- **Coordination claim:** a conclusion about interaction with upstream, downstream or other protection.
+- **Verified operating claim:** a conclusion supported by authorised-source, device, installation, path and verification evidence.
+- **First unsupported transition:** the earliest reasoning step that moves beyond available evidence.
+- **Evidence owner:** the authorised person or source responsible for resolving a material gap.
+- **Recheck trigger:** a scenario or source change that requires the conclusion to be rebuilt.
 
 ## I-M-B-A-L-A-N-C-E workflow
 
 1. **Identify** the scenario, supply and protected interest.
-2. **Map** the monitored conductors.
-3. **Build** the intended and supported alternative current paths.
+2. **Map** monitored conductors and evidence labels.
+3. **Build** supported and competing current paths.
 4. **Assign** the possible RCD role.
-5. **List** the protection functions that remain separate.
-6. **Ask** for device evidence.
-7. **Note** system interaction and supply changes.
-8. **Check** current authorised sources.
-9. **Express** the supported boundary and stop condition.
+5. **List** protection functions that remain separate.
+6. **Ask** for device, installation, source and verification evidence.
+7. **Note** system interaction and alternative supplies.
+8. **Check** current authorised sources and applicability.
+9. **Express** the boundary, stop at the first unsupported transition and assign an evidence owner.
+
+## Evidence discipline
+
+Scenario information is classified as stated fact, inference, assumption, contradiction or evidence gap. A named device is not evidence of suitability or operation. Contradictory or incomplete monitored-conductor, supply, path or device information keeps stronger claims open rather than being silently resolved.
 
 ## Protection boundaries
 
@@ -56,18 +65,18 @@ An RCD does not automatically establish:
 - satisfactory protective earthing or bonding;
 - a complete fault-current path;
 - correct circuit coverage or monitored-conductor arrangement;
-- suitable type, rating or characteristic;
+- suitable type, rating, condition or characteristic;
 - coordination with upstream or downstream devices;
 - operation within a required time;
 - safe isolation or permission to reset, test or continue work.
 
 ## Practical application
 
-The learner classifies original scenarios by whether imbalance is described, plausible, unsupported or dependent on missing monitored-conductor information. They separate RCD, overcurrent, earthing and isolation functions, complete worked-example fading, revise conclusions after supply or path changes and correct common universal-protection claims.
+The learner classifies original scenarios, labels evidence, maps supported and competing paths, separates RCD and other protection functions, identifies the first unsupported transition, assigns evidence owners and rebuilds the interaction record after at least two material scenario changes.
 
 ## Assessment relevance
 
-Observable evidence includes a correct map of the monitored and alternative paths, a bounded RCD role, explicit separation of other protection functions, a structured missing-evidence list, revision after changed conditions and rejection of unsafe practical actions. Device-label repetition, invented trip predictions and claims that an RCD proves complete safety do not demonstrate the intended capability.
+Each criterion is judged as **secure**, **developing**, **unsupported** or **`stop-required`**. Observable evidence includes a correct monitored-current map, bounded role statement, explicit separation of other protection functions, structured evidence labels, changed-context transfer, confidence calibration and a named escalation path. A `stop-required` result cannot be averaged away by stronger work elsewhere.
 
 ## Related concepts
 
@@ -82,12 +91,13 @@ Observable evidence includes a correct map of the monitored and alternative path
 - [[Coordination and Selectivity]]
 - [[Safe Isolation]]
 - [[Alternative Supplies]]
+- [[Known Unknown and Assumed Information]]
 - [[Confidence Calibration]]
 - [[Error Log]]
 
 ## Safety boundary
 
-This is a written and diagrammatic reasoning block. It authorises no switching, isolation, opening, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning or verification. Exact clauses, coverage requirements, device types, residual-current values, operating times, test methods, coordination rules and jurisdiction-specific requirements remain `reference_check_required`.
+This is a written and diagrammatic reasoning block. It authorises no access, switching, isolation, opening, measurement, testing, resetting, fault creation, replacement, disconnection, alteration, repair, energisation, commissioning, certification or verification. Exact clauses, coverage requirements, device types, residual-current values, operating times, test methods, coordination rules and jurisdiction-specific requirements remain `reference_check_required`.
 
 ## References and currency
 
