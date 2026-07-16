@@ -82,11 +82,11 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 52 — Protection and earthing review
 - [x] Block 53 — Switching and alternate-supply review
 - [x] Block 54 — Inspection and testing review
-- [ ] Block 55 — Timed cumulative integration
-- [ ] Block 56 — Rest, reflection and catch-up
+- [x] Block 55 — Timed cumulative integration
+- [x] Block 56 — Rest, reflection and catch-up
 
 ### Week 9 — mock assessment and remediation
-- [ ] Block 57 — Mock assessment briefing and calibration
+- [x] Block 57 — Mock assessment briefing and calibration
 - [ ] Block 58 — Mock assessment part A: rule finding
 - [ ] Block 59 — Mock assessment part B: application
 - [ ] Block 60 — Mock assessment part C: visual evidence
