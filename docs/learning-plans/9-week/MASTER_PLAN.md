@@ -63,9 +63,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 37 — Structured visual inspection
 - [x] Block 38 — Mandatory test purposes
 - [x] Block 39 — Test-order reasoning
-- [ ] Block 40 — Expected observations and contradictions
-- [ ] Block 41 — Inspection-and-test integration case
-- [ ] Block 42 — Rest, reflection and catch-up
+- [x] Block 40 — Expected observations and contradictions
+- [x] Block 41 — Inspection-and-test integration case
+- [x] Block 42 — Rest, reflection and catch-up
 
 ### Week 7 — fault diagnosis and documentation
 - [ ] Block 43 — Fault diagnosis as evidence updating
