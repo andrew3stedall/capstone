@@ -20,11 +20,11 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 04 — Safe information boundaries and authorised sources
 - [x] Block 05 — Rule-finding workflow foundations
 - [x] Block 06 — Retrieval lab: terminology and diagrams
-- [ ] Block 07 — Rest, reflection and catch-up
+- [x] Block 07 — Rest, reflection and catch-up
 
 ### Week 2 — circuits, conductors and protection
-- [ ] Block 08 — Circuit purpose and load grouping
-- [ ] Block 09 — Conductor roles and identification
+- [x] Block 08 — Circuit purpose and load grouping
+- [x] Block 09 — Conductor roles and identification
 - [ ] Block 10 — Current paths in normal operation
 - [ ] Block 11 — Overload and short-circuit concepts
 - [ ] Block 12 — Protective device purpose matching
