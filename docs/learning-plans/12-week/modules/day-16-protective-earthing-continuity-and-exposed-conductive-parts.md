@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -34,204 +34,224 @@ related_simulations: []
 
 By the end of this module, the learner should be able to:
 
-1. define protective-earthing continuity as an evidence-dependent condition rather than a conclusion drawn from colour, labels or appearance;
-2. classify a described conductive part as exposed, not exposed, or unresolved using supplied facts and bounded definitions;
-3. distinguish a **described connection**, **continuous path**, **suitable protective path** and **verified protective outcome**;
-4. identify plausible discontinuity locations in a conceptual path without proposing intrusive investigation;
-5. explain why visible conductor presence does not prove endpoints, joint integrity, continuity, conductor suitability or protective-device operation;
-6. construct an evidence ladder from observation to bounded conclusion;
-7. write supported, conditional and unresolved statements whose certainty matches the available evidence; and
-8. stop and escalate when proof would require opening, isolation, testing, tracing, disconnection, reconnection or energisation.
+1. classify a described conductive part as **exposed**, **not exposed** or **unresolved** using stated facts rather than material or colour alone;
+2. map the stated protective-earthing path into endpoints and intermediate links;
+3. distinguish **presence**, **described connection**, **continuity**, **suitability** and **verified protective outcome**;
+4. label each material statement as a stated fact, derived fact, supported inference, assumption, contradiction or evidence gap;
+5. identify the first unsupported transition in a continuity argument;
+6. state a bounded consequence of missing continuity without diagnosing a defect or predicting device operation;
+7. assign an evidence owner and recheck trigger to every material unresolved claim; and
+8. stop and escalate when further proof would require access, isolation, tracing, measurement, testing, alteration or approval.
 
 ### Entry check
 
 Without notes, answer:
 
-1. What makes a conductive equipment part an exposed conductive part at concept level?
+1. What facts are needed before a conductive equipment part can be classified as exposed at concept level?
 2. Why is a green-yellow conductor not proof of continuity?
-3. What is the difference between a connection claim and a condition claim?
-4. Why does a complete line on a diagram not prove a suitable fault-current path?
-5. Name four evidence classes used in this program.
-6. State three practical actions this module does not authorise.
+3. What is the difference between a described connection and a verified condition?
+4. Why does a complete diagram line not prove a suitable protective path?
+5. Name the six evidence labels used in this module.
+6. State three actions this module does not authorise.
 
-Mark each response **secure**, **uncertain** or **guessing**. Correct confident errors before continuing.
+For each response, record confidence as **high**, **medium** or **low**. A high-confidence unsupported answer is a priority correction.
 
 ## 2. Why it matters
 
-Protective earthing depends on more than recognising an earthing conductor. A protective function can be weakened by a missing connection, an unidentified endpoint, an unsuitable joint, damage, alteration or another discontinuity. A learner who treats appearance as proof may overstate safety, misclassify a defect or assume protective-device operation without sufficient evidence.
+Protective earthing depends on an evidence-supported path, not recognition of an earthing conductor. A connection may be intended but absent, present but incorrectly identified, continuous but unsuitable, or suitable as a path while the complete protective outcome remains unverified. Collapsing these claims can produce false reassurance, unsupported defect diagnoses and unsafe predictions about protective-device operation.
 
-This module deliberately separates four claim levels: what is shown, what is connected, whether continuity is established and whether the complete protective outcome is verified. That separation prepares the learner for later bonding, MEN, inspection and verification modules.
+The central discipline is to stop at the first point where the evidence no longer supports the next claim. This keeps a learner from turning a label, drawing, photograph or unqualified record into an approval conclusion.
 
 ![A learner follows an evidence ladder from a labelled enclosure to an unresolved continuity claim](../../../assets/learning/12-week/day-16-protective-earthing-continuity-and-exposed-conductive-parts/follow-the-path-prove-each-link.svg)
+
+*Caption: Follow each stated link and stop where the evidence stops; a visible conductor does not prove the complete protective outcome.*
 
 ## 3. Core concepts and terminology
 
 The definitions below are original educational summaries. Exact normative wording must be checked in current authorised sources.
 
-- **Protective-earthing continuity:** the condition in which the required protective-earthing path is electrically continuous between its relevant endpoints. The required endpoints and acceptance criteria are source-dependent.
-- **Exposed conductive part:** a touchable conductive part of electrical equipment that is not normally live but may become live under a fault. Conductivity or touchability alone is insufficient; the equipment relationship and fault possibility matter.
-- **Insulating enclosure:** an enclosure whose relevant accessible surface is non-conductive for the stated purpose. Its presence does not prove that every accessible item is outside earthing requirements.
-- **Described connection:** a connection stated in a scenario, label or drawing. It is evidence of intended arrangement, not automatically proof of physical condition.
-- **Continuous path:** an electrically unbroken path between stated endpoints. Continuity must be established using authorised evidence.
-- **Suitable protective path:** a path whose construction and characteristics satisfy applicable protective requirements. Continuity alone does not establish suitability.
-- **Verified protective outcome:** a conclusion supported by the full required evidence that the protective arrangement performs as required. A conceptual module cannot establish this outcome.
-- **Discontinuity:** an interruption or ineffective link in a path. It may be complete, intermittent or condition-dependent; exact diagnosis requires authorised investigation.
-- **Joint:** a point where conductors or conductive parts are connected. A visible joint does not establish integrity or suitability.
-- **Termination:** the endpoint connection of a conductor to a terminal, bar, enclosure or other component.
-- **Evidence ladder:** an ordered progression from observation through connection and continuity evidence to a bounded conclusion.
-- **Negative evidence:** the absence of an expected record, label, connection description or result. It identifies uncertainty but does not by itself prove a specific defect.
-- **Claim boundary:** the strongest conclusion the available evidence supports without assumption.
+- **Protective-earthing continuity:** an evidence-dependent condition in which the required protective-earthing path is electrically continuous between relevant endpoints.
+- **Exposed conductive part:** a touchable conductive part of electrical equipment that is not normally live but may become live under a fault. Material, colour or proximity alone does not establish the classification.
+- **Endpoint:** a named start or finish point for the path being claimed.
+- **Intermediate link:** a termination, conductor, joint, terminal, bar or other stated connection between endpoints.
+- **Described connection:** a connection stated in a scenario, label, drawing or record. It may describe intent without proving current physical condition.
+- **Continuous path:** an electrically unbroken path between identified endpoints, established through authorised evidence.
+- **Suitable protective path:** a continuous path whose arrangement and characteristics also satisfy applicable requirements.
+- **Verified protective outcome:** a conclusion supported by all required arrangement, continuity, suitability, interacting-protection and verification evidence.
+- **Discontinuity:** an interruption or ineffective link in a path. Incomplete evidence does not identify its location or cause.
+- **Parallel path:** another conductive route that may influence a result or interpretation. A result alone may not prove which route produced it.
+- **First unsupported transition:** the earliest step where a conclusion depends on an unproved premise. All downstream claims must remain conditional or unresolved.
+- **Evidence owner:** the authorised person, document source or process responsible for resolving a named gap.
+- **Recheck trigger:** the event that requires the conclusion to be reopened, such as updated drawings, identified endpoints, alteration records or qualified verification.
+- **Claim boundary:** the strongest conclusion supported without assumption.
 
-### Four claim levels
+### Evidence labels
 
-1. **Presence:** a conductor, terminal or conductive part is shown or described.
-2. **Connection:** stated endpoints are described as connected.
-3. **Continuity and condition:** authorised evidence supports an unbroken and relevant path.
-4. **Protective outcome:** all required conditions, including arrangement, suitability and interacting protection, are verified.
+Use these labels explicitly:
 
-Progressing to a higher level requires additional evidence. No level may be skipped because a drawing looks complete.
+1. **Stated fact:** directly supplied by the scenario or authorised record.
+2. **Derived fact:** follows directly from supplied information without adding a new premise.
+3. **Supported inference:** a reasoned interpretation with its supporting facts named.
+4. **Assumption:** an unstated premise being used as though it were known.
+5. **Contradiction:** two material items of evidence that cannot both be relied on without resolution.
+6. **Evidence gap:** information required for the next claim but not supplied.
+
+### Claim ladder
+
+1. **Presence:** a part, conductor, terminal or record is shown or described.
+2. **Identity:** the item and its role are supported for the stated scenario.
+3. **Connection:** identified endpoints are supported as connected.
+4. **Continuity and condition:** authorised evidence supports an unbroken relevant path.
+5. **Suitability:** the path also satisfies the applicable source-dependent requirements.
+6. **Protective outcome:** all required conditions and interacting protection are verified.
+
+No level may be skipped because a drawing looks complete or a result appears plausible.
 
 ## 4. Rule-finding workflow
 
 Use **C-O-N-T-I-N-U-E**:
 
-1. **C — Classify the part:** determine whether the described item is exposed, not exposed or unresolved.
-2. **O — Outline the intended path:** name the stated endpoints and intermediate links without assuming physical condition.
-3. **N — Note the evidence:** separate supplied observations, records, derived facts, assumptions and missing information.
-4. **T — Test each claim level:** ask whether presence, connection, continuity, suitability and protective outcome are individually supported.
-5. **I — Identify break consequences:** state what a discontinuity could change without diagnosing the installation.
-6. **N — Name the unresolved requirement:** identify the exact definition, connection requirement, evidence record or authorised verification still needed.
+1. **C — Classify the part:** exposed, not exposed or unresolved; name the defining facts and missing facts.
+2. **O — Outline the path:** identify both endpoints and every stated intermediate link.
+3. **N — Name evidence labels:** separate facts, derivations, inferences, assumptions, contradictions and gaps.
+4. **T — Test each claim level:** presence, identity, connection, continuity, suitability and outcome.
+5. **I — Identify the first unsupported transition:** stop downstream claims at that point.
+6. **N — Nominate owner and trigger:** state who or what can resolve the gap and when the conclusion must be reopened.
 7. **U — Use bounded language:** write supported, conditional or unresolved conclusions.
-8. **E — End at the authority boundary:** stop before access, tracing, isolation, measurement, testing, alteration or approval.
+8. **E — End at the authority boundary:** do not turn written reasoning into access, testing, alteration or approval.
 
 ```mermaid
 flowchart TD
-    A["Classify the conductive part"] --> B["Outline intended protective path"]
-    B --> C["Separate supplied evidence from assumptions"]
-    C --> D{"Connection supported?"}
-    D -->|"No"| E["Unresolved connection claim"]
-    D -->|"Yes"| F{"Continuity and condition verified?"}
-    F -->|"No"| G["Conditional continuity statement"]
-    F -->|"Yes, authorised evidence"| H{"Complete protective outcome verified?"}
-    H -->|"No"| I["Bounded continuity or suitability statement"]
-    H -->|"Yes, qualified verification"| J["Verified outcome outside this module"]
-    E --> K["Record missing evidence and stop boundary"]
-    G --> K
-    I --> K
-    J --> K
+    A["Classify the conductive part"] --> B["Name endpoints and intermediate links"]
+    B --> C["Label facts, inferences, assumptions, contradictions and gaps"]
+    C --> D{"Identity supported?"}
+    D -->|"No"| E["Stop: unresolved classification or identity"]
+    D -->|"Yes"| F{"Connection supported?"}
+    F -->|"No"| G["Stop: first unsupported transition"]
+    F -->|"Yes"| H{"Continuity and condition supported?"}
+    H -->|"No"| G
+    H -->|"Yes, authorised evidence"| I{"Suitability and complete outcome supported?"}
+    I -->|"No"| J["Bounded continuity statement only"]
+    I -->|"Yes, qualified verification"| K["Verified outcome outside this module"]
+    E --> L["Record owner, trigger and stop boundary"]
+    G --> L
+    J --> L
+    K --> L
 ```
 
-The diagram is an evidence gate. It prevents a learner from moving directly from “a conductor is shown” to “the protective arrangement will operate correctly.”
+The diagram makes the first unsupported transition visible. Once a premise fails, later conclusions cannot remain unconditional.
 
 ## 5. Visual model or worked example
 
 ```mermaid
 flowchart LR
-    E["Exposed conductive enclosure"] --> T1["Local termination"]
-    T1 --> P["Protective earthing conductor"]
+    E["Touchable conductive enclosure"] --> T1["Local termination"]
+    T1 --> P["Protective conductor"]
     P --> J["Intermediate joint or terminal"]
-    J --> M["Designated earthing terminal or bar"]
-    M --> S["Wider earthing arrangement"]
-    X1["Possible unresolved link"] -.-> T1
-    X2["Possible unresolved link"] -.-> J
-    X3["Possible unresolved link"] -.-> M
+    J --> M["Designated terminal or bar"]
+    M --> W["Wider earthing arrangement"]
+    R1["Undated drawing"] -.-> P
+    R2["Unidentified continuity record"] -.-> J
+    R3["Later alteration note"] -.-> M
 ```
 
-This is a **continuity reasoning model**, not a wiring diagram or test sequence. Each arrow represents a link that may need evidence. It does not state required construction, conductor size, test value, fault-current magnitude or protective-device operating time.
+This is a continuity-reasoning model, not a wiring diagram or test sequence. Solid arrows show the claimed path; dotted records may support, weaken or contradict particular links. Every record must be checked for identity, date, scope and provenance.
 
 ### Worked original scenario
 
-A fictional training record describes a metal enclosure as touchable and part of electrical equipment. A green-yellow conductor is visible at the enclosure and a drawing shows a route toward an earthing bar. The drawing is undated. No endpoint confirmation, continuity record, alteration history or inspection evidence is supplied.
+A fictional training file describes a touchable metal equipment enclosure. A green-yellow conductor is visible at the enclosure. An undated drawing shows a route toward an earthing bar. A separate maintenance note says the switchboard was altered later, while a continuity record lists only “enclosure to earth” and does not identify endpoints, path state or provenance.
 
 Apply C-O-N-T-I-N-U-E:
 
-1. **Classify:** the enclosure may fit the educational description of an exposed conductive part because it is touchable, conductive, part of electrical equipment and may become live under a fault. Exact classification remains subject to authorised definitions.
-2. **Outline:** the intended path appears to run from the enclosure through a local termination and protective conductor toward an earthing bar.
-3. **Note:** visibility and the drawing are supplied observations. Actual endpoints, joint condition, continuity, suitability and current arrangement are missing.
-4. **Test:** presence is supported; physical connection is only partly supported; continuity and protective outcome are not established.
-5. **Identify:** a discontinuity could prevent the intended protective relationship, but no specific defect location can be diagnosed from the record.
-6. **Name:** current authorised documentation and qualified verification are required.
-7. **Use:** “The evidence supports an intended protective-earthing connection, but continuity, suitability and protective performance remain unresolved.”
-8. **End:** do not open, trace, test or alter the equipment.
+1. **Classify:** the description supports a possible exposed-conductive-part classification, but exact construction and fault exposure remain subject to authorised definitions.
+2. **Outline:** intended path: enclosure → local termination → protective conductor → intermediate connection → designated terminal or bar.
+3. **Name:** visible conductor and document text are stated facts; current endpoints are a gap; treating the undated drawing as current is an assumption; the alteration note creates a material contradiction.
+4. **Test:** presence is supported. Identity and intended connection are partly supported. Current connection, continuity, suitability and protective outcome are not established.
+5. **Identify:** the first unsupported transition is from an intended drawn route to a current physical connection.
+6. **Nominate:** the evidence owner is the authorised documentation or verification process; recheck when current drawings, identified endpoints and qualified evidence are available.
+7. **Use:** “The records support an intended protective-earthing relationship, but the current endpoints, continuity, suitability and protective outcome remain unresolved because the drawing predates an alteration and the continuity record lacks identity and provenance.”
+8. **End:** do not open, trace, test, alter, energise or approve the equipment.
 
 ### Worked-example fading
 
-For a second original scenario, complete only:
+For a second scenario, submit only:
 
-- part classification and supporting facts;
-- intended endpoints;
-- intermediate links;
-- supplied evidence;
-- assumptions removed;
-- highest supported claim level;
-- consequence of an unresolved discontinuity;
-- missing authorised evidence;
-- bounded conclusion; and
+- classification and defining facts;
+- endpoints and intermediate links;
+- six evidence labels;
+- competing interpretations;
+- first unsupported transition;
+- bounded consequence;
+- evidence owner and recheck trigger;
+- supported conclusion; and
 - stop condition.
 
 ## 6. Practical application
 
-### Task A — exposed-part classification
+### Task A — classification with evidence control
 
-Classify each fictional item as **exposed**, **not exposed** or **unresolved**, then state the facts needed to support the decision:
+Classify each fictional item as **exposed**, **not exposed** or **unresolved**. For each, name the defining facts, missing facts and first unsupported transition:
 
 1. a touchable metal equipment enclosure described as separated from live parts only by basic insulation;
-2. a plastic outer case with an internal metal frame that is not accessible in normal use;
-3. a touchable metal label plate attached to an insulating enclosure, with no construction details supplied;
-4. a metal water pipe near electrical equipment but not described as part of that equipment; and
-5. a painted metal door on a switchboard, with hinge and bonding details omitted.
+2. a plastic outer case with an internal metal frame not accessible in normal use;
+3. a touchable metal label plate attached to an insulating enclosure with no construction details;
+4. a metal water pipe near electrical equipment but not described as part of the equipment; and
+5. a painted switchboard door with hinge and connection details omitted.
 
-Do not infer classification from “metal” alone.
+### Task B — claim-dependency ledger
 
-### Task B — evidence ladder
+Complete one row for every material claim:
 
-For an original diagram, complete:
+| Claim | Evidence label and source | Supporting premise | Contradiction or gap | First unsupported transition | Evidence owner | Recheck trigger | Bounded status |
+|---|---|---|---|---|---|---|---|
+| Part classification |  |  |  |  |  |  |  |
+| Endpoint identity |  |  |  |  |  |  |  |
+| Physical connection |  |  |  |  |  |  |  |
+| Continuity and condition |  |  |  |  |  |  |  |
+| Path suitability |  |  |  |  |  |  |  |
+| Protective outcome |  |  |  |  |  |  |  |
 
-| Claim | Supplied evidence | What the evidence supports | What remains unproved |
-|---|---|---|---|
-| Part is present |  |  |  |
-| Endpoints are connected |  |  |  |
-| Path is continuous |  |  |  |
-| Path is suitable |  |  |  |
-| Protective outcome is verified |  |  |  |
+At least one competing interpretation must remain open until decisive evidence is named.
 
-At least two rows must remain conditional or unresolved.
+### Task C — changed-context transfer
 
-### Task C — changed-condition transfer
+Rebuild the reasoning when **at least two** material conditions change. Choose two or more:
 
-Reopen the worked conclusion when one fact changes:
+- the drawing is confirmed to pre-date an alteration;
+- the far endpoint is undocumented;
+- a continuity record does not identify tested endpoints;
+- an alternative conductive path may have influenced the record;
+- the enclosure is replaced with an insulating type; or
+- an alternative supply arrangement is introduced.
 
-1. the drawing is confirmed to pre-date a switchboard alteration;
-2. the enclosure conductor is present but its far endpoint is undocumented;
-3. a continuity record exists but does not identify the tested endpoints;
-4. the enclosure is replaced with an insulating type; or
-5. an alternative supply arrangement is introduced.
+Do not edit only the conclusion. Reclassify the part, redraw the claim ladder, relabel evidence, identify the new first unsupported transition and state the new owner and trigger.
 
-For each change, state which claim level changes and what evidence would be needed before progressing.
+### Criterion-level assessment
 
-### Assessment rubric
+Assess every criterion independently:
 
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Part classification | based on metal or colour alone | partly supported | all defining facts considered and uncertainty retained |
-| Path structure | endpoints and links merged | partial path | endpoints and intermediate links clearly separated |
-| Evidence control | presence treated as proof | some missing evidence identified | every claim level independently tested |
-| Continuity reasoning | continuity assumed or diagnosed | general qualification | bounded consequence stated without diagnosis |
-| Transfer | original answer repeated | some reopening | changed fact reopens the correct claim level |
-| Safety boundary | intrusive action proposed | general caution | explicit stop, escalation and authority limit |
+| Criterion | Secure | Developing | Unsupported | `stop-required` |
+|---|---|---|---|---|
+| Part classification | all defining facts considered and uncertainty retained | relevant facts identified but one dependency remains vague | classification relies on material, colour or proximity | unsafe classification is presented as permission to act |
+| Path structure | endpoints and intermediate links are distinct | path is mostly mapped | path identity or endpoints are assumed | intrusive tracing or access is proposed |
+| Evidence control | all material claims carry evidence labels | some assumptions or gaps are identified | presence or a record is treated as proof | contradiction is ignored to claim safety or approval |
+| Continuity reasoning | first unsupported transition and bounded consequence are explicit | conclusion is cautious but transition is unclear | continuity, suitability or device operation is assumed | a practical test or alteration is directed without authority |
+| Transfer | two changed conditions cause a rebuilt reasoning chain | conditions change but only part of the chain is reopened | original answer is repeated | changed evidence is ignored to preserve a prior safety claim |
+| Ownership and recheck | every material gap has an owner and trigger | owner or trigger is incomplete | gaps are listed without a resolution path | unresolved evidence is bypassed for approval |
+| Safety boundary | stop, escalation and excluded actions are explicit | general caution is present | authority boundary is vague | switching, opening, testing, alteration, energisation or certification is proposed |
 
-A score of **10–12**, with no zero in part classification, evidence control or safety boundary, supports progression. Otherwise complete one varied correction before Day 17.
+A strong result in one criterion cannot cancel an unsupported or `stop-required` result elsewhere. Before Day 17, correct each unsupported criterion with one varied scenario. Any `stop-required` result blocks progression until the unsafe reasoning and authority boundary are corrected.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- treating all touchable metal as an exposed conductive part;
-- treating conductor colour, a label or a diagram line as proof of endpoints or continuity;
-- assuming continuity proves conductor suitability or complete protective performance;
-- assuming a visible termination is sound because it appears connected;
-- diagnosing the location or cause of a discontinuity from incomplete records;
-- describing the earth electrode as the entire protective return path;
+- classifying all touchable metal as exposed conductive parts;
+- treating conductor colour, a label or a diagram line as proof of identity, endpoints or continuity;
+- assuming a continuity record proves the intended path rather than a parallel path;
+- assuming continuity proves suitability or complete protective performance;
+- ignoring contradictory alteration history;
+- diagnosing a discontinuity location from incomplete records;
 - inferring protective-device operation from a conceptual path;
 - confusing protective earthing with equipotential bonding;
 - quoting exact continuity requirements or test values from memory; and
@@ -239,11 +259,12 @@ A score of **10–12**, with no zero in part classification, evidence control or
 
 ### Safety checkpoint
 
-Stop and escalate when:
+Record `stop-required` and escalate when:
 
-- classification depends on construction details unavailable in authorised documentation;
-- determining endpoints would require opening equipment or tracing conductors;
-- continuity or condition would require isolation, proving, testing or measurement;
+- classification depends on unavailable construction details;
+- identifying endpoints would require opening equipment or tracing conductors;
+- continuity or condition would require isolation, proving, measurement or testing;
+- evidence is contradictory, lacks provenance or does not identify the path;
 - a loose, damaged, overheated or disconnected conductor is described;
 - repeated protective-device operation, exposed live parts or another immediate hazard is reported;
 - exact clauses, connection requirements, test methods or acceptance criteria are unverified; or
@@ -257,23 +278,23 @@ This module authorises no switching, isolation, opening, proving, tracing, measu
 
 1. Define protective-earthing continuity without describing a test procedure.
 2. State the defining facts used to classify an exposed conductive part at concept level.
-3. Distinguish presence, connection, continuity, suitability and protective outcome.
-4. Explain why a diagram line cannot prove continuity.
-5. Give two possible consequences of an unresolved discontinuity without diagnosing a defect.
-6. Recite C-O-N-T-I-N-U-E and explain each step.
+3. Distinguish presence, identity, connection, continuity, suitability and protective outcome.
+4. Name the six evidence labels.
+5. Explain the first unsupported transition.
+6. Explain why an unidentified continuity record may not prove the intended path.
 7. State why continuity alone does not prove protective-device operation.
-8. Name four stop conditions.
+8. Name four `stop-required` conditions.
 
 ### Exit task
 
-Submit the entry check with confidence ratings, Tasks A–C, the rubric score, one corrected misconception, one unresolved requirement for authorised checking and one readiness statement for Day 17.
+Submit the entry check with confidence ratings, Tasks A–C, criterion states, one corrected high-confidence error, one evidence owner and recheck trigger, one unresolved authorised-source check and one readiness statement for Day 17.
 
 ### Navigation
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 16 - Protective Earthing Continuity and Exposed Conductive Parts]]
 - **Previous:** [Day 15 — Earthing Terminology and Component Roles](day-15-earthing-terminology-and-component-roles.md)
-- **Next:** Day 17 — Equipotential Bonding Purpose and Boundary Reasoning
+- **Next:** [Day 17 — Equipotential Bonding Purpose and Boundary Reasoning](day-17-equipotential-bonding-purpose-and-boundary-reasoning.md)
 
 ### Reference and currency notice
 
