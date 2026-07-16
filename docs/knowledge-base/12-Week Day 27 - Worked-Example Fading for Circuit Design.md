@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-17
 ---
 
 # 12-Week Day 27 - Worked-Example Fading for Circuit Design
 
 ## Purpose
 
-Moves circuit-design reasoning from annotated examples to independent transfer by removing support one layer at a time.
+Moves circuit-design reasoning from annotated examples to independent transfer by removing support one layer at a time while preserving evidence provenance, contradiction handling and safety boundaries.
 
 ## Module
 
@@ -21,8 +21,10 @@ Moves circuit-design reasoning from annotated examples to independent transfer b
 ## Prerequisites
 
 - [[12-Week Day 26 - Rest Retrieval and Calculation Error-Log Correction]]
+- [[12-Week Day 24 - Complete Cable-Selection Workflow and Evidence Record]]
 - [[Circuit Design]]
 - [[Evidence Quality]]
+- [[Error Log]]
 
 ## Core concepts
 
@@ -30,19 +32,50 @@ Moves circuit-design reasoning from annotated examples to independent transfer b
 - **Completion problem:** an example with selected reasoning steps removed.
 - **Independent transfer:** applying the workflow to a materially changed scenario.
 - **Scaffold:** temporary support that must reduce as competence develops.
-- **Reopening trigger:** changed evidence requiring downstream work to be repeated.
+- **Evidence provenance:** recorded origin, authority, applicability and currency of an input or rule.
+- **First unsupported transition:** the earliest move from supported evidence to an assumption, contradiction or evidence gap.
+- **Reopening trigger:** changed evidence requiring dependent work to be repeated.
+- **Criterion-level readiness:** separate secure, developing, unsupported or `stop-required` judgements for each capability; the states are not totalled.
 
 ## F-A-D-E workflow
 
-Frame the boundary; audit the chain; do the missing work; evaluate and explain.
+1. **Frame** the boundary, evidence pack, authority limits and exclusions.
+2. **Audit** every design gate using evidence-state labels, provenance, owners and competing interpretations.
+3. **Do** only the missing work supported by the fictional evidence and authorised learning sources.
+4. **Evaluate** dependencies, reopen affected work and state a bounded conclusion.
+
+## Evidence-state control
+
+Use these labels consistently:
+
+- stated fact;
+- derived fact;
+- supported inference;
+- assumption;
+- contradiction; and
+- evidence gap.
+
+Once the first unsupported transition is reached, later suitability, compliance or approval claims must remain provisional or unresolved. A correct-looking result does not repair an unsupported source, classification or method.
 
 ## Practical application
 
-Learners annotate a complete model, restore missing transformations, repair missing reasoning and build a fresh evidence record for a changed scenario.
+Learners annotate a complete model, restore missing transformations, repair missing provenance and reasoning, identify the first unsupported transition, and build a fresh evidence record after at least two material scenario changes. They also diagnose root errors and high-confidence unsupported claims in a fictional peer attempt.
 
 ## Assessment relevance
 
-Observable evidence includes independent sequencing, source provenance, dependency control, change propagation, error diagnosis and bounded conclusions.
+Observable evidence includes:
+
+- independent sequence reconstruction;
+- evidence-state labelling and provenance;
+- unit and transformation control;
+- contradiction handling;
+- first-unsupported-transition recognition;
+- downstream reopening;
+- transfer under two changed conditions;
+- bounded conclusions; and
+- safety and authority control.
+
+Secure performance in one criterion cannot offset a `stop-required` condition elsewhere.
 
 ## Related concepts
 
@@ -51,10 +84,12 @@ Observable evidence includes independent sequencing, source provenance, dependen
 - [[Spaced Retrieval]]
 - [[Evidence Quality]]
 - [[Error Log]]
+- [[Confidence Calibration]]
+- [[Change Propagation]]
 
 ## Safety boundary
 
-Written educational work only. No field inspection, switching, isolation, testing, installation, alteration, certification or technical approval is authorised. Exact methods and values remain `reference_check_required`.
+Written educational work only. No switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification is authorised. Exact methods, classifications and values remain `reference_check_required`.
 
 ## References and currency
 
