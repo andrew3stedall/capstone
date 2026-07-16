@@ -25,11 +25,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 10 — Current paths in normal operation
 - [x] Block 11 — Overload and short-circuit concepts
 - [x] Block 12 — Protective device purpose matching
+- [x] Block 13 — Mixed retrieval and application
+- [x] Block 14 — Rest, reflection and catch-up
+- [x] Block 15 — Protective earthing purpose
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
+Block 14 is a non-technical study-planning increment and therefore does not require an external technical reference check. Blocks 13 and 15 retain `reference_check_required: true` because they apply safety-critical electrical concepts.
+
 ## Next increment
 
-Block 13 — Mixed retrieval and application.
+Block 16 — MEN system concept map.
