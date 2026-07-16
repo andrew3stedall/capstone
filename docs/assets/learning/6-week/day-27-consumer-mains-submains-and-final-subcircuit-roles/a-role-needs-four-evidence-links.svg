@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A circuit role needs four evidence links</title>
+  <desc id="desc">A black-and-white stick figure follows four linked cards labelled boundary, source, destination and function before reaching a bounded circuit-role conclusion.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="72" cy="205" r="27"/>
+    <path d="M72 232v105M72 260l-38 38M72 260l62 4M72 337l-30 62M72 337l38 62"/>
+    <rect x="155" y="125" width="150" height="150" rx="12"/>
+    <rect x="335" y="125" width="150" height="150" rx="12"/>
+    <rect x="515" y="125" width="150" height="150" rx="12"/>
+    <rect x="695" y="125" width="150" height="150" rx="12"/>
+    <path d="M305 200h30M485 200h30M665 200h30"/>
+    <path d="M320 187l15 13-15 13M500 187l15 13-15 13M680 187l15 13-15 13"/>
+    <path d="M200 180h60M200 220h60"/>
+    <circle cx="375" cy="200" r="20"/>
+    <circle cx="445" cy="200" r="20"/>
+    <path d="M395 200h30"/>
+    <path d="M555 175h70M555 225h70"/>
+    <path d="M735 165h70M735 200h70M735 235h70"/>
+    <path d="M850 200h55"/>
+    <path d="M890 187l15 13-15 13"/>
+    <rect x="860" y="300" width="80" height="70" rx="10"/>
+    <path d="M880 335l15 15 28-35"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="30" font-weight="700">A ROLE NEEDS FOUR EVIDENCE LINKS</text>
+    <text x="230" y="315" font-size="20" font-weight="700">BOUNDARY</text>
+    <text x="410" y="315" font-size="20" font-weight="700">SOURCE</text>
+    <text x="590" y="315" font-size="20" font-weight="700">DESTINATION</text>
+    <text x="770" y="315" font-size="20" font-weight="700">FUNCTION</text>
+    <text x="480" y="430" font-size="21">If one link is missing or conflicts, record the classification as unresolved.</text>
+  </g>
+</svg>
