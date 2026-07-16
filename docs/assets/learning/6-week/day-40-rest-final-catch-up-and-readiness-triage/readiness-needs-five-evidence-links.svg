@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Readiness needs five evidence links</title>
+  <desc id="desc">A black-and-white stick figure reviews five linked cards labelled retrieval, causal repair, transfer, stop conditions and bounded decision. A confidence bubble is shown separately and does not reach the readiness gate.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="74" cy="295" r="24"/>
+    <path d="M74 319v88M74 347l-34 30M74 347l48 3M74 407l-28 58M74 407l38 58"/>
+    <rect x="145" y="88" width="136" height="136" rx="12"/>
+    <rect x="310" y="88" width="136" height="136" rx="12"/>
+    <rect x="475" y="88" width="136" height="136" rx="12"/>
+    <rect x="640" y="88" width="136" height="136" rx="12"/>
+    <rect x="805" y="88" width="136" height="136" rx="12"/>
+    <path d="M281 156h29M446 156h29M611 156h29M776 156h29"/>
+    <path d="M294 144l16 12-16 12M459 144l16 12-16 12M624 144l16 12-16 12M789 144l16 12-16 12"/>
+    <path d="M873 224v80"/>
+    <rect x="675" y="304" width="268" height="108" rx="12"/>
+    <ellipse cx="402" cy="367" rx="118" ry="58"/>
+    <path d="M520 367h155" stroke-dasharray="14 10"/>
+    <path d="M537 355l-17 12 17 12"/>
+    <path d="M364 345l76 44M440 345l-76 44"/>
+    <path d="M810 335v48M786 359h48"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="45" font-size="29" font-weight="700">READINESS NEEDS FIVE EVIDENCE LINKS</text>
+    <text x="213" y="130" font-size="18" font-weight="700">RETRIEVAL</text>
+    <text x="213" y="166" font-size="15">closed note and</text><text x="213" y="189" font-size="15">independent</text>
+    <text x="378" y="130" font-size="18" font-weight="700">CAUSAL REPAIR</text>
+    <text x="378" y="166" font-size="15">earliest error</text><text x="378" y="189" font-size="15">corrected</text>
+    <text x="543" y="130" font-size="18" font-weight="700">TRANSFER</text>
+    <text x="543" y="166" font-size="15">changed condition</text><text x="543" y="189" font-size="15">still succeeds</text>
+    <text x="708" y="126" font-size="18" font-weight="700">STOP</text><text x="708" y="150" font-size="18" font-weight="700">CONDITIONS</text>
+    <text x="708" y="184" font-size="15">fatigue uncertainty</text><text x="708" y="207" font-size="15">and time controlled</text>
+    <text x="873" y="126" font-size="18" font-weight="700">BOUNDED</text><text x="873" y="150" font-size="18" font-weight="700">DECISION</text>
+    <text x="873" y="184" font-size="15">claim matches</text><text x="873" y="207" font-size="15">the evidence</text>
+    <text x="809" y="343" font-size="19" font-weight="700">MOCK-ENTRY DECISION</text>
+    <text x="809" y="378" font-size="15">ready, ready with limits,</text><text x="809" y="400" font-size="15">defer, or escalate</text>
+    <text x="402" y="352" font-size="18" font-weight="700">“I FEEL CONFIDENT”</text>
+    <text x="402" y="391" font-size="15">not independent readiness evidence</text>
+    <text x="480" y="505" font-size="18">Time spent, rereading or one familiar success cannot replace linked evidence.</text>
+  </g>
+</svg>

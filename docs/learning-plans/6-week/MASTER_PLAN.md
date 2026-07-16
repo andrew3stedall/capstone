@@ -3,7 +3,7 @@ title: Six-Week Capstone Learning Plan
 status: drafted-awaiting-quality-passes
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-16
+reviewed_on: 2026-07-17
 ---
 
 # Six-Week Capstone Learning Plan
@@ -88,9 +88,9 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-- [x] Days 1–38 — completed and recorded in `AUTOMATION_STATUS.md`, repository history and each module's YAML metadata.
-- [x] 2026-07-16 — [Day 39 — Systematic fault-finding workflow and evidence control](modules/day-39-systematic-fault-finding-workflow-and-evidence-control.md): strengthened T-R-A-C-E-S with five evidence grades, four claim grades, a diagnostic-evidence ledger, observation/inference and ranking/verification separation, distinguishing predictions, contradiction and confounder control, dependency reopening, changed-timing/identity/source/document transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible linked-evidence visual.
-- [ ] Next — Day 40 — Rest, final catch-up and readiness triage.
+- [x] Days 1–39 — completed and recorded in `AUTOMATION_STATUS.md`, repository history and each module's YAML metadata.
+- [x] 2026-07-17 — [Day 40 — Rest, final catch-up and readiness triage](modules/day-40-rest-final-catch-up-and-readiness-triage.md): strengthened R-E-A-D-Y with five evidence grades, four claim grades, a readiness-evidence ledger, bounded three-repair triage, fatigue and uncertainty stop conditions, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible five-link evidence visual.
+- [ ] Next — Day 41 — Full mock assessment with design, inspection and verification components.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
