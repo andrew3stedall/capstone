@@ -24,45 +24,45 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–35.
-- Exactly one next increment: quality-improvement pass — Day 36, Verification Purpose, Evidence and Visual Inspection.
+- Completed quality passes: Days 1–36.
+- Exactly one next increment: quality-improvement pass — Day 37, Mandatory Test Purposes and Safe Test Preconditions.
 
 ## Completed increments
 
-- Quality-improvement passes for Days 1–34 are recorded in prior repository history and each module's YAML metadata.
-- **Day 35:** strengthened I-N-T-E-G-R-A-T-E with five evidence grades, four claim grades, an integrated inspection ledger, cross-topic interaction dependencies, explicit reopening triggers, worked-example fading, changed-source and changed-location transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible linked-evidence visual.
+- Quality-improvement passes for Days 1–35 are recorded in prior repository history and each module's YAML metadata.
+- **Day 36:** strengthened V-E-R-I-F-Y with five evidence grades, four claim grades, a verification evidence ledger, inspection-versus-test and authority boundaries, explicit dependencies and reopening triggers, worked-example fading, changed-document and changed-scope transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible five-link evidence visual.
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-35-week-5-integrated-installation-inspection.md`
-- `docs/assets/learning/6-week/day-35-week-5-integrated-installation-inspection/an-integrated-finding-needs-linked-evidence.svg`
-- `docs/knowledge-base/Six-Week Day 35 - Week 5 Integrated Installation Inspection.md`
+- `docs/learning-plans/6-week/modules/day-36-verification-purpose-evidence-and-visual-inspection.md`
+- `docs/assets/learning/6-week/day-36-verification-purpose-evidence-and-visual-inspection/a-verification-conclusion-needs-five-evidence-links.svg`
+- `docs/knowledge-base/Six-Week Day 36 - Verification Purpose Evidence and Visual Inspection.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 35 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact location classifications, spatial boundaries, equipment requirements, source arrangements, transfer behaviour, motor provisions, inspection criteria, clauses, limits and jurisdiction-specific duties require current authorised information and qualified review.
-- I-N-T-E-G-R-A-T-E, the evidence and claim grades, integrated inspection ledger, fictional scenarios, Mermaid diagram, transfer tasks and rubric are original educational models.
+- Day 36 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact verification requirements, inspection items, prescribed records, test preconditions, acceptance criteria, certification arrangements and jurisdiction-specific duties require current authorised information and qualified review.
+- V-E-R-I-F-Y, the evidence and claim grades, verification evidence ledger, fictional scenarios, Mermaid diagram, transfer tasks and rubric are original educational models.
 - No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
-- The module authorises no site access, opening, switching, transfer operation, isolation, proving, locking, tagging, testing, measurement, operation, adjustment, fault simulation, installation, maintenance, energisation, commissioning, certification, verification, approval or return to service.
+- The module authorises no site access, opening, switching, isolation, proving, locking, tagging, contact, measurement, testing, energisation, certification, approval or return to service.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 36–42.
-- Quality-improvement passes completed: Days 1–35.
+- Modules awaiting one quality-improvement pass: Days 37–42.
+- Quality-improvement passes completed: Days 1–36.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 35 retains the exact eight required beats and compatible YAML metadata.
+- Day 36 retains the exact eight required beats and compatible YAML metadata.
 - The Mermaid diagram uses standard flowchart syntax and unique node identifiers.
-- Module and note navigation are reciprocal and point to Days 34 and 36; the existing adjacent files already link to Day 35.
-- Both Day 35 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
-- Five evidence grades, four claim grades and the integrated inspection ledger prevent labels, drawings, normal operating responses, remembered rules or isolated facts from substituting for linked location, equipment, state, source, authority and currency evidence.
-- Reopening triggers cover scope, task boundary, location geometry or classification, equipment information, motor duty, operating state, control mode, source type or availability, transfer behaviour, stored energy, drawing revision, authorised reference, jurisdiction, evidence currency, competence and authority.
-- Worked-example fading, independent changed-source and changed-location transfer and delayed retrieval are included without adding unverified classifications, limits, settings or practical procedures.
+- Module and note navigation are reciprocal and point to Days 35 and 37; the existing adjacent files already link to Day 36.
+- Both Day 36 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
+- Five evidence grades, four claim grades and the verification evidence ledger prevent labels, schedules, drawings, photographs, normal operating responses or remembered rules from substituting for traceable scope, observation, test-boundary, authority and currency evidence.
+- Reopening triggers cover work scope, exclusions, source state, circuit identity, equipment identity, document revision, evidence currency, authorised requirement, jurisdiction, competence and authority.
+- Worked-example fading, independent changed-document and changed-scope transfer and delayed retrieval are included without adding unverified inspection items, test methods, limits, acceptance values or practical procedures.
 - The six-category rubric includes critical-error gates and is explicitly distinguished from an official RTO pass mark.
 - Sequence, terminology, relative links, Mermaid syntax, SVG references, duplicate-content risk, accessibility, copyright and safety boundaries were reviewed together.
 
@@ -73,4 +73,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 36: Verification Purpose, Evidence and Visual Inspection**
+**Quality-improvement pass — Day 37: Mandatory Test Purposes and Safe Test Preconditions**
