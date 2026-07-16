@@ -67,13 +67,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 52 — Protection and earthing review
 - [x] Block 53 — Switching and alternate-supply review
 - [x] Block 54 — Inspection and testing review
+- [x] Block 55 — Timed cumulative integration
+- [x] Block 56 — Rest, reflection and catch-up
+- [x] Block 57 — Mock assessment briefing and calibration
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 52–54 retain `reference_check_required: true`, `status: review-required` and `technically_reviewed: false`. They review documentary protection-and-earthing, source-control and verification evidence without prescribing access, isolation, switching, energised work, instruments, testing procedures, values, acceptance criteria or compliance decisions.
+Blocks 55 and 57 retain `reference_check_required: true`, `status: review-required` and `technically_reviewed: false`. Block 56 remains `review-required`, with `reference_check_required: false` and `technically_reviewed: false`. The increment adds timed documentary integration, bounded recovery and mock-assessment calibration without claiming official assessment validity, technical competence, field authority or compliance approval.
 
 ## Next increment
 
-Block 55 — Timed cumulative integration.
+Block 58 — Mock assessment part A: rule finding.
