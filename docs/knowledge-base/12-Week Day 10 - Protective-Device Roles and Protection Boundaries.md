@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 10 - Protective-Device Roles and Protection Boundaries
 
 ## Purpose
 
-This note connects Day 9 current-event classification to protection reasoning. Day 10 separates the hazard, protected interest, required function, protective measure or device, operating evidence and final protection boundary.
+This note connects [[12-Week Day 09 - Overload Short-Circuit and Fault-Current Distinctions]] to protection reasoning. Day 10 separates the abnormal condition, protected interest, required function, candidate measure or device, decisive evidence and final protection boundary.
 
 ## Module
 
@@ -24,43 +24,52 @@ This note connects Day 9 current-event classification to protection reasoning. D
 - [[Protection Fundamentals]]
 - [[Known Unknown and Assumed Information]]
 - [[Evidence Quality]]
+- [[Confidence Calibration]]
 
 ## Core concepts
 
-- **Hazard:** a source or situation with potential to cause harm.
-- **Protected interest:** the person, conductor, equipment, property, supply function or other outcome the protection is intended to safeguard.
-- **Protection function:** the specific job required of the protection arrangement; it is not a device name.
-- **Protective measure:** the wider arrangement used to reduce risk, which may combine construction, earthing, automatic disconnection, procedures or other controls.
-- **Protective device:** a device intended to perform one or more protection functions under defined conditions.
-- **Role statement:** a bounded statement about what a device or measure may contribute.
-- **Operating claim:** a claim that the device will act under a stated condition, within a stated time or before a stated limit is exceeded.
-- **Protection boundary:** the limit of what the function, device and evidence set can support.
+- **Hazard:** source or situation with potential to cause harm.
+- **Protected interest:** person, conductor, equipment, property, supply function or other outcome intended to be safeguarded.
+- **Protection function:** the required job, stated independently of a device name.
+- **Protective measure:** the wider arrangement used to reduce risk.
+- **Protective device:** a component intended to perform one or more functions under defined conditions.
+- **Detection input:** the condition a device responds to.
+- **Protected outcome:** the harm-reduction objective; it is not automatically proven by detecting a condition.
+- **Role statement:** a bounded description of what a measure or device may contribute.
+- **Operating claim:** a claim that the device will act under a stated condition or time.
+- **Coordination claim:** a claim about interaction between protection elements.
+- **Protection boundary:** the limit of what the function, device and evidence set support.
+- **First unsupported transition:** the earliest step that depends on missing, contradictory or unauthorised evidence.
 
 ## G-U-A-R-D-S workflow
 
-1. **Ground** the scenario and classify the abnormal condition.
-2. **Unpack** the protected interest.
-3. **Assign** the required protection function before naming a device.
-4. **Relate** candidate measures and devices to the function and their limitations.
-5. **Demand** authorised operating evidence for suitability or coordination claims.
-6. **State** the supported role, unresolved evidence and protection boundary.
+1. **Ground** the condition, path, supply context and evidence labels.
+2. **Unpack** each protected interest.
+3. **Assign** the function before naming a device.
+4. **Relate** candidate measures, detection inputs and limitations.
+5. **Demand** authorised and applicable device, conductor, path and coordination evidence.
+6. **State** the boundary and stop at the first unsupported transition.
+
+## Evidence discipline
+
+Scenario information is labelled as stated fact, inference, assumption, contradiction or evidence gap. Competing interpretations remain open until decisive evidence is available. Every material gap needs an evidence owner and a recheck trigger before a stronger claim can be made.
 
 ## Protection-role distinctions
 
-- Overload protection and short-circuit protection address different initiating conditions and evidence requirements.
-- Fault protection and additional protection are not interchangeable labels.
+- Overload and short-circuit protection address different initiating conditions and evidence requirements.
+- Fault and additional protection are not interchangeable.
 - Conductor protection and shock-risk reduction may coexist but should not be collapsed into “protect the circuit.”
-- A device role does not prove verified operation.
+- A device role does not prove suitability, coordination or verified operation.
 - Automatic protection does not replace authorised isolation or safe-work controls.
-- An RCD does not replace overcurrent protection or prove that every fault path and earthing condition is satisfactory.
+- An RCD does not replace overcurrent protection or prove every fault path and earthing condition satisfactory.
 
 ## Practical application
 
-The learner separates hazard, protected interest, function, device and evidence across original written scenarios. They sort bounded and overclaimed statements, complete worked-example fading, compare paired protection roles and revise a role statement when the scenario changes. The Day 11 handoff focuses on residual-current protection without treating it as universal protection.
+The learner classifies original written scenarios, separates evidence labels, identifies the first unsupported transition, rewrites overclaimed statements, retains competing interpretations and rebuilds the protection-role record after at least two material scenario changes. The Day 11 handoff focuses on residual-current protection without treating it as universal protection.
 
 ## Assessment relevance
 
-Observable evidence includes correct current-event handoff from Day 9, a specific protected interest, a function stated independently of a device, separated device/conductor/fault/coordination evidence, a bounded conclusion and successful revision after a changed fact. Device-first answers, invented operating times and “one device protects everything” claims do not demonstrate the intended capability.
+Each criterion is judged as secure, developing, unsupported or `stop-required`. Observable evidence includes correct path classification, a specific protected interest, a device-independent function, separated evidence categories, a bounded conclusion, an evidence owner and successful changed-context transfer. A `stop-required` error cannot be averaged away by stronger performance elsewhere.
 
 ## Related concepts
 
@@ -77,12 +86,11 @@ Observable evidence includes correct current-event handoff from Day 9, a specifi
 - [[Fuse]]
 - [[Coordination and Selectivity]]
 - [[Safe Isolation]]
-- [[Confidence Calibration]]
 - [[Error Log]]
 
 ## Safety boundary
 
-This is a written and diagrammatic protection-role block. It authorises no switching, isolation, opening equipment, testing, measurement, fault creation, resetting, device replacement, disconnection, alteration, repair, energisation, commissioning or verification. Exact clauses, coverage requirements, device characteristics, ratings, breaking capacities, operating times, coordination rules, test methods and jurisdiction-specific requirements remain `reference_check_required`.
+This is a written and diagrammatic protection-role block. It authorises no switching, isolation, opening equipment, testing, measurement, fault creation, resetting, replacement, disconnection, alteration, repair, energisation, commissioning, certification or verification. Exact clauses, coverage requirements, characteristics, ratings, breaking capacities, operating times, coordination rules, test methods and jurisdiction-specific requirements remain `reference_check_required`.
 
 ## References and currency
 
