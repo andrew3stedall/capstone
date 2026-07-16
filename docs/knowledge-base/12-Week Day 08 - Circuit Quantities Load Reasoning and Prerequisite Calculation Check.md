@@ -4,14 +4,15 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
+quality_improvement_pass: 1
 ---
 
 # 12-Week Day 08 - Circuit Quantities Load Reasoning and Prerequisite Calculation Check
 
 ## Purpose
 
-This note connects the first Week 2 module to the wider Capstone knowledge graph. Day 8 develops calculation literacy before protection and design topics: quantity meaning, unit discipline, evidence classification, relationship selection, checking and bounded conclusions.
+This note connects the first Week 2 module to the wider Capstone knowledge graph. Day 8 develops calculation literacy before protection and design topics: quantity meaning, unit discipline, value provenance, relationship selection, visible process, independent checking, confidence calibration and bounded conclusions.
 
 ## Module
 
@@ -24,37 +25,59 @@ This note connects the first Week 2 module to the wider Capstone knowledge graph
 - [[Electrical Fundamentals]]
 - [[Assessment Readiness]]
 - [[Evidence Quality]]
+- [[Confidence Calibration]]
 
 ## Core concepts
 
 - **Quantity:** a measurable property such as voltage, current, resistance, power or energy.
+- **Symbol:** a compact label representing a quantity in a relationship.
 - **Unit:** the agreed scale used to express a quantity.
-- **Supplied value:** a value explicitly provided by the scenario or authorised source.
-- **Derived value:** a result calculated from supplied values using a stated relationship.
-- **Assumed value:** a value introduced without direct evidence and therefore requiring explicit labelling.
-- **Connected load:** the total stated rating of connected equipment in the fictional scenario.
-- **Operating load:** the load stated to operate under a particular scenario condition.
-- **Design demand:** a design value established only through the applicable authorised method and verified conditions.
-- **Plausibility check:** a scale, unit, direction or inverse check that helps detect setup or arithmetic errors.
+- **Supplied value:** explicitly provided by the scenario or named authorised source.
+- **Derived value:** calculated from supported inputs through a visible relationship.
+- **Assumed value:** introduced without direct evidence.
+- **Irrelevant value:** present but not required for the requested relationship or conclusion.
+- **Missing value:** required for the next reasoning step but unavailable or unverified.
+- **Model boundary:** the conditions under which a relationship is being applied.
+- **First unsupported transition:** the earliest step depending on an unverified input, relationship, conversion or applicability assumption.
+- **Independent check:** a meaningfully different verification route rather than repetition of the same calculator entry.
+- **Connected load:** total stated rating of connected equipment in the fictional scenario.
+- **Operating load:** load stated to operate under a particular condition.
+- **Design demand:** a design value established only through an applicable authorised method and verified conditions.
 
 ## Q-U-A-N-T-I-T-Y workflow
 
 1. **Question** the requested quantity and permitted conclusion.
-2. **Unpack** supplied, unknown, assumed and missing items.
-3. **Align units** before substitution.
-4. **Name the relationship** and why it applies.
+2. **Unpack** supplied, derived, assumed, irrelevant and missing items.
+3. **Align units** with visible scale conversions.
+4. **Name the relationship** and its model boundary.
 5. **Transpose** to isolate the unknown.
 6. **Insert** values with units.
-7. **Test** arithmetic, unit sense and an inverse or independent check.
-8. **Yield a bounded conclusion** that separates the result from unresolved design requirements.
+7. **Test** unit sense, scale, arithmetic and an independent route.
+8. **Yield a bounded conclusion** with confidence and unresolved checks.
+
+A missing material input is not permission to use a familiar nominal value. Stop at the first unsupported transition and assign an evidence owner or authorised source.
 
 ## Practical application
 
-The learner sorts quantity and evidence cards, completes fictional calculations with full working, progresses through worked-example fading and analyses an incomplete load schedule. The exercise deliberately withholds any authorised diversity or maximum-demand method so the learner must stop before claiming design demand.
+The learner sorts quantity and evidence cards, completes fictional calculations with full working, progresses through worked-example fading, identifies irrelevant and missing values, analyses an incomplete load schedule and repeats the process after at least two material scenario conditions change.
+
+The exercise deliberately withholds an authorised diversity or maximum-demand method so the learner must stop before claiming design demand.
 
 ## Assessment relevance
 
-Observable evidence includes correct quantity definitions, compatible unit conversion, explicit input classification, justified relationship selection, visible transposition and substitution, an independent check and a bounded conclusion. A calculator display alone is insufficient evidence of correct reasoning.
+Observable evidence is reviewed criterion by criterion rather than through an aggregate pass mark. Criteria cover quantity meaning, evidence setup, unit control, relationship selection, process visibility, independent verification, conclusion boundaries and confidence calibration.
+
+The educational states are **secure**, **developing**, **unsupported** and **`stop-required`**. A `stop-required` state blocks progression regardless of stronger performance elsewhere. These states are not official assessment grades or competency decisions.
+
+A calculator display alone is insufficient because it does not expose provenance, unit conversion, model selection, transposition, assumptions or conclusion limits.
+
+## Error and remediation links
+
+- A correct guess requires retrieval and changed-context confirmation rather than being treated as mastery.
+- A high-confidence unit, model or boundary error receives priority remediation.
+- Repeating the same calculator entry is a circular check, not independent verification.
+- Unsupported evidence requires targeted repair and changed-context transfer.
+- Missing material evidence requires a named source, trainer or qualified reviewer before the reasoning path can continue.
 
 ## Related concepts
 
@@ -68,10 +91,18 @@ Observable evidence includes correct quantity definitions, compatible unit conve
 - [[Error Log]]
 - [[Confidence Calibration]]
 - [[Protection Fundamentals]]
+- [[Evidence Ownership]]
+- [[Changed-Context Transfer]]
+
+## Assessment and practical relevance
+
+This calculation discipline supports later work on protective-device purpose, load schedules, maximum demand, conductor selection, voltage conditions and integrated design. It does not itself authorise a design decision or field action.
 
 ## Safety boundary
 
-This is a written, diagrammatic and trainer-supplied arithmetic block. It authorises no switching, isolation, opening equipment, testing, measurement, resetting, disconnection, alteration, repair, energisation, commissioning, verification or practical demonstration. Exact clauses, limits, nominal supply conditions, design methods, device characteristics and official assessment rules remain `reference_check_required`.
+This is a written, diagrammatic and trainer-supplied arithmetic block. It authorises no switching, isolation, opening equipment, testing, measurement, resetting, disconnection, alteration, repair, energisation, commissioning, verification or practical demonstration.
+
+Exact clauses, limits, nominal supply conditions, design methods, device characteristics and official assessment rules remain `reference_check_required`. Contradictory checks, missing material inputs, uncertain units or proposed practical use require a stop and qualified guidance.
 
 ## References and currency
 
