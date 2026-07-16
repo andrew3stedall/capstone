@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sorting conductor roles using evidence</title>
+  <desc id="desc">A black-and-white diagram with two trays labelled normal-current role and protective role. Evidence cards for drawing, label, continuity and source information sit above the trays, showing that evidence is checked before assigning a role.</desc>
+  <rect x="1" y="1" width="898" height="518" fill="white" stroke="black" stroke-width="2"/>
+  <text x="450" y="45" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold">Assign roles from evidence, not appearance</text>
+  <g fill="white" stroke="black" stroke-width="3">
+    <rect x="90" y="110" width="150" height="70" rx="8"/>
+    <rect x="275" y="110" width="150" height="70" rx="8"/>
+    <rect x="460" y="110" width="150" height="70" rx="8"/>
+    <rect x="645" y="110" width="150" height="70" rx="8"/>
+    <path d="M170 205 L250 275"/>
+    <path d="M350 205 L350 275"/>
+    <path d="M535 205 L535 275"/>
+    <path d="M720 205 L650 275"/>
+    <rect x="90" y="300" width="320" height="150" rx="12"/>
+    <rect x="490" y="300" width="320" height="150" rx="12"/>
+  </g>
+  <g font-family="sans-serif" font-size="20" text-anchor="middle">
+    <text x="165" y="152">Drawing</text>
+    <text x="350" y="152">Label</text>
+    <text x="535" y="145">Continuity</text><text x="535" y="168">evidence</text>
+    <text x="720" y="145">Source</text><text x="720" y="168">information</text>
+    <text x="250" y="345" font-weight="bold">Normal-current role</text>
+    <text x="250" y="390">Trace intended load path</text>
+    <text x="650" y="345" font-weight="bold">Protective role</text>
+    <text x="650" y="390">Trace fault-response path</text>
+  </g>
+  <path d="M430 375 L470 375" stroke="black" stroke-width="4" stroke-dasharray="10 8"/>
+  <text x="450" y="420" text-anchor="middle" font-family="sans-serif" font-size="18">Related does not mean interchangeable</text>
+</svg>
