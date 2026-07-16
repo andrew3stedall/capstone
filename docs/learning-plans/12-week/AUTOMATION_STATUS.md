@@ -9,42 +9,42 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 19 completed for Day 19 — Rest, Retrieval and Diagram Reconstruction.
-- **Quality-improvement passes:** 19 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 20, MEN Fault Scenarios and Protective-Device Operation Reasoning.
+- **Current increment:** Quality-improvement pass 20 completed for Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning.
+- **Quality-improvement passes:** 20 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 21, Week 3 Earthing and Protection Integration Checkpoint.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 19 — Day 19
+### Quality-improvement pass 20 — Day 20
 
-- Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level states: secure, developing, unsupported and `stop-required`.
-- Added confidence calibration so correct guesses and high-confidence unsupported answers are distinguished from secure knowledge.
-- Added stated fact, supported inference, assumption, contradiction and evidence-gap labels to the closed-note comparison workflow.
-- Added the first unsupported transition as the mandatory boundary on downstream diagram and readiness claims.
-- Added blocking conditions for merged current paths, invented verification evidence, ignored contradictions and unauthorised practical actions.
-- Added evidence owners and explicit recheck triggers for unresolved criteria.
-- Required changed-context transfer to alter at least two material conditions and rebuild the path model.
-- Preserved the recovery purpose, 30-minute limit, bounded catch-up task and no-new-theory boundary.
-- Updated the knowledge-base note and direct Day 18/Day 19/Day 20 navigation.
-- Tracker state after this increment: 19 of 84 quality-improvement passes complete; next is Day 20.
+- Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level secure, developing, unsupported and `stop-required` states.
+- Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
+- Expanded the fault-to-operation claim ladder to separate conceptual path, verified actual path, source/path conditions, device characteristics, verified criterion and demonstrated outcome.
+- Added the first unsupported transition as the mandatory boundary on downstream device-operation and disconnection claims.
+- Added competing interpretations for conflicting circuit records rather than silently preferring the convenient record.
+- Added evidence owners and explicit recheck triggers for unresolved transitions.
+- Required changed-context transfer to alter at least two material conditions and rebuild the reasoning chain.
+- Added blocking conditions so invented device operation, ignored contradictions, merged protection functions and unauthorised practical action cannot be offset by strengths elsewhere.
+- Added direct Day 21 navigation and updated the corresponding knowledge-base note.
+- Tracker state after this increment: 20 of 84 quality-improvement passes complete; next is Day 21.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-19-rest-retrieval-and-diagram-reconstruction.md`
-- `docs/knowledge-base/12-Week Day 19 - Rest Retrieval and Diagram Reconstruction.md`
+- `docs/learning-plans/12-week/modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md`
+- `docs/knowledge-base/12-Week Day 20 - MEN Fault Scenarios and Protective-Device Operation Reasoning.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 19 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact earthing, bonding and MEN definitions, path arrangements, component relationships, device operating conditions, verification evidence and assessment requirements require current authorised sources and qualified review.
+- Day 20 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact MEN arrangements, fault-loop requirements, source relationships, path characteristics, device characteristics, operating criteria, test methods, acceptance criteria and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, clause sequence, connection location, conductor size, impedance value, operating time, test method, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
-- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
+- No official pass mark, clause sequence, connection location, conductor size, impedance value, operating time, device curve, test method, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, resetting, fault creation, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
@@ -52,9 +52,9 @@ updated_on: 2026-07-17
 - Checked that technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels, decisions and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with an explicit instructional caption.
-- Checked direct master-plan links and reciprocal Day 18/Day 19/Day 20 module and knowledge-note navigation.
-- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, contradiction handling and first-unsupported-transition logic for internal consistency.
-- Checked the rest-day scope for time limits, fatigue controls, catch-up triage and absence of unnecessary new electrical theory.
+- Checked direct master-plan links and reciprocal Day 19/Day 20/Day 21 module and knowledge-note navigation.
+- Checked criterion-level states, blocking conditions, two-condition transfer, evidence-owner fields, recheck triggers, competing interpretations, contradiction handling and first-unsupported-transition logic for internal consistency.
+- Checked that RCD operation is not treated as proof of protective-earthing continuity or fault-path identity.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -79,8 +79,9 @@ updated_on: 2026-07-17
   - [Day 17 — Equipotential Bonding Purpose and Boundary Reasoning](modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md)
   - [Day 18 — MEN Arrangement and Normal-Current versus Fault-Current Paths](modules/day-18-men-arrangement-and-normal-current-versus-fault-current-paths.md)
   - [Day 19 — Rest, Retrieval and Diagram Reconstruction](modules/day-19-rest-retrieval-and-diagram-reconstruction.md)
-- **Next pass:** Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–19 to be selected again.
+  - [Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning](modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md)
+- **Next pass:** Day 21 — Week 3 Earthing and Protection Integration Checkpoint.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–20 to be selected again.
 
 ## Commit behaviour
 
