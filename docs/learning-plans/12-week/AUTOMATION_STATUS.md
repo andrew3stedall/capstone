@@ -9,41 +9,41 @@ updated_on: 2026-07-16
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 12 completed for Day 12 — Rest, Retrieval and Misconception Repair.
-- **Quality-improvement passes:** 12 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 13, Protection-Selection Evidence Workflow Using Original Scenarios.
+- **Current increment:** Quality-improvement pass 13 completed for Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios.
+- **Quality-improvement passes:** 13 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 14, Week 2 Protection Integration Checkpoint.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 12 — Day 12
+### Quality-improvement pass 13 — Day 13
 
 - Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level states: secure, developing, unsupported and `stop-required`.
-- Added stated-fact, supported-inference, assumption, contradiction and evidence-gap labels.
-- Added the first unsupported transition as the required starting point for misconception repair.
-- Required changed-context transfer to alter at least two material scenario conditions.
-- Added evidence owners and recheck triggers for unresolved material gaps.
-- Added blocking conditions so strong performance in one criterion cannot cancel a safety, contradiction, authority or evidence failure in another.
-- Preserved the maximum 30-minute recovery limit, no-new-theory purpose, fatigue controls and catch-up triage.
-- Updated the corresponding knowledge-base note and direct Day 13 navigation.
-- Tracker state after this increment: 12 of 84 quality-improvement passes complete; next is Day 13.
+- Expanded evidence control to distinguish stated facts, derived facts, supported inferences, assumptions, contradictions and evidence gaps.
+- Added the first unsupported transition as the required boundary between evidence and an unverified protection claim.
+- Added evidence owners, competing interpretations and explicit recheck triggers for unresolved material gaps.
+- Required transfer work to change at least two material scenario conditions rather than repeat the worked example.
+- Added blocking conditions so a safety, authority, contradiction or evidence failure cannot be cancelled by strengths elsewhere.
+- Strengthened the original scenarios with conflicting records and changed supply or load conditions without adding exact technical values or procedures.
+- Updated the corresponding knowledge-base note and direct Day 14 navigation.
+- Tracker state after this increment: 13 of 84 quality-improvement passes complete; next is Day 14.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-12-rest-retrieval-and-misconception-repair.md`
-- `docs/knowledge-base/12-Week Day 12 - Rest Retrieval and Misconception Repair.md`
+- `docs/learning-plans/12-week/modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md`
+- `docs/knowledge-base/12-Week Day 13 - Protection-Selection Evidence Workflow Using Original Scenarios.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 12 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact protection definitions, device functions and characteristics, monitored-conductor arrangements, fault paths, source arrangements, suitability, coordination, operation and assessment conditions require current authorised sources and qualified review.
+- Day 13 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact protection definitions, recognised measures, device characteristics, monitored-conductor arrangements, source and earthing conditions, fault paths, suitability, coordination, operating conditions and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, clause sequence, residual-current value, operating time, device curve, assessment question, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
-- The module authorises no access, switching, isolation, testing, measurement, opening, resetting, fault creation, replacement, disconnection, alteration, repair, energisation, commissioning, certification or verification.
+- No official pass mark, clause sequence, fault-current value, residual-current value, operating time, device curve, assessment question, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- The module authorises no selection for construction, access, switching, isolation, proving, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
@@ -51,7 +51,7 @@ updated_on: 2026-07-16
 - Checked that added technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, decisions, labels and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with a concise caption.
-- Checked direct master-plan links and reciprocal Day 11/Day 12/Day 13 module and knowledge-note navigation.
+- Checked direct master-plan links and reciprocal Day 12/Day 13/Day 14 module and knowledge-note navigation.
 - Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers and first-unsupported-transition logic for internal consistency.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
@@ -70,8 +70,9 @@ updated_on: 2026-07-16
   - [Day 10 — Protective-Device Roles and Protection Boundaries](modules/day-10-protective-device-roles-and-protection-boundaries.md)
   - [Day 11 — RCD Purpose, Limitations and Interaction with Other Protection](modules/day-11-rcd-purpose-limitations-and-interaction-with-other-protection.md)
   - [Day 12 — Rest, Retrieval and Misconception Repair](modules/day-12-rest-retrieval-and-misconception-repair.md)
-- **Next pass:** Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–12 to be selected again.
+  - [Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios](modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md)
+- **Next pass:** Day 14 — Week 2 Protection Integration Checkpoint.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–13 to be selected again.
 
 ## Commit behaviour
 
