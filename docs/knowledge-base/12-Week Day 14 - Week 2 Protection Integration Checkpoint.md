@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 14 - Week 2 Protection Integration Checkpoint
 
 ## Purpose
 
-This note connects the Week 2 protection modules into one assessment-focused reasoning chain. The checkpoint tests whether the learner can classify current conditions, trace a conceptual path, identify protected interests and protection functions, control evidence quality, write bounded conclusions and stop at the practical-authority boundary.
+This note connects the Week 2 protection modules into one assessment-focused reasoning chain. The checkpoint tests whether the learner can classify current conditions, trace plausible current paths, identify protected interests and protection functions, control evidence quality, locate the first unsupported transition, write bounded conclusions, transfer reasoning to changed conditions and stop at the practical-authority boundary.
 
 ## Module
 
@@ -32,42 +32,54 @@ This note connects the Week 2 protection modules into one assessment-focused rea
 
 ## Core concepts
 
-- **Integration:** combining multiple previously learned concepts into one coherent response.
+- **Integration:** combining concepts into one coherent response without merging distinct protection functions or claim types.
 - **Current condition:** the described state of current flow, classified or left unresolved when evidence is insufficient.
-- **Current path:** a conceptual route that does not by itself prove magnitude, suitability or protective operation.
+- **Current path:** a conceptual route that does not by itself prove magnitude, suitability, coordination or protective operation.
 - **Protection function:** the required protective job, stated independently of device name.
-- **Claim level:** supported, conditional or unresolved according to the evidence.
-- **Misconception repair:** identifying an incorrect mental model, its consequence and a varied corrective attempt.
-- **Reopening trigger:** a changed condition that requires an earlier conclusion to be reviewed.
+- **Evidence labels:** stated fact, derived fact, supported inference, assumption, contradiction and evidence gap.
+- **First unsupported transition:** the earliest step where supported reasoning becomes an unverified claim.
+- **Claim level:** supported, conditional or unresolved according to evidence quality, applicability and completeness.
+- **Evidence owner:** the authorised person, record or source responsible for resolving a material gap.
+- **Recheck trigger:** changed evidence requiring an earlier conclusion to be reconsidered.
+- **Blocking condition:** a safety, authority, contradiction or evidence failure that prevents progression regardless of strengths elsewhere.
+- **Changed-context transfer:** rebuilding the reasoning chain after at least two material scenario conditions change.
 
 ## I-N-T-E-G-R-A-T-E workflow
 
-1. **Identify** the scenario boundary.
-2. **Name** the current condition or mark it unresolved.
-3. **Trace** the conceptual path.
+1. **Identify** the scenario boundary, available records and information limits.
+2. **Name** the current condition or retain plausible alternatives.
+3. **Trace** each plausible conceptual current path.
 4. **Establish** the protected interest.
-5. **Group** the required protection and work-control functions.
-6. **Record** supplied, derived, assumed and missing evidence.
-7. **Apply** the relevant authorised source categories.
-8. **Tell** a bounded conclusion.
-9. **Escalate** unsafe action and remediate one misconception.
+5. **Group** protection and work-control functions without merging them.
+6. **Record** facts, derived facts, inferences, assumptions, contradictions and gaps.
+7. **Apply** relevant authorised source categories.
+8. **Test** every transition and locate the first unsupported one.
+9. **Escalate** unsafe action, assign evidence owners and plan varied remediation.
 
 ## Practical application
 
-The learner completes a classification matrix, an integrated fictional scenario and a misconception-repair task. Each response must keep current path, current magnitude and protective outcome separate; distinguish overcurrent, residual-current, earthing-support and work-control functions; and reject unsupported reset, test, energisation or approval claims.
+The learner completes a classification and evidence matrix, an integrated fictional scenario and a misconception-repair transfer task. Each response must keep current path, current magnitude, device suitability and protective outcome separate; distinguish overcurrent, residual-current, earthing-support and work-control functions; preserve contradictory evidence; and reject unsupported reset, test, energisation or approval claims.
+
+The transfer case must change at least two material conditions. The learner rebuilds the scenario boundary and evidence chain rather than carrying forward the earlier classification or device conclusion.
 
 ## Assessment relevance
 
 Observable evidence includes:
 
 - accurate or appropriately unresolved current classification;
-- a conceptual path that is not treated as proof of operation;
+- plausible alternatives retained where evidence is incomplete;
+- a conceptual path that is not treated as proof of magnitude or operation;
 - identification of protected interests and required functions before device reasoning;
-- consistent use of the four evidence classes;
+- consistent use of all six evidence labels;
+- explicit identification of the first unsupported transition;
 - mapping to authorised source categories without invented clauses or values;
 - supported, conditional and unresolved findings;
+- evidence owners and recheck triggers for material gaps;
+- changed-context transfer under at least two altered conditions;
 - explicit correction of one misconception; and
 - a clear stop and escalation boundary.
+
+Each criterion is recorded as **secure**, **developing**, **unsupported** or **`stop-required`**. These are educational planning states, not official assessment grades or competency decisions. An aggregate score is not used because strength in one area cannot cancel a safety-critical or authority failure elsewhere.
 
 ## Related concepts
 
@@ -80,10 +92,13 @@ Observable evidence includes:
 - [[Protection Coordination]]
 - [[Assessment Readiness]]
 - [[Remediation Planning]]
+- [[Confidence Calibration]]
 
 ## Safety boundary
 
 This is a written integration checkpoint. It authorises no switching, isolation, opening, proving, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning, certification or verification. Exact clauses, values, characteristics, source conditions, test methods and jurisdiction-specific requirements remain `reference_check_required`.
+
+A response is `stop-required` if it proposes unauthorised practical action, treats device operation as proof of safety, ignores a material contradiction, invents exact technical evidence or claims approval despite a blocking gap.
 
 ## References and currency
 
