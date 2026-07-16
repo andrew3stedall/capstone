@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Rule-finding search funnel</title>
+  <desc id="desc">Black-and-white funnel diagram showing a broad question narrowing through concepts, definitions, scope and cross-references into a traceable answer.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g stroke="black" fill="none" stroke-width="4" stroke-linejoin="round">
+    <path d="M120 70h720L610 260v90H350v-90z"/>
+    <path d="M250 130h460M310 190h340M370 250h220"/>
+    <path d="M480 350v42"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" fill="black" text-anchor="middle">
+    <text x="480" y="55">Broad technical question</text>
+    <text x="480" y="118">Concepts and neutral search terms</text>
+    <text x="480" y="178">Definitions and scope</text>
+    <text x="480" y="238">Requirements and cross-references</text>
+    <text x="480" y="405">Traceable narrow answer</text>
+  </g>
+</svg>
