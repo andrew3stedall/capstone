@@ -61,13 +61,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 46 — Documentation and traceability
 - [x] Block 47 — Defect communication without overclaiming
 - [x] Block 48 — Cumulative diagnostic case
+- [x] Block 49 — Rest, reflection and catch-up
+- [x] Block 50 — Integrated installation scenario setup
+- [x] Block 51 — Planning evidence pack
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 46–48 retain `reference_check_required: true` and `technically_reviewed: false`. They teach traceable documentation, bounded defect communication and documentary diagnostic integration without prescribing access, isolation, energised work, instruments, test procedures, values, classifications, repairs or compliance decisions.
+Block 49 retains `reference_check_required: false`, `status: review-required` and `technically_reviewed: false`; it repairs reasoning only. Blocks 50–51 retain `reference_check_required: true`, `status: review-required` and `technically_reviewed: false`. They create a fictional scenario frame and planning evidence pack without supplying a compliant design, component values, switching or isolation procedures, inspection or testing instructions, or compliance decisions.
 
 ## Next increment
 
-Block 49 — Rest, reflection and catch-up.
+Block 52 — Protection and earthing review.
