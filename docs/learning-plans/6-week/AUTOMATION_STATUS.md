@@ -24,45 +24,45 @@ pull_request: 6
 - Dedicated modules complete: Days 1–42.
 - Drafting phase: complete.
 - Quality-improvement phase: active.
-- Completed quality passes: Days 1–37.
-- Exactly one next increment: quality-improvement pass — Day 38, Test Sequence, Expected Evidence and Result Interpretation.
+- Completed quality passes: Days 1–38.
+- Exactly one next increment: quality-improvement pass — Day 39, Systematic Fault-Finding Workflow and Evidence Control.
 
 ## Completed increments
 
-- Quality-improvement passes for Days 1–36 are recorded in prior repository history and each module's YAML metadata.
-- **Day 37:** strengthened P-R-E-C-H-E-C-K with five evidence grades, four claim grades, a test-precondition ledger, purpose/procedure and state/proof distinctions, source and authority dependencies, selective reopening triggers, worked-example fading, changed-source/document/instrument transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible five-link precondition visual.
+- Quality-improvement passes for Days 1–37 are recorded in prior repository history and each module's YAML metadata.
+- **Day 38:** strengthened S-E-Q-U-E-N-C-E with five evidence grades, four claim grades, a result-interpretation ledger, validity-versus-acceptance separation, dependency propagation, selective reopening triggers, worked-example fading, changed-source/document/instrument/criterion transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible five-link evidence visual.
 
 ## Files updated in this increment
 
-- `docs/learning-plans/6-week/modules/day-37-mandatory-test-purposes-and-safe-test-preconditions.md`
-- `docs/assets/learning/6-week/day-37-mandatory-test-purposes-and-safe-test-preconditions/a-test-needs-five-precondition-proofs.svg`
-- `docs/knowledge-base/Six-Week Day 37 - Mandatory Test Purposes and Safe Test Preconditions.md`
+- `docs/learning-plans/6-week/modules/day-38-test-sequence-expected-evidence-and-result-interpretation.md`
+- `docs/assets/learning/6-week/day-38-test-sequence-expected-evidence-and-result-interpretation/a-result-needs-five-evidence-proofs.svg`
+- `docs/knowledge-base/Six-Week Day 38 - Test Sequence Expected Evidence and Result Interpretation.md`
 - `docs/learning-plans/6-week/MASTER_PLAN.md`
 - `docs/learning-plans/6-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 37 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact mandatory tests, test methods, sequences, required circuit states, instrument requirements, acceptance criteria, records and jurisdiction-specific duties require current authorised information and qualified review.
-- P-R-E-C-H-E-C-K, the evidence and claim grades, test-precondition ledger, fictional scenarios, Mermaid diagram, transfer tasks and rubric are original educational models.
+- Day 38 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact prescribed test sequences, methods, circuit states, instrument requirements, values, units, acceptance criteria, records and jurisdiction-specific duties require current authorised information and qualified review.
+- S-E-Q-U-E-N-C-E, the evidence and claim grades, result-interpretation ledger, fictional scenarios, Mermaid diagram, transfer tasks and rubric are original educational models.
 - No standards table, copied figure, systematic clause wording, exact official value, official assessment content or practical field procedure was reproduced.
-- The module authorises no site access, opening, switching, isolation, proving, locking, tagging, connection, contact, measurement, testing, energisation, certification, approval or return to service.
+- The module authorises no site access, opening, switching, isolation, proving, locking, tagging, connection, contact, instrument use, measurement, testing, fault diagnosis, energisation, certification, approval or return to service.
 
 ## Quality-pass tracker
 
-- Modules awaiting one quality-improvement pass: Days 38–42.
-- Quality-improvement passes completed: Days 1–37.
+- Modules awaiting one quality-improvement pass: Days 39–42.
+- Quality-improvement passes completed: Days 1–38.
 - Selection rule: choose the first module without a recorded pass; persistent review flags do not cause reselection.
 
 ## Increment review
 
-- Day 37 retains the exact eight required beats and compatible YAML metadata.
-- The Mermaid diagram uses standard flowchart syntax, unique node identifiers and no operational test instructions.
-- Module and note navigation are reciprocal and point to Days 36 and 38; the existing adjacent files already link to Day 37.
-- Both Day 37 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
-- Five evidence grades, four claim grades and the test-precondition ledger prevent a recognised test name, instrument status label, drawing, schedule, previous record or conceptual state category from substituting for boundary, source, authority, method and equipment evidence.
-- Reopening triggers cover scope, circuit identity, equipment, exclusions, normal and alternate sources, stored energy, automatic restoration, document revision, approved method, acceptance source, instrument status, environment, competence, supervision and authority.
-- Worked-example fading, independent changed-source/document/instrument transfer and delayed retrieval are included without adding unverified methods, sequences, limits, values or practical procedures.
+- Day 38 retains the exact eight required beats and compatible YAML metadata.
+- The Mermaid diagram uses standard flowchart syntax, unique node identifiers and no operational testing instructions.
+- Module and note navigation are reciprocal and point to Days 37 and 39; the existing adjacent files already link to Day 38.
+- Both Day 38 SVG references have descriptive alt text and instructional captions; the new visual uses a white background, black line art, semantic image metadata, an accessible title and descriptive text alternative.
+- Five evidence grades, four claim grades and the result-interpretation ledger prevent a plausible value, familiar unit, prior result, drawing, schedule or unchanged equipment description from substituting for identity, provenance, method, conditions, dependency and authorised-criterion evidence.
+- Reopening triggers cover circuit identity, equipment, boundary, exclusions, normal and alternate sources, stored energy, automatic restoration, document revision, approved method, instrument status, units, environmental condition, authority and authorised criterion.
+- Worked-example fading, independent changed-source/document/instrument/criterion transfer and delayed retrieval are included without adding unverified procedures, sequences, values, limits or acceptance criteria.
 - The six-category rubric includes critical-error gates and is explicitly distinguished from an official RTO pass mark.
 - Sequence, terminology, relative links, Mermaid syntax, SVG references, duplicate-content risk, accessibility, copyright and safety boundaries were reviewed together.
 
@@ -73,4 +73,4 @@ pull_request: 6
 
 ## Exact next increment
 
-**Quality-improvement pass — Day 38: Test Sequence, Expected Evidence and Result Interpretation**
+**Quality-improvement pass — Day 39: Systematic Fault-Finding Workflow and Evidence Control**
