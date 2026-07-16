@@ -135,7 +135,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 8 of 84.
+- **Completed quality-improvement passes:** 9 of 84.
 - [x] [Quality pass 1 — Day 1, Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2, Electrical hazards, exposure pathways and consequence reasoning](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3, Roles, authority, supervision and practical stop conditions](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -144,7 +144,8 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 6 — Day 6, Evidence quality, applicability and completeness workshop](modules/day-06-evidence-quality-applicability-and-completeness-workshop.md)
 - [x] [Quality pass 7 — Day 7, Week 1 consolidation and individual remediation plan](modules/day-07-week-1-consolidation-and-individual-remediation-plan.md)
 - [x] [Quality pass 8 — Day 8, Circuit quantities, load reasoning and prerequisite calculation check](modules/day-08-circuit-quantities-load-reasoning-and-prerequisite-calculation-check.md)
-- **Next quality-improvement pass:** Day 9 — Overload, short-circuit and fault-current distinctions.
+- [x] [Quality pass 9 — Day 9, Overload, short-circuit and fault-current distinctions](modules/day-09-overload-short-circuit-and-fault-current-distinctions.md)
+- **Next quality-improvement pass:** Day 10 — Protective-device roles and protection boundaries.
 - Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
