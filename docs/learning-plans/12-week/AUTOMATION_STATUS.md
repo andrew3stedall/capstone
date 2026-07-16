@@ -9,42 +9,42 @@ updated_on: 2026-07-16
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 16 completed for Day 16 — Protective Earthing Continuity and Exposed Conductive Parts.
-- **Quality-improvement passes:** 16 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 17, Equipotential Bonding Purpose and Boundary Reasoning.
+- **Current increment:** Quality-improvement pass 17 completed for Day 17 — Equipotential Bonding Purpose and Boundary Reasoning.
+- **Quality-improvement passes:** 17 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 18, MEN Arrangement and Normal-Current versus Fault-Current Paths.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 16 — Day 16
+### Quality-improvement pass 17 — Day 17
 
 - Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level states: secure, developing, unsupported and `stop-required`.
-- Expanded the claim ladder to distinguish presence, identity, connection, continuity, suitability and verified protective outcome.
+- Expanded the bonding claim ladder to distinguish presence, identity, classification, requirement, connection, continuity, suitability and verified protective outcome.
 - Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Added the first unsupported transition as the mandatory boundary on downstream continuity and protection claims.
-- Added parallel-path reasoning so an unidentified continuity result is not treated automatically as proof of the intended path.
+- Added the first unsupported transition as the mandatory boundary on downstream bonding and protection claims.
+- Strengthened the worked scenario with conflicting maintenance and renovation records while keeping the technical conclusion unresolved.
 - Added evidence owners and explicit recheck triggers for every material unresolved claim.
-- Required changed-context transfer to alter at least two material conditions and rebuild the full reasoning chain.
+- Required changed-context transfer to alter at least two material conditions and rebuild the reasoning from the scenario boundary.
 - Added blocking conditions so safety, authority, contradiction and evidence failures cannot be cancelled by stronger performance elsewhere.
-- Updated the knowledge-base note and direct Day 15/Day 16/Day 17 navigation.
-- Tracker state after this increment: 16 of 84 quality-improvement passes complete; next is Day 17.
+- Updated the knowledge-base note and direct Day 16/Day 17/Day 18 navigation.
+- Tracker state after this increment: 17 of 84 quality-improvement passes complete; next is Day 18.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md`
-- `docs/knowledge-base/12-Week Day 16 - Protective Earthing Continuity and Exposed Conductive Parts.md`
+- `docs/learning-plans/12-week/modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md`
+- `docs/knowledge-base/12-Week Day 17 - Equipotential Bonding Purpose and Boundary Reasoning.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 16 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact exposed-conductive-part definitions, required protective-earthing connections, continuity requirements, conductor criteria, test methods, acceptance criteria, fault paths, protective-device interaction and assessment requirements require current authorised sources and qualified review.
+- Day 17 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact bonding and conductive-part definitions, applicability rules, accessibility criteria, connection requirements, conductor criteria, continuity requirements, test methods, acceptance criteria, touch-potential treatment and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, clause sequence, conductor size, continuity value, test method, device operating value, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
-- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
+- No official pass mark, clause sequence, conductor size, connection location, test value, acceptance criterion, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
@@ -52,8 +52,8 @@ updated_on: 2026-07-16
 - Checked that technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels, decisions and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with an explicit instructional caption.
-- Checked direct master-plan links and reciprocal Day 15/Day 16/Day 17 module and knowledge-note navigation.
-- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, parallel-path reasoning and first-unsupported-transition logic for internal consistency.
+- Checked direct master-plan links and reciprocal Day 16/Day 17/Day 18 module and knowledge-note navigation.
+- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, contradiction handling and first-unsupported-transition logic for internal consistency.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -75,12 +75,13 @@ updated_on: 2026-07-16
   - [Day 14 — Week 2 Protection Integration Checkpoint](modules/day-14-week-2-protection-integration-checkpoint.md)
   - [Day 15 — Earthing Terminology and Component Roles](modules/day-15-earthing-terminology-and-component-roles.md)
   - [Day 16 — Protective Earthing Continuity and Exposed Conductive Parts](modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md)
-- **Next pass:** Day 17 — Equipotential Bonding Purpose and Boundary Reasoning.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–16 to be selected again.
+  - [Day 17 — Equipotential Bonding Purpose and Boundary Reasoning](modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md)
+- **Next pass:** Day 18 — MEN Arrangement and Normal-Current versus Fault-Current Paths.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–17 to be selected again.
 
 ## Commit behaviour
 
-The connected contents interface created sequential commits for the module, knowledge note and both canonical tracker updates. The requested single atomic commit was not available through this write path in this run.
+The module, knowledge note and both canonical tracker updates were assembled into one Git tree commit in this run.
 
 ## Run rules
 
