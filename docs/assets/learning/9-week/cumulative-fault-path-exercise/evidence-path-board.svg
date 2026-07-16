@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence-labelled fault-path board</title>
+  <desc id="desc">A black-and-white four-column board labelled scenario facts, path segments, protective outcomes and unresolved gaps. Cards move from facts through reasoning while unknown evidence remains visibly separated.</desc>
+  <rect x="1" y="1" width="958" height="538" fill="white" stroke="black" stroke-width="2"/>
+  <text x="480" y="42" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="bold">Build the path without hiding the gaps</text>
+  <g fill="white" stroke="black" stroke-width="3">
+    <rect x="35" y="80" width="205" height="400" rx="10"/>
+    <rect x="265" y="80" width="205" height="400" rx="10"/>
+    <rect x="495" y="80" width="205" height="400" rx="10"/>
+    <rect x="725" y="80" width="200" height="400" rx="10"/>
+    <rect x="60" y="150" width="155" height="60" rx="6"/>
+    <rect x="60" y="240" width="155" height="60" rx="6"/>
+    <rect x="290" y="150" width="155" height="60" rx="6"/>
+    <rect x="290" y="240" width="155" height="60" rx="6"/>
+    <rect x="520" y="150" width="155" height="60" rx="6"/>
+    <rect x="520" y="240" width="155" height="60" rx="6"/>
+    <rect x="750" y="150" width="150" height="60" rx="6" stroke-dasharray="9 7"/>
+    <rect x="750" y="240" width="150" height="60" rx="6" stroke-dasharray="9 7"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle">
+    <text x="137" y="115" font-size="20" font-weight="bold">Scenario facts</text>
+    <text x="367" y="115" font-size="20" font-weight="bold">Path segments</text>
+    <text x="597" y="108" font-size="20" font-weight="bold">Protective</text><text x="597" y="132" font-size="20" font-weight="bold">outcomes</text>
+    <text x="825" y="108" font-size="20" font-weight="bold">Unresolved</text><text x="825" y="132" font-size="20" font-weight="bold">gaps</text>
+    <text x="137" y="187" font-size="17">stated state</text>
+    <text x="137" y="277" font-size="17">shown fault</text>
+    <text x="367" y="180" font-size="17">segment A</text><text x="367" y="200" font-size="14">shown</text>
+    <text x="367" y="270" font-size="17">segment B</text><text x="367" y="290" font-size="14">inferred</text>
+    <text x="597" y="180" font-size="17">intended function</text><text x="597" y="200" font-size="14">not yet proven</text>
+    <text x="597" y="270" font-size="17">bounded result</text><text x="597" y="290" font-size="14">qualitative only</text>
+    <text x="825" y="180" font-size="17">unknown link</text>
+    <text x="825" y="270" font-size="17">source check</text>
+  </g>
+  <path d="M215 360 H745" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="black"/></marker></defs>
+  <text x="480" y="405" text-anchor="middle" font-family="sans-serif" font-size="18">A visible gap is safer than an invented connection</text>
+</svg>
