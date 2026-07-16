@@ -19,6 +19,9 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 04 — Safe information boundaries and authorised sources
 - [x] Block 05 — Rule-finding workflow foundations
 - [x] Block 06 — Retrieval lab: terminology and diagrams
+- [x] Block 07 — Rest, reflection and catch-up
+- [x] Block 08 — Circuit purpose and load grouping
+- [x] Block 09 — Conductor roles and identification
 
 ## Technical-review boundary
 
@@ -26,4 +29,4 @@ All generated modules are original educational drafts. Safety-critical content r
 
 ## Next increment
 
-Block 07 — Rest, reflection and catch-up.
+Block 10 — Current paths in normal operation.
