@@ -46,13 +46,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 31 — Conductor-selection variables
 - [x] Block 32 — Voltage-drop reasoning workflow
 - [x] Block 33 — Protection and conductor coordination
+- [x] Block 34 — Integrated planning case
+- [x] Block 35 — Rest, reflection and catch-up
+- [x] Block 36 — Verification evidence model
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 31–33 retain `reference_check_required: true` and `technically_reviewed: false`. They organise conductor-selection, voltage-drop and protection-coordination evidence only. They provide no conductor sizes, correction factors, voltage-drop limits, device curves, fault-current values, disconnection times or compliant component combinations.
+Blocks 34 and 36 retain `reference_check_required: true` and `technically_reviewed: false`. They organise integrated planning and verification evidence without supplying compliant designs, component selections, inspection sequences, test methods, instruments, acceptance values or certification decisions. Block 35 is a non-technical recovery module with `reference_check_required: false` and `technically_reviewed: false`.
 
 ## Next increment
 
-Block 34 — Integrated planning case.
+Block 37 — Structured visual inspection.
