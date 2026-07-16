@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Verification dependency gates</title>
+  <desc id="desc">A black-and-white flow diagram showing prerequisite evidence, a stop gate, a state-transition gate and a later evidence activity.</desc>
+  <rect width="900" height="500" fill="white"/>
+  <g fill="white" stroke="black" stroke-width="4">
+    <rect x="60" y="185" width="180" height="110" rx="18"/>
+    <polygon points="330,165 440,240 330,315 220,240"/>
+    <polygon points="570,165 680,240 570,315 460,240"/>
+    <rect x="700" y="185" width="150" height="110" rx="18"/>
+    <path d="M240 240 H220 M440 240 H460 M680 240 H700"/>
+    <path d="M330 315 V410 H570 V315" stroke-dasharray="10 8"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="black">
+    <text x="150" y="225">Prerequisite</text><text x="150" y="255">evidence</text>
+    <text x="330" y="230">Stop gate</text><text x="330" y="260">clear?</text>
+    <text x="570" y="225">State transition</text><text x="570" y="255">authorised?</text>
+    <text x="775" y="225">Later</text><text x="775" y="255">evidence</text>
+    <text x="450" y="445">Stop, record and escalate when a gate is not satisfied</text>
+  </g>
+</svg>
