@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 15 - Earthing Terminology and Component Roles
 
 ## Purpose
 
-This note establishes the controlled vocabulary needed for the Week 3 earthing sequence. It separates component identity, intended role, connection claims and verified condition so that labels, colours and symbols are not treated as proof of continuity, suitability or compliance.
+This note establishes the controlled vocabulary needed for the Week 3 earthing sequence. It separates component identity, intended role, connection claims and verified condition so labels, colours and symbols are not treated as proof of continuity, suitability or compliance. It also records contradiction handling, the first unsupported transition, evidence ownership and recheck triggers.
 
 ## Module
 
@@ -38,30 +38,36 @@ This note establishes the controlled vocabulary needed for the Week 3 earthing s
 - **Role claim:** the function an item is intended to perform.
 - **Connection claim:** whether stated endpoints are electrically connected.
 - **Condition claim:** whether continuity, integrity, suitability or performance has been established by evidence.
+- **First unsupported transition:** the earliest point where supported evidence becomes an unverified identity, connection, condition or performance claim.
+- **Evidence owner:** the authorised person, record or source category responsible for resolving a material gap.
+- **Recheck trigger:** a changed condition that requires the conclusion to be rebuilt.
 
 ## E-A-R-T-H workflow
 
-1. **Establish** the boundary.
-2. **Assign** the most precise supported terms.
-3. **Record** each component's intended role.
-4. **Test** each evidence claim as supplied, derived, assumed or missing.
-5. **Hold** the practical and certainty boundary.
+1. **Establish** the scenario, source and authority boundary.
+2. **Assign** the most precise terms supported by evidence.
+3. **Record** intended roles and label facts, inferences, assumptions, contradictions and gaps.
+4. **Trace** to the first unsupported transition.
+5. **Hold and hand off** with a bounded conclusion, evidence owner, recheck trigger and stop boundary.
 
 ## Practical application
 
-The learner classifies original labelled diagrams without relying on colour or location alone, separates role from condition, identifies missing endpoints or records, and reopens conclusions when a service material, supply arrangement, conductor endpoint or evidence record changes.
+The learner classifies original diagrams without relying on colour or location alone, separates role from condition, identifies conflicting records and missing endpoints, and rebuilds reasoning after at least two material changes such as service material, supply arrangement, endpoint visibility, drawing precedence or evidence-record quality.
 
 ## Assessment relevance
 
 Observable evidence includes:
 
-- precise use of earthing and bonding terminology;
-- separation of component and role;
-- distinction between normal-current and fault-current paths;
-- controlled identity, connection and condition claims;
-- at least one appropriately unresolved classification;
-- identification of authorised source categories; and
-- explicit refusal to inspect, trace, test, alter or approve beyond authority.
+- precise and bounded earthing and bonding terminology;
+- separation of identity, role, connection and condition;
+- distinction between normal-current, fault-current and touch-potential reasoning;
+- explicit facts, inferences, assumptions, contradictions and evidence gaps;
+- identification of the first unsupported transition;
+- an evidence owner and recheck trigger for unresolved material claims;
+- changed-context transfer using at least two material changes; and
+- explicit refusal to inspect, trace, test, alter, approve or certify beyond authority.
+
+Performance is recorded by criterion as **secure**, **developing**, **unsupported** or `stop-required`. These are educational planning states, not official grades, competency decisions or legal classifications. A blocking safety, authority, contradiction or evidence failure cannot be cancelled by stronger performance elsewhere.
 
 ## Related concepts
 
