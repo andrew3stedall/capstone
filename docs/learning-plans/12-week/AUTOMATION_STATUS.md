@@ -9,42 +9,42 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 22 completed for Day 22 — Load Schedules and Maximum-Demand Concepts.
-- **Quality-improvement passes:** 22 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 23, Design Current, Protective-Device Rating and Conductor Capacity.
+- **Current increment:** Quality-improvement pass 23 completed for Day 23 — Design Current, Protective-Device Rating and Conductor Capacity.
+- **Quality-improvement passes:** 23 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 24, Complete Cable-Selection Workflow and Evidence Record.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 22 — Day 22
+### Quality-improvement pass 23 — Day 23
 
 - Removed the unsupported 10–12 aggregate progression score and replaced it with criterion-level secure, developing, unsupported and `stop-required` states.
-- Added confidence calibration so correct guesses and high-confidence unsupported answers are distinguished from secure knowledge.
 - Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Expanded the demand claim ladder to separate load presence, identity and rating, operating relationship, supported subtotal, method applicability, method application and bounded design input.
-- Added the first unsupported transition as the mandatory boundary on downstream maximum-demand, cable, device, compliance and approval claims.
-- Strengthened the worked scenario with conflicting compressor ratings and an unverified control interlock, retaining competing interpretations instead of selecting convenient evidence.
-- Added evidence owners and explicit recheck triggers for unresolved ratings, operating relationships and demand-method applicability.
-- Required changed-context transfer to alter at least two material conditions and rebuild affected rows, cases and claim reasoning.
-- Added blocking conditions so invented ratings or allowances, ignored contradictions, invalid conversions and unauthorised practical actions cannot be offset by strengths elsewhere.
-- Added an instructional caption for the existing accessible SVG and updated the corresponding knowledge-base note.
-- Tracker state after this increment: 22 of 84 quality-improvement passes complete; next is Day 23.
+- Expanded the coordination claim chain to separate design-current evidence, device identity, protective role, conductor source, installation influences, corrected-capacity derivation and bounded coordination conclusion.
+- Added the first unsupported transition as the mandatory boundary on downstream suitability, operation, compliance and approval claims.
+- Strengthened the worked scenario with conflicting equipment and terminal records, preserving competing interpretations instead of selecting the convenient result.
+- Added evidence owners and explicit recheck triggers for unresolved equipment identity, factor applicability and source conflicts.
+- Required changed-context transfer to alter at least two material conditions and rebuild all affected reasoning rather than editing only the final value.
+- Added blocking conditions so invented ratings or factors, ignored contradictions, invalid conversions and unauthorised practical actions cannot be offset by stronger work elsewhere.
+- Clarified that repeating a calculator entry is not an independent check unless the inputs and method are independently reviewed.
+- Added an instructional caption for the existing accessible SVG and updated reciprocal Day 22/Day 23/Day 24 module and knowledge-note navigation.
+- Tracker state after this increment: 23 of 84 quality-improvement passes complete; next is Day 24.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-22-load-schedules-and-maximum-demand-concepts.md`
-- `docs/knowledge-base/12-Week Day 22 - Load Schedules and Maximum-Demand Concepts.md`
+- `docs/learning-plans/12-week/modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md`
+- `docs/knowledge-base/12-Week Day 23 - Design Current Protective-Device Rating and Conductor Capacity.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 22 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact maximum-demand definitions, authorised methods, applicability conditions, demand allowances, phase treatment, conversion relationships, design dependencies and assessment requirements require current authorised sources and qualified review.
+- Day 23 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact design-current definitions, coordination relationships, device characteristics, current-carrying capacities, installation classifications, correction factors, terminal limitations, fault conditions, exceptions and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, demand factor, diversity allowance, exact technical value, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- No official pass mark, conductor size, device curve, correction factor, exact technical value, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
 - The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
@@ -53,9 +53,10 @@ updated_on: 2026-07-17
 - Checked that technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels, decisions and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible and now has a concise instructional caption.
-- Checked direct master-plan links and reciprocal Day 21/Day 22/Day 23 module and knowledge-note navigation.
-- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, competing interpretations, contradiction handling and first-unsupported-transition logic for internal consistency.
-- Checked that connected load, operating-case subtotal and maximum demand remain distinct and that a claimed interlock is not treated as verified mutual exclusion.
+- Checked direct master-plan links and reciprocal Day 22/Day 23/Day 24 module and knowledge-note navigation.
+- Checked criterion-level states, blocking conditions, two-condition transfer, evidence-owner fields, recheck triggers, competing interpretations, contradiction handling and first-unsupported-transition logic for internal consistency.
+- Checked that device identity, protective role, suitability and operating claims remain distinct and that a nominal rating is not treated as proof of device operation.
+- Checked that base capacity, corrected capacity and terminal limitations remain traceable and that factors are not silently duplicated.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -83,8 +84,9 @@ updated_on: 2026-07-17
   - [Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning](modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md)
   - [Day 21 — Week 3 Earthing and Protection Integration Checkpoint](modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md)
   - [Day 22 — Load Schedules and Maximum-Demand Concepts](modules/day-22-load-schedules-and-maximum-demand-concepts.md)
-- **Next pass:** Day 23 — Design Current, Protective-Device Rating and Conductor Capacity.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–22 to be selected again.
+  - [Day 23 — Design Current, Protective-Device Rating and Conductor Capacity](modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md)
+- **Next pass:** Day 24 — Complete Cable-Selection Workflow and Evidence Record.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–23 to be selected again.
 
 ## Commit behaviour
 
