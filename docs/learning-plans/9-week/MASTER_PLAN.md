@@ -74,11 +74,11 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 46 — Documentation and traceability
 - [x] Block 47 — Defect communication without overclaiming
 - [x] Block 48 — Cumulative diagnostic case
-- [ ] Block 49 — Rest, reflection and catch-up
+- [x] Block 49 — Rest, reflection and catch-up
 
 ### Week 8 — capstone integration
-- [ ] Block 50 — Integrated installation scenario setup
-- [ ] Block 51 — Planning evidence pack
+- [x] Block 50 — Integrated installation scenario setup
+- [x] Block 51 — Planning evidence pack
 - [ ] Block 52 — Protection and earthing review
 - [ ] Block 53 — Switching and alternate-supply review
 - [ ] Block 54 — Inspection and testing review
