@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-17
 ---
 
 # 12-Week Day 18 - MEN Arrangement and Normal-Current versus Fault-Current Paths
 
 ## Purpose
 
-This note supports written reasoning about MEN system roles and the separation of normal-current and conceptual earth-fault paths. It prevents a learner from treating neutral and protective earthing as interchangeable or from treating a path sketch as proof of protective performance.
+This note supports written reasoning about MEN system roles, separate normal-current and conceptual fault-current paths, evidence provenance and bounded conclusions. It prevents neutral and protective earthing from being treated as interchangeable and prevents a path sketch, conductor label or conflicting record from being treated as proof of protective performance.
 
 ## Module
 
@@ -29,27 +29,39 @@ This note supports written reasoning about MEN system roles and the separation o
 
 ## Core concepts
 
-- **Normal current:** current flowing in the intended operational circuit.
+- **Normal current:** current flowing through the intended operational circuit.
 - **Fault current:** current caused by failure of an intended electrical condition.
-- **MEN connection:** the defined neutral-to-earthing relationship within the applicable system architecture; exact conditions require authorised verification.
+- **MEN relationship:** the defined neutral-to-earthing relationship within the applicable system architecture; exact conditions require authorised verification.
 - **Protective-earthing conductor:** part of the protective arrangement, not an intended ordinary load-current return.
-- **Fault-current path:** the complete conceptual route available to fault current; drawing it does not prove impedance or protective-device operation.
-- **Parallel path:** an additional route that may share current and therefore requires investigation rather than assumption.
-- **Claim boundary:** the strongest conclusion supported by the available evidence.
+- **Complete loop:** an outward and return relationship reaching the source relationship conceptually; drawing it does not prove effectiveness.
+- **Parallel path:** an additional route that may share current and create a competing interpretation.
+- **Path provenance:** the source, date, endpoints, system state and authority associated with path evidence.
+- **First unsupported transition:** the earliest point where a conclusion depends on an assumption, contradiction or unresolved evidence gap.
+- **Evidence owner:** the authorised person, record or process responsible for resolving a material gap.
+- **Recheck trigger:** new evidence or a changed condition requiring the conclusion to be reopened.
+
+## Evidence labels
+
+- **Stated fact:** supplied directly by the scenario or a current authorised record.
+- **Derived fact:** follows transparently from stated facts without an added premise.
+- **Supported inference:** a bounded interpretation supported by available evidence.
+- **Assumption:** an unstated premise required to continue the reasoning.
+- **Contradiction:** material sources or observations that cannot jointly support one conclusion without resolution.
+- **Evidence gap:** information required for a claim but not available.
 
 ## P-A-T-H-W-A-Y workflow
 
-1. **Pin down** the operating condition.
-2. **Arrange** the stated source, conductors, load, exposed parts and MEN relationship.
-3. **Trace** outward current.
-4. **Highlight** the correct return relationship.
-5. **Weigh** drawing, record, continuity and test evidence separately.
-6. **Avoid** impedance, operating-time, compliance or safety claims without proof.
-7. **Yield** at the authority boundary.
+1. **Pin down** the condition.
+2. **Arrange** components and evidence provenance.
+3. **Trace** the outward route.
+4. **Highlight** the relevant return relationship.
+5. **Weigh** claims using the six evidence labels and competing-path alternatives.
+6. **Arrest** reasoning at the first unsupported transition.
+7. **Yield** with an evidence owner, recheck trigger and authority-boundary stop.
 
 ## Practical application
 
-The learner reconstructs separate normal and conceptual fault paths, completes an evidence ledger, and reopens conclusions when conductor information, source arrangements, enclosure construction or evidence currency changes.
+The learner reconstructs separate normal and conceptual fault paths, records provenance, keeps contradictory termination records and parallel-path alternatives open, and rebuilds conclusions after at least two material conditions change.
 
 ## Assessment relevance
 
@@ -58,9 +70,14 @@ Observable evidence includes:
 - separating normal and fault conditions before tracing;
 - distinguishing active, neutral, protective-earthing and MEN roles;
 - producing complete conceptual loops without invented connections;
-- separating path description from continuity, impedance and operating-outcome claims;
-- using conditional wording where source or conductor relationships are incomplete; and
+- applying the six evidence labels accurately;
+- identifying the first unsupported transition;
+- separating path description from continuity, path-condition and operating-outcome claims;
+- assigning evidence owners and recheck triggers;
+- rebuilding the reasoning after two changed conditions; and
 - refusing field access, testing, alteration or approval beyond authority.
+
+Criterion states are **secure**, **developing**, **unsupported** and `stop-required`. Strong performance in one criterion cannot cancel an unsupported or `stop-required` result elsewhere. These are educational planning states, not official assessment grades or competency decisions.
 
 ## Related concepts
 
@@ -72,11 +89,12 @@ Observable evidence includes:
 - [[Protective Devices]]
 - [[Continuity Testing]]
 - [[Fault Loop Reasoning]]
+- [[Evidence Provenance]]
 - [[Safe Isolation]]
 
 ## Safety boundary
 
-This is a written reasoning module. It authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification. Exact MEN arrangements, connection locations, conductor requirements, device characteristics, test methods, acceptance criteria and jurisdiction-specific duties remain `reference_check_required`.
+This is a written reasoning module. It authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification. Exact MEN arrangements, connection locations, conductor requirements, source relationships, device characteristics, test methods, acceptance criteria and jurisdiction-specific duties remain `reference_check_required`.
 
 ## References and currency
 
