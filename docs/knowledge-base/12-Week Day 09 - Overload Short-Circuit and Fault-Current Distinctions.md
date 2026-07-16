@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 09 - Overload Short-Circuit and Fault-Current Distinctions
 
 ## Purpose
 
-This note connects calculation literacy to protection reasoning. Day 9 teaches the learner to classify a current event from its initiating condition and current path before considering protective-device purpose or operation.
+This note connects calculation literacy to protection reasoning. Day 9 classifies a current event from its initiating condition, complete current path and evidence state before any protective-device purpose or operation is considered.
 
 ## Module
 
@@ -27,32 +27,57 @@ This note connects calculation literacy to protection reasoning. Day 9 teaches t
 
 ## Core concepts
 
-- **Normal load current:** current in the intended active–load–return path under the stated operating condition.
+- **Normal load current:** current in the intended source–load–return path under the stated operating condition.
 - **Overcurrent:** current exceeding the relevant intended or rated current for the part being considered.
 - **Overload current:** excessive current in an intended, electrically sound path rather than through an unintended conductor-to-conductor path.
 - **Short-circuit current:** current through an unintended connection between points that should be at different potentials.
 - **Earth-fault current:** current caused by an unintended path involving active parts and exposed metalwork, protective earthing, earth or another relevant conductive return.
 - **Fault current:** a broader category of current resulting from an electrical fault.
-- **Residual current:** current imbalance represented at the monitored conductors of an RCD; it is not automatically identical to earth-fault current in every arrangement.
-- **Described event:** a condition explicitly stated in the scenario.
-- **Inferred event:** a reasoned interpretation that still depends on assumptions.
-- **Verified event:** a condition supported by adequate authorised evidence and procedure.
+- **Residual current:** imbalance represented at monitored conductors; it is not automatically identical to earth-fault current in every arrangement.
+- **Initiating condition:** the stated change that begins the event.
+- **First unsupported transition:** the earliest reasoning step that depends on an unresolved assumption, contradiction, missing path or unverified relationship.
+- **Evidence owner:** the person, current authorised source or controlled record responsible for resolving an evidence gap.
+
+## Evidence states
+
+A classification record distinguishes:
+
+- stated facts;
+- inferences;
+- assumptions;
+- contradictions;
+- evidence gaps; and
+- the first unsupported transition.
+
+A contradiction or missing loop segment cannot be averaged away by otherwise strong reasoning. The conclusion must stop at the earliest unsupported transition.
 
 ## P-A-T-H-S workflow
 
-1. **Pin down** the change that initiated the event.
-2. **Account for conductors** and conductive parts involved.
-3. **Trace the loop** for both intended and changed paths.
-4. **Hold competing classifications** until the evidence distinguishes them.
-5. **State evidence and limits** before any protective-device conclusion.
+1. **Pin down** the initiating change.
+2. **Account for conductors** and conductive parts in both paths.
+3. **Trace both loops** back to the source and mark missing segments.
+4. **Hold alternatives** including overlapping descriptions and insufficient evidence.
+5. **State support and stop point** before handing the bounded question to Day 10.
 
 ## Practical application
 
-The learner sorts path cards, compares four original fictional scenarios, completes classification records, repeats the task with supports removed and revises a conclusion when one scenario fact changes. The final handoff identifies the protection question for Day 10 without selecting device ratings or predicting operation.
+The learner sorts path cards, compares four original fictional scenarios, labels evidence states, identifies contradictions, completes classification records and repeats the task with supports removed. Transfer requires at least two material condition changes. An imbalance-only scenario must remain a residual-current clue with its physical path unresolved unless further evidence is supplied.
+
+The final handoff identifies:
+
+- the possible protection purpose;
+- the conductor, equipment or risk under consideration;
+- required device and source evidence;
+- the evidence owner or authorised source; and
+- the exact point where the Day 9 conclusion stops.
+
+It does not select device ratings or predict operation.
 
 ## Assessment relevance
 
-Observable evidence includes precise terminology, complete path tracing, separation of described and inferred facts, classification based on initiating condition and path, revision after changed evidence and a bounded conclusion. Magnitude-only guesses and device-first answers do not demonstrate the intended capability.
+Observable evidence is recorded by criterion as **secure**, **developing**, **unsupported** or **`stop-required`**. The criteria are terminology, loop tracing, evidence control, classification, revision and boundary/handoff.
+
+There is no aggregate pass score. Any `stop-required` result blocks progression until corrected and demonstrated in a changed context. An unsupported result in loop tracing, evidence control, classification or boundary also requires targeted remediation before Day 10. These are educational planning states, not official competency grades.
 
 ## Related concepts
 
@@ -68,10 +93,14 @@ Observable evidence includes precise terminology, complete path tracing, separat
 - [[Protection Fundamentals]]
 - [[Confidence Calibration]]
 - [[Error Log]]
+- [[Evidence Gap]]
+- [[Contradictory Evidence]]
 
 ## Safety boundary
 
-This is a written and diagrammatic classification block. It authorises no switching, isolation, opening equipment, testing, measurement, fault creation, resetting, disconnection, alteration, repair, energisation, commissioning or verification. Exact definitions, clauses, fault-current values, device characteristics, operating times, test methods and jurisdiction-specific requirements remain `reference_check_required`.
+This is a written and diagrammatic classification block. It authorises no access, switching, isolation, opening equipment, testing, measurement, fault creation, resetting, disconnection, alteration, repair, energisation, commissioning, certification or verification. Exact definitions, clauses, fault-current values, device characteristics, operating times, test methods and jurisdiction-specific requirements remain `reference_check_required`.
+
+Stop when the loop or initiating condition is incomplete, material evidence conflicts, a device response depends on unverified data, or practical authority and procedure are unclear.
 
 ## References and currency
 
