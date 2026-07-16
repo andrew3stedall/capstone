@@ -127,7 +127,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 - [x] [Day 79 — Staged written and rule-navigation mock assessment](modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
 - [x] [Day 80 — Staged design and calculation mock assessment](modules/day-80-staged-design-and-calculation-mock-assessment.md)
 - [x] [Day 81 — Staged inspection, verification and fault-reasoning mock assessment](modules/day-81-staged-inspection-verification-and-fault-reasoning-mock-assessment.md)
-- [x] [Day 82 — Rest and evidence-led error-log consolidation](modules/day-82-rest-evidence-led-error-log-consolidation.md)
+- [x] [Day 82 — Rest and evidence-led error-log consolidation](modules/day-82-rest-and-evidence-led-error-log-consolidation.md)
 - [x] [Day 83 — Full integrated mock assessment](modules/day-83-full-integrated-mock-assessment.md)
 - [x] [Day 84 — Mock review, readiness decision and post-program study plan](modules/day-84-mock-review-readiness-decision-and-post-program-study-plan.md)
 
