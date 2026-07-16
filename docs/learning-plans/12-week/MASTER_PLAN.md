@@ -135,7 +135,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 13 of 84.
+- **Completed quality-improvement passes:** 14 of 84.
 - [x] [Quality pass 1 — Day 1, Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2, Electrical hazards, exposure pathways and consequence reasoning](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3, Roles, authority, supervision and practical stop conditions](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -149,7 +149,8 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 11 — Day 11, RCD purpose, limitations and interaction with other protection](modules/day-11-rcd-purpose-limitations-and-interaction-with-other-protection.md)
 - [x] [Quality pass 12 — Day 12, Rest, retrieval and misconception repair](modules/day-12-rest-retrieval-and-misconception-repair.md)
 - [x] [Quality pass 13 — Day 13, Protection-selection evidence workflow using original scenarios](modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md)
-- **Next quality-improvement pass:** Day 14 — Week 2 protection integration checkpoint.
+- [x] [Quality pass 14 — Day 14, Week 2 protection integration checkpoint](modules/day-14-week-2-protection-integration-checkpoint.md)
+- **Next quality-improvement pass:** Day 15 — Earthing terminology and component roles.
 - Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
