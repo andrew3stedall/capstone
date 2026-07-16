@@ -44,9 +44,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 22 — Functional switching versus isolation
 - [x] Block 23 — Main switches and control points
 - [x] Block 24 — Alternative and multiple supplies
-- [ ] Block 25 — Source-state mapping
-- [ ] Block 26 — Isolation evidence and stop conditions
-- [ ] Block 27 — Interleaved switching and fault retrieval
+- [x] Block 25 — Source-state mapping
+- [x] Block 26 — Isolation evidence and stop conditions
+- [x] Block 27 — Interleaved switching and fault retrieval
 - [ ] Block 28 — Rest, reflection and catch-up
 
 ### Week 5 — installation planning and verification preparation
@@ -98,5 +98,3 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 
 - [Automation status](AUTOMATION_STATUS.md)
 - [Four-week program](../4-week/MASTER_PLAN.md)
-- [Learning design](../../LEARNING_DESIGN.md)
-- [Content and copyright policy](../../CONTENT_AND_COPYRIGHT.md)
