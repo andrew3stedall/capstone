@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Week one retrieval grid</title>
+  <desc id="desc">Black-and-white four-cell instructional grid labelled terminology, quantities, diagrams and source judgement, with a learner recording confidence and errors.</desc>
+  <rect width="960" height="520" fill="white"/>
+  <g stroke="black" fill="none" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="80" y="70" width="620" height="360"/>
+    <path d="M390 70v360M80 250h620"/>
+    <circle cx="790" cy="150" r="24"/>
+    <path d="M790 174v90m0-55-42 28m42-28 42 28m-42 27-32 65m32-65 32 65"/>
+    <rect x="735" y="335" width="150" height="95"/>
+    <path d="M755 360h110m-110 25h85m-85 25h100"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">
+    <text x="235" y="165">Terminology</text>
+    <text x="545" y="165">Quantities</text>
+    <text x="235" y="345">Diagrams</text>
+    <text x="545" y="345">Source judgement</text>
+    <text x="790" y="470">Confidence + error log</text>
+  </g>
+</svg>
