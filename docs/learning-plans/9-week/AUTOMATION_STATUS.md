@@ -31,13 +31,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 16 — MEN system concept map
 - [x] Block 17 — Fault-current path reasoning
 - [x] Block 18 — Touch-voltage risk concepts
+- [x] Block 19 — Earthing versus neutral misconceptions
+- [x] Block 20 — Cumulative fault-path exercise
+- [x] Block 21 — Rest, reflection and catch-up
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Block 14 is a non-technical study-planning increment and therefore does not require an external technical reference check. Blocks 13 and 15–18 retain `reference_check_required: true` because they apply safety-critical electrical concepts.
+Blocks 19 and 20 retain `reference_check_required: true` because they apply safety-critical earthing, neutral, fault-path and touch-risk concepts. Block 21 is a non-technical consolidation increment and therefore uses `reference_check_required: false`; it does not resolve technical uncertainties.
 
 ## Next increment
 
-Block 19 — Earthing versus neutral misconceptions.
+Block 22 — Functional switching versus isolation.
