@@ -68,9 +68,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 42 — Rest, reflection and catch-up
 
 ### Week 7 — fault diagnosis and documentation
-- [ ] Block 43 — Fault diagnosis as evidence updating
-- [ ] Block 44 — Symptom, cause and test distinction
-- [ ] Block 45 — Safe diagnostic boundaries
+- [x] Block 43 — Fault diagnosis as evidence updating
+- [x] Block 44 — Symptom, cause and test distinction
+- [x] Block 45 — Safe diagnostic boundaries
 - [ ] Block 46 — Documentation and traceability
 - [ ] Block 47 — Defect communication without overclaiming
 - [ ] Block 48 — Cumulative diagnostic case
