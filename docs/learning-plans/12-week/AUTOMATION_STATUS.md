@@ -9,39 +9,40 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 20 completed for Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning.
-- **Quality-improvement passes:** 20 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 21, Week 3 Earthing and Protection Integration Checkpoint.
+- **Current increment:** Quality-improvement pass 21 completed for Day 21 — Week 3 Earthing and Protection Integration Checkpoint.
+- **Quality-improvement passes:** 21 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 22, Load Schedules and Maximum-Demand Concepts.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 20 — Day 20
+### Quality-improvement pass 21 — Day 21
 
-- Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level secure, developing, unsupported and `stop-required` states.
+- Removed the unsupported 17–20 aggregate progression threshold and replaced it with criterion-level secure, developing, unsupported and `stop-required` states.
+- Added confidence calibration so correct guesses and high-confidence unsupported answers are distinguished from secure knowledge.
 - Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Expanded the fault-to-operation claim ladder to separate conceptual path, verified actual path, source/path conditions, device characteristics, verified criterion and demonstrated outcome.
-- Added the first unsupported transition as the mandatory boundary on downstream device-operation and disconnection claims.
-- Added competing interpretations for conflicting circuit records rather than silently preferring the convenient record.
+- Expanded the integration claim chain to separate observation, identity, intended role, conceptual path, verified actual path, source/device conditions, authorised criterion and verified outcome.
+- Added the first unsupported transition as the mandatory boundary on downstream operation, compliance and safety claims.
+- Added competing interpretations for contradictory drawing and renovation records rather than silently selecting one.
 - Added evidence owners and explicit recheck triggers for unresolved transitions.
-- Required changed-context transfer to alter at least two material conditions and rebuild the reasoning chain.
-- Added blocking conditions so invented device operation, ignored contradictions, merged protection functions and unauthorised practical action cannot be offset by strengths elsewhere.
-- Added direct Day 21 navigation and updated the corresponding knowledge-base note.
-- Tracker state after this increment: 20 of 84 quality-improvement passes complete; next is Day 21.
+- Required changed-context transfer to alter at least two material conditions and rebuild the evidence ledger and path reasoning.
+- Added blocking conditions so invented verification evidence, ignored contradictions, merged protection functions and unauthorised practical action cannot be offset by strengths elsewhere.
+- Added an instructional caption for the existing accessible SVG and updated the corresponding knowledge-base note.
+- Tracker state after this increment: 21 of 84 quality-improvement passes complete; next is Day 22.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md`
-- `docs/knowledge-base/12-Week Day 20 - MEN Fault Scenarios and Protective-Device Operation Reasoning.md`
+- `docs/learning-plans/12-week/modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md`
+- `docs/knowledge-base/12-Week Day 21 - Week 3 Earthing and Protection Integration Checkpoint.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 20 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact MEN arrangements, fault-loop requirements, source relationships, path characteristics, device characteristics, operating criteria, test methods, acceptance criteria and assessment requirements require current authorised sources and qualified review.
+- Day 21 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact earthing, bonding and MEN definitions, arrangements, source relationships, connection requirements, path characteristics, device characteristics, operating criteria, verification methods, acceptance criteria and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
 - No official pass mark, clause sequence, connection location, conductor size, impedance value, operating time, device curve, test method, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
 - The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, resetting, fault creation, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
@@ -51,9 +52,9 @@ updated_on: 2026-07-17
 - Confirmed YAML metadata and the exact eight required section headings.
 - Checked that technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels, decisions and edges and confirmed each is explained nearby.
-- Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with an explicit instructional caption.
-- Checked direct master-plan links and reciprocal Day 19/Day 20/Day 21 module and knowledge-note navigation.
-- Checked criterion-level states, blocking conditions, two-condition transfer, evidence-owner fields, recheck triggers, competing interpretations, contradiction handling and first-unsupported-transition logic for internal consistency.
+- Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible and now has a concise instructional caption.
+- Checked direct master-plan links and reciprocal Day 20/Day 21/Day 22 module and knowledge-note navigation.
+- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, competing interpretations, contradiction handling and first-unsupported-transition logic for internal consistency.
 - Checked that RCD operation is not treated as proof of protective-earthing continuity or fault-path identity.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
@@ -80,8 +81,9 @@ updated_on: 2026-07-17
   - [Day 18 — MEN Arrangement and Normal-Current versus Fault-Current Paths](modules/day-18-men-arrangement-and-normal-current-versus-fault-current-paths.md)
   - [Day 19 — Rest, Retrieval and Diagram Reconstruction](modules/day-19-rest-retrieval-and-diagram-reconstruction.md)
   - [Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning](modules/day-20-men-fault-scenarios-and-protective-device-operation-reasoning.md)
-- **Next pass:** Day 21 — Week 3 Earthing and Protection Integration Checkpoint.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–20 to be selected again.
+  - [Day 21 — Week 3 Earthing and Protection Integration Checkpoint](modules/day-21-week-3-earthing-and-protection-integration-checkpoint.md)
+- **Next pass:** Day 22 — Load Schedules and Maximum-Demand Concepts.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–21 to be selected again.
 
 ## Commit behaviour
 
