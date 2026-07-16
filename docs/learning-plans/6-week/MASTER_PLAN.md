@@ -88,9 +88,9 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-- [x] Days 1–39 — completed and recorded in `AUTOMATION_STATUS.md`, repository history and each module's YAML metadata.
-- [x] 2026-07-17 — [Day 40 — Rest, final catch-up and readiness triage](modules/day-40-rest-final-catch-up-and-readiness-triage.md): strengthened R-E-A-D-Y with five evidence grades, four claim grades, a readiness-evidence ledger, bounded three-repair triage, fatigue and uncertainty stop conditions, changed-condition transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible five-link evidence visual.
-- [ ] Next — Day 41 — Full mock assessment with design, inspection and verification components.
+- [x] Days 1–40 — completed and recorded in `AUTOMATION_STATUS.md`, repository history and each module's YAML metadata.
+- [x] 2026-07-17 — [Day 41 — Full mock assessment with design, inspection and verification components](modules/day-41-full-mock-assessment-with-design-inspection-and-verification-components.md): strengthened C-A-P-S-T-O-N-E with five evidence grades, four claim grades, an integrated evidence register, evidence quarantine, dependency mapping, changed-condition propagation, worked-example fading, independent transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible six-gate evidence visual.
+- [ ] Next — Day 42 — Mock review, remediation plan and final readiness decision.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
