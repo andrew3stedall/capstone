@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 ---
 
 # 12-Week Day 07 - Week 1 Consolidation and Individual Remediation Plan
 
 ## Purpose
 
-This note connects the Week 1 consolidation block to the wider Capstone knowledge graph. Day 7 checks whether the learner can coordinate hazard reasoning, authority boundaries, source navigation, evidence review, retrieval and remediation before beginning circuit-quantity work.
+This note connects the Week 1 consolidation block to the wider Capstone knowledge graph. Day 7 checks whether the learner can coordinate hazard reasoning, authority boundaries, source navigation, evidence control, confidence calibration and targeted remediation before beginning circuit-quantity work.
 
 ## Module
 
@@ -30,40 +30,51 @@ This note connects the Week 1 consolidation block to the wider Capstone knowledg
 
 ## Core concepts
 
-- **Consolidation:** connecting and stabilising prior learning through retrieval and transfer rather than passive rereading.
-- **Retrieval strength:** current ability to recall and use knowledge without prompts.
-- **Transfer:** applying learning in a changed context.
-- **Remediation target:** one narrowly stated observable capability requiring correction.
+- **Consolidation:** stabilising prior learning through retrieval and transfer rather than passive rereading.
+- **Retrieval strength:** present ability to recall and use knowledge without prompts.
+- **Transfer distance:** the material difference between the original task and the re-attempt.
+- **Error mechanism:** the process that produced an incorrect, unsupported or unsafe response.
 - **Blocking prerequisite:** a gap that makes the next block unreliable or unsafe.
-- **Readiness outcome:** ready, ready with support or not yet ready, based on evidence rather than schedule pressure.
+- **Criterion-level readiness:** separate secure, developing, unsupported and `stop-required` decisions rather than one aggregate score.
+- **Evidence owner:** the person, source or process responsible for resolving a recorded gap.
 
 ## R-E-P-A-I-R workflow
 
-1. **Retrieve** without notes.
-2. **Examine evidence** against objectives and safety boundaries.
-3. **Pinpoint the gap** and decide whether it blocks progression.
-4. **Assign a corrective action** focused on the smallest useful explanation or task.
-5. **Implement a varied re-attempt** in a changed context.
-6. **Record readiness** with evidence and a review point.
+1. **Retrieve** without notes and record confidence.
+2. **Examine** the response against objectives, evidence and safety boundaries.
+3. **Pinpoint** the observable error, mechanism, consequence and blocking status.
+4. **Assign** the smallest useful corrective action.
+5. **Implement transfer** after changing at least two material scenario conditions.
+6. **Record readiness** by criterion, support owner and review point.
 
-## Error categories
+## Error mechanisms
 
 - [[Knowledge Gap]]
+- [[Retrieval Practice]]
 - [[Process Gap]]
 - [[Applicability Reasoning]]
 - [[Evidence Quality]]
 - [[Authority Boundary]]
 - [[Confidence Calibration]]
 
-Safety-critical and high-confidence errors take priority. A strong total score must not hide an unsafe zero.
+The earliest mechanism that would prevent later errors receives priority. A correct guess does not establish secure performance, and a `stop-required` response cannot be averaged away.
 
 ## Practical application
 
-The learner reconstructs the Week 1 reasoning map, analyses a fictional switchboard-evidence scenario, selects no more than three remediation targets and completes a non-technical calculation-readiness check. Each target requires a focused corrective action and a varied re-attempt.
+The learner reconstructs the Week 1 reasoning map, analyses an unfamiliar fictional switchboard-evidence scenario, rebuilds the answer after two material condition changes, selects no more than three remediation targets and completes a non-technical calculation-readiness check. Each target records the mechanism, consequence, corrective action, changed-context task, evidence owner and review point.
 
 ## Assessment relevance
 
-Observable evidence includes closed-note retrieval of the Week 1 workflows, coordination of hazard, authority, source and evidence reasoning, a bounded written conclusion, an error-log trend, targeted remediation records and an evidence-based readiness decision.
+Observable evidence includes:
+
+- closed-note retrieval of six workflows and their purposes;
+- coordination of hazard, authority, source and evidence reasoning;
+- a bounded written conclusion with assumptions and evidence gaps visible;
+- confidence compared with actual performance;
+- changed-context transfer rather than copied correction;
+- criterion-level readiness for workflow retrieval, integrated reasoning, evidence discipline, transfer, remediation quality and calculation prerequisites.
+
+“Ready” means ready for Day 8 learning activity. It is not an official pass, competency decision or technical approval.
 
 ## Related concepts
 
@@ -79,7 +90,7 @@ Observable evidence includes closed-note retrieval of the Week 1 workflows, coor
 
 ## Safety boundary
 
-This is a written consolidation and prerequisite-readiness block. It authorises no switching, isolation, opening equipment, testing, resetting, disconnection, alteration, repair, energisation, commissioning, verification or practical demonstration. Exact clauses, limits, values, procedures and official assessment rules remain `reference_check_required`.
+This is a written consolidation and prerequisite-readiness block. It authorises no access, switching, isolation, opening equipment, testing, measurement, resetting, disconnection, alteration, repair, energisation, commissioning, certification, verification or practical demonstration. Exact clauses, limits, values, procedures and official assessment rules remain `reference_check_required`.
 
 ## References and currency
 
