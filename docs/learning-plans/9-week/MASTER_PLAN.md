@@ -52,9 +52,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 ### Week 5 — installation planning and verification preparation
 - [x] Block 29 — Installation purpose and circuit division
 - [x] Block 30 — Maximum-demand reasoning workflow
-- [ ] Block 31 — Conductor-selection variables
-- [ ] Block 32 — Voltage-drop reasoning workflow
-- [ ] Block 33 — Protection and conductor coordination
+- [x] Block 31 — Conductor-selection variables
+- [x] Block 32 — Voltage-drop reasoning workflow
+- [x] Block 33 — Protection and conductor coordination
 - [ ] Block 34 — Integrated planning case
 - [ ] Block 35 — Rest, reflection and catch-up
 
