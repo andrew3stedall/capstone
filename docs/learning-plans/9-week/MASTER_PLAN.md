@@ -36,9 +36,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 16 — MEN system concept map
 - [x] Block 17 — Fault-current path reasoning
 - [x] Block 18 — Touch-voltage risk concepts
-- [ ] Block 19 — Earthing versus neutral misconceptions
-- [ ] Block 20 — Cumulative fault-path exercise
-- [ ] Block 21 — Rest, reflection and catch-up
+- [x] Block 19 — Earthing versus neutral misconceptions
+- [x] Block 20 — Cumulative fault-path exercise
+- [x] Block 21 — Rest, reflection and catch-up
 
 ### Week 4 — switching, isolation and alternate supplies
 - [ ] Block 22 — Functional switching versus isolation
