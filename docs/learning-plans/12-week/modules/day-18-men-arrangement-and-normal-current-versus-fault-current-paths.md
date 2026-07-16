@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-17
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -36,224 +36,158 @@ related_simulations: []
 
 By the end of this module, the learner should be able to:
 
-1. identify the functional roles of active, neutral, protective earthing and the MEN connection at concept level;
-2. draw a bounded normal-current path without incorrectly routing load current through protective-earthing conductors;
-3. draw a conceptual earth-fault path without claiming a verified impedance, operating time or protective outcome;
-4. distinguish intended load current from unintended fault current;
-5. explain why the MEN connection has a defined system role and must not be treated as a general-purpose duplicate neutral connection;
-6. apply the **P-A-T-H-W-A-Y** workflow to original scenarios;
-7. grade conclusions as described, supported, conditional or unresolved; and
-8. stop and escalate when a conclusion would require opening, tracing, measuring, testing, altering or approving an installation.
+1. identify the conceptual roles of active, neutral, protective earthing and the MEN relationship;
+2. reconstruct separate normal-current and conceptual fault-current loops from bounded scenario evidence;
+3. label every material statement as a stated fact, derived fact, supported inference, assumption, contradiction or evidence gap;
+4. distinguish path description from claims about continuity, impedance, device operation, compliance or safety;
+5. identify the first unsupported transition and stop downstream claims there;
+6. explain why a defined neutral-to-earthing relationship is not permission to add or assume duplicate neutral-earth connections;
+7. assign an evidence owner and recheck trigger to unresolved material claims; and
+8. stop before opening, tracing, measuring, testing, altering or approving an installation.
 
 ### Entry check
 
-Without notes:
-
-1. Define protective earthing and equipotential bonding in one sentence each.
-2. State the difference between an exposed conductive part and a possible extraneous conductive part.
-3. Explain why a visible conductor does not prove continuity or suitability.
-4. Sketch a source, load and return path for normal operation.
-5. State three actions this module does not authorise.
-
-Mark each response **secure**, **uncertain** or **guessing**. Correct any high-confidence error before continuing.
+Without notes, define protective earthing and bonding; distinguish exposed and possible extraneous conductive parts; explain why a visible conductor does not prove continuity; sketch a normal source-load-return loop; and state three prohibited actions. Mark each response **secure**, **developing**, **unsupported** or `stop-required`, plus low, medium or high confidence. Correct any high-confidence unsafe or unsupported response before continuing.
 
 ## 2. Why it matters
 
-Many reasoning errors begin when learners merge all conductors into one vague “return path.” In normal operation, intended load current follows the circuit’s active and neutral conductors. Under a fault, an unintended conductive path may involve an exposed conductive part and the protective-earthing arrangement. Mixing those paths can lead to incorrect conclusions about conductor purpose, current flow, protective-device operation and safety.
+A common error is to merge every conductor and reference to earth into one vague “return path.” Normal load current follows the operational circuit. Under a fault, an unintended relationship may involve an exposed conductive part and the protective-earthing arrangement. Mixing these conditions produces incorrect conclusions about conductor purpose, current flow, protective-device operation and safety.
 
-The MEN arrangement is best learned as a controlled relationship among source, neutral, protective earthing and the installation’s defined neutral-to-earth connection. A diagram is a reasoning model, not proof that the real installation is correctly connected, continuous or able to achieve a required protective outcome.
+The MEN arrangement should be studied as a controlled system relationship, not as a shortcut diagram. A valid sketch can explain a possible path while leaving identity, continuity, impedance, device characteristics, source conditions and protective outcome unresolved.
 
 ![A learner separates a normal-current loop from a conceptual fault-current loop before drawing a conclusion](../../../assets/learning/12-week/day-18-men-arrangement-and-normal-current-versus-fault-current-paths/separate-the-two-paths.svg)
 
+*Instructional caption: Separate the operating condition first; a clean diagram does not convert missing evidence into proof.*
+
 ## 3. Core concepts and terminology
 
-The following are original educational summaries. Exact normative definitions require authorised verification.
+These are original educational summaries. Exact normative definitions require authorised verification.
 
-- **Active conductor:** a conductor intended to carry current from the source to a load under normal operation.
-- **Neutral conductor:** a conductor associated with the source reference point and intended to carry return current under relevant normal operating conditions.
-- **Protective earthing conductor:** a conductor used within the protective-earthing arrangement; it is not intended to carry ordinary load current.
-- **MEN connection:** the defined connection between neutral and the earthing arrangement within the applicable system architecture. Exact location and conditions require authorised verification.
-- **Normal current:** current flowing in the intended operational circuit while equipment is functioning as designed.
-- **Fault current:** current flowing because insulation, separation or another intended condition has failed.
-- **Earth fault:** a fault that creates an unintended conductive relationship involving earth or an earthed conductive part.
-- **Fault-current path:** the complete conceptual route available to fault current. A drawn path does not prove its impedance or effectiveness.
-- **Return path:** the route by which current completes a circuit back toward its source. The applicable route differs between normal and fault conditions.
-- **Source reference:** the point or relationship against which system potentials are established.
-- **Parallel path:** an additional conductive route that may share current. Its presence, cause and acceptability require evidence.
-- **Protective outcome:** the wider result expected from the protective system, such as limiting exposure duration. It cannot be inferred from a diagram alone.
+- **Active conductor:** intended to carry current from source toward load in normal operation.
+- **Neutral conductor:** associated with the source reference and intended to carry return current under relevant normal conditions.
+- **Protective-earthing conductor:** part of the protective arrangement, not an intended ordinary load-current return.
+- **MEN relationship:** the defined neutral-to-earthing relationship within the applicable system architecture; exact location and conditions require verification.
+- **Normal current:** current in the intended operational circuit.
+- **Fault current:** current caused by failure of an intended condition such as insulation or separation.
+- **Complete loop:** an outward and return relationship reaching the source relationship conceptually; drawing it does not prove effectiveness.
+- **Parallel path:** an additional route that may share current and create a competing interpretation.
+- **Path provenance:** source, date, endpoints, system state and authority associated with path evidence.
+- **First unsupported transition:** the earliest point where reasoning depends on an assumption, contradiction or unresolved gap.
+- **Evidence owner:** authorised person, record or process responsible for resolving a material uncertainty.
+- **Recheck trigger:** new evidence or a changed condition requiring the conclusion to be reopened.
 
-### Path comparison
+### Evidence labels
 
-| Reasoning question | Normal operation | Conceptual earth-fault condition |
-|---|---|---|
-| Why is current flowing? | load is connected and operating | an unintended conductive fault exists |
-| Intended outward route | active conductor | active conductor to fault location |
-| Intended or protective return relationship | neutral conductor | exposed part and protective-earthing path toward the source relationship |
-| What must not be assumed? | protective earthing carries ordinary load current | the path impedance and device operation are proven |
-| Evidence boundary | circuit description | fault description plus verified installation evidence |
+- **Stated fact:** supplied directly by the scenario or a current authorised record.
+- **Derived fact:** follows transparently from stated facts without an added premise.
+- **Supported inference:** bounded interpretation supported by available evidence.
+- **Assumption:** unstated premise needed to continue reasoning.
+- **Contradiction:** material sources or observations that cannot jointly support one conclusion without resolution.
+- **Evidence gap:** information required for a claim but unavailable.
+
+### Claim ladder
+
+Keep component presence, identity, intended role, described connection, continuity, path suitability, protective-device operation and verified protective outcome separate. Evidence for an earlier rung does not automatically support later rungs.
 
 ## 4. Rule-finding workflow
 
 Use **P-A-T-H-W-A-Y**:
 
-1. **P — Pin down the condition:** normal operation, fault condition or unresolved.
-2. **A — Arrange the stated components:** source, load, active, neutral, protective earthing, exposed parts and MEN relationship.
-3. **T — Trace outward current:** identify the supplied route from source toward the load or fault.
-4. **H — Highlight the return relationship:** separate intended neutral return from conceptual protective fault return.
-5. **W — Weigh the evidence:** distinguish drawing labels, observed descriptions, continuity evidence, test evidence and assumptions.
-6. **A — Avoid outcome claims:** do not infer impedance, operating time, compliance or safety from the path sketch.
-7. **Y — Yield at the authority boundary:** stop before access, tracing, measurement, testing, alteration or approval.
+1. **P — Pin down the condition:** normal, stated fault, suspected fault or unresolved.
+2. **A — Arrange the evidence:** list source, load, conductors, exposed parts, MEN relationship and provenance.
+3. **T — Trace the outward route:** source toward load or fault.
+4. **H — Highlight the return relationship:** separate neutral return from conceptual protective fault return.
+5. **W — Weigh every claim:** apply evidence labels and keep contradictions or parallel-path alternatives open.
+6. **A — Arrest unsupported reasoning:** stop at the first unsupported transition.
+7. **Y — Yield with ownership:** assign an evidence owner, recheck trigger and authority-boundary stop.
 
 ```mermaid
 flowchart TD
-    A["Identify operating condition"] --> B{"Normal or fault?"}
-    B -->|"Normal"| C["Trace active to load"]
-    C --> D["Trace intended neutral return"]
-    B -->|"Fault"| E["Trace active to fault location"]
-    E --> F["Trace exposed-part and protective-earthing relationship"]
-    D --> G["Record evidence boundary"]
+    A["Define operating condition"] --> B["List components and evidence provenance"]
+    B --> C{"Normal, fault or unresolved?"}
+    C -->|"Normal"| D["Trace active to load and intended neutral return"]
+    C -->|"Fault"| E["Trace active to fault and conceptual protective return"]
+    C -->|"Unresolved"| F["Keep competing path models open"]
+    D --> G["Label facts, inferences, assumptions, contradictions and gaps"]
+    E --> G
     F --> G
-    G --> H{"Verified evidence sufficient?"}
-    H -->|"No"| I["Use conditional or unresolved conclusion"]
-    H -->|"Qualified evidence"| J["Outcome assessment remains outside this module"]
+    G --> H{"First unsupported transition?"}
+    H -->|"Yes"| I["Stop downstream claims; assign owner and recheck trigger"]
+    H -->|"No"| J["State strongest bounded path conclusion"]
+    I --> K["Yield at authority boundary"]
+    J --> K
 ```
 
-The diagram enforces the first decision: identify the condition before tracing a path. It prevents normal load current and fault current from being combined into one route.
+The workflow blocks the jump from a neat sketch to a claim about continuity, device operation or compliance.
 
 ## 5. Visual model or worked example
 
 ```mermaid
 flowchart LR
-    S["Source"] -->|"active: normal current"| L["Load"]
-    L -->|"neutral: intended return"| S
-    S -. "defined MEN relationship" .- M["Earthing arrangement"]
-    X["Exposed conductive part"] -->|"protective-earthing relationship"| M
-    L -. "fictional insulation fault" .-> X
+    S["Source relationship"] -->|"active: intended outward route"| L["Load"]
+    L -->|"neutral: intended normal return"| S
+    L -. "fictional insulation fault" .-> X["Exposed conductive part"]
+    X -->|"protective-earthing relationship"| E["Earthing arrangement"]
+    E -. "defined MEN relationship; exact location unverified" .- S
+    P["Possible parallel path"] -. "identify; do not assume" .-> E
 ```
 
-Solid arrows show the intended normal-current circuit. Dotted relationships show the conceptual system and fault relationships. The model does not show conductor sizes, connection locations, impedances, test values or guaranteed device operation.
+Solid arrows show the intended normal-current circuit. Dotted relationships show conceptual system, fault and competing-path relationships. The model omits conductor sizes, exact connection locations, impedances, test values and guaranteed device operation.
 
 ### Worked original scenario
 
-A fictional training diagram shows a single-phase load supplied by active and neutral conductors. Its metal enclosure is connected to a protective-earthing conductor. A separate note says an internal active conductor may contact the enclosure, but no test data or device characteristics are supplied.
+A fictional drawing shows a metal-enclosed single-phase load supplied by active and neutral. A protective-earthing conductor is labelled at the enclosure. A maintenance note says it was replaced, but an older as-built drawing shows a different termination point. No continuity result, test provenance, source arrangement or device data is supplied.
 
-Apply P-A-T-H-W-A-Y:
-
-1. **Pin down:** two conditions must be considered separately—normal operation and a possible enclosure fault.
-2. **Arrange:** source, active, neutral, load, enclosure, protective earthing and system relationship are identified.
-3. **Trace outward:** normal current travels toward the load through active; fault current would travel from active to the enclosure at the fault point.
-4. **Highlight return:** normal return is through neutral; the conceptual fault return involves the enclosure and protective-earthing arrangement.
-5. **Weigh evidence:** the diagram supports intended relationships only. Continuity, impedance, device characteristics and operating time are absent.
-6. **Avoid outcome claims:** do not state that a device will operate within any required time.
-7. **Yield:** do not open, energise, create the fault, measure or test.
-
-Bounded conclusion: “The diagram supports distinct normal-current and conceptual enclosure-fault paths. It does not verify continuity, fault-loop conditions, protective-device operation or installation compliance.”
-
-### Worked-example fading
-
-For a second fictional circuit, complete only:
-
-- condition classification;
-- component list;
-- normal outward and return paths;
-- conceptual fault outward and return relationships;
-- evidence present;
-- evidence missing;
-- strongest supported conclusion; and
-- stop condition.
+The drawing supports intended roles. The conflicting termination records are a contradiction. Continuity and source arrangement are evidence gaps. The first unsupported transition occurs when the labelled conductor is treated as a verified continuous path. The strongest bounded conclusion is: “The records support distinct intended normal-current and conceptual enclosure-fault relationships, but contradictory termination information prevents a verified path conclusion. Continuity, path conditions, device operation and compliance remain unresolved.”
 
 ## 6. Practical application
 
-### Task A — reconstruct both paths
+### Task A — reconstruct competing paths
 
-For each fictional scenario, draw separate normal and fault path diagrams:
+Create separate normal and fault models for: a metal-enclosed fixed appliance; a Class II appliance with no exposed conductive equipment part described; a sub-board whose labels conflict with a maintenance note; and a circuit supplied from an alternative source whose neutral-earthing relationship is unstated. Annotate evidence label, provenance, first unsupported transition, competing interpretation, evidence owner and recheck trigger.
 
-1. a metal-enclosed fixed appliance with active, neutral and protective-earthing conductors shown;
-2. a Class II appliance where no exposed conductive equipment part is described;
-3. a sub-board diagram with labels but no verified conductor continuity; and
-4. a circuit supplied from an alternative source whose neutral-earthing arrangement is not stated.
+### Task B — claim-and-evidence ledger
 
-Annotate every uncertain relationship with a question mark rather than inventing it.
+| Claim | Evidence label and provenance | Contradiction or gap | First unsupported transition | Evidence owner | Strongest allowed wording |
+|---|---|---|---|---|---|
+| normal current uses intended operational conductors |  |  |  |  |  |
+| protective earthing is connected to the enclosure |  |  |  |  |  |
+| fault-return path is continuous |  |  |  |  |  |
+| protective device will operate as required |  |  |  |  |  |
+| arrangement is safe or compliant |  |  |  |  |  |
 
-### Task B — evidence ledger
+At least three claims remain conditional or unresolved unless adequate authorised evidence is explicitly supplied.
 
-| Claim | Supplied fact | Missing evidence | Strongest allowed wording |
-|---|---|---|---|
-| normal current uses active and neutral |  |  |  |
-| protective earthing is connected |  |  |  |
-| fault path is continuous |  |  |  |
-| protective device will operate as required |  |  |  |
-| installation is safe or compliant |  |  |  |
+### Task C — changed-context transfer
 
-At least three claims must remain conditional or unresolved.
+Change at least two material conditions: enclosure construction, alternate source, neutral information, parallel route, record date or contradictory endpoint evidence. Rebuild the reasoning from the scenario boundary rather than carrying the old conclusion forward.
 
-### Task C — changed-condition transfer
+### Criterion-level assessment
 
-Reopen the worked conclusion when:
+| Criterion | Secure | Developing | Unsupported | `stop-required` |
+|---|---|---|---|---|
+| Condition control | normal and fault separated before tracing | distinction after prompting | conditions merged | unsafe action follows confusion |
+| Component roles | active, neutral, PE and MEN distinct | one role corrected | roles interchangeable | arbitrary neutral-earth connection proposed |
+| Path completeness | separate conceptual loops complete | one acknowledged omission | path invented or incomplete | field tracing or fault creation proposed |
+| Evidence control | labels, provenance and first unsupported transition accurate | some fields incomplete | diagram treated as proof | contradiction ignored to claim safety |
+| Transfer | reasoning rebuilt after two changes | one change handled | old conclusion copied | changed source ignored despite safety consequence |
+| Authority boundary | clear stop, owner and trigger | general caution | unsupported approval wording | opening, testing, alteration or energisation proposed |
 
-1. the neutral conductor is omitted from the drawing;
-2. an alternate source is added;
-3. the enclosure becomes insulating;
-4. a conductor label conflicts with an as-built record; or
-5. continuity evidence is old or incomplete.
-
-State which path, classification or evidence claim changes.
-
-### Assessment rubric
-
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Condition identification | normal and fault merged | distinction stated | conditions separated before tracing |
-| Component roles | conductors treated interchangeably | some roles correct | active, neutral, PE and MEN roles distinguished |
-| Path accuracy | incomplete or impossible path | partially complete | separate complete conceptual loops |
-| Evidence control | diagram treated as proof | some gaps identified | presence, continuity and outcome separated |
-| Transfer | changed fact ignored | partial reopening | correct path or claim reopened |
-| Safety boundary | practical action proposed | general caution | explicit stop and escalation |
-
-A score of **10–12**, with no zero in path accuracy, evidence control or safety boundary, supports progression. Otherwise complete one varied correction before Day 19.
+Strong performance in one criterion cannot cancel an **unsupported** or `stop-required` result elsewhere. These are educational planning states, not official grades or competency decisions. Any `stop-required` result blocks progression until corrected with appropriate supervision.
 
 ## 7. Common errors and safety checkpoint
 
-### Common errors
+Common errors include routing ordinary load current through protective earthing, treating neutral and protective earthing as interchangeable, placing neutral-earth connections wherever convenient, treating labels as verified identity and continuity, overlooking parallel paths or contradictory records, claiming device operation without source/path/device evidence, and carrying conclusions unchanged into alternate-supply scenarios.
 
-- drawing ordinary load current through protective-earthing conductors;
-- treating neutral and protective earthing as interchangeable;
-- placing neutral-to-earth connections wherever convenient in a sketch;
-- assuming a complete drawn loop proves low impedance or compliant operation;
-- treating earth itself as the only or guaranteed fault-return route;
-- claiming device operation without device, source and path evidence;
-- ignoring alternate supplies or changed source arrangements; and
-- presenting a classroom diagram as field verification.
+Stop and escalate when identity, endpoints or source arrangement cannot be established; records contradict; confirmation requires opening or tracing; continuity, polarity, impedance or device performance requires testing; damaged protective conductors or repeated device operation are reported; multiple supplies are not fully identified; or approval, certification or alteration is requested.
 
-### Safety checkpoint
-
-Stop and escalate when:
-
-- conductor identity or system arrangement cannot be established from authorised records;
-- confirming a path would require opening equipment or tracing conductors;
-- continuity, polarity, impedance or device performance would require testing;
-- exposed live parts, damaged protective conductors or repeated device operation are reported;
-- alternative or multiple supplies are present but not fully identified; or
-- the learner is asked to alter, energise, approve, certify or sign off the arrangement.
-
-This module authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
+This module authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## 8. Retrieval and next links
 
-### Closed-note retrieval
+Closed-note retrieval: define normal and fault current; distinguish normal neutral return from conceptual protective fault return; define MEN at concept level; list the six evidence labels; define first unsupported transition; explain why a diagram cannot prove operation; give a parallel-path and contradiction example; and state an evidence owner, recheck trigger and four stop conditions.
 
-1. Define normal current and fault current.
-2. State the normal outward and return conductors for the simplified single-phase model.
-3. Explain the protective-earthing role without calling it a normal return conductor.
-4. Define MEN at concept level and state one evidence boundary.
-5. Recite P-A-T-H-W-A-Y.
-6. Explain why a diagram cannot prove protective-device operation.
-7. Give two changed conditions that reopen a path conclusion.
-8. State four stop conditions.
-
-### Exit task
-
-Submit both path diagrams, the evidence ledger, one changed-condition response, the rubric score, one corrected misconception, one authorised-source question and one readiness statement for Day 19.
+Exit task: submit both path models, the claim-and-evidence ledger, one two-condition transfer response, criterion states, one corrected misconception, one authorised-source question and one readiness statement for Day 19.
 
 ### Navigation
 
@@ -264,4 +198,4 @@ Submit both path diagrams, the evidence ledger, one changed-condition response, 
 
 ### Reference and currency notice
 
-This module uses original workflows, scenarios, diagrams, tables and assessment tools. It does not reproduce standards tables, figures, systematic clause wording, exact technical values or official assessment material. Exact MEN arrangements, connection locations, conductor requirements, fault-loop methods, device characteristics, test methods, acceptance criteria and jurisdiction-specific duties remain `reference_check_required` and require qualified review.
+This module uses original workflows, scenarios, diagrams, tables and assessment tools. It does not reproduce standards tables, figures, systematic clause wording, exact technical values or official assessment material. Exact MEN arrangements, connection locations, conductor requirements, source relationships, device characteristics, test methods, acceptance criteria and jurisdiction-specific duties remain `reference_check_required`. The module remains `review-required` and not `technically-reviewed`.
