@@ -60,9 +60,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 
 ### Week 6 — visual inspection and test purposes
 - [x] Block 36 — Verification evidence model
-- [ ] Block 37 — Structured visual inspection
-- [ ] Block 38 — Mandatory test purposes
-- [ ] Block 39 — Test-order reasoning
+- [x] Block 37 — Structured visual inspection
+- [x] Block 38 — Mandatory test purposes
+- [x] Block 39 — Test-order reasoning
 - [ ] Block 40 — Expected observations and contradictions
 - [ ] Block 41 — Inspection-and-test integration case
 - [ ] Block 42 — Rest, reflection and catch-up
