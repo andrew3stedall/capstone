@@ -28,11 +28,11 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 10 — Current paths in normal operation
 - [x] Block 11 — Overload and short-circuit concepts
 - [x] Block 12 — Protective device purpose matching
-- [ ] Block 13 — Mixed retrieval and application
-- [ ] Block 14 — Rest, reflection and catch-up
+- [x] Block 13 — Mixed retrieval and application
+- [x] Block 14 — Rest, reflection and catch-up
 
 ### Week 3 — earthing, MEN and fault reasoning
-- [ ] Block 15 — Protective earthing purpose
+- [x] Block 15 — Protective earthing purpose
 - [ ] Block 16 — MEN system concept map
 - [ ] Block 17 — Fault-current path reasoning
 - [ ] Block 18 — Touch-voltage risk concepts
