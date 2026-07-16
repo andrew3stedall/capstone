@@ -1,6 +1,6 @@
 ---
 title: Six-Week Capstone Learning Plan
-status: drafted-awaiting-quality-passes
+status: quality-passes-complete-awaiting-final-audit
 jurisdiction: AU-NZ
 source_status: original-learning-plan
 reviewed_on: 2026-07-17
@@ -88,12 +88,12 @@ The sequence uses spaced retrieval, interleaving, worked-example fading, error-d
 
 ## Quality-improvement passes
 
-- [x] Days 1–40 — completed and recorded in `AUTOMATION_STATUS.md`, repository history and each module's YAML metadata.
-- [x] 2026-07-17 — [Day 41 — Full mock assessment with design, inspection and verification components](modules/day-41-full-mock-assessment-with-design-inspection-and-verification-components.md): strengthened C-A-P-S-T-O-N-E with five evidence grades, four claim grades, an integrated evidence register, evidence quarantine, dependency mapping, changed-condition propagation, worked-example fading, independent transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible six-gate evidence visual.
-- [ ] Next — Day 42 — Mock review, remediation plan and final readiness decision.
+- [x] Days 1–41 — completed and recorded in `AUTOMATION_STATUS.md`, repository history and each module's YAML metadata.
+- [x] 2026-07-17 — [Day 42 — Mock review, remediation plan and final readiness decision](modules/day-42-mock-review-remediation-plan-and-final-readiness-decision.md): strengthened R-E-V-I-E-W with five evidence grades, four claim grades, a readiness evidence ledger, causal-error and dependency analysis, evidence quarantine, worked-example fading, bounded seven-day remediation, near and far transfer, delayed retrieval, a six-category 12-point rubric, critical-error gates, aligned vault metadata and an accessible five-link evidence visual.
+- [ ] Next — final program-wide completion audit.
 
 Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass.
 
 ## Quality gates
 
-Draft completion does not equal qualified technical approval. Every module remains subject to authorised-source verification and qualified review before being presented as authoritative.
+Draft completion and completion of automated quality passes do not equal qualified technical approval. Every module remains subject to authorised-source verification and qualified review before being presented as authoritative.
