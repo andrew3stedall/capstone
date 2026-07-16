@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -31,7 +31,7 @@ related_simulations: []
 
 # Day 7 — Week 1 Consolidation and Individual Remediation Plan
 
-> **Currency and scope notice:** This module consolidates Week 1 learning through written retrieval, scenario reasoning and an individual remediation plan. It introduces no field procedure and does not authorise electrical work. Exact clauses, technical requirements, official assessment rules and safety-critical procedures remain `reference_check_required`. Current authorised standards, legislation, regulator guidance, workplace procedures, manufacturer instructions and RTO requirements remain controlling. This module is not `technically-reviewed`.
+> **Currency and scope notice:** This module consolidates Week 1 through written retrieval, scenario reasoning and an individual remediation plan. It introduces no field procedure and does not authorise electrical work. Exact clauses, technical requirements, official assessment rules and safety-critical procedures remain `reference_check_required`. Current authorised standards, legislation, regulator guidance, workplace procedures, manufacturer instructions and RTO requirements remain controlling. This module is not `technically-reviewed`.
 
 ## 1. Outcome and entry check
 
@@ -39,14 +39,14 @@ related_simulations: []
 
 By the end of this block, the learner should be able to:
 
-1. retrieve the six Week 1 workflows without notes and explain the purpose of each;
-2. distinguish a knowledge gap, process gap, confidence-calibration error and authority-boundary error;
-3. analyse one integrated written scenario using hazard, authority, source-navigation and evidence-quality reasoning;
-4. identify the smallest prerequisite gap that would block safe progress into Week 2;
-5. convert error-log evidence into a prioritised remediation plan containing no more than three active targets;
-6. design a varied re-attempt for each target rather than repeating the original question unchanged;
-7. state a readiness decision of **ready**, **ready with support** or **not yet ready** using recorded evidence;
-8. achieve at least 10 out of 12 rubric points with no unsafe action, invented technical requirement or hidden assumption.
+1. retrieve the six Week 1 workflows without notes and state the decision each supports;
+2. coordinate hazard, authority, source-navigation and evidence reasoning in one unfamiliar written scenario;
+3. separate an observed performance error from its likely mechanism and safety or learning consequence;
+4. identify the first blocking prerequisite rather than treating every weakness as equally urgent;
+5. select no more than three active remediation targets using recorded evidence;
+6. define a corrective action, a materially changed re-attempt and observable evidence of improvement for each target;
+7. calibrate confidence against performance, giving priority to high-confidence unsafe or unsupported responses;
+8. record a criterion-level readiness decision for Day 8 without using an invented pass mark or claiming formal competency.
 
 ### Entry check
 
@@ -63,115 +63,118 @@ Then answer:
 
 1. What is the difference between a hazard and an exposure pathway?
 2. Why does competence not automatically create authority?
-3. Why is a keyword search result only a candidate source?
+3. Why is a keyword result only a candidate source?
 4. Why can a current authoritative source still be inapplicable?
 5. What makes a conclusion bounded?
 6. What should happen after a high-confidence error?
 
-Rate each response as **0 — absent or unsafe**, **1 — partial**, or **2 — usable**. Do not average away a safety-critical zero. Any zero involving authority, stop conditions, source control or unsupported practical action becomes an immediate remediation target.
+For each response, record:
+
+- the response itself;
+- confidence before checking: guessing, unsure, reasonably confident or certain;
+- evidence status: secure, developing, unsupported or `stop-required`;
+- the smallest observable gap, if any.
+
+A `stop-required` response involving authority, practical action, source control or hidden assumptions cannot be offset by stronger performance elsewhere.
 
 ## 2. Why it matters
 
-Week 1 establishes the reasoning controls that later technical modules depend on. A learner who can recall electrical terminology but cannot recognise an authority boundary, locate the controlling source or expose a missing premise is not ready to make reliable protection, design, inspection or verification decisions.
+Week 1 establishes the reasoning controls used throughout later protection, design, inspection, verification and fault-diagnosis modules. Recall alone is insufficient. The learner must coordinate several controls in a changed context:
 
-Consolidation is not a memory contest. Its purpose is to determine whether the learner can coordinate several controls in a fresh scenario:
-
-- identify the hazard and possible exposure pathway;
-- stay within role, supervision and task authority;
-- locate candidate controlling material efficiently;
+- identify a hazard, target and possible exposure pathway;
+- stay inside role, task and supervision authority;
+- locate candidate controlling sources without relying on remembered clause numbers;
 - test evidence quality, applicability and completeness;
-- stop when the evidence or authority boundary is reached;
-- record the exact gap that needs remediation.
+- distinguish facts, inferences, assumptions, contradictions and missing premises;
+- stop when authority or evidence is insufficient;
+- record the exact capability requiring repair.
 
-A broad plan such as “revise Week 1” is too vague to guide improvement. A useful plan identifies one observable failure, the smallest corrective activity, the evidence of improvement and the date or block for rechecking it.
+A broad instruction such as “revise Week 1” conceals the cause of failure. A useful remediation plan identifies one observable behaviour, the likely mechanism behind it, the consequence if it persists, the smallest corrective activity and the evidence required before the target is considered improved.
 
 ![A learner chooses three small labelled repair cards instead of carrying an oversized box marked revise everything](../../../assets/learning/12-week/day-07-week-1-consolidation-and-individual-remediation-plan/repair-the-gap-not-the-whole-week.svg)
+
+*Caption: Repair the smallest demonstrated gap instead of assigning an unbounded review of the entire week.*
 
 ## 3. Core concepts and terminology
 
 ### Consolidation
 
-**Consolidation** is the process of connecting and stabilising previously learned knowledge so it can be retrieved and applied in a new context. It requires recall and transfer, not passive rereading.
+**Consolidation** connects and stabilises previous learning so it can be retrieved and applied in a new context. Passive rereading may improve familiarity without demonstrating retrieval or transfer.
 
 ### Retrieval strength
 
-**Retrieval strength** is the learner's present ability to recall and use an item without prompts. A correct answer produced only after rereading has not demonstrated strong retrieval.
+**Retrieval strength** is the learner's present ability to recall and use an item without prompts. It is temporary and task-specific; one correct response does not establish durable mastery.
 
-### Transfer
+### Transfer distance
 
-**Transfer** is successful use of learning in a changed scenario. A varied context is required because repeating the same wording may measure recognition rather than understanding.
+**Transfer distance** describes how much a re-attempt differs from the original task. A useful transfer task changes at least two material features, such as the evidence type, authority condition, source-currency problem, operating state or required decision.
 
-### Remediation target
+### Error mechanism
 
-A **remediation target** is a narrowly stated capability that needs correction. It should name observable behaviour, for example:
+An **error mechanism** is the process that produced the incorrect or unsafe response. Examples include:
 
-- “separates task competence from legal or workplace authority”;
-- “checks source edition and scope before using an excerpt”;
-- “states missing evidence instead of supplying it from memory.”
+1. **Knowledge gap:** a definition or relationship is not understood.
+2. **Retrieval gap:** the learner understood the idea previously but cannot retrieve it without prompting.
+3. **Process gap:** relevant ideas are known but omitted, misordered or not connected.
+4. **Applicability gap:** valid information is used under the wrong conditions.
+5. **Evidence-control gap:** fact, inference, assumption, contradiction or missing premise is misclassified.
+6. **Authority-boundary error:** action is proposed beyond stated authority, supervision or procedure.
+7. **Confidence-calibration error:** confidence is materially stronger or weaker than the evidence supports.
 
-“Improve safety” and “study standards” are not sufficiently specific.
-
-### Error categories
-
-Classify each important error into one primary category:
-
-1. **Knowledge gap:** a definition, relationship or prerequisite is not understood.
-2. **Process gap:** the learner knows individual ideas but omits or misorders a reasoning step.
-3. **Applicability gap:** a valid idea is used under the wrong conditions.
-4. **Evidence gap:** the learner cannot distinguish fact, candidate evidence, assumption or missing premise.
-5. **Authority-boundary error:** the learner proposes or implies action beyond stated authority, supervision or procedure.
-6. **Confidence-calibration error:** confidence is substantially higher or lower than demonstrated performance.
-
-A single answer may reveal several problems, but select the smallest primary cause that should be corrected first.
+A response may reveal several mechanisms. Select the earliest mechanism that would prevent the later errors if corrected.
 
 ### Blocking prerequisite
 
-A **blocking prerequisite** is a gap that makes the next learning block unreliable or unsafe. In this transition, examples include inability to:
+A **blocking prerequisite** is a gap that makes the next learning block unreliable or unsafe. For the transition to Day 8, blocking gaps include inability to:
 
 - distinguish a quantity from its unit;
-- perform basic arithmetic with consistent units;
-- identify supplied versus assumed information;
-- show calculation steps clearly;
-- stop before using an unverified value or procedure.
+- keep units consistent;
+- identify supplied, derived and assumed information;
+- show substitution, operation and result separately;
+- test plausibility;
+- stop before using an unverified technical value or procedure.
 
-Exact electrical calculation requirements belong to later modules and authorised sources. Day 7 only checks readiness for prerequisite calculation reasoning.
+### Readiness evidence
 
-### Readiness outcomes
+**Readiness evidence** is the retained work used to justify progression support. It must show performance across more than one evidence type and must preserve unresolved safety or source limitations.
 
-- **Ready:** required Week 1 controls are retrieved and applied independently, and no blocking prerequisite is evident.
-- **Ready with support:** progress may continue with a named prompt, refresher or supervised learning support.
-- **Not yet ready:** a safety-critical reasoning error or blocking prerequisite requires remediation before independent progression.
+### Criterion-level readiness states
 
-A readiness decision is about the next learning block, not a claim of trade competence or formal assessment approval.
+- **Secure:** the learner performs the criterion independently in a changed context and states the relevant boundary.
+- **Developing:** the learner performs part of the criterion but requires a named prompt or support.
+- **Unsupported:** the conclusion or action is not justified by the supplied evidence.
+- **Stop-required:** the response proposes unsafe, unauthorised or materially unverified action or hides a safety-critical premise.
+
+These are educational planning labels, not official RTO grades or competency outcomes.
 
 ## 4. Rule-finding workflow
 
-Use **R-E-P-A-I-R** to turn performance evidence into a bounded plan:
+Use **R-E-P-A-I-R** to convert performance evidence into a bounded plan:
 
-1. **R — Retrieve:** attempt the selected knowledge or workflow without notes.
-2. **E — Examine evidence:** compare the response with the module objective, source boundary and safety expectations.
-3. **P — Pinpoint the gap:** classify the smallest primary error and identify whether it blocks progression.
-4. **A — Assign a corrective action:** choose one focused explanation, diagram reconstruction, source-navigation task or fresh scenario.
-5. **I — Implement a varied re-attempt:** change the wording, context, evidence order or decision condition.
-6. **R — Record readiness:** state ready, ready with support or not yet ready, with evidence and a review point.
+1. **R — Retrieve:** attempt the selected workflow or concept without notes and record confidence first.
+2. **E — Examine:** compare the response with the objective, scenario evidence, source boundary and safety expectations.
+3. **P — Pinpoint:** identify the observable error, its likely mechanism and whether it blocks progression.
+4. **A — Assign:** choose the smallest corrective explanation, diagram reconstruction, source-navigation task or scenario.
+5. **I — Implement transfer:** change at least two material conditions and complete the re-attempt without copying the correction.
+6. **R — Record readiness:** classify each criterion, name support or evidence owners and set one review point.
 
 ```mermaid
 flowchart TD
-    A["Retrieve without notes"] --> B["Compare with objective and safety boundary"]
-    B --> C{"Critical or blocking error?"}
-    C -->|"Yes"| D["Pinpoint smallest primary gap"]
-    C -->|"No"| E{"Minor repeatable weakness?"}
+    A["Retrieve and record confidence"] --> B["Separate response, mechanism and consequence"]
+    B --> C{"Stop-required or blocking?"}
+    C -->|"Yes"| D["Select as priority target"]
+    C -->|"No"| E{"Repeated developing pattern?"}
     E -->|"Yes"| D
-    E -->|"No"| F["Record ready for Day 8"]
-    D --> G["Assign focused corrective action"]
-    G --> H["Complete varied re-attempt"]
-    H --> I{"Usable response now?"}
-    I -->|"No"| J["Record not yet ready and seek support"]
-    I -->|"Yes, with prompt"| K["Record ready with support"]
-    I -->|"Yes, independently"| F
+    E -->|"No"| F["Retain as demonstrated evidence"]
+    D --> G["Assign smallest corrective action"]
+    G --> H["Change two material scenario conditions"]
+    H --> I{"Independent safe transfer?"}
+    I -->|"No"| J["Record support and not-yet-ready criterion"]
+    I -->|"With named prompt"| K["Record developing criterion"]
+    I -->|"Yes"| L["Record secure criterion"]
 ```
 
-The decision tree prevents two common errors: treating every mistake as equally important and allowing an unsafe error to disappear inside an average score.
+The workflow prevents three distortions: averaging away a blocking error, treating a corrected copy as transfer, and converting an educational readiness decision into an unsupported formal pass claim.
 
 ### Remediation record
 
@@ -180,77 +183,80 @@ Use this template for no more than three active targets:
 ```text
 Observed response or behaviour:
 Confidence before feedback:
-Primary error category:
-Why it matters:
+Evidence status:
+Primary error mechanism:
+Consequence if uncorrected:
 Blocking prerequisite? yes / no
 Smallest corrective action:
-Varied re-attempt:
-Evidence of improvement:
-Support required:
+Two material changes in the transfer task:
+Independent evidence of improvement:
+Support or evidence owner:
 Review point:
-Readiness effect:
+Criterion-level readiness effect:
+Unresolved reference check:
 ```
 
 ## 5. Visual model or worked example
 
 ### From broad revision to a precise repair
 
-A learner writes this answer to a fictional scenario:
+A learner writes in response to a fictional scenario:
 
 > I would open the equipment to check the wiring, then search online for the relevant rule. The diagram looks normal, so the arrangement is probably acceptable.
 
-The answer contains several issues:
+The response contains multiple errors, but they should not be treated as one vague “safety problem”:
 
-- opening equipment is proposed without authority, isolation or approved procedure;
-- the search method does not identify an authorised source;
-- “looks normal” substitutes familiarity for applicability and completeness;
-- “probably acceptable” hides missing evidence rather than bounding the conclusion.
+- **Observed behaviour:** proposes opening equipment and gives an acceptance conclusion.
+- **First error mechanism:** authority-boundary error; neither authority nor an approved procedure is supplied.
+- **Secondary mechanisms:** weak source control and unsupported applicability reasoning.
+- **Consequence:** practical-action drift and an unjustified compliance conclusion.
+- **Confidence risk:** if stated with high confidence, the target receives greater priority.
 
 Apply R-E-P-A-I-R:
 
-1. **Retrieve:** ask the learner to state the authority and evidence checks from memory.
-2. **Examine:** compare the response with A-U-T-H-O-R-I-T-Y, T-R-A-C-E and C-L-E-A-R.
-3. **Pinpoint:** the first blocking error is the authority-boundary error. Source and evidence gaps are also recorded, but practical action must be corrected first.
-4. **Assign:** revisit the authority-envelope model and write one stop statement.
-5. **Implement:** present a changed written scenario in which the equipment is already documented as isolated but the learner still lacks authority to open it.
-6. **Record:** if the learner now stops, identifies the authorised person or procedure and continues only with written evidence analysis, mark that target improved.
+1. Retrieve the authority and evidence checks without notes.
+2. Examine the answer against A-U-T-H-O-R-I-T-Y, T-R-A-C-E and C-L-E-A-R.
+3. Pinpoint the first blocking transition: moving from supplied documents to opening equipment.
+4. Assign one corrective task: reconstruct the authority envelope and write a stop statement.
+5. Implement transfer using a scenario where isolation is documented but authority to open the equipment is still absent, and the copied excerpt is replaced by a current but out-of-scope source.
+6. Record separate results for authority control, source applicability and bounded conclusion.
 
 A suitable bounded response is:
 
-> The scenario does not establish my authority or an approved procedure for opening the equipment, so I would not perform that action. I can analyse the supplied written evidence, identify the controlling source required and record the missing facts. Practical inspection or verification requires authorised supervision and procedure.
+> The scenario does not establish authority or an approved procedure for opening the equipment, so that action must stop. I can analyse the supplied written evidence, identify the authorised source and responsible evidence owner, and record what remains unknown. The photograph and source excerpt do not establish compliance, and practical inspection or verification requires authorised supervision and procedure.
 
-The corrective task is not “redo all of Week 1.” It is a targeted authority-boundary repair followed by a changed-context re-attempt.
-
-### Readiness evidence stack
+### Readiness evidence model
 
 ```mermaid
 flowchart LR
-    A["Closed-note retrieval"] --> E["Readiness evidence"]
+    A["Closed-note retrieval"] --> E["Criterion-level evidence record"]
     B["Integrated scenario"] --> E
-    C["Error-log trend"] --> E
-    D["Varied re-attempt"] --> E
-    E --> R{"Readiness decision"}
-    R --> R1["Ready"]
-    R --> R2["Ready with support"]
-    R --> R3["Not yet ready"]
+    C["Confidence and error-log trend"] --> E
+    D["Changed-context re-attempt"] --> E
+    E --> F{"Any stop-required criterion?"}
+    F -->|"Yes"| G["Do not progress independently"]
+    F -->|"No"| H{"Blocking criterion developing?"}
+    H -->|"Yes"| I["Progress only with named support"]
+    H -->|"No"| J["Ready for Day 8 learning tasks"]
 ```
 
-No single quiz score decides readiness. The decision uses several evidence types and gives extra weight to safety-critical errors, repeated process failures and high-confidence misconceptions.
+No aggregate score decides readiness. The decision uses multiple evidence types and preserves blocking conditions, support requirements and unresolved source checks.
 
 ## 6. Practical application
 
 ### Round 1 — closed-note Week 1 map
 
-On one page, reconstruct:
+Reconstruct on one page:
 
 - the purpose of each Week 1 block;
 - all six workflows;
-- the relationship between hazard, exposure pathway and control;
-- the difference between competence, authority and supervision;
+- the relationship between hazard, target, pathway, exposure and consequence;
+- the difference between competence, authority, supervision and evidence of authority;
 - the source-navigation path from question to bounded answer;
-- the three evidence tests and four bounded outcomes.
+- evidence quality, applicability and completeness;
+- the available bounded outcomes and stop conditions.
 
-Use notes only after the first attempt. Add corrections in a different annotation style and record confidence before checking.
+Record confidence before checking. Add corrections only after the closed-note attempt and label each correction by error mechanism.
 
 ### Round 2 — integrated scenario
 
@@ -260,83 +266,103 @@ Use this fictional written scenario:
 
 Produce a response containing:
 
-1. the hazards or consequences that make unsupported action inappropriate;
-2. the difference between visible information and inferred information;
-3. the authority and supervision boundary;
-4. the candidate sources that must be located;
+1. stated facts, reports, inferences, assumptions, contradictions and evidence gaps;
+2. hazards and possible consequences that make unsupported action inappropriate;
+3. the exact authority boundary and first unsupported transition;
+4. candidate source families and source-currency checks;
 5. quality, applicability and completeness checks;
-6. assumptions and missing premises;
-7. a bounded written conclusion;
-8. one safe escalation or evidence-gathering next step within the scenario.
+6. a claim-to-premise map for any proposed conclusion;
+7. a bounded written outcome;
+8. one evidence owner or safe escalation step within the written scenario.
 
-Do not diagnose the installation from the photograph and do not invent test results, supply conditions or clause requirements.
+Do not diagnose the installation from the photograph and do not invent test results, supply conditions, clause requirements or practical authority.
 
-### Round 3 — error-log conference
+### Round 3 — changed-context transfer
 
-Review all Week 1 evidence and select no more than three targets. Prioritise in this order:
+Change at least two material conditions, for example:
 
-1. unsafe action or authority-boundary error;
+- replace the undated excerpt with a current source that applies to a different installation class;
+- provide a role statement but leave supervision and task authority unclear;
+- replace the photograph with an inspection record that lacks operating-state information;
+- add contradictory equipment-identification details.
+
+Rebuild the answer. Do not merely edit the first response. Record which conclusions, source choices and stop conditions changed and why.
+
+### Round 4 — remediation conference
+
+Review all Week 1 evidence and select no more than three targets. Prioritise:
+
+1. `stop-required` action or hidden authority assumption;
 2. high-confidence safety misconception;
-3. repeated source or applicability failure;
+3. repeated source, applicability or evidence-control failure;
 4. blocking prerequisite for Day 8;
-5. minor terminology or presentation issue.
+5. repeated process failure;
+6. minor terminology or presentation issue.
 
-For each target, complete the remediation record. Defer lower-value items rather than creating an unmanageable plan.
+Each target must include one mechanism, one consequence, one corrective action, one changed-context task, one evidence owner or support requirement and one review point.
 
-### Round 4 — prerequisite calculation check
+### Round 5 — prerequisite calculation check
 
 Complete these non-technical readiness tasks:
 
-1. rewrite three quantities using consistent units supplied by the trainer;
-2. identify the known, unknown and assumed items in a simple arithmetic word problem;
+1. rewrite three supplied quantities using consistent units;
+2. identify known, unknown, derived and assumed items in a simple arithmetic problem;
 3. show substitution, operation and result on separate lines;
 4. explain why a result without units is incomplete;
-5. estimate whether the result is plausible before accepting it;
-6. identify when a calculator entry or supplied value must be checked.
+5. estimate whether the result is plausible;
+6. identify when a calculator entry or supplied value must be checked;
+7. stop and label the task incomplete when a required value is missing.
 
-This is not an electrical design calculation and supplies no standards value. A basic arithmetic or unit-handling gap becomes a Day 8 support item.
+This is not an electrical design calculation and supplies no standards value.
 
-### Performance rubric
+### Criterion-level evidence record
 
-Score each category from **0 to 2**:
+Classify each criterion as **secure**, **developing**, **unsupported** or **stop-required** and cite the retained evidence:
 
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Retrieval | workflows absent or confused | several prompts required | six workflows retrieved with purposes |
-| Integrated reasoning | one isolated idea only | several controls identified | hazard, authority, source and evidence controls coordinated |
-| Safety and authority | unsafe action or hidden authority assumption | stop stated but incomplete | clear stop, escalation and authority boundary |
-| Evidence discipline | photograph or excerpt treated as proof | some gaps noted | quality, applicability and completeness separated |
-| Remediation quality | broad rereading plan | target identified but re-attempt weak | smallest gap, focused action and varied re-attempt |
-| Readiness judgement | unsupported pass/fail claim | outcome stated with limited evidence | bounded outcome supported by multiple evidence types |
+| Criterion | Evidence required | Blocking condition |
+|---|---|---|
+| Workflow retrieval | six workflows and their decisions reconstructed without notes | authority or source-control workflow absent |
+| Integrated reasoning | hazard, authority, source and evidence controls coordinated | unsafe action or hidden material premise |
+| Source and evidence discipline | source currency, scope, applicability and missing evidence recorded | photograph, memory or excerpt treated as proof |
+| Transfer | answer rebuilt after two material changes | correction copied with no changed-context reasoning |
+| Remediation quality | smallest mechanism, focused action and observable recheck | broad rereading plan or no evidence of improvement |
+| Calculation readiness | units, knowns, assumptions, steps and plausibility visible | invented value or inability to stop when information is missing |
 
-Pass standard for progression without additional support: at least **10 out of 12**, with no zero in safety and authority or evidence discipline. A lower result does not imply failure of the program; it determines the support and remediation required before or during Day 8.
+Readiness rules:
+
+- Any `stop-required` criterion means **not ready for independent progression**.
+- A blocking criterion marked `developing` permits progression only with named support and a scheduled recheck.
+- `Unsupported` non-blocking work becomes a remediation target or deferred item with an owner.
+- “Ready” means ready for Day 8 learning activity, not formally competent or technically approved.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- **Average-score masking:** allowing a strong total score to hide one safety-critical zero.
-- **Rereading as remediation:** reviewing pages without a retrieval attempt or changed scenario.
-- **Too many targets:** creating a long list that prevents focused correction.
-- **Topic-label diagnosis:** recording “standards problem” instead of the exact failed behaviour.
-- **Unchanged re-attempt:** repeating the same prompt and mistaking familiarity for transfer.
-- **Confidence neglect:** ignoring a high-confidence error because the corrected answer is now visible.
-- **Premature progression:** moving on because the schedule says Day 8 rather than because blocking gaps are controlled.
-- **Perfection delay:** refusing progression for a minor non-blocking wording issue.
-- **Practical-action drift:** turning a written consolidation scenario into unauthorised inspection or testing.
-- **Technical overreach:** inventing clauses, values or procedures to make the scenario feel complete.
+- **Aggregate-score masking:** allowing strong recall to hide one unsafe or unsupported criterion.
+- **Correct-answer bias:** treating a guessed correct response as secure evidence.
+- **Rereading as remediation:** reviewing pages without retrieval or transfer.
+- **Too many targets:** creating a plan too broad to execute.
+- **Topic-label diagnosis:** writing “standards problem” instead of the failed behaviour and mechanism.
+- **Single-change transfer:** changing only names or numbers while preserving the same reasoning cues.
+- **Confidence neglect:** ignoring a high-confidence misconception after showing the correction.
+- **Support ambiguity:** recording “ask for help” without naming the prompt, person, source or review point.
+- **Premature progression:** advancing because of the timetable rather than evidence.
+- **Perfection delay:** blocking progression for a minor non-safety wording issue.
+- **Practical-action drift:** turning a written scenario into unauthorised inspection or testing.
+- **Technical overreach:** inventing clauses, values or procedures.
 
 ### Safety checkpoint
 
-All activities are written, diagrammatic or arithmetic prerequisite exercises. This module authorises no switching, isolation, opening equipment, testing, resetting, disconnection, alteration, repair, energisation, commissioning, verification or practical demonstration.
+All activities are written, diagrammatic or arithmetic prerequisite exercises. This module authorises no access, switching, isolation, opening equipment, testing, measurement, resetting, disconnection, alteration, repair, energisation, commissioning, certification, verification or practical demonstration.
 
 Stop and seek trainer or qualified guidance when:
 
-- the learner proposes practical action outside stated authority or procedure;
+- practical action is proposed outside stated authority or approved procedure;
 - a high-confidence misconception could affect electrical safety;
-- the controlling source or scenario conditions cannot be established;
+- source currency, jurisdiction, scope or scenario conditions cannot be established;
 - an exact clause, limit, value, test method or official assessment rule is required;
-- repeated re-attempts still depend on prompts for a blocking prerequisite;
+- a blocking criterion still depends on prompts after the transfer attempt;
 - fatigue or frustration makes the evidence unreliable;
 - the proposed support exceeds the learner's, trainer's or workplace authority.
 
@@ -347,48 +373,40 @@ Record `reference_check_required` rather than supplying an approximate technical
 ### Closed-note retrieval
 
 1. Recite R-E-P-A-I-R and explain each step.
-2. Name the six primary error categories.
-3. What makes a prerequisite blocking?
-4. Why should a remediation plan contain only a few active targets?
-5. Why must a re-attempt vary the context?
-6. What evidence supports a readiness decision?
-7. Distinguish ready, ready with support and not yet ready.
-8. Why must a safety-critical zero not be averaged away?
-9. Give one example of a confidence-calibration error.
+2. Distinguish an observed error from its mechanism and consequence.
+3. Name the seven error mechanisms.
+4. What makes a prerequisite blocking?
+5. Why must a transfer task change at least two material conditions?
+6. Why can a correct guess remain developing or unsupported evidence?
+7. What evidence supports a readiness decision?
+8. Distinguish secure, developing, unsupported and `stop-required`.
+9. Why must support have an owner and review point?
 10. State five stop or escalation conditions.
 
 ### Exit task
 
 Write a one-page Week 1 remediation and readiness record containing:
 
-- one demonstrated strength;
+- one demonstrated strength with evidence;
 - up to three active remediation targets;
-- one varied re-attempt per target;
-- required support;
-- one review point;
-- the readiness decision and evidence;
+- the error mechanism and consequence for each;
+- two material changes in each transfer task;
+- required support or evidence owner;
+- one review point per target;
+- criterion-level readiness decisions;
 - unresolved `reference_check_required` items.
 
 ### Evidence to retain
 
-Keep:
-
-- the closed-note Week 1 map;
-- integrated-scenario response;
-- rubric score;
-- confidence record;
-- selected remediation records;
-- prerequisite calculation check;
-- readiness decision;
-- unresolved review flags.
+Keep the closed-note map, integrated response, confidence record, changed-context response, criterion-level evidence record, remediation records, calculation-readiness check and unresolved review flags.
 
 ### Navigation
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 07 - Week 1 Consolidation and Individual Remediation Plan]]
 - **Previous:** [Day 6 — Evidence Quality, Applicability and Completeness Workshop](day-06-evidence-quality-applicability-and-completeness-workshop.md)
-- **Next:** Day 8 — Circuit Quantities, Load Reasoning and Prerequisite Calculation Check
+- **Next:** [Day 8 — Circuit Quantities, Load Reasoning and Prerequisite Calculation Check](day-08-circuit-quantities-load-reasoning-and-prerequisite-calculation-check.md)
 
 ### Reference and currency notice
 
-This module uses original workflows, scenarios, diagrams, rubric and remediation tools organised around learner performance rather than a standards clause sequence. It does not reproduce standards tables, figures, systematic wording, exact technical values or official assessment material. Current authorised sources and qualified review remain required before any safety-critical conclusion or practical procedure is used beyond the written learning context.
+This module uses original workflows, scenarios, diagrams and remediation tools organised around learner performance rather than a standards clause sequence. It does not reproduce standards tables, figures, systematic wording, exact technical values or official assessment material. Current authorised sources and qualified review remain required before any safety-critical conclusion or practical procedure is used beyond the written learning context.
