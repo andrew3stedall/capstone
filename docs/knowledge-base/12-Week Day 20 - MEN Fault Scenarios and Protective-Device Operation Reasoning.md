@@ -4,7 +4,7 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-17
 ---
 
 # 12-Week Day 20 - MEN Fault Scenarios and Protective-Device Operation Reasoning
@@ -28,38 +28,56 @@ This note supports conditional reasoning about fictional MEN fault scenarios and
 
 ## Core concepts
 
-- **Fault classification:** deciding what abnormal condition is described before predicting protection.
-- **Overload:** overcurrent in an otherwise intended current path.
-- **Short circuit:** an unintended low-impedance relationship between points at different potentials.
-- **Earth fault:** an unintended conductive relationship involving earth or an earthed part.
-- **Residual current:** an imbalance associated with current not returning through intended monitored conductors.
+- **Fault classification:** deciding what normal or abnormal condition is described before predicting protection.
+- **Conceptual path:** the outward and return relationships that could carry current; it is not proof of the actual installed path.
+- **Actual-path evidence:** qualified evidence showing that the intended path and its relevant connections are present.
 - **Operating characteristic:** the relationship between device response and relevant current/time conditions.
-- **Disconnection claim:** a conclusion that a device will interrupt supply under specified conditions; verified evidence is required.
-- **Reopening trigger:** a changed fact that invalidates an earlier conclusion.
+- **First unsupported transition:** the earliest unsupported step in a fault-to-operation argument; all downstream claims must remain bounded by it.
+- **Evidence owner:** the authorised person, document or process responsible for resolving a named gap.
+- **Recheck trigger:** a changed fact that requires the reasoning chain to be reopened.
+
+## Evidence labels
+
+Use stated fact, derived fact, supported inference, assumption, contradiction and evidence gap. Contradictory records must remain visible until an authorised source reconciles them.
 
 ## F-A-U-L-T-S workflow
 
-1. **Frame** supplied facts, assumptions and omissions.
-2. **Assign** a provisional fault class.
-3. **Unroll** the conceptual current path.
-4. **Link** relevant protective functions without treating them as substitutes.
-5. **Test** continuity, source, device, criterion and outcome evidence.
-6. **State** a bounded conclusion and stop.
+1. **Frame** supplied facts, inferences, assumptions, contradictions and gaps.
+2. **Assign** a provisional condition class.
+3. **Unroll** the conceptual outward and return path.
+4. **Link** potentially relevant protective functions without treating them as substitutes.
+5. **Test** the evidence chain and mark the first unsupported transition.
+6. **State** a bounded conclusion, evidence owner, recheck trigger and stop condition.
+
+## Claim ladder
+
+1. condition described;
+2. provisional classification supported;
+3. conceptual path identified;
+4. intended path shown to be the actual path;
+5. continuity and relevant source/path conditions established;
+6. device identity and characteristics established;
+7. applicable criterion verified; and
+8. outcome demonstrated by authorised evidence.
 
 ## Practical application
 
-The learner classifies original scenarios, completes an operation-claim evidence ladder, distinguishes overcurrent and RCD roles, and reopens conclusions when source, enclosure, conductor, device or fault facts change.
+The learner classifies original scenarios, distinguishes a conceptual path from a verified actual path, records competing interpretations, completes a claim-transition evidence table and rebuilds the reasoning after at least two material conditions change.
 
 ## Assessment relevance
 
 Observable evidence includes:
 
-- classifying before predicting;
-- tracing a complete conceptual path;
+- classifying without forcing certainty;
+- tracing outward and return relationships;
 - distinguishing device purpose from guaranteed operation;
-- separating path presence, continuity, source conditions, device data, criterion and outcome;
-- using conditional language when evidence is incomplete; and
+- labelling facts, inferences, assumptions, contradictions and gaps;
+- identifying the first unsupported transition;
+- assigning an evidence owner and recheck trigger;
+- transferring the method after at least two changed conditions; and
 - refusing resetting, testing, fault creation, alteration or approval beyond authority.
+
+Use **secure**, **developing**, **unsupported** and **`stop-required`** as educational planning states. They are not official grades or competency decisions, and strength in one criterion cannot cancel a safety-critical failure elsewhere.
 
 ## Related concepts
 
