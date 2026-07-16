@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-14
+reviewed_on: 2026-07-16
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -34,35 +34,38 @@ related_simulations: []
 
 By the end of this module, the learner should be able to:
 
-1. define earthing, protective earthing, an earth electrode, an earthing conductor, a protective earthing conductor and equipotential bonding in bounded educational language;
-2. distinguish a component's **identity**, **role**, **connection claim** and **verified condition**;
-3. classify a labelled component by its stated function without relying on colour, appearance or location alone;
+1. define earthing, protective earthing, earth electrode, earthing conductor, protective earthing conductor and equipotential bonding in bounded educational language;
+2. distinguish a component's **identity**, **intended role**, **claimed connection** and **verified condition**;
+3. classify a labelled component without relying on colour, appearance or location alone;
 4. separate normal-current, fault-current and touch-potential reasoning at concept level;
-5. construct a role map showing how source reference, protective conductors, conductive parts and protective devices relate without claiming compliance;
-6. identify supplied facts, assumptions and missing evidence in an earthing description;
-7. write supported, conditional and unresolved statements whose certainty matches the evidence; and
-8. stop and escalate when a task would require opening, tracing, testing, disconnecting, reconnecting, altering or energising an installation.
+5. build a role map connecting source reference, protective conductors, conductive parts and protective devices without claiming compliance;
+6. label stated facts, derived facts, supported inferences, assumptions, contradictions and evidence gaps;
+7. identify the first unsupported transition in an earthing argument;
+8. write supported, conditional and unresolved conclusions with named evidence owners and recheck triggers; and
+9. stop and escalate before opening, tracing, testing, disconnecting, reconnecting, altering or energising an installation.
 
 ### Entry check
 
 Without notes, answer:
 
-1. Why is a conductor colour not proof of its function?
+1. Why is conductor colour not proof of function?
 2. What is the difference between naming a component and proving its condition?
 3. Why does a drawn current path not establish current magnitude or device operation?
 4. What is the difference between a protective function and a work-control function?
-5. Name the four evidence classes used in Week 2.
+5. Give one example each of a stated fact, supported inference, assumption, contradiction and evidence gap.
 6. State three actions this module does not authorise.
 
-Mark each response **secure**, **uncertain** or **guessing**. Any confident but incorrect response becomes the first correction target.
+Rate each response **high**, **medium** or **low confidence**. A high-confidence unsafe or unsupported answer is corrected before a low-confidence omission because it is more likely to be repeated without checking.
 
 ## 2. Why it matters
 
-Earthing questions become unsafe when learners use one word—such as “earth”—for several different components and functions. A green-yellow conductor, an electrode, a terminal, a bonded metal service and a protective path are related, but they are not interchangeable. Confusing them can produce incorrect diagrams, unsupported compliance claims and unsafe practical assumptions.
+Earthing questions become unsafe when one word—such as “earth”—is used for several different components and functions. A green-yellow conductor, electrode, terminal, bonded metal service and protective path may be related, but they are not interchangeable. Confusing identity, role, connection and condition can produce incorrect diagrams, unsupported compliance claims and unsafe practical assumptions.
 
-This module deliberately slows the sequence. It establishes a controlled vocabulary before Days 16–21 examine continuity, exposed conductive parts, bonding, MEN paths and fault scenarios.
+This module deliberately slows the sequence. It establishes controlled vocabulary and evidence boundaries before Days 16–21 examine continuity, exposed conductive parts, bonding, MEN paths and fault scenarios.
 
 ![A learner labels earthing components by role rather than guessing from appearance](../../../assets/learning/12-week/day-15-earthing-terminology-and-component-roles/name-the-role-before-the-path.svg)
+
+*Caption: Name the component and its intended role before making any claim about connection, condition or performance.*
 
 ## 3. Core concepts and terminology
 
@@ -71,51 +74,61 @@ The definitions below are educational summaries. Exact normative wording must be
 - **Earthing:** the broad arrangement by which selected points or conductive parts are intentionally related to earth for defined system and protective purposes.
 - **Earth:** the conductive mass of the ground, treated conceptually as a reference but not assumed to be an ideal conductor.
 - **Earth electrode:** a conductive part intended to make electrical contact with the general mass of earth.
-- **Earthing conductor:** a conductor that forms a specified connection within the earthing arrangement. The exact endpoints and classification depend on the applicable arrangement and authorised definition.
+- **Earthing conductor:** a conductor that forms a specified connection within an earthing arrangement. Exact endpoints and classification depend on the applicable arrangement and authorised definition.
 - **Protective earthing conductor:** a conductor intended to support a protective function by connecting relevant conductive parts into the protective earthing arrangement.
 - **Protective earthing:** the protective arrangement intended to reduce risk associated with conductive parts becoming hazardous under fault conditions.
-- **Equipotential bonding:** intentional connection of relevant conductive parts to reduce hazardous potential differences. It is not identical to protective earthing, even when both interact.
-- **Exposed conductive part:** a conductive part of electrical equipment that may be touched and is not normally live but may become live under a fault. Exact classification remains source-dependent.
-- **Extraneous conductive part:** a conductive part that can introduce a potential from outside the electrical equipment or installation under consideration. Metal alone does not prove this classification.
+- **Equipotential bonding:** intentional connection of relevant conductive parts to reduce hazardous potential differences. It is not identical to protective earthing, even where both interact.
+- **Exposed conductive part:** a conductive part of electrical equipment that may be touched, is not normally live and may become live under a fault. Exact classification remains source-dependent.
+- **Extraneous conductive part:** a conductive part capable of introducing a potential from outside the electrical equipment or installation under consideration. Metal alone does not prove this classification.
 - **Main earthing terminal or bar:** the designated connection point at which specified protective and earthing conductors are brought together. Exact naming and required connections depend on the applicable arrangement.
-- **MEN connection:** a specified neutral-to-earthing connection within an Australian or New Zealand multiple-earthed-neutral arrangement. Its permitted location, construction and implications require authorised verification.
+- **MEN connection:** a specified neutral-to-earthing connection within an Australian or New Zealand multiple-earthed-neutral arrangement. Permitted location, construction and implications require authorised verification.
 - **Normal-current path:** the intended route of load current during ordinary operation.
-- **Fault-current path:** a possible route of current created by an insulation failure or another abnormal connection.
+- **Fault-current path:** a possible route of current created by insulation failure or another abnormal connection.
 - **Touch potential:** a potential difference that could appear between simultaneously accessible points. A conceptual possibility is not a measured value.
-- **Identity claim:** a claim about what an item is labelled or described as being.
-- **Role claim:** a claim about the function the item is intended to perform.
+- **Identity claim:** what an item is labelled or described as being.
+- **Role claim:** the function the item is intended to perform.
 - **Connection claim:** a claim that particular endpoints are electrically connected.
-- **Condition claim:** a claim about continuity, integrity, suitability or performance. It requires evidence beyond appearance or labelling.
+- **Condition claim:** a claim about continuity, integrity, suitability or performance; it requires evidence beyond appearance or labelling.
+- **Stated fact:** information explicitly supplied by the scenario or an identified source.
+- **Derived fact:** information obtained from stated facts by a transparent, valid step that introduces no new assumption.
+- **Supported inference:** a conclusion reasonably supported by evidence but not directly stated.
+- **Assumption:** an unverified proposition temporarily introduced into reasoning; it must be labelled and cannot support a final technical conclusion.
+- **Contradiction:** two relevant evidence items that cannot both describe the same condition as stated.
+- **Evidence gap:** missing information needed to decide a material claim.
+- **First unsupported transition:** the earliest step where the reasoning moves from supported evidence to an unverified identity, connection, condition or performance claim.
+- **Evidence owner:** the authorised person, record or source category responsible for resolving a gap.
+- **Recheck trigger:** a change that requires the conclusion to be reopened, such as a different supply arrangement, endpoint, service material, drawing revision or evidence record.
 
 ## 4. Rule-finding workflow
 
 Use **E-A-R-T-H**:
 
-1. **E — Establish the boundary:** identify the installation portion, source arrangement and task limits described.
-2. **A — Assign exact terms:** label each conductor, terminal and conductive part with the most specific supported term.
-3. **R — Record the role:** state the intended function separately from colour, location or appearance.
-4. **T — Test the evidence claim:** classify each statement as supplied, derived, assumed or missing; do not convert a label into proof of connection or condition.
-5. **H — Hold the boundary:** write a supported, conditional or unresolved conclusion and stop before practical work or compliance approval.
+1. **E — Establish the boundary:** identify the installation portion, source arrangement, task and authority limits described.
+2. **A — Assign exact terms:** label each conductor, terminal and conductive part with the most precise term supported by current evidence.
+3. **R — Record role and evidence state:** separate intended function from appearance and label each supporting statement as fact, inference, assumption, contradiction or gap.
+4. **T — Trace to the first unsupported transition:** stop where a label or diagram is converted into an unverified connection, condition, suitability or operating claim.
+5. **H — Hold and hand off:** write a supported, conditional or unresolved conclusion; name the evidence owner and recheck trigger; do not cross into practical work or compliance approval.
 
 ```mermaid
 flowchart TD
-    A["Scenario boundary"] --> B["Identify described component"]
-    B --> C["Assign precise term"]
+    A["Scenario and authority boundary"] --> B["Identify described component"]
+    B --> C["Assign most precise supported term"]
     C --> D["State intended role"]
-    D --> E{"Evidence proves connection or condition?"}
-    E -->|"No"| F["Conditional or unresolved statement"]
-    E -->|"Yes, from authorised evidence"| G["Bounded supported statement"]
-    F --> H["Record missing evidence and stop boundary"]
-    G --> H
+    D --> E["Label evidence states and contradictions"]
+    E --> F{"Connection or condition proven?"}
+    F -->|"No"| G["Find first unsupported transition"]
+    F -->|"Yes, from authorised evidence"| H["Write bounded supported statement"]
+    G --> I["Record gap, owner, trigger and stop boundary"]
+    H --> I
 ```
 
-The workflow prevents a familiar label, colour or diagram symbol from being treated as proof of continuity, correctness or compliance.
+The workflow prevents a familiar label, colour or diagram symbol from being treated as proof of continuity, correctness, suitability or compliance.
 
 ## 5. Visual model or worked example
 
 ```mermaid
 flowchart LR
-    S["Source reference arrangement"] --> T["Designated earthing terminal or bar"]
+    S["Source-reference arrangement"] --> T["Designated earthing terminal or bar"]
     T --> P["Protective earthing conductors"]
     P --> E["Relevant exposed conductive parts"]
     T --> B["Bonding conductors where required"]
@@ -124,86 +137,92 @@ flowchart LR
     X --> R
 ```
 
-This is a **role map**, not a wiring diagram. It shows conceptual relationships only. It does not prove that any connection is required in a particular case, that conductors are continuous, that a fault path has sufficient characteristics, or that a protective device will operate as required.
+This is a **role map**, not a wiring diagram. It shows conceptual relationships only. It does not prove that a connection is required in a particular case, that conductors are continuous, that a fault path has sufficient characteristics or that a protective device will operate as required.
 
 ### Worked original scenario
 
-A fictional training drawing shows a switchboard, an earth electrode symbol, a terminal bar, a green-yellow conductor to an appliance enclosure and another conductor to a metal water service. No conductor endpoints, test records, source details or installation history are supplied.
+A fictional training drawing shows a switchboard, an earth-electrode symbol, a terminal bar, a green-yellow conductor to an appliance enclosure and another conductor to a metal water service. A later maintenance sketch labels the water-service conductor “spare”. No endpoints, test records, source details or document revision status are supplied.
 
 Apply E-A-R-T-H:
 
-1. **Establish:** the drawing concerns component roles only; the source arrangement and physical condition are unknown.
-2. **Assign:** the symbols may represent an electrode, a designated earthing terminal, a protective earthing conductor and a bonding conductor, but exact classification depends on authorised definitions and endpoints.
-3. **Record:** the appliance conductor appears intended to support protective earthing; the water-service conductor appears intended to support bonding.
-4. **Test:** colour and diagram placement are supplied observations. Actual endpoints, continuity, conductor suitability and required connection status are missing evidence.
-5. **Hold:** it is supported that the drawing intends different roles; it is unresolved whether the real installation is correctly connected, continuous or compliant.
+1. **Establish:** the task is document-based component-role classification only. Source arrangement, document precedence and physical condition are unknown.
+2. **Assign:** the symbols may represent an electrode, designated earthing terminal, protective earthing conductor and bonding conductor, but exact classifications depend on authorised definitions and verified endpoints.
+3. **Record:** the first drawing suggests protective-earthing and bonding intentions. The later “spare” label contradicts the first drawing's apparent bonding role. Neither drawing proves present connection or condition.
+4. **Trace:** the first unsupported transition would be claiming that the water service is currently bonded, or that bonding is or is not required, from either drawing alone.
+5. **Hold:** the supported conclusion is that records conflict about intended role. The document controller or authorised technical reviewer owns resolution of revision status; any change in supply arrangement, service material, endpoint or controlling drawing triggers re-evaluation.
 
 ### Worked-example fading
 
-For a second fictional drawing, complete only these prompts:
+For a second fictional drawing, complete only:
 
-- boundary:
-- most precise supported terms:
-- role of each component:
-- evidence that is supplied:
-- assumptions to remove:
-- missing evidence:
-- bounded conclusion:
-- stop condition:
+- boundary and authority limit;
+- most precise supported terms;
+- stated and derived facts;
+- supported inferences;
+- assumptions to remove;
+- contradictions and evidence gaps;
+- first unsupported transition;
+- evidence owner and recheck trigger;
+- bounded conclusion; and
+- stop condition.
 
 ## 6. Practical application
 
-### Task A — terminology sort
+### Task A — terminology and evidence sort
 
-Sort each phrase into **component**, **role**, **path**, **potential**, **evidence claim** or **work boundary**:
+Sort each phrase into **component**, **role**, **path**, **potential**, **evidence state** or **work boundary**:
 
 - earth electrode;
 - protective earthing;
 - fault-current path;
 - touch potential;
 - conductor appears green-yellow;
+- two drawings show different endpoints;
 - continuity has not been verified;
 - stop before opening equipment; and
 - equipotential bonding.
 
-For every answer, provide a one-sentence definition and one non-example.
+For each answer, provide a one-sentence definition and one non-example.
 
-### Task B — role-before-condition table
+### Task B — role-before-condition ledger
 
-Complete this table for an original labelled diagram:
+Complete:
 
-| Item | Most precise supported term | Intended role | What appearance may show | What still requires evidence |
-|---|---|---|---|---|
-| A |  |  |  |  |
-| B |  |  |  |  |
-| C |  |  |  |  |
-| D |  |  |  |  |
+| Item | Most precise supported term | Intended role | Evidence state | Contradiction or gap | First unsupported transition | Evidence owner / recheck trigger |
+|---|---|---|---|---|---|---|
+| A |  |  |  |  |  |  |
+| B |  |  |  |  |  |  |
+| C |  |  |  |  |  |  |
+| D |  |  |  |  |  |  |
 
 At least one row must remain conditional or unresolved.
 
-### Task C — changed-condition transfer
+### Task C — changed-context transfer
 
-Start with the worked scenario, then change one fact at a time:
+Rebuild the reasoning after changing at least **two** material conditions:
 
-1. the service is changed from metal to non-conductive material;
-2. the conductor endpoint cannot be identified;
-3. an alternative supply is added; or
-4. a test record is available but its instrument and date are unknown.
+- the service changes from metal to non-conductive material;
+- the conductor endpoint cannot be identified;
+- an alternative supply is introduced;
+- a test record exists but its date or instrument identity is missing; or
+- two drawings conflict and neither has confirmed precedence.
 
-For each change, state which earlier classification or conclusion must be reopened and why.
+Do not merely edit the previous conclusion. Re-establish the boundary, reclassify the evidence and identify the new first unsupported transition.
 
-### Assessment rubric
+### Assessment decision record
 
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Terminology | vague or interchangeable terms | partly precise | terms precise and bounded |
-| Component versus role | merged | partly separated | consistently separated |
-| Evidence control | appearance treated as proof | some gaps identified | identity, connection and condition claims controlled |
-| Path reasoning | normal and fault paths confused | partial distinction | paths separated without unsupported operation claims |
-| Application | repeats worked answer | limited transfer | changed facts reopen the correct conclusions |
-| Safety boundary | practical action proposed | general caution | explicit stop and escalation point |
+Assess each criterion separately:
 
-A score of **10–12**, with no zero in terminology, evidence control or safety boundary, supports progression. Otherwise complete one varied correction before Day 16.
+| Criterion | Secure | Developing | Unsupported | `stop-required` |
+|---|---|---|---|---|
+| Terminology | terms are precise, bounded and not interchangeable | minor imprecision that does not alter the conclusion | vague terminology supports a material claim | terminology hides a hazardous or unauthorised assumption |
+| Component versus role | identity, role, connection and condition remain separate | one separation needs correction | label or appearance is treated as proof | unsupported identity leads toward practical action |
+| Evidence control | facts, inferences, assumptions, contradictions and gaps are explicit | evidence labels are incomplete but conclusion remains bounded | contradiction or gap is ignored | invented evidence or concealed contradiction supports action |
+| Path reasoning | normal, fault and touch-potential reasoning remain distinct | distinction is incomplete but no operating claim is made | incomplete path is treated as proven | device operation or safety is asserted without required evidence |
+| Transfer | reasoning is rebuilt after two material changes | one changed condition is handled incompletely | worked answer is copied into a changed context | changed conditions are ignored despite a safety consequence |
+| Safety and authority | explicit stop, owner and escalation boundary | boundary is general but safe | authority limit is vague | practical work, approval or certification is proposed |
+
+Progression requires no `stop-required` criterion and secure performance in terminology, evidence control, path reasoning and safety/authority. A developing criterion receives one varied correction. An unsupported criterion requires targeted remediation and a fresh transfer example. Strength in one criterion cannot cancel a blocking failure in another. These are educational planning states, not official grades or competency decisions.
 
 ## 7. Common errors and safety checkpoint
 
@@ -215,8 +234,9 @@ A score of **10–12**, with no zero in terminology, evidence control or safety 
 - treating protective earthing and equipotential bonding as identical;
 - assuming the earth electrode is the complete protective fault-current return path;
 - treating a diagram symbol as proof of physical connection;
+- choosing one of two contradictory records without establishing precedence;
 - inferring device operation from a conceptual path;
-- quoting an exact definition, connection location or test requirement from memory; and
+- quoting exact definitions, connection locations or test requirements from memory; and
 - presenting educational classification as inspection, certification or approval.
 
 ### Safety checkpoint
@@ -224,6 +244,7 @@ A score of **10–12**, with no zero in terminology, evidence control or safety 
 Stop and escalate when:
 
 - a component cannot be identified from authorised documentation;
+- records conflict about identity, endpoints, role or revision status;
 - determining identity would require opening equipment, removing covers or tracing conductors;
 - proving a connection would require isolation, testing, measurement, disconnection or reconnection;
 - damage, overheating, exposed parts, repeated protective-device operation or another immediate hazard is described;
@@ -239,15 +260,16 @@ This module authorises no switching, isolation, opening, proving, tracing, measu
 1. Define earthing, protective earthing and equipotential bonding without using them as synonyms.
 2. Distinguish an earth electrode from a protective earthing conductor.
 3. Explain identity, role, connection and condition claims.
-4. Distinguish an exposed conductive part from an extraneous conductive part at concept level.
-5. Explain why colour and location are insufficient evidence.
+4. Distinguish exposed and extraneous conductive parts at concept level.
+5. Explain why colour, location and a diagram symbol are insufficient evidence.
 6. Recite E-A-R-T-H and explain each step.
-7. State why the role map is not a wiring diagram or proof of device operation.
-8. Name four stop conditions.
+7. Define the first unsupported transition, evidence owner and recheck trigger.
+8. Explain why contradictory records must remain unresolved until precedence is established.
+9. State four stop conditions.
 
 ### Exit task
 
-Submit the entry check with confidence ratings, Tasks A–C, the rubric score, one corrected misconception, one unresolved definition or requirement for authorised checking, and one readiness statement for Day 16.
+Submit the entry check with confidence ratings, Tasks A–C, the criterion decision record, one corrected high-confidence misconception, one unresolved definition or requirement for authorised checking, and one bounded readiness statement for Day 16.
 
 ### Navigation
 
