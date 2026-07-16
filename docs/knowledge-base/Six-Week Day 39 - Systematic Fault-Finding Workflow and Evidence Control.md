@@ -6,14 +6,24 @@ day: 39
 status: review-required
 reference_check_required: true
 technically_reviewed: false
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-16
+quality_passes:
+  - date: 2026-07-16
+    focus: diagnostic evidence grading, hypothesis discrimination, dependency reopening and bounded reporting
 ---
 
 # Six-Week Day 39 - Systematic Fault-Finding Workflow and Evidence Control
 
 ## Purpose
 
-Build disciplined paper-based diagnostic reasoning by separating symptoms, observations, hypotheses, predictions and verified causes. The module uses **T-R-A-C-E-S**: triage boundaries; record symptoms; analyse observations; create competing hypotheses; evaluate authorised evidence; state a bounded conclusion or escalate.
+Build disciplined paper-based diagnostic reasoning by separating symptoms, observations, inferences, hypotheses, predictions and verified causes. The module uses **T-R-A-C-E-S**: triage boundaries; record evidence; analyse without converting inference into fact; create competing hypotheses; evaluate discrimination, contradictions and confounders; state a bounded conclusion or escalation.
+
+## Evidence and claim model
+
+- Evidence grades: **stated**, **indicated**, **corroborated**, **transferred**, **unresolved**.
+- Claim grades: **assumption**, **provisional educational conclusion**, **supported educational conclusion**, **authorised technical determination**.
+- Diagnostic-evidence ledger: symptom/question → evidence item → identity/boundary → provenance/state → evidence grade → observation/inference → hypotheses supported/weakened → distinguishing prediction → confounder/contradiction → dependency → claim grade → reopening trigger → bounded statement.
+- A repeated symptom, recent alteration, component replacement, temporary recovery or plausible result may contribute evidence but cannot independently verify a cause.
 
 ## Prerequisites
 
@@ -21,6 +31,7 @@ Build disciplined paper-based diagnostic reasoning by separating symptoms, obser
 - [[Six-Week Day 37 - Mandatory Test Purposes and Safe Test Preconditions]]
 - [[Six-Week Day 38 - Test Sequence Expected Evidence and Result Interpretation]]
 - [[Evidence Provenance]]
+- [[Observation and Inference]]
 - [[Electrical Safety and Authority Boundaries]]
 
 ## Related concepts
@@ -28,31 +39,40 @@ Build disciplined paper-based diagnostic reasoning by separating symptoms, obser
 - [[Fault Finding]]
 - [[Hypothesis Testing]]
 - [[Evidence Provenance]]
-- [[Verification]]
 - [[Confounding Factors]]
+- [[Disconfirming Evidence]]
+- [[Evidence Dependencies]]
+- [[Changed-Condition Transfer]]
+- [[Evidence Quarantine]]
 - [[Bounded Conclusions]]
 - [[Alternative Supplies]]
 
 ## Practical application
 
-Use a fictional evidence pack to classify each item as symptom, observation, inference or result. Preserve source, time, location, conditions and method. Create at least two competing hypotheses and a distinguishing prediction for each. Record contradictions, confounders, evidence gaps and every conclusion that must be reopened when conditions change.
+Audit twelve fictional evidence items, preserve identity, source, time, state and conditions, then create at least two competing hypotheses and one distinguishing prediction for each. Grade every evidence item and claim, record contradictions and confounders, map dependencies and selectively reopen affected rows when timing, identity, source state, document revision or maintenance history changes.
 
 ## Assessment relevance
 
-The learner must demonstrate that they can:
+The learner must demonstrate observable performance in:
 
-- distinguish a reported effect from a proven cause;
-- create testable, competing explanations;
-- identify evidence capable of distinguishing between explanations;
-- reject untraceable or invalid evidence;
-- avoid confirmation bias and premature certainty;
-- state uncertainty, escalation and practical-authority limits explicitly.
+- separating reported effects, observations and inferences from causes;
+- grading evidence and claims;
+- creating competing explanations rather than one favoured guess;
+- identifying evidence capable of distinguishing between explanations;
+- controlling provenance, confounders and contradictions;
+- withdrawing unsupported inferences after changed conditions;
+- reopening only dependent reasoning; and
+- stating uncertainty, exclusions, escalation and practical-authority limits explicitly.
 
-A critical error includes declaring a cause, safety state, compliance state or return-to-service decision without sufficient authorised evidence.
+The six-category 12-point rubric and critical-error gates are original educational tools, not an official RTO pass mark.
+
+## Reopening triggers
+
+Reopen affected rows when equipment or circuit identity, diagnostic boundary, symptom timing, normal or alternate source state, stored energy, automatic restoration, document revision, maintenance record, method, instrument status, environmental condition, responsible role or authority changes or conflicts with later evidence.
 
 ## Safety and technical-review boundary
 
-This note is educational and paper-based. It provides no switching, isolation, testing, instrument-use, live-work, energisation, diagnosis, repair, certification or approval procedure. Exact fault-finding methods, test requirements, values and jurisdiction-specific duties remain `reference_check_required`. Automated content is not `technically-reviewed`.
+This note is educational and paper-based. It provides no switching, isolation, testing, instrument-use, live-work, energisation, diagnosis, repair, certification or approval procedure. Exact fault-finding methods, test requirements, values, acceptance criteria and jurisdiction-specific duties remain `reference_check_required`. Automated content is not `technically-reviewed`.
 
 ## References and navigation
 
