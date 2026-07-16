@@ -17,9 +17,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 01 — Program orientation and evidence habits
 - [x] Block 02 — Electrical quantities and relationship language
 - [x] Block 03 — Reading simple circuit representations
-- [ ] Block 04 — Safe information boundaries and authorised sources
-- [ ] Block 05 — Rule-finding workflow foundations
-- [ ] Block 06 — Retrieval lab: terminology and diagrams
+- [x] Block 04 — Safe information boundaries and authorised sources
+- [x] Block 05 — Rule-finding workflow foundations
+- [x] Block 06 — Retrieval lab: terminology and diagrams
 - [ ] Block 07 — Rest, reflection and catch-up
 
 ### Week 2 — circuits, conductors and protection
