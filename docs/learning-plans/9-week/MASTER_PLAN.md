@@ -41,9 +41,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 21 — Rest, reflection and catch-up
 
 ### Week 4 — switching, isolation and alternate supplies
-- [ ] Block 22 — Functional switching versus isolation
-- [ ] Block 23 — Main switches and control points
-- [ ] Block 24 — Alternative and multiple supplies
+- [x] Block 22 — Functional switching versus isolation
+- [x] Block 23 — Main switches and control points
+- [x] Block 24 — Alternative and multiple supplies
 - [ ] Block 25 — Source-state mapping
 - [ ] Block 26 — Isolation evidence and stop conditions
 - [ ] Block 27 — Interleaved switching and fault retrieval
