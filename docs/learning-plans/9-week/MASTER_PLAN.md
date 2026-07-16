@@ -55,11 +55,11 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 31 — Conductor-selection variables
 - [x] Block 32 — Voltage-drop reasoning workflow
 - [x] Block 33 — Protection and conductor coordination
-- [ ] Block 34 — Integrated planning case
-- [ ] Block 35 — Rest, reflection and catch-up
+- [x] Block 34 — Integrated planning case
+- [x] Block 35 — Rest, reflection and catch-up
 
 ### Week 6 — visual inspection and test purposes
-- [ ] Block 36 — Verification evidence model
+- [x] Block 36 — Verification evidence model
 - [ ] Block 37 — Structured visual inspection
 - [ ] Block 38 — Mandatory test purposes
 - [ ] Block 39 — Test-order reasoning
