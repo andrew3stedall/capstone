@@ -34,13 +34,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 19 — Earthing versus neutral misconceptions
 - [x] Block 20 — Cumulative fault-path exercise
 - [x] Block 21 — Rest, reflection and catch-up
+- [x] Block 22 — Functional switching versus isolation
+- [x] Block 23 — Main switches and control points
+- [x] Block 24 — Alternative and multiple supplies
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 19 and 20 retain `reference_check_required: true` because they apply safety-critical earthing, neutral, fault-path and touch-risk concepts. Block 21 is a non-technical consolidation increment and therefore uses `reference_check_required: false`; it does not resolve technical uncertainties.
+Blocks 22–24 retain `reference_check_required: true` because they address safety-critical switching, isolation, control scope and multiple-source reasoning. They provide conceptual evidence workflows only and do not specify isolation procedures, switching sequences, required conductor arrangements, interlocking performance or verification test values.
 
 ## Next increment
 
-Block 22 — Functional switching versus isolation.
+Block 25 — Source-state mapping.
