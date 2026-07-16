@@ -47,11 +47,11 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 25 — Source-state mapping
 - [x] Block 26 — Isolation evidence and stop conditions
 - [x] Block 27 — Interleaved switching and fault retrieval
-- [ ] Block 28 — Rest, reflection and catch-up
+- [x] Block 28 — Rest, reflection and catch-up
 
 ### Week 5 — installation planning and verification preparation
-- [ ] Block 29 — Installation purpose and circuit division
-- [ ] Block 30 — Maximum-demand reasoning workflow
+- [x] Block 29 — Installation purpose and circuit division
+- [x] Block 30 — Maximum-demand reasoning workflow
 - [ ] Block 31 — Conductor-selection variables
 - [ ] Block 32 — Voltage-drop reasoning workflow
 - [ ] Block 33 — Protection and conductor coordination
