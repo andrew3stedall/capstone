@@ -25,9 +25,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 ### Week 2 — circuits, conductors and protection
 - [x] Block 08 — Circuit purpose and load grouping
 - [x] Block 09 — Conductor roles and identification
-- [ ] Block 10 — Current paths in normal operation
-- [ ] Block 11 — Overload and short-circuit concepts
-- [ ] Block 12 — Protective device purpose matching
+- [x] Block 10 — Current paths in normal operation
+- [x] Block 11 — Overload and short-circuit concepts
+- [x] Block 12 — Protective device purpose matching
 - [ ] Block 13 — Mixed retrieval and application
 - [ ] Block 14 — Rest, reflection and catch-up
 
