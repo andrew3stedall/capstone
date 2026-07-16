@@ -9,49 +9,49 @@ updated_on: 2026-07-16
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 13 completed for Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios.
-- **Quality-improvement passes:** 13 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 14, Week 2 Protection Integration Checkpoint.
+- **Current increment:** Quality-improvement pass 14 completed for Day 14 — Week 2 Protection Integration Checkpoint.
+- **Quality-improvement passes:** 14 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 15, Earthing Terminology and Component Roles.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 13 — Day 13
+### Quality-improvement pass 14 — Day 14
 
-- Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level states: secure, developing, unsupported and `stop-required`.
+- Removed the unsupported 16-of-20 aggregate progression threshold and replaced it with criterion-level states: secure, developing, unsupported and `stop-required`.
 - Expanded evidence control to distinguish stated facts, derived facts, supported inferences, assumptions, contradictions and evidence gaps.
-- Added the first unsupported transition as the required boundary between evidence and an unverified protection claim.
-- Added evidence owners, competing interpretations and explicit recheck triggers for unresolved material gaps.
-- Required transfer work to change at least two material scenario conditions rather than repeat the worked example.
-- Added blocking conditions so a safety, authority, contradiction or evidence failure cannot be cancelled by strengths elsewhere.
-- Strengthened the original scenarios with conflicting records and changed supply or load conditions without adding exact technical values or procedures.
-- Updated the corresponding knowledge-base note and direct Day 14 navigation.
-- Tracker state after this increment: 13 of 84 quality-improvement passes complete; next is Day 14.
+- Added the first unsupported transition as the required boundary between evidence and an unverified protection conclusion.
+- Added evidence owners, recheck triggers and explicit blocking conditions.
+- Required changed-context transfer to alter at least two material scenario conditions and rebuild the reasoning chain.
+- Strengthened the integrated scenario with conflicting circuit identity records while avoiding exact technical values or procedures.
+- Added progression decisions that prevent strengths in one criterion from cancelling a safety, authority, contradiction or evidence failure elsewhere.
+- Updated the corresponding knowledge-base note and direct Day 15 navigation.
+- Tracker state after this increment: 14 of 84 quality-improvement passes complete; next is Day 15.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md`
-- `docs/knowledge-base/12-Week Day 13 - Protection-Selection Evidence Workflow Using Original Scenarios.md`
+- `docs/learning-plans/12-week/modules/day-14-week-2-protection-integration-checkpoint.md`
+- `docs/knowledge-base/12-Week Day 14 - Week 2 Protection Integration Checkpoint.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 13 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact protection definitions, recognised measures, device characteristics, monitored-conductor arrangements, source and earthing conditions, fault paths, suitability, coordination, operating conditions and assessment requirements require current authorised sources and qualified review.
+- Day 14 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact protection definitions, recognised measures, device characteristics, source and earthing arrangements, current paths, suitability, coordination, operating conditions and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
 - No official pass mark, clause sequence, fault-current value, residual-current value, operating time, device curve, assessment question, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
-- The module authorises no selection for construction, access, switching, isolation, proving, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning, certification or verification.
+- The module authorises no access, switching, isolation, proving, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
 - Confirmed YAML metadata and the exact eight required section headings.
 - Checked that added technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, decisions, labels and edges and confirmed each is explained nearby.
-- Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with a concise caption.
-- Checked direct master-plan links and reciprocal Day 12/Day 13/Day 14 module and knowledge-note navigation.
+- Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with a concise instructional caption.
+- Checked direct master-plan links and reciprocal Day 13/Day 14/Day 15 module and knowledge-note navigation.
 - Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers and first-unsupported-transition logic for internal consistency.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
@@ -71,8 +71,9 @@ updated_on: 2026-07-16
   - [Day 11 — RCD Purpose, Limitations and Interaction with Other Protection](modules/day-11-rcd-purpose-limitations-and-interaction-with-other-protection.md)
   - [Day 12 — Rest, Retrieval and Misconception Repair](modules/day-12-rest-retrieval-and-misconception-repair.md)
   - [Day 13 — Protection-Selection Evidence Workflow Using Original Scenarios](modules/day-13-protection-selection-evidence-workflow-using-original-scenarios.md)
-- **Next pass:** Day 14 — Week 2 Protection Integration Checkpoint.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–13 to be selected again.
+  - [Day 14 — Week 2 Protection Integration Checkpoint](modules/day-14-week-2-protection-integration-checkpoint.md)
+- **Next pass:** Day 15 — Earthing Terminology and Component Roles.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–14 to be selected again.
 
 ## Commit behaviour
 
