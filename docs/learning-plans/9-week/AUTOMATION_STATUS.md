@@ -52,13 +52,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 37 — Structured visual inspection
 - [x] Block 38 — Mandatory test purposes
 - [x] Block 39 — Test-order reasoning
+- [x] Block 40 — Expected observations and contradictions
+- [x] Block 41 — Inspection-and-test integration case
+- [x] Block 42 — Rest, reflection and catch-up
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 37–39 retain `reference_check_required: true` and `technically_reviewed: false`. They organise inspection evidence, test-purpose reasoning and sequence dependencies without authorising field inspection, specifying a mandatory test set, prescribing test order, instruments, energised methods, values, acceptance limits or compliance decisions.
+Blocks 40–41 retain `reference_check_required: true` and `technically_reviewed: false`. They teach expectation-versus-evidence reasoning and integration of inspection/test evidence without prescribing observations, criteria, test sets, field sequences, instruments, values, defect classifications or compliance decisions. Block 42 is a non-technical recovery block with `reference_check_required: false`; it does not resolve any technical uncertainty or remove review flags.
 
 ## Next increment
 
-Block 40 — Expected observations and contradictions.
+Block 43 — Fault diagnosis as evidence updating.
