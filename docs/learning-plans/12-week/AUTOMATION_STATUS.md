@@ -9,54 +9,55 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 25 completed for Day 25 — Installation Methods, Environmental Influences and Derating.
-- **Quality-improvement passes:** 25 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 26, Rest, Retrieval and Calculation Error-Log Correction.
+- **Current increment:** Quality-improvement pass 26 completed for Day 26 — Rest, Retrieval and Calculation Error-Log Correction.
+- **Quality-improvement passes:** 26 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 27, Worked-Example Fading for Circuit Design.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 25 — Day 25
+### Quality-improvement pass 26 — Day 26
 
-- Removed the unsupported aggregate progression score and replaced it with criterion-level secure, developing, unsupported and `stop-required` states.
-- Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Separated physical route description, verified actual condition, authorised classification, source applicability, factor treatment, section result and bounded design conclusion.
-- Added the first unsupported transition as the mandatory boundary on downstream capacity, governing-case, compliance and approval claims.
-- Strengthened the worked scenario with contradictory drawing, maintenance and insulation records and retained competing route interpretations.
-- Added factor-provenance controls, evidence owners and explicit recheck triggers.
-- Required changed-context transfer to alter at least two material conditions and rebuild every affected claim from the earliest changed evidence.
-- Added blocking conditions so invented classifications or factors, ignored contradictions, duplicated adjustments, unpropagated changes and unauthorised practical actions cannot be offset by stronger work elsewhere.
-- Clarified that repeating the same calculator entry is not an independent check and that an unresolved candidate is not automatically unsuitable.
-- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 24/Day 25/Day 26 navigation.
-- Tracker state after this increment: 25 of 84 quality-improvement passes complete; next is Day 26.
+- Strengthened the recovery block without adding new electrical theory or practical procedure.
+- Added confidence calibration before note checking so correct guesses and confidently wrong answers are not treated as secure learning.
+- Distinguished root errors from downstream symptom errors and made the first unsupported transition the mandatory repair boundary.
+- Added stated fact, supported inference, assumption, contradiction and evidence-gap labels.
+- Added evidence owners and recheck triggers for unresolved technical or source questions.
+- Reworked R-E-P-A-I-R so one supported root cause is corrected at a time and all affected downstream work is reopened.
+- Added criterion-level secure, developing, unsupported and `stop-required` states instead of an aggregate readiness score.
+- Added blocking conditions that cannot be offset by stronger performance elsewhere.
+- Required changed-context transfer with at least two material changes and a rebuilt reasoning chain.
+- Preserved the 30-minute maximum, three-error limit, fatigue controls and no-new-theory purpose.
+- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 25/Day 26/Day 27 navigation.
+- Tracker state after this increment: 26 of 84 quality-improvement passes complete; next is Day 27.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-25-installation-methods-environmental-influences-and-derating.md`
-- `docs/knowledge-base/12-Week Day 25 - Installation Methods Environmental Influences and Derating.md`
+- `docs/learning-plans/12-week/modules/day-26-rest-retrieval-and-calculation-error-log-correction.md`
+- `docs/knowledge-base/12-Week Day 26 - Rest Retrieval and Calculation Error-Log Correction.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 25 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact installation classifications, capacity methods, environmental applicability conditions, correction factors, grouping and insulation treatment, source relationships, terminal limitations, exceptions and assessment requirements require current authorised sources and qualified review.
+- Day 26 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact source values, technical interpretations, calculation methods, applicability decisions and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, installation classification, conductor size, correction factor, exact technical value, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- No official pass mark, technical value, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
 - The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
 - Confirmed YAML metadata and the exact eight required section headings.
-- Checked that technical and educational terms are defined and objectives remain observable and assessment-focused.
-- Reviewed both Mermaid diagrams for coherent nodes, labels, decisions and edges and confirmed each is explained nearby.
-- Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible and now has a concise instructional caption.
-- Checked direct master-plan links and reciprocal Day 24/Day 25/Day 26 module and knowledge-note navigation.
-- Checked criterion-level states, blocking conditions, two-condition transfer, evidence-owner fields, recheck triggers, competing interpretations, contradiction handling and first-unsupported-transition logic for internal consistency.
-- Checked that physical description, actual condition, authorised classification, source applicability, factor treatment and approval remain distinct.
-- Checked that source values and adjustments remain traceable and that a factor is not silently duplicated.
+- Checked that every introduced term is defined and objectives remain observable and assessment-focused.
+- Reviewed both Mermaid diagrams for coherent nodes, decisions, labels and edges and confirmed each is explained nearby.
+- Confirmed the existing SVG reference remains relative, descriptive and accessible and now has a concise instructional caption.
+- Checked direct master-plan links and reciprocal Day 25/Day 26/Day 27 module and knowledge-note navigation.
+- Checked root-versus-symptom logic, first-unsupported-transition handling, criterion-level states, blocking conditions, confidence calibration, evidence owners, recheck triggers and two-condition transfer for internal consistency.
+- Checked that correction, unresolved status, readiness and technical approval remain distinct.
+- Checked that the 30-minute limit, maximum three selected errors and one-active-root-repair rule remain compatible.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -87,12 +88,13 @@ updated_on: 2026-07-17
   - [Day 23 — Design Current, Protective-Device Rating and Conductor Capacity](modules/day-23-design-current-protective-device-rating-and-conductor-capacity.md)
   - [Day 24 — Complete Cable-Selection Workflow and Evidence Record](modules/day-24-complete-cable-selection-workflow-and-evidence-record.md)
   - [Day 25 — Installation Methods, Environmental Influences and Derating](modules/day-25-installation-methods-environmental-influences-and-derating.md)
-- **Next pass:** Day 26 — Rest, Retrieval and Calculation Error-Log Correction.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–25 to be selected again.
+  - [Day 26 — Rest, Retrieval and Calculation Error-Log Correction](modules/day-26-rest-retrieval-and-calculation-error-log-correction.md)
+- **Next pass:** Day 27 — Worked-Example Fading for Circuit Design.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–26 to be selected again.
 
 ## Commit behaviour
 
-The connected contents write path created sequential commits rather than one atomic commit in this run.
+This increment was assembled as one Git tree commit through the connected GitHub interface.
 
 ## Run rules
 
