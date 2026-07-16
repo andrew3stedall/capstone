@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">One topic may not be enough</title>
+  <desc id="desc">A black-and-white stick figure holds one checklist while three overlapping checklists labelled environment, supply and users remain behind it.</desc>
+  <rect width="800" height="420" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="365" y="70" width="250" height="260" rx="12"/>
+    <rect x="325" y="92" width="250" height="260" rx="12"/>
+    <rect x="285" y="114" width="250" height="260" rx="12" fill="#fff"/>
+    <path d="M325 162h160m-160 55h160m-160 55h160m-160 55h160"/>
+    <path d="M305 155l10 10 18-24m-28 69 10 10 18-24m-28 69 10 10 18-24"/>
+    <circle cx="160" cy="120" r="34"/>
+    <path d="M160 154v105m0-70 70 18m-70-18-52 44m52 26-48 82m48-82 52 82"/>
+    <rect x="210" y="175" width="120" height="82" rx="8" fill="#fff"/>
+    <path d="M230 198h78m-78 22h78m-78 22h54"/>
+    <path d="M530 95l55-34m-16 0h16v16M570 118l70-9m-14-12 14 12-10 14"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="23" fill="#111">
+    <text x="392" y="354">USERS</text>
+    <text x="435" y="96">SUPPLY</text>
+    <text x="475" y="74">ENVIRONMENT</text>
+    <text x="224" y="286">ONE CHECK</text>
+  </g>
+</svg>

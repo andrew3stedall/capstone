@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">One page, not one library</title>
+  <desc id="desc">A black-and-white stick figure places a one-page prompt sheet beside a timer while several thick reference books remain closed.</desc>
+  <rect width="900" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="190" cy="145" r="42"/>
+    <path d="M190 187v120M190 225l92 60M190 225l-72 72M190 307l-55 105M190 307l68 105"/>
+    <path d="M330 330h465M370 330v85M755 330v85"/>
+    <rect x="340" y="185" width="155" height="115" rx="6"/>
+    <path d="M370 215h95M370 245h95M370 275h65"/>
+    <circle cx="565" cy="245" r="55"/>
+    <path d="M565 245l23-27M565 190v18"/>
+    <rect x="650" y="260" width="120" height="35"/>
+    <rect x="640" y="220" width="130" height="35"/>
+    <rect x="660" y="180" width="110" height="35"/>
+    <path d="M282 285l42-22"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="418" y="165" font-size="24">PROMPTS</text>
+    <text x="450" y="462" font-size="28">Cue the reasoning; leave the library closed.</text>
+  </g>
+</svg>

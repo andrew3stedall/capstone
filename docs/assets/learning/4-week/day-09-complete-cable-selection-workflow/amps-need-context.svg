@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Amperes need context</title>
+  <desc id="desc">A stick-figure protective device and a stick-figure cable each hold an evidence folder. Between them are three labels: design current, device rating and corrected capacity. The caption says matching ampere numbers are not enough.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="180" cy="145" r="28"/>
+    <path d="M180 173 L180 270 M180 205 L125 235 M180 205 L245 225 M180 270 L140 340 M180 270 L225 340"/>
+    <circle cx="720" cy="145" r="28"/>
+    <path d="M720 173 L720 270 M720 205 L655 225 M720 205 L775 235 M720 270 L678 340 M720 270 L760 340"/>
+    <path d="M245 225 H330 V295 H245 Z M260 210 H305 L320 225"/>
+    <path d="M570 225 H655 V295 H570 Z M585 210 H630 L645 225"/>
+    <rect x="350" y="65" width="200" height="55" rx="8"/>
+    <rect x="350" y="145" width="200" height="55" rx="8"/>
+    <rect x="350" y="225" width="200" height="55" rx="8"/>
+    <path d="M330 260 H350 M550 260 H570"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="287" y="268" font-size="18" font-weight="700">DEVICE</text>
+    <text x="612" y="268" font-size="18" font-weight="700">CABLE</text>
+    <text x="450" y="100" font-size="20" font-weight="700">DESIGN CURRENT</text>
+    <text x="450" y="180" font-size="20" font-weight="700">DEVICE RATING</text>
+    <text x="450" y="260" font-size="19" font-weight="700">CORRECTED CAPACITY</text>
+    <text x="450" y="390" font-size="27" font-weight="700">Same unit. Different job. Bring the evidence folders.</text>
+  </g>
+</svg>

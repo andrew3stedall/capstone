@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Name the trigger first</title>
+  <desc id="desc">A black-and-white stick figure sorts signs for water, public access, chemicals, temporary supply and batteries before opening a rule book.</desc>
+  <rect width="800" height="420" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="165" cy="112" r="34"/>
+    <path d="M165 146v108m0-72-58 45m58-45 65 35m-65 37-48 83m48-83 55 83"/>
+    <rect x="280" y="72" width="410" height="250" rx="16"/>
+    <path d="M315 120h70m55 0h70m55 0h80M315 190h70m55 0h70m55 0h80M315 260h70m55 0h70m55 0h80"/>
+    <path d="M330 105c12-22 24-22 36 0-12 12-24 12-36 0z"/>
+    <circle cx="475" cy="105" r="20"/>
+    <path d="M465 100h20m-10-10v20"/>
+    <path d="M600 88l22 34h-44z"/>
+    <path d="M326 173h50v34h-50zM338 166v-12m26 12v-12"/>
+    <rect x="450" y="170" width="48" height="38" rx="4"/>
+    <path d="M462 170v-13h24v13"/>
+    <path d="M585 175h42v30h-42zM594 168v-10h24v10"/>
+    <path d="M324 244l26-28 26 28-26 28z"/>
+    <path d="M448 245h52m-26-24v48"/>
+    <path d="M586 242c20-24 40-24 60 0-20 24-40 24-60 0z"/>
+    <path d="M108 227l-40-8m96 49 76 16"/>
+    <rect x="68" y="205" width="42" height="28" rx="4"/>
+    <path d="M284 340h400"/>
+    <path d="M330 340v42m308-42v42"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#111" text-anchor="middle">
+    <text x="350" y="306">TRIGGERS</text>
+    <text x="485" y="306">SCOPE</text>
+    <text x="620" y="306">EVIDENCE</text>
+  </g>
+</svg>

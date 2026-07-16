@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Stop when protection evidence is missing</title>
+  <desc id="desc">A black-and-white stick figure stands beside a stop sign at a gap between a circuit breaker icon and a cable icon. The caption says a printed rating is not a complete protection case.</desc>
+  <rect width="720" height="420" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="70" y="90" width="150" height="150" rx="12"/>
+    <path d="M105 130h80M105 170h80M145 95v140"/>
+    <path d="M220 165h105"/>
+    <path d="M395 165h105" stroke-dasharray="14 14"/>
+    <path d="M500 165h95"/>
+    <rect x="595" y="105" width="55" height="120" rx="10"/>
+    <path d="M610 125v80M625 125v80M640 125v80"/>
+    <circle cx="340" cy="95" r="28"/>
+    <path d="M340 123v95M340 150l-50 35M340 150l48 35M340 218l-42 65M340 218l43 65"/>
+    <polygon points="390,75 440,75 465,118 440,161 390,161 365,118"/>
+    <path d="M385 118h60"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#000" text-anchor="middle">
+    <text x="145" y="270" font-size="24" font-weight="700">DEVICE</text>
+    <text x="622" y="270" font-size="24" font-weight="700">CABLE</text>
+    <text x="415" y="125" font-size="22" font-weight="700">STOP</text>
+    <text x="360" y="335" font-size="25" font-weight="700">A printed rating is not a protection case.</text>
+    <text x="360" y="372" font-size="21">Bridge the gap with verified evidence—or do not proceed.</text>
+  </g>
+</svg>

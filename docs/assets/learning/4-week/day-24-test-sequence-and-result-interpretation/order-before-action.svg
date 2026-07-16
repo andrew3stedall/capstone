@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Order evidence before action</title>
+  <desc id="desc">A black-and-white stick figure arranges three evidence cards labelled scope, prerequisite and next step before a large start arrow.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g stroke="black" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="105" r="28"/>
+    <path d="M115 133v105M115 165l-55 45M115 165l60 25M115 238l-45 85M115 238l55 85"/>
+    <rect x="245" y="70" width="150" height="95" rx="10"/>
+    <rect x="245" y="190" width="150" height="95" rx="10"/>
+    <rect x="430" y="130" width="150" height="95" rx="10"/>
+    <path d="M610 180h105M680 140l40 40-40 40"/>
+    <path d="M175 190l70-45M175 190l70 45" stroke-dasharray="10 12"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">
+    <text x="320" y="125">SCOPE</text>
+    <text x="320" y="245">PREREQUISITE</text>
+    <text x="505" y="185">NEXT STEP</text>
+    <text x="665" y="270" font-size="20">START</text>
+  </g>
+  <text x="400" y="385" fill="black" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">Order the evidence before the action.</text>
+</svg>

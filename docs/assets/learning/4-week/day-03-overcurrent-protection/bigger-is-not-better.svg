@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">A larger breaker is not an automatic fix</title>
+  <desc id="desc">A black-and-white stick figure holds an oversized circuit breaker beside a thin cable that is drawn sweating. The caption says Bigger is not better when the cable is the one doing the sweating.</desc>
+  <rect width="900" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="145" r="34"/>
+    <line x1="150" y1="179" x2="150" y2="300"/>
+    <line x1="150" y1="220" x2="95" y2="265"/>
+    <line x1="150" y1="220" x2="235" y2="220"/>
+    <line x1="150" y1="300" x2="105" y2="380"/>
+    <line x1="150" y1="300" x2="195" y2="380"/>
+    <rect x="235" y="125" width="205" height="190" rx="12"/>
+    <line x1="275" y1="175" x2="400" y2="175"/>
+    <line x1="338" y1="175" x2="338" y2="255"/>
+    <path d="M520 120 C600 165, 600 235, 520 285 C600 335, 600 390, 520 420"/>
+    <path d="M548 168 C565 148, 580 150, 590 171"/>
+    <path d="M548 270 C565 250, 580 252, 590 273"/>
+    <path d="M650 180 C665 200, 665 220, 650 240 C635 220, 635 200, 650 180"/>
+    <path d="M700 250 C715 270, 715 290, 700 310 C685 290, 685 270, 700 250"/>
+    <line x1="440" y1="220" x2="520" y2="220"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="338" y="290" font-size="28" font-weight="700">BIGGER?</text>
+    <text x="560" y="95" font-size="26" font-weight="700">CABLE</text>
+    <text x="450" y="465" font-size="28" font-weight="700">“Bigger is not better when the cable is doing the sweating.”</text>
+  </g>
+</svg>

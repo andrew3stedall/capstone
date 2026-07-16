@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Space is not capacity</title>
+  <desc id="desc">A vacant switchboard slot holds a question mark while a learner lists compatibility, heat, fault and conductor evidence.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="80" y="70" width="360" height="250" rx="8"/>
+    <rect x="115" y="105" width="80" height="80"/>
+    <rect x="215" y="105" width="80" height="80"/>
+    <rect x="315" y="105" width="80" height="80"/>
+    <rect x="115" y="205" width="80" height="80"/>
+    <rect x="215" y="205" width="80" height="80"/>
+    <rect x="315" y="205" width="80" height="80"/>
+    <circle cx="650" cy="205" r="28"/>
+    <path d="M650 233V320 M650 255L565 230 M650 255L735 230 M650 320L610 375 M650 320L695 375"/>
+    <path d="M555 70H835V175H555Z"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="255" y="260" font-size="54" font-weight="700">?</text>
+    <text x="695" y="102" font-size="19" font-weight="700">COMPATIBILITY • HEAT</text>
+    <text x="695" y="132" font-size="19" font-weight="700">FAULT • CONDUCTORS</text>
+    <text x="695" y="160" font-size="19" font-weight="700">SOURCES • BARRIERS</text>
+    <text x="450" y="403" font-size="28" font-weight="700">A vacant way is a question, not an approval.</text>
+  </g>
+</svg>

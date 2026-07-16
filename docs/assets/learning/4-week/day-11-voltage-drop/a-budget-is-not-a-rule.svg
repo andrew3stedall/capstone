@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">A voltage-drop budget is not a rule</title>
+  <desc id="desc">Two stick figures allocate a fictional voltage-drop budget across three boxes while rejecting a giant percentage stamp. The caption says a budget guides design but the authorised rule decides.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="155" r="28"/>
+    <path d="M120 183 L120 275 M120 210 L70 245 M120 210 L185 225 M120 275 L82 340 M120 275 L160 340"/>
+    <circle cx="760" cy="155" r="28"/>
+    <path d="M760 183 L760 275 M760 210 L705 225 M760 210 L815 245 M760 275 L720 340 M760 275 L800 340"/>
+    <rect x="240" y="85" width="125" height="90" rx="8"/>
+    <rect x="390" y="85" width="125" height="90" rx="8"/>
+    <rect x="540" y="85" width="125" height="90" rx="8"/>
+    <path d="M365 130 H390 M515 130 H540"/>
+    <circle cx="450" cy="285" r="72"/>
+    <path d="M395 230 L505 340 M505 230 L395 340"/>
+    <path d="M185 225 L240 160 M705 225 L665 160"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="302" y="137" font-size="20" font-weight="700">SECTION A</text>
+    <text x="452" y="137" font-size="20" font-weight="700">SECTION B</text>
+    <text x="602" y="137" font-size="20" font-weight="700">SECTION C</text>
+    <text x="450" y="294" font-size="29" font-weight="700">MAGIC %</text>
+    <text x="450" y="398" font-size="27" font-weight="700">A budget guides design. The authorised rule decides.</text>
+  </g>
+</svg>

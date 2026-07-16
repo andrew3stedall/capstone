@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Do not jump the evidence gap</title>
+  <desc id="desc">A black-and-white stick figure stops at a gap between an inspection platform and a conclusion platform, with a bridge labelled authorised evidence still missing.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M55 355h330M575 355h330"/>
+    <path d="M385 355v80M575 355v80"/>
+    <circle cx="295" cy="200" r="34"/>
+    <path d="M295 234v110M295 265l-58 38M295 265l62 15M295 344l-42 74M295 344l42 74"/>
+    <path d="M395 315h170" stroke-dasharray="15 12"/>
+    <path d="M545 295l25 20-25 20"/>
+    <rect x="660" y="165" width="190" height="115" rx="8"/>
+    <path d="M695 210h120M695 245h90"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="220" y="470" font-size="28" font-weight="700">Inspection</text>
+    <text x="750" y="320" font-size="28" font-weight="700">Conclusion</text>
+    <text x="480" y="290" font-size="23" font-weight="700">authorised evidence</text>
+    <text x="480" y="485" font-size="32" font-weight="700">A missing bridge is not a shorter route.</text>
+    <text x="480" y="520" font-size="23">Stop, record the gap, and narrow the conclusion.</text>
+  </g>
+</svg>

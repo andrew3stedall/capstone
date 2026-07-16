@@ -4,6 +4,7 @@ Welcome to the Obsidian-style knowledge base for Capstone Ready.
 
 ## Maps of content
 
+- [[Four-Week Capstone Learning Plan]]
 - [[Capstone Assessment]]
 - [[Safety and Electrical Risk]]
 - [[Electrical Fundamentals]]

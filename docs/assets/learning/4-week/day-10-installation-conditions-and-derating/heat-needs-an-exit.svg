@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Heat needs an exit</title>
+  <desc id="desc">A stick-figure learner studies a cable passing through open air, grouped containment and insulation while arrows show different heat escape paths. The caption says map the heat path before choosing the factor.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="95" cy="155" r="28"/>
+    <path d="M95 183 L95 285 M95 210 L45 245 M95 215 L155 185 M95 285 L55 350 M95 285 L140 350"/>
+    <path d="M175 215 H785"/>
+    <path d="M250 190 V240 M270 190 V240 M290 190 V240"/>
+    <rect x="390" y="165" width="155" height="100" rx="8"/>
+    <path d="M425 190 V240 M455 190 V240 M485 190 V240 M515 190 V240"/>
+    <path d="M650 155 Q620 185 650 215 Q680 245 650 275 M700 155 Q670 185 700 215 Q730 245 700 275 M750 155 Q720 185 750 215 Q780 245 750 275"/>
+    <path d="M270 165 V115 M255 130 L270 115 L285 130"/>
+    <path d="M455 145 V100 M440 115 L455 100 L470 115"/>
+    <path d="M485 145 V100 M470 115 L485 100 L500 115"/>
+    <path d="M700 145 V120"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="270" y="285" font-size="22" font-weight="700">OPEN</text>
+    <text x="468" y="300" font-size="22" font-weight="700">GROUPED</text>
+    <text x="700" y="315" font-size="22" font-weight="700">INSULATED</text>
+    <text x="450" y="395" font-size="28" font-weight="700">Map the heat path before choosing the factor.</text>
+  </g>
+</svg>

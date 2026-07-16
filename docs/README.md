@@ -9,6 +9,8 @@ The application is an independent study companion for Australian electrical appr
 - [Project vision](./PROJECT_VISION.md)
 - [Product and feature specification](./PRODUCT_SPECIFICATION.md)
 - [Learning design](./LEARNING_DESIGN.md)
+- [Four-week capstone learning plan](./learning-plans/4-week/MASTER_PLAN.md)
+- [Hourly learning automation status](./learning-plans/4-week/AUTOMATION_STATUS.md)
 - [Simulator architecture](./SIMULATOR_ARCHITECTURE.md)
 - [Content, standards and copyright policy](./CONTENT_AND_COPYRIGHT.md)
 - [UI and design system](./UI_DESIGN_SYSTEM.md)
@@ -37,8 +39,9 @@ The application is an independent study companion for Australian electrical appr
 1. Project Vision
 2. Product Specification
 3. Learning Design
-4. UI Design System
-5. Simulator Architecture
-6. Content and Copyright
-7. Roadmap
-8. Knowledge Base
+4. Four-Week Capstone Learning Plan
+5. UI Design System
+6. Simulator Architecture
+7. Content and Copyright
+8. Roadmap
+9. Knowledge Base

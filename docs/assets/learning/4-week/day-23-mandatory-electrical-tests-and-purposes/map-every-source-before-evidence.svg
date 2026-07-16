@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Map every source before evidence gathering</title>
+  <desc id="desc">A black-and-white stick figure stops a test lead before it reaches a circuit diagram that has both a main supply and an unmapped auxiliary source.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="120" r="34"/>
+    <path d="M150 154v105M150 182l-62 45M150 182l78 12M150 259l-45 92M150 259l55 92"/>
+    <path d="M228 194c65 0 92 18 135 42"/>
+    <circle cx="385" cy="246" r="12"/>
+    <path d="M397 246h90M487 246v-105M487 246v92M487 141h120M487 338h120"/>
+    <rect x="607" y="95" width="180" height="92" rx="10"/>
+    <rect x="607" y="292" width="180" height="92" rx="10" stroke-dasharray="14 10"/>
+    <path d="M697 187v57M697 292v-48"/>
+    <path d="M250 145l20 35M270 145l-20 35"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111" text-anchor="middle">
+    <text x="697" y="135" font-size="25" font-weight="700">MAIN SUPPLY</text>
+    <text x="697" y="332" font-size="25" font-weight="700">AUXILIARY?</text>
+    <text x="697" y="360" font-size="20">not yet mapped</text>
+    <text x="450" y="398" font-size="25">Stop before the lead crosses an unknown energy boundary.</text>
+  </g>
+</svg>

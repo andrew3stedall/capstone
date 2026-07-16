@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">One question, one change</title>
+  <desc id="desc">A black-and-white instructional cartoon showing a stick figure choosing one clearly labelled evidence question while avoiding several unlabelled levers.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="170" r="38"/>
+    <path d="M160 208v120M160 245l-65 55M160 245l80 20M160 328l-52 95M160 328l58 95"/>
+    <rect x="300" y="105" width="300" height="120" rx="12"/>
+    <path d="M240 265l70-48"/>
+    <rect x="680" y="85" width="70" height="175" rx="8"/>
+    <rect x="780" y="85" width="70" height="175" rx="8"/>
+    <path d="M715 85v-35M815 85v-35M690 155h50M790 190h50"/>
+    <path d="M600 165h70" stroke-dasharray="14 12"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="150" font-size="27" font-weight="700">WHICH EVIDENCE</text>
+    <text x="450" y="187" font-size="27" font-weight="700">SEPARATES THE HYPOTHESES?</text>
+    <text x="715" y="295" font-size="21">lever?</text>
+    <text x="815" y="295" font-size="21">lever?</text>
+    <text x="480" y="480" font-size="30" font-weight="700">ASK BEFORE YOU ALTER</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Confidence is not proof</title>
+  <desc id="desc">One stick figure holds a very large speech bubble marked CERTAIN while another points to a small evidence folder. The caption says confidence is a rating and evidence does the lifting.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="210" cy="195" r="30"/>
+    <path d="M210 225 L210 310 M210 248 L150 275 M210 250 L285 250 M210 310 L165 365 M210 310 L255 365"/>
+    <path d="M70 35 H430 Q455 35 455 60 V125 Q455 150 430 150 H275 L225 180 L235 150 H70 Q45 150 45 125 V60 Q45 35 70 35 Z"/>
+    <circle cx="680" cy="190" r="30"/>
+    <path d="M680 220 L680 310 M680 245 L605 270 M680 245 L745 270 M680 310 L640 365 M680 310 L725 365"/>
+    <path d="M605 270 L525 285"/>
+    <path d="M455 250 H565 V330 H455 Z M470 235 H525 L540 250"/>
+    <path d="M735 155 Q680 125 625 155"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="250" y="105" font-size="42" font-weight="700">CERTAIN!</text>
+    <text x="510" y="296" font-size="22" font-weight="700">EVIDENCE</text>
+    <text x="450" y="398" font-size="27" font-weight="700">Confidence is a rating. Evidence does the lifting.</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">IP is one evidence gate</title>
+  <desc id="desc">Black-and-white instructional cartoon showing a stick figure holding an IP label beside four gates labelled location, construction, circuit and installation, with only one gate checked.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="145" r="34"/>
+    <path d="M150 179v118m0-74-62 45m62-45 72 22m-72 52-50 100m50-100 58 100"/>
+    <rect x="215" y="205" width="120" height="75"/>
+    <path d="M360 120v280m120-280v280m120-280v280m120-280v280m-360-280h90m30 0h90m30 0h90m30 0h90"/>
+    <path d="M382 250l20 22 40-55"/>
+    <path d="M500 235l50 50m0-50-50 50m120-50 50 50m0-50-50 50m120-50 50 50m0-50-50 50"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="275" y="252" font-size="30">IP</text>
+    <text x="405" y="445" font-size="22">LOCATION</text>
+    <text x="525" y="445" font-size="22">BUILD</text>
+    <text x="645" y="445" font-size="22">CIRCUIT</text>
+    <text x="765" y="445" font-size="22">INSTALL</text>
+    <text x="480" y="500" font-size="26">One label does not open every gate.</text>
+  </g>
+</svg>

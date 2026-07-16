@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Loads need a model</title>
+  <desc id="desc">A stick-figure learner sorts labelled load cards into inventory, method, phase and evidence boxes. The caption says a pile of ratings is not yet maximum demand.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="125" r="29"/>
+    <path d="M115 154 L115 260 M115 180 L55 215 M115 182 L190 205 M115 260 L72 330 M115 260 L160 330"/>
+    <rect x="250" y="55" width="150" height="80" rx="6"/>
+    <rect x="475" y="55" width="150" height="80" rx="6"/>
+    <rect x="250" y="210" width="150" height="80" rx="6"/>
+    <rect x="475" y="210" width="150" height="80" rx="6"/>
+    <path d="M400 95 H475 M325 135 V210 M550 135 V210 M400 250 H475"/>
+    <rect x="690" y="70" width="135" height="55" rx="5"/>
+    <rect x="690" y="150" width="135" height="55" rx="5"/>
+    <rect x="690" y="230" width="135" height="55" rx="5"/>
+    <path d="M690 98 L625 98 M690 178 L625 178 M690 258 L625 258"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="325" y="104" font-size="23" font-weight="700">INVENTORY</text>
+    <text x="550" y="104" font-size="23" font-weight="700">METHOD</text>
+    <text x="325" y="260" font-size="23" font-weight="700">PHASE</text>
+    <text x="550" y="260" font-size="23" font-weight="700">EVIDENCE</text>
+    <text x="758" y="105" font-size="20" font-weight="700">LIGHTS</text>
+    <text x="758" y="185" font-size="20" font-weight="700">MOTOR</text>
+    <text x="758" y="265" font-size="20" font-weight="700">EV</text>
+    <text x="450" y="385" font-size="27" font-weight="700">A pile of ratings is not yet maximum demand.</text>
+  </g>
+</svg>

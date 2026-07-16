@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">One useful correction instead of endless catch-up</title>
+  <desc id="desc">A tired stick figure chooses a timer and one error card while a tall stack of notes remains untouched. The caption says One good fix beats twelve tired rereads.</desc>
+  <rect width="900" height="520" fill="white"/>
+  <g stroke="black" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="220" cy="145" r="45"/>
+    <path d="M220 190 L220 325 M220 225 L155 275 M220 230 L300 265 M220 325 L170 410 M220 325 L275 410"/>
+    <path d="M190 135 Q205 150 220 135 M230 135 Q245 150 260 135"/>
+    <circle cx="370" cy="270" r="65"/>
+    <path d="M370 270 L370 225 M370 270 L410 285"/>
+    <rect x="470" y="210" width="170" height="120" rx="10"/>
+    <path d="M500 245 H610 M500 280 H575"/>
+    <rect x="690" y="115" width="120" height="65"/>
+    <rect x="675" y="180" width="135" height="65"/>
+    <rect x="660" y="245" width="150" height="65"/>
+    <rect x="645" y="310" width="165" height="65"/>
+  </g>
+  <text x="450" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="black">One good fix beats twelve tired rereads.</text>
+</svg>

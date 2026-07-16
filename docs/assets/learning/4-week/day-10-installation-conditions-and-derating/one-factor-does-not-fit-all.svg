@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">One factor does not fit all route segments</title>
+  <desc id="desc">Two stick figures compare three labelled route-segment cards while pushing away one oversized correction-factor card. The caption says segment first, factor second.</desc>
+  <rect width="900" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="145" r="28"/>
+    <path d="M115 173 L115 275 M115 205 L60 235 M115 205 L180 225 M115 275 L75 345 M115 275 L155 345"/>
+    <circle cx="785" cy="145" r="28"/>
+    <path d="M785 173 L785 275 M785 205 L720 225 M785 205 L840 235 M785 275 L745 345 M785 275 L825 345"/>
+    <rect x="230" y="100" width="120" height="85" rx="8"/>
+    <rect x="390" y="100" width="120" height="85" rx="8"/>
+    <rect x="550" y="100" width="120" height="85" rx="8"/>
+    <rect x="340" y="245" width="220" height="95" rx="8"/>
+    <path d="M320 225 L365 245 M580 225 L535 245"/>
+    <path d="M280 205 V225 M450 205 V225 M610 205 V225"/>
+    <path d="M300 65 Q450 20 600 65"/>
+    <path d="M430 285 L470 325 M470 285 L430 325"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="290" y="150" font-size="25" font-weight="700">A</text>
+    <text x="450" y="150" font-size="25" font-weight="700">B</text>
+    <text x="610" y="150" font-size="25" font-weight="700">C</text>
+    <text x="450" y="300" font-size="24" font-weight="700">ONE GIANT</text>
+    <text x="450" y="328" font-size="24" font-weight="700">FACTOR</text>
+    <text x="450" y="395" font-size="29" font-weight="700">Segment first. Factor second.</text>
+  </g>
+</svg>

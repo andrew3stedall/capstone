@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Conductor job descriptions</title>
+  <desc id="desc">Black-and-white stick figures labelled Active, Neutral and Protective Earth perform different jobs. Active pushes a load cart forward, Neutral returns an empty cart, and Protective Earth stands beside an emergency route sign. Caption: Same installation. Different job descriptions.</desc>
+  <rect x="1" y="1" width="898" height="498" fill="white" stroke="black" stroke-width="2"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700">Conductor job descriptions</text>
+
+  <line x1="70" y1="345" x2="830" y2="345" stroke="black" stroke-width="3"/>
+
+  <g stroke="black" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="155" cy="155" r="28"/>
+    <line x1="155" y1="183" x2="155" y2="275"/>
+    <line x1="155" y1="215" x2="110" y2="245"/>
+    <line x1="155" y1="215" x2="205" y2="235"/>
+    <line x1="155" y1="275" x2="120" y2="330"/>
+    <line x1="155" y1="275" x2="190" y2="330"/>
+    <rect x="220" y="240" width="110" height="70"/>
+    <circle cx="245" cy="325" r="14"/>
+    <circle cx="305" cy="325" r="14"/>
+    <line x1="205" y1="235" x2="220" y2="260"/>
+    <polyline points="285,215 320,190 355,215"/>
+    <rect x="300" y="215" width="40" height="25"/>
+
+    <circle cx="455" cy="155" r="28"/>
+    <line x1="455" y1="183" x2="455" y2="275"/>
+    <line x1="455" y1="215" x2="410" y2="235"/>
+    <line x1="455" y1="215" x2="505" y2="245"/>
+    <line x1="455" y1="275" x2="420" y2="330"/>
+    <line x1="455" y1="275" x2="490" y2="330"/>
+    <rect x="540" y="240" width="110" height="70"/>
+    <circle cx="565" cy="325" r="14"/>
+    <circle cx="625" cy="325" r="14"/>
+    <line x1="505" y1="245" x2="540" y2="260"/>
+
+    <circle cx="740" cy="155" r="28"/>
+    <line x1="740" y1="183" x2="740" y2="275"/>
+    <line x1="740" y1="215" x2="690" y2="235"/>
+    <line x1="740" y1="215" x2="790" y2="235"/>
+    <line x1="740" y1="275" x2="705" y2="330"/>
+    <line x1="740" y1="275" x2="775" y2="330"/>
+    <line x1="805" y1="180" x2="805" y2="315"/>
+    <rect x="765" y="185" width="80" height="72"/>
+    <polyline points="790,235 805,225"/>
+  </g>
+
+  <text x="155" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">ACTIVE</text>
+  <text x="275" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">LOAD</text>
+  <text x="155" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Normal outgoing path</text>
+
+  <text x="455" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">NEUTRAL</text>
+  <text x="595" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">RETURN</text>
+  <text x="455" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Normal return path</text>
+
+  <text x="740" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">PROTECTIVE EARTH</text>
+  <text x="805" y="213" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">FAULT</text>
+  <text x="805" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="14">ROUTE</text>
+  <text x="740" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="18">Protective path</text>
+
+  <text x="450" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700">Same installation. Different job descriptions.</text>
+</svg>

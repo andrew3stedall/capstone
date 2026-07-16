@@ -1,0 +1,113 @@
+---
+title: Four-Week Capstone Learning Plan
+status: active
+jurisdiction: AU-NZ
+source_status: original-learning-plan
+reviewed_on: 2026-07-16
+---
+
+# Four-Week Capstone Learning Plan
+
+This is the canonical sequence for the intensive four-week program. It assumes the learner is working full-time and has prior trade-school and workplace exposure.
+
+## Study rhythm
+
+- Monday–Thursday: 60–75 minutes
+- Friday: rest or catch-up only, maximum 30 minutes
+- Saturday: 2.5–3 hours
+- Sunday: 60–90 minutes
+- Weekly target: approximately 9–10 hours
+
+## Module production standard
+
+Every scheduled learning block must use the exact eight-beat structure:
+
+1. **Outcome and entry check**
+2. **Why it matters**
+3. **Core concepts and terminology**
+4. **Rule-finding workflow**
+5. **Visual model or worked example**
+6. **Practical application**
+7. **Common errors and safety checkpoint**
+8. **Retrieval and next links**
+
+Every module requires compatible YAML metadata, observable objectives, prerequisite links, related notes, a source/currency notice and explicit review status. Exact clause numbers, limits and test values require authorised current-source verification and qualified technical review.
+
+Rest, retrieval and catch-up days remain dedicated modules with time-boxed retrieval, error-log triage, fatigue stop conditions, readiness checks and reciprocal navigation.
+
+## Ordered learning blocks
+
+### Week 1 — Navigation, protection and earthing
+
+- [x] [Day 1 — Exam orientation and Wiring Rules navigation](./modules/day-01-exam-orientation-and-wiring-rules-navigation.md)
+- [x] [Day 2 — Fundamental safety principles](./modules/day-02-fundamental-safety-principles.md)
+- [x] [Day 3 — Overcurrent protection](./modules/day-03-overcurrent-protection.md)
+- [x] [Day 4 — RCD protection and additional protection](./modules/day-04-rcd-protection-and-additional-protection.md)
+- [x] [Day 5 — Rest, retrieval and catch-up](./modules/day-05-rest-retrieval-and-catch-up.md)
+- [x] [Day 6A — Earthing terminology and component roles](./modules/day-06a-earthing-terminology-and-component-roles.md)
+- [x] [Day 6B — MEN fault-current path](./modules/day-06b-men-fault-current-path.md)
+- [x] [Day 6C — Earthing and MEN fault scenarios](./modules/day-06c-earthing-and-men-fault-scenarios.md)
+- [x] [Day 7 — Week 1 consolidation and competency check](./modules/day-07-week-1-consolidation-and-competency-check.md)
+
+### Week 2 — Circuit design, cables and switchboards
+
+- [x] [Day 8 — Maximum demand](./modules/day-08-maximum-demand.md)
+- [x] [Day 9 — Complete cable-selection workflow](./modules/day-09-complete-cable-selection-workflow.md)
+- [x] [Day 10 — Installation conditions and derating](./modules/day-10-installation-conditions-and-derating.md)
+- [x] [Day 11 — Voltage drop](./modules/day-11-voltage-drop.md)
+- [x] [Day 12 — Rest, calculation correction and catch-up](./modules/day-12-rest-calculation-correction-and-catch-up.md)
+- [x] [Day 13A — Switching, isolation and main switches](./modules/day-13a-switching-isolation-and-main-switches.md)
+- [x] [Day 13B — Switchboard construction and arrangements](./modules/day-13b-switchboard-construction-and-arrangements.md)
+- [x] [Day 13C — Switchboard defect inspection](./modules/day-13c-switchboard-defect-inspection.md)
+- [x] [Day 14 — Week 2 integrated design exercise](./modules/day-14-week-2-integrated-design-exercise.md)
+
+### Week 3 — Installation requirements and special locations
+
+- [x] [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md)
+- [x] [Day 16 — Consumer mains, submains and final subcircuits](./modules/day-16-consumer-mains-submains-and-final-subcircuits.md)
+- [x] [Day 17 — Bathrooms, showers and other wet areas](./modules/day-17-bathrooms-showers-and-other-wet-areas.md)
+- [x] [Day 18 — Other special installations and locations](./modules/day-18-other-special-installations-and-locations.md)
+- [x] [Day 19 — Rest, retrieval and catch-up](./modules/day-19-rest-retrieval-and-catch-up.md)
+- [x] [Day 20A — Fixed appliances and local isolation](./modules/day-20a-fixed-appliances-and-local-isolation.md)
+- [x] [Day 20B — Motors and associated protection](./modules/day-20b-motors-and-associated-protection.md)
+- [x] [Day 20C — Alternative and multiple supplies awareness](./modules/day-20c-alternative-and-multiple-supplies-awareness.md)
+- [x] [Day 21 — Week 3 simulated visual inspection](./modules/day-21-week-3-simulated-visual-inspection.md)
+
+### Week 4 — Verification, fault finding and exam performance
+
+- [x] [Day 22 — Verification principles and visual inspection](./modules/day-22-verification-principles-and-visual-inspection.md)
+- [x] [Day 23 — Mandatory electrical tests and purposes](./modules/day-23-mandatory-electrical-tests-and-purposes.md)
+- [x] [Day 24 — Test sequence and result interpretation](./modules/day-24-test-sequence-and-result-interpretation.md)
+- [x] [Day 25 — Systematic fault-finding workflow](./modules/day-25-systematic-fault-finding-workflow.md)
+- [x] [Day 26 — Rest and final catch-up](./modules/day-26-rest-and-final-catch-up.md)
+- [x] [Day 27 — Full mock examination](./modules/day-27-full-mock-examination.md)
+- [x] [Day 28 — Mock review and final readiness check](./modules/day-28-mock-review-and-final-readiness-check.md)
+
+## Quality-improvement passes
+
+- [x] Day 1 through Day 13B — one tracked substantive pass completed per module.
+- [x] 2026-07-16 — [Day 13C — Switchboard defect inspection](./modules/day-13c-switchboard-defect-inspection.md): evidence and claim grades, urgency-versus-certainty reasoning, transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 14 — Week 2 integrated design exercise](./modules/day-14-week-2-integrated-design-exercise.md): strengthened D-E-S-I-G-N, controlling-condition logic, transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 15 — Wiring systems and mechanical protection](./modules/day-15-wiring-systems-and-mechanical-protection.md): strengthened R-O-U-T-E, exposure transitions, transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 16 — Consumer mains, submains and final subcircuits](./modules/day-16-consumer-mains-submains-and-final-subcircuits.md): strengthened T-R-A-C-E, evidence and claim grades, cumulative dependencies, changed-source transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 17 — Bathrooms, showers and other wet areas](./modules/day-17-bathrooms-showers-and-other-wet-areas.md): strengthened W-A-T-E-R, provisional-zone discipline, four suitability gates, geometry-change transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 18 — Other special installations and locations](./modules/day-18-other-special-installations-and-locations.md): strengthened S-C-O-P-E, six trigger categories, overlap reasoning, changed-trigger transfer, rubric and vault alignment.
+- [x] 2026-07-16 — [Day 19 — Rest, retrieval and catch-up](./modules/day-19-rest-retrieval-and-catch-up.md): added four-category error classification, confidence calibration, changed-scenario and delayed retrieval, a six-category rubric and aligned vault metadata.
+- [x] 2026-07-16 — [Day 20A — Fixed appliances and local isolation](./modules/day-20a-fixed-appliances-and-local-isolation.md): strengthened L-O-C-K with evidence and claim grades, complete energy-boundary reasoning, changed-source transfer, a six-category rubric and aligned vault metadata.
+- [x] 2026-07-16 — [Day 20B — Motors and associated protection](./modules/day-20b-motors-and-associated-protection.md): strengthened M-O-T-O-R with operating-case discipline, evidence and claim grades, coordination reasoning, changed-duty transfer, a six-category rubric and aligned vault metadata.
+- [ ] Next — Day 20C — Alternative and multiple supplies awareness.
+
+## Quality gates for every run
+
+A block is complete only when:
+
+- the eight beats are present and logically connected;
+- objectives are observable and assessable;
+- terminology is consistent with the vault;
+- Mermaid materially improves understanding and is syntactically valid;
+- one to three original accessible black-and-white instructional SVGs are present or retained after review;
+- the master plan, status tracker and knowledge note are aligned;
+- reciprocal navigation and relevant backlinks are correct;
+- safety and copyright boundaries are explicit;
+- automated content is never labelled `technically-reviewed`;
+- exactly one next block is recorded.

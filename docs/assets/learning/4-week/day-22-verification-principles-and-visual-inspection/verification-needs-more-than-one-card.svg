@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Verification needs more than one evidence card</title>
+  <desc id="desc">A black-and-white stick figure places design, inspection, test and records cards into one verification chain, while a single pass card sits incomplete to the side.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="185" r="34"/>
+    <path d="M150 219v115M150 250l-60 48M150 250l85 25M150 334l-48 78M150 334l48 78"/>
+    <rect x="290" y="125" width="135" height="100" rx="8"/>
+    <rect x="455" y="125" width="135" height="100" rx="8"/>
+    <rect x="620" y="125" width="135" height="100" rx="8"/>
+    <rect x="455" y="285" width="135" height="100" rx="8"/>
+    <path d="M425 175h30M590 175h30M687 225v60"/>
+    <path d="M522 225v60"/>
+    <rect x="790" y="330" width="120" height="80" rx="8" stroke-dasharray="12 10"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="357" y="182" font-size="25" font-weight="700">Design</text>
+    <text x="522" y="182" font-size="25" font-weight="700">Inspect</text>
+    <text x="687" y="182" font-size="25" font-weight="700">Test</text>
+    <text x="522" y="342" font-size="25" font-weight="700">Records</text>
+    <text x="850" y="378" font-size="23" font-weight="700">PASS?</text>
+    <text x="480" y="468" font-size="32" font-weight="700">Verification is a chain, not a favourite card.</text>
+    <text x="480" y="510" font-size="24">One good result cannot answer every question.</text>
+  </g>
+</svg>

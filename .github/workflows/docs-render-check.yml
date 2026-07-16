@@ -1,0 +1,130 @@
+name: Docs render check
+
+on:
+  push:
+    branches:
+      - automation/4-week-learning-plan
+    paths:
+      - 'docs/**'
+      - 'scripts/fix-learning-plan-doc-links.mjs'
+      - 'scripts/normalize-mermaid.mjs'
+      - 'scripts/sync-learning-plan-navigation.mjs'
+      - 'scripts/validate-docs.mjs'
+      - 'scripts/validate-mermaid.mjs'
+      - '.github/workflows/docs-render-check.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'scripts/fix-learning-plan-doc-links.mjs'
+      - 'scripts/normalize-mermaid.mjs'
+      - 'scripts/sync-learning-plan-navigation.mjs'
+      - 'scripts/validate-docs.mjs'
+      - 'scripts/validate-mermaid.mjs'
+      - '.github/workflows/docs-render-check.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-render-check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Synchronise four-week learning documents
+        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
+        shell: bash
+        run: |
+          node scripts/sync-learning-plan-navigation.mjs
+          node scripts/fix-learning-plan-doc-links.mjs
+          node scripts/normalize-mermaid.mjs --write
+
+      - name: Commit learning-document updates
+        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
+        shell: bash
+        run: |
+          if git diff --quiet -- docs; then
+            echo 'Learning documents are already current.'
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add docs
+            git commit -m 'docs: sync four-week navigation and rendering'
+            git push origin HEAD:automation/4-week-learning-plan
+          fi
+
+      - name: Check normalized Mermaid source
+        shell: bash
+        run: |
+          set +e
+          node scripts/normalize-mermaid.mjs > mermaid-source-audit.log 2>&1
+          echo "$?" > mermaid-source-audit.status
+          exit 0
+
+      - name: Audit Markdown, links and SVG accessibility
+        shell: bash
+        run: |
+          set +e
+          node scripts/validate-docs.mjs > docs-audit.log 2>&1
+          echo "$?" > docs-audit.status
+          exit 0
+
+      - name: Render every Mermaid block
+        shell: bash
+        run: |
+          set +e
+          node scripts/validate-mermaid.mjs > mermaid-render-audit.log 2>&1
+          echo "$?" > mermaid-render-audit.status
+          exit 0
+
+      - name: Check whitespace errors
+        shell: bash
+        run: |
+          set +e
+          git diff --check > whitespace-audit.log 2>&1
+          echo "$?" > whitespace-audit.status
+          exit 0
+
+      - name: Upload render-audit evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-render-audit
+          path: |
+            mermaid-source-audit.log
+            mermaid-source-audit.status
+            docs-audit.log
+            docs-audit.status
+            mermaid-render-audit.log
+            mermaid-render-audit.status
+            whitespace-audit.log
+            whitespace-audit.status
+          if-no-files-found: error
+
+      - name: Enforce audit result
+        shell: bash
+        run: |
+          cat mermaid-source-audit.log
+          cat docs-audit.log
+          cat mermaid-render-audit.log
+          cat whitespace-audit.log
+
+          if [ "$(cat mermaid-source-audit.status)" != "0" ] || \
+             [ "$(cat docs-audit.status)" != "0" ] || \
+             [ "$(cat mermaid-render-audit.status)" != "0" ] || \
+             [ "$(cat whitespace-audit.status)" != "0" ]; then
+            exit 1
+          fi
