@@ -22,6 +22,9 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 07 — Rest, reflection and catch-up
 - [x] Block 08 — Circuit purpose and load grouping
 - [x] Block 09 — Conductor roles and identification
+- [x] Block 10 — Current paths in normal operation
+- [x] Block 11 — Overload and short-circuit concepts
+- [x] Block 12 — Protective device purpose matching
 
 ## Technical-review boundary
 
@@ -29,4 +32,4 @@ All generated modules are original educational drafts. Safety-critical content r
 
 ## Next increment
 
-Block 10 — Current paths in normal operation.
+Block 13 — Mixed retrieval and application.
