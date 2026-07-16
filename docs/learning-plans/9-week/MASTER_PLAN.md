@@ -79,9 +79,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 ### Week 8 — capstone integration
 - [x] Block 50 — Integrated installation scenario setup
 - [x] Block 51 — Planning evidence pack
-- [ ] Block 52 — Protection and earthing review
-- [ ] Block 53 — Switching and alternate-supply review
-- [ ] Block 54 — Inspection and testing review
+- [x] Block 52 — Protection and earthing review
+- [x] Block 53 — Switching and alternate-supply review
+- [x] Block 54 — Inspection and testing review
 - [ ] Block 55 — Timed cumulative integration
 - [ ] Block 56 — Rest, reflection and catch-up
 
