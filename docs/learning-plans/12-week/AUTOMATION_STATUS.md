@@ -9,42 +9,42 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 18 completed for Day 18 — MEN Arrangement and Normal-Current versus Fault-Current Paths.
-- **Quality-improvement passes:** 18 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 19, Rest, Retrieval and Diagram Reconstruction.
+- **Current increment:** Quality-improvement pass 19 completed for Day 19 — Rest, Retrieval and Diagram Reconstruction.
+- **Quality-improvement passes:** 19 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 20, MEN Fault Scenarios and Protective-Device Operation Reasoning.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 18 — Day 18
+### Quality-improvement pass 19 — Day 19
 
 - Removed the unsupported 10-of-12 aggregate progression threshold and replaced it with criterion-level states: secure, developing, unsupported and `stop-required`.
-- Expanded the MEN path claim ladder to distinguish component presence, identity, intended role, connection, continuity, path suitability, protective-device operation and verified protective outcome.
-- Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Added path provenance, competing-path reasoning and the first unsupported transition as the mandatory boundary on downstream claims.
-- Strengthened the worked scenario with conflicting termination records while keeping continuity and protective outcome unresolved.
-- Added evidence owners and explicit recheck triggers for every material unresolved claim.
-- Required changed-context transfer to alter at least two material conditions and rebuild the reasoning from the scenario boundary.
-- Added blocking conditions so safety, authority, contradiction and evidence failures cannot be cancelled by stronger performance elsewhere.
-- Updated the knowledge-base note and direct Day 17/Day 18/Day 19 navigation.
-- Tracker state after this increment: 18 of 84 quality-improvement passes complete; next is Day 19.
+- Added confidence calibration so correct guesses and high-confidence unsupported answers are distinguished from secure knowledge.
+- Added stated fact, supported inference, assumption, contradiction and evidence-gap labels to the closed-note comparison workflow.
+- Added the first unsupported transition as the mandatory boundary on downstream diagram and readiness claims.
+- Added blocking conditions for merged current paths, invented verification evidence, ignored contradictions and unauthorised practical actions.
+- Added evidence owners and explicit recheck triggers for unresolved criteria.
+- Required changed-context transfer to alter at least two material conditions and rebuild the path model.
+- Preserved the recovery purpose, 30-minute limit, bounded catch-up task and no-new-theory boundary.
+- Updated the knowledge-base note and direct Day 18/Day 19/Day 20 navigation.
+- Tracker state after this increment: 19 of 84 quality-improvement passes complete; next is Day 20.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-18-men-arrangement-and-normal-current-versus-fault-current-paths.md`
-- `docs/knowledge-base/12-Week Day 18 - MEN Arrangement and Normal-Current versus Fault-Current Paths.md`
+- `docs/learning-plans/12-week/modules/day-19-rest-retrieval-and-diagram-reconstruction.md`
+- `docs/knowledge-base/12-Week Day 19 - Rest Retrieval and Diagram Reconstruction.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 18 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact MEN definitions and arrangements, neutral-to-earthing connection locations and conditions, source relationships, conductor requirements, path characteristics, device operating conditions, test methods, acceptance criteria and assessment requirements require current authorised sources and qualified review.
+- Day 19 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact earthing, bonding and MEN definitions, path arrangements, component relationships, device operating conditions, verification evidence and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
 - No official pass mark, clause sequence, connection location, conductor size, impedance value, operating time, test method, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
-- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
+- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault creation, disconnection, reconnection, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
@@ -52,8 +52,9 @@ updated_on: 2026-07-17
 - Checked that technical and educational terms are defined and objectives remain observable and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels, decisions and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive, instructional and accessible, with an explicit instructional caption.
-- Checked direct master-plan links and reciprocal Day 17/Day 18/Day 19 module and knowledge-note navigation.
-- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, contradiction handling, path provenance, competing-path reasoning and first-unsupported-transition logic for internal consistency.
+- Checked direct master-plan links and reciprocal Day 18/Day 19/Day 20 module and knowledge-note navigation.
+- Checked criterion-level states, blocking conditions, confidence calibration, two-condition transfer, evidence-owner fields, recheck triggers, contradiction handling and first-unsupported-transition logic for internal consistency.
+- Checked the rest-day scope for time limits, fatigue controls, catch-up triage and absence of unnecessary new electrical theory.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -77,12 +78,13 @@ updated_on: 2026-07-17
   - [Day 16 — Protective Earthing Continuity and Exposed Conductive Parts](modules/day-16-protective-earthing-continuity-and-exposed-conductive-parts.md)
   - [Day 17 — Equipotential Bonding Purpose and Boundary Reasoning](modules/day-17-equipotential-bonding-purpose-and-boundary-reasoning.md)
   - [Day 18 — MEN Arrangement and Normal-Current versus Fault-Current Paths](modules/day-18-men-arrangement-and-normal-current-versus-fault-current-paths.md)
-- **Next pass:** Day 19 — Rest, Retrieval and Diagram Reconstruction.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–18 to be selected again.
+  - [Day 19 — Rest, Retrieval and Diagram Reconstruction](modules/day-19-rest-retrieval-and-diagram-reconstruction.md)
+- **Next pass:** Day 20 — MEN Fault Scenarios and Protective-Device Operation Reasoning.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–19 to be selected again.
 
 ## Commit behaviour
 
-The connected contents write path created four sequential commits rather than one atomic commit in this run.
+The connected contents write path created sequential commits rather than one atomic commit in this run.
 
 ## Run rules
 
