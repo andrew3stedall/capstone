@@ -40,13 +40,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 25 — Source-state mapping
 - [x] Block 26 — Isolation evidence and stop conditions
 - [x] Block 27 — Interleaved switching and fault retrieval
+- [x] Block 28 — Rest, reflection and catch-up
+- [x] Block 29 — Installation purpose and circuit division
+- [x] Block 30 — Maximum-demand reasoning workflow
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 25–27 retain `reference_check_required: true`. They provide conceptual source-state, evidence-chain and mixed-retrieval workflows only. They do not prescribe isolation sequences, instruments, proving methods, discharge controls, interlocking performance, switching procedures, acceptance values or field fault-investigation methods.
+Block 28 is a study-recovery module with `reference_check_required: false`; it does not resolve technical uncertainties or demonstrate field competence. Blocks 29–30 retain `reference_check_required: true` and `technically_reviewed: false`. They provide conceptual planning and evidence workflows only and do not establish compliant circuit arrangements, maximum-demand factors, supply limits, conductor ratings or final design decisions.
 
 ## Next increment
 
-Block 28 — Rest, reflection and catch-up.
+Block 31 — Conductor-selection variables.
