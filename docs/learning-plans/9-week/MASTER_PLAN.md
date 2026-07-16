@@ -33,9 +33,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 
 ### Week 3 — earthing, MEN and fault reasoning
 - [x] Block 15 — Protective earthing purpose
-- [ ] Block 16 — MEN system concept map
-- [ ] Block 17 — Fault-current path reasoning
-- [ ] Block 18 — Touch-voltage risk concepts
+- [x] Block 16 — MEN system concept map
+- [x] Block 17 — Fault-current path reasoning
+- [x] Block 18 — Touch-voltage risk concepts
 - [ ] Block 19 — Earthing versus neutral misconceptions
 - [ ] Block 20 — Cumulative fault-path exercise
 - [ ] Block 21 — Rest, reflection and catch-up
