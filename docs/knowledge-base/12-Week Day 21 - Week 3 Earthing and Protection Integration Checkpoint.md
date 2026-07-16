@@ -4,14 +4,14 @@ type: learning-note
 program: twelve-week
 status: review-required
 reference_check_required: true
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-17
 ---
 
 # 12-Week Day 21 - Week 3 Earthing and Protection Integration Checkpoint
 
 ## Purpose
 
-Supports cumulative coordination of earthing, bonding, MEN path reasoning, protective-device roles and evidence control.
+Supports cumulative coordination of earthing, bonding, MEN path reasoning, protective-device roles and evidence control without allowing a conceptual model to become an unsupported operating, compliance or safety conclusion.
 
 ## Module
 
@@ -27,22 +27,36 @@ Supports cumulative coordination of earthing, bonding, MEN path reasoning, prote
 
 ## Core concepts
 
-- **Integration checkpoint:** cumulative coordination of several domains.
-- **Claim grade:** described, supported or verification-dependent.
-- **Critical error:** an error that blocks progression regardless of numerical score.
-- **Reopening trigger:** a changed fact requiring earlier reasoning to be revisited.
+- **Integration checkpoint:** cumulative coordination of several domains in one controlled response.
+- **Evidence labels:** stated fact, derived fact, supported inference, assumption, contradiction and evidence gap.
+- **First unsupported transition:** the earliest step where a claim exceeds the available evidence; dependent later claims inherit that limitation.
+- **Evidence owner:** the authorised person, source or process responsible for resolving a gap.
+- **Recheck trigger:** the specific new evidence that requires earlier reasoning to be revisited.
+- **Criterion states:** secure, developing, unsupported and `stop-required`; these are educational planning states, not official grades.
+- **Blocking condition:** a safety, authority or evidence failure that cannot be cancelled by stronger performance elsewhere.
 
 ## I-N-T-E-G-R-A-T-E workflow
 
-Inventory facts; name parts; trace normal and fault paths separately; explain roles; gate conclusions; reconcile contradictions; apply a changed condition; test readiness; escalate and stop.
+Inventory and label evidence; name parts and source relationships; trace normal and fault paths separately; explain protective roles; gate conclusions; reconcile contradictions; apply at least two changed conditions; test each criterion; escalate and stop.
+
+The workflow requires the learner to keep competing interpretations open when records conflict and to identify the first unsupported transition before writing a bounded conclusion.
 
 ## Practical application
 
-The learner builds an evidence ledger, reconstructs two current paths, maps protective roles, repairs misconceptions and applies changed-condition transfer.
+The learner:
+
+- builds an evidence ledger with owners and recheck triggers;
+- reconstructs separate normal-current and plausible fault-current paths;
+- maps protective-earthing, bonding, overcurrent and residual-current roles;
+- repairs common misconceptions;
+- applies two-condition transfer; and
+- records criterion-level readiness without aggregate scoring.
 
 ## Assessment relevance
 
-Observable evidence includes accurate terminology, classification, dual-path reasoning, role separation, evidence gating, claim grading, changed-condition transfer and refusal to exceed authority.
+Observable evidence includes accurate terminology, evidence-linked classification, dual-path reasoning, role separation, contradiction handling, first-unsupported-transition control, changed-condition transfer and refusal to exceed authority.
+
+A criterion remains unsupported when it depends on an unresolved contradiction or an earlier unsupported transition. `stop-required` applies where the learner invents verification evidence, merges protective functions, ignores a changed source or directs unauthorised practical action.
 
 ## Related concepts
 
@@ -52,10 +66,12 @@ Observable evidence includes accurate terminology, classification, dual-path rea
 - [[Protective Devices]]
 - [[Residual Current Devices]]
 - [[Evidence Quality]]
+- [[Claim Evidence Chain]]
+- [[Stop Conditions]]
 
 ## Safety boundary
 
-Written educational preparation only. No switching, isolation, opening, proving, tracing, measurement, testing, alteration, repair, energisation, commissioning, certification or verification is authorised. Exact requirements and duties remain `reference_check_required`.
+Written educational preparation only. No switching, isolation, opening, proving, tracing, measurement, testing, resetting, fault creation, alteration, repair, energisation, commissioning, certification or verification is authorised. Exact requirements and duties remain `reference_check_required`.
 
 ## References and currency
 
