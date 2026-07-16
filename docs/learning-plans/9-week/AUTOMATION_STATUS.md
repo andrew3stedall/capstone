@@ -37,13 +37,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 22 — Functional switching versus isolation
 - [x] Block 23 — Main switches and control points
 - [x] Block 24 — Alternative and multiple supplies
+- [x] Block 25 — Source-state mapping
+- [x] Block 26 — Isolation evidence and stop conditions
+- [x] Block 27 — Interleaved switching and fault retrieval
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 22–24 retain `reference_check_required: true` because they address safety-critical switching, isolation, control scope and multiple-source reasoning. They provide conceptual evidence workflows only and do not specify isolation procedures, switching sequences, required conductor arrangements, interlocking performance or verification test values.
+Blocks 25–27 retain `reference_check_required: true`. They provide conceptual source-state, evidence-chain and mixed-retrieval workflows only. They do not prescribe isolation sequences, instruments, proving methods, discharge controls, interlocking performance, switching procedures, acceptance values or field fault-investigation methods.
 
 ## Next increment
 
-Block 25 — Source-state mapping.
+Block 28 — Rest, reflection and catch-up.
