@@ -55,13 +55,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 40 — Expected observations and contradictions
 - [x] Block 41 — Inspection-and-test integration case
 - [x] Block 42 — Rest, reflection and catch-up
+- [x] Block 43 — Fault diagnosis as evidence updating
+- [x] Block 44 — Symptom, cause and test distinction
+- [x] Block 45 — Safe diagnostic boundaries
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 40–41 retain `reference_check_required: true` and `technically_reviewed: false`. They teach expectation-versus-evidence reasoning and integration of inspection/test evidence without prescribing observations, criteria, test sets, field sequences, instruments, values, defect classifications or compliance decisions. Block 42 is a non-technical recovery block with `reference_check_required: false`; it does not resolve any technical uncertainty or remove review flags.
+Blocks 43–45 retain `reference_check_required: true` and `technically_reviewed: false`. They teach hypothesis updating, separation of symptom/cause/evidence language and diagnostic stop gates without prescribing field fault-finding, energised work, access, isolation, instruments, tests, values, repairs or compliance decisions.
 
 ## Next increment
 
-Block 43 — Fault diagnosis as evidence updating.
+Block 46 — Documentation and traceability.
