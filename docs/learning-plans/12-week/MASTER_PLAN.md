@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 47 of 84.
+- **Completed quality-improvement passes:** 48 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -111,9 +111,40 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 45 — Day 45](modules/day-45-consumer-mains-submains-and-final-subcircuits.md)
 - [x] [Quality pass 46 — Day 46](modules/day-46-fixed-appliances-and-local-isolation-reasoning.md)
 - [x] [Quality pass 47 — Day 47](modules/day-47-rest-retrieval-and-installation-defect-correction.md)
-- **Next quality-improvement pass:** Day 48 — Motors, Associated Protection and Control Boundaries.
-- Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
-
-## Quality gates and completion behaviour
-
-Complete selected sequential increments without duplication. A quality-improvement pass must materially improve observable assessment evidence, explanation, scenario transfer, navigation, accessibility, safety boundaries or source handling; metadata-only edits do not qualify. Record every completed pass in this file and `AUTOMATION_STATUS.md`. After all 84 passes, perform one final program-wide completion audit. Automated content must never be labelled `technically-reviewed` without qualified review evidence.
+- [x] [Quality pass 48 — Day 48](modules/day-48-motors-associated-protection-and-control-boundaries.md)
+- [ ] [Quality pass 49 — Day 49](modules/day-49-week-7-installation-planning-exercise.md)
+- [ ] [Quality pass 50 — Day 50](modules/day-50-special-location-method-classify-map-zones-and-verify-sources.md)
+- [ ] [Quality pass 51 — Day 51](modules/day-51-bathrooms-showers-and-other-wet-area-reasoning.md)
+- [ ] [Quality pass 52 — Day 52](modules/day-52-other-special-installations-and-location-specific-controls.md)
+- [ ] [Quality pass 53 — Day 53](modules/day-53-alternative-multiple-and-embedded-supply-awareness.md)
+- [ ] [Quality pass 54 — Day 54](modules/day-54-rest-retrieval-and-applicability-check-repair.md)
+- [ ] [Quality pass 55 — Day 55](modules/day-55-mixed-special-location-scenario-workshop.md)
+- [ ] [Quality pass 56 — Day 56](modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md)
+- [ ] [Quality pass 57 — Day 57](modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md)
+- [ ] [Quality pass 58 — Day 58](modules/day-58-visual-inspection-categories-and-defect-recording.md)
+- [ ] [Quality pass 59 — Day 59](modules/day-59-test-purposes-dependencies-and-safe-sequencing-concepts.md)
+- [ ] [Quality pass 60 — Day 60](modules/day-60-instrument-suitability-limitations-and-pre-use-evidence.md)
+- [ ] [Quality pass 61 — Day 61](modules/day-61-rest-retrieval-and-sequence-reconstruction.md)
+- [ ] [Quality pass 62 — Day 62](modules/day-62-result-plausibility-and-evidence-quality-reasoning.md)
+- [ ] [Quality pass 63 — Day 63](modules/day-63-week-9-verification-planning-checkpoint.md)
+- [ ] [Quality pass 64 — Day 64](modules/day-64-continuity-evidence-and-common-interpretation-errors.md)
+- [ ] [Quality pass 65 — Day 65](modules/day-65-insulation-polarity-and-connection-integrity-concepts.md)
+- [ ] [Quality pass 66 — Day 66](modules/day-66-fault-loop-and-rcd-result-interpretation-at-concept-level.md)
+- [ ] [Quality pass 67 — Day 67](modules/day-67-systematic-fault-finding-workflow-and-hypothesis-control.md)
+- [ ] [Quality pass 68 — Day 68](modules/day-68-rest-retrieval-and-high-confidence-error-repair.md)
+- [ ] [Quality pass 69 — Day 69](modules/day-69-fault-scenario-with-staged-evidence-release.md)
+- [ ] [Quality pass 70 — Day 70](modules/day-70-week-10-verification-and-fault-diagnosis-checkpoint.md)
+- [ ] [Quality pass 71 — Day 71](modules/day-71-reading-and-decomposing-an-integrated-assessment-scenario.md)
+- [ ] [Quality pass 72 — Day 72](modules/day-72-planning-a-compliant-design-response-and-evidence-trail.md)
+- [ ] [Quality pass 73 — Day 73](modules/day-73-inspection-testing-and-documentation-integration.md)
+- [ ] [Quality pass 74 — Day 74](modules/day-74-fault-diagnosis-correction-reasoning-and-re-verification-planning.md)
+- [ ] [Quality pass 75 — Day 75](modules/day-75-rest-retrieval-and-weak-domain-triage.md)
+- [ ] [Quality pass 76 — Day 76](modules/day-76-timed-integrated-scenario-with-worked-example-fading-removed.md)
+- [ ] [Quality pass 77 — Day 77](modules/day-77-week-11-competency-conference-and-targeted-remediation.md)
+- [ ] [Quality pass 78 — Day 78](modules/day-78-mock-preparation-time-allocation-and-stop-rule-rehearsal.md)
+- [ ] [Quality pass 79 — Day 79](modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
+- [ ] [Quality pass 80 — Day 80](modules/day-80-staged-design-and-calculation-mock-assessment.md)
+- [ ] [Quality pass 81 — Day 81](modules/day-81-staged-inspection-verification-and-fault-reasoning-mock-assessment.md)
+- [ ] [Quality pass 82 — Day 82](modules/day-82-rest-and-evidence-led-error-log-consolidation.md)
+- [ ] [Quality pass 83 — Day 83](modules/day-83-full-integrated-mock-assessment.md)
+- [ ] [Quality pass 84 — Day 84](modules/day-84-mock-review-readiness-decision-and-post-program-study-plan.md)
