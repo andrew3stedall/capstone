@@ -9,42 +9,41 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 27 completed for Day 27 — Worked-Example Fading for Circuit Design.
-- **Quality-improvement passes:** 27 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 28, Week 4 Independent Circuit-Design Checkpoint.
+- **Current increment:** Quality-improvement pass 28 completed for Day 28 — Week 4 Independent Circuit-Design Checkpoint.
+- **Quality-improvement passes:** 28 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 29, Voltage-Drop Concepts and Calculation Structure.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 27 — Day 27
+### Quality-improvement pass 28 — Day 28
 
-- Strengthened worked-example fading as an evidence-controlled transition from guided completion to independent circuit-design reasoning.
-- Added confidence calibration at entry so correct guesses and high-confidence unsupported answers are not treated as secure learning.
+- Replaced the unsupported 20-point aggregate readiness model with criterion-level secure, developing, unsupported and `stop-required` states.
+- Added confidence calibration at entry so correct guesses and confidently unsupported answers are not treated as secure learning.
 - Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
 - Added evidence provenance, competing interpretations, evidence owners and explicit recheck triggers.
 - Made the first unsupported transition the mandatory boundary on downstream suitability, compliance and approval claims.
-- Expanded F-A-D-E so learners audit authority limits, stop at unsupported steps and grade readiness by criterion.
-- Added a second explained Mermaid diagram for claim control and independent checking.
-- Strengthened the fictional scenario with conflicting equipment, route and maintenance records.
-- Required independent transfer with at least two material scenario changes and a rebuilt affected reasoning chain.
-- Added criterion-level secure, developing, unsupported and `stop-required` states instead of an aggregate readiness score.
+- Expanded C-H-E-C-K-P-O-I-N-T so learners audit claim boundaries, authority limits, blockers and remediation evidence.
+- Added a second explained Mermaid diagram for criterion-level readiness and blocker control.
+- Strengthened the fictional scenario with conflicting equipment, operating-control, route and renovation records.
+- Required transfer using two changed material conditions and a rebuilt affected reasoning chain.
 - Added blocking conditions that cannot be offset by strengths elsewhere.
-- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 26/Day 27/Day 28 navigation.
-- Tracker state after this increment: 27 of 84 quality-improvement passes complete; next is Day 28.
+- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 27/Day 28/Day 29 navigation.
+- Tracker state after this increment: 28 of 84 quality-improvement passes complete; next is Day 29.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-27-worked-example-fading-for-circuit-design.md`
-- `docs/knowledge-base/12-Week Day 27 - Worked-Example Fading for Circuit Design.md`
+- `docs/learning-plans/12-week/modules/day-28-week-4-independent-circuit-design-checkpoint.md`
+- `docs/knowledge-base/12-Week Day 28 - Week 4 Independent Circuit-Design Checkpoint.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 27 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact circuit-design methods, classifications, conductor capacities, correction factors, voltage and fault criteria, terminal limitations, device characteristics, applicability decisions and assessment requirements require current authorised sources and qualified review.
+- Day 28 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact circuit-design methods, demand treatment, installation classifications, conductor capacities, correction factors, device characteristics, voltage and fault criteria, terminal requirements, source applicability and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
 - No official pass mark, technical value, conductor size, device curve, correction factor, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
 - The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
@@ -55,7 +54,7 @@ updated_on: 2026-07-17
 - Checked that introduced terms are defined and objectives remain observable, content-specific and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, decisions, labels and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive and accessible and now has a concise instructional caption.
-- Checked direct master-plan links and reciprocal Day 26/Day 27/Day 28 module and knowledge-note navigation.
+- Checked direct master-plan links and reciprocal Day 27/Day 28/Day 29 module and knowledge-note navigation.
 - Checked evidence-state labels, provenance, first-unsupported-transition handling, competing interpretations, evidence owners, recheck triggers, criterion-level states, blocking conditions, confidence calibration and two-condition transfer for internal consistency.
 - Checked that a repeated calculator entry is not represented as an independent check.
 - Checked that readiness, technical approval, compliance and official assessment remain distinct.
@@ -91,12 +90,13 @@ updated_on: 2026-07-17
   - [Day 25 — Installation Methods, Environmental Influences and Derating](modules/day-25-installation-methods-environmental-influences-and-derating.md)
   - [Day 26 — Rest, Retrieval and Calculation Error-Log Correction](modules/day-26-rest-retrieval-and-calculation-error-log-correction.md)
   - [Day 27 — Worked-Example Fading for Circuit Design](modules/day-27-worked-example-fading-for-circuit-design.md)
-- **Next pass:** Day 28 — Week 4 Independent Circuit-Design Checkpoint.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–27 to be selected again.
+  - [Day 28 — Week 4 Independent Circuit-Design Checkpoint](modules/day-28-week-4-independent-circuit-design-checkpoint.md)
+- **Next pass:** Day 29 — Voltage-Drop Concepts and Calculation Structure.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–28 to be selected again.
 
 ## Commit behaviour
 
-The connected contents write path produced four sequential commits because PR and commit-tree metadata endpoints returned transient upstream errors during this run; all required writes succeeded.
+The connected contents write path produced four sequential commits rather than one atomic commit; all required writes succeeded.
 
 ## Run rules
 
