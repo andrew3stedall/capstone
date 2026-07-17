@@ -9,45 +9,46 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 30 completed for Day 30 — Voltage-Drop Interpretation and Design Iteration.
-- **Quality-improvement passes:** 30 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 31, Fault-Loop Reasoning at Concept Level.
+- **Current increment:** Quality-improvement pass 31 completed for Day 31 — Fault-Loop Reasoning at Concept Level.
+- **Quality-improvement passes:** 31 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 32, Coordination, Selectivity and Upstream/Downstream Consequences.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 30 — Day 30
+### Quality-improvement pass 31 — Day 31
 
-- Reframed voltage-drop interpretation as an evidence-controlled design decision rather than selection of the smallest calculated result.
-- Replaced the aggregate rubric with separate secure, developing, unsupported and `stop-required` criterion states.
-- Added confidence calibration so correct guesses and confidently unsupported interpretations are not treated as secure learning.
+- Reframed fault-loop reasoning as an evidence-controlled path argument rather than a visually complete sketch.
+- Added observable objectives for path identity, evidence classification, competing interpretations, first-unsupported-transition control, evidence owners and recheck triggers.
+- Added confidence calibration so a correct guess or confidently unsupported path is not treated as secure learning.
+- Defined path presence, path identity, continuity, impedance, parallel path, provenance, evidence owner and recheck trigger.
 - Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Added provenance, evidence owners, recheck triggers and competing interpretations for conflicting current, route and termination records.
-- Made the first unsupported transition the mandatory boundary on downstream interpretation, acceptance, suitability, compliance and approval claims.
-- Expanded I-T-E-R-A-T-E to control decision purpose, method applicability, comparison consistency, reopened gates and bounded recommendations.
-- Added a second explained Mermaid diagram for the claim ladder and unsupported-transition control.
-- Strengthened the fictional scenario with conflicting equipment, route, maintenance and manufacturer records.
-- Required transfer using at least two changed material conditions and rebuilding every affected step.
-- Added blocking conditions that cannot be offset by strong arithmetic or other strengths.
-- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 29/Day 30/Day 31 navigation.
-- Tracker state after this increment: 30 of 84 quality-improvement passes complete; next is Day 31.
+- Expanded L-O-O-P-S to include operating-state definition, plausible parallel paths, provenance, contradictions and bounded stopping.
+- Added a claim ladder separating described segments, identity, connection, complete path, applicable inputs, device data, authorised comparison and qualified conclusion.
+- Made the first unsupported transition the mandatory boundary on later fault-current, device-operation, suitability, compliance and approval claims.
+- Strengthened the fictional scenario with conflicting board, continuity and device records and retained two competing path interpretations.
+- Replaced the aggregate 0–2 score with separate secure, developing, unsupported and `stop-required` criterion states.
+- Required transfer using at least two changed material conditions and rebuilding the full path and evidence chain.
+- Added blocking conditions that cannot be offset by correct work elsewhere.
+- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 30/Day 31/Day 32 navigation.
+- Tracker state after this increment: 31 of 84 quality-improvement passes complete; next is Day 32.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-30-voltage-drop-interpretation-and-design-iteration.md`
-- `docs/knowledge-base/12-Week Day 30 - Voltage-Drop Interpretation and Design Iteration.md`
+- `docs/learning-plans/12-week/modules/day-31-fault-loop-reasoning-at-concept-level.md`
+- `docs/knowledge-base/12-Week Day 31 - Fault-Loop Reasoning at Concept Level.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 30 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact voltage-drop equations, conductor data, path conventions, contribution rules, operating cases, limits, interpretation criteria, design dependencies and assessment requirements require current authorised sources and qualified review.
+- Day 31 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact fault-loop equations, path conventions, source characteristics, conductor data, prospective fault-current methods, device characteristics, operating criteria, test methods and acceptance criteria require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, equation, coefficient, conductor value, technical limit, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
-- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
+- No official pass mark, equation, impedance value, current value, disconnection time, device curve, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, fault simulation, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
@@ -55,10 +56,9 @@ updated_on: 2026-07-17
 - Checked that introduced terms are defined and objectives remain observable, content-specific and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive and accessible and now has a concise instructional caption.
-- Checked direct master-plan links and reciprocal Day 29/Day 30/Day 31 module and knowledge-note navigation.
+- Checked direct master-plan links and reciprocal Day 30/Day 31/Day 32 module and knowledge-note navigation.
 - Checked evidence-state labels, provenance, first-unsupported-transition handling, competing interpretations, evidence owners, recheck triggers, criterion-level states, blocking conditions, confidence calibration and two-condition transfer for internal consistency.
-- Checked that repeating the same calculator entry is explicitly excluded as an independent check.
-- Checked that calculation, interpretation, acceptance, suitability, technical approval, compliance and official assessment remain distinct.
+- Checked that path presence, identity, continuity, impedance, protective operation, technical approval and compliance remain distinct.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -94,8 +94,9 @@ updated_on: 2026-07-17
   - [Day 28 — Week 4 Independent Circuit-Design Checkpoint](modules/day-28-week-4-independent-circuit-design-checkpoint.md)
   - [Day 29 — Voltage-Drop Concepts and Calculation Structure](modules/day-29-voltage-drop-concepts-and-calculation-structure.md)
   - [Day 30 — Voltage-Drop Interpretation and Design Iteration](modules/day-30-voltage-drop-interpretation-and-design-iteration.md)
-- **Next pass:** Day 31 — Fault-Loop Reasoning at Concept Level.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–30 to be selected again.
+  - [Day 31 — Fault-Loop Reasoning at Concept Level](modules/day-31-fault-loop-reasoning-at-concept-level.md)
+- **Next pass:** Day 32 — Coordination, Selectivity and Upstream/Downstream Consequences.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–31 to be selected again.
 
 ## Commit behaviour
 
