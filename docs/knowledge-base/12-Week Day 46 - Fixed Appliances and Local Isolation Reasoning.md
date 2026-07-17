@@ -1,8 +1,10 @@
 ---
+type: learning-note
+program: twelve-week
 status: review-required
 jurisdiction: AU-NZ
 source_status: original-summary
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-18
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -10,7 +12,9 @@ technical_reviewer: pending
 
 # 12-Week Day 46 - Fixed Appliances and Local Isolation Reasoning
 
-Day 46 applies the boundary discipline from [[12-Week Day 45 - Consumer Mains, Submains and Final Subcircuits]] to fixed equipment, normal controls, isolation functions and multiple energy paths.
+## Purpose
+
+Builds evidence-controlled reasoning about fixed equipment, task-specific isolation, control paths and multiple energy conditions without treating “off,” proximity or labels as proof of a safe state.
 
 ## Learning module
 
@@ -21,50 +25,88 @@ Day 46 applies the boundary discipline from [[12-Week Day 45 - Consumer Mains, S
 - [[12-Week Day 45 - Consumer Mains, Submains and Final Subcircuits]]
 - [[Day 13A - Switching Isolation and Main Switches]]
 - [[Safety and Electrical Risk]]
+- [[Evidence Quality]]
+- [[Confidence Calibration]]
 
-## Core workflow
+## Core method
 
-Use **A-P-P-L-Y**: account for every source and stored-energy condition, place the appliance and task boundaries, prove device functions from authorised evidence, locate access and identification questions, then yield a bounded conclusion or unresolved evidence request.
+Use **A-P-P-L-Y**:
 
-## Key distinctions
+1. anchor equipment, task, energy, evidence, authority and decision boundaries and account for every credible source;
+2. plot power and control paths with provenance and contradictions;
+3. prove control, emergency, protection and isolation functions separately;
+4. locate capability, access, identity, rating, environmental and manufacturer-evidence questions; and
+5. yield a bounded conclusion, stop at the first unsupported transition, assign owners and triggers, and reopen affected claims after changes.
 
-- Functional control starts, stops or regulates normal operation.
-- Isolation separates defined sources or conductors for a defined purpose.
-- “Local” must be assessed against the equipment task, access, identity and authorised requirements.
-- An energy boundary includes main supply, control supply, alternate supply and relevant stored energy.
+## Core concepts
 
-## Practical application
+- **Equipment boundary:** equipment, associated controls and interfaces included in the analysis.
+- **Task boundary:** the fictional operation, inspection or maintenance purpose being considered.
+- **Energy boundary:** every source, control path or relevant stored-energy condition capable of affecting the task.
+- **Functional control:** starts, stops or regulates normal operation.
+- **Emergency action:** responds to an abnormal or dangerous condition but is not automatically isolation.
+- **Protection function:** responds to specified abnormal electrical conditions but does not automatically establish task isolation.
+- **Isolation function:** separates defined sources or conductors for a defined purpose.
+- **Local isolation:** isolation positioned or arranged for the defined task; exact requirements require authorised verification.
+- **Competing interpretations:** plausible explanations retained until stronger evidence resolves them.
+- **First unsupported transition:** earliest point where a claim exceeds its evidence; dependent claims stop there.
+- **Evidence owner:** person, source or qualified reviewer expected to resolve a gap.
+- **Recheck trigger:** new evidence or changed conditions requiring earlier conclusions to reopen.
 
-Learners map a fictional fixed pump's supply, control and energy boundaries, classify device functions, request drawings and manufacturer evidence, and reopen the conclusion after a remote control or alternate source is disclosed.
+## Evidence states
+
+Classify statements as stated fact, derived fact, supported inference, assumption, contradiction or evidence gap. Record confidence separately. Correct guessing and fluent certainty are not secure evidence.
+
+## Practical applications
+
+- map every credible power, control, alternate and stored-energy condition for fictional fixed equipment;
+- distinguish control, emergency, protection and isolation functions;
+- retain conflicting drawings, labels, photographs and manufacturer records visibly;
+- stop at the first unsupported transition;
+- assign evidence owners and recheck triggers;
+- write bounded educational conclusions with no safe-state claim; and
+- propagate at least two material changes through source, function, capability, access and task-fit conclusions.
 
 ## Assessment relevance
 
-A strong response lists every source, defines the task boundary, distinguishes control from isolation, evaluates access and identification, and refuses to claim a safe state from paper evidence alone.
+Evaluate boundary control, energy completeness, function distinction, provenance, contradiction handling, device-capability reasoning, first-unsupported-transition control, evidence ownership, change propagation and safety communication independently.
 
-## Misconceptions to track
+Use **secure**, **developing**, **unsupported** and `stop-required` as educational planning states. They are not official grades, competency outcomes, defect classifications, compliance decisions or technical approvals. No aggregate score or unofficial pass threshold applies.
 
-- Off means isolated.
-- The nearest switch is necessarily the correct local isolator.
-- A circuit-breaker label proves the required isolation function.
-- Control supplies and stored energy can be ignored.
-- Paper evidence proves de-energisation.
+## Blocking conditions
 
-## Safety boundary
+Secure readiness is blocked by an omitted credible source or control path; treating “off,” proximity or a label as proof; hidden assumptions or contradictions; unsupported device-capability claims; dependent conclusions beyond the first unsupported transition; missing owners or triggers; transfer using fewer than two material changes; incomplete reopening of affected conclusions; or unauthorised practical activity.
 
-This note authorises no switching, isolation, opening, proving de-energised, testing, measurement, installation, alteration, repair, energisation or verification. Exact requirements remain `reference_check_required`.
+## Related concepts
+
+- [[12-Week Day 47 - Rest, Retrieval and Installation-Defect Correction]]
+- [[Functional Switching]]
+- [[Isolation]]
+- [[Alternative Supplies]]
+- [[Protective Devices]]
+- [[Fixed Equipment]]
+- [[Manufacturer Instructions]]
+- [[Evidence Quality]]
+- [[Change Propagation]]
+- [[Inspection Testing and Verification]]
+
+## Safety and references
+
+This note authorises no approach, switching, isolation, opening, proving de-energised, testing, measurement, installation, alteration, repair, energisation, commissioning, certification or field verification.
+
+Exact definitions, switching and isolation arrangements, source treatment, device capabilities, locations, accessibility, ratings, connection methods, manufacturer requirements, exceptions and official assessment expectations require current authorised standards, regulator material, manufacturer information, RTO procedures and qualified review.
+
+- Current authorised AS/NZS 3000 material and amendments.
+- Applicable manufacturer instructions, approved drawings and labels.
+- Relevant regulator and RTO requirements.
+- [Learning Design](../LEARNING_DESIGN.md)
+- [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
+
+It remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
 
 ## Navigation
 
 - Previous: [[12-Week Day 45 - Consumer Mains, Submains and Final Subcircuits]]
 - Next: [[12-Week Day 47 - Rest, Retrieval and Installation-Defect Correction]]
 - Plan: [[Twelve-Week Capstone Learning Plan]]
-
-## References
-
-- Current authorised AS/NZS 3000 material and amendments.
-- Applicable manufacturer instructions, drawings and labels.
-- Relevant regulator and RTO requirements.
-- [Learning Design](../LEARNING_DESIGN.md)
-- [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
-
-This note remains `review-required`, `reference_check_required` and not `technically-reviewed`.
+- Map of content: [[Switching and Isolation]]
