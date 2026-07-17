@@ -135,7 +135,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 28 of 84.
+- **Completed quality-improvement passes:** 29 of 84.
 - [x] [Quality pass 1 — Day 1, Program orientation, baseline diagnostic and authorised-source map](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2, Electrical hazards, exposure pathways and consequence reasoning](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3, Roles, authority, supervision and practical stop conditions](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -164,7 +164,8 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 26 — Day 26, Rest, retrieval and calculation error-log correction](modules/day-26-rest-retrieval-and-calculation-error-log-correction.md)
 - [x] [Quality pass 27 — Day 27, Worked-example fading for circuit design](modules/day-27-worked-example-fading-for-circuit-design.md)
 - [x] [Quality pass 28 — Day 28, Week 4 independent circuit-design checkpoint](modules/day-28-week-4-independent-circuit-design-checkpoint.md)
-- **Next quality-improvement pass:** Day 29 — Voltage-drop concepts and calculation structure.
+- [x] [Quality pass 29 — Day 29, Voltage-drop concepts and calculation structure](modules/day-29-voltage-drop-concepts-and-calculation-structure.md)
+- **Next quality-improvement pass:** Day 30 — Voltage-drop interpretation and design iteration.
 - Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
