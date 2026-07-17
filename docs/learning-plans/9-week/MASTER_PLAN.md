@@ -96,9 +96,12 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 
 ## Content-development status
 
-All 63 scheduled blocks now have dedicated module content, a knowledge-base note, reciprocal navigation and an original accessible instructional SVG. Content development is complete. This status does not mean the program, its technical statements or any learner has received qualified technical review, formal assessment approval or authority for field work.
+All 63 scheduled blocks have dedicated module content, a knowledge-base note, reciprocal navigation and an original accessible instructional SVG. The program-wide completion audit is also complete. Content development is closed and completed blocks must not be regenerated.
+
+This status does not mean the program, its technical statements or any learner has received qualified technical review, formal assessment approval or authority for field work. Source-dependent content remains subject to current authorised-source verification and qualified review.
 
 ## Navigation
 
 - [Automation status](AUTOMATION_STATUS.md)
+- [Program-wide completion audit](COMPLETION_AUDIT.md)
 - [Four-week program](../4-week/MASTER_PLAN.md)
