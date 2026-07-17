@@ -9,55 +9,56 @@ updated_on: 2026-07-17
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 28 completed for Day 28 — Week 4 Independent Circuit-Design Checkpoint.
-- **Quality-improvement passes:** 28 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 29, Voltage-Drop Concepts and Calculation Structure.
+- **Current increment:** Quality-improvement pass 29 completed for Day 29 — Voltage-Drop Concepts and Calculation Structure.
+- **Quality-improvement passes:** 29 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 30, Voltage-Drop Interpretation and Design Iteration.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 28 — Day 28
+### Quality-improvement pass 29 — Day 29
 
-- Replaced the unsupported 20-point aggregate readiness model with criterion-level secure, developing, unsupported and `stop-required` states.
-- Added confidence calibration at entry so correct guesses and confidently unsupported answers are not treated as secure learning.
+- Strengthened voltage-drop learning as an evidence-controlled calculation chain rather than an arithmetic-only exercise.
+- Added confidence calibration so correct guesses and confidently unsupported conventions are not treated as secure learning.
 - Added stated fact, derived fact, supported inference, assumption, contradiction and evidence-gap labels.
-- Added evidence provenance, competing interpretations, evidence owners and explicit recheck triggers.
-- Made the first unsupported transition the mandatory boundary on downstream suitability, compliance and approval claims.
-- Expanded C-H-E-C-K-P-O-I-N-T so learners audit claim boundaries, authority limits, blockers and remediation evidence.
-- Added a second explained Mermaid diagram for criterion-level readiness and blocker control.
-- Strengthened the fictional scenario with conflicting equipment, operating-control, route and renovation records.
-- Required transfer using two changed material conditions and a rebuilt affected reasoning chain.
-- Added blocking conditions that cannot be offset by strengths elsewhere.
-- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 27/Day 28/Day 29 navigation.
-- Tracker state after this increment: 28 of 84 quality-improvement passes complete; next is Day 29.
+- Added provenance, evidence owners, recheck triggers and competing interpretations for conflicting route and operating records.
+- Made the first unsupported transition the mandatory boundary on downstream calculation, suitability, compliance and approval claims.
+- Expanded V-O-L-T-S to control boundary, operating case, source applicability, path convention, transformations and bounded result statements.
+- Added a second explained Mermaid diagram for the claim ladder and unsupported-transition control.
+- Strengthened the fictional scenario with conflicting route, conductor and operating-current evidence.
+- Required transfer using two changed material conditions and reopening all dependent steps.
+- Added criterion-level secure, developing, unsupported and `stop-required` states without an aggregate score.
+- Added blocking conditions that cannot be offset by strong arithmetic elsewhere.
+- Added an instructional caption for the existing accessible SVG and retained reciprocal Day 28/Day 29/Day 30 navigation.
+- Tracker state after this increment: 29 of 84 quality-improvement passes complete; next is Day 30.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-28-week-4-independent-circuit-design-checkpoint.md`
-- `docs/knowledge-base/12-Week Day 28 - Week 4 Independent Circuit-Design Checkpoint.md`
+- `docs/learning-plans/12-week/modules/day-29-voltage-drop-concepts-and-calculation-structure.md`
+- `docs/knowledge-base/12-Week Day 29 - Voltage-Drop Concepts and Calculation Structure.md`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 28 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact circuit-design methods, demand treatment, installation classifications, conductor capacities, correction factors, device characteristics, voltage and fault criteria, terminal requirements, source applicability and assessment requirements require current authorised sources and qualified review.
+- Day 29 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact voltage-drop equations, conductor data, path conventions, contribution rules, operating cases, limits, interpretation criteria and assessment requirements require current authorised sources and qualified review.
 - Secure, developing, unsupported and `stop-required` are educational planning states, not official assessment grades, competency decisions or legal classifications.
-- No official pass mark, technical value, conductor size, device curve, correction factor, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
+- No official pass mark, equation, coefficient, technical limit, conductor value, clause sequence, standards table, copied figure, systematic clause wording, practical procedure or compliance conclusion was added.
 - The module authorises no switching, isolation, opening, proving, tracing, measurement, testing, disconnection, reconnection, installation, alteration, repair, energisation, commissioning, certification or verification.
 
 ## Validation performed
 
 - Confirmed YAML metadata and the exact eight required section headings.
 - Checked that introduced terms are defined and objectives remain observable, content-specific and assessment-focused.
-- Reviewed both Mermaid diagrams for coherent nodes, decisions, labels and edges and confirmed each is explained nearby.
+- Reviewed both Mermaid diagrams for coherent nodes, labels and edges and confirmed each is explained nearby.
 - Confirmed the existing SVG reference remains relative, descriptive and accessible and now has a concise instructional caption.
-- Checked direct master-plan links and reciprocal Day 27/Day 28/Day 29 module and knowledge-note navigation.
+- Checked direct master-plan links and reciprocal Day 28/Day 29/Day 30 module and knowledge-note navigation.
 - Checked evidence-state labels, provenance, first-unsupported-transition handling, competing interpretations, evidence owners, recheck triggers, criterion-level states, blocking conditions, confidence calibration and two-condition transfer for internal consistency.
-- Checked that a repeated calculator entry is not represented as an independent check.
-- Checked that readiness, technical approval, compliance and official assessment remain distinct.
+- Checked that repeating the same calculator entry is explicitly excluded as an independent check.
+- Checked that calculation, interpretation, suitability, technical approval, compliance and official assessment remain distinct.
 - Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
@@ -91,8 +92,9 @@ updated_on: 2026-07-17
   - [Day 26 — Rest, Retrieval and Calculation Error-Log Correction](modules/day-26-rest-retrieval-and-calculation-error-log-correction.md)
   - [Day 27 — Worked-Example Fading for Circuit Design](modules/day-27-worked-example-fading-for-circuit-design.md)
   - [Day 28 — Week 4 Independent Circuit-Design Checkpoint](modules/day-28-week-4-independent-circuit-design-checkpoint.md)
-- **Next pass:** Day 29 — Voltage-Drop Concepts and Calculation Structure.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–28 to be selected again.
+  - [Day 29 — Voltage-Drop Concepts and Calculation Structure](modules/day-29-voltage-drop-concepts-and-calculation-structure.md)
+- **Next pass:** Day 30 — Voltage-Drop Interpretation and Design Iteration.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–29 to be selected again.
 
 ## Commit behaviour
 
