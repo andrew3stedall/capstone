@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 38 of 84.
+- **Completed quality-improvement passes:** 39 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -102,7 +102,8 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 36 — Day 36](modules/day-36-functional-switching-isolation-and-emergency-switching-distinctions.md)
 - [x] [Quality pass 37 — Day 37](modules/day-37-main-switches-alternate-supplies-and-source-identification.md)
 - [x] [Quality pass 38 — Day 38](modules/day-38-switchboard-functional-areas-and-arrangement-principles.md)
-- **Next quality-improvement pass:** Day 39 — Accessibility, labelling and original defect-recognition scenarios.
+- [x] [Quality pass 39 — Day 39](modules/day-39-accessibility-labelling-and-original-defect-recognition-scenarios.md)
+- **Next quality-improvement pass:** Day 40 — Rest, retrieval and boundary-condition review.
 - Record each completed pass here in sequence as a direct module link; never select a module solely because its technical-review flags remain open.
 
 ## Quality gates and completion behaviour
