@@ -90,9 +90,13 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 - [x] Block 58 — Mock assessment part A: rule finding
 - [x] Block 59 — Mock assessment part B: application
 - [x] Block 60 — Mock assessment part C: visual evidence
-- [ ] Block 61 — Error analysis and targeted remediation
-- [ ] Block 62 — Final cumulative retrieval
-- [ ] Block 63 — Completion reflection and technical-review boundary
+- [x] Block 61 — Error analysis and targeted remediation
+- [x] Block 62 — Final cumulative retrieval
+- [x] Block 63 — Completion reflection and technical-review boundary
+
+## Content-development status
+
+All 63 scheduled blocks now have dedicated module content, a knowledge-base note, reciprocal navigation and an original accessible instructional SVG. Content development is complete. This status does not mean the program, its technical statements or any learner has received qualified technical review, formal assessment approval or authority for field work.
 
 ## Navigation
 
