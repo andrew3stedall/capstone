@@ -87,9 +87,9 @@ This program expands the intensive four-week stream into a paced 63-block sequen
 
 ### Week 9 — mock assessment and remediation
 - [x] Block 57 — Mock assessment briefing and calibration
-- [ ] Block 58 — Mock assessment part A: rule finding
-- [ ] Block 59 — Mock assessment part B: application
-- [ ] Block 60 — Mock assessment part C: visual evidence
+- [x] Block 58 — Mock assessment part A: rule finding
+- [x] Block 59 — Mock assessment part B: application
+- [x] Block 60 — Mock assessment part C: visual evidence
 - [ ] Block 61 — Error analysis and targeted remediation
 - [ ] Block 62 — Final cumulative retrieval
 - [ ] Block 63 — Completion reflection and technical-review boundary
