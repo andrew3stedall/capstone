@@ -70,13 +70,16 @@ Select the first unchecked block in `MASTER_PLAN.md`. A checked block must not b
 - [x] Block 55 — Timed cumulative integration
 - [x] Block 56 — Rest, reflection and catch-up
 - [x] Block 57 — Mock assessment briefing and calibration
+- [x] Block 58 — Mock assessment part A: rule finding
+- [x] Block 59 — Mock assessment part B: application
+- [x] Block 60 — Mock assessment part C: visual evidence
 
 ## Technical-review boundary
 
 All generated modules are original educational drafts. Safety-critical content remains `review-required` and `reference_check_required`. No automated content is `technically-reviewed`. Exact clauses, prescribed values, test limits, official defect categories and RTO assessment claims require current authorised-source verification and qualified review.
 
-Blocks 55 and 57 retain `reference_check_required: true`, `status: review-required` and `technically_reviewed: false`. Block 56 remains `review-required`, with `reference_check_required: false` and `technically_reviewed: false`. The increment adds timed documentary integration, bounded recovery and mock-assessment calibration without claiming official assessment validity, technical competence, field authority or compliance approval.
+Blocks 58–60 retain `reference_check_required: true`, `status: review-required` and `technically_reviewed: false`. They assess traceable rule-finding, bounded application and visual-evidence reasoning without claiming official assessment validity, compliant design, field authority, isolation, testing approval or technical competence.
 
 ## Next increment
 
-Block 58 — Mock assessment part A: rule finding.
+Block 61 — Error analysis and targeted remediation.
