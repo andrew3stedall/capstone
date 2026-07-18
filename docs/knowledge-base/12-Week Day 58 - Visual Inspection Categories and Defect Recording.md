@@ -1,65 +1,90 @@
 ---
-title: 12-Week Day 58 - Visual Inspection Categories and Defect Recording
-program: twelve-week-capstone
-day: 58
-domain: inspection-testing-and-verification
-content_status: review-required
+type: learning-note
+program: twelve-week
+status: review-required
+jurisdiction: AU-NZ
+source_status: original-summary
+reviewed_on: 2026-07-18
+safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
-reviewed_on: 2026-07-15
 ---
 
 # 12-Week Day 58 - Visual Inspection Categories and Defect Recording
 
 ## Purpose
 
-Develop disciplined visual-inspection records that separate what is visible from interpretation, defect candidates and formal findings.
+Develop evidence-controlled visual-inspection records that separate visible evidence, interpretation, defect candidates and formal findings.
 
-## Core workflow
+## Learning module
 
-Use **O-B-S-E-R-V-E**:
+- [Day 58 — Visual Inspection Categories and Defect Recording](../learning-plans/12-week/modules/day-58-visual-inspection-categories-and-defect-recording.md)
 
-- **O** — Outline scope.
-- **B** — Bucket by category.
-- **S** — State the observation.
-- **E** — Evidence the location.
-- **R** — Record limitations.
-- **V** — Verify applicability questions.
-- **E** — Escalate and edit after change.
+## Core method
 
-## Key distinctions
+Use **O-B-S-E-R-V-E** to define boundaries, categorise evidence, state neutral observations, preserve provenance, record limitations and competing interpretations, verify applicability, stop at the first unsupported transition, and assign owners and recheck triggers.
 
-- An observation reports visible evidence.
-- An interpretation explains possible meaning.
-- A defect candidate still requires applicable source and context confirmation.
-- A formal finding requires complete evidence and appropriate authority.
-- Exterior images do not prove hidden construction.
+## Core concepts
 
-## Practical application
+- **Evidence states:** stated fact, derived fact, supported inference, assumption, contradiction and evidence gap.
+- **Confidence calibration:** guessing, unsure, reasonably confident and certain, recorded separately from evidence quality.
+- **First unsupported transition:** earliest claim step lacking adequate evidence or applicability.
+- **Competing interpretation:** plausible alternative retained until evidence resolves it.
+- **Evidence owner:** authorised source or qualified person responsible for a gap.
+- **Recheck trigger:** new evidence or change that reopens dependent records.
 
-Create a category matrix and traceable observation register from fictional images and conflicting documents. Record location, provenance, limitations, applicability questions, priorities and revisions after changed context.
+## Prerequisites
+
+- [[12-Week Day 57 - Verification Purpose, Evidence Types and Responsibility Boundaries]]
+- [[Evidence Quality]]
+- [[Confidence Calibration]]
+- [[Boundary Reasoning]]
+
+## Related concepts
+
+- [[12-Week Day 39 - Accessibility, Labelling and Original Defect-Recognition Scenarios]]
+- [[Inspection Testing and Verification]]
+- [[Defect Recording]]
+- [[Dependency Mapping]]
+- [[Change Propagation]]
+- [[Safety and Electrical Risk]]
+
+## Practical applications
+
+- build traceable observation registers;
+- separate observation from interpretation and formal finding;
+- classify evidence and record provenance;
+- retain contradictions and competing interpretations;
+- stop at unsupported transitions;
+- assign evidence owners and recheck triggers; and
+- reopen records after two sequential material changes.
 
 ## Assessment relevance
 
-The learner should produce neutral, precise and traceable inspection records while controlling hidden-condition inference, evidence conflicts and authority boundaries.
+Evaluate boundary control, observation discipline, provenance, limitation control, unsupported-transition handling, ownership, transfer and bounded communication independently.
 
-## Safety boundary
+Use **secure**, **developing**, **unsupported** and `stop-required` only as educational planning states. They are not official grades, competency decisions, defect classifications, compliance findings or technical approvals.
 
-This note authorises no site access, opening, dismantling, switching, isolation, testing, alteration, repair, energisation, certification or verification.
+## Blocking conditions
 
-## Prerequisites and related concepts
+Progression is blocked by invented hidden conditions, merged claim types, concealed contradictions, reasoning beyond the first unsupported transition, missing ownership for a blocker, cosmetic-only change handling, invented official content or implied practical authority.
 
-- [[12-Week Day 39 - Accessibility, Labelling and Original Defect-Recognition Scenarios]]
-- [[12-Week Day 57 - Verification Purpose, Evidence Types and Responsibility Boundaries]]
-- [[Inspection Testing and Verification]]
-- [[Safety and Electrical Risk]]
+## Safety and references
 
-## Next
+This note authorises no site access, opening, dismantling, switching, isolation, testing, instrument use, alteration, repair, energisation, commissioning, acceptance, certification or field verification.
 
-- [[12-Week Day 59 - Test Purposes, Dependencies and Safe Sequencing Concepts]]
-
-## References and review boundary
+Exact inspection duties, categories, acceptance criteria, documentation requirements and official assessment expectations require current authorised sources and qualified review.
 
 - AS/NZS 3000:2018 — exact applicable provisions `reference_check_required`.
-- Current authorised standards, inspection requirements, site records and qualified supervision remain necessary.
-- This note remains `review-required` and not `technically-reviewed`.
+- Current authorised standards, jurisdictional requirements, site records and qualified supervision.
+- [Learning Design](../LEARNING_DESIGN.md)
+- [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
+
+This note remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+
+## Navigation
+
+- Previous: [[12-Week Day 57 - Verification Purpose, Evidence Types and Responsibility Boundaries]]
+- Next: [[12-Week Day 59 - Test Purposes, Dependencies and Safe Sequencing Concepts]]
+- Plan: [[Twelve-Week Capstone Learning Plan]]
+- Map of content: [[Inspection Testing and Verification]]

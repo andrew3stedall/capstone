@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 57 of 84.
+- **Completed quality-improvement passes:** 58 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -121,7 +121,7 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 55 — Day 55](modules/day-55-mixed-special-location-scenario-workshop.md)
 - [x] [Quality pass 56 — Day 56](modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md)
 - [x] [Quality pass 57 — Day 57](modules/day-57-verification-purpose-evidence-types-and-responsibility-boundaries.md)
-- [ ] [Quality pass 58 — Day 58](modules/day-58-visual-inspection-categories-and-defect-recording.md)
+- [x] [Quality pass 58 — Day 58](modules/day-58-visual-inspection-categories-and-defect-recording.md)
 - [ ] [Quality pass 59 — Day 59](modules/day-59-test-purposes-dependencies-and-safe-sequencing-concepts.md)
 - [ ] [Quality pass 60 — Day 60](modules/day-60-instrument-suitability-limitations-and-pre-use-evidence.md)
 - [ ] [Quality pass 61 — Day 61](modules/day-61-rest-retrieval-and-sequence-reconstruction.md)

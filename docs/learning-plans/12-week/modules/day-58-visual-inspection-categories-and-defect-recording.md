@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-18
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -23,129 +23,175 @@ related_modules:
 
 # Day 58 — Visual Inspection Categories and Defect Recording
 
-> **Scope boundary:** This original module develops paper-based visual-inspection reasoning. It does not authorise access, opening, dismantling or field inspection and does not reproduce official checklists or acceptance criteria. Exact requirements require current authorised sources and qualified supervision.
+> **Scope boundary:** This original module develops paper-based visual-inspection reasoning from supplied images and documents. It does not authorise site access, opening, dismantling, switching, isolation, testing, repair or formal acceptance. Exact requirements require current authorised sources and qualified supervision.
 
 ## 1. Outcome and entry check
 
 By the end, the learner can:
 
-1. organise supplied visual evidence into consistent inspection categories;
-2. distinguish an observation from an interpretation, defect candidate and formal finding;
-3. record location, item, condition, evidence source and limitation precisely;
-4. identify when a hidden condition cannot be inferred from an image;
-5. relate observations to design documents without merging the evidence types;
-6. prioritise items requiring escalation or further evidence;
-7. revise a record when new context changes its meaning; and
-8. avoid compliance, cause and repair claims unsupported by visual evidence.
+1. define item, location, image-set, access, evidence, authority and decision boundaries;
+2. classify each statement as a stated fact, derived fact, supported inference, assumption, contradiction or evidence gap;
+3. separate observation, interpretation, defect candidate and formal finding;
+4. create neutral, traceable records using location, provenance, category and limitation fields;
+5. identify the first unsupported transition in an inspection claim chain and stop dependent conclusions;
+6. retain competing interpretations rather than resolving uncertainty by preference;
+7. assign an evidence owner and recheck trigger to every unresolved blocker; and
+8. reopen affected records after two sequential material changes.
 
 ### Entry check
 
-For each statement, label it **observation**, **interpretation** or **unsupported claim**:
+For each statement, label both the **claim type** and your **confidence** as guessing, unsure, reasonably confident or certain:
 
-- “The label is not readable in the supplied photograph.”
+- “The label is not readable in image 3.”
 - “The circuit is incorrectly identified.”
 - “The enclosure is unsafe.”
 - “A conductor enters through the upper-left opening.”
 
-Explain what additional evidence would be needed to strengthen each interpretation.
+Then identify the earliest evidence gap that prevents any stronger conclusion.
 
 ## 2. Why it matters
 
-Visual inspection can reveal condition, identity, accessibility and apparent arrangement, but its value depends on disciplined recording. Vague notes such as “bad wiring” hide location, evidence and uncertainty. Overconfident notes can also convert a limited observation into an unsupported compliance or causation claim.
+Visual evidence can support identity, condition, accessibility and apparent-arrangement observations, but it cannot reveal hidden construction or prove compliance by appearance alone. Weak records collapse seeing, interpreting and deciding into one sentence. Strong records preserve the chain from visible evidence to a bounded status.
 
 The inspection model is:
 
-**scope → category → observe → locate → describe → limit → relate → escalate**
+**boundary → evidence state → category → observation → provenance → limitation → applicability question → bounded escalation**
 
 ![A learner writes what is visible on one card and keeps guesses on a separate card](../../../assets/learning/12-week/visual-inspection-categories-and-defect-recording/observe-before-naming.svg)
 
+*Caption: Keep direct observations separate from interpretations so later evidence can change the interpretation without rewriting what was actually visible.*
+
 ## 3. Core concepts and terminology
 
-- **Visual inspection:** examination of accessible visual and documentary evidence without relying on test results.
-- **Inspection category:** a consistent grouping used to organise observations, such as identity, condition, accessibility, selection, support, protection or documentation.
+- **Visual inspection:** examination of accessible supplied visual and documentary evidence without relying on test results.
+- **Inspection category:** a consistent grouping such as identity, condition, accessibility, support, protection, selection or documentation.
 - **Observation:** a neutral statement of what the supplied evidence directly shows.
-- **Interpretation:** a reasoned meaning assigned to an observation using applicable evidence.
-- **Defect candidate:** an observed condition that may conflict with an applicable requirement but still requires source and scope confirmation.
-- **Formal finding:** a conclusion issued by an authorised person using complete applicable evidence.
-- **Evidence limitation:** a stated reason the supplied material cannot support a stronger conclusion.
-- **Provenance:** information showing where, when and how an observation or image was obtained.
-- **Location reference:** a precise identifier linking the record to an area, board, circuit, item or image.
-- **Priority:** the order for escalation based on potential consequence, uncertainty and dependency impact, not appearance alone.
+- **Interpretation:** a reasoned possible meaning assigned to an observation.
+- **Defect candidate:** an observed condition that may conflict with an applicable requirement but still needs source and scope confirmation.
+- **Formal finding:** a conclusion issued by an appropriately authorised person using sufficient applicable evidence.
+- **Provenance:** source, date, revision, creator and scenario connection of an image or record.
+- **Evidence limitation:** a reason the supplied material cannot support a stronger claim.
+- **First unsupported transition:** the earliest step where a claim moves beyond adequate evidence or applicability.
+- **Evidence owner:** the authorised source or qualified person responsible for resolving a gap.
+- **Recheck trigger:** new evidence or a changed condition that requires dependent records to be reopened.
+- **Competing interpretation:** a plausible alternative explanation retained until evidence distinguishes it.
+- **Material change:** a change capable of altering categorisation, priority or the bounded conclusion.
+
+Evidence states:
+
+1. **Stated fact** — directly supplied.
+2. **Derived fact** — obtained transparently from stated facts.
+3. **Supported inference** — plausible and evidence-backed but not directly shown.
+4. **Assumption** — used temporarily without adequate support.
+5. **Contradiction** — two sources cannot both be accepted as currently accurate.
+6. **Evidence gap** — required information is absent or unusable.
+
+Confidence is recorded separately from evidence quality. High confidence does not convert an assumption into evidence.
 
 ## 4. Rule-finding workflow
 
 Use **O-B-S-E-R-V-E**:
 
-1. **O — Outline scope:** identify the item, area, evidence set and access boundary.
-2. **B — Bucket by category:** organise observations without forcing one item into a single category.
-3. **S — State the observation:** use neutral, specific and measurable language where the image permits.
-4. **E — Evidence the location:** record image, drawing, item and position references.
-5. **R — Record limitations:** identify obscured, hidden, outdated or conflicting information.
-6. **V — Verify applicability questions:** identify the authorised source needed before calling a defect.
-7. **E — Escalate and edit after change:** prioritise evidence requests and revise the record when context changes.
+1. **O — Outline boundaries:** define item, location, evidence set, access boundary, authority and prohibited decisions.
+2. **B — Bucket evidence:** assign one or more inspection categories without forcing a single label.
+3. **S — State and classify:** write neutral observations and label each claim’s evidence state.
+4. **E — Evidence location and provenance:** record image, drawing, item, position, date and revision references.
+5. **R — Record limits and rivals:** state hidden, obscured, outdated or conflicting information and retain competing interpretations.
+6. **V — Verify applicability and dependencies:** identify the authorised source required and stop at the first unsupported transition.
+7. **E — Escalate, own and edit:** assign owners and recheck triggers, then reopen records after material change.
 
 ```mermaid
 flowchart TD
-  A[Supplied image or observation record] --> B[Define scope and access boundary]
-  B --> C[Assign one or more inspection categories]
-  C --> D[Write neutral observation and location reference]
-  D --> E[Record provenance and limitations]
+  A[Define item, evidence, access and authority boundaries] --> B[Write neutral observation]
+  B --> C[Classify evidence state and confidence]
+  C --> D[Record category, location and provenance]
+  D --> E[Retain limitations, contradictions and rival interpretations]
   E --> F{Applicable source and context sufficient?}
-  F -->|No| G[Record defect candidate or unresolved item]
-  F -->|Yes| H[Authorised reviewer may form a bounded finding]
-  G --> I[Request evidence and prioritise escalation]
-  H --> I
-  I --> J[Revise if new context changes meaning]
+  F -->|No| G[Stop at first unsupported transition]
+  G --> H[Assign evidence owner and recheck trigger]
+  F -->|Yes| I[Authorised reviewer may form a bounded finding]
+  H --> J[Reopen dependent records when evidence changes]
+  I --> J
 ```
 
-The diagram separates seeing, interpreting and formally concluding. It also shows that an observation can belong to several categories without proving a defect.
+The diagram prevents a visual observation from becoming a compliance conclusion merely because the observation appears persuasive.
+
+```mermaid
+flowchart LR
+  O[Observation] --> I[Interpretation]
+  I --> C[Defect candidate]
+  C --> F[Formal finding]
+  O -. missing provenance .-> S1[Stop]
+  I -. unsupported hidden condition .-> S2[Stop]
+  C -. applicability unverified .-> S3[Stop]
+```
+
+Each arrow is a separate evidential transition. A later step is unavailable when an earlier transition is unsupported.
 
 ## 5. Visual model or worked example
 
-A fictional switchboard photograph shows a faded handwritten label, one unused opening, crowded conductors near the lower edge and a closed internal cover. The schedule supplied with the image has no visible revision date.
+A fictional switchboard dossier contains:
 
-| Record field | Disciplined entry |
+- image 3 showing a partly unreadable handwritten label;
+- image 4 showing an unused-looking opening, but only from an oblique angle;
+- a schedule with no visible revision date;
+- a drawing labelling the board DB-2;
+- a maintenance note calling the same board “Workshop Distribution”; and
+- a later image showing a transparent internal cover not visible in image 4.
+
+| Field | Disciplined entry |
 |---|---|
-| Observation | Handwritten text on the label is partly unreadable in image 3. |
-| Location | Board DB-2, exterior label area, upper-right position. |
+| Observation | Handwritten text on the exterior label is partly unreadable in image 3. |
+| Evidence state | Stated fact. |
+| Confidence | Certain about unreadability in the supplied image; unsure about actual circuit identity. |
+| Location | Board labelled DB-2 on drawing A; upper-right exterior label position. |
+| Provenance | Image 3; photographer and date not supplied. |
 | Category | Identification and documentation. |
-| Limitation | Image resolution and schedule currency prevent confirmation of actual circuit identity. |
-| Interpretation | Identification adequacy is unresolved. |
-| Next evidence | Current schedule, clearer image and authorised inspection record. |
+| Competing interpretations | Label is degraded; image resolution is inadequate; label belongs to adjacent equipment. |
+| First unsupported transition | “Unreadable in image” → “circuit incorrectly identified.” |
+| Owner and trigger | Current schedule owner; clearer dated image or authorised inspection record. |
+| Bounded status | Identification adequacy unresolved. |
 
-Do not infer internal barriers, termination quality, conductor damage or compliance from the closed cover.
+Do not infer internal barriers, termination quality, conductor damage, cause, repair need or compliance from the closed cover.
 
 ### Worked-example fading
 
-For a second image set, the categories and locations are supplied. Write only the neutral observations, limitations, applicability questions and priorities.
+For a second dossier, categories and image references are supplied. Produce the evidence-state labels, neutral observations, limitations, competing interpretations, first unsupported transition, owner and trigger without a model answer.
 
 ## 6. Practical application
 
 Using a fictional set of six images and two conflicting documents, produce:
 
-1. an inspection-scope statement;
-2. a category matrix;
-3. ten neutral observations with location references;
-4. provenance and limitation entries;
-5. five defect candidates without compliance claims;
-6. a prioritised evidence request list;
-7. one design-versus-inspection conflict record; and
-8. a revised entry after a new image changes the context.
+1. an inspection-boundary statement;
+2. a multi-category matrix;
+3. ten neutral observations with provenance and location references;
+4. evidence-state and confidence labels;
+5. five defect candidates that stop before formal findings;
+6. three competing-interpretation pairs;
+7. a prioritised evidence-request register with owners and triggers;
+8. one design-versus-inspection contradiction record; and
+9. revised records after two sequential changes: first a clearer image, then a newer schedule.
 
-### Assessment rubric
+### Criterion-level readiness
 
-Score each category from **0 to 2**:
+Evaluate each criterion independently:
 
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Observation quality | Vague or inferential | Mostly specific | Neutral, precise and evidence-bound |
-| Categorisation | Unstructured list | Some grouping | Consistent multi-category reasoning |
-| Location and provenance | Missing | Partial references | Every item traceable |
-| Limitations | Hidden conditions invented | Some limits | Material limits explicit |
-| Priority and escalation | Appearance-based | Partly reasoned | Consequence, uncertainty and dependencies considered |
-| Safety communication | Compliance or repair claimed | General caution | Candidate, finding and authority boundaries clear |
+- **Secure:** accurate, traceable, evidence-bound and transferable after both changes.
+- **Developing:** partly controlled but contains a correctable omission or weak dependency link.
+- **Unsupported:** relies on an assumption, hidden condition or unresolved contradiction.
+- **`stop-required`:** crosses a safety, authority, copyright or formal-finding boundary.
 
-A score of **10/12 or higher** with no critical error indicates readiness for Day 59. This is an educational threshold only.
+Criteria:
+
+1. boundary control;
+2. observation and evidence-state discipline;
+3. provenance and location traceability;
+4. limitation and competing-interpretation control;
+5. first-unsupported-transition handling;
+6. ownership, recheck triggers and two-change transfer;
+7. bounded prioritisation and communication.
+
+Progression requires no `stop-required` criterion and no unresolved blocker in criteria 1, 2, 4 or 5. Strong performance elsewhere cannot offset a blocking error.
 
 ## 7. Common errors and safety checkpoint
 
@@ -153,31 +199,34 @@ A score of **10/12 or higher** with no critical error indicates readiness for Da
 
 - writing “non-compliant” instead of recording what is visible;
 - inferring hidden construction from an exterior image;
-- omitting image and location references;
+- treating confidence as evidence quality;
+- omitting image, date, revision or location references;
+- selecting one interpretation while concealing an equally plausible alternative;
 - treating an old schedule as current;
-- assuming cause from appearance;
 - recommending repair before applicability is established;
-- ranking cosmetic neatness above material uncertainty; and
-- failing to revise a record after new evidence.
+- continuing reasoning beyond the first unsupported transition; and
+- failing to reopen dependent records after changed evidence.
 
 ### Critical errors and stop conditions
 
-Stop and remediate if the response invents hidden conditions, official requirements or causes; claims compliance or safe operation; directs cover removal, access, isolation or testing; presents a defect candidate as a formal finding; or omits a disclosed source or evidence conflict.
+Stop and remediate if the response invents hidden conditions, official requirements, causes or repairs; claims compliance, safe operation or formal acceptance; directs cover removal, access, switching, isolation or testing; presents a defect candidate as a formal finding; conceals a contradiction; or leaves a material blocker without an owner and recheck trigger.
 
-This module authorises no site access, opening, dismantling, switching, isolation, testing, alteration, repair, energisation, certification or verification.
+This module authorises no site access, opening, dismantling, switching, isolation, testing, instrument use, alteration, repair, energisation, commissioning, certification, acceptance or field verification.
 
 ## 8. Retrieval and next links
 
 1. Expand **O-B-S-E-R-V-E**.
 2. Distinguish observation, interpretation, defect candidate and formal finding.
-3. Why are provenance and location references necessary?
-4. Name five inspection categories.
-5. What makes an evidence limitation material?
-6. Why must records change when context changes?
+3. Name the six evidence states.
+4. Why is confidence recorded separately?
+5. Define the first unsupported transition.
+6. What must every unresolved blocker receive?
+7. Why must competing interpretations be retained?
+8. What must two-change transfer demonstrate?
 
-### Changed-scenario transfer
+### Delayed retrieval
 
-Reclassify and rewrite two records after a clearer image shows that one apparent opening is behind a transparent cover and the handwritten label belongs to adjacent equipment.
+After 24–48 hours, create one new fictional observation chain and mark the first unsupported transition without reopening this module.
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 58 - Visual Inspection Categories and Defect Recording]]
