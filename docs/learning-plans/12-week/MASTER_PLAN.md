@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 71 of 84.
+- **Completed quality-improvement passes:** 72 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -135,7 +135,7 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 69 — Day 69](modules/day-69-fault-scenario-with-staged-evidence-release.md)
 - [x] [Quality pass 70 — Day 70](modules/day-70-week-10-verification-and-fault-diagnosis-checkpoint.md)
 - [x] [Quality pass 71 — Day 71](modules/day-71-reading-and-decomposing-an-integrated-assessment-scenario.md)
-- [ ] [Quality pass 72 — Day 72](modules/day-72-planning-a-compliant-design-response-and-evidence-trail.md)
+- [x] [Quality pass 72 — Day 72](modules/day-72-planning-a-compliant-design-response-and-evidence-trail.md)
 - [ ] [Quality pass 73 — Day 73](modules/day-73-inspection-testing-and-documentation-integration.md)
 - [ ] [Quality pass 74 — Day 74](modules/day-74-fault-diagnosis-correction-reasoning-and-re-verification-planning.md)
 - [ ] [Quality pass 75 — Day 75](modules/day-75-rest-retrieval-and-weak-domain-triage.md)
