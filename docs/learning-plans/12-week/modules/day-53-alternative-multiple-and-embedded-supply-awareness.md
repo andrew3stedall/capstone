@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-18
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -24,180 +24,236 @@ related_modules:
 
 # Day 53 — Alternative, Multiple and Embedded Supply Awareness
 
-> **Scope boundary:** This original paper-based module develops source-discovery and operating-state reasoning. It does not provide switching, isolation, testing, commissioning or installation procedures, and it does not reproduce official source-arrangement diagrams, labels, values or clause sequences. Exact requirements require current authorised sources and qualified review.
+> **Scope boundary:** This original paper-based module develops source-discovery, evidence-control and operating-state reasoning. It provides no switching, isolation, proving de-energised, testing, commissioning, installation or field-verification procedure. It reproduces no official source-arrangement diagram, prescribed label, value or clause sequence. Exact requirements require current authorised sources and qualified review.
 
 ## 1. Outcome and entry check
 
 By the end of this block, the learner can:
 
-1. identify when a dossier may contain more than one source of electrical energy;
-2. distinguish a supply source, alternate source, embedded source, stored-energy source and control supply at concept level;
-3. construct a source-and-operating-state map from supplied evidence;
-4. explain why one open switch or one de-energised source does not prove the whole installation is de-energised;
-5. identify source interactions affecting isolation, protection, fault conditions, identification and verification;
-6. apply the **S-O-U-R-C-E-S** workflow without inventing hidden arrangements;
-7. grade conclusions as described, supported, verified or unresolved; and
-8. reopen dependent conclusions when a source, operating mode or connection boundary changes.
+1. state the installation, subsystem, operating-state, evidence, authority and decision boundaries before analysing a multi-source dossier;
+2. classify each source clue as a stated fact, derived fact, supported inference, assumption, contradiction or evidence gap, with provenance;
+3. build separate source, connection-boundary and operating-state maps without inventing hidden wiring;
+4. distinguish source identification from demonstrated switching, isolation, safe-state and verification claims;
+5. stop dependent conclusions at the first unsupported transition and assign an evidence owner and recheck trigger;
+6. reopen affected switching, protection, fault-condition, identification, neutral, earthing and verification reasoning after two material source changes.
 
 ### Entry check
 
-Without notes, answer:
+Without notes:
 
-1. What evidence could reveal an alternate or embedded source?
-2. Why must normal, backup, islanded and maintenance states be considered separately?
-3. Which earlier conclusions can change when a battery or generator is added?
-4. What is the difference between identifying a source and proving isolation from it?
+1. List five different source classes that may energise an installation or subsystem.
+2. Explain why an open main switch is only one item of evidence.
+3. Name three operating states that may produce different energisation paths.
+4. Explain what must happen to downstream conclusions when a new source is disclosed.
 
-Rate each answer **guess**, **unsure**, **reasonably confident** or **certain**. A confident claim that relies on a single-source assumption is a priority misconception.
+Record confidence separately as **guess**, **unsure**, **reasonably confident** or **certain**. High confidence with a single-source assumption is not secure performance.
 
 ## 2. Why it matters
 
-An installation can receive energy from a network connection, generator, photovoltaic system, battery system, uninterruptible power supply, vehicle interface, another board section or a separate control circuit. Some sources are obvious only in particular operating states. If the learner starts with the assumption that one incoming supply defines the whole installation, later reasoning about switching, protection, fault current, labels, testing and safe work can be unsound.
+An installation may receive energy from a network connection, generator, photovoltaic system, battery, uninterruptible power supply, vehicle interface, another board section or a separate control supply. Different sources may appear only in backup, islanded, maintenance, fault or automatic-control states.
 
-The central model is:
+A source clue does not prove its present connection, operating logic or isolation boundary. Conversely, absence from one drawing does not prove absence from the installation. Reliable reasoning therefore separates what the dossier states from what must still be verified.
 
-**discover sources → define connection boundaries → map operating states → trace energisation paths → identify interactions → verify evidence → limit the claim**
+The core sequence is:
+
+**set boundaries → inventory source clues → classify evidence → map connection possibilities → model operating states → trace interactions → stop at the first unsupported transition → assign and recheck**
 
 ![A learner maps several possible energy sources before trusting one open switch](../../../assets/learning/12-week/alternative-multiple-and-embedded-supply-awareness/map-every-source.svg)
+
+*Instructional caption: One open switch answers one narrow question; the source inventory and operating-state map determine which questions remain.*
 
 ## 3. Core concepts and terminology
 
 - **Supply source:** an origin of electrical energy connected or capable of being connected to the installation.
 - **Alternative source:** a source intended to supply some or all loads when another source is unavailable or intentionally disconnected.
 - **Embedded source:** generation or storage connected within the installation rather than only at the normal incoming boundary.
-- **Stored-energy source:** equipment capable of continuing or restoring energisation from stored energy, such as a battery or UPS arrangement.
+- **Stored-energy source:** equipment capable of maintaining or restoring energisation from stored energy, such as a battery or UPS arrangement.
 - **Control supply:** a supply serving control, monitoring, signalling or actuation functions; it may remain energised when a power circuit is not.
-- **Connection boundary:** the point or interface at which a source, board section, subsystem or external installation connects to the scenario being analysed.
+- **Connection boundary:** the interface at which a source, board section, subsystem or external installation connects to the analysed scenario.
 - **Operating state:** a defined combination of source availability, switching positions, control conditions and load connections.
-- **Backfeed possibility:** a plausible energisation path from a source or connected subsystem toward a point assumed to be de-energised. This term identifies a reasoning question, not a confirmed field condition.
-- **Source interaction:** a consequence created by two or more sources or operating modes, including changed fault conditions, switching duties, protection behaviour, identification needs or verification boundaries.
-- **Single-source assumption:** an unsupported belief that the normal incoming supply is the only possible energy source.
+- **Backfeed possibility:** a plausible energisation path from another source or subsystem toward a point assumed to be de-energised. It is a question for evidence, not a confirmed field condition.
+- **Source interaction:** a consequence created by two or more sources or modes, including changed switching duties, protection behaviour, fault conditions, identification needs or verification boundaries.
+- **Provenance:** the source, date or revision and scenario linkage of an evidence item.
+- **Competing interpretations:** two or more plausible readings retained until better evidence resolves them.
+- **First unsupported transition:** the earliest step in a claim chain that is not supported by the available evidence.
+- **Evidence owner:** the authorised source, person or qualified reviewer responsible for resolving a gap.
+- **Recheck trigger:** the new evidence or material change that requires a conclusion to be reconsidered.
+- **Material change:** a change capable of altering a source path, operating state, boundary or dependent conclusion.
 
-### Evidence grades
+### Evidence states
 
-Use five evidence grades:
+Classify every material item as one of:
 
-1. **Observed** — visible in the supplied image, diagram, schedule or scenario.
-2. **Documented** — stated in a current authorised record.
-3. **Manufacturer-verified** — supported by applicable equipment information.
-4. **Assumed** — plausible but not demonstrated.
-5. **Missing** — required for the conclusion but unavailable.
+1. **Stated fact** — explicitly present in the supplied scenario or current identified record.
+2. **Derived fact** — follows directly from stated facts without a disputed assumption.
+3. **Supported inference** — the best current explanation, but still conditional.
+4. **Assumption** — plausible but unsupported.
+5. **Contradiction** — two credible items cannot both describe the same condition as currently framed.
+6. **Evidence gap** — information needed for the intended conclusion is absent.
+
+Confidence is recorded separately. A correct guess remains unsupported until its evidence chain is shown.
 
 ## 4. Rule-finding workflow
 
 Use **S-O-U-R-C-E-S**:
 
-1. **S — Set the boundary:** define the installation, board sections, subsystems and external interfaces included.
-2. **O — Observe source clues:** inspect diagrams, schedules, labels, equipment lists, operating descriptions and manufacturer information.
-3. **U — Uncover every energy path:** list normal, alternative, embedded, stored-energy and control sources without assuming exclusivity.
-4. **R — Represent operating states:** map which sources and paths may be active in normal, backup, islanded, maintenance and fault-related states supplied by the scenario.
-5. **C — Connect interactions:** review isolation boundaries, switching duties, protection, fault conditions, neutral and earthing questions, identification and verification consequences.
-6. **E — Examine authorised evidence:** verify definitions, scope, currency, manufacturer compatibility, connection arrangements and documented operating logic.
-7. **S — State and stress-test the claim:** grade the conclusion, record missing evidence and reopen it when a source or operating state changes.
+1. **S — Set boundaries:** name the installation, included subsystems, operating states, evidence set, learner authority and permitted decision.
+2. **O — Observe and provenance source clues:** inspect current diagrams, schedules, labels, equipment lists, operating descriptions and manufacturer information; record source, date and revision.
+3. **U — Uncover candidate energy paths:** list normal, alternative, embedded, stored-energy and control sources without assuming exclusivity or inventing connections.
+4. **R — Represent operating states:** map normal, backup, islanded, maintenance, automatic-restart and supplied fault-related states separately.
+5. **C — Connect interactions:** examine switching, isolation, protection, fault conditions, identification, neutral and earthing questions, and verification boundaries.
+6. **E — Examine authorised evidence:** check currency, applicability, manufacturer compatibility, connection arrangements and documented operating logic; retain contradictions.
+7. **S — State, stop and schedule recheck:** stop at the first unsupported transition, write a bounded conclusion, assign each gap and define its recheck trigger.
 
 ```mermaid
 flowchart TD
-  A[Set installation and subsystem boundary] --> B[Collect source clues]
-  B --> C[List every possible source]
-  C --> D[Map operating states]
-  D --> E[Trace possible energisation paths]
-  E --> F[Review switching protection fault identification and verification interactions]
-  F --> G{Evidence complete for the claim?}
-  G -->|No| H[Mark unresolved and request evidence]
-  G -->|Yes| I[Write a bounded supported claim]
-  I --> J{Source connection or operating state changed?}
-  J -->|Yes| C
-  J -->|No| K[Retain within stated boundary]
+  A[Set installation subsystem evidence authority and decision boundaries] --> B[Inventory clues with provenance]
+  B --> C[Classify each item]
+  C --> D[List candidate sources and connection boundaries]
+  D --> E[Map each operating state separately]
+  E --> F[Trace switching protection fault identity earthing and verification interactions]
+  F --> G{First unsupported transition reached?}
+  G -->|Yes| H[Stop dependent claims]
+  H --> I[Assign evidence owner and recheck trigger]
+  G -->|No| J[Write bounded supported conclusion]
+  I --> K{Material source or state change?}
+  J --> K
+  K -->|Yes| D
+  K -->|No| L[Retain only within stated boundary]
 ```
 
-The diagram prevents source discovery from becoming a one-time checklist. A changed source or mode sends the learner back to the source map because dependent conclusions may no longer hold.
+The workflow is cyclic. A new generator inlet, changed battery operating mode or separately supplied control system can invalidate earlier assumptions and reopen every dependent claim.
+
+### Claim ladder
+
+```mermaid
+flowchart LR
+  A[Evidence identity and provenance] --> B[Source existence supported]
+  B --> C[Connection boundary supported]
+  C --> D[Operating state supported]
+  D --> E[Energisation path supported]
+  E --> F[Interaction conclusion supported]
+  F --> G[Qualified technical conclusion]
+  B -. gap .-> X[Stop]
+  C -. gap .-> X
+  D -. gap .-> X
+  E -. gap .-> X
+  F -. gap .-> X
+```
+
+The learner may only climb as high as the evidence supports. A label may support source existence but not connection state, operating logic, isolation or whole-installation safe-state.
 
 ## 5. Visual model or worked example
 
-### Complete worked example
+### Fictional community-facility dossier
 
-A fictional community facility dossier shows a network incomer, a labelled generator connection, rooftop inverter equipment, a battery cabinet and a fire-system control panel supplied from another board. The single-line diagram is incomplete and the operating description is dated.
+The supplied dossier contains:
 
-A learner states: “The main switch is open, so the facility is isolated.”
+- a current network incomer schedule;
+- a generator connection shown on a superseded single-line diagram;
+- rooftop inverter equipment visible in a dated photograph;
+- a battery cabinet listed in an asset register but absent from the current diagram;
+- a fire-system control panel described as supplied from another board;
+- an automatic-transfer narrative with no revision identifier; and
+- a maintenance note stating that one board section remained live during earlier work.
+
+A learner writes: “The main switch is open, so the facility is isolated.”
 
 Apply **S-O-U-R-C-E-S**:
 
-| Step | Evidence-led response |
+| Step | Evidence-controlled response |
 |---|---|
-| Set | Include the main board, connected distribution sections, embedded equipment and separately supplied control panel. |
-| Observe | The dossier contains four source clues, but not a complete current connection diagram. |
-| Uncover | Network, generator, inverter, battery and separate control supply must be considered. |
-| Represent | Normal, generator-supported, stored-energy and maintenance states require separate maps. |
-| Connect | Isolation, identification, fault conditions, switching duties, protection and verification boundaries may differ by state. |
-| Examine | Current single-line information, operating logic, source labels, manufacturer information and qualified confirmation are required. |
-| State | **One switch position described; whole-facility isolation unresolved.** |
+| Set | Include the main board, connected distribution sections, embedded equipment, control panel, supplied operating states and paper-only authority. |
+| Observe | Record each clue's source and date. The generator and transfer documents may be stale; the battery record conflicts with the current diagram. |
+| Uncover | Network, generator, inverter, battery and separate control supply are candidate sources. Their current connection states are not all supported. |
+| Represent | Map normal, generator-supported, stored-energy, automatic-restart and maintenance states separately. |
+| Connect | Reopen switching, isolation, protection, fault-condition, identification, neutral, earthing and verification reasoning for each supported or unresolved path. |
+| Examine | Request current single-line information, source connection records, operating logic, applicable manufacturer information and qualified confirmation. |
+| State | **The supplied evidence describes one open switch. Whole-facility isolation and safe-state are unsupported.** |
+
+Competing interpretations are retained:
+
+- the battery may be disconnected and the asset register stale; or
+- the current single-line diagram may be incomplete.
+
+Neither interpretation may be silently selected.
 
 ### Worked-example fading
 
-A second fictional site shows a network supply and a UPS label but no downstream connection diagram. Complete only:
+For a second fictional site with a network supply, UPS label and incomplete downstream diagram, produce only:
 
-1. the scenario boundary;
-2. a source-clue ledger;
-3. three operating states;
-4. four interactions that remain unresolved;
-5. one bounded claim; and
-6. one change that forces the analysis to reopen.
+1. boundary statement;
+2. provenance ledger;
+3. six-state evidence classification;
+4. source and connection-boundary inventory;
+5. three operating-state maps;
+6. first unsupported transition;
+7. owner and recheck trigger; and
+8. one bounded conclusion.
 
 ## 6. Practical application
 
-A fictional small commercial site contains a network supply, photovoltaic inverter, battery system and tenant equipment supplied through an internal distribution arrangement. A later revision reveals a mobile generator inlet.
+A fictional commercial site contains a network supply, photovoltaic inverter, battery system and tenant equipment connected through an internal distribution arrangement. Later evidence discloses a mobile generator inlet and then a separately supplied control system.
 
 Produce:
 
-1. a boundary statement;
-2. a source inventory using the evidence grades;
-3. an operating-state table;
-4. a source-to-load concept map without inventing hidden wiring;
+1. all six boundaries;
+2. a source inventory with provenance, evidence state and confidence;
+3. a connection-boundary map that marks supported, inferred and unresolved links differently;
+4. an operating-state table for normal, backup, islanded, maintenance and automatic-restart possibilities supplied by the dossier;
 5. an interaction review covering switching, isolation, protection, fault conditions, identification, neutral and earthing questions, and verification;
-6. an authorised-evidence request list;
-7. a bounded conclusion before the generator disclosure; and
-8. a change-propagation note after the generator disclosure.
+6. the first unsupported transition for each major conclusion;
+7. evidence owners and recheck triggers;
+8. a bounded conclusion before either disclosure;
+9. a reopened analysis after the generator inlet; and
+10. a second reopened analysis after the separate control supply, identifying both affected and unaffected conclusions.
 
-### Assessment rubric
+### Criterion-level readiness
 
-Score each category from **0 to 2**:
+Assess each criterion independently:
 
-| Category | 0 | 1 | 2 |
+| Criterion | Secure | Developing | Unsupported |
 |---|---|---|---|
-| Boundary | Missing or invented | Partial | Complete paper boundary and interfaces |
-| Source discovery | Assumes one source | Some clues listed | All supplied source classes considered |
-| Operating states | One state only | Several states named | States mapped with changed paths |
-| Interaction reasoning | Isolated device focus | Some interactions | Switching, protection, fault, identity and verification connected |
-| Evidence discipline | Assumption presented as fact | Mixed grading | Evidence and claims consistently bounded |
-| Change propagation | New source ignored | Some reopening | Every dependent conclusion explicitly reopened |
+| Boundaries | All six are explicit and consistently applied | One boundary is incomplete but claims remain bounded | Boundaries are missing, invented or exceeded |
+| Evidence discipline | Provenance, state and confidence are separate and contradictions retained | Minor inconsistency without changing the conclusion | Assumption or stale record is presented as verified fact |
+| Source discovery | Every disclosed source class and credible clue is considered | One low-impact clue needs prompting | A disclosed or credible source is omitted |
+| Operating states | Material states are mapped separately with changed paths | States are named but one interaction is incomplete | One normal-state map is treated as universal |
+| Claim control | First unsupported transitions, owners and triggers are explicit | One dependency needs clearer ownership | Isolation, safe-state or acceptance is claimed beyond evidence |
+| Change propagation | Both material changes reopen all affected conclusions and preserve justified unaffected ones | Reopening is mostly complete | New sources are added without rebuilding dependent reasoning |
 
-A score of **10/12 or higher** with no critical error indicates readiness for Day 54. This is an educational threshold, not an official assessment rule.
+`stop-required` applies whenever a disclosed source is omitted, a hidden path is invented, a contradiction is concealed, isolation or safe-state is claimed from paper evidence, a claim continues beyond the first unsupported transition, or unauthorised practical action is proposed.
+
+These are educational planning states, not official grades, competency decisions, defect classifications, compliance conclusions or technical approvals. A strong result in one criterion cannot offset a blocking condition elsewhere.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- assuming the normal supply is the only source;
-- treating an equipment label as a complete connection diagram;
+- assuming the normal incoming supply is the only source;
+- treating a label or asset register as a complete connection model;
+- using a superseded diagram without marking its status;
 - mapping only the normal operating state;
-- forgetting stored energy or control supplies;
+- forgetting stored energy, automatic restart or control supplies;
+- treating source existence as proof of present connection;
 - assuming one open switch proves whole-installation isolation;
-- ignoring how additional sources can alter protection and fault reasoning;
-- treating an old single-line diagram as current without checking; and
-- failing to reopen prior conclusions after a source change.
+- hiding contradictions by choosing the convenient document;
+- failing to assign unresolved evidence; and
+- adding a new source to the inventory without reopening dependent reasoning.
 
-### Critical errors and stop conditions
+### Blocking conditions
 
 Stop and remediate if the learner:
 
-- claims isolation from incomplete paper evidence;
-- omits a disclosed source;
-- invents a hidden connection path;
-- proposes switching, proving de-energised, testing or alteration outside authority;
-- claims compliance without current authorised evidence; or
-- treats source identification as practical verification.
+- omits a disclosed or credible source clue;
+- invents a hidden connection or switching state;
+- claims isolation, de-energisation, safe-state, compliance or acceptance from incomplete paper evidence;
+- continues a dependent conclusion past the first unsupported transition;
+- fails to retain a material contradiction;
+- leaves a safety-relevant gap without an evidence owner and recheck trigger;
+- performs incomplete change propagation after either material change; or
+- proposes access, opening, switching, isolation, proving de-energised, testing, alteration or energisation outside authority.
 
-This module authorises no switching, isolation, access, opening, testing, measurement, installation, alteration, energisation, commissioning, certification or verification.
+This module authorises no site access, opening, switching, isolation, proving de-energised, testing, measurement, installation, alteration, repair, energisation, commissioning, certification, design approval or field verification.
 
 ## 8. Retrieval and next links
 
@@ -205,15 +261,21 @@ This module authorises no switching, isolation, access, opening, testing, measur
 
 1. Expand **S-O-U-R-C-E-S**.
 2. Define alternative, embedded, stored-energy and control sources.
-3. Why must operating states be mapped separately?
-4. Name five source interactions.
-5. Why does one open switch not prove whole-installation isolation?
-6. What evidence gaps make a source conclusion unresolved?
-7. What changes require the analysis to reopen?
+3. Distinguish source existence, connection boundary, operating state and energisation path.
+4. Name the six evidence states.
+5. Explain the first unsupported transition.
+6. Why is one open switch insufficient evidence for whole-installation safe-state?
+7. Which downstream conclusions may reopen after a source change?
+8. Define evidence owner, recheck trigger and material change.
 
 ### Changed-scenario transfer
 
-Re-attempt the practical application after removing the network supply and adding a separately supplied control system. Rebuild the source inventory and operating states rather than editing the earlier conclusion in place.
+Reattempt the practical application after two changes:
+
+1. remove the network supply while retaining the battery and incomplete generator records; then
+2. disclose a separately supplied control system capable of automatic restart.
+
+Rebuild the source inventory and operating-state maps after each change. Identify which conclusions reopen, which remain supported and why.
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 53 - Alternative, Multiple and Embedded Supply Awareness]]

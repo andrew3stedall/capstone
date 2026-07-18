@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 52 of 84.
+- **Completed quality-improvement passes:** 53 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -116,7 +116,7 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 50 — Day 50](modules/day-50-special-location-method-classify-map-zones-and-verify-sources.md)
 - [x] [Quality pass 51 — Day 51](modules/day-51-bathrooms-showers-and-other-wet-area-reasoning.md)
 - [x] [Quality pass 52 — Day 52](modules/day-52-other-special-installations-and-location-specific-controls.md)
-- [ ] [Quality pass 53 — Day 53](modules/day-53-alternative-multiple-and-embedded-supply-awareness.md)
+- [x] [Quality pass 53 — Day 53](modules/day-53-alternative-multiple-and-embedded-supply-awareness.md)
 - [ ] [Quality pass 54 — Day 54](modules/day-54-rest-retrieval-and-applicability-check-repair.md)
 - [ ] [Quality pass 55 — Day 55](modules/day-55-mixed-special-location-scenario-workshop.md)
 - [ ] [Quality pass 56 — Day 56](modules/day-56-week-8-cumulative-design-and-inspection-checkpoint.md)
