@@ -3,7 +3,7 @@ title: Twelve-Week Capstone Learning Plan
 status: active
 jurisdiction: AU-NZ
 source_status: original-learning-plan
-reviewed_on: 2026-07-18
+reviewed_on: 2026-07-19
 ---
 
 # Twelve-Week Capstone Learning Plan
@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 64 of 84.
+- **Completed quality-improvement passes:** 65 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -128,7 +128,7 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 62 — Day 62](modules/day-62-result-plausibility-and-evidence-quality-reasoning.md)
 - [x] [Quality pass 63 — Day 63](modules/day-63-week-9-verification-planning-checkpoint.md)
 - [x] [Quality pass 64 — Day 64](modules/day-64-continuity-evidence-and-common-interpretation-errors.md)
-- [ ] [Quality pass 65 — Day 65](modules/day-65-insulation-polarity-and-connection-integrity-concepts.md)
+- [x] [Quality pass 65 — Day 65](modules/day-65-insulation-polarity-and-connection-integrity-concepts.md)
 - [ ] [Quality pass 66 — Day 66](modules/day-66-fault-loop-and-rcd-result-interpretation-at-concept-level.md)
 - [ ] [Quality pass 67 — Day 67](modules/day-67-systematic-fault-finding-workflow-and-hypothesis-control.md)
 - [ ] [Quality pass 68 — Day 68](modules/day-68-rest-retrieval-and-high-confidence-error-repair.md)
