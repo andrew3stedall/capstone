@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 62 of 84.
+- **Completed quality-improvement passes:** 63 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -126,7 +126,7 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 60 — Day 60](modules/day-60-instrument-suitability-limitations-and-pre-use-evidence.md)
 - [x] [Quality pass 61 — Day 61](modules/day-61-rest-retrieval-and-sequence-reconstruction.md)
 - [x] [Quality pass 62 — Day 62](modules/day-62-result-plausibility-and-evidence-quality-reasoning.md)
-- [ ] [Quality pass 63 — Day 63](modules/day-63-week-9-verification-planning-checkpoint.md)
+- [x] [Quality pass 63 — Day 63](modules/day-63-week-9-verification-planning-checkpoint.md)
 - [ ] [Quality pass 64 — Day 64](modules/day-64-continuity-evidence-and-common-interpretation-errors.md)
 - [ ] [Quality pass 65 — Day 65](modules/day-65-insulation-polarity-and-connection-integrity-concepts.md)
 - [ ] [Quality pass 66 — Day 66](modules/day-66-fault-loop-and-rcd-result-interpretation-at-concept-level.md)
