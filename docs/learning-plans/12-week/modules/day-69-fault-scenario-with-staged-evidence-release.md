@@ -6,7 +6,7 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-19
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -18,209 +18,293 @@ related_modules:
 
 # Day 69 — Fault Scenario with Staged Evidence Release
 
-> **Scope boundary:** This module is a document-based diagnostic simulation. All evidence is fictional and supplied within the exercise. It does not authorise access, switching, isolation, testing, measurement, repair, energisation or field fault finding.
+> **Scope boundary:** This is a fictional, document-only diagnostic simulation. It does not authorise site access, opening equipment, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation, commissioning, acceptance, certification, verification or field fault finding.
 
 ## 1. Outcome and entry check
 
 By the end, the learner can:
 
-1. establish a system boundary, reported symptom and known operating state before interpreting evidence;
-2. create at least three plausible hypotheses without treating any as the root cause;
-3. record predictions that would strengthen or weaken each hypothesis;
-4. process staged evidence without using information from later stages early;
-5. revise confidence when evidence supports, contradicts or fails to discriminate;
-6. distinguish correlation, contributing condition and evidenced causal explanation;
-7. maintain a time-ordered diagnostic ledger with unresolved questions and stop boundaries; and
-8. produce a bounded conclusion that states what is known, what remains uncertain and what qualified evidence is still required.
+1. define the installation, equipment, circuit, source, operating-state, time, evidence, authority and decision boundaries before interpreting a reported event;
+2. preserve the reporter's literal wording separately from technical interpretation;
+3. generate at least three materially distinct hypotheses with falsifiable predictions;
+4. classify each released item as a stated fact, derived fact, supported inference, assumption, contradiction or evidence gap;
+5. maintain an immutable stage snapshot containing hypotheses, predictions, confidence, evidence state and unresolved dependencies;
+6. identify the first unsupported transition in each claim chain and stop dependent conclusions there;
+7. update confidence separately from correctness and evidence quality;
+8. assign an evidence owner and recheck trigger to each unresolved blocker;
+9. reopen affected boundaries and dependencies after two sequential material changes; and
+10. determine independent educational readiness states without allowing strengths in one criterion to offset a safety-critical failure.
 
 ### Entry check
 
-A reported fault disappears before any traceable evidence is reviewed. Write three reasons why “no fault found” is not yet a justified conclusion, then name one evidence item that could discriminate between two credible hypotheses.
+A witness says, “the unit tripped again,” but no device, time-aligned record or operating state has been identified. Write:
+
+- the literal observation that may be recorded;
+- three interpretations that must remain hypotheses;
+- the first evidence item that could discriminate between two of them; and
+- the point at which reasoning must stop if that evidence is unavailable.
 
 ## 2. Why it matters
 
-Real diagnostic reasoning rarely receives a complete evidence package at once. New records may strengthen one explanation, expose a contradiction or show that the original symptom description was inaccurate. Staged release forces the learner to preserve uncertainty, resist hindsight bias and update the diagnostic record rather than rewriting history.
+Diagnostic evidence often arrives out of order, with unequal quality and after memories or records have changed. A learner who rewrites earlier reasoning after seeing later evidence creates a clean story rather than a traceable diagnostic record. Staged release makes uncertainty, confidence changes, contradictions and hindsight visible.
 
 ![A learner keeps three hypothesis cards visible while opening evidence envelopes one at a time](../../../assets/learning/12-week/fault-scenario-with-staged-evidence-release/open-one-envelope-at-a-time.svg)
 
+*Caption: Open one evidence stage at a time, preserve the earlier snapshot and change confidence only when the new evidence genuinely discriminates.*
+
 ## 3. Core concepts and terminology
 
-- **Evidence stage:** one controlled release of scenario information that must be assessed before the next stage is opened.
-- **Evidence embargo:** the rule that later-stage information cannot be used to improve an earlier response retrospectively.
-- **Diagnostic snapshot:** the hypotheses, confidence ratings, predictions and unresolved questions recorded at a particular stage.
-- **Confidence update:** an explicit increase, decrease or unchanged rating supported by the newly released evidence.
-- **Supporting evidence:** evidence consistent with a hypothesis but not necessarily unique to it.
-- **Contradictory evidence:** evidence inconsistent with a prediction made by a hypothesis.
-- **Non-discriminating evidence:** evidence that fits multiple hypotheses and therefore does not separate them.
-- **Correlation:** two events occurring together without sufficient evidence that one caused the other.
-- **Contributing condition:** a condition that may influence the event but does not alone establish the complete causal chain.
-- **Causal explanation:** an explanation supported by a coherent chain of discriminating evidence and without unresolved material contradiction.
-- **Hindsight bias:** treating an outcome as obvious after later evidence becomes known.
-- **Bounded conclusion:** a conclusion limited to the evidence, system boundary, operating state, authority and unresolved uncertainty.
+- **Installation boundary:** the part of the installation included in the fictional dossier.
+- **Equipment boundary:** the identified item or assembly under discussion; similar nearby equipment is not automatically included.
+- **Circuit boundary:** the conductors, controls and protective devices that are evidenced as serving the equipment.
+- **Source boundary:** the normal, alternate or control supply evidenced as relevant to the event.
+- **Operating-state boundary:** the commanded, running, stopped, transferred, reset or unknown state at the relevant time.
+- **Time boundary:** the event window and the period for which each record is demonstrably applicable.
+- **Evidence boundary:** the supplied records and observations; absent evidence cannot be invented.
+- **Authority boundary:** what the learner may analyse in a document exercise, excluding practical action and formal technical approval.
+- **Decision boundary:** the narrow conclusion the evidence can support without becoming a root-cause, compliance, acceptance or certification decision.
+- **Stated fact:** information directly contained in an identified evidence item.
+- **Derived fact:** a result obtained transparently from stated facts without adding an unsupported premise.
+- **Supported inference:** a reasoned interpretation supported by applicable evidence but still labelled as an inference.
+- **Assumption:** an unverified proposition used temporarily and visibly.
+- **Contradiction:** two evidence items or claims that cannot both be accepted within the same boundary without resolution.
+- **Evidence gap:** information required for a claim but not supplied.
+- **Diagnostic snapshot:** the stage-specific hypotheses, predictions, confidence ratings, evidence states and unresolved dependencies locked before the next release.
+- **Evidence embargo:** the prohibition on using later-stage evidence to rewrite an earlier snapshot.
+- **Falsifiable prediction:** an expected observation that could weaken or reject a hypothesis if not found under the stated conditions.
+- **Discriminating evidence:** evidence that separates competing hypotheses rather than merely fitting several.
+- **First unsupported transition:** the earliest step in a claim chain that lacks sufficient evidence; every dependent conclusion remains unsupported.
+- **Evidence owner:** the authorised source, custodian or qualified person responsible for resolving a blocker.
+- **Recheck trigger:** a new record, clarified identity or material change that requires affected reasoning to be reopened.
+- **Confidence calibration:** recording confidence separately from whether a claim is correct and whether its evidence is adequate.
+- **Educational readiness state:** `secure`, `developing`, `unsupported` or `stop-required`; these are learning states, not official grades or technical decisions.
 
 ## 4. Rule-finding workflow
 
 Use **R-E-L-E-A-S-E**:
 
-1. **R — Record the symptom, source, system boundary and operating state.**
-2. **E — Establish at least three plausible hypotheses and their predictions.**
-3. **L — Lock the diagnostic snapshot before opening the next evidence stage.**
-4. **E — Examine only the newly released evidence for provenance and relevance.**
-5. **A — Adjust confidence: strengthen, weaken, reject or leave unchanged.**
-6. **S — State contradictions, missing evidence and the next discriminating question.**
-7. **E — End with a bounded conclusion and explicit stop or escalation boundary.**
+1. **R — Record literal evidence and all nine boundaries.** Preserve the reporter's wording, source identity, event time and known operating state.
+2. **E — Establish competing hypotheses and falsifiable predictions.** Use at least three materially distinct explanations.
+3. **L — Lock the snapshot.** Record confidence, evidence state, contradictions, dependencies and the next discriminating question before opening another stage.
+4. **E — Examine only the newly released evidence.** Check provenance, completeness, currency, applicability and relationship to the event window.
+5. **A — Adjust confidence without converting it into proof.** Strengthen, weaken, reject or leave unchanged, and give the evidence-based reason.
+6. **S — Stop at the first unsupported transition.** Assign each blocker an evidence owner and recheck trigger.
+7. **E — End with a bounded conclusion.** State what is supported, what is unresolved, what changed and what remains outside authority.
 
 ```mermaid
 flowchart TD
-  A[Record symptom, source, boundary and state] --> B[Create competing hypotheses and predictions]
-  B --> C[Lock diagnostic snapshot]
-  C --> D[Open one evidence stage]
-  D --> E[Check provenance, relevance and timing]
-  E --> F{Does the evidence discriminate?}
-  F -->|Supports one more strongly| G[Increase relative confidence]
-  F -->|Contradicts a prediction| H[Decrease confidence or reject]
-  F -->|Fits several| I[Keep ratings and mark non-discriminating]
-  G --> J[Record update without rewriting earlier snapshot]
-  H --> J
-  I --> J
-  J --> K{More stages authorised?}
-  K -->|Yes| C
-  K -->|No| L[State bounded conclusion, uncertainty and stop boundary]
+  A[Record literal report and nine boundaries] --> B[Create at least three hypotheses]
+  B --> C[Write falsifiable predictions]
+  C --> D[Lock stage snapshot]
+  D --> E[Open one authorised evidence stage]
+  E --> F[Check provenance, currency, completeness and applicability]
+  F --> G{Evidence state?}
+  G -->|Stated or derived fact| H[Update relevant claim]
+  G -->|Supported inference| I[Label inference and retain alternatives]
+  G -->|Assumption, contradiction or gap| J[Stop dependent reasoning]
+  H --> K[Recalibrate confidence]
+  I --> K
+  J --> L[Assign owner and recheck trigger]
+  K --> M{More evidence stages?}
+  L --> M
+  M -->|Yes| D
+  M -->|No| N[State bounded conclusion and educational readiness]
 ```
 
-The diagram is an evidence-control model, not a practical troubleshooting sequence. The locked snapshots make changes in reasoning visible and assessable.
+The workflow prevents evidence volume from being mistaken for evidence quality. A confidence increase is permitted only when an applicable item supports a prediction more strongly than competing explanations.
 
 ## 5. Visual model or worked example
 
-### Fictional scenario
+### Fictional dossier: intermittent packaged ventilation stop
 
-A packaged ventilation unit is reported to stop intermittently during an automatic operating period. No physical access or testing is permitted. The learner receives records in four stages.
+A packaged ventilation unit is reported to stop during an automatic operating period and later resume. No physical access or practical testing is permitted.
 
 #### Stage 0 — Initial brief
 
-Known information:
+Supplied evidence:
 
-- the stop is described as intermittent;
-- the unit later resumes operation;
-- the report does not identify whether the stop was commanded, protective or supply-related; and
-- the operating state at the event time is incomplete.
+- help-desk entry: “unit tripped again”;
+- equipment label in the entry: `AHU-2`;
+- no device identity;
+- no confirmed circuit identity;
+- no confirmed operating mode; and
+- no time-aligned source-state record.
 
-Create three hypotheses:
+Initial hypotheses:
 
-| Hypothesis | Prediction | Initial confidence |
-|---|---|---|
-| A — control-state command | A traceable control or schedule event should align with the stop. | Medium |
-| B — protective operation | An identified protective event or reset record should align with the stop. | Medium |
-| C — source-state interruption | A supply or transfer-state record should align with the stop. | Low–medium |
+| Hypothesis | Falsifiable prediction | Initial confidence | Evidence state |
+|---|---|---:|---|
+| A — scheduled or commanded stop | An applicable control record should show a stop command at the event time. | Medium | Assumption |
+| B — protective operation | An identified device event or reset record should align with the event. | Medium | Assumption |
+| C — normal-source interruption or transfer | A time-aligned source-state record should show interruption or transfer. | Low–medium | Assumption |
+| D — equipment identity mismatch | The help-desk label may not match the unit represented in later records. | Low | Assumption |
 
-Lock the snapshot before Stage 1.
+The phrase “tripped” is a stated witness description, not a derived fact about protective operation.
 
-#### Stage 1 — Event history
+#### Stage 1 — Event export
 
-Released evidence: all three recorded stops occurred within five minutes of a programmed mode change. No identified protective-device event appears in the supplied event history.
+Released evidence:
 
-Required update:
+- three stop entries occur near programmed mode changes;
+- the export header says `AHU-02`, not `AHU-2`;
+- the export does not show protective-device events; and
+- its data dictionary is not supplied.
 
-- strengthen A because timing matches its prediction;
-- weaken, but do not eliminate, B because the supplied record may be incomplete;
-- leave C unresolved because no source-state record has been supplied; and
-- request time-aligned control, protective-event and source-state records.
+Reasoning update:
 
-#### Stage 2 — Control record
+- strengthen A only as a supported inference because timing is consistent with its prediction;
+- do not reject B because absence from an undefined export is not proof that no event occurred;
+- leave C unresolved because source state remains missing;
+- strengthen D slightly because equipment identity is not reconciled; and
+- record the first unsupported transition: `AHU-02 export` → `same equipment as AHU-2`.
 
-Released evidence: the current control schedule contains a stop command at the relevant mode transition, but its revision date is after two of the three reported events.
+Evidence owner: current asset register or authorised asset custodian. Recheck trigger: reconciled equipment identifiers.
 
-Required update:
+#### Stage 2 — Current control schedule
 
-- treat the record as supporting only the latest event unless version history proves earlier applicability;
-- do not project the current schedule backwards;
-- retain alternative hypotheses for the earlier events; and
-- add document currency as an unresolved dependency.
+Released evidence:
+
+- the current schedule contains a stop command at the relevant mode transition;
+- its revision date is after two of the three reported events; and
+- the revision history is incomplete.
+
+Reasoning update:
+
+- treat the current schedule as applicable only to the latest event unless historical applicability is established;
+- do not project the current command backwards;
+- retain B, C and D for the earlier events; and
+- mark document currency as the first unsupported transition for any all-events conclusion.
 
 #### Stage 3 — Source and witness records
 
-Released evidence: source-state history shows normal supply during all three events. A witness statement describing a “trip” was recorded several days later and does not identify a device.
+Released evidence:
 
-Required update:
+- normal-source history covers only the first and third event windows;
+- the second event window is absent;
+- a witness statement made four days later says a “red light was on”; and
+- the statement does not identify the equipment or indicator.
 
-- weaken C because the supplied source record contradicts its prediction;
-- do not convert the vague witness word “trip” into a verified protective operation;
-- retain A as the leading explanation for the latest event; and
-- state that the earlier events remain unresolved without applicable historical control records.
+Reasoning update:
 
-#### Stage 4 — Version history
+- weaken C for events one and three only;
+- keep C unresolved for event two;
+- do not translate “red light” into a specific device state;
+- keep D unresolved; and
+- preserve separate conclusions for each event window.
 
-Released evidence: archived control records show the same mode-transition stop command existed for all three event dates.
+#### Stage 4 — Identity and version records
 
-Bounded conclusion: the document package supports a control-command explanation for the recorded stops. It does not establish equipment condition, overall compliance or the absence of other faults. Any practical confirmation remains outside this exercise and requires authorised, qualified processes.
+Released evidence:
 
-### Worked-example fading
+- asset history reconciles `AHU-2` and `AHU-02` as the same unit;
+- archived schedules show the stop command for events one and three;
+- the archive for event two is missing; and
+- a maintenance note records a control-module replacement between events two and three without recording configuration transfer.
 
-Repeat the exercise with a second fictional scenario. This time Stage 2 contains evidence that supports two hypotheses equally. Explain why confidence should not change merely because more documents were released.
+Bounded conclusion:
+
+- the dossier supports a commanded-stop explanation for events one and three;
+- event two remains unresolved because the applicable schedule and complete source state are missing;
+- the control-module replacement prevents automatic transfer of later configuration evidence to the earlier event;
+- no root cause, equipment condition, compliance, acceptance or absence-of-other-faults conclusion is justified.
+
+### Claim-chain inspection
+
+```mermaid
+flowchart LR
+  A[Witness says unit tripped] --> B[Protective device operated]
+  B --> C[Device operation caused all stops]
+  D[Current schedule has stop command] --> E[Same command existed for every event]
+  E --> F[Command caused every stop]
+  G[Source record normal for events 1 and 3] --> H[Source normal for event 2]
+  H --> I[Source-state hypothesis rejected for all events]
+  B -. unsupported transition .-> X[Stop dependent claims]
+  E -. missing historical applicability .-> X
+  H -. missing event window .-> X
+```
+
+Each chain fails at its first unsupported transition. Later plausible statements cannot repair an earlier missing identity, applicability or event-window premise.
+
+### Two-change transfer
+
+Apply these changes sequentially:
+
+1. a new record shows `AHU-02` was temporarily reassigned to another controller during event two;
+2. a later correction states the source-history timestamps used a different clock basis.
+
+After each change, reopen every affected identity, time, source, applicability, prediction and conclusion dependency. Do not merely edit the final paragraph.
 
 ## 6. Practical application
 
-Complete a **four-stage diagnostic release pack**:
+Complete a four-stage release pack containing:
 
-1. write a Stage 0 snapshot with symptom, source, boundary, state, three hypotheses and predictions;
-2. lock each snapshot before opening the next stage;
-3. classify every new item as supporting, contradictory, non-discriminating or irrelevant;
-4. record confidence before and after each stage with a reason;
-5. preserve document dates, source identity and applicability;
-6. identify the next discriminating evidence need after each release; and
-7. finish with a bounded conclusion, unresolved questions and stop boundary.
+1. a literal evidence ledger with source, date, event window and evidence classification;
+2. a nine-boundary statement;
+3. at least three materially distinct hypotheses and falsifiable predictions;
+4. a locked snapshot after every stage;
+5. confidence, correctness and evidence-quality fields kept separate;
+6. the first unsupported transition for every major claim chain;
+7. an evidence owner and recheck trigger for every blocker;
+8. a two-change dependency-reopening record; and
+9. a bounded conclusion that separates each event where applicability differs.
 
-### Assessment rubric
+### Criterion-level readiness record
 
-Score each category from **0 to 2**:
+Assess each criterion independently:
 
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Initial framing | Boundary or state omitted | Partly framed | Symptom, source, boundary and state explicit |
-| Hypothesis control | One assumed cause | Alternatives listed | Credible alternatives with predictions |
-| Stage discipline | Later evidence used early | Minor leakage | Snapshots locked and evidence embargo preserved |
-| Evidence updating | Confidence unchanged without reason | Some revision | Support, contradiction and non-discrimination handled correctly |
-| Traceability | Dates and sources lost | Partly traceable | Each item tied to provenance, timing and applicability |
-| Conclusion and safety | Root cause or practical authority overstated | General caveat | Bounded conclusion, uncertainty and stop boundary explicit |
+| Criterion | `secure` | `developing` | `unsupported` | `stop-required` |
+|---|---|---|---|---|
+| Boundary control | All nine boundaries explicit and maintained | Minor omissions corrected before conclusions | Material boundary remains assumed | Practical or authority boundary crossed |
+| Hypothesis control | Three distinct hypotheses with falsifiable predictions | Alternatives present but predictions partly weak | Preferred cause assumed | Root cause declared without discriminating evidence |
+| Stage discipline | Snapshots locked; embargo preserved | One traceability lapse corrected | Later evidence contaminates earlier record | Snapshot intentionally rewritten to hide error |
+| Evidence control | All claims classified; provenance and applicability checked | Some classifications need correction | Assumptions or gaps presented as facts | Evidence invented, altered or materially omitted |
+| Dependency control | First unsupported transitions stop dependent claims | Some dependencies found after prompting | Conclusions continue beyond unsupported premises | Safety-critical contradiction ignored |
+| Confidence calibration | Confidence changes only for stated reasons | Ratings broadly reasonable but inconsistent | Confidence treated as correctness | High confidence used to override missing evidence |
+| Ownership and transfer | Owners, triggers and two-change reopening complete | Partial ownership or reopening | Blockers lack resolution path | Material change ignored to preserve conclusion |
+| Conclusion and safety | Event-specific bounded conclusion and stop boundary | General boundary present but imprecise | Compliance, acceptance or absence-of-fault implied | Practical action or formal technical approval claimed |
 
-A score of **10/12 or higher** with no critical error indicates readiness for Day 70. This is an educational readiness indicator only.
+There is no aggregate score. A blocking `unsupported` criterion or any `stop-required` state cannot be offset by stronger performance elsewhere. These states are educational planning labels only.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- rewriting an earlier snapshot after seeing later evidence;
-- increasing confidence merely because evidence volume increased;
-- treating timing correlation as proof of cause;
-- applying a current document to an earlier event without version evidence;
-- interpreting witness terminology as identified technical evidence;
-- eliminating a hypothesis because a supplied record is incomplete; and
-- allowing the scenario to drift into unauthorised practical troubleshooting.
+- translating witness vocabulary into an identified technical event;
+- treating additional documents as automatically stronger evidence;
+- applying current configuration to earlier events without version evidence;
+- merging separate event windows despite different evidence coverage;
+- rejecting a hypothesis because an incomplete record contains no matching event;
+- rewriting earlier snapshots after later evidence is known;
+- treating timing correlation as a complete causal explanation;
+- failing to reconcile equipment, circuit, source or timestamp identity;
+- changing only the final conclusion after a material change instead of reopening dependencies; and
+- using confidence as a substitute for evidence quality.
 
-### Critical errors and stop conditions
+### Blocking conditions and stop boundaries
 
-Stop and remediate if the learner:
+Set `stop-required` and remediate if the learner:
 
-- claims a root cause before discriminating evidence supports the causal chain;
-- uses later-stage evidence in an earlier response;
-- ignores provenance, document currency or operating state;
-- invents a test method, acceptance value or safety-critical procedure;
-- recommends access, switching, isolation, measurement or repair; or
-- fails to preserve a credible high-consequence alternative or escalation need.
+- invents, edits or suppresses evidence;
+- declares a root cause without a complete supported causal chain;
+- continues dependent reasoning beyond the first unsupported transition;
+- ignores a material contradiction, missing event window or unresolved identity;
+- uses later-stage evidence in an earlier snapshot;
+- invents a clause, value, test, acceptance criterion or practical procedure;
+- recommends site access, opening, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair or energisation; or
+- presents an educational conclusion as verification, acceptance, certification, compliance or qualified technical approval.
 
-This module authorises no access, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation, certification or verification.
+Exact diagnostic duties, verification methods, sequences, instrument requirements, values, acceptance criteria, documentation requirements, role permissions and official assessment expectations require current authorised sources and qualified review.
 
 ## 8. Retrieval and next links
 
-1. What is an evidence embargo?
-2. Why must a diagnostic snapshot be locked?
-3. How does contradictory evidence differ from missing evidence?
-4. Why can a current document be inapplicable to an earlier event?
-5. What must a bounded conclusion include?
-
-### Changed-scenario transfer
-
-Revise the worked example after learning that the source-state record covered only two of the three event windows. Identify which confidence update must be reversed, what remains supported and which evidence request becomes necessary again.
+1. What is the difference between a stated witness description and a technical event finding?
+2. Why does an undefined event export fail to eliminate a protective-operation hypothesis?
+3. What is the first unsupported transition in the claim “the current schedule proves all earlier stops were commanded”?
+4. Why must event windows remain separate when evidence coverage differs?
+5. How do confidence, correctness and evidence quality differ?
+6. What must be recorded for an unresolved blocker?
+7. Why must two sequential material changes reopen dependencies rather than only the final conclusion?
+8. Which readiness states cannot be offset by stronger work elsewhere?
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 69 - Fault Scenario with Staged Evidence Release]]
