@@ -10,7 +10,7 @@ standard_references:
   - standard: AS/NZS 3000
     edition: "2018"
     clause: reference_check_required
-reviewed_on: 2026-07-15
+reviewed_on: 2026-07-18
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -24,149 +24,213 @@ related_modules:
 
 # Day 55 — Mixed Special-Location Scenario Workshop
 
-> **Scope boundary:** This original workshop integrates classification, source, design and inspection reasoning using fictional dossiers. It does not reproduce official classifications, zones, dimensions, values, diagrams, procedures or assessment material. Exact requirements require current authorised sources and qualified review.
+> **Scope boundary:** This original workshop integrates classification, supply-state, design and inspection reasoning using fictional dossiers. It does not reproduce official classifications, zones, dimensions, values, diagrams, procedures or assessment material. Exact requirements require current authorised sources and qualified review.
 
 ## 1. Outcome and entry check
 
 By the end, the learner can:
 
-1. decompose a mixed scenario into distinct location, supply, user and operating boundaries;
-2. identify overlapping general and location-specific control questions;
-3. integrate **Z-O-N-E-S**, **S-P-E-C-I-A-L** and **S-O-U-R-C-E-S** without collapsing them into one checklist;
-4. distinguish design evidence from visual-inspection evidence;
-5. create a dependency map showing which conclusions rely on which facts and sources;
-6. prioritise material evidence gaps and stop conditions;
-7. revise the analysis after a staged change; and
-8. present a bounded design-and-inspection recommendation without claiming compliance.
+1. define the location, activity, user, equipment, supply, operating-state, evidence, authority and decision boundaries of a mixed scenario;
+2. classify each supplied statement as a **stated fact**, **derived fact**, **supported inference**, **assumption**, **contradiction** or **evidence gap**;
+3. keep location applicability, source-state, design-intent and inspection-observation layers separate while showing their dependencies;
+4. identify the **first unsupported transition** in each material claim chain and stop dependent conclusions there;
+5. compare competing interpretations without resolving them by convenience;
+6. assign an evidence owner and recheck trigger to every unresolved blocker;
+7. rebuild affected reasoning after two material scenario changes; and
+8. communicate criterion-level readiness without claiming compliance, competency or technical approval.
 
 ### Entry check
 
 Without notes:
 
 1. What must be classified before selecting a location-specific source?
-2. What is the difference between a shared control and a location-specific control?
+2. What is the difference between a shared control question and a location-specific control question?
 3. Which source questions must be answered before relying on one isolation boundary?
 4. What evidence can a drawing provide that a photograph cannot, and vice versa?
-5. Which Week 8 error would be most dangerous if carried into an integrated scenario?
+5. What is the first unsupported transition in a claim chain?
+6. Why is confidence recorded separately from correctness?
 
-Mark confidence and identify one permitted support from Day 54, if recorded.
+For each answer, mark confidence as **guessing**, **unsure**, **reasonably confident** or **certain**. A high-confidence error is a priority misconception, not evidence of readiness.
 
 ## 2. Why it matters
 
-Real assessment scenarios rarely present one clean topic at a time. A location may combine water exposure, public access, environmental stress, alternate supplies, movable equipment, restricted access and incomplete documentation. The learner must preserve each reasoning boundary while connecting consequences across design and inspection tasks.
+Integrated scenarios fail when a learner compresses several distinct questions into one plausible narrative. A wet location can also contain public access, outdoor equipment, a battery-backed control supply, a generator interface, old documents and visual evidence that does not show concealed construction. Strength in one layer cannot compensate for a material gap in another.
 
-The integrated model is:
+The disciplined sequence is:
 
-**decompose → classify → map sources and states → identify control questions → separate evidence types → trace dependencies → resolve or stop → revise after change**
+**bound the scenario → classify evidence → build separate reasoning layers → trace dependencies → stop at the first unsupported transition → request evidence → stress-test after change**
 
 ![A learner keeps three transparent reasoning layers separate while aligning them over one mixed scenario](../../../assets/learning/12-week/mixed-special-location-scenario-workshop/layer-before-conclusion.svg)
+
+*The learner aligns location, source and evidence layers before forming a conclusion; no single layer is treated as proof of the others.*
 
 ## 3. Core concepts and terminology
 
 - **Mixed scenario:** a dossier containing more than one material location, user, environmental, supply or operating condition.
-- **Reasoning layer:** one analytical view of the scenario, such as classification, supply state, control family, design evidence or inspection evidence.
-- **Overlap:** a point where two or more conditions affect the same equipment, route, control or conclusion.
-- **Design evidence:** information used to justify a proposed arrangement, such as a current drawing, schedule, specification, calculation record or manufacturer data.
-- **Inspection evidence:** information obtained from the supplied visual or documentary inspection record about what appears to be installed, identified, accessible or damaged.
+- **Boundary:** the explicit limit of what is included in a reasoning task. Relevant boundaries include location, activity, user, equipment, supply, operating state, evidence, authority and decision.
+- **Reasoning layer:** one analytical view of the scenario, such as location applicability, supply state, design intent or inspection observation.
+- **Overlap:** a point where two or more conditions affect the same equipment, route, control question or conclusion.
+- **Design intent:** what a current approved design document proposes. It is not proof of installed condition.
+- **Inspection observation:** what supplied visual or documentary inspection evidence appears to show. It is not proof of hidden construction or complete compliance.
+- **Provenance:** the source, date or revision, author or issuer and scenario connection of evidence.
+- **Stated fact:** information explicitly supplied by the dossier.
+- **Derived fact:** information obtained directly from supplied facts through a transparent, non-controversial step.
+- **Supported inference:** a conclusion reasonably supported by evidence but not directly stated.
+- **Assumption:** an unverified proposition used temporarily and labelled as such.
+- **Contradiction:** two sources or observations that cannot both be treated as current and correct without resolution.
+- **Evidence gap:** missing information needed to support a material transition.
 - **Dependency:** a fact, source or earlier conclusion that another conclusion relies on.
-- **Material gap:** missing evidence capable of changing the safety, applicability or acceptability of a conclusion.
-- **Conflict:** two supplied sources or observations that cannot both be treated as current and correct without resolution.
+- **Claim chain:** an ordered sequence from evidence identity through applicability and interpretation to a bounded conclusion.
+- **First unsupported transition:** the earliest step in a claim chain that lacks adequate evidence. All dependent conclusions remain unsupported.
+- **Competing interpretations:** two or more plausible readings retained until evidence resolves them.
+- **Material gap:** missing evidence capable of changing safety, applicability, source treatment or acceptability reasoning.
+- **Evidence owner:** the authorised source, person or qualified reviewer responsible for resolving a gap.
+- **Recheck trigger:** new evidence or a scenario change that requires a conclusion and its dependencies to be reopened.
+- **Material change:** a change capable of altering classification, source coverage, control questions, equipment suitability, isolation reasoning or acceptance.
 - **Bounded recommendation:** a proposed next decision or evidence request limited to the supplied scenario and learner authority.
-- **Change propagation:** the process of reopening every dependent conclusion after a material fact changes.
 
 ## 4. Rule-finding workflow
 
 Use **L-A-Y-E-R-S**:
 
-1. **L — Locate boundaries:** separate areas, users, activities, equipment, supplies and operating states.
-2. **A — Apply classification methods:** use **Z-O-N-E-S** and **S-P-E-C-I-A-L** to identify condition families and applicable source questions.
-3. **Y — Yield a source map:** use **S-O-U-R-C-E-S** to identify energy paths and operating states.
-4. **E — Examine evidence by type:** separate design, inspection, manufacturer and assumed information.
-5. **R — Relate dependencies and conflicts:** show which claims depend on which facts and where evidence disagrees.
-6. **S — State, stop and stress-test:** write bounded claims, stop on material gaps and reopen the model after a staged change.
+1. **L — Locate and state boundaries:** separate areas, activities, users, equipment, supplies, operating states, evidence scope, learner authority and the decision being attempted.
+2. **A — Audit evidence and applicability:** classify every item, record provenance, identify contradictions and confirm which current authorised source family must be consulted.
+3. **Y — Yield separate maps:** build distinct location/applicability, source/state, design-intent and inspection-observation layers.
+4. **E — Expose dependencies:** connect each claim to its evidence and identify the first unsupported transition.
+5. **R — Retain alternatives and resolve responsibly:** preserve competing interpretations, rank material gaps and assign evidence owners and recheck triggers.
+6. **S — State bounded outcomes and stress-test:** use criterion-level states, stop on blockers and rebuild affected layers after two material changes.
 
 ```mermaid
 flowchart TD
-  A[Mixed scenario dossier] --> B[Location user activity and equipment boundaries]
-  B --> C[Classification layer]
-  B --> D[Supply and operating-state layer]
-  B --> E[Design and inspection evidence layers]
-  C --> F[Candidate control questions]
-  D --> F
-  E --> G[Evidence grades and conflicts]
-  F --> H[Dependency map]
+  A[Mixed fictional dossier] --> B[State location activity user equipment supply evidence and decision boundaries]
+  B --> C[Classify each item and record provenance]
+  C --> D[Location and applicability layer]
+  C --> E[Supply and operating-state layer]
+  C --> F[Design-intent layer]
+  C --> G[Inspection-observation layer]
+  D --> H[Dependency and claim-chain map]
+  E --> H
+  F --> H
   G --> H
-  H --> I{Material gap or conflict?}
-  I -->|Yes| J[Stop and request evidence]
-  I -->|No| K[Write bounded recommendation]
-  J --> L[Staged fact change]
-  K --> L
-  L --> B
+  H --> I{First unsupported transition?}
+  I -->|Yes| J[Stop dependent claims]
+  J --> K[Owner evidence request and recheck trigger]
+  I -->|No| L[Bounded educational conclusion]
+  K --> M[Material change or new evidence]
+  L --> M
+  M --> B
 ```
 
-The parallel branches prevent a strong result in one layer from hiding a gap in another. A plausible design concept does not prove the inspected installation matches it, and a photograph does not establish the complete design basis.
+The four layers are deliberately parallel. A plausible design cannot prove what is installed, and a photograph cannot establish source coverage, concealed construction or full applicability.
+
+### Claim ladder
+
+```mermaid
+flowchart LR
+  A[Evidence identity and provenance] --> B[Scenario boundary match]
+  B --> C[Current source applicability]
+  C --> D[Evidence interpretation]
+  D --> E[Dependency consistency]
+  E --> F[Bounded learner conclusion]
+  F --> G[Qualified technical conclusion]
+  G --> H[Official assessment or compliance decision]
+```
+
+The learner may proceed only as far as the evidence supports. The final two transitions require qualified review or official authority and are outside this module.
 
 ## 5. Visual model or worked example
 
-### Complete worked example
+### Fictional dossier
 
-A fictional aquatic therapy facility includes a wet treatment room, an outdoor plant area, public circulation space, a battery-backed control system and a generator connection. The dossier contains a proposed drawing, two photographs, an old equipment schedule and a current manufacturer data sheet.
+An aquatic therapy facility contains:
 
-A learner immediately applies wet-area reasoning to the whole site and assumes the generator affects every circuit.
+- a wet treatment room with a movable privacy screen;
+- an outdoor plant area exposed to wash-down and weather;
+- a public circulation area beside movable treatment equipment;
+- a battery-backed control panel;
+- a generator inlet and automatic-transfer label;
+- a proposed drawing revised six months ago;
+- an older equipment schedule marked “for review”;
+- two undated photographs;
+- a current manufacturer data sheet for one item; and
+- a maintenance note reporting that one control remained active during a previous supply interruption.
 
-Apply **L-A-Y-E-R-S**:
+The records conflict about generator coverage. One photograph appears to show equipment in a different position from the proposed drawing. The privacy screen dimensions and mobility are not established. The control panel’s source boundary is not shown completely.
 
-| Layer | Evidence-led response |
+### Evidence-led application of L-A-Y-E-R-S
+
+| Stage | Evidence-led response |
 |---|---|
-| Locate | Separate treatment room, plant area, public area, control subsystem and generator interface. |
-| Apply | Classify each area by actual condition and use; do not transfer one location model across the whole facility. |
-| Yield | Map network, generator and battery-backed control states; generator coverage remains unresolved. |
-| Examine | Drawing supports proposed design; photographs support limited observations; old schedule has uncertain currency. |
-| Relate | Equipment suitability, isolation, identification and verification conclusions depend on area classification and actual source coverage. |
-| State | Several condition and source questions are supported, but whole-site compliance and isolation remain unresolved. |
+| Locate | Separate treatment room, plant area, circulation area, movable equipment, control subsystem and generator interface. State that the task is documentary reasoning only. |
+| Audit | Treat the current data sheet as product evidence for the identified item only; mark the old schedule’s currency unresolved; record photograph dates as gaps; retain the generator records as contradictory. |
+| Yield | Build four separate layers. Do not transfer wet-area reasoning across the whole facility or assume all loads share one source state. |
+| Expose | Equipment-placement claims depend on actual position and location classification. Isolation claims depend on complete source and control coverage. Inspection claims do not prove concealed construction. |
+| Retain | Keep at least two generator-coverage interpretations open. Assign the current approved single-line diagram to the design owner and source-state confirmation to a qualified reviewer. |
+| State | Location and source questions can be prioritised, but whole-site suitability, isolation and acceptance remain unsupported. |
+
+### First unsupported transitions
+
+| Claim | Supported path | First unsupported transition | Required action |
+|---|---|---|---|
+| “The generator supplies the treatment-room equipment.” | Generator inlet and transfer label are stated facts. | Label existence → actual circuit coverage. | Obtain current approved source-distribution evidence. |
+| “The photographed equipment is in the intended location.” | Photograph and proposed drawing exist. | Apparent visual match → current installed position and design approval. | Establish photograph date, equipment identity and current approved drawing. |
+| “One isolation action makes the controls safe.” | A control panel and battery support are disclosed. | Main supply state → all control-energy paths absent. | Map every control source and operating state through qualified evidence. |
 
 ### Worked-example fading
 
-A second scenario combines an agricultural wash area, public access, a transportable unit and photovoltaic generation. The learner receives only the boundary and evidence inventory, then independently creates the classification, source and dependency layers.
+For a second fictional dossier combining an agricultural wash area, public access, a transportable unit and photovoltaic generation, only the boundary inventory and evidence list are supplied. The learner independently creates all four layers, claim chains, evidence requests and criterion-level states.
 
 ## 6. Practical application
 
-Complete an original mixed scenario involving at least:
+Complete one original mixed dossier containing:
 
-- two distinct location-condition families;
+- at least two distinct location-condition families;
 - one alternate or embedded source;
 - one design document;
 - one inspection image or observation record;
-- one outdated or conflicting source; and
-- one staged change.
+- one outdated or conflicting source;
+- one hidden or separately supplied control path;
+- one ambiguous equipment identity or position; and
+- two staged material changes.
 
 Produce:
 
-1. a scenario-boundary map;
-2. a condition-classification table;
-3. a source-and-operating-state map;
-4. separate design and inspection evidence ledgers;
-5. a list of candidate control questions;
-6. a dependency-and-conflict map;
-7. three bounded claims and three unresolved claims;
-8. a prioritised evidence request list;
-9. a change-propagation response; and
-10. a two-minute oral summary that states scope, major risk, evidence gap and next safe action.
+1. a boundary statement;
+2. an evidence ledger with provenance, evidence state and confidence;
+3. separate location/applicability, source/state, design-intent and inspection-observation maps;
+4. a candidate control-question list linked to current authorised source families;
+5. a dependency map with at least five claim chains;
+6. the first unsupported transition for every unresolved material claim;
+7. competing interpretations for each contradiction;
+8. a prioritised evidence request list with owner and recheck trigger;
+9. three bounded supported claims and three explicitly unsupported claims;
+10. two change-propagation responses; and
+11. a two-minute oral summary stating scope, material risk, first blocker and next safe evidence action.
 
-### Assessment rubric
+### Two-change transfer
 
-Score each category from **0 to 2**:
+Apply both changes in order:
 
-| Category | 0 | 1 | 2 |
+1. the battery is confirmed to supply controls only, while generator coverage remains contradictory; and
+2. the movable privacy screen is removed and the photographed equipment is confirmed to have been relocated after the proposed drawing.
+
+After each change, reopen every dependent boundary, classification, source-state, equipment-position, isolation and acceptance claim. Editing only the final recommendation is not transfer.
+
+### Criterion-level readiness
+
+Assess each criterion independently:
+
+| Criterion | Secure | Developing | Unsupported or `stop-required` |
 |---|---|---|---|
-| Decomposition | Treats scenario as one condition | Some boundaries | All material boundaries separated |
-| Classification | Labels only or false transfer | Partial method | Conditions and applicability reasoned clearly |
-| Source mapping | Single-source assumption | Some sources/states | All supplied sources and states mapped |
-| Evidence separation | Evidence types merged | Some distinction | Design, inspection, manufacturer and assumptions separated |
-| Dependencies | Conclusions isolated | Some links | Material dependencies and conflicts explicit |
-| Safety communication | Compliance or authority implied | General caution | Bounded claims, stop conditions and evidence requests clear |
+| Boundary control | All material boundaries explicit and maintained | Minor boundary omissions do not alter current reasoning | A material area, source, user, activity, equipment or authority boundary is omitted |
+| Evidence discipline | Evidence states, provenance and confidence are separate and consistent | Some provenance or confidence records need correction | Assumption is presented as fact, contradiction hidden or evidence type collapsed |
+| Layer separation | Four layers remain distinct and linked | One layer needs clearer separation | Design intent is treated as installed proof or inspection evidence as complete design proof |
+| Dependency control | Claim chains and first unsupported transitions are explicit | Some dependencies need clearer links | Reasoning continues beyond a material unsupported transition |
+| Resolution planning | Owners, evidence requests and recheck triggers are specific | Requests are relevant but insufficiently owned or triggered | A blocker has no owner, request or recheck condition |
+| Change transfer | Both material changes reopen all affected dependencies | One affected dependency is missed and corrected | Changes are handled cosmetically or only at the final conclusion |
+| Safety communication | Conclusions are bounded and authority limits explicit | Wording needs tightening | Compliance, competency, practical authority or technical approval is implied |
 
-A score of **10/12 or higher** with no critical error indicates readiness for Day 56. This is an educational threshold only.
+These are educational planning states only. They are not official grades, competency decisions, defect classifications, compliance decisions or technical approvals.
 
 ## 7. Common errors and safety checkpoint
 
@@ -175,44 +239,57 @@ A score of **10/12 or higher** with no critical error indicates readiness for Da
 - applying one location classification to the whole scenario;
 - merging design intent with inspection observation;
 - assuming all alternate sources supply all loads;
-- treating an old schedule as current because it is detailed;
-- listing controls without explaining their trigger;
+- treating an old detailed schedule as current;
+- omitting a separately supplied or battery-backed control path;
+- listing controls without explaining their trigger and evidence basis;
 - resolving conflicts by choosing the convenient source;
-- failing to rank material evidence gaps; and
+- recording certainty without evidence quality;
+- failing to identify the first unsupported transition;
+- leaving evidence gaps without owners or recheck triggers; and
 - changing one fact without reopening dependent conclusions.
 
-### Critical errors and stop conditions
+### Blocking conditions
 
-Any of the following requires remediation:
+Any one of the following blocks progression regardless of stronger work elsewhere:
 
-- inventing official zones, values or requirements;
-- claiming compliance from incomplete or conflicting evidence;
-- omitting a disclosed source or operating state;
+- inventing official zones, dimensions, values, requirements or assessment criteria;
+- claiming compliance or safe isolation from incomplete or conflicting evidence;
+- omitting a disclosed source, operating state or material location condition;
 - treating a photograph as proof of hidden construction;
 - treating a proposed drawing as proof of installed condition;
-- crossing into practical switching, isolation, testing or access instructions; or
-- continuing after a material gap prevents safe reasoning.
+- presenting an assumption or supported inference as a stated fact;
+- continuing beyond the first unsupported transition;
+- suppressing a plausible competing interpretation without evidence;
+- failing to assign ownership for an unresolved safety-critical gap;
+- using a staged change only to edit wording rather than reopen dependencies; or
+- crossing into practical access, switching, isolation, testing or installation instruction.
 
-This module authorises no site classification, design approval, access, switching, isolation, testing, installation, alteration, energisation, commissioning, certification or verification.
+### Safety checkpoint
+
+This module authorises no site classification, design approval, access, opening, switching, isolation, proving de-energised, testing, measurement, installation, alteration, repair, energisation, commissioning, certification or field verification.
+
+Exact classifications, zone definitions, dimensions, source arrangements, switching and isolation requirements, equipment restrictions, protection requirements and official assessment expectations require current authorised sources and qualified review.
 
 ## 8. Retrieval and next links
 
 ### Closed-note retrieval
 
 1. Expand **L-A-Y-E-R-S**.
-2. Define reasoning layer, material gap, dependency and conflict.
-3. Why must design and inspection evidence remain separate?
-4. How can one location contain several applicability boundaries?
-5. What happens when a source-coverage assumption changes?
-6. Name four critical errors.
+2. Name the nine boundaries used in this module.
+3. Define the six evidence states.
+4. What is the first unsupported transition?
+5. Why must design intent and inspection observation remain separate?
+6. What is an evidence owner?
+7. What is a recheck trigger?
+8. Name four blocking conditions.
 
-### Changed-scenario transfer
+### Delayed retrieval
 
-Re-attempt after the battery is revealed to supply only controls and a movable partition changes the use boundary of one area. Rebuild affected layers and dependencies rather than editing only the final recommendation.
+After 24–48 hours, redraw the four-layer workflow and one claim ladder from memory. Then explain how each of the two material changes reopens different dependencies.
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 55 - Mixed Special-Location Scenario Workshop]]
 - **Previous:** [Day 54 — Rest, Retrieval and Applicability-Check Repair](day-54-rest-retrieval-and-applicability-check-repair.md)
-- **Next:** Day 56 — Week 8 Cumulative Design and Inspection Checkpoint
+- **Next:** [Day 56 — Week 8 Cumulative Design and Inspection Checkpoint](day-56-week-8-cumulative-design-and-inspection-checkpoint.md)
 
 This module remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
