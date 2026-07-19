@@ -9,42 +9,43 @@ updated_on: 2026-07-19
 ## Current state
 
 - **Completed:** Days 1–84; all scheduled content-development blocks are drafted.
-- **Current increment:** Quality-improvement pass 81 completed for Day 81 — Staged Inspection, Verification and Fault-Reasoning Mock Assessment.
-- **Quality-improvement passes:** 81 of 84 complete.
-- **Next increment:** Quality-improvement pass — Day 82, Rest and Evidence-Led Error-Log Consolidation.
+- **Current increment:** Quality-improvement pass 82 completed for Day 82 — Rest and Evidence-Led Error-Log Consolidation.
+- **Quality-improvement passes:** 82 of 84 complete.
+- **Next increment:** Quality-improvement pass — Day 83, Full Integrated Mock Assessment.
 - **Working branch:** `automation/12-week-learning-plan`
 - **Pull-request model:** Draft PR #7 is stacked on `automation/4-week-learning-plan` while draft PR #5 remains open and unmerged.
 - **Technical-review boundary:** Automated content remains `review-required` and is never `technically-reviewed` without qualified review against current authorised sources.
 
 ## Increment log
 
-### Quality-improvement pass 81 — Day 81
+### Quality-improvement pass 82 — Day 82
 
-- Reworked the staged inspection, verification and fault-reasoning mock into ten observable capabilities covering boundary control, evidence separation, applicability, competing hypotheses, discriminating evidence, first-unsupported-transition control, correction-objective limits, two-change reopening, evidence ownership and independent review states.
-- Defined installation, equipment, circuit, source-state, operating-state, time, evidence, authority and requested-decision boundaries.
-- Expanded E-V-I-D-E-N-C-E into an evidence-controlled workflow with identity, provenance, currency, scope, applicability, evidence conditions, hypothesis predictions, contradiction handling and escalation.
-- Added two explained Mermaid diagrams: the complete evidence-to-conclusion workflow and the first-unsupported-transition dependency chain.
-- Strengthened the fictional workshop extract-system dossier with conflicting circuit identities, an outdated schedule, vague witness evidence, incomplete provenance, historical-record contamination, source-state ambiguity and a deliberately missing exact acceptance criterion.
-- Required twelve submission artefacts, at least three materially different hypotheses and complete dependency reopening after two sequential material changes.
-- Replaced the aggregate 0–2 rubric with independent `secure`, `developing`, `unsupported` and `stop-required` criterion states.
-- Added non-compensatory blockers that cannot be offset by stronger timing, formatting or unrelated performance.
-- Added a second original accessible black-and-white SVG with a concise instructional caption while retaining reciprocal Day 80/Day 81/Day 82 navigation.
-- Tracker state after this increment: 81 of 84 quality-improvement passes complete; next is Day 82.
+- Preserved Day 82 as a recovery-only block and added no new electrical theory, technical value, practical procedure or official assessment rule.
+- Reworked the objectives into eight observable capabilities covering readiness classification, closed-note retrieval, error-mechanism classification, root-versus-symptom tracing, consequence-based triage, evidence ownership, changed-context transfer and bounded Day 83 readiness.
+- Expanded R-E-S-T-O-R-E into an evidence-controlled recovery workflow with readiness gates, untouched evidence preservation, first-unsupported-transition handling, evidence owners, recheck triggers and explicit exit rules.
+- Defined six evidence conditions and kept correctness, confidence and evidence quality separate.
+- Added two explained Mermaid diagrams: the complete recovery workflow and the upstream dependency model.
+- Added a second original accessible black-and-white SVG showing root-error repair before downstream symptoms.
+- Replaced the simple readiness checklist with independent `secure`, `developing`, `unsupported` and `stop-required` states and non-compensatory blockers.
+- Added normal, reduced-load and rest-required entry states with 30-minute and 15-minute educational recovery ceilings.
+- Required no more than three root-mechanism repairs, changed-context checks, evidence owners and recheck triggers.
+- Retained reciprocal Day 81/Day 82/Day 83 module and knowledge-note navigation.
+- Tracker state after this increment: 82 of 84 quality-improvement passes complete; next is Day 83.
 
 ## Files changed
 
-- `docs/learning-plans/12-week/modules/day-81-staged-inspection-verification-and-fault-reasoning-mock-assessment.md`
-- `docs/knowledge-base/12-Week Day 81 - Staged Inspection, Verification and Fault-Reasoning Mock Assessment.md`
-- `docs/assets/learning/12-week/staged-inspection-verification-and-fault-reasoning-mock-assessment/reopen-after-two-changes.svg`
+- `docs/learning-plans/12-week/modules/day-82-rest-and-evidence-led-error-log-consolidation.md`
+- `docs/knowledge-base/12-Week Day 82 - Rest and Evidence-Led Error-Log Consolidation.md`
+- `docs/assets/learning/12-week/rest-and-evidence-led-error-log-consolidation/root-error-before-symptoms.svg`
 - `docs/learning-plans/12-week/MASTER_PLAN.md`
 - `docs/learning-plans/12-week/AUTOMATION_STATUS.md`
 
 ## Review flags
 
-- Day 81 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
-- Exact assessment conditions, permitted materials, timing rules, inspection duties, verification methods, diagnostic procedures, test sequences, instrument requirements, values, acceptance criteria, correction permissions, re-verification requirements, role permissions and official expectations require current authorised sources and qualified review.
-- `secure`, `developing`, `unsupported` and `stop-required` are educational review states, not official assessment grades, competency decisions, technical findings, approvals or legal conclusions.
-- Learner-selected timings and stage durations are educational controls only unless current authorised instructions explicitly adopt them.
+- Day 82 remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
+- Exact technical corrections, source requirements, procedures, values, acceptance criteria, role permissions and official assessment expectations require current authorised sources and qualified review.
+- `secure`, `developing`, `unsupported` and `stop-required` are educational readiness states, not official assessment grades, competency decisions, technical findings, approvals or legal conclusions.
+- The 30-minute and 15-minute session ceilings are learner-selected recovery controls, not official timing rules.
 - No official clause, value, acceptance criterion, test sequence, instrument instruction, pass mark, standards table, copied figure, systematic clause wording, practical procedure, root-cause declaration, successful-correction claim, competency claim or compliance conclusion was added.
 - The module authorises no site access, opening, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation, commissioning, acceptance, certification, verification or field fault finding.
 
@@ -53,20 +54,20 @@ updated_on: 2026-07-19
 - Confirmed YAML metadata and the exact eight required section headings.
 - Checked that introduced terms are defined and objectives are observable, content-specific and assessment-focused.
 - Reviewed both Mermaid diagrams for coherent nodes, labels and edges and confirmed each is explained nearby.
-- Confirmed both SVGs are original black-and-white line art with white backgrounds, descriptive alternative text and concise instructional captions.
-- Checked direct master-plan links and reciprocal Day 80/Day 81/Day 82 module and knowledge-note navigation.
-- Checked boundary definitions, evidence conditions, hypothesis predictions, discriminating evidence, independent criterion states, first-unsupported-transition handling, evidence ownership, recheck triggers, non-compensatory blockers and two-change propagation for internal consistency.
-- Checked for duplicate complete wording, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
+- Confirmed both SVG references use original black-and-white line art with white backgrounds, descriptive alternative text and concise instructional captions.
+- Checked direct master-plan links and reciprocal Day 81/Day 82/Day 83 module and knowledge-note navigation.
+- Checked readiness states, evidence conditions, first-unsupported-transition handling, evidence ownership, recheck triggers, non-compensatory blockers, fatigue limits and changed-context checks for internal consistency.
+- Checked for duplicate complete wording, unnecessary new theory, unsupported exactness, copied standards structure, official-assessment overreach, copyright risk and practical-authority overreach.
 
 ## Quality-improvement tracking
 
-- **Completed passes:** Days 1–81, recorded individually as direct module links in `MASTER_PLAN.md`.
-- **Next pass:** Day 82 — Rest and Evidence-Led Error-Log Consolidation.
-- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–81 to be selected again.
+- **Completed passes:** Days 1–82, recorded individually as direct module links in `MASTER_PLAN.md`.
+- **Next pass:** Day 83 — Full Integrated Mock Assessment.
+- Persistent `review-required` and `reference_check_required` flags do not cause Days 1–82 to be selected again.
 
 ## Commit behaviour
 
-This increment was written through the connected GitHub contents API. The connector creates one commit per changed file, so the requested single atomic multi-file commit could not be achieved in this run; branch content and tracker state remain coherent.
+This increment was written through the connected GitHub contents API. The connector created one commit per changed file, so the requested single atomic multi-file commit could not be achieved; branch content and tracker state were updated coherently.
 
 ## Run rules
 
