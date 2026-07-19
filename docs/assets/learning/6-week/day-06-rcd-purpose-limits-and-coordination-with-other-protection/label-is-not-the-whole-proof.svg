@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">An RCD label is not the whole proof</title>
+  <desc id="desc">A stick-figure learner holds an RCD label while separate evidence cards for current paths, device data, earthing and overcurrent protection lead to a bounded conclusion.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="190" r="27"/>
+    <path d="M105 217V310 M105 250L180 220 M105 255L50 280 M105 310L70 385 M105 310L145 385"/>
+    <rect x="180" y="165" width="150" height="90" rx="8"/>
+    <path d="M205 195H305 M205 220H285"/>
+    <rect x="420" y="40" width="180" height="65" rx="8"/>
+    <rect x="420" y="130" width="180" height="65" rx="8"/>
+    <rect x="420" y="220" width="180" height="65" rx="8"/>
+    <rect x="420" y="310" width="180" height="65" rx="8"/>
+    <path d="M330 210L420 72 M330 210L420 162 M330 210L420 252 M330 210L420 342"/>
+    <rect x="705" y="150" width="205" height="125" rx="10"/>
+    <path d="M600 72L705 180 M600 162L705 205 M600 252L705 225 M600 342L705 250"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="255" y="200" font-size="22" font-weight="700">RCD LABEL</text>
+    <text x="255" y="231" font-size="18">one observation</text>
+    <text x="510" y="80" font-size="20" font-weight="700">CURRENT PATHS</text>
+    <text x="510" y="170" font-size="20" font-weight="700">DEVICE DATA</text>
+    <text x="510" y="260" font-size="20" font-weight="700">EARTHING</text>
+    <text x="510" y="350" font-size="20" font-weight="700">OVERCURRENT</text>
+    <text x="807" y="195" font-size="21" font-weight="700">BOUNDED</text>
+    <text x="807" y="225" font-size="21" font-weight="700">CONCLUSION</text>
+    <text x="480" y="420" font-size="27" font-weight="700">The label names a function. The evidence defines the conclusion.</text>
+  </g>
+</svg>

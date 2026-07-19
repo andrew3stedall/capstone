@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">An ordered set of values is not a coordination proof</title>
+  <desc id="desc">A black-and-white stick-figure learner holds three ascending number cards while four evidence cards labelled device, conductor, installation and downstream checks block an approval stamp.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="115" r="32"/>
+    <path d="M120 147v120M120 185l-58 48M120 185l75 26M120 267l-44 86M120 267l48 86"/>
+    <rect x="220" y="105" width="120" height="82" rx="9"/>
+    <rect x="365" y="85" width="120" height="102" rx="9"/>
+    <rect x="510" y="65" width="120" height="122" rx="9"/>
+    <path d="M340 146h25M485 136h25"/>
+    <rect x="230" y="260" width="150" height="75" rx="9"/>
+    <rect x="400" y="260" width="150" height="75" rx="9"/>
+    <rect x="570" y="260" width="150" height="75" rx="9"/>
+    <rect x="740" y="260" width="170" height="75" rx="9"/>
+    <path d="M305 260V205M475 260V205M645 260V205M825 260V205" stroke-dasharray="11 11"/>
+    <circle cx="825" cy="125" r="58"/>
+    <path d="M790 90l70 70M860 90l-70 70"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="280" y="155" font-size="26">VALUE 1</text>
+    <text x="425" y="145" font-size="26">VALUE 2</text>
+    <text x="570" y="135" font-size="26">VALUE 3</text>
+    <text x="305" y="305" font-size="20">DEVICE</text>
+    <text x="475" y="305" font-size="20">CONDUCTOR</text>
+    <text x="645" y="305" font-size="20">INSTALLATION</text>
+    <text x="825" y="294" font-size="18">DOWNSTREAM</text>
+    <text x="825" y="318" font-size="18">CHECKS</text>
+    <text x="825" y="205" font-size="19">NOT APPROVED</text>
+    <text x="480" y="420" font-size="28" font-weight="700">ORDER SUPPORTS A QUESTION. EVIDENCE SUPPORTS A CONCLUSION.</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A route needs condition and control proof</title>
+  <desc id="desc">A black-and-white stick figure reviews four route segments. Each segment connects to a separate evidence card and control card, showing that one cable or conduit label cannot prove suitability for all route conditions.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="90" cy="190" r="28"/>
+    <path d="M90 218v108M90 250l-45 40M90 250l80 8M90 326l-35 64M90 326l42 64"/>
+    <path d="M190 210h570"/>
+    <rect x="190" y="175" width="130" height="70" rx="8"/>
+    <rect x="335" y="175" width="130" height="70" rx="8"/>
+    <rect x="480" y="175" width="130" height="70" rx="8"/>
+    <rect x="625" y="175" width="135" height="70" rx="8"/>
+    <path d="M255 175V90M400 175V90M545 175V90M692 175V90"/>
+    <path d="M255 245v95M400 245v95M545 245v95M692 245v95"/>
+    <rect x="195" y="42" width="120" height="48" rx="7"/>
+    <rect x="340" y="42" width="120" height="48" rx="7"/>
+    <rect x="485" y="42" width="120" height="48" rx="7"/>
+    <rect x="632" y="42" width="120" height="48" rx="7"/>
+    <rect x="195" y="340" width="120" height="48" rx="7"/>
+    <rect x="340" y="340" width="120" height="48" rx="7"/>
+    <rect x="485" y="340" width="120" height="48" rx="7"/>
+    <rect x="632" y="340" width="120" height="48" rx="7"/>
+    <path d="M790 175l55-50M790 245l55 50"/>
+    <circle cx="860" cy="110" r="24"/>
+    <path d="M852 104q8-12 16 0q0 9-8 13v7"/>
+    <circle cx="860" cy="310" r="24"/>
+    <path d="M852 304q8-12 16 0q0 9-8 13v7"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="28" font-size="28" font-weight="700">PROVE EACH CONDITION AND MATCHED CONTROL</text>
+    <text x="255" y="70" font-size="17" font-weight="700">EVIDENCE</text>
+    <text x="400" y="70" font-size="17" font-weight="700">EVIDENCE</text>
+    <text x="545" y="70" font-size="17" font-weight="700">EVIDENCE</text>
+    <text x="692" y="70" font-size="17" font-weight="700">EVIDENCE</text>
+    <text x="255" y="218" font-size="17" font-weight="700">CEILING</text>
+    <text x="400" y="218" font-size="17" font-weight="700">EXTERNAL</text>
+    <text x="545" y="218" font-size="17" font-weight="700">WORKSHOP</text>
+    <text x="692" y="218" font-size="17" font-weight="700">ENTRY</text>
+    <text x="255" y="370" font-size="17" font-weight="700">CONTROL</text>
+    <text x="400" y="370" font-size="17" font-weight="700">CONTROL</text>
+    <text x="545" y="370" font-size="17" font-weight="700">CONTROL</text>
+    <text x="692" y="370" font-size="17" font-weight="700">CONTROL</text>
+    <text x="480" y="430" font-size="21">One product name cannot replace segment evidence, applicability and transition checks.</text>
+  </g>
+</svg>

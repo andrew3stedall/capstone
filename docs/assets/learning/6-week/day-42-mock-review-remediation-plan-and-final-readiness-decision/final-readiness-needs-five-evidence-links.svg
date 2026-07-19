@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Final readiness needs five linked evidence checks</title>
+  <desc id="desc">A black-and-white stick figure reviews five linked cards labelled cause, retrieval, transfer, boundary and reviewer before reaching a bounded readiness decision. A score bubble below is crossed out as a shortcut.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="320" r="24"/>
+    <path d="M70 344v82M70 367l-30 30M70 367l44 0M70 426l-26 52M70 426l35 52"/>
+    <rect x="132" y="98" width="132" height="126" rx="12"/>
+    <rect x="286" y="98" width="132" height="126" rx="12"/>
+    <rect x="440" y="98" width="132" height="126" rx="12"/>
+    <rect x="594" y="98" width="132" height="126" rx="12"/>
+    <rect x="748" y="98" width="132" height="126" rx="12"/>
+    <path d="M264 161h22M418 161h22M572 161h22M726 161h22"/>
+    <path d="M274 149l12 12-12 12M428 149l12 12-12 12M582 149l12 12-12 12M736 149l12 12-12 12"/>
+    <path d="M814 224v72"/>
+    <rect x="665" y="296" width="260" height="112" rx="12"/>
+    <ellipse cx="382" cy="374" rx="126" ry="60"/>
+    <path d="M508 374h157" stroke-dasharray="14 10"/>
+    <path d="M526 362l-18 12 18 12"/>
+    <path d="M339 348l86 52M425 348l-86 52"/>
+    <path d="M793 328v48M769 352h48"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="30" font-weight="700">FINAL READINESS NEEDS FIVE LINKED CHECKS</text>
+    <text x="198" y="137" font-size="19" font-weight="700">CAUSE</text>
+    <text x="198" y="172" font-size="15">earliest weak</text><text x="198" y="195" font-size="15">dependency</text>
+    <text x="352" y="137" font-size="19" font-weight="700">RETRIEVAL</text>
+    <text x="352" y="172" font-size="15">without answer</text><text x="352" y="195" font-size="15">or prompt</text>
+    <text x="506" y="137" font-size="19" font-weight="700">TRANSFER</text>
+    <text x="506" y="172" font-size="15">materially changed</text><text x="506" y="195" font-size="15">scenario</text>
+    <text x="660" y="137" font-size="19" font-weight="700">BOUNDARY</text>
+    <text x="660" y="172" font-size="15">claim and safety</text><text x="660" y="195" font-size="15">limits</text>
+    <text x="814" y="137" font-size="19" font-weight="700">REVIEWER</text>
+    <text x="814" y="172" font-size="15">unresolved items</text><text x="814" y="195" font-size="15">escalate</text>
+    <text x="795" y="333" font-size="19" font-weight="700">BOUNDED READINESS</text>
+    <text x="795" y="366" font-size="15">next supervised stage,</text><text x="795" y="389" font-size="15">limits and reopening trigger</text>
+    <text x="382" y="357" font-size="19" font-weight="700">MOCK SCORE</text>
+    <text x="382" y="395" font-size="15">cannot bypass missing evidence</text>
+    <text x="480" y="508" font-size="18">A critical safety, evidence or authority error overrides the numerical subtotal.</text>
+  </g>
+</svg>

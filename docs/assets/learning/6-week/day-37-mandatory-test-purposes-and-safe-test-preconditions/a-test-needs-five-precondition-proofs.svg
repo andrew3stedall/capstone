@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">A proposed test needs five precondition proofs</title>
+  <desc id="desc">A black-and-white stick figure stands before a closed test gate. Five linked cards labelled purpose, boundary, sources, method authority and equipment evidence lead to the gate. One missing card sends the decision to a stop and escalate sign.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="280" r="24"/>
+    <path d="M70 304v92M70 333l-35 30M70 333l48 8M70 396l-28 58M70 396l38 58"/>
+    <rect x="140" y="85" width="130" height="145" rx="12"/>
+    <rect x="300" y="85" width="130" height="145" rx="12"/>
+    <rect x="460" y="85" width="130" height="145" rx="12"/>
+    <rect x="620" y="85" width="130" height="145" rx="12"/>
+    <rect x="780" y="85" width="140" height="145" rx="12"/>
+    <path d="M270 158h30M430 158h30M590 158h30M750 158h30"/>
+    <path d="M285 146l15 12-15 12M445 146l15 12-15 12M605 146l15 12-15 12M765 146l15 12-15 12"/>
+    <path d="M850 230v72"/>
+    <rect x="700" y="302" width="245" height="105" rx="12"/>
+    <path d="M700 355H555v90H390" stroke-dasharray="14 10"/>
+    <path d="M407 433l-17 12 17 12"/>
+    <polygon points="275,410 345,410 370,445 345,480 275,480 250,445"/>
+    <path d="M287 428l46 34M333 428l-46 34"/>
+    <path d="M825 327v54M795 354h60"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="43" font-size="29" font-weight="700">A TEST NEEDS FIVE PRECONDITION PROOFS</text>
+    <text x="205" y="132" font-size="18" font-weight="700">PURPOSE</text>
+    <text x="205" y="168" font-size="15">precise evidence</text><text x="205" y="191" font-size="15">question</text>
+    <text x="365" y="132" font-size="18" font-weight="700">BOUNDARY</text>
+    <text x="365" y="168" font-size="15">scope, circuit,</text><text x="365" y="191" font-size="15">interfaces, exclusions</text>
+    <text x="525" y="132" font-size="18" font-weight="700">SOURCES</text>
+    <text x="525" y="168" font-size="15">normal, alternate,</text><text x="525" y="191" font-size="15">stored, restored</text>
+    <text x="685" y="126" font-size="18" font-weight="700">METHOD</text><text x="685" y="150" font-size="18" font-weight="700">AUTHORITY</text>
+    <text x="685" y="184" font-size="15">current reference,</text><text x="685" y="207" font-size="15">competence, permission</text>
+    <text x="850" y="126" font-size="18" font-weight="700">EQUIPMENT</text><text x="850" y="150" font-size="18" font-weight="700">EVIDENCE</text>
+    <text x="850" y="184" font-size="15">suitability, status,</text><text x="850" y="207" font-size="15">condition, rating</text>
+    <text x="822" y="342" font-size="19" font-weight="700">AUTHORISED METHOD GATE</text>
+    <text x="822" y="377" font-size="15">selection only after every</text><text x="822" y="399" font-size="15">required link is supported</text>
+    <text x="310" y="451" font-size="17" font-weight="700">STOP / ESCALATE</text>
+    <text x="480" y="515" font-size="18">A missing or changed link reopens the affected evidence; it does not permit improvisation.</text>
+  </g>
+</svg>

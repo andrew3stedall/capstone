@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A wet-area boundary needs five evidence links</title>
+  <desc id="desc">A black-and-white stick figure links five cards labelled source, datum, boundary, equipment and protection before writing a bounded conclusion.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="205" r="26"/>
+    <path d="M70 231v98M70 256l-35 35M70 256l55 5M70 329l-28 58M70 329l36 58"/>
+    <rect x="135" y="120" width="130" height="140" rx="12"/>
+    <rect x="285" y="120" width="130" height="140" rx="12"/>
+    <rect x="435" y="120" width="130" height="140" rx="12"/>
+    <rect x="585" y="120" width="130" height="140" rx="12"/>
+    <rect x="735" y="120" width="130" height="140" rx="12"/>
+    <path d="M265 190h20M415 190h20M565 190h20M715 190h20"/>
+    <path d="M273 178l12 12-12 12M423 178l12 12-12 12M573 178l12 12-12 12M723 178l12 12-12 12"/>
+    <path d="M172 175c18-30 38-30 56 0-18 25-38 25-56 0z"/>
+    <path d="M350 150v76M325 188h50"/>
+    <path d="M470 220V160h60v60M470 190h60"/>
+    <rect x="620" y="153" width="60" height="73" rx="8"/>
+    <path d="M635 178h30M635 200h22"/>
+    <path d="M770 215v-55M800 215v-55M830 215v-55M758 215h84"/>
+    <path d="M865 190h45M898 178l12 12-12 12"/>
+    <rect x="825" y="300" width="120" height="70" rx="10"/>
+    <path d="M845 325h80M845 347h58"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="30" font-weight="700">A BOUNDARY NEEDS FIVE EVIDENCE LINKS</text>
+    <text x="200" y="300" font-size="18" font-weight="700">SOURCE</text>
+    <text x="350" y="300" font-size="18" font-weight="700">DATUM</text>
+    <text x="500" y="300" font-size="18" font-weight="700">BOUNDARY</text>
+    <text x="650" y="300" font-size="18" font-weight="700">EQUIPMENT</text>
+    <text x="800" y="300" font-size="18" font-weight="700">PROTECTION</text>
+    <text x="480" y="425" font-size="21">A missing or changed link reopens the conclusion.</text>
+  </g>
+</svg>

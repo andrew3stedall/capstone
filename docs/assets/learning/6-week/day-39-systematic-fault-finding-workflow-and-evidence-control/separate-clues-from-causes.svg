@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Separate clues from causes</title>
+  <desc id="desc">A black-and-white stick figure sorts cards labelled symptom, observation and hypothesis into separate boxes before placing a verified cause card in a final locked box.</desc>
+  <rect width="960" height="520" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="120" r="32"/>
+    <path d="M120 152v105M120 185l-48 55M120 185l56 42M120 257l-42 82M120 257l48 82"/>
+    <rect x="230" y="85" width="170" height="120"/>
+    <rect x="430" y="85" width="170" height="120"/>
+    <rect x="630" y="85" width="170" height="120"/>
+    <rect x="660" y="310" width="210" height="135"/>
+    <path d="M715 310v-28c0-42 100-42 100 0v28"/>
+    <path d="M295 245h105M495 245h105M695 245h105"/>
+    <path d="M790 245v45"/>
+    <path d="M760 290l30 20 30-20"/>
+    <rect x="170" y="215" width="130" height="65"/>
+    <path d="M176 227l-44-18"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="315" y="140" font-size="28" font-weight="700">SYMPTOM</text>
+    <text x="515" y="140" font-size="28" font-weight="700">OBSERVATION</text>
+    <text x="715" y="140" font-size="28" font-weight="700">HYPOTHESIS</text>
+    <text x="765" y="370" font-size="26" font-weight="700">VERIFIED CAUSE</text>
+    <text x="765" y="406" font-size="20">only after valid evidence</text>
+    <text x="235" y="253" font-size="21" font-weight="700">SORT FIRST</text>
+    <text x="480" y="485" font-size="24" font-weight="700">Do not turn a clue into a cause.</text>
+  </g>
+</svg>

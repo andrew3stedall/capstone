@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">A label is not a proven earthing role</title>
+  <desc id="desc">A black-and-white stick figure compares a conductor label with three evidence cards for identity, role and applicability. An arrow to current-path reasoning is blocked until all three cards are supported.</desc>
+  <rect width="960" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="170" r="32"/>
+    <path d="M110 202v105M110 235l-58 44M110 235l74 14M110 307l-42 82M110 307l48 82"/>
+    <rect x="225" y="105" width="165" height="95" rx="12"/>
+    <rect x="430" y="105" width="165" height="95" rx="12"/>
+    <rect x="635" y="105" width="165" height="95" rx="12"/>
+    <path d="M184 249c35-54 64-76 90-91"/>
+    <path d="M390 152h40M595 152h40"/>
+    <rect x="350" y="275" width="260" height="85" rx="12"/>
+    <path d="M512 200v75"/>
+    <path d="M480 360v48"/>
+    <path d="M445 385h70"/>
+    <path d="M445 385l22-18M445 385l22 18"/>
+    <path d="M515 385l-22-18M515 385l-22 18"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="307" y="143" font-size="23" font-weight="700">IDENTITY</text>
+    <text x="307" y="174" font-size="18">what is it?</text>
+    <text x="512" y="143" font-size="23" font-weight="700">ROLE</text>
+    <text x="512" y="174" font-size="18">what does it do?</text>
+    <text x="717" y="143" font-size="23" font-weight="700">APPLICABILITY</text>
+    <text x="717" y="174" font-size="18">does it fit here?</text>
+    <text x="480" y="310" font-size="23" font-weight="700">PATH REASONING</text>
+    <text x="480" y="340" font-size="18">only after all three are supported</text>
+    <text x="480" y="462" font-size="28" font-weight="700">A familiar label is a clue, not a complete conclusion.</text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">A designated relationship is not a normal-current shortcut</title>
+  <desc id="desc">A stick-figure learner traces a solid active-to-load-to-neutral loop while a dotted protective-earthing branch is marked as context rather than a normal-current return path.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="205" r="28"/>
+    <path d="M105 233V320 M105 260L190 220 M105 270L55 310 M105 320L70 390 M105 320L145 390"/>
+    <rect x="260" y="120" width="150" height="90" rx="8"/>
+    <rect x="540" y="120" width="150" height="90" rx="8"/>
+    <rect x="400" y="290" width="150" height="80" rx="8"/>
+    <path d="M410 150H540"/>
+    <path d="M690 180C760 180 760 70 610 70C460 70 460 70 335 120"/>
+    <path d="M615 210V290" stroke-dasharray="12 12"/>
+    <path d="M550 330H690" stroke-dasharray="12 12"/>
+    <path d="M675 315L705 330L675 345"/>
+    <path d="M520 55L545 70L520 85"/>
+    <path d="M515 140L540 150L515 160"/>
+    <path d="M245 105L260 120L245 135"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="335" y="173" font-size="24" font-weight="700">LOAD</text>
+    <text x="615" y="173" font-size="24" font-weight="700">SOURCE</text>
+    <text x="475" y="337" font-size="22" font-weight="700">PROTECTIVE</text>
+    <text x="475" y="362" font-size="22" font-weight="700">ARRANGEMENT</text>
+    <text x="475" y="45" font-size="21" font-weight="700">SOLID LOOP: ACTIVE OUT, NEUTRAL BACK</text>
+    <text x="780" y="325" font-size="20" font-weight="700">CONTEXT, NOT</text>
+    <text x="780" y="350" font-size="20" font-weight="700">NORMAL RETURN</text>
+    <text x="480" y="420" font-size="27" font-weight="700">Trace the loop. Do not invent a shortcut.</text>
+  </g>
+</svg>

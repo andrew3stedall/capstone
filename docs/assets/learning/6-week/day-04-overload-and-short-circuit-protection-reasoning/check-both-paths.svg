@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Check both protection paths</title>
+  <desc id="desc">A black-and-white stick figure stands between two paper paths. The left path shows a load, a clock and a warming conductor for overload reasoning. The right path shows an unintended connection and a shield for short-circuit interruption. Both paths lead to an evidence gate labelled verify data.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="118" r="31"/>
+    <path d="M120 149v130M120 184l-61 52M120 184l72 38M120 279l-46 92M120 279l51 92"/>
+    <path d="M190 222h80"/>
+    <path d="M255 207l20 15-20 15"/>
+    <rect x="305" y="90" width="210" height="270" rx="16"/>
+    <rect x="575" y="90" width="210" height="270" rx="16"/>
+    <path d="M345 170h130M345 230h130"/>
+    <circle cx="410" cy="292" r="34"/>
+    <path d="M410 270v24l17 12"/>
+    <path d="M365 150c25-28 65-28 90 0"/>
+    <path d="M635 165h90M680 130v70"/>
+    <path d="M620 245l55-55M675 245l-55-55"/>
+    <path d="M710 265c34 0 58 20 58 52-25 28-58 39-58 39s-33-11-58-39c0-32 24-52 58-52z"/>
+    <path d="M515 225h60" stroke-dasharray="12 12"/>
+    <path d="M785 225h70"/>
+    <path d="M840 210l20 15-20 15"/>
+    <rect x="825" y="280" width="105" height="105" rx="12"/>
+    <path d="M845 330h65M877 300v60"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="32" font-weight="700">CHECK BOTH PROTECTION PATHS</text>
+    <text x="410" y="118" font-size="24" font-weight="700">OVERLOAD</text>
+    <text x="410" y="390" font-size="20">load • time • conductor</text>
+    <text x="680" y="118" font-size="24" font-weight="700">SHORT CIRCUIT</text>
+    <text x="680" y="390" font-size="20">fault current • interruption</text>
+    <text x="877" y="415" font-size="20">VERIFY DATA</text>
+    <text x="480" y="488" font-size="25">A current rating alone does not complete both checks.</text>
+  </g>
+</svg>

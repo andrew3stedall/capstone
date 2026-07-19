@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">An inspection finding needs linked evidence</title>
+  <desc id="desc">A black-and-white stick figure connects cards labelled observation, dependency, interaction and boundary before writing a bounded finding.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="78" cy="195" r="27"/>
+    <path d="M78 222v105M78 250l-38 38M78 250l55 8M78 327l-30 62M78 327l38 62"/>
+    <rect x="155" y="115" width="145" height="145" rx="12"/>
+    <rect x="330" y="115" width="145" height="145" rx="12"/>
+    <rect x="505" y="115" width="145" height="145" rx="12"/>
+    <rect x="680" y="115" width="145" height="145" rx="12"/>
+    <path d="M300 188h30M475 188h30M650 188h30"/>
+    <path d="M315 175l15 13-15 13M490 175l15 13-15 13M665 175l15 13-15 13"/>
+    <circle cx="227" cy="175" r="22"/>
+    <path d="M212 175l10 10 22-25"/>
+    <path d="M365 160h75M365 195h75M365 230h52"/>
+    <path d="M540 160h75M540 195h75M540 230h75"/>
+    <path d="M715 160h75M715 195h75M715 230h50"/>
+    <path d="M825 188h65"/>
+    <path d="M875 175l15 13-15 13"/>
+    <rect x="840" y="285" width="100" height="80" rx="10"/>
+    <path d="M860 310h60M860 335h45"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="30" font-weight="700">A FINDING NEEDS LINKED EVIDENCE</text>
+    <text x="227" y="300" font-size="19" font-weight="700">OBSERVATION</text>
+    <text x="402" y="300" font-size="19" font-weight="700">DEPENDENCY</text>
+    <text x="577" y="300" font-size="19" font-weight="700">INTERACTION</text>
+    <text x="752" y="300" font-size="19" font-weight="700">BOUNDARY</text>
+    <text x="480" y="425" font-size="21">Missing or conflicting links make the conclusion unresolved.</text>
+  </g>
+</svg>

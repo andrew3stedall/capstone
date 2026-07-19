@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">A source conclusion needs five evidence links</title>
+  <desc id="desc">A black-and-white stick figure follows five connected boxes labelled inventory, operating state, path, boundary and transfer test before reaching a bounded conclusion. An unresolved path points to a stop sign.</desc>
+  <rect width="960" height="520" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="62" cy="245" r="24"/>
+    <path d="M62 269v92M62 292l-31 30M62 292l42 9M62 361l-27 58M62 361l38 58"/>
+    <rect x="120" y="125" width="140" height="155" rx="12"/>
+    <rect x="290" y="125" width="140" height="155" rx="12"/>
+    <rect x="460" y="125" width="140" height="155" rx="12"/>
+    <rect x="630" y="125" width="140" height="155" rx="12"/>
+    <rect x="800" y="125" width="130" height="155" rx="12"/>
+    <path d="M260 202h30M430 202h30M600 202h30M770 202h30"/>
+    <path d="M277 190l13 12-13 12M447 190l13 12-13 12M617 190l13 12-13 12M787 190l13 12-13 12"/>
+    <path d="M865 280v60"/>
+    <rect x="760" y="340" width="205" height="80" rx="10"/>
+    <path d="M520 280v80h-85" stroke-dasharray="14 10"/>
+    <polygon points="370,335 430,335 450,365 430,395 370,395 350,365"/>
+    <path d="M385 352l30 26M415 352l-30 26"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="29" font-weight="700">A SOURCE CONCLUSION NEEDS FIVE EVIDENCE LINKS</text>
+    <text x="190" y="165" font-size="19" font-weight="700">INVENTORY</text>
+    <text x="190" y="198" font-size="15">normal, alternate,</text><text x="190" y="222" font-size="15">auxiliary, stored</text>
+    <text x="360" y="165" font-size="19" font-weight="700">STATE</text>
+    <text x="360" y="198" font-size="15">normal, transfer,</text><text x="360" y="222" font-size="15">fault, restoration</text>
+    <text x="530" y="165" font-size="19" font-weight="700">PATH</text>
+    <text x="530" y="198" font-size="15">how can this</text><text x="530" y="222" font-size="15">section energise?</text>
+    <text x="700" y="165" font-size="19" font-weight="700">BOUNDARY</text>
+    <text x="700" y="198" font-size="15">which task and</text><text x="700" y="222" font-size="15">which conductors?</text>
+    <text x="865" y="165" font-size="19" font-weight="700">TRANSFER</text>
+    <text x="865" y="193" font-size="19" font-weight="700">TEST</text>
+    <text x="865" y="225" font-size="15">changed state</text>
+    <text x="862" y="373" font-size="18" font-weight="700">BOUNDED</text><text x="862" y="398" font-size="18" font-weight="700">CONCLUSION</text>
+    <text x="400" y="372" font-size="17" font-weight="700">STOP</text>
+    <text x="480" y="470" font-size="19">If any material source-state path is unresolved, the boundary remains unresolved.</text>
+  </g>
+</svg>

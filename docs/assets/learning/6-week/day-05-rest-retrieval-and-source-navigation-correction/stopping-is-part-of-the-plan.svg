@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Stopping at the recovery boundary is part of the plan</title>
+  <desc id="desc">A black-and-white stick figure closes a study folder beside a clock at thirty minutes and writes one carry-forward item on a card. The caption says a recorded stop protects tomorrow's judgement.</desc>
+  <rect width="960" height="520" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="165" cy="155" r="34"/>
+    <path d="M165 189v115M165 224l-70 55M165 225l95 35M165 304l-52 90M165 304l55 90"/>
+    <rect x="285" y="215" width="250" height="120" rx="12"/>
+    <path d="M305 235l95 50 115-50M400 285v35"/>
+    <circle cx="690" cy="180" r="82"/>
+    <path d="M690 180l0-52M690 180l42 30"/>
+    <path d="M690 88v20M690 252v20M598 180h20M762 180h20"/>
+    <rect x="600" y="315" width="255" height="95" rx="10"/>
+    <path d="M625 345h205M625 375h150"/>
+    <path d="M520 370c42 4 58 3 80-8"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="410" y="270" font-size="24" font-weight="700">CLOSE THE SESSION</text>
+    <text x="690" y="188" font-size="26" font-weight="700">30</text>
+    <text x="728" y="348" font-size="21" font-weight="700">ONE CARRY-FORWARD</text>
+    <text x="728" y="380" font-size="18">item, source or support</text>
+    <text x="480" y="462" font-size="29" font-weight="700">A recorded stop protects tomorrow’s judgement.</text>
+  </g>
+</svg>
