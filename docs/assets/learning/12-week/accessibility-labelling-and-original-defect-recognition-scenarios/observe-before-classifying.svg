@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Observe before classifying a defect candidate</title>
+  <desc id="desc">A stick figure writes observations in one column and conclusions in another, with a large arrow showing that evidence and source checks must come between them.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="100" cy="95" r="27"/><path d="M100 122v92m0-55-48 35m48-35 48 34m-48 21-35 75m35-75 38 75"/>
+    <rect x="220" y="55" width="190" height="270"/><rect x="585" y="55" width="170" height="270"/>
+    <path d="M410 190h145m-25-22 25 22-25 22"/>
+    <path d="M250 115h130M250 160h110M250 205h120M615 120h110M615 170h90"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="21" fill="black" text-anchor="middle">
+    <text x="315" y="90">Observed evidence</text><text x="485" y="145">Check source</text><text x="485" y="245">limit claims</text><text x="670" y="90">Conclusion</text>
+    <text x="400" y="375">Do not jump from a cropped view to a compliance verdict</text>
+  </g>
+</svg>

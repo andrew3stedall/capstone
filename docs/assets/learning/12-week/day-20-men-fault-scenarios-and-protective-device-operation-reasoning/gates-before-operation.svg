@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence gates before protective-device operation claims</title>
+  <desc id="desc">A black-and-white stick-figure learner walks through four labelled gates: classify fault, trace path, verify device evidence, and bound the conclusion. A protective device symbol sits beyond the final gate.</desc>
+  <rect width="900" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="95" cy="115" r="26"/>
+    <path d="M95 141v92m0-62-38 35m38-35 42 28m-42 34-30 70m30-70 36 70"/>
+    <path d="M170 80v210m0-210h120v210m-120-80h120"/>
+    <path d="M330 80v210m0-210h120v210m-120-80h120"/>
+    <path d="M490 80v210m0-210h120v210m-120-80h120"/>
+    <path d="M650 80v210m0-210h120v210m-120-80h120"/>
+    <rect x="800" y="135" width="60" height="80" rx="8"/>
+    <path d="M815 175h30m-15-15v30"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="230" y="330" font-size="21">Classify</text>
+    <text x="390" y="330" font-size="21">Trace path</text>
+    <text x="550" y="330" font-size="21">Check evidence</text>
+    <text x="710" y="330" font-size="21">Bound claim</text>
+    <text x="830" y="255" font-size="19">Device role</text>
+    <text x="450" y="385" font-size="24">No gate may be skipped.</text>
+  </g>
+</svg>

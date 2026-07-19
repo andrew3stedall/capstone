@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Review evidence before considering equipment</title>
+  <desc id="desc">A stick-figure learner reviews question, identity, condition, capability and limitation cards while a closed equipment case remains untouched.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="140" cy="175" r="28"/>
+    <path d="M140 203V305 M140 235L230 205 M140 245L78 280 M140 305L100 385 M140 305L180 385"/>
+    <rect x="260" y="65" width="360" height="245" rx="12"/>
+    <rect x="295" y="95" width="125" height="70" rx="6"/>
+    <rect x="455" y="95" width="125" height="70" rx="6"/>
+    <rect x="295" y="195" width="125" height="70" rx="6"/>
+    <rect x="455" y="195" width="125" height="70" rx="6"/>
+    <rect x="700" y="150" width="170" height="125" rx="12"/>
+    <path d="M735 150V125H835V150 M700 205H870"/>
+    <path d="M620 185H680"/>
+    <path d="M662 170L680 185L662 200"/>
+    <path d="M680 185L650 330"/>
+    <path d="M628 330H710"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="358" y="123" font-size="18" font-weight="700">QUESTION</text>
+    <text x="358" y="147" font-size="16">+ CONTEXT</text>
+    <text x="518" y="123" font-size="18" font-weight="700">IDENTITY</text>
+    <text x="518" y="147" font-size="16">+ CONDITION</text>
+    <text x="358" y="223" font-size="18" font-weight="700">CAPABILITY</text>
+    <text x="358" y="247" font-size="16">+ CURRENCY</text>
+    <text x="518" y="223" font-size="18" font-weight="700">LIMITS</text>
+    <text x="518" y="247" font-size="16">+ GAPS</text>
+    <text x="785" y="235" font-size="20" font-weight="700">CLOSED CASE</text>
+    <text x="480" y="415" font-size="27" font-weight="700">Evidence first. Availability is not suitability.</text>
+  </g>
+</svg>

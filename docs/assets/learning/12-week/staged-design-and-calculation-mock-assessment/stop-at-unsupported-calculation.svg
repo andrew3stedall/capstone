@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Stop at an unsupported calculation transition</title>
+  <desc id="desc">Black-and-white stick figure diagram. A learner points to a broken link between an evidenced input and a dependent calculation, writes missing evidence on a clipboard, and assigns an evidence owner before continuing.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="145" cy="145" r="35"/>
+    <path d="M145 180 L145 310 M145 220 L90 275 M145 220 L220 245 M145 310 L105 410 M145 310 L190 410"/>
+    <rect x="55" y="430" width="180" height="55"/>
+    <path d="M80 458 H210"/>
+    <rect x="315" y="105" width="180" height="85"/>
+    <path d="M405 190 V250"/>
+    <path d="M405 250 L370 285 M405 250 L440 285"/>
+    <rect x="585" y="105" width="220" height="85"/>
+    <path d="M495 147 H545"/>
+    <path d="M555 125 L575 147 L555 169"/>
+    <path d="M545 147 L565 125"/>
+    <path d="M545 147 L565 169"/>
+    <rect x="310" y="345" width="260" height="125"/>
+    <path d="M345 385 H535 M345 420 H500"/>
+    <path d="M500 250 L470 345"/>
+    <path d="M570 407 H675"/>
+    <rect x="675" y="360" width="220" height="95"/>
+    <path d="M705 395 H860 M705 425 H830"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">
+    <text x="145" y="520">learner</text>
+    <text x="405" y="85">evidenced input</text>
+    <text x="695" y="85">dependent calculation</text>
+    <text x="440" y="330">missing dependency</text>
+    <text x="785" y="490">owner + recheck trigger</text>
+  </g>
+</svg>

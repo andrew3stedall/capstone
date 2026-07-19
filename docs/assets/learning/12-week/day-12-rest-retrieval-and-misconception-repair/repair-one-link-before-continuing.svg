@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Repair one reasoning link before continuing</title>
+  <desc id="desc">A black-and-white instructional cartoon. A learner pauses at a desk, sorts cards labelled path, role, evidence and safety, and reconnects one broken link in a reasoning chain before moving toward the next lesson.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="70" y1="430" x2="890" y2="430"/>
+    <rect x="190" y="300" width="350" height="24"/>
+    <line x1="230" y1="324" x2="215" y2="430"/>
+    <line x1="500" y1="324" x2="515" y2="430"/>
+    <circle cx="135" cy="205" r="34"/>
+    <line x1="135" y1="239" x2="155" y2="330"/>
+    <line x1="155" y1="275" x2="225" y2="300"/>
+    <line x1="150" y1="330" x2="105" y2="420"/>
+    <line x1="150" y1="330" x2="190" y2="420"/>
+    <path d="M112 190 q23 -20 46 0"/>
+    <circle cx="124" cy="207" r="2" fill="black"/>
+    <circle cx="146" cy="207" r="2" fill="black"/>
+    <path d="M126 222 q10 7 20 0"/>
+    <rect x="220" y="240" width="80" height="48"/>
+    <rect x="315" y="240" width="80" height="48"/>
+    <rect x="410" y="240" width="80" height="48"/>
+    <path d="M570 265 h70"/>
+    <path d="M650 265 h55"/>
+    <path d="M715 265 h70"/>
+    <circle cx="635" cy="265" r="8" fill="white"/>
+    <circle cx="720" cy="265" r="8" fill="white"/>
+    <path d="M680 235 l18 18"/>
+    <path d="M698 235 l-18 18"/>
+    <path d="M660 205 q30 -35 60 0"/>
+    <path d="M706 196 l18 6 -10 16"/>
+    <rect x="780" y="205" width="105" height="120" rx="8"/>
+    <path d="M805 245 h55"/>
+    <path d="M805 275 h55"/>
+    <path d="M805 305 h35"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="260" y="270" font-size="18">PATH</text>
+    <text x="355" y="270" font-size="18">ROLE</text>
+    <text x="450" y="270" font-size="18">EVIDENCE</text>
+    <text x="835" y="230" font-size="18">NEXT</text>
+    <text x="835" y="350" font-size="18">LESSON</text>
+    <text x="480" y="490" font-size="27" font-weight="bold">Repair one reasoning link before continuing</text>
+    <text x="480" y="520" font-size="19">Retrieve → diagnose → repair → transfer → stop</text>
+  </g>
+</svg>

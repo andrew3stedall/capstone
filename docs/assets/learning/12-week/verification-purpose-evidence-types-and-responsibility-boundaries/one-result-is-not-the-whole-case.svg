@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">One result is not the whole verification case</title>
+  <desc id="desc">A stick-figure learner compares one large test-result card with separate design, inspection, responsibility and documentation cards needed for a bounded verification conclusion.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="100" cy="210" r="28"/>
+    <path d="M100 238V330 M100 270L180 240 M100 275L48 310 M100 330L65 390 M100 330L140 390"/>
+    <rect x="230" y="125" width="220" height="150" rx="8"/>
+    <rect x="535" y="55" width="155" height="65" rx="7"/>
+    <rect x="535" y="145" width="155" height="65" rx="7"/>
+    <rect x="535" y="235" width="155" height="65" rx="7"/>
+    <rect x="535" y="325" width="155" height="65" rx="7"/>
+    <rect x="760" y="150" width="165" height="120" rx="8"/>
+    <path d="M450 200L760 205 M690 87L790 150 M690 177L790 175 M690 267L790 240 M690 357L805 270"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="340" y="190" font-size="25" font-weight="700">ONE TEST</text>
+    <text x="340" y="225" font-size="25" font-weight="700">RESULT</text>
+    <text x="612" y="95" font-size="19" font-weight="700">DESIGN</text>
+    <text x="612" y="185" font-size="19" font-weight="700">INSPECTION</text>
+    <text x="612" y="275" font-size="19" font-weight="700">AUTHORITY</text>
+    <text x="612" y="365" font-size="19" font-weight="700">RECORDS</text>
+    <text x="842" y="195" font-size="21" font-weight="700">BOUNDED</text>
+    <text x="842" y="228" font-size="21" font-weight="700">DECISION</text>
+    <text x="480" y="420" font-size="27" font-weight="700">A result is evidence, not the entire verdict.</text>
+  </g>
+</svg>

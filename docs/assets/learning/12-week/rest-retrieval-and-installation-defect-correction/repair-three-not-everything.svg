@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Repair three high-value errors, not everything</title>
+  <desc id="desc">A stick-figure learner selects three marked cards from a large stack while a clock and stop sign reinforce time limits and fatigue control.</desc>
+  <rect width="960" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="165" r="28"/>
+    <path d="M150 193V285 M150 220L235 185 M150 230L95 260 M150 285L110 355 M150 285L195 355"/>
+    <rect x="285" y="90" width="360" height="235" rx="10"/>
+    <rect x="330" y="130" width="95" height="70" rx="5"/>
+    <rect x="445" y="130" width="95" height="70" rx="5"/>
+    <rect x="560" y="130" width="55" height="70" rx="5"/>
+    <path d="M350 165L372 188L405 145 M465 165L487 188L520 145 M575 165L588 180L605 150"/>
+    <path d="M330 230H600 M330 260H600 M330 290H540"/>
+    <circle cx="770" cy="135" r="62"/>
+    <path d="M770 135V95 M770 135L805 155"/>
+    <circle cx="790" cy="285" r="58"/>
+    <path d="M750 245L830 325 M830 245L750 325"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="465" y="65" font-size="24" font-weight="700">SELECT THREE REPAIRS</text>
+    <text x="770" y="220" font-size="20" font-weight="700">TIME BOX</text>
+    <text x="790" y="375" font-size="20" font-weight="700">STOP WHEN FATIGUED</text>
+    <text x="480" y="400" font-size="27" font-weight="700">Recovery is part of the plan, not a failure of it.</text>
+  </g>
+</svg>

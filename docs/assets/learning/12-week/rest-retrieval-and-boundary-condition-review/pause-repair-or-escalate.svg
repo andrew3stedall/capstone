@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pause, repair or escalate at a learning boundary</title>
+  <desc id="desc">A black-and-white stick figure stands before three signposts labelled rest, repair and supervised support, illustrating deliberate recovery choices.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="165" cy="115" r="28"/><path d="M165 143v92m0-56-45 35m45-35 48 34m-48 22-34 75m34-75 38 75"/>
+    <path d="M355 80v245"/>
+    <path d="M355 105h180l-28 35H355zM355 175h220l-28 35H355zM355 245h270l-28 35H355z"/>
+    <path d="M285 330h420"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" fill="black" text-anchor="middle">
+    <text x="440" y="132">Rest</text><text x="462" y="202">Repair one blocker</text><text x="490" y="272">Seek supervised support</text>
+    <text x="400" y="380">Stop conditions protect learning quality</text>
+  </g>
+</svg>

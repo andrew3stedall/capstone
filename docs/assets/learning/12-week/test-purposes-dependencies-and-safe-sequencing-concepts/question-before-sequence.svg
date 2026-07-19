@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Question before sequence</title>
+  <desc id="desc">A stick-figure learner arranges cards labelled question, scope, prerequisites and evidence before a closed instrument case.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="170" r="28"/><path d="M120 198V300 M120 225L205 245 M120 230L65 260 M120 300L80 380 M120 300L165 380"/>
+    <rect x="245" y="85" width="150" height="70" rx="8"/><rect x="420" y="85" width="150" height="70" rx="8"/><rect x="595" y="85" width="150" height="70" rx="8"/>
+    <path d="M320 155V235 M495 155V235 M670 155V235 M320 235H670"/>
+    <rect x="350" y="250" width="290" height="95" rx="10"/>
+    <rect x="735" y="255" width="170" height="105" rx="12"/><path d="M780 255V230H860V255 M760 305H880"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="320" y="127" font-size="21" font-weight="700">QUESTION</text><text x="495" y="127" font-size="21" font-weight="700">SCOPE</text><text x="670" y="127" font-size="20" font-weight="700">PREREQUISITES</text>
+    <text x="495" y="307" font-size="24" font-weight="700">EVIDENCE PLAN</text><text x="820" y="322" font-size="20" font-weight="700">INSTRUMENT</text>
+    <text x="480" y="420" font-size="27" font-weight="700">Plan the question before planning the sequence.</text>
+  </g>
+</svg>

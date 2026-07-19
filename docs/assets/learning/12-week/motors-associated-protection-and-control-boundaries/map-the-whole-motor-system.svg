@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Map the whole motor system</title>
+  <desc id="desc">A stick-figure learner traces separate power, control, protection and mechanical paths around a motor before judging a stop button.</desc>
+  <rect width="960" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="180" r="28"/>
+    <path d="M120 208V300 M120 235L210 190 M120 245L70 275 M120 300L80 365 M120 300L165 365"/>
+    <rect x="285" y="80" width="165" height="80" rx="8"/>
+    <rect x="285" y="220" width="165" height="80" rx="8"/>
+    <circle cx="610" cy="190" r="70"/>
+    <path d="M450 120H540 M450 260H540 M680 190H820"/>
+    <path d="M540 120L575 150 M540 260L575 230"/>
+    <rect x="820" y="145" width="100" height="90" rx="8"/>
+    <path d="M860 165V215 M840 190H880"/>
+    <circle cx="245" cy="190" r="24"/>
+    <path d="M229 174L261 206 M261 174L229 206"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="368" y="128" font-size="22" font-weight="700">POWER</text>
+    <text x="368" y="268" font-size="22" font-weight="700">CONTROL</text>
+    <text x="610" y="198" font-size="28" font-weight="700">MOTOR</text>
+    <text x="870" y="265" font-size="20" font-weight="700">DRIVEN LOAD</text>
+    <text x="245" y="235" font-size="18" font-weight="700">STOP</text>
+    <text x="480" y="398" font-size="27" font-weight="700">A stop button is one function, not the whole boundary.</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Classify before you connect</title>
+  <desc id="desc">Black-and-white instructional cartoon showing a learner comparing a metal equipment enclosure and a service pipe. A dashed boundary and question marks indicate that classification and evidence must come before a bonding conclusion.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="180" cy="145" r="42"/>
+    <path d="M180 187v126M180 225l-65 65M180 225l70 40M180 313l-45 105M180 313l55 105"/>
+    <path d="M132 134q48-45 96 0"/>
+    <rect x="355" y="170" width="180" height="180" rx="12"/>
+    <circle cx="445" cy="260" r="32"/>
+    <path d="M445 228v64M413 260h64"/>
+    <path d="M675 105v320M675 145h90M675 385h90"/>
+    <path d="M765 145v240"/>
+    <path d="M315 90q210-70 500 15v350q-260 55-500-5z" stroke-dasharray="14 14"/>
+    <path d="M250 265h65"/>
+    <path d="M555 260h90" stroke-dasharray="12 12"/>
+    <path d="M624 240l21 20-21 20"/>
+    <path d="M490 95q20-45 45 0q8 22-18 40v24"/>
+    <circle cx="517" cy="181" r="4" fill="black"/>
+    <path d="M760 80q20-45 45 0q8 22-18 40v24"/>
+    <circle cx="787" cy="166" r="4" fill="black"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="445" y="390" font-size="25">equipment enclosure</text>
+    <text x="720" y="460" font-size="25">service pipe</text>
+    <text x="480" y="500" font-size="30" font-weight="700">Classify the parts and the potential relationship before making a bonding claim.</text>
+  </g>
+</svg>

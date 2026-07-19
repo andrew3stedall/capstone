@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Separate the normal-current path from the fault-current path</title>
+  <desc id="desc">Black-and-white stick-figure learner stands between two simple circuit loops. The left loop is labelled normal current through active and neutral. The right loop is labelled conceptual fault current through an exposed part and protective-earthing relationship. A barrier labelled do not merge the paths separates them.</desc>
+  <rect width="900" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="450" cy="78" r="28"/>
+    <path d="M450 106v104m0-70-45 42m45-42 45 42m-45 28-35 75m35-75 35 75"/>
+    <rect x="75" y="90" width="250" height="190" rx="12"/>
+    <path d="M115 145h70m0 0 18-18m-18 18 18 18M285 225h-70m0 0-18-18m18 18-18 18"/>
+    <circle cx="200" cy="185" r="26"/>
+    <rect x="575" y="90" width="250" height="190" rx="12"/>
+    <path d="M615 145h70m0 0 18-18m-18 18 18 18M785 225h-70m0 0-18-18m18 18-18 18"/>
+    <rect x="680" y="165" width="50" height="45"/>
+    <path d="M705 210v35m-22 0h44"/>
+    <path d="M390 320h120" stroke-dasharray="12 10"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="black" text-anchor="middle">
+    <text x="200" y="45">Normal-current loop</text>
+    <text x="200" y="320">Active out · neutral return</text>
+    <text x="700" y="45">Conceptual fault loop</text>
+    <text x="700" y="320">Fault point · exposed part · PE relationship</text>
+    <text x="450" y="355">Do not merge the paths</text>
+    <text x="450" y="392" font-size="20">Draw first. Grade the evidence second.</text>
+  </g>
+</svg>

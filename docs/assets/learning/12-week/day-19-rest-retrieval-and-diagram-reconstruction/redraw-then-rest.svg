@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Redraw, repair and then rest</title>
+  <desc id="desc">A black-and-white stick-figure learner redraws two current-path loops on a board. A timer shows thirty minutes and a stop sign marks the session boundary. The caption says retrieve, repair one error, then stop.</desc>
+  <rect width="900" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="175" cy="95" r="28"/>
+    <path d="M175 123v105m0-72-45 42m45-42 52 28m-52 44-38 82m38-82 42 82"/>
+    <rect x="290" y="55" width="390" height="235" rx="10"/>
+    <path d="M345 115h110v70H345zM510 115h110v70H510z"/>
+    <path d="M365 135h70m0 0-16-14m16 14-16 14M600 165h-70m0 0 16-14m-16 14 16 14"/>
+    <circle cx="755" cy="105" r="55"/>
+    <path d="M755 105V72m0 33 26 18"/>
+    <path d="M730 220l50 0 25 43-25 43h-50l-25-43z"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="485" y="330" font-size="28">Retrieve → repair one error → redraw</text>
+    <text x="755" y="110" font-size="24">30</text>
+    <text x="755" y="268" font-size="26">STOP</text>
+    <text x="450" y="385" font-size="22">Recovery protects the next learning block.</text>
+  </g>
+</svg>

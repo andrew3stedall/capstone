@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+<title id="title">Trace symptom errors to one root weakness</title>
+<desc id="desc">A stick figure follows three error cards along arrows to one root card, then selects a single repair card and a fresh transfer check.</desc>
+<rect width="760" height="360" fill="white"/>
+<g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="70" cy="90" r="24"/><path d="M70 114v78M70 140l-34 26M70 140l36 22M70 192l-27 58M70 192l33 58"/>
+<rect x="145" y="45" width="130" height="58"/><rect x="145" y="130" width="130" height="58"/><rect x="145" y="215" width="130" height="58"/>
+<path d="M275 74h75M275 159h75M275 244h75"/><path d="M350 74v170"/>
+<rect x="350" y="125" width="145" height="70"/><path d="M495 160h70"/>
+<rect x="565" y="80" width="145" height="70"/><rect x="565" y="210" width="145" height="70"/><path d="M637 150v60"/>
+</g>
+<g font-family="Arial, sans-serif" font-size="16" fill="black" text-anchor="middle">
+<text x="210" y="79">Symptom error 1</text><text x="210" y="164">Symptom error 2</text><text x="210" y="249">Symptom error 3</text>
+<text x="422" y="154">Shared root</text><text x="422" y="177">weakness</text>
+<text x="637" y="109">One minimal</text><text x="637" y="132">repair</text>
+<text x="637" y="239">Fresh transfer</text><text x="637" y="262">check</text>
+<text x="380" y="330" font-size="21">Repair the root, not every visible symptom.</text>
+</g>
+</svg>

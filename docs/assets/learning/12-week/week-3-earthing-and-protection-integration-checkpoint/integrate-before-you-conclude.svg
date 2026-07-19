@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Integrate paths, roles and evidence before concluding</title>
+  <desc id="desc">A stick-figure learner compares a normal-current path, a fault-current path and an evidence ledger before writing a bounded conclusion.</desc>
+  <rect width="720" height="360" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="100" cy="90" r="28"/>
+    <path d="M100 118V220 M100 145L55 180 M100 145L150 175 M100 220L65 290 M100 220L140 290"/>
+    <rect x="205" y="55" width="455" height="235" rx="12"/>
+    <path d="M245 105H610 M245 165H610 M245 225H610 M390 75V270 M520 75V270"/>
+    <path d="M150 175L205 175"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="black">
+    <text x="245" y="95">Path</text><text x="405" y="95">Role</text><text x="535" y="95">Evidence</text>
+    <text x="205" y="330">Integrate paths, roles and evidence before concluding.</text>
+  </g>
+</svg>
