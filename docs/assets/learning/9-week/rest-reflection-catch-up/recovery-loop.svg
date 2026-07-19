@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" role="img" aria-labelledby="title desc">
+  <title id="title">Study recovery loop</title>
+  <desc id="desc">Four black-and-white panels show reviewing evidence, choosing one gap, completing a small action, and stopping to rest.</desc>
+  <rect width="800" height="360" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="25" y="45" width="160" height="230" rx="16"/><rect x="220" y="45" width="160" height="230" rx="16"/><rect x="415" y="45" width="160" height="230" rx="16"/><rect x="610" y="45" width="160" height="230" rx="16"/>
+    <circle cx="105" cy="105" r="22"/><path d="M105 127v62M75 152h60M105 189l-27 42M105 189l27 42"/><path d="M55 235h100M62 218h86M65 80h35"/>
+    <circle cx="300" cy="105" r="22"/><path d="M300 127v62M270 152h60M300 189l-27 42M300 189l27 42"/><path d="M255 225l35-35 25 22 35-45"/><circle cx="350" cy="167" r="7" fill="black"/>
+    <circle cx="495" cy="105" r="22"/><path d="M495 127v62M465 152h60M495 189l-27 42M495 189l27 42"/><path d="M445 228h100M455 210l20 18 35-42 25 24"/>
+    <circle cx="690" cy="105" r="22"/><path d="M690 127v62M660 152h60M690 189l-27 42M690 189l27 42"/><path d="M650 225h80M650 225q40 35 80 0"/>
+    <path d="M185 160h35M380 160h35M575 160h35"/>
+  </g>
+  <g font-family="sans-serif" font-size="22" text-anchor="middle" fill="black"><text x="105" y="315">Review</text><text x="300" y="315">Choose</text><text x="495" y="315">Act</text><text x="690" y="315">Stop</text></g>
+</svg>

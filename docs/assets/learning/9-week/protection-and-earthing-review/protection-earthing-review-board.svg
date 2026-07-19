@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+<title id="title">Protection and earthing review board</title><desc id="desc">A black-and-white flow diagram showing a protection claim checked against an abnormal condition, complete fault path, role evidence, coordination question, touch-risk review and bounded conclusion.</desc>
+<rect width="960" height="420" fill="white"/>
+<g fill="white" stroke="black" stroke-width="3" font-family="sans-serif" font-size="17" text-anchor="middle">
+<rect x="30" y="150" width="120" height="70" rx="12"/><text x="90" y="180" fill="black">Protection</text><text x="90" y="202" fill="black">claim</text>
+<rect x="180" y="150" width="130" height="70" rx="12"/><text x="245" y="180" fill="black">Abnormal</text><text x="245" y="202" fill="black">condition</text>
+<rect x="340" y="150" width="120" height="70" rx="12"/><text x="400" y="180" fill="black">Fault-loop</text><text x="400" y="202" fill="black">segments</text>
+<rect x="490" y="150" width="120" height="70" rx="12"/><text x="550" y="180" fill="black">Role</text><text x="550" y="202" fill="black">evidence</text>
+<rect x="640" y="90" width="130" height="70" rx="12"/><text x="705" y="120" fill="black">Coordination</text><text x="705" y="142" fill="black">question</text>
+<rect x="640" y="240" width="130" height="70" rx="12"/><text x="705" y="270" fill="black">Touch-risk</text><text x="705" y="292" fill="black">pathway</text>
+<rect x="810" y="150" width="120" height="70" rx="12"/><text x="870" y="180" fill="black">Bounded</text><text x="870" y="202" fill="black">summary</text>
+</g>
+<g stroke="black" stroke-width="3" fill="none" marker-end="url(#a)"><path d="M150 185H180"/><path d="M310 185H340"/><path d="M460 185H490"/><path d="M610 175L640 135"/><path d="M610 195L640 265"/><path d="M770 125L810 175"/><path d="M770 275L810 195"/></g>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6Z" fill="black"/></marker></defs>
+<text x="480" y="360" font-family="sans-serif" font-size="18" text-anchor="middle">Evidence supports a review question, not an automatic compliance conclusion.</text>
+</svg>

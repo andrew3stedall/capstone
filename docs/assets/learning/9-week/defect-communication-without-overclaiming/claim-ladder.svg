@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300" role="img" aria-labelledby="title desc">
+  <title id="title">Defect communication claim ladder</title>
+  <desc id="desc">A black-and-white staircase shows observation, bounded significance, verified classification and escalation, with a warning not to jump steps.</desc>
+  <rect width="820" height="300" fill="white"/>
+  <g fill="white" stroke="black" stroke-width="3" font-family="Arial, sans-serif" font-size="17">
+    <rect x="55" y="205" width="180" height="58" rx="8"/><text x="145" y="239" text-anchor="middle">Observed condition</text>
+    <rect x="235" y="145" width="190" height="58" rx="8"/><text x="330" y="170" text-anchor="middle">Bounded significance</text><text x="330" y="191" text-anchor="middle">and uncertainty</text>
+    <rect x="425" y="85" width="190" height="58" rx="8"/><text x="520" y="110" text-anchor="middle">Verified classification</text><text x="520" y="131" text-anchor="middle">when authorised</text>
+    <rect x="615" y="25" width="160" height="58" rx="8"/><text x="695" y="50" text-anchor="middle">Specific escalation</text><text x="695" y="71" text-anchor="middle">request</text>
+  </g>
+  <path d="M145 205V175H330V145M330 145V115H520V85M520 85V55H615" fill="none" stroke="black" stroke-width="4"/>
+  <path d="M95 65L310 180" stroke="black" stroke-width="3" stroke-dasharray="9 7"/>
+  <text x="105" y="48" font-family="Arial, sans-serif" font-size="16">Do not jump from one observation to an unsupported conclusion</text>
+</svg>

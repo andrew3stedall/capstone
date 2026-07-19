@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">Documentation traceability chain</title>
+  <desc id="desc">Six connected black-and-white boxes show scope, evidence identity, observation, interpretation, decision and follow-up, with limitations linked below.</desc>
+  <rect width="900" height="260" fill="white"/>
+  <g fill="white" stroke="black" stroke-width="3" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <rect x="20" y="55" width="120" height="58" rx="8"/><text x="80" y="89">Scope/state</text>
+    <rect x="165" y="55" width="130" height="58" rx="8"/><text x="230" y="80">Evidence ID</text><text x="230" y="100">and source</text>
+    <rect x="320" y="55" width="120" height="58" rx="8"/><text x="380" y="89">Observation</text>
+    <rect x="465" y="55" width="120" height="58" rx="8"/><text x="525" y="89">Interpretation</text>
+    <rect x="610" y="55" width="120" height="58" rx="8"/><text x="670" y="89">Decision</text>
+    <rect x="755" y="55" width="125" height="58" rx="8"/><text x="817" y="80">Follow-up</text><text x="817" y="100">audit trail</text>
+    <rect x="350" y="165" width="200" height="58" rx="8"/><text x="450" y="190">Limitations, assumptions</text><text x="450" y="210">and contradictions</text>
+  </g>
+  <g stroke="black" stroke-width="3" fill="none" marker-end="url(#a)">
+    <path d="M140 84H165"/><path d="M295 84H320"/><path d="M440 84H465"/><path d="M585 84H610"/><path d="M730 84H755"/><path d="M450 165L380 113"/><path d="M450 165L525 113"/>
+  </g>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="black"/></marker></defs>
+</svg>
