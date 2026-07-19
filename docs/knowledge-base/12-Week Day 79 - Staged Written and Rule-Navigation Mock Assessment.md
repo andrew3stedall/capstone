@@ -1,16 +1,40 @@
 ---
-title: 12-Week Day 79 - Staged Written and Rule-Navigation Mock Assessment
-tags: [capstone, 12-week-plan, written-mock, rule-navigation, evidence-trace]
+type: learning-note
+program: twelve-week
 status: review-required
-reference_check_required: true
+jurisdiction: AU-NZ
+source_status: original-summary
+reviewed_on: 2026-07-19
 safety_critical: true
+reference_check_required: true
+technical_reviewer: pending
 ---
 
 # 12-Week Day 79 - Staged Written and Rule-Navigation Mock Assessment
 
 ## Purpose
 
-Practise timed written reasoning and authorised-source navigation while preserving search trails, applicability checks, completion markers and an untouched submission.
+Practise evidence-controlled written reasoning and authorised-source navigation under staged release without implying an official assessment result or technical approval.
+
+## Learning module
+
+- [Day 79 — Staged Written and Rule-Navigation Mock Assessment](../learning-plans/12-week/modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
+
+## Core method
+
+Use **N-A-V-I-G-A-T-E**: Name the task and boundaries; Arrange facts, assumptions, contradictions and gaps; Verify source identity and applicability; Isolate claim-specific evidence; Generate a bounded response; Audit the first unsupported transition; Track owners, triggers, time and changes; Examine the untouched submission.
+
+## Core concepts
+
+- **Staged release:** sequential access to mock sections.
+- **Search trail:** a reproducible route from search terms to the relied-on source location.
+- **Claim-evidence link:** the evidence supporting one specific statement.
+- **First unsupported transition:** the earliest reasoning step without adequate applicable evidence.
+- **Evidence owner:** the authorised source, record or person responsible for closing a gap.
+- **Recheck trigger:** the evidence event permitting reconsideration.
+- **Material change:** new information that may invalidate an earlier answer.
+- **Non-compensatory blocker:** a critical condition that stronger unrelated performance cannot offset.
+- **Independent criterion states:** `secure`, `developing`, `unsupported` and `stop-required`; educational review labels rather than grades or competency decisions.
 
 ## Prerequisites
 
@@ -18,6 +42,7 @@ Practise timed written reasoning and authorised-source navigation while preservi
 - [[Authorised Source Map]]
 - [[Evidence Quality and Applicability]]
 - [[Rule Navigation]]
+- [[Claim-Evidence Reasoning]]
 
 ## Related concepts
 
@@ -25,27 +50,43 @@ Practise timed written reasoning and authorised-source navigation while preservi
 - [[Claim Boundaries]]
 - [[Copyright Boundaries]]
 - [[Time Management]]
-- [[Technical Review]]
+- [[Change Impact Analysis]]
+- [[Technical Review Workflow]]
+- [[Stop Conditions]]
 
 ## Practical applications
 
-- separating recall from claims requiring verification;
-- recording reproducible search trails;
-- checking source scope and applicability;
-- writing bounded evidence-linked responses;
-- preserving staged-release integrity.
+Create a written-mock evidence record that:
+
+- defines installation, circuit, source-state, time, evidence, authority and decision boundaries;
+- separates literal facts, derived facts, assumptions, contradictions and gaps;
+- records reproducible search trails;
+- checks source identity, currency, scope and applicability;
+- stops at the first unsupported transition;
+- assigns evidence owners and recheck triggers;
+- reopens affected dependencies after material change; and
+- preserves an untouched submission.
 
 ## Assessment relevance
 
-The original staged mock tests evidence control under time pressure without reproducing official questions or determining formal competency.
+The mock develops written reasoning and rule-navigation discipline. Each criterion is reviewed independently. A safety, authority, source-state, identity, fabricated-evidence or unsupported-exactness blocker cannot be averaged away.
 
-## References and review boundary
+The states `secure`, `developing`, `unsupported` and `stop-required` are not official grades, competency findings or technical approvals.
 
-Exact requirements require current authorised sources. Formal assessment conditions and interpretations remain subject to the relevant RTO and qualified reviewers.
+## Safety and references
+
+This note authorises no site access, opening, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation, commissioning, acceptance, certification, verification or field fault finding.
+
+Exact assessment conditions, technical requirements, procedures, values, acceptance criteria, role permissions and official expectations require current authorised sources and qualified review.
+
+- [Learning Design](../LEARNING_DESIGN.md)
+- [Content, Standards and Copyright Policy](../CONTENT_AND_COPYRIGHT.md)
+
+This note remains `review-required`, `reference_check_required`, safety-critical and not `technically-reviewed`.
 
 ## Navigation
 
-- **Module:** [Day 79 — Staged Written and Rule-Navigation Mock Assessment](../learning-plans/12-week/modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
-- **Previous:** [[12-Week Day 78 - Mock Preparation, Time Allocation and Stop-Rule Rehearsal]]
-- **Next:** [[12-Week Day 80 - Staged Design and Calculation Mock Assessment]]
-- **Program:** [[12-Week Capstone Learning Plan]]
+- Previous: [[12-Week Day 78 - Mock Preparation, Time Allocation and Stop-Rule Rehearsal]]
+- Next: [[12-Week Day 80 - Staged Design and Calculation Mock Assessment]]
+- Plan: [[Twelve-Week Capstone Learning Plan]]
+- Map of content: [[Mock Assessment and Readiness]]
