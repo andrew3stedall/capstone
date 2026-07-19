@@ -1,0 +1,30 @@
+name: Export learning plan
+
+on:
+  push:
+    branches:
+      - automation/6-week-learning-plan
+      - automation/12-week-learning-plan
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Export learning-plan files
+        uses: actions/upload-artifact@v4
+        with:
+          name: learning-plan-export-${{ github.ref_name }}
+          path: |
+            docs/learning-plans/6-week
+            docs/assets/learning/6-week
+            docs/knowledge-base/Six-Week Day *.md
+            docs/learning-plans/12-week
+            docs/assets/learning/12-week
+            docs/knowledge-base/12-Week Day *.md
+          if-no-files-found: error
