@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Label quantities and evidence before calculating</title>
+  <desc id="desc">A black-and-white stick figure sorts voltage, power and current cards into a calculation tray while an assumption card remains outside behind a stop line. The caption says label the evidence before pressing calculate.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="128" cy="164" r="34"/>
+    <path d="M128 198v112M128 230l-58 48M128 230l68 36M128 310l-42 88M128 310l54 88"/>
+    <rect x="288" y="112" width="132" height="88" rx="12"/>
+    <rect x="452" y="112" width="132" height="88" rx="12"/>
+    <rect x="616" y="112" width="132" height="88" rx="12"/>
+    <path d="M210 266c65-31 107-43 145-48"/>
+    <path d="M345 210l21 9-18 15"/>
+    <rect x="310" y="280" width="430" height="98" rx="16"/>
+    <path d="M365 280v98M525 280v98M650 280v98"/>
+    <path d="M790 100v290" stroke-dasharray="15 14"/>
+    <rect x="812" y="152" width="110" height="92" rx="12"/>
+    <path d="M802 264l118 118M920 264L802 382"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="354" y="149" font-size="25" font-weight="700">V</text>
+    <text x="354" y="178" font-size="18">20 volts</text>
+    <text x="518" y="149" font-size="25" font-weight="700">P</text>
+    <text x="518" y="178" font-size="18">100 watts</text>
+    <text x="682" y="149" font-size="25" font-weight="700">I</text>
+    <text x="682" y="178" font-size="18">unknown</text>
+    <text x="337" y="339" font-size="21" font-weight="700">SUPPLIED</text>
+    <text x="445" y="339" font-size="21" font-weight="700">UNITS</text>
+    <text x="588" y="339" font-size="21" font-weight="700">RELATION</text>
+    <text x="695" y="339" font-size="21" font-weight="700">CHECK</text>
+    <text x="867" y="190" font-size="19" font-weight="700">ASSUMED</text>
+    <text x="867" y="219" font-size="17">keep out</text>
+    <text x="480" y="455" font-size="30" font-weight="700">Label the evidence before pressing calculate.</text>
+    <text x="480" y="493" font-size="21">A precise display cannot repair a missing value or wrong relationship.</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Connect evidence before making a protection conclusion</title>
+  <desc id="desc">A stick-figure learner links cards labelled current condition, current path, protection function and evidence before reaching a bounded conclusion.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="120" r="34"/>
+    <path d="M120 154v118M120 190l-62 54M120 190l70 42M120 272l-48 92M120 272l58 92"/>
+    <rect x="245" y="72" width="150" height="88" rx="10"/>
+    <rect x="425" y="72" width="150" height="88" rx="10"/>
+    <rect x="605" y="72" width="150" height="88" rx="10"/>
+    <rect x="425" y="248" width="180" height="96" rx="10"/>
+    <path d="M395 116h30M575 116h30M680 160v60M680 220l-75 76"/>
+    <path d="M245 116h-50M195 116l18-15M195 116l18 15"/>
+    <path d="M605 296h105M710 296l-18-15M710 296l-18 15"/>
+    <rect x="735" y="248" width="170" height="96" rx="10"/>
+    <path d="M764 390h112"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="320" y="108" font-size="22">Current</text><text x="320" y="136" font-size="22">condition</text>
+    <text x="500" y="108" font-size="22">Current</text><text x="500" y="136" font-size="22">path</text>
+    <text x="680" y="108" font-size="22">Protection</text><text x="680" y="136" font-size="22">function</text>
+    <text x="515" y="286" font-size="22">Applicable</text><text x="515" y="316" font-size="22">evidence</text>
+    <text x="820" y="286" font-size="22">Bounded</text><text x="820" y="316" font-size="22">conclusion</text>
+    <text x="480" y="460" font-size="25">Connect each reasoning step before concluding.</text>
+  </g>
+</svg>

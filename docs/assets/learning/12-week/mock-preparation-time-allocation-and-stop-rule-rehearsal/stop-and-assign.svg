@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+<title id="title">Stop an unsupported claim and assign an evidence owner</title>
+<desc id="desc">A learner stands beside a chain of three evidence cards. The middle card has a stop symbol because its evidence is missing. An arrow points to a separate card labelled evidence owner and recheck trigger.</desc>
+<rect width="760" height="360" fill="white"/>
+<g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="82" cy="76" r="23"/>
+<path d="M82 99v86M82 132l-35 25M82 132l35 24M82 185l-28 58M82 185l31 58"/>
+<rect x="180" y="72" width="140" height="76"/>
+<rect x="360" y="72" width="140" height="76"/>
+<rect x="540" y="72" width="140" height="76"/>
+<path d="M320 110h40M500 110h40"/>
+<circle cx="430" cy="110" r="28"/>
+<path d="M412 92l36 36M448 92l-36 36"/>
+<path d="M430 148v56M430 204h120"/>
+<rect x="550" y="182" width="160" height="90"/>
+<path d="M630 272v32M630 304h-210"/>
+</g>
+<g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+<text x="250" y="103" font-size="16">Supported</text>
+<text x="250" y="126" font-size="16">instruction</text>
+<text x="430" y="168" font-size="15">STOP HERE</text>
+<text x="610" y="104" font-size="16">Dependent</text>
+<text x="610" y="127" font-size="16">claim blocked</text>
+<text x="630" y="214" font-size="16">Evidence owner</text>
+<text x="630" y="238" font-size="16">plus recheck trigger</text>
+<text x="380" y="334" font-size="21">Preserve what is supported; do not bridge the gap by guessing.</text>
+</g>
+</svg>

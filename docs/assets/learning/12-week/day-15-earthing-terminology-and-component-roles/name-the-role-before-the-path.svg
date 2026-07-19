@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Name the role before the path</title>
+  <desc id="desc">Black-and-white stick-figure learner studies four labelled cards for electrode, terminal, protective earthing conductor and bonding conductor, then separates identity, role and evidence before drawing a path.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="165" r="32"/>
+    <path d="M120 197v105M120 230l-48 48M120 230l50 34M120 302l-42 78M120 302l45 78"/>
+    <path d="M170 264l78-38"/>
+    <rect x="250" y="70" width="150" height="95" rx="8"/>
+    <rect x="425" y="70" width="150" height="95" rx="8"/>
+    <rect x="600" y="70" width="150" height="95" rx="8"/>
+    <rect x="775" y="70" width="150" height="95" rx="8"/>
+    <path d="M325 165v65M500 165v65M675 165v65M850 165v65"/>
+    <rect x="245" y="230" width="160" height="72" rx="8"/>
+    <rect x="420" y="230" width="160" height="72" rx="8"/>
+    <rect x="595" y="230" width="160" height="72" rx="8"/>
+    <rect x="770" y="230" width="160" height="72" rx="8"/>
+    <path d="M325 302v55M500 302v55M675 302v55M850 302v55"/>
+    <rect x="230" y="357" width="190" height="80" rx="8"/>
+    <rect x="435" y="357" width="190" height="80" rx="8"/>
+    <rect x="640" y="357" width="190" height="80" rx="8"/>
+    <path d="M420 397h15M625 397h15"/>
+    <path d="M870 390h45M893 367v46"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="35" font-size="28" font-weight="700">NAME THE ROLE BEFORE THE PATH</text>
+    <text x="325" y="112" font-size="20" font-weight="700">ELECTRODE</text>
+    <text x="500" y="112" font-size="20" font-weight="700">TERMINAL</text>
+    <text x="675" y="105" font-size="18" font-weight="700">PROTECTIVE</text>
+    <text x="675" y="130" font-size="18" font-weight="700">CONDUCTOR</text>
+    <text x="850" y="112" font-size="20" font-weight="700">BONDING</text>
+    <text x="325" y="273" font-size="19">What is it?</text>
+    <text x="500" y="273" font-size="19">What is its role?</text>
+    <text x="675" y="263" font-size="18">What connection</text>
+    <text x="675" y="285" font-size="18">is supported?</text>
+    <text x="850" y="263" font-size="18">What condition</text>
+    <text x="850" y="285" font-size="18">is verified?</text>
+    <text x="325" y="392" font-size="22" font-weight="700">IDENTITY</text>
+    <text x="325" y="419" font-size="17">label or description</text>
+    <text x="530" y="392" font-size="22" font-weight="700">ROLE</text>
+    <text x="530" y="419" font-size="17">intended function</text>
+    <text x="735" y="392" font-size="22" font-weight="700">EVIDENCE</text>
+    <text x="735" y="419" font-size="17">connection and condition</text>
+    <text x="480" y="492" font-size="22">A colour or symbol can suggest identity; it cannot prove endpoints, continuity or compliance.</text>
+  </g>
+</svg>

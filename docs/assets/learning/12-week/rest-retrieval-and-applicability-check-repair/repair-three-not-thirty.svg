@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Repair three reasoning gaps, not thirty</title>
+  <desc id="desc">A tired stick-figure learner closes a tall stack of notes and points to three marked error cards beside a timer, showing focused recovery and limited remediation.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="135" cy="210" r="28"/>
+    <path d="M135 238V325 M135 268L245 250 M135 275L80 315 M135 325L95 390 M135 325L175 390"/>
+    <rect x="320" y="90" width="170" height="240" rx="8"/>
+    <path d="M335 120H475 M335 160H475 M335 200H475 M335 240H475 M335 280H475"/>
+    <path d="M320 90L490 330"/>
+    <rect x="570" y="95" width="110" height="70" rx="8"/>
+    <rect x="570" y="190" width="110" height="70" rx="8"/>
+    <rect x="570" y="285" width="110" height="70" rx="8"/>
+    <circle cx="810" cy="220" r="70"/>
+    <path d="M810 220L810 170 M810 220L850 240"/>
+    <path d="M245 250L550 225"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="625" y="138" font-size="22" font-weight="700">1</text>
+    <text x="625" y="233" font-size="22" font-weight="700">2</text>
+    <text x="625" y="328" font-size="22" font-weight="700">3</text>
+    <text x="810" y="320" font-size="19" font-weight="700">TIME LIMIT</text>
+    <text x="480" y="420" font-size="27" font-weight="700">Repair three. Recover enough to transfer.</text>
+  </g>
+</svg>

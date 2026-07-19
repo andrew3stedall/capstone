@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Repair the root error before downstream symptoms</title>
+  <desc id="desc">Black-and-white stick figure traces one root error card through three dependent answer cards while a clock marks the review stop limit.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="105" r="28"/>
+    <path d="M110 133v92M110 160l-42 45M110 160l55 10M110 225l-35 70M110 225l42 70"/>
+    <rect x="200" y="70" width="145" height="86" rx="8"/>
+    <rect x="405" y="45" width="145" height="72" rx="8"/>
+    <rect x="405" y="150" width="145" height="72" rx="8"/>
+    <rect x="405" y="255" width="145" height="72" rx="8"/>
+    <path d="M345 113h60M345 113l28-18M345 113l28 18"/>
+    <path d="M345 113c35 0 28 73 60 73M345 113c35 0 28 178 60 178"/>
+    <path d="M435 70l85 25M520 70l-85 25M435 175l85 25M520 175l-85 25M435 280l85 25M520 280l-85 25"/>
+    <circle cx="685" cy="108" r="58"/>
+    <path d="M685 108V72M685 108l30 20"/>
+    <path d="M625 330h125"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="272" y="105" font-size="22" font-weight="bold">ROOT ERROR</text>
+    <text x="272" y="133" font-size="17">first unsupported step</text>
+    <text x="477" y="87" font-size="18">symptom answer</text>
+    <text x="477" y="192" font-size="18">symptom answer</text>
+    <text x="477" y="297" font-size="18">symptom answer</text>
+    <text x="685" y="190" font-size="18">stop limit</text>
+    <text x="687" y="359" font-size="20" font-weight="bold">Repair upstream, then reopen dependencies</text>
+  </g>
+</svg>

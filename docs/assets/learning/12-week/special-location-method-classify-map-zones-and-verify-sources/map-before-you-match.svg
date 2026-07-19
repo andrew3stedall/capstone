@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Map the exposure before matching a rule</title>
+  <desc id="desc">A stick-figure learner maps a water source, equipment position and access boundary before opening an authorised rule source.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="205" r="28"/><path d="M120 233V320 M120 265L205 235 M120 270L65 300 M120 320L85 390 M120 320L158 390"/>
+    <rect x="300" y="90" width="360" height="260" rx="10"/>
+    <circle cx="390" cy="165" r="34"/><path d="M390 199V245"/>
+    <path d="M360 275Q480 220 610 285" stroke-dasharray="12 10"/>
+    <rect x="540" y="135" width="70" height="70" rx="6"/>
+    <path d="M390 130V95 M375 112L390 95L405 112"/>
+    <rect x="710" y="120" width="180" height="190" rx="8"/>
+    <path d="M745 165H855 M745 205H855 M745 245H825"/>
+    <path d="M660 220H710"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="390" y="78" font-size="20" font-weight="700">EXPOSURE SOURCE</text>
+    <text x="485" y="330" font-size="20" font-weight="700">LEARNER MAP</text>
+    <text x="800" y="100" font-size="20" font-weight="700">AUTHORISED SOURCE</text>
+    <text x="480" y="420" font-size="27" font-weight="700">Map first. Match the rule second.</text>
+  </g>
+</svg>

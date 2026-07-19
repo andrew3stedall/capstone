@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Keep the evidence questions separate</title>
+  <desc id="desc">A stick-figure learner sorts three documents labelled insulation, polarity and connection integrity into separate folders before placing them beside a bounded conclusion sheet.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="150" r="42"/>
+    <path d="M150 192v120M150 225l-70 55M150 225l90 35M150 312l-55 100M150 312l65 100"/>
+    <rect x="300" y="120" width="170" height="130" rx="8"/>
+    <rect x="505" y="120" width="170" height="130" rx="8"/>
+    <rect x="710" y="120" width="170" height="130" rx="8"/>
+    <path d="M320 145h80l20 20h30v65H320zM525 145h80l20 20h30v65H525zM730 145h80l20 20h30v65H730z"/>
+    <rect x="420" y="330" width="300" height="135" rx="8"/>
+    <path d="M470 365h200M470 400h170M470 435h130"/>
+    <path d="M385 270v45h335v-45M552 315v15"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="385" y="195" font-size="24">INSULATION</text>
+    <text x="590" y="195" font-size="24">POLARITY</text>
+    <text x="795" y="182" font-size="21">CONNECTION</text>
+    <text x="795" y="210" font-size="21">INTEGRITY</text>
+    <text x="570" y="500" font-size="24">BOUNDED CONCLUSION</text>
+  </g>
+</svg>

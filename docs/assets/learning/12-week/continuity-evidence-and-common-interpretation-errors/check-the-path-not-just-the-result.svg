@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Check the path, not just the result</title>
+  <desc id="desc">A stick-figure learner compares a labelled intended conductor path with an unintended parallel path before accepting a continuity record.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="210" r="27"/>
+    <path d="M115 237V322 M115 268L190 235 M115 275L65 300 M115 322L78 385 M115 322L155 385"/>
+    <circle cx="212" cy="225" r="24"/>
+    <path d="M230 242L270 278"/>
+    <circle cx="355" cy="130" r="18"/>
+    <circle cx="760" cy="130" r="18"/>
+    <path d="M373 130H742"/>
+    <path d="M430 130V285 H690V130"/>
+    <path d="M355 130V330H760V130" stroke-dasharray="14 12"/>
+    <rect x="330" y="55" width="455" height="315" rx="10"/>
+    <path d="M500 90H615"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="557" y="95" font-size="21" font-weight="700">CONTINUITY RECORD</text>
+    <text x="557" y="120" font-size="16">Which path produced the evidence?</text>
+    <text x="555" y="175" font-size="19" font-weight="700">INTENDED PATH</text>
+    <text x="555" y="310" font-size="19" font-weight="700">PARALLEL PATH?</text>
+    <text x="555" y="350" font-size="16">Identity, endpoints, state and provenance matter.</text>
+    <text x="480" y="420" font-size="27" font-weight="700">A result is not a path map.</text>
+  </g>
+</svg>

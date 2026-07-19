@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Check the story around the result</title>
+  <desc id="desc">A stick-figure learner compares a result card with provenance, context, related evidence and contradiction cards before reaching a bounded conclusion.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="190" r="28"/>
+    <path d="M120 218V315 M120 250L225 205 M120 255L62 290 M120 315L82 390 M120 315L160 390"/>
+    <rect x="260" y="145" width="150" height="105" rx="8"/>
+    <rect x="500" y="55" width="150" height="75" rx="8"/>
+    <rect x="500" y="165" width="150" height="75" rx="8"/>
+    <rect x="500" y="275" width="150" height="75" rx="8"/>
+    <path d="M410 197H480 M480 197L500 92 M480 197L500 202 M480 197L500 312"/>
+    <rect x="740" y="145" width="150" height="105" rx="8"/>
+    <path d="M650 92L730 175 M650 202H730 M650 312L730 220"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="335" y="190" font-size="22" font-weight="700">RESULT</text>
+    <text x="335" y="220" font-size="17">recorded literally</text>
+    <text x="575" y="88" font-size="18" font-weight="700">PROVENANCE</text>
+    <text x="575" y="198" font-size="18" font-weight="700">CONTEXT</text>
+    <text x="575" y="308" font-size="18" font-weight="700">CONTRADICTIONS</text>
+    <text x="815" y="190" font-size="19" font-weight="700">BOUNDED</text>
+    <text x="815" y="220" font-size="19" font-weight="700">INTERPRETATION</text>
+    <text x="480" y="420" font-size="27" font-weight="700">A result needs a traceable story.</text>
+  </g>
+</svg>

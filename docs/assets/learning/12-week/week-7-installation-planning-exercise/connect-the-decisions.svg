@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Connect the installation decisions</title>
+  <desc id="desc">A stick-figure learner links route, environment, circuit, appliance and motor cards into one evidence-led plan, with arrows showing dependencies.</desc>
+  <rect width="960" height="420" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="175" r="28"/>
+    <path d="M110 203V295 M110 230L200 190 M110 240L60 270 M110 295L70 360 M110 295L155 360"/>
+    <rect x="260" y="55" width="150" height="65" rx="8"/>
+    <rect x="485" y="55" width="150" height="65" rx="8"/>
+    <rect x="710" y="55" width="150" height="65" rx="8"/>
+    <rect x="370" y="220" width="150" height="65" rx="8"/>
+    <rect x="600" y="220" width="150" height="65" rx="8"/>
+    <path d="M410 88H485 M635 88H710 M335 120L410 220 M560 120L500 220 M785 120L675 220 M520 252H600"/>
+    <rect x="420" y="325" width="330" height="55" rx="8"/>
+    <path d="M445 285V325 M675 285V325"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="335" y="96" font-size="21" font-weight="700">ROUTE</text>
+    <text x="560" y="96" font-size="21" font-weight="700">ENVIRONMENT</text>
+    <text x="785" y="96" font-size="21" font-weight="700">CIRCUIT</text>
+    <text x="445" y="260" font-size="21" font-weight="700">APPLIANCE</text>
+    <text x="675" y="260" font-size="21" font-weight="700">MOTOR</text>
+    <text x="585" y="360" font-size="23" font-weight="700">BOUNDED PLAN + EVIDENCE</text>
+    <text x="480" y="405" font-size="27" font-weight="700">One changed condition can move the whole plan.</text>
+  </g>
+</svg>

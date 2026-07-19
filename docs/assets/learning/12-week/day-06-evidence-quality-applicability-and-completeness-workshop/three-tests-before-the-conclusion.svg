@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Three evidence tests before the conclusion</title>
+  <desc id="desc">A black-and-white stick figure carries three blocks labelled quality, applicability and completeness toward a conclusion platform. A dashed shortcut from evidence to conclusion is crossed out. The caption says relevant is not the same as proven.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="125" cy="173" r="33"/>
+    <path d="M125 206v102M125 235l-55 47M125 235l64 22M125 308l-42 78M125 308l50 78"/>
+    <rect x="260" y="113" width="165" height="90" rx="12"/>
+    <rect x="438" y="113" width="165" height="90" rx="12"/>
+    <rect x="616" y="113" width="165" height="90" rx="12"/>
+    <path d="M189 257c30-30 49-52 71-92"/>
+    <path d="M425 158h13M603 158h13"/>
+    <path d="M781 158h45v171"/>
+    <path d="M798 306l28 26 28-26"/>
+    <rect x="715" y="333" width="222" height="80" rx="12"/>
+    <path d="M215 350L700 248" stroke-dasharray="14 14"/>
+    <path d="M445 268l76 76M521 268l-76 76"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="342" y="151" font-size="23" font-weight="700">QUALITY</text>
+    <text x="342" y="181" font-size="17">trustworthy?</text>
+    <text x="520" y="151" font-size="21" font-weight="700">APPLICABILITY</text>
+    <text x="520" y="181" font-size="17">this scenario?</text>
+    <text x="699" y="151" font-size="21" font-weight="700">COMPLETENESS</text>
+    <text x="699" y="181" font-size="17">enough evidence?</text>
+    <text x="826" y="367" font-size="24" font-weight="700">CONCLUSION</text>
+    <text x="826" y="397" font-size="17">bounded by evidence</text>
+    <text x="466" y="241" font-size="18" font-weight="700">SHORTCUT</text>
+    <text x="480" y="465" font-size="30" font-weight="700">“Relevant is not the same as proven.”</text>
+    <text x="480" y="500" font-size="20">Test the source, the conditions and the missing premises.</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="400" viewBox="0 0 840 400" role="img" aria-labelledby="title desc">
+  <title id="title">Separate evidence before concluding</title>
+  <desc id="desc">A stick-figure learner places observation cards, verification records and fault hypotheses into separate labelled columns before a bounded conclusion box.</desc>
+  <rect width="840" height="400" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="95" r="24"/><path d="M70 119v80M70 145l-35 28M70 145l45 18M70 199l-28 58M70 199l34 58"/>
+    <rect x="150" y="60" width="170" height="210"/><rect x="335" y="60" width="170" height="210"/><rect x="520" y="60" width="170" height="210"/>
+    <path d="M205 120h110M205 165h90M390 120h110M390 165h85M575 120h110M575 165h80"/>
+    <path d="M235 270v55h420v-55"/><rect x="315" y="315" width="260" height="55" rx="8"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="235" y="95" font-size="19" font-weight="700">OBSERVATIONS</text>
+    <text x="420" y="95" font-size="19" font-weight="700">RECORDS</text>
+    <text x="605" y="95" font-size="19" font-weight="700">HYPOTHESES</text>
+    <text x="445" y="350" font-size="19" font-weight="700">BOUNDED CONCLUSION</text>
+    <text x="420" y="392" font-size="23" font-weight="700">Separate first. Compare second. Conclude last.</text>
+  </g>
+</svg>

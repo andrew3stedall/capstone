@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" role="img" aria-labelledby="title desc">
+  <title id="title">Protect the review reserve</title>
+  <desc id="desc">A stick-figure learner divides a mock timeline into reading, response and protected review phases before pressing a start button.</desc>
+  <rect width="800" height="380" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="90" cy="90" r="25"/><path d="M90 115v85M90 145l-42 30M90 145l48 18M90 200l-30 60M90 200l35 60"/>
+    <rect x="190" y="85" width="520" height="90" rx="8"/>
+    <path d="M300 85v90M560 85v90"/>
+    <rect x="555" y="80" width="160" height="100" stroke-width="7"/>
+    <path d="M250 230h390"/><path d="M250 215v30M640 215v30"/>
+    <circle cx="690" cy="275" r="42"/><path d="M675 275h30"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="245" y="125" font-size="20">Read + map</text>
+    <text x="430" y="125" font-size="20">Respond</text>
+    <text x="635" y="120" font-size="19" font-weight="700">PROTECTED</text>
+    <text x="635" y="145" font-size="19" font-weight="700">REVIEW</text>
+    <text x="445" y="270" font-size="18">Allocate before starting</text>
+    <text x="400" y="350" font-size="23" font-weight="700">Review time is a requirement, not leftover time.</text>
+  </g>
+</svg>

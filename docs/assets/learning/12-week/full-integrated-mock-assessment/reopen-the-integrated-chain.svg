@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Reopen the integrated evidence chain</title>
+  <desc id="desc">A stick-figure learner stops at an unsupported link, assigns an evidence owner, then reopens downstream design, verification and fault-reasoning boxes after two new evidence cards arrive.</desc>
+  <rect width="900" height="430" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="75" cy="95" r="24"/>
+    <path d="M75 119v82M75 148l-35 28M75 148l38 22M75 201l-28 60M75 201l34 60"/>
+    <rect x="150" y="55" width="135" height="70"/>
+    <rect x="345" y="55" width="135" height="70"/>
+    <rect x="540" y="55" width="135" height="70"/>
+    <path d="M285 90h60M480 90h60"/>
+    <path d="M315 70l30 20-30 20"/>
+    <path d="M510 70l30 20-30 20"/>
+    <path d="M462 38l36 104M498 38l-36 104" stroke-width="7"/>
+    <rect x="710" y="45" width="150" height="90" stroke-width="6"/>
+    <path d="M675 90h35"/>
+    <rect x="180" y="250" width="145" height="70"/>
+    <rect x="390" y="250" width="145" height="70"/>
+    <rect x="600" y="250" width="145" height="70"/>
+    <path d="M325 285h65M535 285h65"/>
+    <path d="M360 265l30 20-30 20M570 265l30 20-30 20"/>
+    <path d="M785 135v70H252v45"/>
+    <path d="M770 205l15 20 15-20"/>
+    <rect x="365" y="355" width="170" height="50"/>
+    <path d="M462 320v35"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="217" y="83" font-size="18" font-weight="700">EVIDENCE</text>
+    <text x="217" y="108" font-size="17">identity + state</text>
+    <text x="412" y="83" font-size="18" font-weight="700">ASSUMPTION</text>
+    <text x="412" y="108" font-size="17">unsupported link</text>
+    <text x="607" y="83" font-size="18" font-weight="700">CONCLUSION</text>
+    <text x="607" y="108" font-size="17">must stop</text>
+    <text x="785" y="77" font-size="18" font-weight="700">OWNER +</text>
+    <text x="785" y="103" font-size="18" font-weight="700">RECHECK</text>
+    <text x="252" y="280" font-size="18" font-weight="700">DESIGN</text>
+    <text x="252" y="304" font-size="16">reopened</text>
+    <text x="462" y="280" font-size="18" font-weight="700">VERIFICATION</text>
+    <text x="462" y="304" font-size="16">reopened</text>
+    <text x="672" y="280" font-size="18" font-weight="700">FAULT REASONING</text>
+    <text x="672" y="304" font-size="16">reopened</text>
+    <text x="450" y="386" font-size="18" font-weight="700">NEW EVIDENCE × 2</text>
+    <text x="450" y="425" font-size="22" font-weight="700">Stop early. Assign ownership. Reopen every dependency.</text>
+  </g>
+</svg>
