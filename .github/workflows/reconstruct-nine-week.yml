@@ -1,0 +1,42 @@
+name: Reconstruct clean nine-week branch
+
+on:
+  push:
+    branches:
+      - automation/9-week-learning-plan
+
+permissions:
+  contents: write
+
+jobs:
+  reconstruct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild nine-week plan on current main
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          files=(
+            "docs/learning-plans/9-week"
+            "docs/assets/learning/9-week"
+            "docs/knowledge-base/9-week"
+          )
+
+          tar -cf /tmp/learning-plan.tar "${files[@]}"
+
+          git fetch origin main
+          git checkout --detach origin/main
+          git switch -C integration/9-week-learning-plan
+          tar -xf /tmp/learning-plan.tar
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/learning-plans/9-week docs/assets/learning/9-week docs/knowledge-base/9-week
+          git commit -m 'docs: integrate 9-week learning plan'
+          git push origin HEAD:refs/heads/integration/9-week-learning-plan
