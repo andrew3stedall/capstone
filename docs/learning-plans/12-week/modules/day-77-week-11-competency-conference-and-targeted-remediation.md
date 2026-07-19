@@ -6,7 +6,7 @@ level: capstone
 jurisdiction: AU-NZ
 source_status: original-summary
 content_status: review-required
-reviewed_on: 2026-07-16
+reviewed_on: 2026-07-19
 safety_critical: true
 reference_check_required: true
 technical_reviewer: pending
@@ -24,153 +24,249 @@ related_modules:
 
 By the end, the learner can:
 
-1. present the Day 76 attempt as evidence rather than defend it as a finished product;
-2. distinguish demonstrated capability, inconsistent capability and missing evidence;
-3. identify critical errors, dependency errors and lower-priority presentation errors;
-4. calibrate confidence against observable performance;
-5. select no more than three remediation targets;
-6. define a measurable repair task and transfer check for each target;
-7. preserve technical-review and authorised-source boundaries; and
-8. produce a Week 12 readiness decision with explicit conditions.
+1. preserve the untouched Day 76 attempt and identify the evidence boundary for the conference;
+2. classify criterion-level evidence as `secure`, `developing`, `unsupported` or `stop-required` without averaging away blockers;
+3. distinguish correctness, confidence and evidence quality;
+4. locate the first unsupported transition in a claim or dependency chain;
+5. separate root weaknesses from downstream symptom errors;
+6. select no more than three remediation targets using risk, dependency and transfer value;
+7. assign an evidence owner, recheck trigger and changed-context transfer check to each target;
+8. reopen affected conclusions after each material change; and
+9. record a bounded Week 12 readiness state without claiming competency or technical approval.
 
 ### Entry check
 
-Bring the untouched Day 76 submission, its rubric, time record, contradiction register, source placeholders and error log. Do not revise the attempt before the conference.
+Bring the untouched Day 76 submission, time record, artefact checklist, contradiction register, source placeholders and error log. Record whether each item is present, dated and attributable. Do not revise the attempt before classification. If the evidence set is incomplete, mark the affected criteria `unsupported`; do not infer hidden knowledge from discussion fluency.
 
 ## 2. Why it matters
 
-A timed attempt is useful only when its evidence is interpreted accurately. A conference prevents two common distortions: treating one strong answer as proof of broad readiness, or treating one poor section as proof that nothing was learned. The purpose is to convert performance evidence into a small, testable remediation plan.
+A timed attempt becomes useful only when its evidence is interpreted without hindsight. Conferences often fail in two opposite ways: a fluent learner talks around missing work, or one visible error dominates the whole judgement. Both distort the evidence. This block converts the Day 76 attempt into a small, testable remediation plan while preserving safety, authority and source boundaries.
 
-![A learner and reviewer sort evidence into demonstrated, inconsistent and missing categories before choosing three repairs](../../../assets/learning/12-week/week-11-competency-conference-and-targeted-remediation/sort-evidence-before-remediation.svg)
+![A learner and reviewer sort evidence before choosing bounded repairs](../../../assets/learning/12-week/week-11-competency-conference-and-targeted-remediation/sort-evidence-before-remediation.svg)
+
+*Caption: Sort the submitted evidence before discussing causes or choosing repairs; spoken explanation cannot silently replace missing artefacts.*
+
+![A reviewer traces one root weakness to several downstream errors before selecting a transfer check](../../../assets/learning/12-week/week-11-competency-conference-and-targeted-remediation/root-to-transfer-check.svg)
+
+*Caption: Repair the earliest unsupported dependency, then test the repair in a changed context instead of polishing each symptom separately.*
 
 ## 3. Core concepts and terminology
 
-- **Evidence conference:** a structured discussion that interprets submitted work against stated criteria.
-- **Demonstrated capability:** a skill shown clearly, independently and with traceable reasoning.
-- **Inconsistent capability:** a skill shown correctly in some places but omitted, contradicted or weakly applied elsewhere.
-- **Missing evidence:** a criterion for which the submission does not provide enough information to judge performance.
-- **Critical error:** an error that breaches a safety boundary, invents an exact requirement, exceeds authority or invalidates a major conclusion.
-- **Dependency error:** an upstream mistake that causes several later errors.
-- **Confidence calibration:** aligning self-rated certainty with the quality of observable evidence.
-- **Remediation target:** a defined weakness selected for focused repair.
-- **Transfer check:** a changed-context task used to show that the repair generalises beyond the original question.
-- **Conditional readiness:** progression permitted only when stated repair or review conditions are met.
+- **Evidence boundary:** the fixed set of submitted artefacts, timing records and source records available for this conference.
+- **Criterion:** one observable capability reviewed independently from other capabilities.
+- **Literal evidence:** what the submitted artefact actually states or shows, preserved before interpretation.
+- **Evidence provenance:** who created an item, when it was created, and the scenario or state to which it applies.
+- **Secure:** the criterion is demonstrated independently, consistently and with traceable evidence, with no unresolved blocker.
+- **Developing:** relevant capability is present but inconsistent, incomplete or dependent on prompts.
+- **Unsupported:** the evidence is absent, conflicting, stale, inapplicable or insufficient for the proposed conclusion.
+- **Stop-required:** a safety, authority, identity, source-state or fabricated-evidence issue blocks progression on the affected decision.
+- **Non-compensatory blocker:** a weakness that cannot be offset by stronger performance on unrelated criteria.
+- **Correctness:** whether a response is accurate within the evidence and source boundary.
+- **Confidence:** the learner’s stated certainty.
+- **Evidence quality:** the provenance, completeness, currency, applicability and consistency of supporting information.
+- **First unsupported transition:** the earliest step in a reasoning chain that is not adequately supported; dependent later claims remain blocked.
+- **Root weakness:** the earliest knowledge, evidence or process failure that creates multiple downstream errors.
+- **Symptom error:** a later visible error caused partly or wholly by an upstream weakness.
+- **Remediation target:** one bounded weakness selected for focused repair.
+- **Transfer check:** a changed-context task used to determine whether a repair generalises beyond the original prompt.
+- **Evidence owner:** the authorised person, source or record responsible for resolving an open evidence gap.
+- **Recheck trigger:** the specific new evidence or completed repair that permits reconsideration.
+- **Material change:** a change to identity, source, operating state, route, equipment, environment, evidence or authority that can alter earlier reasoning.
+- **Conditional readiness:** permission to enter the next educational block only under stated learning and review conditions; it is not qualified approval.
+
+Use six evidence conditions while classifying source material: **verified**, **supported but limited**, **conflicting**, **stale or superseded**, **not applicable**, and **missing**. These describe the evidence, not the learner’s worth or formal competence.
 
 ## 4. Rule-finding workflow
 
 Use **C-O-N-F-E-R**:
 
-1. **C — Collect** the original attempt, rubric, timing record and evidence artefacts.
-2. **O — Observe** what is actually present without inferring hidden knowledge.
-3. **N — Name** each criterion as demonstrated, inconsistent or missing.
-4. **F — Find** critical and dependency errors before cosmetic weaknesses.
-5. **E — Establish** up to three measurable remediation targets and transfer checks.
-6. **R — Record** the readiness decision, conditions, review flags and next action.
+1. **C — Capture boundaries:** freeze the evidence set and record installation, equipment, circuit, source, operating-state, time, evidence, authority and requested-decision boundaries.
+2. **O — Observe literally:** record what each artefact contains, its provenance and its applicable state before interpretation.
+3. **N — Name criterion states:** classify each criterion independently as `secure`, `developing`, `unsupported` or `stop-required`; record confidence and evidence quality separately.
+4. **F — Find the first unsupported transition:** trace dependencies upstream, distinguish root weaknesses from symptoms, and identify non-compensatory blockers.
+5. **E — Engineer bounded repairs:** select no more than three targets; assign the minimal repair, evidence owner, recheck trigger and changed-context transfer check.
+6. **R — Record and reopen:** document the readiness state and conditions, then reopen affected dependencies after every material change.
 
 ```mermaid
 flowchart TD
-  A[Original Day 76 evidence] --> B[Criterion-by-criterion observation]
-  B --> C{Evidence state}
-  C -->|Demonstrated| D[Preserve and retrieve later]
-  C -->|Inconsistent| E[Identify error mechanism]
-  C -->|Missing| F[Define evidence needed]
-  E --> G[Rank critical and dependency errors]
-  F --> G
-  G --> H[Choose maximum three repairs]
-  H --> I[Define transfer checks]
-  I --> J[Conditional Week 12 readiness decision]
+  A[Freeze untouched Day 76 evidence] --> B[Define nine conference boundaries]
+  B --> C[Record literal evidence and provenance]
+  C --> D{Criterion state}
+  D -->|Secure| E[Preserve for later retrieval]
+  D -->|Developing| F[Locate inconsistency or prompt dependence]
+  D -->|Unsupported| G[Name missing conflicting stale or inapplicable evidence]
+  D -->|Stop-required| H[Record blocker and halt affected decision]
+  F --> I[Trace root weakness and dependencies]
+  G --> I
+  I --> J[Choose maximum three repairs]
+  J --> K[Owner trigger and changed-context transfer check]
+  K --> L[Conditional Week 12 readiness record]
 ```
 
-The diagram shows an educational evidence-review process. It is not an official competency-assessment model.
+The diagram prevents a conference from jumping directly from a visible error to a study recommendation. Evidence is classified first; root dependencies and blockers then determine the smallest defensible repair set.
+
+```mermaid
+flowchart LR
+  A[Literal submitted fact] --> B[Supported interpretation]
+  B --> C{Transition supported?}
+  C -->|Yes| D[Bounded conclusion]
+  C -->|No| E[First unsupported transition]
+  E --> F[Block dependent claims]
+  F --> G[Assign evidence owner and recheck trigger]
+  G --> H[Reopen after new evidence or material change]
+```
+
+This model separates an incomplete claim chain from a wrong final answer. The conference repairs the earliest unsupported transition because later wording changes cannot restore a broken dependency.
 
 ## 5. Visual model or worked example
 
-### Fictional conference extract
+### Fictional conference dossier
 
-A learner completed most Day 76 artefacts but:
+The untouched Day 76 submission concerns a workshop ventilation system. The dossier contains:
 
-- used one exact technical value without an authorised source;
-- identified an alternate-supply contradiction but did not reopen affected conclusions;
-- produced a strong competing-hypothesis table; and
-- omitted the final limitations summary after exceeding the time gate.
+- a response that uses circuit label `F-12`, while a later schedule uses `EF-2`;
+- a strong three-hypothesis table linked to specific observations;
+- a result record dated before the fan was relocated;
+- an alternate-source note that applies to only one reported event;
+- a photograph without a confirmed date or viewpoint;
+- one exact technical value with no authorised source placeholder;
+- a five-minute time-gate note stating that the limitations summary was unfinished; and
+- a later message claiming that a control-module replacement “fixed everything,” without re-verification evidence.
 
-Classify the evidence:
+### Preserve literal evidence
 
-| Observation | Evidence state | Reason |
-|---|---|---|
-| Competing hypotheses are distinct and evidence-linked | Demonstrated | Independent and traceable across the submission |
-| Change-impact reasoning appears once but is not propagated | Inconsistent | The skill is present but not applied reliably |
-| Final limitations summary absent | Missing evidence | The required artefact is unavailable for judgement |
-| Exact unsourced value used | Critical error | It crosses the source and technical-review boundary |
+| Submitted item | Literal evidence | Evidence condition | Boundary consequence |
+|---|---|---|---|
+| Hypothesis table | Three distinct explanations and predicted observations | Verified for the submitted scenario | Diagnostic-structure criterion may be secure |
+| Circuit references | `F-12` and `EF-2` both appear | Conflicting | Circuit-dependent conclusions remain unsupported |
+| Historical result record | Predates relocation | Stale or superseded for current configuration | It cannot silently establish current state |
+| Alternate-source note | Covers one event only | Supported but limited | Conclusions must remain event-specific |
+| Undated photograph | Equipment visible; date and viewpoint unknown | Supported but limited | It cannot confirm current configuration alone |
+| Exact value | Number present without source | Missing source support | `stop-required` for any dependent compliance claim |
+| “Fixed everything” message | Assertion only | Unsupported | Successful correction cannot be claimed |
 
-Select three repairs only:
+### Trace the first unsupported transition
 
-1. replace unsupported exactness with a source placeholder and bounded statement;
-2. practise propagating one changed fact through every affected decision;
-3. rehearse a five-minute final limitations review under a short time limit.
+One claim chain reads:
 
-Each repair ends with a changed-context transfer check. Rewriting the original answer alone is not sufficient.
+> `F-12` identifies the fan circuit → the historical result belongs to the current relocated fan → the current arrangement is satisfactory.
+
+The first transition is unsupported because circuit identity is conflicting. The second transition is also unsupported because the record predates relocation. The final conclusion remains blocked regardless of how confidently it is written.
+
+### Select a maximum of three targets
+
+1. **Identity and applicability control**
+   - Root weakness: conflicting circuit identity was not resolved before dependent reasoning.
+   - Minimal repair: construct an identity-and-state boundary table from a new fictional dossier.
+   - Evidence owner: authorised current drawing or qualified reviewer.
+   - Recheck trigger: reconciled identifier and applicable configuration evidence.
+   - Transfer check: a different scenario with equipment renamed after a modification.
+
+2. **Source-bound exactness**
+   - Root weakness: an exact value was inserted without an authorised source.
+   - Minimal repair: replace unsupported exactness with a bounded placeholder and source-verification record.
+   - Evidence owner: current authorised source and qualified reviewer.
+   - Recheck trigger: source edition, topic location, applicability and reviewer confirmation recorded.
+   - Transfer check: a new question requiring the learner to stop rather than invent a limit.
+
+3. **Change propagation and completion control**
+   - Root weakness: relocation and later replacement did not reopen all affected evidence.
+   - Minimal repair: propagate two sequential material changes through identity, inspection, verification, diagnosis and documentation dependencies.
+   - Evidence owner: scenario change record.
+   - Recheck trigger: completed dependency map plus bounded final limitations summary.
+   - Transfer check: a new scenario with a source change followed by an equipment change.
+
+Do not add a fourth target for presentation polish. The missing summary is addressed within completion control; the other surface errors are downstream of the selected roots.
 
 ## 6. Practical application
 
-Run a **45–60 minute educational conference**:
+Run a **45–60 minute educational conference**. The duration is an original pacing control, not an official assessment condition.
 
-1. **10 minutes — learner evidence summary:** state what was attempted, unfinished and uncertain.
-2. **15 minutes — criterion review:** classify evidence without changing the submission.
-3. **10 minutes — error hierarchy:** identify critical, dependency and presentation errors.
-4. **10 minutes — remediation design:** define up to three repair tasks and transfer checks.
-5. **5–15 minutes — readiness record:** document progression conditions and the Day 78 focus.
+1. **Evidence freeze and boundary check — 5–10 minutes:** inventory submitted items and define the nine boundaries.
+2. **Literal criterion review — 15 minutes:** capture artefact evidence and provenance without editing or supplementing the attempt.
+3. **Dependency and blocker review — 10–15 minutes:** locate first unsupported transitions, root weaknesses and non-compensatory blockers.
+4. **Remediation design — 10–15 minutes:** select up to three targets with owners, triggers and transfer checks.
+5. **Readiness record — 5 minutes:** record independent criterion states, conditions and exactly one next learning block.
 
 ### Conference record
 
-For each target, record:
+For each criterion, record:
 
-- observed evidence;
-- error mechanism;
-- consequence;
+- observable submitted evidence;
+- evidence condition and provenance;
+- criterion state: `secure`, `developing`, `unsupported` or `stop-required`;
+- learner confidence and whether it is calibrated;
+- first unsupported transition, where present;
+- root weakness and affected dependencies;
+- non-compensatory blocker, where present; and
+- whether a material change requires reopening.
+
+For each selected remediation target, record:
+
+- target statement and priority reason;
 - minimal repair task;
-- authorised source or reviewer needed;
-- transfer check;
+- evidence owner;
+- recheck trigger;
+- changed-context transfer check;
 - completion evidence; and
-- deadline or next scheduled block.
+- next scheduled block.
 
-### Assessment rubric
+### Independent readiness criteria
 
-| Category | 0 | 1 | 2 |
-|---|---|---|---|
-| Evidence use | Claims ability without evidence | Refers generally to the attempt | Uses specific artefacts and criteria |
-| Classification | Pass/fail judgement only | Some distinctions made | Demonstrated, inconsistent and missing evidence separated |
-| Error hierarchy | Cosmetic issues dominate | Some prioritisation | Critical and dependency errors addressed first |
-| Remediation | Vague study intention | Repair task defined | Maximum three measurable repairs with transfer checks |
-| Confidence | Uncalibrated certainty | Partial reflection | Confidence matched to evidence quality |
-| Safety and review boundary | Competency or authority claimed | General caveat | Conditional readiness and review needs explicit |
+- **Secure:** evidence is independent, consistent, traceable and free of unresolved blockers.
+- **Developing:** the learner shows relevant capability, but application is inconsistent or prompt-dependent.
+- **Unsupported:** the available evidence cannot sustain the conclusion.
+- **Stop-required:** safety, authority, identity, source-state, fabricated evidence or technical-approval overreach blocks progression on the affected decision.
 
-A score is a learning indicator only. It is not a formal competency result or official pass mark.
+There is no aggregate score. Strong performance in hypothesis generation cannot compensate for an unresolved identity boundary, fabricated source support or unsafe authority claim.
+
+A bounded Week 12 record may state:
+
+- **ready for the next educational block**, with retrieval conditions;
+- **conditionally ready**, with named remediation and review conditions; or
+- **not ready for the next mock block**, with one bounded repair sequence.
+
+These are program-planning states only, not official pass, competency, licensing or technical-review decisions.
 
 ## 7. Common errors and safety checkpoint
 
 ### Common errors
 
-- editing the original attempt before evidence classification;
-- rewarding fluent explanations that are absent from the submitted work;
-- treating missing evidence as automatic proof of incompetence;
-- selecting too many remediation targets;
-- repairing surface wording while leaving the dependency error intact;
-- using confidence as a substitute for traceability; and
-- describing Week 12 progression as qualified approval.
+- editing or explaining away the original attempt before evidence classification;
+- treating fluent discussion as replacement evidence;
+- confusing missing evidence with proof that a capability is absent;
+- using one total score that averages away a blocker;
+- merging confidence, correctness and evidence quality;
+- selecting many symptom repairs instead of a small root-focused set;
+- allowing stale evidence to remain current after a material change;
+- failing to reopen dependencies after a second sequential change;
+- writing “competent,” “compliant,” “verified,” “safe” or “successfully corrected” without qualified authority and current authorised evidence; and
+- copying exact standards wording, tables or assessment claims into the conference record.
 
 ### Critical errors and stop conditions
 
-Stop the conference and record a blocker if the evidence depends on an unavailable authorised source, the learner proposes practical activity outside authority or supervision, a safety-critical claim cannot be bounded, or a reviewer is being asked to approve content outside their competence. Do not convert automated educational material into a technical sign-off.
+Record `stop-required` and halt the affected decision when:
+
+- installation, equipment, circuit, source or operating-state identity is unresolved for a safety-critical conclusion;
+- a learner proposes site access, opening, switching, isolation, proving de-energised, testing, measurement, instrument use, alteration, repair, energisation or commissioning outside authority and supervision;
+- an exact clause, value, sequence, acceptance criterion or official assessment claim lacks current authorised verification;
+- evidence is fabricated, silently transferred between states, or treated as current after a material change;
+- a dependent conclusion continues beyond the first unsupported transition; or
+- a reviewer is asked to provide technical approval outside competence or evidence.
+
+This module authorises no practical electrical activity. Exact duties, procedures, values, limits, test methods, instrument requirements, acceptance criteria, role permissions and official assessment expectations require current authorised sources and qualified review.
 
 ## 8. Retrieval and next links
 
-1. What distinguishes inconsistent capability from missing evidence?
-2. Why are dependency errors prioritised before presentation errors?
-3. What makes a remediation target measurable?
-4. Why must the original attempt remain unchanged during classification?
-5. What does a transfer check demonstrate?
-6. When should Week 12 readiness remain conditional?
+1. Why is spoken fluency not replacement evidence for a missing artefact?
+2. How do `unsupported` and `stop-required` differ?
+3. Why must correctness, confidence and evidence quality be recorded separately?
+4. What is the first unsupported transition in a claim chain?
+5. How does a root weakness differ from a symptom error?
+6. Why can a non-compensatory blocker not be averaged away?
+7. What information makes a remediation target testable?
+8. When must dependencies be reopened after a material change?
+9. What can a bounded Week 12 readiness record say without claiming competency?
 
 - **Plan:** [Twelve-Week Capstone Learning Plan](../MASTER_PLAN.md)
 - **Knowledge note:** [[12-Week Day 77 - Week 11 Competency Conference and Targeted Remediation]]

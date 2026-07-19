@@ -63,7 +63,7 @@ Every scheduled block requires YAML metadata, the exact eight-beat structure, a 
 
 After all 84 modules are drafted, each module receives exactly one substantive quality-improvement pass. Persistent `review-required` or `reference_check_required` flags do not justify repeating a completed pass. After all passes are recorded, perform one final program-wide completion audit.
 
-- **Completed quality-improvement passes:** 76 of 84.
+- **Completed quality-improvement passes:** 77 of 84.
 - [x] [Quality pass 1 — Day 1](modules/day-01-program-orientation-baseline-diagnostic-and-authorised-source-map.md)
 - [x] [Quality pass 2 — Day 2](modules/day-02-electrical-hazards-exposure-pathways-and-consequence-reasoning.md)
 - [x] [Quality pass 3 — Day 3](modules/day-03-roles-authority-supervision-and-practical-stop-conditions.md)
@@ -140,7 +140,7 @@ After all 84 modules are drafted, each module receives exactly one substantive q
 - [x] [Quality pass 74 — Day 74](modules/day-74-fault-diagnosis-correction-reasoning-and-re-verification-planning.md)
 - [x] [Quality pass 75 — Day 75](modules/day-75-rest-retrieval-and-weak-domain-triage.md)
 - [x] [Quality pass 76 — Day 76](modules/day-76-timed-integrated-scenario-with-worked-example-fading-removed.md)
-- [ ] [Quality pass 77 — Day 77](modules/day-77-week-11-competency-conference-and-targeted-remediation.md)
+- [x] [Quality pass 77 — Day 77](modules/day-77-week-11-competency-conference-and-targeted-remediation.md)
 - [ ] [Quality pass 78 — Day 78](modules/day-78-mock-preparation-time-allocation-and-stop-rule-rehearsal.md)
 - [ ] [Quality pass 79 — Day 79](modules/day-79-staged-written-and-rule-navigation-mock-assessment.md)
 - [ ] [Quality pass 80 — Day 80](modules/day-80-staged-design-and-calculation-mock-assessment.md)
