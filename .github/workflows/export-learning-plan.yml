@@ -1,4 +1,4 @@
-name: Export learning plan
+name: Reconstruct clean learning branch
 
 on:
   push:
@@ -7,24 +7,57 @@ on:
       - automation/12-week-learning-plan
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  export:
+  reconstruct:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Check out source branch
         uses: actions/checkout@v4
-
-      - name: Export learning-plan files
-        uses: actions/upload-artifact@v4
         with:
-          name: learning-plan-export-${{ github.ref_name }}
-          path: |
-            docs/learning-plans/6-week
-            docs/assets/learning/6-week
-            docs/knowledge-base/Six-Week Day *.md
-            docs/learning-plans/12-week
-            docs/assets/learning/12-week
-            docs/knowledge-base/12-Week Day *.md
-          if-no-files-found: error
+          fetch-depth: 0
+
+      - name: Rebuild plan on current main
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          case "${GITHUB_REF_NAME}" in
+            automation/6-week-learning-plan)
+              plan="6-week"
+              note_pattern="Six-Week Day *.md"
+              target="integration/6-week-learning-plan"
+              ;;
+            automation/12-week-learning-plan)
+              plan="12-week"
+              note_pattern="12-Week Day *.md"
+              target="integration/12-week-learning-plan"
+              ;;
+            *)
+              echo "Unsupported source branch: ${GITHUB_REF_NAME}" >&2
+              exit 1
+              ;;
+          esac
+
+          files=(
+            "docs/learning-plans/${plan}"
+            "docs/assets/learning/${plan}"
+          )
+
+          while IFS= read -r -d '' file; do
+            files+=("${file}")
+          done < <(find docs/knowledge-base -maxdepth 1 -type f -name "${note_pattern}" -print0)
+
+          tar -cf /tmp/learning-plan.tar "${files[@]}"
+
+          git fetch origin main
+          git checkout --detach origin/main
+          git switch -C "${target}"
+          tar -xf /tmp/learning-plan.tar
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "docs/learning-plans/${plan}" "docs/assets/learning/${plan}" docs/knowledge-base
+          git commit -m "docs: integrate ${plan} learning plan"
+          git push origin "HEAD:refs/heads/${target}"
