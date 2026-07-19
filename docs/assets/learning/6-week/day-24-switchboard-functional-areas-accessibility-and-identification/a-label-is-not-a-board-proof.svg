@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A label is not a complete switchboard proof</title>
+  <desc id="desc">A black-and-white stick figure compares a switchboard label with a circuit schedule, source map and access checklist. Question marks between them show that a label needs current correspondence evidence before it supports a board finding.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="190" r="28"/>
+    <path d="M105 218v108M105 250l-50 42M105 250l88 6M105 326l-38 64M105 326l43 64"/>
+    <rect x="235" y="88" width="210" height="250" rx="10"/>
+    <rect x="270" y="125" width="140" height="58" rx="8"/>
+    <path d="M270 220h140M270 258h140M270 296h140"/>
+    <rect x="540" y="70" width="330" height="90" rx="10"/>
+    <rect x="540" y="185" width="330" height="90" rx="10"/>
+    <rect x="540" y="300" width="330" height="90" rx="10"/>
+    <path d="M445 145h78M445 225h78M445 305h78"/>
+    <circle cx="485" cy="145" r="22"/>
+    <path d="M477 139q8-12 16 0q0 9-8 13v7"/>
+    <circle cx="485" cy="225" r="22"/>
+    <path d="M477 219q8-12 16 0q0 9-8 13v7"/>
+    <circle cx="485" cy="305" r="22"/>
+    <path d="M477 299q8-12 16 0q0 9-8 13v7"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="38" font-size="28" font-weight="700">MATCH THE LABEL TO CURRENT EVIDENCE</text>
+    <text x="340" y="161" font-size="20" font-weight="700">LABEL</text>
+    <text x="705" y="110" font-size="22" font-weight="700">CIRCUIT SCHEDULE</text>
+    <text x="705" y="225" font-size="22" font-weight="700">SOURCE MAP</text>
+    <text x="705" y="340" font-size="22" font-weight="700">ACCESS + BARRIER EVIDENCE</text>
+    <text x="480" y="430" font-size="22">A label supports a finding only when correspondence and boundaries are evidenced.</text>
+  </g>
+</svg>

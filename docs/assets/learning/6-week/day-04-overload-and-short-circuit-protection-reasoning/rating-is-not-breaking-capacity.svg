@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Rated current is not breaking capacity</title>
+  <desc id="desc">A stick-figure learner compares two separate folders labelled overload evidence and short-circuit evidence before reaching a protection conclusion.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="170" r="28"/>
+    <path d="M120 198V300 M120 225L195 245 M120 235L65 270 M120 300L80 375 M120 300L165 375"/>
+    <rect x="280" y="95" width="250" height="190" rx="10"/>
+    <path d="M280 145H530"/>
+    <rect x="610" y="95" width="250" height="190" rx="10"/>
+    <path d="M610 145H860"/>
+    <path d="M530 190H610"/>
+    <path d="M475 330H665"/>
+    <path d="M570 285V330"/>
+    <circle cx="570" cy="360" r="28"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="405" y="128" font-size="22" font-weight="700">OVERLOAD EVIDENCE</text>
+    <text x="405" y="185" font-size="19">design current</text>
+    <text x="405" y="218" font-size="19">device rating</text>
+    <text x="405" y="251" font-size="19">conductor capacity</text>
+    <text x="735" y="128" font-size="22" font-weight="700">SHORT-CIRCUIT EVIDENCE</text>
+    <text x="735" y="185" font-size="19">fault point + current</text>
+    <text x="735" y="218" font-size="19">breaking capacity</text>
+    <text x="735" y="251" font-size="19">time + withstand</text>
+    <text x="570" y="368" font-size="18" font-weight="700">CONCLUSION</text>
+    <text x="480" y="420" font-size="27" font-weight="700">One rating does not close two evidence chains.</text>
+  </g>
+</svg>

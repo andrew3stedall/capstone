@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">A motor conclusion needs state and purpose proof</title>
+  <desc id="desc">A black-and-white stick figure follows four linked evidence cards labelled mechanical duty, operating states, protection purposes and restart evidence toward a bounded conclusion. A broken link points to reopen the decision.</desc>
+  <rect width="960" height="500" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="225" r="26"/>
+    <path d="M70 251v95M70 275l-34 34M70 275l50 5M70 346l-28 60M70 346l38 60"/>
+    <rect x="135" y="115" width="165" height="165" rx="12"/>
+    <rect x="330" y="115" width="165" height="165" rx="12"/>
+    <rect x="525" y="115" width="165" height="165" rx="12"/>
+    <rect x="720" y="115" width="165" height="165" rx="12"/>
+    <path d="M300 197h30M495 197h30M690 197h30"/>
+    <path d="M315 185l15 12-15 12M510 185l15 12-15 12M705 185l15 12-15 12"/>
+    <rect x="730" y="340" width="190" height="80" rx="10"/>
+    <path d="M802 280v60M790 324l12 16 12-16"/>
+    <path d="M355 340h210" stroke-dasharray="16 12"/>
+    <path d="M445 326l-18 28M463 326l-18 28"/>
+    <path d="M355 370h210"/>
+    <path d="M355 358l-16 12 16 12"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="29" font-weight="700">A MOTOR CONCLUSION NEEDS LINKED PROOF</text>
+    <text x="217" y="165" font-size="19" font-weight="700">MECHANICAL</text>
+    <text x="217" y="195" font-size="19" font-weight="700">DUTY</text>
+    <text x="217" y="235" font-size="16">load and task known?</text>
+    <text x="412" y="165" font-size="19" font-weight="700">OPERATING</text>
+    <text x="412" y="195" font-size="19" font-weight="700">STATES</text>
+    <text x="412" y="235" font-size="16">start run fault restore?</text>
+    <text x="607" y="165" font-size="19" font-weight="700">PROTECTION</text>
+    <text x="607" y="195" font-size="19" font-weight="700">PURPOSES</text>
+    <text x="607" y="235" font-size="16">separate and evidenced?</text>
+    <text x="802" y="165" font-size="19" font-weight="700">RESTART</text>
+    <text x="802" y="195" font-size="19" font-weight="700">EVIDENCE</text>
+    <text x="802" y="235" font-size="16">sources and energy mapped?</text>
+    <text x="825" y="372" font-size="18" font-weight="700">BOUNDED</text>
+    <text x="825" y="399" font-size="18" font-weight="700">CONCLUSION</text>
+    <text x="460" y="360" font-size="18" font-weight="700">BROKEN LINK: REOPEN</text>
+    <text x="480" y="462" font-size="21">A changed motor, load, source, starter, device or control reopens dependent reasoning.</text>
+  </g>
+</svg>

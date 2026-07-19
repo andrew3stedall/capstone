@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Integration needs every link</title>
+  <desc id="desc">Black-and-white stick-figure cartoon showing a learner checking a chain of cards labelled role, path, protection, evidence and boundary. A dashed shortcut from drawing to conclusion is crossed out.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="170" r="34"/>
+    <path d="M110 204v105M110 235l-48 52M110 235l56 35M110 309l-40 78M110 309l48 78"/>
+    <path d="M61 287l-18-7M43 280l10-15M43 280l-13 6"/>
+    <rect x="190" y="120" width="120" height="72" rx="8"/>
+    <rect x="340" y="120" width="120" height="72" rx="8"/>
+    <rect x="490" y="120" width="120" height="72" rx="8"/>
+    <rect x="640" y="120" width="120" height="72" rx="8"/>
+    <rect x="790" y="120" width="120" height="72" rx="8"/>
+    <path d="M310 156h30M460 156h30M610 156h30M760 156h30"/>
+    <path d="M325 145l15 11-15 11M475 145l15 11-15 11M625 145l15 11-15 11M775 145l15 11-15 11"/>
+    <rect x="190" y="330" width="170" height="82" rx="8"/>
+    <rect x="750" y="330" width="170" height="82" rx="8"/>
+    <path d="M360 370c125 75 260 75 390 0" stroke-dasharray="12 12"/>
+    <path d="M535 392l42 42M577 392l-42 42"/>
+    <path d="M165 270c42-15 63-34 78-72"/>
+    <path d="M156 260l9 10 5-14"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="250" y="164" font-size="24">ROLE</text>
+    <text x="400" y="164" font-size="24">PATH</text>
+    <text x="550" y="164" font-size="21">PROTECTION</text>
+    <text x="700" y="164" font-size="22">EVIDENCE</text>
+    <text x="850" y="164" font-size="20">BOUNDARY</text>
+    <text x="275" y="365" font-size="22">DRAWING</text>
+    <text x="275" y="393" font-size="18">or label</text>
+    <text x="835" y="365" font-size="22">FINAL CLAIM</text>
+    <text x="835" y="393" font-size="18">bounded conclusion</text>
+    <text x="480" y="485" font-size="25">Check every material link. Do not jump from one clue to the conclusion.</text>
+  </g>
+</svg>

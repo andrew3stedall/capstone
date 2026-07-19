@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">An integrated finding needs linked evidence</title>
+  <desc id="desc">A black-and-white stick figure links five evidence cards labelled location, equipment, operating state, source path and authority to a bounded finding. A changed dependency points back to reopen the affected cards.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="260" r="25"/>
+    <path d="M70 285v95M70 310l-35 30M70 310l48 8M70 380l-30 62M70 380l42 62"/>
+    <rect x="140" y="105" width="130" height="145" rx="12"/>
+    <rect x="300" y="105" width="130" height="145" rx="12"/>
+    <rect x="460" y="105" width="130" height="145" rx="12"/>
+    <rect x="620" y="105" width="130" height="145" rx="12"/>
+    <rect x="780" y="105" width="130" height="145" rx="12"/>
+    <path d="M270 177h30M430 177h30M590 177h30M750 177h30"/>
+    <path d="M286 165l14 12-14 12M446 165l14 12-14 12M606 165l14 12-14 12M766 165l14 12-14 12"/>
+    <path d="M845 250v72"/>
+    <rect x="735" y="322" width="220" height="90" rx="12"/>
+    <path d="M735 367H575v88H390" stroke-dasharray="14 10"/>
+    <path d="M407 443l-17 12 17 12"/>
+    <polygon points="285,425 350,425 372,457 350,489 285,489 263,457"/>
+    <path d="M300 443l35 28M335 443l-35 28"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="29" font-weight="700">AN INTEGRATED FINDING NEEDS LINKED EVIDENCE</text>
+    <text x="205" y="150" font-size="18" font-weight="700">LOCATION</text>
+    <text x="205" y="182" font-size="15">geometry and</text><text x="205" y="205" font-size="15">classification basis</text>
+    <text x="365" y="150" font-size="18" font-weight="700">EQUIPMENT</text>
+    <text x="365" y="182" font-size="15">identity, duty and</text><text x="365" y="205" font-size="15">product evidence</text>
+    <text x="525" y="145" font-size="18" font-weight="700">OPERATING</text><text x="525" y="170" font-size="18" font-weight="700">STATE</text>
+    <text x="525" y="202" font-size="15">starting, running,</text><text x="525" y="225" font-size="15">fault, restoration</text>
+    <text x="685" y="150" font-size="18" font-weight="700">SOURCE PATH</text>
+    <text x="685" y="182" font-size="15">normal, alternate,</text><text x="685" y="205" font-size="15">auxiliary, stored</text>
+    <text x="845" y="150" font-size="18" font-weight="700">AUTHORITY</text>
+    <text x="845" y="182" font-size="15">current source,</text><text x="845" y="205" font-size="15">competence, scope</text>
+    <text x="845" y="358" font-size="19" font-weight="700">BOUNDED FINDING</text>
+    <text x="845" y="386" font-size="15">supported, provisional</text><text x="845" y="407" font-size="15">or unresolved</text>
+    <text x="318" y="464" font-size="17" font-weight="700">REOPEN</text>
+    <text x="480" y="514" font-size="18">A changed dependency reopens only the affected evidence rows and conclusions.</text>
+  </g>
+</svg>

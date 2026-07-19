@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Every link in a protective relationship needs evidence</title>
+  <desc id="desc">Black-and-white stick-figure cartoon. A learner checks a chain labelled part, connection, continuity, condition and suitability. One broken link prevents the final protection claim.</desc>
+  <rect width="960" height="440" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="120" r="28"/>
+    <path d="M105 148V260 M105 180L55 220 M105 180L175 205 M105 260L65 335 M105 260L150 335"/>
+    <circle cx="205" cy="205" r="24"/>
+    <path d="M222 222L255 255"/>
+    <rect x="300" y="90" width="115" height="70" rx="12"/>
+    <rect x="445" y="90" width="115" height="70" rx="12"/>
+    <rect x="590" y="90" width="115" height="70" rx="12"/>
+    <rect x="735" y="90" width="115" height="70" rx="12"/>
+    <path d="M415 125H445 M560 125H590 M705 125H735"/>
+    <path d="M850 125H900 V250 H760"/>
+    <rect x="610" y="235" width="290" height="90" rx="12"/>
+    <path d="M505 160V220 M480 220L505 245L530 220"/>
+    <path d="M575 350L605 380 M605 350L575 380"/>
+  </g>
+  <g fill="black" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="357" y="132" font-size="20" font-weight="700">PART</text>
+    <text x="502" y="132" font-size="20" font-weight="700">CONNECTION</text>
+    <text x="647" y="132" font-size="20" font-weight="700">CONTINUITY</text>
+    <text x="792" y="132" font-size="20" font-weight="700">CONDITION</text>
+    <text x="755" y="272" font-size="20" font-weight="700">SUITABILITY?</text>
+    <text x="755" y="302" font-size="17">requires authorised verification</text>
+    <text x="480" y="405" font-size="27" font-weight="700">One missing link reopens the conclusion.</text>
+  </g>
+</svg>

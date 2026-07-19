@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Sort the fault path before choosing protection</title>
+  <desc id="desc">A black-and-white stick figure sorts paper cards showing overload, short circuit, earth fault, residual current and open circuit into boxes labelled by current path and protection purpose. The caption says classify the mechanism before naming a device.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="120" r="32"/>
+    <path d="M115 152v128M115 188l-58 54M115 188l75 34M115 280l-45 90M115 280l50 90"/>
+    <rect x="205" y="90" width="155" height="74" rx="10"/>
+    <rect x="205" y="180" width="155" height="74" rx="10"/>
+    <rect x="205" y="270" width="155" height="74" rx="10"/>
+    <rect x="205" y="360" width="155" height="74" rx="10"/>
+    <path d="M190 222l42-18"/>
+    <rect x="430" y="115" width="210" height="125" rx="12"/>
+    <rect x="690" y="115" width="210" height="125" rx="12"/>
+    <rect x="560" y="310" width="210" height="125" rx="12"/>
+    <path d="M360 126c55 0 68 18 70 40M360 216c130-8 220-16 330-40M360 306c90 0 135 22 200 65M360 396c75 0 125-10 200-25" stroke-dasharray="11 12"/>
+    <path d="M465 175h140M725 175h140M595 370h140"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="55" font-size="32" font-weight="700">CLASSIFY THE MECHANISM BEFORE NAMING A DEVICE</text>
+    <text x="282" y="132" font-size="20">OVERLOAD</text>
+    <text x="282" y="222" font-size="20">SHORT CIRCUIT</text>
+    <text x="282" y="312" font-size="20">EARTH FAULT</text>
+    <text x="282" y="402" font-size="20">OPEN / IMBALANCE</text>
+    <text x="535" y="160" font-size="23">INTENDED PATH</text>
+    <text x="535" y="202" font-size="20">or discontinuity?</text>
+    <text x="795" y="160" font-size="23">ABNORMAL PATH</text>
+    <text x="795" y="202" font-size="20">what changed?</text>
+    <text x="665" y="355" font-size="23">PROTECTION PURPOSE</text>
+    <text x="665" y="397" font-size="20">what harm is limited?</text>
+    <text x="480" y="500" font-size="24">A symptom is evidence to analyse, not a complete diagnosis.</text>
+  </g>
+</svg>

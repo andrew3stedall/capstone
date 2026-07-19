@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">An isolator label is not boundary proof</title>
+  <desc id="desc">A black-and-white stick figure checks four linked evidence cards labelled task boundary, every source, device function and connection evidence before a bounded conclusion.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="205" r="26"/>
+    <path d="M70 231v98M70 255l-35 34M70 255l52 8M70 329l-28 58M70 329l36 58"/>
+    <rect x="130" y="115" width="165" height="155" rx="12"/>
+    <rect x="325" y="115" width="165" height="155" rx="12"/>
+    <rect x="520" y="115" width="165" height="155" rx="12"/>
+    <rect x="715" y="115" width="165" height="155" rx="12"/>
+    <path d="M295 193h30M490 193h30M685 193h30"/>
+    <path d="M310 181l15 12-15 12M505 181l15 12-15 12M700 181l15 12-15 12"/>
+    <rect x="755" y="325" width="170" height="72" rx="10"/>
+    <path d="M790 348h100M790 370h76M835 270v55M823 310l12 15 12-15"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="29" font-weight="700">AN ISOLATOR LABEL IS NOT BOUNDARY PROOF</text>
+    <text x="212" y="172" font-size="20" font-weight="700">TASK</text>
+    <text x="212" y="202" font-size="20" font-weight="700">BOUNDARY</text>
+    <text x="212" y="236" font-size="16">what work is inside?</text>
+    <text x="407" y="172" font-size="20" font-weight="700">EVERY</text>
+    <text x="407" y="202" font-size="20" font-weight="700">SOURCE</text>
+    <text x="407" y="236" font-size="16">all states mapped?</text>
+    <text x="602" y="172" font-size="20" font-weight="700">DEVICE</text>
+    <text x="602" y="202" font-size="20" font-weight="700">FUNCTION</text>
+    <text x="602" y="236" font-size="16">supported, not assumed?</text>
+    <text x="797" y="172" font-size="20" font-weight="700">CONNECTION</text>
+    <text x="797" y="202" font-size="20" font-weight="700">EVIDENCE</text>
+    <text x="797" y="236" font-size="16">current and applicable?</text>
+    <text x="840" y="355" font-size="17" font-weight="700">BOUNDED</text>
+    <text x="840" y="380" font-size="17" font-weight="700">CONCLUSION</text>
+    <text x="480" y="430" font-size="21">A missing or changed link reopens the whole decision.</text>
+  </g>
+</svg>

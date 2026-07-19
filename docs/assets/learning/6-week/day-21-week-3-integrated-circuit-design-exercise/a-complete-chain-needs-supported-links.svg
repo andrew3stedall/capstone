@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A complete design chain needs supported links</title>
+  <desc id="desc">A black-and-white stick figure checks a linked chain labelled brief, load, protection, route, voltage drop and terminals. One dashed unsupported link prevents the final bounded conclusion gate from opening.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="185" r="28"/>
+    <path d="M105 213v110M105 244l-52 42M105 244l65 22M105 323l-38 70M105 323l44 70"/>
+    <rect x="210" y="70" width="105" height="72" rx="10"/>
+    <rect x="350" y="70" width="105" height="72" rx="10"/>
+    <rect x="490" y="70" width="105" height="72" rx="10"/>
+    <rect x="280" y="190" width="105" height="72" rx="10"/>
+    <rect x="420" y="190" width="120" height="72" rx="10"/>
+    <rect x="575" y="190" width="110" height="72" rx="10"/>
+    <path d="M315 106h35M455 106h35M542 142l-105 48M385 226h35M540 226h35"/>
+    <path d="M685 226h70" stroke-dasharray="13 13"/>
+    <rect x="755" y="145" width="135" height="160" rx="12"/>
+    <path d="M755 225h135"/>
+    <path d="M720 190l35 35-35 35"/>
+    <path d="M165 266l38-125"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="35" font-size="30" font-weight="700">THE WHOLE CHAIN MUST BE SUPPORTED</text>
+    <text x="262" y="112" font-size="18">BRIEF</text>
+    <text x="402" y="112" font-size="18">LOAD</text>
+    <text x="542" y="112" font-size="17">PROTECTION</text>
+    <text x="332" y="232" font-size="18">ROUTE</text>
+    <text x="480" y="222" font-size="16">VOLTAGE</text>
+    <text x="480" y="244" font-size="16">DROP</text>
+    <text x="630" y="232" font-size="17">TERMINALS?</text>
+    <text x="823" y="205" font-size="18" font-weight="700">BOUNDED</text>
+    <text x="823" y="245" font-size="18" font-weight="700">CONCLUSION</text>
+    <text x="480" y="430" font-size="23">One unsupported material link keeps the final claim provisional.</text>
+  </g>
+</svg>

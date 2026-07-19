@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">A cause needs linked diagnostic evidence</title>
+  <desc id="desc">A black-and-white stick figure reviews five linked evidence cards labelled identity, provenance, discrimination, contradiction control and authority. One convincing clue is shown separately and does not reach the bounded conclusion gate.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="72" cy="292" r="24"/>
+    <path d="M72 316v88M72 344l-35 30M72 344l48 5M72 404l-28 58M72 404l38 58"/>
+    <rect x="145" y="82" width="136" height="145" rx="12"/>
+    <rect x="310" y="82" width="136" height="145" rx="12"/>
+    <rect x="475" y="82" width="136" height="145" rx="12"/>
+    <rect x="640" y="82" width="136" height="145" rx="12"/>
+    <rect x="805" y="82" width="136" height="145" rx="12"/>
+    <path d="M281 154h29M446 154h29M611 154h29M776 154h29"/>
+    <path d="M294 142l16 12-16 12M459 142l16 12-16 12M624 142l16 12-16 12M789 142l16 12-16 12"/>
+    <path d="M873 227v78"/>
+    <rect x="680" y="305" width="260" height="105" rx="12"/>
+    <rect x="300" y="318" width="230" height="108" rx="12"/>
+    <path d="M680 357H530" stroke-dasharray="14 10"/>
+    <path d="M548 345l-18 12 18 12"/>
+    <circle cx="415" cy="372" r="30"/>
+    <path d="M394 351l42 42M436 351l-42 42"/>
+    <path d="M810 334v48M786 358h48"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="43" font-size="29" font-weight="700">A CAUSE NEEDS LINKED DIAGNOSTIC EVIDENCE</text>
+    <text x="213" y="126" font-size="18" font-weight="700">IDENTITY</text>
+    <text x="213" y="164" font-size="15">right equipment,</text><text x="213" y="187" font-size="15">circuit and boundary</text>
+    <text x="378" y="126" font-size="18" font-weight="700">PROVENANCE</text>
+    <text x="378" y="164" font-size="15">source, time,</text><text x="378" y="187" font-size="15">state and conditions</text>
+    <text x="543" y="126" font-size="18" font-weight="700">DISCRIMINATION</text>
+    <text x="543" y="164" font-size="15">evidence separates</text><text x="543" y="187" font-size="15">competing hypotheses</text>
+    <text x="708" y="119" font-size="18" font-weight="700">CONTRADICTION</text><text x="708" y="143" font-size="18" font-weight="700">CONTROL</text>
+    <text x="708" y="178" font-size="15">confounders and</text><text x="708" y="201" font-size="15">disconfirming evidence</text>
+    <text x="873" y="126" font-size="18" font-weight="700">AUTHORITY</text>
+    <text x="873" y="164" font-size="15">qualified decision</text><text x="873" y="187" font-size="15">within current rules</text>
+    <text x="810" y="345" font-size="19" font-weight="700">BOUNDED CONCLUSION</text>
+    <text x="810" y="380" font-size="15">certainty cannot exceed</text><text x="810" y="402" font-size="15">the weakest evidence link</text>
+    <text x="415" y="345" font-size="18" font-weight="700">ONE CONVINCING CLUE</text>
+    <text x="415" y="414" font-size="15">supports a candidate; does not verify cause</text>
+    <text x="480" y="505" font-size="18">Recent change, repeated symptom or temporary recovery is not independent cause proof.</text>
+  </g>
+</svg>

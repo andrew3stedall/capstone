@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Confidence is not evidence</title>
+  <desc id="desc">A black-and-white stick figure confidently holds a card marked certain while a separate evidence folder remains empty. An arrow points to a second scene where the learner checks a source, completes a changed scenario, and then records bounded confidence.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="480" y1="55" x2="480" y2="465" stroke-dasharray="12 12"/>
+    <circle cx="205" cy="150" r="38"/>
+    <line x1="205" y1="188" x2="205" y2="315"/>
+    <line x1="205" y1="225" x2="125" y2="190"/>
+    <line x1="205" y1="225" x2="285" y2="190"/>
+    <line x1="205" y1="315" x2="150" y2="405"/>
+    <line x1="205" y1="315" x2="260" y2="405"/>
+    <rect x="75" y="95" width="120" height="65"/>
+    <rect x="285" y="285" width="130" height="95"/>
+    <path d="M305 285 v-25 h45 l18 25"/>
+    <line x1="305" y1="330" x2="395" y2="330"/>
+    <line x1="305" y1="350" x2="370" y2="350"/>
+    <circle cx="690" cy="150" r="38"/>
+    <line x1="690" y1="188" x2="690" y2="315"/>
+    <line x1="690" y1="225" x2="610" y2="270"/>
+    <line x1="690" y1="225" x2="770" y2="270"/>
+    <line x1="690" y1="315" x2="635" y2="405"/>
+    <line x1="690" y1="315" x2="745" y2="405"/>
+    <rect x="535" y="270" width="130" height="100"/>
+    <path d="M555 270 v-25 h45 l18 25"/>
+    <line x1="555" y1="315" x2="645" y2="315"/>
+    <line x1="555" y1="338" x2="625" y2="338"/>
+    <rect x="760" y="270" width="140" height="100"/>
+    <path d="M785 315 h90"/>
+    <path d="M785 338 h70"/>
+    <path d="M445 230 h70"/>
+    <path d="M495 210 l20 20 -20 20"/>
+  </g>
+  <g fill="black" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="135" y="135" font-size="22" font-weight="700">CERTAIN</text>
+    <text x="350" y="420" font-size="20">evidence folder</text>
+    <text x="350" y="447" font-size="20" font-weight="700">EMPTY</text>
+    <text x="240" y="485" font-size="24" font-weight="700">Confidence alone</text>
+    <text x="600" y="405" font-size="20">authorised source</text>
+    <text x="830" y="405" font-size="20">changed scenario</text>
+    <text x="720" y="485" font-size="24" font-weight="700">Bounded confidence</text>
+    <text x="480" y="520" font-size="22">Verify, transfer, then re-rate confidence.</text>
+  </g>
+</svg>

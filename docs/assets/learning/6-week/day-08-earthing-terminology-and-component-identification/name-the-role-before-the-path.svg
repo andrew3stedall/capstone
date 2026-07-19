@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Name the earthing component role before tracing the current path</title>
+  <desc id="desc">A black-and-white stick figure studies three labelled cards for neutral, protective earthing and bonding. A colour-only guess is crossed out. The caption says name, evidence and role come before path tracing.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="125" cy="150" r="34"/>
+    <path d="M125 184v112M125 220l-62 52M125 220l64 24M125 296l-46 86M125 296l52 86"/>
+    <rect x="300" y="90" width="170" height="100" rx="12"/>
+    <rect x="515" y="90" width="170" height="100" rx="12"/>
+    <rect x="730" y="90" width="170" height="100" rx="12"/>
+    <path d="M189 244c58-66 105-91 143-95"/>
+    <path d="M470 140h45M685 140h45"/>
+    <path d="M385 190v95M600 190v95M815 190v95"/>
+    <path d="M385 285h430"/>
+    <path d="M600 285v64M815 285v64"/>
+    <rect x="300" y="338" width="300" height="82" rx="12"/>
+    <rect x="650" y="338" width="250" height="82" rx="12"/>
+    <path d="M450 420v36M775 420v36"/>
+    <path d="M240 325l110-38" stroke-dasharray="14 14"/>
+    <path d="M250 300l58 58M308 300l-58 58"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="385" y="130" font-size="24" font-weight="700">NAME</text>
+    <text x="385" y="164" font-size="19">what is it?</text>
+    <text x="600" y="130" font-size="24" font-weight="700">EVIDENCE</text>
+    <text x="600" y="164" font-size="19">how known?</text>
+    <text x="815" y="130" font-size="24" font-weight="700">ROLE</text>
+    <text x="815" y="164" font-size="19">what does it do?</text>
+    <text x="450" y="374" font-size="23" font-weight="700">SUPPORTED IDENTITY</text>
+    <text x="450" y="404" font-size="18">ready for path reasoning</text>
+    <text x="775" y="374" font-size="23" font-weight="700">PROVISIONAL</text>
+    <text x="775" y="404" font-size="18">stop and verify</text>
+    <text x="275" y="284" font-size="20" font-weight="700">COLOUR GUESS</text>
+    <text x="480" y="495" font-size="29" font-weight="700">“Name, evidence and role come before the path.”</text>
+  </g>
+</svg>

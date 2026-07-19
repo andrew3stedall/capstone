@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A label is not applicability proof</title>
+  <desc id="desc">A black-and-white stick figure links four cards labelled boundary, observed features, current source and dependent decisions before reaching a bounded conclusion.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="72" cy="205" r="26"/>
+    <path d="M72 231v98M72 256l-36 34M72 256l52 8M72 329l-28 58M72 329l36 58"/>
+    <rect x="135" y="120" width="155" height="145" rx="12"/>
+    <rect x="320" y="120" width="155" height="145" rx="12"/>
+    <rect x="505" y="120" width="155" height="145" rx="12"/>
+    <rect x="690" y="120" width="155" height="145" rx="12"/>
+    <path d="M290 192h30M475 192h30M660 192h30"/>
+    <path d="M305 180l15 12-15 12M490 180l15 12-15 12M675 180l15 12-15 12"/>
+    <rect x="775" y="315" width="160" height="70" rx="10"/>
+    <path d="M805 340h100M805 362h72"/>
+    <path d="M845 265v50"/>
+    <path d="M833 300l12 15 12-15"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="48" font-size="30" font-weight="700">A LABEL IS NOT APPLICABILITY PROOF</text>
+    <text x="212" y="180" font-size="20" font-weight="700">BOUNDARY</text>
+    <text x="212" y="216" font-size="16">task and scope</text>
+    <text x="397" y="175" font-size="20" font-weight="700">OBSERVED</text>
+    <text x="397" y="204" font-size="20" font-weight="700">FEATURES</text>
+    <text x="397" y="234" font-size="16">facts, not labels</text>
+    <text x="582" y="180" font-size="20" font-weight="700">CURRENT</text>
+    <text x="582" y="209" font-size="20" font-weight="700">SOURCE</text>
+    <text x="582" y="238" font-size="16">applicability evidence</text>
+    <text x="767" y="175" font-size="20" font-weight="700">DEPENDENT</text>
+    <text x="767" y="204" font-size="20" font-weight="700">DECISIONS</text>
+    <text x="767" y="234" font-size="16">reopen and record</text>
+    <text x="855" y="345" font-size="17" font-weight="700">BOUNDED</text>
+    <text x="855" y="370" font-size="17" font-weight="700">CONCLUSION</text>
+    <text x="480" y="425" font-size="21">A missing or changed link reopens the conclusion.</text>
+  </g>
+</svg>

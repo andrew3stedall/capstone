@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Repair one reasoning link before continuing</title>
+  <desc id="desc">A black-and-white stick figure pauses at a broken chain of reasoning cards, repairs one broken link labelled misconception, then follows an arrow toward a readiness checkpoint.</desc>
+  <rect width="900" height="520" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="155" r="32"/>
+    <path d="M120 187v105M120 220l-55 52M120 220l64 12M120 292l-40 88M120 292l52 82"/>
+    <rect x="245" y="95" width="150" height="80" rx="8"/>
+    <rect x="505" y="95" width="150" height="80" rx="8"/>
+    <path d="M395 135h45M460 135h45"/>
+    <path d="M435 110l30 50M465 110l-30 50"/>
+    <path d="M184 232l88-42"/>
+    <path d="M275 190l20 28M275 190l-5 34"/>
+    <path d="M655 135h95"/>
+    <path d="M730 115l25 20-25 20"/>
+    <rect x="705" y="235" width="150" height="100" rx="8"/>
+    <path d="M780 335v52"/>
+    <path d="M740 387h80"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="320" y="130" font-size="24">RECALLED</text>
+    <text x="320" y="158" font-size="24">CLAIM</text>
+    <text x="580" y="130" font-size="24">VARIED</text>
+    <text x="580" y="158" font-size="24">RE-ATTEMPT</text>
+    <text x="450" y="205" font-size="22">repair the misconception</text>
+    <text x="780" y="275" font-size="24">READINESS</text>
+    <text x="780" y="307" font-size="24">CHECK</text>
+    <text x="450" y="470" font-size="24">Retrieve → diagnose → verify → transfer → stop</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">A result needs five evidence proofs before interpretation</title>
+  <desc id="desc">A black-and-white stick figure reviews five linked evidence cards labelled purpose, provenance, method conditions, dependencies and authorised criterion. A broken link sends the result to a quarantine tray instead of the interpretation gate.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="290" r="24"/>
+    <path d="M70 314v90M70 342l-34 30M70 342l50 4M70 404l-28 58M70 404l38 58"/>
+    <rect x="145" y="78" width="135" height="150" rx="12"/>
+    <rect x="310" y="78" width="135" height="150" rx="12"/>
+    <rect x="475" y="78" width="135" height="150" rx="12"/>
+    <rect x="640" y="78" width="135" height="150" rx="12"/>
+    <rect x="805" y="78" width="135" height="150" rx="12"/>
+    <path d="M280 153h30M445 153h30M610 153h30M775 153h30"/>
+    <path d="M294 141l16 12-16 12M459 141l16 12-16 12M624 141l16 12-16 12M789 141l16 12-16 12"/>
+    <path d="M872 228v75"/>
+    <rect x="680" y="303" width="260" height="102" rx="12"/>
+    <path d="M680 354H525" stroke-dasharray="14 10"/>
+    <path d="M542 342l-17 12 17 12"/>
+    <rect x="300" y="315" width="225" height="110" rx="12"/>
+    <path d="M360 370h105"/>
+    <path d="M385 345l55 50M440 345l-55 50"/>
+    <path d="M810 330v48M786 354h48"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="42" font-size="29" font-weight="700">A RESULT NEEDS FIVE EVIDENCE PROOFS</text>
+    <text x="212" y="128" font-size="18" font-weight="700">PURPOSE</text>
+    <text x="212" y="166" font-size="15">precise evidence</text><text x="212" y="189" font-size="15">question</text>
+    <text x="377" y="128" font-size="18" font-weight="700">PROVENANCE</text>
+    <text x="377" y="166" font-size="15">identity, place,</text><text x="377" y="189" font-size="15">time, person</text>
+    <text x="542" y="122" font-size="18" font-weight="700">METHOD &amp;</text><text x="542" y="147" font-size="18" font-weight="700">CONDITIONS</text>
+    <text x="542" y="181" font-size="15">units, state,</text><text x="542" y="204" font-size="15">instrument record</text>
+    <text x="707" y="128" font-size="18" font-weight="700">DEPENDENCIES</text>
+    <text x="707" y="166" font-size="15">earlier evidence</text><text x="707" y="189" font-size="15">still valid</text>
+    <text x="872" y="122" font-size="18" font-weight="700">AUTHORISED</text><text x="872" y="147" font-size="18" font-weight="700">CRITERION</text>
+    <text x="872" y="181" font-size="15">current source and</text><text x="872" y="204" font-size="15">qualified decision</text>
+    <text x="810" y="342" font-size="19" font-weight="700">INTERPRETATION GATE</text>
+    <text x="810" y="377" font-size="15">bounded claim only after</text><text x="810" y="399" font-size="15">every required link holds</text>
+    <text x="412" y="349" font-size="18" font-weight="700">QUARANTINE</text>
+    <text x="412" y="409" font-size="15">record exact gap; do not compare</text>
+    <text x="480" y="505" font-size="18">A plausible value is not interpretable evidence when a required link is missing or changed.</text>
+  </g>
+</svg>

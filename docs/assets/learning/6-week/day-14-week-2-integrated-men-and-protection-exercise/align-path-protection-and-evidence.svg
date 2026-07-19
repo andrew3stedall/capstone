@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Align path, protection and evidence</title>
+  <desc id="desc">A black-and-white stick figure places three cards labelled path, protection and evidence onto aligned rails leading to a conclusion gate. A crossed-out shortcut jumps directly from a drawing to the conclusion.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="115" r="31"/>
+    <path d="M115 146v125M115 182l-58 54M115 182l72 37M115 271l-44 92M115 271l50 92"/>
+    <rect x="205" y="100" width="150" height="70" rx="10"/>
+    <rect x="205" y="215" width="150" height="70" rx="10"/>
+    <rect x="205" y="330" width="150" height="70" rx="10"/>
+    <path d="M355 135h325M355 250h325M355 365h325"/>
+    <circle cx="500" cy="135" r="18"/>
+    <circle cx="500" cy="250" r="18"/>
+    <circle cx="500" cy="365" r="18"/>
+    <rect x="680" y="90" width="210" height="325" rx="18"/>
+    <path d="M720 160h130M720 250h130M720 340h130"/>
+    <path d="M850 145l24 15-24 15M850 235l24 15-24 15M850 325l24 15-24 15"/>
+    <path d="M330 65c180-50 360-20 520 20" stroke-dasharray="13 13"/>
+    <path d="M765 42l70 70M835 42l-70 70"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="45" font-size="30" font-weight="700">ALIGN EACH REQUIRED LINK BEFORE CONCLUDING</text>
+    <text x="280" y="143" font-size="23">PATH</text>
+    <text x="280" y="258" font-size="23">PROTECTION</text>
+    <text x="280" y="373" font-size="23">EVIDENCE</text>
+    <text x="785" y="205" font-size="25" font-weight="700">BOUNDED</text>
+    <text x="785" y="240" font-size="25" font-weight="700">CONCLUSION</text>
+    <text x="480" y="485" font-size="24">A drawing is a starting point, not proof of continuity or operation.</text>
+  </g>
+</svg>

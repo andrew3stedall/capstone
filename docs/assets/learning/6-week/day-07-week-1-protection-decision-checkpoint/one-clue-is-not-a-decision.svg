@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">One clue is not a protection decision</title>
+  <desc id="desc">A stick-figure learner holds one device label while four evidence gates for condition, current path, source and authority lead to a bounded decision.</desc>
+  <rect width="960" height="440" fill="#fff"/>
+  <g stroke="#000" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="95" cy="205" r="27"/>
+    <path d="M95 232V320 M95 260L155 225 M95 270L45 300 M95 320L60 385 M95 320L135 385"/>
+    <rect x="145" y="175" width="120" height="82" rx="7"/>
+    <path d="M165 198H245 M165 220H235 M165 242H225"/>
+    <path d="M270 216H335"/>
+    <rect x="335" y="55" width="140" height="70" rx="8"/>
+    <rect x="335" y="145" width="140" height="70" rx="8"/>
+    <rect x="335" y="235" width="140" height="70" rx="8"/>
+    <rect x="335" y="325" width="140" height="70" rx="8"/>
+    <path d="M475 90H560 M475 180H560 M475 270H560 M475 360H560"/>
+    <path d="M560 90V360"/>
+    <path d="M560 225H650"/>
+    <rect x="650" y="175" width="240" height="100" rx="10"/>
+  </g>
+  <g fill="#000" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <text x="205" y="165" font-size="18" font-weight="700">ONE LABEL</text>
+    <text x="405" y="98" font-size="20" font-weight="700">CONDITION</text>
+    <text x="405" y="188" font-size="20" font-weight="700">CURRENT PATH</text>
+    <text x="405" y="278" font-size="20" font-weight="700">SOURCE</text>
+    <text x="405" y="368" font-size="20" font-weight="700">AUTHORITY</text>
+    <text x="770" y="215" font-size="22" font-weight="700">BOUNDED</text>
+    <text x="770" y="245" font-size="22" font-weight="700">DECISION</text>
+    <text x="480" y="425" font-size="27" font-weight="700">One clue starts the questions. It does not finish them.</text>
+  </g>
+</svg>

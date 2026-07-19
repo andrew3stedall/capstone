@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Trace before action</title>
+  <desc id="desc">A black-and-white stick figure follows a paper hazard pathway from hazard to exposure and consequence, then stops at a verification gate marked missing evidence.</desc>
+  <rect width="960" height="540" fill="#ffffff"/>
+  <g fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="125" r="30"/>
+    <path d="M120 155 L120 285 M120 190 L70 235 M120 190 L180 215 M120 285 L80 370 M120 285 L165 370"/>
+    <rect x="215" y="100" width="540" height="300" rx="18"/>
+    <path d="M260 250 H360 M400 250 H500 M540 250 H640"/>
+    <path d="M345 230 L365 250 L345 270 M485 230 L505 250 L485 270 M625 230 L645 250 L625 270"/>
+    <circle cx="290" cy="250" r="42"/>
+    <path d="M280 225 L305 250 L280 275"/>
+    <rect x="390" y="210" width="90" height="80" rx="10"/>
+    <path d="M420 225 L450 275 M450 225 L420 275"/>
+    <path d="M560 220 L605 280 M605 220 L560 280"/>
+    <rect x="680" y="175" width="45" height="150"/>
+    <path d="M680 250 H725"/>
+    <path d="M755 250 H845" stroke-dasharray="14 14"/>
+    <path d="M795 195 L850 305 M850 195 L795 305"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#000000" text-anchor="middle">
+    <text x="120" y="430" font-size="26">Learner</text>
+    <text x="290" y="340" font-size="24">Hazard</text>
+    <text x="435" y="340" font-size="24">Exposure</text>
+    <text x="585" y="340" font-size="24">Consequence</text>
+    <text x="702" y="365" font-size="22">Verify</text>
+    <text x="820" y="355" font-size="22">Missing evidence:</text>
+    <text x="820" y="385" font-size="22">stop and escalate</text>
+    <text x="480" y="65" font-size="32" font-weight="700">Trace the pathway before taking action</text>
+    <text x="480" y="475" font-size="24">A control is not reliable until its function and effectiveness are evidenced.</text>
+  </g>
+</svg>

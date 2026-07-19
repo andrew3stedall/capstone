@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">A verification conclusion needs five evidence links</title>
+  <desc id="desc">A black-and-white stick figure reviews five linked cards labelled scope, observation, traceability, test boundary and authority before a bounded conclusion. A dashed arrow shows that a changed dependency reopens the affected evidence.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="75" cy="260" r="25"/>
+    <path d="M75 285v95M75 315l-38 28M75 315l50 5M75 380l-30 62M75 380l40 62"/>
+    <rect x="145" y="95" width="130" height="150" rx="12"/>
+    <rect x="305" y="95" width="130" height="150" rx="12"/>
+    <rect x="465" y="95" width="130" height="150" rx="12"/>
+    <rect x="625" y="95" width="130" height="150" rx="12"/>
+    <rect x="785" y="95" width="130" height="150" rx="12"/>
+    <path d="M275 170h30M435 170h30M595 170h30M755 170h30"/>
+    <path d="M290 158l15 12-15 12M450 158l15 12-15 12M610 158l15 12-15 12M770 158l15 12-15 12"/>
+    <path d="M850 245v78"/>
+    <rect x="700" y="323" width="245" height="95" rx="12"/>
+    <path d="M700 370H555v82H365" stroke-dasharray="14 10"/>
+    <path d="M382 440l-17 12 17 12"/>
+    <polygon points="265,420 335,420 357,452 335,484 265,484 243,452"/>
+    <path d="M278 438l42 28M320 438l-42 28"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="45" font-size="29" font-weight="700">A VERIFICATION CONCLUSION NEEDS FIVE EVIDENCE LINKS</text>
+    <text x="210" y="140" font-size="18" font-weight="700">SCOPE</text>
+    <text x="210" y="174" font-size="15">work, circuits,</text><text x="210" y="197" font-size="15">sources, exclusions</text>
+    <text x="370" y="140" font-size="18" font-weight="700">OBSERVATION</text>
+    <text x="370" y="174" font-size="15">visible fact or</text><text x="370" y="197" font-size="15">document statement</text>
+    <text x="530" y="140" font-size="18" font-weight="700">TRACEABILITY</text>
+    <text x="530" y="174" font-size="15">location, circuit,</text><text x="530" y="197" font-size="15">equipment, revision</text>
+    <text x="690" y="135" font-size="18" font-weight="700">TEST</text><text x="690" y="159" font-size="18" font-weight="700">BOUNDARY</text>
+    <text x="690" y="191" font-size="15">what inspection</text><text x="690" y="214" font-size="15">cannot establish</text>
+    <text x="850" y="140" font-size="18" font-weight="700">AUTHORITY</text>
+    <text x="850" y="174" font-size="15">current source,</text><text x="850" y="197" font-size="15">competence, role</text>
+    <text x="822" y="360" font-size="19" font-weight="700">BOUNDED CONCLUSION</text>
+    <text x="822" y="390" font-size="15">supported, provisional</text><text x="822" y="412" font-size="15">or unresolved</text>
+    <text x="300" y="459" font-size="17" font-weight="700">REOPEN</text>
+    <text x="480" y="515" font-size="18">A changed dependency reopens the affected evidence before the conclusion is reused.</text>
+  </g>
+</svg>

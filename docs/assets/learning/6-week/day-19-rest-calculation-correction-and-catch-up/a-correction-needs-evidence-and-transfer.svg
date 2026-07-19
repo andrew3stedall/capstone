@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">A correction needs evidence and transfer</title>
+  <desc id="desc">A black-and-white stick figure compares a neat recalculation card with an evidence card and a changed-scenario card. A gate opens only when all three are connected.</desc>
+  <rect width="960" height="460" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="115" cy="185" r="30"/>
+    <path d="M115 215v115M115 245l-58 42M115 245l74 18M115 330l-42 76M115 330l48 76"/>
+    <rect x="225" y="80" width="190" height="105" rx="10"/>
+    <rect x="225" y="220" width="190" height="105" rx="10"/>
+    <rect x="470" y="150" width="190" height="105" rx="10"/>
+    <path d="M415 132h55M415 272h55M660 202h75"/>
+    <path d="M448 112l22 20-22 20M448 252l22 20-22 20M710 182l25 20-25 20"/>
+    <rect x="735" y="115" width="150" height="175" rx="12"/>
+    <path d="M735 202h150M810 115v175"/>
+    <path d="M885 202h45" stroke-dasharray="12 12"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="480" y="45" font-size="32" font-weight="700">A CORRECTION NEEDS MORE THAN A NEAT ANSWER</text>
+    <text x="320" y="125" font-size="22" font-weight="700">RECALCULATION</text>
+    <text x="320" y="157" font-size="18">Is the step correct?</text>
+    <text x="320" y="265" font-size="22" font-weight="700">EVIDENCE</text>
+    <text x="320" y="297" font-size="18">Does the method apply?</text>
+    <text x="565" y="195" font-size="22" font-weight="700">TRANSFER</text>
+    <text x="565" y="227" font-size="18">Does it survive one change?</text>
+    <text x="810" y="330" font-size="22" font-weight="700">READY GATE</text>
+    <text x="480" y="438" font-size="25">Correct + supported + transferred = a dependable repair.</text>
+  </g>
+</svg>

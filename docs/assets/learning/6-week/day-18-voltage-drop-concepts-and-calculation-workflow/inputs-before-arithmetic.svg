@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+<title id="title">Inputs before arithmetic</title>
+<desc id="desc">A stick-figure learner checks cards labelled current, length, conductor data and authorised source before using a calculation wheel.</desc>
+<rect width="900" height="420" fill="white"/>
+<g fill="none" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="125" cy="105" r="28"/><path d="M125 133v100m0-65l-58 42m58-42l64 18m-64 47l-42 70m42-70l45 70"/>
+<rect x="230" y="70" width="130" height="80"/><rect x="385" y="70" width="130" height="80"/><rect x="540" y="70" width="130" height="80"/><rect x="695" y="70" width="145" height="80"/>
+<circle cx="535" cy="275" r="78"/><path d="M535 197v156M457 275h156M480 220l110 110M590 220L480 330"/>
+<path d="M295 150v45M450 150v45M605 150v45M765 150v45M295 195h470M535 195v2"/>
+</g>
+<g font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="black">
+<text x="295" y="118">CURRENT</text><text x="450" y="118">LENGTH</text><text x="605" y="105">CONDUCTOR</text><text x="605" y="132">DATA</text><text x="767" y="105">AUTHORISED</text><text x="767" y="132">SOURCE</text><text x="535" y="390">CALCULATE ONLY AFTER INPUTS ARE PROVEN</text>
+</g>
+</svg>

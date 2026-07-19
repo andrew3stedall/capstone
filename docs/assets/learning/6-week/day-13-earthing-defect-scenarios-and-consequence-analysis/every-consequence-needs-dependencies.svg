@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Every consequence needs dependencies</title>
+  <desc id="desc">A black-and-white instructional stick-figure cartoon. A learner checks four stepping stones labelled classification, fault, exposure and protection before reaching a box labelled bounded consequence. A dashed shortcut falls into a gap labelled unsupported claim.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="80" cy="95" r="26"/>
+    <path d="M80 121 L80 205 M80 150 L42 184 M80 150 L122 177 M80 205 L52 265 M80 205 L112 264"/>
+    <rect x="160" y="85" width="145" height="75" rx="10"/>
+    <rect x="335" y="85" width="125" height="75" rx="10"/>
+    <rect x="490" y="85" width="135" height="75" rx="10"/>
+    <rect x="655" y="85" width="145" height="75" rx="10"/>
+    <rect x="815" y="220" width="125" height="90" rx="10"/>
+    <path d="M305 122 H335 M460 122 H490 M625 122 H655"/>
+    <path d="M800 122 C845 135 865 170 875 220"/>
+    <path d="M322 108 L335 122 L322 136 M477 108 L490 122 L477 136 M642 108 L655 122 L642 136"/>
+    <path d="M145 255 C330 350 620 350 790 250" stroke-dasharray="12 10"/>
+    <path d="M430 300 L470 260 L510 300 L470 340 Z"/>
+    <path d="M454 282 L486 318 M486 282 L454 318"/>
+    <path d="M122 177 L160 142"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="232" y="117" font-size="18" font-weight="700">CLASSIFICATION</text>
+    <text x="232" y="140" font-size="16">supported?</text>
+    <text x="397" y="117" font-size="20" font-weight="700">FAULT</text>
+    <text x="397" y="140" font-size="16">defined?</text>
+    <text x="557" y="117" font-size="20" font-weight="700">EXPOSURE</text>
+    <text x="557" y="140" font-size="16">possible?</text>
+    <text x="727" y="117" font-size="18" font-weight="700">PROTECTION</text>
+    <text x="727" y="140" font-size="16">evidenced?</text>
+    <text x="877" y="250" font-size="17" font-weight="700">BOUNDED</text>
+    <text x="877" y="275" font-size="17" font-weight="700">CONSEQUENCE</text>
+    <text x="470" y="370" font-size="19" font-weight="700">UNSUPPORTED CLAIM</text>
+    <text x="480" y="402" font-size="18">Check every dependency before strengthening the conclusion.</text>
+  </g>
+</svg>

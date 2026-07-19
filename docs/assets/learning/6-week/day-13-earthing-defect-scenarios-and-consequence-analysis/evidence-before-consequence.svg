@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence before consequence</title>
+  <desc id="desc">A black-and-white instructional cartoon. A learner stands beside three labelled boxes connected by arrows: supplied evidence, possible defect, and conditional consequence. A stop sign blocks a dashed shortcut from evidence directly to certainty.</desc>
+  <rect width="960" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="95" cy="105" r="28"/>
+    <path d="M95 133 L95 225 M95 160 L52 194 M95 160 L138 188 M95 225 L60 286 M95 225 L132 286"/>
+    <rect x="185" y="70" width="190" height="110" rx="10"/>
+    <rect x="420" y="70" width="190" height="110" rx="10"/>
+    <rect x="655" y="70" width="220" height="110" rx="10"/>
+    <path d="M375 125 H420 M402 111 L420 125 L402 139"/>
+    <path d="M610 125 H655 M637 111 L655 125 L637 139"/>
+    <path stroke-dasharray="12 10" d="M280 215 C430 330 660 330 765 215"/>
+    <path d="M505 280 L535 250 L565 280 L535 310 Z"/>
+    <path d="M522 267 L548 293 M548 267 L522 293"/>
+    <path d="M138 188 L188 151"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="280" y="112" font-size="23" font-weight="700">SUPPLIED</text>
+    <text x="280" y="142" font-size="23" font-weight="700">EVIDENCE</text>
+    <text x="515" y="112" font-size="23" font-weight="700">POSSIBLE</text>
+    <text x="515" y="142" font-size="23" font-weight="700">DEFECT</text>
+    <text x="765" y="105" font-size="22" font-weight="700">CONDITIONAL</text>
+    <text x="765" y="135" font-size="22" font-weight="700">CONSEQUENCE</text>
+    <text x="535" y="345" font-size="21" font-weight="700">NO SHORTCUT TO CERTAINTY</text>
+    <text x="480" y="392" font-size="20">State what is known, what may follow, and what still needs verification.</text>
+  </g>
+</svg>

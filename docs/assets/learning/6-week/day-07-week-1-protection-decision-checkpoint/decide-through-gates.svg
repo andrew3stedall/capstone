@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Decide through classification, evidence and safety gates</title>
+  <desc id="desc">A black-and-white stick figure carries a scenario card through three labelled gates: classify, evidence and safety. A shortcut arrow jumping to the final decision is crossed out. The caption says a bounded decision must pass every gate.</desc>
+  <rect width="960" height="540" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="105" cy="180" r="32"/>
+    <path d="M105 212v95M105 238l-48 45M105 238l58 22M105 307l-40 78M105 307l46 78"/>
+    <rect x="152" y="220" width="92" height="62" rx="8"/>
+    <path d="M178 241h42M178 258h42"/>
+    <rect x="295" y="115" width="145" height="235" rx="10"/>
+    <path d="M322 350V115M413 350V115"/>
+    <rect x="475" y="115" width="145" height="235" rx="10"/>
+    <path d="M502 350V115M593 350V115"/>
+    <rect x="655" y="115" width="145" height="235" rx="10"/>
+    <path d="M682 350V115M773 350V115"/>
+    <path d="M244 251h45M440 251h29M620 251h29M800 251h72"/>
+    <path d="M277 238l18 13-18 13M457 238l18 13-18 13M637 238l18 13-18 13M860 238l18 13-18 13"/>
+    <path d="M215 405C400 455 615 455 836 405" stroke-dasharray="14 14"/>
+    <path d="M475 372l72 72M547 372l-72 72"/>
+    <rect x="818" y="185" width="112" height="132" rx="12"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="black" text-anchor="middle">
+    <text x="367" y="90" font-size="24" font-weight="700">CLASSIFY</text>
+    <text x="547" y="90" font-size="24" font-weight="700">EVIDENCE</text>
+    <text x="727" y="90" font-size="24" font-weight="700">SAFETY</text>
+    <text x="874" y="222" font-size="22" font-weight="700">BOUNDED</text>
+    <text x="874" y="251" font-size="22" font-weight="700">DECISION</text>
+    <text x="505" y="368" font-size="20" font-weight="700">SHORTCUT</text>
+    <text x="480" y="482" font-size="30" font-weight="700">A decision must pass every gate.</text>
+    <text x="480" y="515" font-size="20">Classify the condition, prove the evidence, then respect the safety boundary.</text>
+  </g>
+</svg>
