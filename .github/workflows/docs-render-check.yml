@@ -3,7 +3,11 @@ name: Docs render check
 on:
   push:
     branches:
+      - main
       - automation/4-week-learning-plan
+      - automation/6-week-learning-plan
+      - automation/9-week-learning-plan
+      - automation/12-week-learning-plan
     paths:
       - 'docs/**'
       - 'scripts/fix-learning-plan-doc-links.mjs'
@@ -23,7 +27,7 @@ on:
       - '.github/workflows/docs-render-check.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: docs-render-check-${{ github.workflow }}-${{ github.ref }}
@@ -45,27 +49,11 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Synchronise four-week learning documents
-        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
+      - name: Prepare learning documents for audit
         shell: bash
         run: |
-          node scripts/sync-learning-plan-navigation.mjs
           node scripts/fix-learning-plan-doc-links.mjs
           node scripts/normalize-mermaid.mjs --write
-
-      - name: Commit learning-document updates
-        if: github.event_name == 'push' && github.ref == 'refs/heads/automation/4-week-learning-plan'
-        shell: bash
-        run: |
-          if git diff --quiet -- docs; then
-            echo 'Learning documents are already current.'
-          else
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add docs
-            git commit -m 'docs: sync four-week navigation and rendering'
-            git push origin HEAD:automation/4-week-learning-plan
-          fi
 
       - name: Check normalized Mermaid source
         shell: bash
