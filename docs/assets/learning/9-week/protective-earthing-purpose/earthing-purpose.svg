@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430" role="img" aria-labelledby="title desc">
+  <title id="title">Protective earthing purpose model</title>
+  <desc id="desc">A source supplies a load inside a metal enclosure. A separate protective conductor connects the enclosure to an earthing arrangement. Dashed arrows show a possible fault path, distinct from the normal load path.</desc>
+  <rect width="860" height="430" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4">
+    <rect x="45" y="145" width="125" height="105" rx="10"/>
+    <rect x="325" y="90" width="250" height="210" rx="16"/>
+    <circle cx="450" cy="180" r="48"/>
+    <path d="M170 175 H325 M575 175 H690 V145"/>
+    <path d="M170 220 H280 V260 H325"/>
+    <path d="M450 228 V300" stroke-dasharray="10 8"/>
+    <path d="M450 300 V350 H690" stroke-dasharray="10 8"/>
+    <path d="M690 145 V350"/>
+    <path d="M650 350 H730 M662 370 H718 M675 390 H705"/>
+    <path d="M410 115 L450 150 L490 115" stroke-dasharray="10 8"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="black" text-anchor="middle">
+    <text x="108" y="190" font-size="25">Source</text><text x="108" y="222" font-size="18">simplified</text>
+    <text x="450" y="185" font-size="24">Load</text>
+    <text x="450" y="330" font-size="18">protective conductor</text>
+    <text x="450" y="70" font-size="22">Metal enclosure</text>
+    <text x="704" y="120" font-size="18">normal return</text>
+    <text x="760" y="360" font-size="18">earthing arrangement</text>
+    <text x="245" y="155" font-size="18">normal supply path</text>
+    <text x="505" y="120" font-size="17">possible fault</text>
+  </g>
+</svg>

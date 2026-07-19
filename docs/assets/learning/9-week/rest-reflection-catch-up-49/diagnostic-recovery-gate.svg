@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Diagnostic recovery gate</title>
+  <desc id="desc">A black-and-white flow showing closed-book retrieval, one blocking gap, one correction artifact, a changed-case re-test, a carry-forward note and stop.</desc>
+  <rect width="960" height="360" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="3">
+    <rect x="35" y="125" width="150" height="80" rx="12"/>
+    <rect x="225" y="125" width="150" height="80" rx="12"/>
+    <rect x="415" y="125" width="150" height="80" rx="12"/>
+    <rect x="605" y="125" width="150" height="80" rx="12"/>
+    <rect x="795" y="125" width="130" height="80" rx="12"/>
+    <path d="M185 165h40M375 165h40M565 165h40M755 165h40"/>
+    <path d="M215 155l10 10-10 10M405 155l10 10-10 10M595 155l10 10-10 10M785 155l10 10-10 10"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="black">
+    <text x="110" y="155">Closed-book</text><text x="110" y="180">retrieval</text>
+    <text x="300" y="155">One blocking</text><text x="300" y="180">gap</text>
+    <text x="490" y="155">One correction</text><text x="490" y="180">artifact</text>
+    <text x="680" y="155">Changed-case</text><text x="680" y="180">re-test</text>
+    <text x="860" y="155">Record</text><text x="860" y="180">and stop</text>
+    <text x="480" y="55" font-size="26" font-weight="bold">25-minute recovery boundary</text>
+  </g>
+  <path d="M35 245h890" stroke="black" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="480" y="285" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">Do not expand into field procedures or unverified technical criteria</text>
+</svg>

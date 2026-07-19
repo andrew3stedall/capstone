@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Structured visual inspection lenses</title>
+  <desc id="desc">A central evidence record is surrounded by six labelled inspection lenses: condition, identification, protection, accessibility, environment and documentation. A shaded unknown area is marked as a limitation.</desc>
+  <rect width="900" height="520" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4">
+    <rect x="330" y="180" width="240" height="150" rx="18"/>
+    <circle cx="155" cy="115" r="72"/><circle cx="450" cy="90" r="72"/><circle cx="745" cy="115" r="72"/>
+    <circle cx="155" cy="405" r="72"/><circle cx="450" cy="430" r="72"/><circle cx="745" cy="405" r="72"/>
+    <path d="M220 145 L330 205 M450 162 L450 180 M680 145 L570 205 M220 375 L330 305 M450 358 L450 330 M680 375 L570 305"/>
+    <rect x="625" y="215" width="180" height="90" stroke-dasharray="10 8"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="black">
+    <text x="450" y="225">Evidence record</text><text x="450" y="255">scope • observation</text><text x="450" y="285">limits • follow-up</text>
+    <text x="155" y="120">Condition</text><text x="450" y="95">Identification</text><text x="745" y="120">Protection</text>
+    <text x="155" y="410">Accessibility</text><text x="450" y="435">Environment</text><text x="745" y="410">Documentation</text>
+    <text x="715" y="250">Unknown area</text><text x="715" y="278">record limitation</text>
+  </g>
+</svg>

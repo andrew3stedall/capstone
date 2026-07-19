@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Retrieval and application evidence grid</title>
+  <desc id="desc">Four connected boxes labelled Recall, Evidence, Application and Escalation show a safe reasoning sequence.</desc>
+  <rect width="800" height="420" fill="white"/>
+  <g fill="none" stroke="black" stroke-width="4">
+    <rect x="55" y="65" width="280" height="120" rx="12"/>
+    <rect x="465" y="65" width="280" height="120" rx="12"/>
+    <rect x="55" y="245" width="280" height="120" rx="12"/>
+    <rect x="465" y="245" width="280" height="120" rx="12"/>
+    <path d="M335 125 H465"/>
+    <path d="M605 185 V245"/>
+    <path d="M465 305 H335"/>
+    <path d="M195 245 V185"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="26" text-anchor="middle" fill="black">
+    <text x="195" y="120">Recall</text><text x="195" y="153" font-size="18">What can I produce unaided?</text>
+    <text x="605" y="120">Evidence</text><text x="605" y="153" font-size="18">What is actually supplied?</text>
+    <text x="605" y="300">Application</text><text x="605" y="333" font-size="18">What follows from the evidence?</text>
+    <text x="195" y="300">Escalation</text><text x="195" y="333" font-size="18">What remains unsafe to claim?</text>
+  </g>
+</svg>
