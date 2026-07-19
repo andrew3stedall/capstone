@@ -3,7 +3,7 @@ title: Twelve-Week Capstone Program Completion Audit
 status: content-development-complete
 jurisdiction: AU-NZ
 source_status: original-program-audit
-reviewed_on: 2026-07-19
+reviewed_on: 2026-07-20
 technical_review_status: review-required
 ---
 
@@ -17,7 +17,7 @@ This conclusion is limited to content-development completeness and internal edit
 
 ## Scope reviewed
 
-The audit reviewed the canonical sequence and tracker, the learning-design and copyright policies, the complete twelve-week module and knowledge-note inventory exposed by draft PR #7, the branch relationship, and the program-wide safety and source-verification boundaries.
+The audit reviewed the canonical sequence and tracker, the learning-design and copyright policies, the complete twelve-week module and knowledge-note inventory exposed by integration PR #10, the clean branch relationship to current `main`, and the program-wide safety and source-verification boundaries.
 
 The review criteria were:
 
@@ -38,8 +38,8 @@ The review criteria were:
 
 - Days 1–84 are linked in `MASTER_PLAN.md` in twelve ordered weeks.
 - Quality-improvement passes 1–84 are individually checked and linked.
-- Draft PR #7 contains 84 module files under `docs/learning-plans/12-week/modules/`.
-- Draft PR #7 contains 84 corresponding `12-Week Day` knowledge-base notes.
+- Integration PR #10 contains 84 module files under `docs/learning-plans/12-week/modules/`.
+- Integration PR #10 contains 84 corresponding `12-Week Day` knowledge-base notes.
 - Every scheduled block, including recovery, retrieval and catch-up blocks, has a dedicated module and note.
 
 ### Learning-design coherence
@@ -75,11 +75,11 @@ These are review and release gates, not additional automated content-development
 
 ## Branch and pull-request relationship
 
-- Working branch: `automation/12-week-learning-plan`.
-- Active draft PR: #7.
-- PR base: `automation/4-week-learning-plan`.
-- Relationship: stacked while four-week draft PR #5 remains open and unmerged.
-- Retargeting should be considered after the four-week work is merged.
+- Integration branch: `integration/12-week-learning-plan`.
+- Integration PR: #10.
+- PR base: current `main`, including the merged four-, six- and nine-week plans.
+- Relationship: one clean plan-specific commit reconstructed from the completed twelve-week source branch, followed by this integration-audit update.
+- Original stacked PR #7 is closed as superseded to avoid importing obsolete four-week ancestry.
 
 ## Final status
 
